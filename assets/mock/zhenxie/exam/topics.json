@@ -1,0 +1,1802 @@
+[
+ {
+  "nid": "human_and_personal_life",
+  "parentNid": null,
+  "names": [
+   {
+    "lang": "zh",
+    "text": "人类与个人生活"
+   },
+   {
+    "lang": "en",
+    "text": "Human and Personal Life"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "覆盖人本身、身体、情感、关系、外貌与成长等主题。"
+   },
+   {
+    "lang": "en",
+    "text": "Covers the person, body, emotion, relationships, appearance, and growth."
+   }
+  ]
+ },
+ {
+  "nid": "body_and_health",
+  "parentNid": "human_and_personal_life",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "身体与健康"
+   },
+   {
+    "lang": "en",
+    "text": "Body and Health"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达身体部位、健康状况、疾病、医疗与康复。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for body parts, health conditions, illness, medicine, and recovery."
+   }
+  ]
+ },
+ {
+  "nid": "human_appearance",
+  "parentNid": "human_and_personal_life",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "人物外貌"
+   },
+   {
+    "lang": "en",
+    "text": "Human Appearance"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达人的外貌、穿着外观和显著外在特征。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for human appearance, looks, and notable visible features."
+   }
+  ]
+ },
+ {
+  "nid": "feelings_and_emotions",
+  "parentNid": "human_and_personal_life",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "情绪与感受"
+   },
+   {
+    "lang": "en",
+    "text": "Feelings and Emotions"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达情绪、心理感受、心境和即时反应。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for emotions, feelings, moods, and immediate reactions."
+   }
+  ]
+ },
+ {
+  "nid": "personality_and_character",
+  "parentNid": "human_and_personal_life",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "性格与特质"
+   },
+   {
+    "lang": "en",
+    "text": "Personality and Character"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达性格、个体特征、能力倾向和行为风格。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for personality, traits, ability tendencies, and behavior style."
+   }
+  ]
+ },
+ {
+  "nid": "family_and_relationships",
+  "parentNid": "human_and_personal_life",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "家庭与人际关系"
+   },
+   {
+    "lang": "en",
+    "text": "Family and Relationships"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达家庭成员、亲属关系、友情、爱情与社交关系。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for family members, kinship, friendship, romance, and social relationships."
+   }
+  ]
+ },
+ {
+  "nid": "age_and_life_stages",
+  "parentNid": "human_and_personal_life",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "年龄与人生阶段"
+   },
+   {
+    "lang": "en",
+    "text": "Age and Life Stages"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达年龄、人生阶段、代际差异和成长变化。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for age, life stages, generation differences, and development."
+   }
+  ]
+ },
+ {
+  "nid": "personal_care_and_hygiene",
+  "parentNid": "human_and_personal_life",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "个人护理与卫生"
+   },
+   {
+    "lang": "en",
+    "text": "Personal Care and Hygiene"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达洗漱、护理、卫生习惯和日常自我照顾。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for washing, hygiene, care routines, and self-care."
+   }
+  ]
+ },
+ {
+  "nid": "personal_information",
+  "parentNid": "human_and_personal_life",
+  "names": [
+   {
+    "lang": "en",
+    "text": "Personal Information"
+   },
+   {
+    "lang": "zh",
+    "text": "个人信息与自我介绍"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "en",
+    "text": "Basic identity details and self-introduction: name, age, nationality, address, phone number, birthday, hometown."
+   },
+   {
+    "lang": "zh",
+    "text": "用于表达姓名、年龄、国籍、住址、电话、生日、家乡等基本身份信息与自我介绍。"
+   }
+  ]
+ },
+ {
+  "nid": "growth_and_values",
+  "parentNid": "human_and_personal_life",
+  "names": [
+   {
+    "lang": "en",
+    "text": "Personal Growth and Values"
+   },
+   {
+    "lang": "zh",
+    "text": "成长与品格"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "en",
+    "text": "Growing up, goals and dreams, challenges, self-discipline and perseverance, success and failure, role models and inspiration."
+   },
+   {
+    "lang": "zh",
+    "text": "用于表达成长经历、目标与梦想、困难挑战、自律坚持、成功失败、榜样启发等个人成长与品格内容。"
+   }
+  ]
+ },
+ {
+  "nid": "home_and_daily_life",
+  "parentNid": null,
+  "names": [
+   {
+    "lang": "zh",
+    "text": "居家与日常生活"
+   },
+   {
+    "lang": "en",
+    "text": "Home and Daily Life"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "覆盖家庭空间、日常活动、饮食、衣物、消费与休闲生活。"
+   },
+   {
+    "lang": "en",
+    "text": "Covers household space, daily activity, food, clothing, consumption, and leisure."
+   }
+  ]
+ },
+ {
+  "nid": "home_and_household",
+  "parentNid": "home_and_daily_life",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "家庭空间与家居"
+   },
+   {
+    "lang": "en",
+    "text": "Home and Household"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达房屋、房间、家具、家电和家居用品。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for homes, rooms, furniture, appliances, and household items."
+   }
+  ]
+ },
+ {
+  "nid": "food_and_drinks",
+  "parentNid": "home_and_daily_life",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "食物与饮品"
+   },
+   {
+    "lang": "en",
+    "text": "Food and Drinks"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "en",
+    "text": "Names of food and drinks, taste, ingredients and eating preferences."
+   },
+   {
+    "lang": "zh",
+    "text": "用于表达食物、饮品的名称、口味、食材和饮食偏好；做饭与用餐过程归 cooking_and_meals。"
+   }
+  ]
+ },
+ {
+  "nid": "cooking_and_meals",
+  "parentNid": "home_and_daily_life",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "烹饪与用餐"
+   },
+   {
+    "lang": "en",
+    "text": "Cooking and Meals"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "en",
+    "text": "Cooking and preparing food, recipes, having meals and table manners."
+   },
+   {
+    "lang": "zh",
+    "text": "用于表达做饭备餐、食谱步骤、用餐过程和餐桌礼仪。"
+   }
+  ]
+ },
+ {
+  "nid": "clothing_and_personal_items",
+  "parentNid": "home_and_daily_life",
+  "names": [
+   {
+    "lang": "en",
+    "text": "Clothing and Accessories"
+   },
+   {
+    "lang": "zh",
+    "text": "服饰与配饰"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "en",
+    "text": "Clothes, shoes, hats and accessories and how people dress; toys, stationery and other everyday things belong to everyday_objects_and_toys."
+   },
+   {
+    "lang": "zh",
+    "text": "用于表达衣物、鞋帽、穿戴和配饰；玩具、文具等日常物件归 everyday_objects_and_toys。"
+   }
+  ]
+ },
+ {
+  "nid": "daily_activities_and_routines",
+  "parentNid": "home_and_daily_life",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "日常活动与作息"
+   },
+   {
+    "lang": "en",
+    "text": "Daily Activities and Routines"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达重复性的日常行为、生活节奏和作息安排。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for repeated daily actions, life rhythm, and routine schedules."
+   }
+  ]
+ },
+ {
+  "nid": "hobbies_and_leisure",
+  "parentNid": "home_and_daily_life",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "爱好与休闲"
+   },
+   {
+    "lang": "en",
+    "text": "Hobbies and Leisure"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "en",
+    "text": "Interests, pastimes, leisure activities and entertainment; toys as objects belong to everyday_objects_and_toys."
+   },
+   {
+    "lang": "zh",
+    "text": "用于表达兴趣、消遣、休闲活动和娱乐方式；玩具作为物件归 everyday_objects_and_toys。"
+   }
+  ]
+ },
+ {
+  "nid": "sports_and_fitness",
+  "parentNid": "home_and_daily_life",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "运动与健身"
+   },
+   {
+    "lang": "en",
+    "text": "Sports and Fitness"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达体育项目、锻炼行为、训练和比赛活动。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for sports, exercise, training, and competition."
+   }
+  ]
+ },
+ {
+  "nid": "shopping_and_consumption",
+  "parentNid": "home_and_daily_life",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "购物与消费"
+   },
+   {
+    "lang": "en",
+    "text": "Shopping and Consumption"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达购物、购买、支付、价格和消费行为。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for shopping, buying, paying, pricing, and consumption."
+   }
+  ]
+ },
+ {
+  "nid": "everyday_objects_and_toys",
+  "parentNid": "home_and_daily_life",
+  "names": [
+   {
+    "lang": "en",
+    "text": "Everyday Objects and Toys"
+   },
+   {
+    "lang": "zh",
+    "text": "日常物品与玩具"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "en",
+    "text": "Names, ownership and use of concrete everyday things: toys, stationery, household items and gadgets close at hand."
+   },
+   {
+    "lang": "zh",
+    "text": "用于表达玩具、文具、日用品等身边具体物件的名称、归属和使用。"
+   }
+  ]
+ },
+ {
+  "nid": "education_and_work",
+  "parentNid": null,
+  "names": [
+   {
+    "lang": "zh",
+    "text": "教育与工作"
+   },
+   {
+    "lang": "en",
+    "text": "Education and Work"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "覆盖学习、学校、职业、工作场景以及经济活动。"
+   },
+   {
+    "lang": "en",
+    "text": "Covers learning, school, jobs, workplace situations, and economic activity."
+   }
+  ]
+ },
+ {
+  "nid": "school_and_learning",
+  "parentNid": "education_and_work",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "学校与学习"
+   },
+   {
+    "lang": "en",
+    "text": "School and Learning"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "en",
+    "text": "Education as a system and learning as a process: school types, subjects, exams, study methods and learning experiences."
+   },
+   {
+    "lang": "zh",
+    "text": "用于表达教育体系与学习过程：学校类型、学科、考试、学习方法和学习经历；课堂用语与校园日常归 classroom_and_school_life。"
+   }
+  ]
+ },
+ {
+  "nid": "classroom_and_school_life",
+  "parentNid": "education_and_work",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "课堂与校园生活"
+   },
+   {
+    "lang": "en",
+    "text": "Classroom and School Life"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "en",
+    "text": "Concrete classroom and campus scenes: classroom language, timetable, homework, school events and daily school life."
+   },
+   {
+    "lang": "zh",
+    "text": "用于表达课堂与校园的具体场景：课堂用语、课程表、作业、校内活动和校园日常。"
+   }
+  ]
+ },
+ {
+  "nid": "jobs_and_professions",
+  "parentNid": "education_and_work",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "职业与岗位"
+   },
+   {
+    "lang": "en",
+    "text": "Jobs and Professions"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达职业名称、工作身份、岗位角色和职业方向。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for job titles, work identity, role types, and careers."
+   }
+  ]
+ },
+ {
+  "nid": "workplace_and_work_tasks",
+  "parentNid": "education_and_work",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "职场与工作任务"
+   },
+   {
+    "lang": "en",
+    "text": "Workplace and Work Tasks"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达工作场所、工作流程、任务分配和职场协作。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for workplaces, workflows, task assignment, and collaboration."
+   }
+  ]
+ },
+ {
+  "nid": "business_and_trade",
+  "parentNid": "education_and_work",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "商业与贸易"
+   },
+   {
+    "lang": "en",
+    "text": "Business and Trade"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达商业活动、公司经营、市场交易和贸易行为。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for business activity, companies, market trade, and commerce."
+   }
+  ]
+ },
+ {
+  "nid": "money_and_finance",
+  "parentNid": "education_and_work",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "金钱与财务"
+   },
+   {
+    "lang": "en",
+    "text": "Money and Finance"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达金钱、财务、预算、银行和经济支出。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for money, finance, budgeting, banking, and spending."
+   }
+  ]
+ },
+ {
+  "nid": "society_and_public_life",
+  "parentNid": null,
+  "names": [
+   {
+    "lang": "zh",
+    "text": "社会与公共生活"
+   },
+   {
+    "lang": "en",
+    "text": "Society and Public Life"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "覆盖社会结构、公共空间、制度、规则、媒体和公共议题。"
+   },
+   {
+    "lang": "en",
+    "text": "Covers social structure, public spaces, institutions, rules, media, and public issues."
+   }
+  ]
+ },
+ {
+  "nid": "community_and_public_services",
+  "parentNid": "society_and_public_life",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "社区与公共服务"
+   },
+   {
+    "lang": "en",
+    "text": "Community and Public Services"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达社区环境、公共设施、城市服务和公共机构。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for community settings, public services, facilities, and institutions."
+   }
+  ]
+ },
+ {
+  "nid": "law_and_social_rules",
+  "parentNid": "society_and_public_life",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "法律与社会规则"
+   },
+   {
+    "lang": "en",
+    "text": "Law and Social Rules"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "en",
+    "text": "Laws, regulations, school and family rules, rights and duties, crime and justice."
+   },
+   {
+    "lang": "zh",
+    "text": "用于表达法律、规章制度、校规家规、权利义务、犯罪与司法。"
+   }
+  ]
+ },
+ {
+  "nid": "politics_and_governance",
+  "parentNid": "society_and_public_life",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "政治与治理"
+   },
+   {
+    "lang": "en",
+    "text": "Politics and Governance"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达政府、政策、治理方式和公共决策。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for government, policy, governance, and public decision-making."
+   }
+  ]
+ },
+ {
+  "nid": "social_issues_and_public_welfare",
+  "parentNid": "society_and_public_life",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "社会议题与公共福祉"
+   },
+   {
+    "lang": "en",
+    "text": "Social Issues and Public Welfare"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达社会问题、公共关怀、弱势支持和社会挑战。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for social issues, public welfare, care, and collective challenges."
+   }
+  ]
+ },
+ {
+  "nid": "media_and_communication",
+  "parentNid": "society_and_public_life",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "媒体与传播"
+   },
+   {
+    "lang": "en",
+    "text": "Media and Communication"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "en",
+    "text": "Media channels and how information spreads: TV, radio, advertising, social media and online communication."
+   },
+   {
+    "lang": "zh",
+    "text": "用于表达媒介渠道与信息传播：电视、广播、广告、社交媒体和线上交流；技术本身归 computers_and_digital_technology，新闻内容归 news_and_current_events。"
+   }
+  ]
+ },
+ {
+  "nid": "news_and_current_events",
+  "parentNid": "society_and_public_life",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "新闻与时事"
+   },
+   {
+    "lang": "en",
+    "text": "News and Current Events"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达新闻报道、时事事件、消息来源和公共事件进展。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for news reports, current events, sources, and event development."
+   }
+  ]
+ },
+ {
+  "nid": "places_and_directions",
+  "parentNid": "society_and_public_life",
+  "names": [
+   {
+    "lang": "en",
+    "text": "Places and Directions"
+   },
+   {
+    "lang": "zh",
+    "text": "地点与方位路线"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "en",
+    "text": "Places in town and on campus, where things are, asking for and giving directions, landmarks and routes."
+   },
+   {
+    "lang": "zh",
+    "text": "用于表达城市与校园中的场所、位置方位、问路指路、地标和路线描述；自然地貌归 geography_and_landscapes，交通工具归 travel_and_transport。"
+   }
+  ]
+ },
+ {
+  "nid": "social_interaction_and_etiquette",
+  "parentNid": "society_and_public_life",
+  "names": [
+   {
+    "lang": "en",
+    "text": "Social Interaction and Etiquette"
+   },
+   {
+    "lang": "zh",
+    "text": "社交互动与礼仪"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "en",
+    "text": "Greeting and parting, politeness, hosting and visiting, making friends, teamwork and public manners—content about how people interact, not the speech act itself."
+   },
+   {
+    "lang": "zh",
+    "text": "用于表达问候道别、礼貌用语、待客做客、交友合作、公共礼仪等人际交往内容；当课在谈「怎样与人交往」时打它，单纯的功能句不算。"
+   }
+  ]
+ },
+ {
+  "nid": "culture_and_humanities",
+  "parentNid": null,
+  "names": [
+   {
+    "lang": "zh",
+    "text": "文化与人文"
+   },
+   {
+    "lang": "en",
+    "text": "Culture and Humanities"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "覆盖文化传统、宗教信仰、艺术、历史、语言和文学表达。"
+   },
+   {
+    "lang": "en",
+    "text": "Covers tradition, belief, art, history, language, and literary expression."
+   }
+  ]
+ },
+ {
+  "nid": "customs_and_festivals",
+  "parentNid": "culture_and_humanities",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "习俗与节庆"
+   },
+   {
+    "lang": "en",
+    "text": "Customs and Festivals"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达节日、庆典、地方习俗和传统文化实践。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for festivals, celebrations, customs, and traditional practices."
+   }
+  ]
+ },
+ {
+  "nid": "religion_and_belief",
+  "parentNid": "culture_and_humanities",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "宗教与信仰"
+   },
+   {
+    "lang": "en",
+    "text": "Religion and Belief"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "en",
+    "text": "Religions, belief systems, worship and rituals; fairy tales, myths and magic belong to myths_fantasy_and_imagination."
+   },
+   {
+    "lang": "zh",
+    "text": "用于表达宗教观念、信仰体系、崇拜与仪式；童话、神话、魔法等虚构想象归 myths_fantasy_and_imagination。"
+   }
+  ]
+ },
+ {
+  "nid": "arts_and_entertainment",
+  "parentNid": "culture_and_humanities",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "艺术与娱乐"
+   },
+   {
+    "lang": "en",
+    "text": "Arts and Entertainment"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达艺术形式、音乐、影视、戏剧和娱乐活动。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for art forms, music, film, theatre, and entertainment."
+   }
+  ]
+ },
+ {
+  "nid": "literature_and_reading",
+  "parentNid": "culture_and_humanities",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "文学与阅读"
+   },
+   {
+    "lang": "en",
+    "text": "Literature and Reading"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达文学作品、阅读活动、作者、文本和故事世界。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for literature, reading, authors, texts, and stories."
+   }
+  ]
+ },
+ {
+  "nid": "history_and_heritage",
+  "parentNid": "culture_and_humanities",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "历史与遗产"
+   },
+   {
+    "lang": "en",
+    "text": "History and Heritage"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达历史人物、历史事件、文化遗产和历史影响。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for historical figures, events, heritage, and historical impact."
+   }
+  ]
+ },
+ {
+  "nid": "language_and_expression",
+  "parentNid": "culture_and_humanities",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "语言与表达"
+   },
+   {
+    "lang": "en",
+    "text": "Language and Expression"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达语言现象、表达方式、措辞风格和说写行为。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for language phenomena, expression styles, wording, and speech or writing."
+   }
+  ]
+ },
+ {
+  "nid": "cross_cultural_comparison",
+  "parentNid": "culture_and_humanities",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "跨文化比较"
+   },
+   {
+    "lang": "en",
+    "text": "Cross-Cultural Comparison"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达不同文化之间的差异、相似性和交流理解。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for differences, similarities, and understanding across cultures."
+   }
+  ]
+ },
+ {
+  "nid": "philosophy_and_values",
+  "parentNid": "culture_and_humanities",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "哲学与价值观"
+   },
+   {
+    "lang": "en",
+    "text": "Philosophy and Values"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "en",
+    "text": "Abstract humanistic ideas: ethics, meaning of life, ways of thinking (B1 and above); concrete growth stories and character belong to growth_and_values."
+   },
+   {
+    "lang": "zh",
+    "text": "用于表达伦理判断、人生意义、思想观念等抽象人文命题（B1 起）；具体的成长经历与品格故事归 growth_and_values。"
+   }
+  ]
+ },
+ {
+  "nid": "myths_fantasy_and_imagination",
+  "parentNid": "culture_and_humanities",
+  "names": [
+   {
+    "lang": "en",
+    "text": "Myths, Fantasy and Imagination"
+   },
+   {
+    "lang": "zh",
+    "text": "神话幻想与想象"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "en",
+    "text": "Fairy tales, myths and legends, magic, monsters, superheroes, aliens and other invented worlds."
+   },
+   {
+    "lang": "zh",
+    "text": "用于表达童话、神话传说、魔法、怪兽、超级英雄、外星人等虚构与想象世界的内容。"
+   }
+  ]
+ },
+ {
+  "nid": "nature_and_environment",
+  "parentNid": null,
+  "names": [
+   {
+    "lang": "zh",
+    "text": "自然与环境"
+   },
+   {
+    "lang": "en",
+    "text": "Nature and Environment"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "覆盖生物、植物、地理、天气、环境、资源和自然空间。"
+   },
+   {
+    "lang": "en",
+    "text": "Covers living things, plants, geography, weather, environment, resources, and natural space."
+   }
+  ]
+ },
+ {
+  "nid": "animals_and_wildlife",
+  "parentNid": "nature_and_environment",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "动物与野生生物"
+   },
+   {
+    "lang": "en",
+    "text": "Animals and Wildlife"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达动物、野生生物、特征、行为和栖息地。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for animals, wildlife, traits, behavior, and habitat."
+   }
+  ]
+ },
+ {
+  "nid": "plants_and_farming",
+  "parentNid": "nature_and_environment",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "植物与农业"
+   },
+   {
+    "lang": "en",
+    "text": "Plants and Farming"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达植物、树木、种植、农业和园艺活动。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for plants, trees, cultivation, farming, and gardening."
+   }
+  ]
+ },
+ {
+  "nid": "geography_and_landscapes",
+  "parentNid": "nature_and_environment",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "地理与地貌"
+   },
+   {
+    "lang": "en",
+    "text": "Geography and Landscapes"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达地貌、地形、河流山脉和自然地理结构。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for landforms, terrain, rivers, mountains, and physical geography."
+   }
+  ]
+ },
+ {
+  "nid": "countries_and_regions",
+  "parentNid": "nature_and_environment",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "国家与地区"
+   },
+   {
+    "lang": "en",
+    "text": "Countries and Regions"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "en",
+    "text": "Countries, regions, nationalities, capitals, hometown and motherland."
+   },
+   {
+    "lang": "zh",
+    "text": "用于表达国家、地区、民族、首都、家乡与祖国等地理归属。"
+   }
+  ]
+ },
+ {
+  "nid": "weather_and_climate",
+  "parentNid": "nature_and_environment",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "天气与气候"
+   },
+   {
+    "lang": "en",
+    "text": "Weather and Climate"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达天气变化、气候特征、季节和气象现象。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for weather change, climate patterns, seasons, and atmospheric events."
+   }
+  ]
+ },
+ {
+  "nid": "environment_and_sustainability",
+  "parentNid": "nature_and_environment",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "环境与可持续性"
+   },
+   {
+    "lang": "en",
+    "text": "Environment and Sustainability"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达环境问题、生态保护、资源利用和可持续发展。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for environmental issues, ecology, protection, resource use, and sustainability."
+   }
+  ]
+ },
+ {
+  "nid": "travel_and_transport",
+  "parentNid": "nature_and_environment",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "出行与交通"
+   },
+   {
+    "lang": "en",
+    "text": "Travel and Transport"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达交通工具、出行方式、旅途过程和旅行安排。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for transport, travel modes, journeys, and trip arrangements."
+   }
+  ]
+ },
+ {
+  "nid": "natural_resources",
+  "parentNid": "nature_and_environment",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "自然资源"
+   },
+   {
+    "lang": "en",
+    "text": "Natural Resources"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达水、土地、森林、能源等自然资源及其利用。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for water, land, forests, energy, and the use of natural resources."
+   }
+  ]
+ },
+ {
+  "nid": "disasters_and_safety",
+  "parentNid": "nature_and_environment",
+  "names": [
+   {
+    "lang": "en",
+    "text": "Disasters and Safety"
+   },
+   {
+    "lang": "zh",
+    "text": "灾害与安全"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "en",
+    "text": "Natural disasters such as earthquakes and floods, plus accidents, first aid, prevention and safety rules at home, at school and on the road."
+   },
+   {
+    "lang": "zh",
+    "text": "用于表达地震、洪水等自然灾害，以及事故、急救、防范和居家、校园、出行安全规则。"
+   }
+  ]
+ },
+ {
+  "nid": "space_and_astronomy",
+  "parentNid": "nature_and_environment",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "太空与天文学"
+   },
+   {
+    "lang": "en",
+    "text": "Space and Astronomy"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达宇宙、天体、行星、恒星和天文现象。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for the universe, celestial bodies, planets, stars, and astronomy."
+   }
+  ]
+ },
+ {
+  "nid": "science_and_technology",
+  "parentNid": null,
+  "names": [
+   {
+    "lang": "zh",
+    "text": "科学与技术"
+   },
+   {
+    "lang": "en",
+    "text": "Science and Technology"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "覆盖自然科学、技术系统、工程应用、数字技术和研究活动。"
+   },
+   {
+    "lang": "en",
+    "text": "Covers natural science, technological systems, engineering, digital technology, and research."
+   }
+  ]
+ },
+ {
+  "nid": "physics_and_chemistry",
+  "parentNid": "science_and_technology",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "物理与化学"
+   },
+   {
+    "lang": "en",
+    "text": "Physics and Chemistry"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达物质、能量、反应、力和基础理化现象。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for matter, energy, reactions, force, and physical or chemical phenomena."
+   }
+  ]
+ },
+ {
+  "nid": "biology_and_life_science",
+  "parentNid": "science_and_technology",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "生物与生命科学"
+   },
+   {
+    "lang": "en",
+    "text": "Biology and Life Science"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达生命结构、生命过程和生命科学相关概念。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for life structures, life processes, and life-science concepts."
+   }
+  ]
+ },
+ {
+  "nid": "mathematics_and_calculation",
+  "parentNid": "science_and_technology",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "数学与计算"
+   },
+   {
+    "lang": "en",
+    "text": "Mathematics and Calculation"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达数学概念、运算、公式和数量计算。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for mathematics, calculation, formulas, and quantitative operations."
+   }
+  ]
+ },
+ {
+  "nid": "engineering_and_invention",
+  "parentNid": "science_and_technology",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "工程与发明"
+   },
+   {
+    "lang": "en",
+    "text": "Engineering and Invention"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达工程系统、机械装置、工具原理和发明创造。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for engineering systems, machines, tool mechanisms, and invention."
+   }
+  ]
+ },
+ {
+  "nid": "computers_and_digital_technology",
+  "parentNid": "science_and_technology",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "计算机与数字技术"
+   },
+   {
+    "lang": "en",
+    "text": "Computers and Digital Technology"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "en",
+    "text": "Computers, networks, digital devices, software and how the technology itself works."
+   },
+   {
+    "lang": "zh",
+    "text": "用于表达计算机、网络、数字设备、软件及技术本身的原理与使用。"
+   }
+  ]
+ },
+ {
+  "nid": "scientific_research_and_data",
+  "parentNid": "science_and_technology",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "科研与数据"
+   },
+   {
+    "lang": "en",
+    "text": "Scientific Research and Data"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达研究过程、实验设计、数据分析、证据和结论。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for research, experiments, data analysis, evidence, and findings."
+   }
+  ]
+ },
+ {
+  "nid": "technology_and_ethics",
+  "parentNid": "science_and_technology",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "技术与伦理"
+   },
+   {
+    "lang": "en",
+    "text": "Technology and Ethics"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达技术风险、隐私、公平、责任和伦理讨论。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for technology risk, privacy, fairness, responsibility, and ethics."
+   }
+  ]
+ },
+ {
+  "nid": "abstract_concepts",
+  "parentNid": null,
+  "names": [
+   {
+    "lang": "zh",
+    "text": "抽象概念"
+   },
+   {
+    "lang": "en",
+    "text": "Abstract Concepts"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "覆盖时间、数量、属性、变化、判断、推理和比较等抽象语义。"
+   },
+   {
+    "lang": "en",
+    "text": "Covers time, quantity, property, change, judgment, reasoning, and comparison."
+   }
+  ]
+ },
+ {
+  "nid": "time_and_schedule",
+  "parentNid": "abstract_concepts",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "时间与安排"
+   },
+   {
+    "lang": "en",
+    "text": "Time and Schedule"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达时间、日期、持续时长、时序和计划安排。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for time, dates, duration, sequence, and schedules."
+   }
+  ]
+ },
+ {
+  "nid": "quantity_and_amount",
+  "parentNid": "abstract_concepts",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "数量与量值"
+   },
+   {
+    "lang": "en",
+    "text": "Quantity and Amount"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达数量、多少、程度、量值和单位。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for quantity, amount, degree, value, and units."
+   }
+  ]
+ },
+ {
+  "nid": "appearance_and_physical_properties",
+  "parentNid": "abstract_concepts",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "外观与物理属性"
+   },
+   {
+    "lang": "en",
+    "text": "Appearance and Physical Properties"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达颜色、形状、大小、材质和可感知属性。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for color, shape, size, texture, and perceivable properties."
+   }
+  ]
+ },
+ {
+  "nid": "change_and_cause_effect",
+  "parentNid": "abstract_concepts",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "变化与因果"
+   },
+   {
+    "lang": "en",
+    "text": "Change and Cause-Effect"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达变化过程、原因、结果、影响和逻辑链。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for change, causes, results, effects, and process logic."
+   }
+  ]
+ },
+ {
+  "nid": "ability_and_difficulty",
+  "parentNid": "abstract_concepts",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "能力与难度"
+   },
+   {
+    "lang": "en",
+    "text": "Ability and Difficulty"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达能力、可行性、难度、成功与失败。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for ability, feasibility, difficulty, success, and failure."
+   }
+  ]
+ },
+ {
+  "nid": "opinion_and_argument",
+  "parentNid": "abstract_concepts",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "观点与论证"
+   },
+   {
+    "lang": "en",
+    "text": "Opinion and Argument"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达看法、论点、理由、证据和立场判断。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for opinions, claims, reasons, evidence, and stance."
+   }
+  ]
+ },
+ {
+  "nid": "belief_and_certainty",
+  "parentNid": "abstract_concepts",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "信念与确定性"
+   },
+   {
+    "lang": "en",
+    "text": "Belief and Certainty"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达相信、怀疑、推测、确定和不确定程度。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for belief, doubt, guessing, certainty, and uncertainty."
+   }
+  ]
+ },
+ {
+  "nid": "preference_and_decision",
+  "parentNid": "abstract_concepts",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "偏好与决策"
+   },
+   {
+    "lang": "en",
+    "text": "Preference and Decision"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达喜欢、不喜欢、选择、决定和取舍。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for preference, choice, decision, and trade-off."
+   }
+  ]
+ },
+ {
+  "nid": "comparison_and_relation",
+  "parentNid": "abstract_concepts",
+  "names": [
+   {
+    "lang": "zh",
+    "text": "比较与关系"
+   },
+   {
+    "lang": "en",
+    "text": "Comparison and Relation"
+   }
+  ],
+  "descriptions": [
+   {
+    "lang": "zh",
+    "text": "用于表达比较、对应、相似差异和关系判断。"
+   },
+   {
+    "lang": "en",
+    "text": "Used for comparison, correspondence, similarity, difference, and relation."
+   }
+  ]
+ }
+]

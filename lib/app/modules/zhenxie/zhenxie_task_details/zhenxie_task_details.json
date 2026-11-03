@@ -1,0 +1,2094 @@
+{
+  "code": 200,
+  "data": {
+    "uid": 498,
+    "title": [
+      {
+        "lang": "zh",
+        "text": "友好互助"
+      },
+      {
+        "lang": "en",
+        "text": "友好互助"
+      }
+    ],
+    "compositionBlueprintNid": "picture_a1",
+    "blueprint": {
+      "nid": "picture_a1",
+      "coverUrl": "https://img.timelywise.cn/write/blueprints/403EAB828CACC5B60C17C7CBF81C9C92.webp?auth_key=1792868015-w6tm7qzrw49n-0-d5ecbe2a778929500ae066a5e197c74e",
+      "name": [
+        {
+          "lang": "zh",
+          "text": "看图写几句"
+        },
+        {
+          "lang": "en",
+          "text": "A Few Sentences from a Picture"
+        }
+      ],
+      "description": [
+        {
+          "lang": "zh",
+          "text": "先写图上有什么，再补一点看到的细节。"
+        },
+        {
+          "lang": "en",
+          "text": "First write what is in the picture, then add a little more that you can see."
+        }
+      ],
+      "compositionFamilyNid": "picture_based",
+      "frameworkNid": "picture_composition",
+      "framework": {
+        "nid": "picture_composition",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "看图"
+          },
+          {
+            "lang": "en",
+            "text": "Picture Writing"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "看着图画来写：先写图上有什么，再按画面顺序把内容写完整。"
+          },
+          {
+            "lang": "en",
+            "text": "Write from a picture: first say what you see, then follow the picture to complete the story."
+          }
+        ]
+      },
+      "skinNid": "picture_page",
+      "skin": {
+        "nid": "picture_page",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "图画书页"
+          },
+          {
+            "lang": "en",
+            "text": "Picture Page"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "上面是图，下面写你看到的内容。"
+          },
+          {
+            "lang": "en",
+            "text": "A page with a picture on top and writing underneath."
+          }
+        ]
+      },
+      "difficulty": {
+        "max": 1,
+        "min": 0
+      },
+      "order": 1,
+      "minParagraphCount": 2,
+      "maxParagraphCount": 2,
+      "frame": null,
+      "slots": [
+        {
+          "order": 1,
+          "beatNid": "opening",
+          "required": true,
+          "repeatMin": 1,
+          "repeatMax": 1,
+          "allowedParagraphs": [
+            {
+              "paragraphTypeNid": "description",
+              "paragraphType": {
+                "nid": "description",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "描述"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Description"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "先说出要写的是谁或什么，再把它的样子和特点写清楚，最后可以补一句感受。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "First name who or what you are writing about, then add how it looks or what it is like, and you may end with a feeling."
+                  }
+                ]
+              },
+              "usageName": [
+                {
+                  "lang": "zh",
+                  "text": "先写图上有什么"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what is in the picture"
+                }
+              ],
+              "usageDescription": [
+                {
+                  "lang": "zh",
+                  "text": "先点出图上是谁或什么，让人知道这段在写这幅图。"
+                },
+                {
+                  "lang": "en",
+                  "text": "First name who or what is in the picture."
+                }
+              ]
+            },
+            {
+              "paragraphTypeNid": "qa",
+              "paragraphType": {
+                "nid": "qa",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "问答"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Question and Answer"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "先直接回答问题，再补上相关的细节。问题一般已经写在题目里。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Answer the question first, then add a little more. The question is usually already in the prompt."
+                  }
+                ]
+              },
+              "usageName": [
+                {
+                  "lang": "zh",
+                  "text": "先答图上的问题"
+                },
+                {
+                  "lang": "en",
+                  "text": "Answer the picture question"
+                }
+              ],
+              "usageDescription": [
+                {
+                  "lang": "zh",
+                  "text": "题目问图上什么，第一句就答。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Answer the question about the picture in the first sentence."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "beatNid": "develop",
+          "required": true,
+          "repeatMin": 1,
+          "repeatMax": 1,
+          "allowedParagraphs": [
+            {
+              "paragraphTypeNid": "description",
+              "paragraphType": {
+                "nid": "description",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "描述"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Description"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "先说出要写的是谁或什么，再把它的样子和特点写清楚，最后可以补一句感受。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "First name who or what you are writing about, then add how it looks or what it is like, and you may end with a feeling."
+                  }
+                ]
+              },
+              "usageName": [
+                {
+                  "lang": "zh",
+                  "text": "补看到的细节"
+                },
+                {
+                  "lang": "en",
+                  "text": "Add what you can see"
+                }
+              ],
+              "usageDescription": [
+                {
+                  "lang": "zh",
+                  "text": "再写颜色、位置或在做什么。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Add color, place, or what they are doing."
+                }
+              ]
+            },
+            {
+              "paragraphTypeNid": "recount",
+              "paragraphType": {
+                "nid": "recount",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "经过"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "What Happened"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "写下那一次发生了什么：先交代时间和地点，再按顺序写经过，最后写结果或感受。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Tell what happened that time: set the time and place, then write the events in order, and end with the result or how you felt."
+                  }
+                ]
+              },
+              "usageName": [
+                {
+                  "lang": "zh",
+                  "text": "按图写经过"
+                },
+                {
+                  "lang": "en",
+                  "text": "Follow the picture order"
+                }
+              ],
+              "usageDescription": [
+                {
+                  "lang": "zh",
+                  "text": "按图上能看出的先后写下去。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Tell what happens in the order the picture shows."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "system": true,
+      "enabled": true,
+      "created": "2026-09-18T02:23:39.590+00:00",
+      "updated": "2026-10-21T16:11:24.796+00:00"
+    },
+    "compositionFamilyNid": "picture_based",
+    "compositionFamily": {
+      "nid": "picture_based",
+      "genreNid": "narrative",
+      "genre": {
+        "nid": "narrative",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "记叙文"
+          },
+          {
+            "lang": "en",
+            "text": "Narrative"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "写人、记事、看图或把故事接着写下去。"
+          },
+          {
+            "lang": "en",
+            "text": "Write about people and events, describe a picture, or continue a story."
+          }
+        ]
+      },
+      "order": 2,
+      "primaryFrameworkNid": "picture_composition",
+      "primaryFramework": {
+        "nid": "picture_composition",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "看图"
+          },
+          {
+            "lang": "en",
+            "text": "Picture Writing"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "看着图画来写：先写图上有什么，再按画面顺序把内容写完整。"
+          },
+          {
+            "lang": "en",
+            "text": "Write from a picture: first say what you see, then follow the picture to complete the story."
+          }
+        ]
+      },
+      "name": [
+        {
+          "lang": "zh",
+          "text": "看图写话"
+        },
+        {
+          "lang": "en",
+          "text": "Picture Writing"
+        }
+      ],
+      "description": [
+        {
+          "lang": "zh",
+          "text": "看着图画写几句话或一段话，把图上看到的内容写清楚。"
+        },
+        {
+          "lang": "en",
+          "text": "Look at a picture and write a few sentences or a short paragraph about what you see."
+        }
+      ],
+      "difficulty": {
+        "max": 3,
+        "min": 0
+      }
+    },
+    "frameworkNid": "picture_composition",
+    "framework": {
+      "nid": "picture_composition",
+      "name": [
+        {
+          "lang": "zh",
+          "text": "看图"
+        },
+        {
+          "lang": "en",
+          "text": "Picture Writing"
+        }
+      ],
+      "description": [
+        {
+          "lang": "zh",
+          "text": "看着图画来写：先写图上有什么，再按画面顺序把内容写完整。"
+        },
+        {
+          "lang": "en",
+          "text": "Write from a picture: first say what you see, then follow the picture to complete the story."
+        }
+      ]
+    },
+    "skinNid": "picture_page",
+    "skin": {
+      "nid": "picture_page",
+      "name": [
+        {
+          "lang": "zh",
+          "text": "图画书页"
+        },
+        {
+          "lang": "en",
+          "text": "Picture Page"
+        }
+      ],
+      "description": [
+        {
+          "lang": "zh",
+          "text": "上面是图，下面写你看到的内容。"
+        },
+        {
+          "lang": "en",
+          "text": "A page with a picture on top and writing underneath."
+        }
+      ]
+    },
+    "topicNid": "social_interaction_and_etiquette",
+    "difficulty": {
+      "max": 1,
+      "min": 1
+    },
+    "members": [
+      {
+        "index": 0,
+        "beatNid": "opening",
+        "paragraphTypeNid": "description",
+        "paragraphId": 275
+      },
+      {
+        "index": 1,
+        "beatNid": "develop",
+        "paragraphTypeNid": "description",
+        "paragraphId": 276
+      }
+    ],
+    "memberList": [
+      {
+        "index": 0,
+        "beatNid": "opening",
+        "paragraphTypeNid": "description",
+        "paragraphType": {
+          "nid": "description",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "描述"
+            },
+            {
+              "lang": "en",
+              "text": "Description"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "先说出要写的是谁或什么，再把它的样子和特点写清楚，最后可以补一句感受。"
+            },
+            {
+              "lang": "en",
+              "text": "First name who or what you are writing about, then add how it looks or what it is like, and you may end with a feeling."
+            }
+          ]
+        },
+        "paragraphId": 275,
+        "usageName": [
+          {
+            "lang": "zh",
+            "text": "先写图上有什么"
+          },
+          {
+            "lang": "en",
+            "text": "Say what is in the picture"
+          }
+        ],
+        "usageDescription": [
+          {
+            "lang": "zh",
+            "text": "先点出图上是谁或什么，让人知道这段在写这幅图。"
+          },
+          {
+            "lang": "en",
+            "text": "First name who or what is in the picture."
+          }
+        ],
+        "paragraph": {
+          "uid": 275,
+          "content": "The picture shows a classmate and me. We are on the way home.",
+          "pronunciation": null,
+          "beatSpans": [
+            {
+              "beatNid": "opening",
+              "start": 0,
+              "end": 37,
+              "text": "The picture shows a classmate and me."
+            },
+            {
+              "beatNid": "develop",
+              "start": 38,
+              "end": 61,
+              "text": "We are on the way home."
+            }
+          ],
+          "anchors": [
+            {
+              "contentType": "EN_WORD",
+              "uid": 108718,
+              "semanticId": 672766,
+              "ranges": [
+                {
+                  "start": 20,
+                  "end": 29,
+                  "text": "classmate"
+                }
+              ],
+              "foci": []
+            },
+            {
+              "contentType": "EN_PHRASE",
+              "uid": 133126,
+              "semanticId": 1116796,
+              "ranges": [
+                {
+                  "start": 45,
+                  "end": 60,
+                  "text": "on the way home"
+                }
+              ],
+              "foci": []
+            },
+            {
+              "contentType": "EN_WORD",
+              "uid": 147551,
+              "semanticId": 725725,
+              "ranges": [
+                {
+                  "start": 52,
+                  "end": 55,
+                  "text": "way"
+                }
+              ],
+              "foci": []
+            },
+            {
+              "contentType": "EN_WORD",
+              "uid": 120991,
+              "semanticId": 690244,
+              "ranges": [
+                {
+                  "start": 56,
+                  "end": 60,
+                  "text": "home"
+                }
+              ],
+              "foci": []
+            }
+          ]
+        },
+        "translate": null
+      },
+      {
+        "index": 1,
+        "beatNid": "develop",
+        "paragraphTypeNid": "description",
+        "paragraphType": {
+          "nid": "description",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "描述"
+            },
+            {
+              "lang": "en",
+              "text": "Description"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "先说出要写的是谁或什么，再把它的样子和特点写清楚，最后可以补一句感受。"
+            },
+            {
+              "lang": "en",
+              "text": "First name who or what you are writing about, then add how it looks or what it is like, and you may end with a feeling."
+            }
+          ]
+        },
+        "paragraphId": 276,
+        "usageName": [
+          {
+            "lang": "zh",
+            "text": "补看到的细节"
+          },
+          {
+            "lang": "en",
+            "text": "Add what you can see"
+          }
+        ],
+        "usageDescription": [
+          {
+            "lang": "zh",
+            "text": "再写颜色、位置或在做什么。"
+          },
+          {
+            "lang": "en",
+            "text": "Add color, place, or what they are doing."
+          }
+        ],
+        "paragraph": {
+          "uid": 276,
+          "content": "Her bike is broken. I give her a hand and push the bike. We get to her home together.",
+          "pronunciation": null,
+          "beatSpans": [
+            {
+              "beatNid": "opening",
+              "start": 0,
+              "end": 19,
+              "text": "Her bike is broken."
+            },
+            {
+              "beatNid": "develop",
+              "start": 20,
+              "end": 56,
+              "text": "I give her a hand and push the bike."
+            },
+            {
+              "beatNid": "close",
+              "start": 57,
+              "end": 85,
+              "text": "We get to her home together."
+            }
+          ],
+          "anchors": [
+            {
+              "contentType": "EN_WORD",
+              "uid": 105293,
+              "semanticId": 665228,
+              "ranges": [
+                {
+                  "start": 4,
+                  "end": 8,
+                  "text": "bike"
+                }
+              ],
+              "foci": []
+            },
+            {
+              "contentType": "EN_WORD",
+              "uid": 106541,
+              "semanticId": 669714,
+              "ranges": [
+                {
+                  "start": 12,
+                  "end": 18,
+                  "text": "broken"
+                }
+              ],
+              "foci": []
+            },
+            {
+              "contentType": "EN_WORD",
+              "uid": 118759,
+              "semanticId": 688909,
+              "ranges": [
+                {
+                  "start": 22,
+                  "end": 26,
+                  "text": "give"
+                }
+              ],
+              "foci": []
+            },
+            {
+              "contentType": "EN_PHRASE",
+              "uid": 135125,
+              "semanticId": 1119685,
+              "ranges": [
+                {
+                  "start": 22,
+                  "end": 26,
+                  "text": "give"
+                },
+                {
+                  "start": 31,
+                  "end": 37,
+                  "text": "a hand"
+                }
+              ],
+              "foci": []
+            },
+            {
+              "contentType": "EN_WORD",
+              "uid": 119962,
+              "semanticId": 694243,
+              "ranges": [
+                {
+                  "start": 33,
+                  "end": 37,
+                  "text": "hand"
+                }
+              ],
+              "foci": []
+            },
+            {
+              "contentType": "EN_WORD",
+              "uid": 134509,
+              "semanticId": 712406,
+              "ranges": [
+                {
+                  "start": 42,
+                  "end": 46,
+                  "text": "push"
+                }
+              ],
+              "foci": []
+            },
+            {
+              "contentType": "EN_WORD",
+              "uid": 105293,
+              "semanticId": 665228,
+              "ranges": [
+                {
+                  "start": 51,
+                  "end": 55,
+                  "text": "bike"
+                }
+              ],
+              "foci": []
+            },
+            {
+              "contentType": "EN_PHRASE",
+              "uid": 105185,
+              "semanticId": 1119138,
+              "ranges": [
+                {
+                  "start": 60,
+                  "end": 66,
+                  "text": "get to"
+                }
+              ],
+              "foci": []
+            },
+            {
+              "contentType": "EN_WORD",
+              "uid": 118631,
+              "semanticId": 688378,
+              "ranges": [
+                {
+                  "start": 60,
+                  "end": 63,
+                  "text": "get"
+                }
+              ],
+              "foci": []
+            },
+            {
+              "contentType": "EN_WORD",
+              "uid": 120991,
+              "semanticId": 690244,
+              "ranges": [
+                {
+                  "start": 71,
+                  "end": 75,
+                  "text": "home"
+                }
+              ],
+              "foci": []
+            }
+          ]
+        },
+        "translate": null
+      }
+    ],
+    "taskId": 498,
+    "exemplarCompositionId": 96,
+    "name": [
+      {
+        "lang": "zh",
+        "text": "友好互助"
+      },
+      {
+        "lang": "en",
+        "text": "友好互助"
+      }
+    ],
+    "stem": [
+      {
+        "lang": "zh",
+        "text": "学校公众号在征集暖心小故事， 请你投稿，用4-5句话记述一次你帮助别人，或是别人帮助你的经历。"
+      },
+      {
+        "lang": "en",
+        "text": "学校公众号在征集暖心小故事， 请你投稿，用4-5句话记述一次你帮助别人，或是别人帮助你的经历。"
+      }
+    ],
+    "knowledgePoints": [
+      {
+        "contentType": "EN_WORD",
+        "uid": 128834,
+        "semanticId": 701013
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 274970,
+        "semanticId": 704966
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 119962,
+        "semanticId": 694243
+      },
+      {
+        "contentType": "EN_PHRASE",
+        "uid": 139126,
+        "semanticId": 1189794
+      },
+      {
+        "contentType": "EN_PHRASE",
+        "uid": 133552,
+        "semanticId": 1117222
+      },
+      {
+        "contentType": "EN_PHRASE",
+        "uid": 135125,
+        "semanticId": 1119685
+      },
+      {
+        "contentType": "EN_PHRASE",
+        "uid": 134815,
+        "semanticId": 1118485
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 118759,
+        "semanticId": 688909
+      },
+      {
+        "contentType": "EN_PHRASE",
+        "uid": 139136,
+        "semanticId": 1189804
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 102615,
+        "semanticId": 667476
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 149089,
+        "semanticId": 703153
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 134171,
+        "semanticId": 708843
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 147401,
+        "semanticId": 726336
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 252023,
+        "semanticId": 686319
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 116455,
+        "semanticId": 686319
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 125789,
+        "semanticId": 701763
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 143482,
+        "semanticId": 718385
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 255591,
+        "semanticId": 688378
+      },
+      {
+        "contentType": "EN_PHRASE",
+        "uid": 132828,
+        "semanticId": 1116498
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 118631,
+        "semanticId": 688378
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 120067,
+        "semanticId": 691581
+      },
+      {
+        "contentType": "EN_PHRASE",
+        "uid": 105185,
+        "semanticId": 1119138
+      },
+      {
+        "contentType": "EN_PHRASE",
+        "uid": 134155,
+        "semanticId": 1117825
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 120068,
+        "semanticId": 689695
+      },
+      {
+        "contentType": "EN_PHRASE",
+        "uid": 137529,
+        "semanticId": 1176087
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 142859,
+        "semanticId": 717123
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 134509,
+        "semanticId": 712406
+      },
+      {
+        "contentType": "EN_PHRASE",
+        "uid": 132727,
+        "semanticId": 1116395
+      },
+      {
+        "contentType": "EN_PHRASE",
+        "uid": 133126,
+        "semanticId": 1116796
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 147302,
+        "semanticId": 724549
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 120515,
+        "semanticId": 692583
+      },
+      {
+        "contentType": "EN_PHRASE",
+        "uid": 137668,
+        "semanticId": 1178039
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 111769,
+        "semanticId": 677447
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 106541,
+        "semanticId": 669714
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 105293,
+        "semanticId": 665228
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 136536,
+        "semanticId": 712067
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 110501,
+        "semanticId": 673096
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 107229,
+        "semanticId": 668353
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 148392,
+        "semanticId": 725394
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 125727,
+        "semanticId": 702119
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 120991,
+        "semanticId": 690244
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 147551,
+        "semanticId": 725725
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 108718,
+        "semanticId": 672766
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 108698,
+        "semanticId": 671457
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 267820,
+        "semanticId": 699217
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 126921,
+        "semanticId": 699217
+      },
+      {
+        "contentType": "EN_WORD",
+        "uid": 148655,
+        "semanticId": 727786
+      }
+    ],
+    "grammarTargetUids": [
+      35751,
+      35756,
+      35762,
+      35752,
+      35757,
+      35763,
+      35753,
+      35758,
+      35764,
+      35760,
+      35754,
+      35755,
+      35761
+    ],
+    "stageNid": "picture_a1_finish",
+    "stage": {
+      "nid": "picture_a1_finish",
+      "name": [
+        {
+          "lang": "zh",
+          "text": "看图写几句，补上后半"
+        },
+        {
+          "lang": "en",
+          "text": "A Few Sentences from a Picture, Finish the second half"
+        }
+      ],
+      "description": [
+        {
+          "lang": "zh",
+          "text": "开头已写出图上有什么，看你会不会补上看到的细节。"
+        },
+        {
+          "lang": "en",
+          "text": "The opening names what is in the picture; can you add a detail you can see?"
+        }
+      ],
+      "compositionBlueprintNid": "picture_a1",
+      "cover": "write/blueprints/403EAB828CACC5B60C17C7CBF81C9C92.webp",
+      "coverUrl": "https://img.timelywise.cn/write/blueprints/403EAB828CACC5B60C17C7CBF81C9C92.webp?auth_key=1792868015-w6tm7qzrw49n-0-d5ecbe2a778929500ae066a5e197c74e",
+      "coverMd5": "403EAB828CACC5B60C17C7CBF81C9C92",
+      "compositionBlueprint": {
+        "nid": "picture_a1",
+        "coverUrl": "https://img.timelywise.cn/write/blueprints/403EAB828CACC5B60C17C7CBF81C9C92.webp?auth_key=1792868015-w6tm7qzrw49n-0-d5ecbe2a778929500ae066a5e197c74e",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "看图写几句"
+          },
+          {
+            "lang": "en",
+            "text": "A Few Sentences from a Picture"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "先写图上有什么，再补一点看到的细节。"
+          },
+          {
+            "lang": "en",
+            "text": "First write what is in the picture, then add a little more that you can see."
+          }
+        ],
+        "compositionFamilyNid": "picture_based",
+        "frameworkNid": "picture_composition",
+        "framework": {
+          "nid": "picture_composition",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "看图"
+            },
+            {
+              "lang": "en",
+              "text": "Picture Writing"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "看着图画来写：先写图上有什么，再按画面顺序把内容写完整。"
+            },
+            {
+              "lang": "en",
+              "text": "Write from a picture: first say what you see, then follow the picture to complete the story."
+            }
+          ]
+        },
+        "skinNid": "picture_page",
+        "skin": {
+          "nid": "picture_page",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "图画书页"
+            },
+            {
+              "lang": "en",
+              "text": "Picture Page"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "上面是图，下面写你看到的内容。"
+            },
+            {
+              "lang": "en",
+              "text": "A page with a picture on top and writing underneath."
+            }
+          ]
+        },
+        "difficulty": {
+          "max": 1,
+          "min": 0
+        },
+        "order": 1,
+        "minParagraphCount": 2,
+        "maxParagraphCount": 2,
+        "frame": null,
+        "slots": [
+          {
+            "order": 1,
+            "beatNid": "opening",
+            "required": true,
+            "repeatMin": 1,
+            "repeatMax": 1,
+            "allowedParagraphs": [
+              {
+                "paragraphTypeNid": "description",
+                "paragraphType": {
+                  "nid": "description",
+                  "name": [
+                    {
+                      "lang": "zh",
+                      "text": "描述"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Description"
+                    }
+                  ],
+                  "description": [
+                    {
+                      "lang": "zh",
+                      "text": "先说出要写的是谁或什么，再把它的样子和特点写清楚，最后可以补一句感受。"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "First name who or what you are writing about, then add how it looks or what it is like, and you may end with a feeling."
+                    }
+                  ]
+                },
+                "usageName": [
+                  {
+                    "lang": "zh",
+                    "text": "先写图上有什么"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Say what is in the picture"
+                  }
+                ],
+                "usageDescription": [
+                  {
+                    "lang": "zh",
+                    "text": "先点出图上是谁或什么，让人知道这段在写这幅图。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "First name who or what is in the picture."
+                  }
+                ]
+              },
+              {
+                "paragraphTypeNid": "qa",
+                "paragraphType": {
+                  "nid": "qa",
+                  "name": [
+                    {
+                      "lang": "zh",
+                      "text": "问答"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Question and Answer"
+                    }
+                  ],
+                  "description": [
+                    {
+                      "lang": "zh",
+                      "text": "先直接回答问题，再补上相关的细节。问题一般已经写在题目里。"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Answer the question first, then add a little more. The question is usually already in the prompt."
+                    }
+                  ]
+                },
+                "usageName": [
+                  {
+                    "lang": "zh",
+                    "text": "先答图上的问题"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Answer the picture question"
+                  }
+                ],
+                "usageDescription": [
+                  {
+                    "lang": "zh",
+                    "text": "题目问图上什么，第一句就答。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Answer the question about the picture in the first sentence."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "beatNid": "develop",
+            "required": true,
+            "repeatMin": 1,
+            "repeatMax": 1,
+            "allowedParagraphs": [
+              {
+                "paragraphTypeNid": "description",
+                "paragraphType": {
+                  "nid": "description",
+                  "name": [
+                    {
+                      "lang": "zh",
+                      "text": "描述"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Description"
+                    }
+                  ],
+                  "description": [
+                    {
+                      "lang": "zh",
+                      "text": "先说出要写的是谁或什么，再把它的样子和特点写清楚，最后可以补一句感受。"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "First name who or what you are writing about, then add how it looks or what it is like, and you may end with a feeling."
+                    }
+                  ]
+                },
+                "usageName": [
+                  {
+                    "lang": "zh",
+                    "text": "补看到的细节"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Add what you can see"
+                  }
+                ],
+                "usageDescription": [
+                  {
+                    "lang": "zh",
+                    "text": "再写颜色、位置或在做什么。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Add color, place, or what they are doing."
+                  }
+                ]
+              },
+              {
+                "paragraphTypeNid": "recount",
+                "paragraphType": {
+                  "nid": "recount",
+                  "name": [
+                    {
+                      "lang": "zh",
+                      "text": "经过"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "What Happened"
+                    }
+                  ],
+                  "description": [
+                    {
+                      "lang": "zh",
+                      "text": "写下那一次发生了什么：先交代时间和地点，再按顺序写经过，最后写结果或感受。"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Tell what happened that time: set the time and place, then write the events in order, and end with the result or how you felt."
+                    }
+                  ]
+                },
+                "usageName": [
+                  {
+                    "lang": "zh",
+                    "text": "按图写经过"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Follow the picture order"
+                  }
+                ],
+                "usageDescription": [
+                  {
+                    "lang": "zh",
+                    "text": "按图上能看出的先后写下去。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Tell what happens in the order the picture shows."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "system": true,
+        "enabled": true,
+        "created": "2026-09-18T02:23:39.590+00:00",
+        "updated": "2026-10-21T16:11:24.796+00:00"
+      },
+      "difficulty": {
+        "max": 1,
+        "min": 0
+      },
+      "answerKind": "text",
+      "answerMinCount": 1,
+      "answerMaxCount": 1,
+      "lockBlueprintTab": false,
+      "lockExemplarView": false,
+      "slots": [
+        {
+          "order": 1,
+          "beatNid": "opening",
+          "paragraphTypeNid": "description",
+          "paragraphType": {
+            "nid": "description",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "描述"
+              },
+              {
+                "lang": "en",
+                "text": "Description"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "先说出要写的是谁或什么，再把它的样子和特点写清楚，最后可以补一句感受。"
+              },
+              {
+                "lang": "en",
+                "text": "First name who or what you are writing about, then add how it looks or what it is like, and you may end with a feeling."
+              }
+            ]
+          },
+          "fill": "given"
+        },
+        {
+          "order": 2,
+          "beatNid": "develop",
+          "paragraphTypeNid": "description",
+          "paragraphType": {
+            "nid": "description",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "描述"
+              },
+              {
+                "lang": "en",
+                "text": "Description"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "先说出要写的是谁或什么，再把它的样子和特点写清楚，最后可以补一句感受。"
+              },
+              {
+                "lang": "en",
+                "text": "First name who or what you are writing about, then add how it looks or what it is like, and you may end with a feeling."
+              }
+            ]
+          },
+          "fill": "write"
+        }
+      ],
+      "headFill": null,
+      "tailFill": null,
+      "order": 30,
+      "milestones": [],
+      "milestoneList": null,
+      "learnedCount": null,
+      "taskCount": null,
+      "system": true,
+      "enabled": true,
+      "created": "2026-09-18T02:23:39.820+00:00",
+      "updated": "2026-10-21T16:11:25.094+00:00"
+    },
+    "access": "INTERNAL",
+    "created": "2026-09-17T10:35:12.514+00:00",
+    "updated": "2026-10-22T11:02:38.362+00:00",
+    "memberReviewHistory": [
+      {
+        "writingId": 46,
+        "seq": 5,
+        "reviewedAt": "2026-10-24T12:49:31.052+00:00",
+        "score": 83,
+        "grade": "良好",
+        "selected": true
+      },
+      {
+        "writingId": 45,
+        "seq": 4,
+        "reviewedAt": "2026-10-24T12:48:52.752+00:00",
+        "score": 83,
+        "grade": "良好",
+        "selected": false
+      },
+      {
+        "writingId": 40,
+        "seq": 3,
+        "reviewedAt": "2026-10-24T12:44:18.322+00:00",
+        "score": 88,
+        "grade": "良好",
+        "selected": false
+      },
+      {
+        "writingId": 39,
+        "seq": 2,
+        "reviewedAt": "2026-10-24T08:17:24.939+00:00",
+        "score": 78,
+        "grade": "良好",
+        "selected": false
+      },
+      {
+        "writingId": 19,
+        "seq": 1,
+        "reviewedAt": "2026-10-22T11:12:47.375+00:00",
+        "score": 88,
+        "grade": "良好",
+        "selected": false
+      }
+    ],
+    "memberWriting": {
+      "uid": 46,
+      "answerKind": "text",
+      "source": "paper",
+      "status": "submitted",
+      "seq": 5,
+      "parts": [
+        {
+          "key": "opening",
+          "role": "beat",
+          "beatNid": "opening",
+          "fill": "given",
+          "text": "The picture shows a classmate and me. We are on the way home."
+        },
+        {
+          "key": "body_1",
+          "role": "body",
+          "fill": "write",
+          "text": "He is tall and strong. He has short black hair. He is wearing a blue T-shirt and blue shorts. He is carrying a red bag."
+        }
+      ],
+      "mediaKeys": [],
+      "paperImageKeys": [
+        "u/6v/1EEFCC49D4F29C56F01649F2C6D2A4D0.PNG"
+      ],
+      "paperImageUrls": [
+        "http://img.timelywise.cn/u/6v/1EEFCC49D4F29C56F01649F2C6D2A4D0.PNG?auth_key=1792868015-h9yqvh7ug9b7-0-f510b01d0ea2106aef85943e68ee3c45"
+      ],
+      "review": {
+        "status": "done",
+        "jobId": 880970,
+        "warnings": [
+          "原文备注：字迹略潦草但能辨认，无涂改。"
+        ],
+        "attempts": 1,
+        "rubricVersion": "ielts4-2026.10",
+        "level": "A1",
+        "levelLabel": "A1",
+        "reviewedAt": "2026-10-24T12:49:31.052+00:00",
+        "total": 83,
+        "totalDenominator": 100,
+        "grade": "good",
+        "gradeLabel": "良好",
+        "errorFree": {
+          "clean": 4,
+          "total": 4,
+          "label": "无错句"
+        },
+        "dimensions": [
+          {
+            "dimension": "taskAchievement",
+            "score": 8,
+            "scoreDenominator": 10,
+            "weight": 25,
+            "comment": "围绕图上的同学写了外貌、衣着和带的东西，符合看图描述的要求，信息具体。",
+            "name": "任务完成",
+            "skipped": false,
+            "detailItems": [
+              {
+                "label": "看什么",
+                "content": "是否回应题干每个要点；内容切题、充分；写作目的或立场清楚；语气、格式符合文体和对象。篇幅不够也算在这里。"
+              },
+              {
+                "label": "雅思对应",
+                "content": "Task Achievement / Task Response"
+              },
+              {
+                "label": "A1 8 分",
+                "content": "用简单句回应题目每个要点，信息基本完整（谁、什么、在哪里）"
+              },
+              {
+                "label": "本次 8 分",
+                "content": "达到本级要求，只有少量小问题"
+              }
+            ]
+          },
+          {
+            "dimension": "coherence",
+            "score": 8,
+            "scoreDenominator": 10,
+            "weight": 25,
+            "comment": "一句接一句按外貌到衣着到随身物的顺序写，He 指代清楚，读起来顺。",
+            "name": "连贯与衔接",
+            "skipped": false,
+            "detailItems": [
+              {
+                "label": "看什么",
+                "content": "对照这一阶的蓝图：每段是否做到这一拍该做的事；段内句子顺序、段与段的推进；连接词是否自然；指代是否清楚。"
+              },
+              {
+                "label": "雅思对应",
+                "content": "Coherence and Cohesion"
+              },
+              {
+                "label": "A1 8 分",
+                "content": "句子顺序合理，按蓝图分段；会用 and / then"
+              },
+              {
+                "label": "本次 8 分",
+                "content": "达到本级要求，只有少量小问题"
+              }
+            ]
+          },
+          {
+            "dimension": "lexical",
+            "score": 8,
+            "scoreDenominator": 10,
+            "weight": 25,
+            "comment": "tall、strong、short black hair、T-shirt、carrying 等词用得准，拼写正确，字迹基本清楚。",
+            "name": "词汇资源",
+            "skipped": false,
+            "detailItems": [
+              {
+                "label": "看什么",
+                "content": "词汇范围、用词准确、搭配、词形、语域和拼写。用上本题核心词且用对是加分项。"
+              },
+              {
+                "label": "雅思对应",
+                "content": "Lexical Resource"
+              },
+              {
+                "label": "A1 8 分",
+                "content": "日常高频词表达基本意思；常用词拼写正确；偶有选词错误但不影响理解"
+              },
+              {
+                "label": "本次 8 分",
+                "content": "达到本级要求，只有少量小问题"
+              }
+            ]
+          },
+          {
+            "dimension": "grammar",
+            "score": 9,
+            "scoreDenominator": 10,
+            "weight": 25,
+            "comment": "一般现在时和现在进行时都用对，句首大写、句末标点齐全，词与词空开。",
+            "name": "语法多样性及准确性",
+            "skipped": false,
+            "detailItems": [
+              {
+                "label": "看什么",
+                "content": "句式多样性（按本级要求）、语法准确，以及标点和大小写。"
+              },
+              {
+                "label": "雅思对应",
+                "content": "Grammatical Range and Accuracy"
+              },
+              {
+                "label": "A1 8 分",
+                "content": "简单句基本正确：主谓一致、be 动词、一般现在时；大小写和句末标点正确"
+              },
+              {
+                "label": "本次 9 分",
+                "content": "在 10 分和 8 分之间"
+              }
+            ]
+          }
+        ],
+        "summary": "你把图上的同学写得挺清楚，外貌、衣服、带的包都点到了，时态和标点也没出错，书写也算清楚。可以再补一句他们在做什么（比如走路），就能和开头 on the way home 接得更紧。",
+        "priorities": [
+          "加一句他们在做什么，如 We are walking home，呼应开头",
+          "试着用上 give a hand 或 help 这类词，让画面更有故事感"
+        ],
+        "taskPoints": [
+          {
+            "point": "承·展开：再写颜色、位置或在做什么",
+            "status": "covered",
+            "statusLabel": "写到了",
+            "note": ""
+          }
+        ],
+        "issues": [],
+        "highlights": [
+          {
+            "anchor": {
+              "partKey": "body_1",
+              "sentenceId": "body_1.s3",
+              "start": 48,
+              "end": 93,
+              "quote": "He is wearing a blue T-shirt and blue shorts."
+            },
+            "comment": "用 and 把两件衣服连在一句里，自然。"
+          },
+          {
+            "anchor": {
+              "partKey": "body_1",
+              "sentenceId": "body_1.s4",
+              "start": 94,
+              "end": 119,
+              "quote": "He is carrying a red bag."
+            },
+            "comment": "现在进行时用得对，写出了他正在做的事。"
+          }
+        ],
+        "parts": [
+          {
+            "key": "body_1",
+            "comment": "描述具体、时态正确，可以再补一句动作（如走路）让画面更完整。",
+            "correctedText": "He is tall and strong. He has short black hair. He is wearing a blue T-shirt and blue shorts. He is carrying a red bag.",
+            "improvedText": "He is tall and strong. He has short black hair. He is wearing a blue T-shirt and blue shorts, and he is carrying a red bag. We are walking home together."
+          }
+        ],
+        "improvedNotes": [
+          "把带包和走路合并、补充，用 and 连句",
+          "加 We are walking home 呼应开头 on the way home"
+        ],
+        "knowledgeUses": [
+          {
+            "contentType": "EN_WORD",
+            "uid": 128834,
+            "semanticId": 701013,
+            "content": "need",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 274970,
+            "semanticId": 704966,
+            "content": "people",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 119962,
+            "semanticId": 694243,
+            "content": "hand",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_PHRASE",
+            "uid": 139126,
+            "semanticId": 1189794,
+            "content": "people in need",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_PHRASE",
+            "uid": 133552,
+            "semanticId": 1117222,
+            "content": "in need",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_PHRASE",
+            "uid": 135125,
+            "semanticId": 1119685,
+            "content": "give a hand",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_PHRASE",
+            "uid": 134815,
+            "semanticId": 1118485,
+            "content": "help each other",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 118759,
+            "semanticId": 688909,
+            "content": "give",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_PHRASE",
+            "uid": 139136,
+            "semanticId": 1189804,
+            "content": "help others",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 102615,
+            "semanticId": 667476,
+            "content": "always",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 149089,
+            "semanticId": 703153,
+            "content": "other",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 134171,
+            "semanticId": 708843,
+            "content": "proud",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 147401,
+            "semanticId": 726336,
+            "content": "warm",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 252023,
+            "semanticId": 686319,
+            "content": "felt",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 116455,
+            "semanticId": 686319,
+            "content": "feel",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 125789,
+            "semanticId": 701763,
+            "content": "lot",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 143482,
+            "semanticId": 718385,
+            "content": "thank",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 255591,
+            "semanticId": 688378,
+            "content": "got",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_PHRASE",
+            "uid": 132828,
+            "semanticId": 1116498,
+            "content": "a lot",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 118631,
+            "semanticId": 688378,
+            "content": "get",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 120067,
+            "semanticId": 691581,
+            "content": "happily",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_PHRASE",
+            "uid": 105185,
+            "semanticId": 1119138,
+            "content": "get to",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_PHRASE",
+            "uid": 134155,
+            "semanticId": 1117825,
+            "content": "on one's way",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 120068,
+            "semanticId": 689695,
+            "content": "happy",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_PHRASE",
+            "uid": 137529,
+            "semanticId": 1176087,
+            "content": "decide to do",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 142859,
+            "semanticId": 717123,
+            "content": "talk",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 134509,
+            "semanticId": 712406,
+            "content": "push",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_PHRASE",
+            "uid": 132727,
+            "semanticId": 1116395,
+            "content": "ride a bike",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_PHRASE",
+            "uid": 133126,
+            "semanticId": 1116796,
+            "content": "on the way home",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 147302,
+            "semanticId": 724549,
+            "content": "walk",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 120515,
+            "semanticId": 692583,
+            "content": "help",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_PHRASE",
+            "uid": 137668,
+            "semanticId": 1178039,
+            "content": "yesterday afternoon",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 111769,
+            "semanticId": 677447,
+            "content": "decide",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 106541,
+            "semanticId": 669714,
+            "content": "broken",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 105293,
+            "semanticId": 665228,
+            "content": "bike",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 136536,
+            "semanticId": 712067,
+            "content": "ride",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 110501,
+            "semanticId": 673096,
+            "content": "could",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 107229,
+            "semanticId": 668353,
+            "content": "can",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 148392,
+            "semanticId": 725394,
+            "content": "worried",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 125727,
+            "semanticId": 702119,
+            "content": "look",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 120991,
+            "semanticId": 690244,
+            "content": "home",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 147551,
+            "semanticId": 725725,
+            "content": "way",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 108718,
+            "semanticId": 672766,
+            "content": "classmate",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 108698,
+            "semanticId": 671457,
+            "content": "class",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 267820,
+            "semanticId": 699217,
+            "content": "met",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 126921,
+            "semanticId": 699217,
+            "content": "meet",
+            "anchors": []
+          },
+          {
+            "contentType": "EN_WORD",
+            "uid": 148655,
+            "semanticId": 727786,
+            "content": "yesterday",
+            "anchors": []
+          }
+        ],
+        "grammarUses": [
+          {
+            "uid": 35752,
+            "title": "主语 + 动词 → + 宾语 → + 地点 → + 时间",
+            "anchors": []
+          },
+          {
+            "uid": 35753,
+            "title": "What did you do? → 主语 + 动词（+ 宾语）",
+            "anchors": []
+          },
+          {
+            "uid": 35754,
+            "title": "陈述句 vs Do/Did 一般疑问句 vs Why 特殊疑问句",
+            "anchors": []
+          },
+          {
+            "uid": 35755,
+            "title": "主语 + 感官系动词 + 形容词",
+            "anchors": []
+          },
+          {
+            "uid": 35757,
+            "title": "主语 + 动词1 + and + 动词2 → + 宾语2",
+            "anchors": []
+          },
+          {
+            "uid": 35758,
+            "title": "主句 + when / after / before + 时间从句",
+            "anchors": []
+          },
+          {
+            "uid": 35760,
+            "title": "动名词短语 + makes + 某人 + feel + 形容词",
+            "anchors": []
+          },
+          {
+            "uid": 35762,
+            "title": "主句 + because + 原因从句 → 主句 + so + 结果从句",
+            "anchors": []
+          },
+          {
+            "uid": 35764,
+            "title": "某人 + should + 动词 → + 宾语 → + 背景短语",
+            "anchors": []
+          }
+        ],
+        "comment": "",
+        "transcript": ""
+      },
+      "submittedAt": "2026-10-24T12:48:59.015+00:00",
+      "created": "2026-10-24T12:48:59.057+00:00",
+      "updated": "2026-10-24T12:49:31.053+00:00"
+    }
+  }
+}
