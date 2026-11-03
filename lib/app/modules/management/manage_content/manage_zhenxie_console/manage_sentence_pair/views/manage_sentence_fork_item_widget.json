@@ -1,0 +1,923 @@
+{
+    "nid": "ask_modal_subject_tell_listener_modal_could_to_response_clause_polarity",
+    "pairTypeNid": "qa_pair",
+    "pairType": {
+        "nid": "qa_pair",
+        "name": [
+            {
+                "lang": "zh",
+                "text": "问答配对"
+            },
+            {
+                "lang": "en",
+                "text": "Question-Answer Pair"
+            }
+        ],
+        "description": [
+            {
+                "lang": "zh",
+                "text": "用于把一个问句和最直接的答句结构绑定成教学问答对。"
+            },
+            {
+                "lang": "en",
+                "text": "Links a question pattern with its most direct answer pattern for teaching."
+            }
+        ]
+    },
+    "name": [
+        {
+            "lang": "zh",
+            "text": "Could you tell me…?（could）：用 Yes, … / No, … 对照肯否"
+        },
+        {
+            "lang": "en",
+            "text": "Could you tell me…? (could): contrast Yes, … / No, … by polarity"
+        }
+    ],
+    "description": [
+        {
+            "lang": "zh",
+            "text": "别人问 Could you tell me…?（could） 时，用 Yes, … 或 No, … 把肯否说完整。"
+        },
+        {
+            "lang": "en",
+            "text": "After Could you tell me…? (could), answer with a full Yes, … or No, …."
+        }
+    ],
+    "order": 282000.0,
+    "kind": "polarity",
+    "sharedFrom": {
+        "patternNid": "ask_modal_subject_tell_listener",
+        "pattern": {
+            "nid": "ask_modal_subject_tell_listener",
+            "name": [
+                {
+                    "lang": "zh",
+                    "text": "礼貌请求别人告知"
+                },
+                {
+                    "lang": "en",
+                    "text": "Politely Asking Someone to Tell You"
+                }
+            ],
+            "description": [
+                {
+                    "lang": "zh",
+                    "text": "礼貌请求对方告知信息的矩阵问句壳（Can/Could + 主语 + tell + 听话人）；其后的有限从句内容另作 dependent clause 分析，不塞进本。"
+                },
+                {
+                    "lang": "en",
+                    "text": "Polite matrix request shell with Can/Could + subject + tell + listener; any following finite content clause is a separate dependent clause."
+                }
+            ],
+            "template": "{question_request_modal} {question_subject} tell {listener} {context_phrase} {time_expression}?"
+        },
+        "grammarFeatureNids": [
+            "modal_could",
+            "indicative_mood",
+            "active_voice"
+        ],
+        "grammarFeatures": [
+            {
+                "nid": "modal_could",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "情态 could"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Modal Could"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "常表示过去能力、较委婉请求，或较弱的可能性与假设。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Often expresses past ability, polite requests, or weaker possibility and hypothesis."
+                    }
+                ]
+            },
+            {
+                "nid": "indicative_mood",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "陈述语气"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Indicative Mood"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+                    }
+                ]
+            },
+            {
+                "nid": "active_voice",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "主动语态"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Active Voice"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+                    }
+                ]
+            }
+        ]
+    },
+    "sharedToPatternNid": "response_clause",
+    "sharedToPattern": {
+        "nid": "response_clause",
+        "name": [
+            {
+                "lang": "zh",
+                "text": "用应答语带出完整一句"
+            },
+            {
+                "lang": "en",
+                "text": "Responding with a Marker Plus a Full Clause"
+            }
+        ],
+        "description": [
+            {
+                "lang": "zh",
+                "text": "先明确表示答应，再把后面的信息补完整，让回应更自然也更完整。"
+            },
+            {
+                "lang": "en",
+                "text": "Used to say yes first and then add a complete response."
+            }
+        ],
+        "template": "{response_chunk}, {response_content}."
+    },
+    "contrastDimensionNid": "polarity",
+    "contrastDimension": {
+        "nid": "polarity",
+        "name": [
+            {
+                "lang": "zh",
+                "text": "肯定和否定怎样对照"
+            },
+            {
+                "lang": "en",
+                "text": "Affirmative vs Negative Contrast"
+            }
+        ],
+        "description": [
+            {
+                "lang": "zh",
+                "text": "用于比较同一个意思说成肯定或否定时的差异。"
+            },
+            {
+                "lang": "en",
+                "text": "Used to compare how the same idea changes between affirmative and negative forms."
+            }
+        ]
+    },
+    "soloPairPractice": "forbidden",
+    "members": [
+        {
+            "pairNid": "ask_modal_tell_to_affirmative_clause",
+            "pair": {
+                "nid": "ask_modal_tell_to_affirmative_clause",
+                "order": 281000.0,
+                "pairTypeNid": "qa_pair",
+                "pairType": {
+                    "nid": "qa_pair",
+                    "name": [
+                        {
+                            "lang": "zh",
+                            "text": "问答配对"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Question-Answer Pair"
+                        }
+                    ],
+                    "description": [
+                        {
+                            "lang": "zh",
+                            "text": "用于把一个问句和最直接的答句结构绑定成教学问答对。"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Links a question pattern with its most direct answer pattern for teaching."
+                        }
+                    ]
+                },
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "礼貌请求告知并得到肯定完整回答"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Could-You-Tell Request and Full Yes Answer"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "礼貌请求别人告知某事，再用完整肯定答句作答。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "A could-you-tell request is answered with a full yes-clause."
+                    }
+                ],
+                "teachingExampleFrom": "Could you tell me the way?",
+                "teachingExampleTo": "Yes, I can.",
+                "practiceMode": "fork",
+                "preferredPractice": "fork",
+                "system": true,
+                "enabled": true,
+                "fromRealization": {
+                    "patternNid": "ask_modal_subject_tell_listener",
+                    "pattern": {
+                        "nid": "ask_modal_subject_tell_listener",
+                        "name": [
+                            {
+                                "lang": "zh",
+                                "text": "礼貌请求别人告知"
+                            },
+                            {
+                                "lang": "en",
+                                "text": "Politely Asking Someone to Tell You"
+                            }
+                        ],
+                        "description": [
+                            {
+                                "lang": "zh",
+                                "text": "礼貌请求对方告知信息的矩阵问句壳（Can/Could + 主语 + tell + 听话人）；其后的有限从句内容另作 dependent clause 分析，不塞进本。"
+                            },
+                            {
+                                "lang": "en",
+                                "text": "Polite matrix request shell with Can/Could + subject + tell + listener; any following finite content clause is a separate dependent clause."
+                            }
+                        ],
+                        "template": "{question_request_modal} {question_subject} tell {listener} {context_phrase} {time_expression}?"
+                    },
+                    "grammarFeatureNids": [
+                        "modal_could",
+                        "indicative_mood",
+                        "active_voice"
+                    ],
+                    "grammarFeatures": [
+                        {
+                            "nid": "modal_could",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "情态 could"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Modal Could"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "常表示过去能力、较委婉请求，或较弱的可能性与假设。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Often expresses past ability, polite requests, or weaker possibility and hypothesis."
+                                }
+                            ]
+                        },
+                        {
+                            "nid": "indicative_mood",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "陈述语气"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Indicative Mood"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+                                }
+                            ]
+                        },
+                        {
+                            "nid": "active_voice",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "主动语态"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Active Voice"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "toRealization": {
+                    "patternNid": "response_clause",
+                    "pattern": {
+                        "nid": "response_clause",
+                        "name": [
+                            {
+                                "lang": "zh",
+                                "text": "用应答语带出完整一句"
+                            },
+                            {
+                                "lang": "en",
+                                "text": "Responding with a Marker Plus a Full Clause"
+                            }
+                        ],
+                        "description": [
+                            {
+                                "lang": "zh",
+                                "text": "先明确表示答应，再把后面的信息补完整，让回应更自然也更完整。"
+                            },
+                            {
+                                "lang": "en",
+                                "text": "Used to say yes first and then add a complete response."
+                            }
+                        ],
+                        "template": "{response_chunk}, {response_content}."
+                    },
+                    "grammarFeatureNids": [
+                        "affirmative",
+                        "indicative_mood",
+                        "active_voice"
+                    ],
+                    "grammarFeatures": [
+                        {
+                            "nid": "affirmative",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "肯定形式"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Affirmative"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示肯定、确认或直接陈述某事成立。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Marks a positive statement, confirmation, or direct assertion that something holds true."
+                                }
+                            ]
+                        },
+                        {
+                            "nid": "indicative_mood",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "陈述语气"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Indicative Mood"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+                                }
+                            ]
+                        },
+                        {
+                            "nid": "active_voice",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "主动语态"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Active Voice"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "interactionModes": [
+                    "connect",
+                    "sort"
+                ],
+                "relationDirection": "directed",
+                "orderConstraint": "from_before_to",
+                "semanticAnchorMappings": [
+                    {
+                        "fromPatternSlotKey": "question_subject",
+                        "fromPatternSlot": {
+                            "nid": "question_subject",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "问句中的主语"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Question Subject"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示提问时句子里面真正承担动作或状态的那个主语。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows the real subject inside a question: the person or thing that does the action or has the state."
+                                }
+                            ],
+                            "categoryNid": "subject_entity",
+                            "color": "rgba(14,165,233,1)"
+                        },
+                        "toPatternSlotKey": "response_content",
+                        "toPatternSlot": {
+                            "nid": "response_content",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "回应内容"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Response Content"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示在 yes、no 这类回应开头后面，真正补上的回答内容。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows the specific content connected with response."
+                                }
+                            ],
+                            "categoryNid": "clause_content",
+                            "color": "rgba(99,102,241,1)"
+                        }
+                    }
+                ],
+                "sentenceRealizations": [],
+                "created": "2026-08-18T10:52:04.778+00:00",
+                "updated": "2026-08-18T10:52:04.778+00:00"
+            },
+            "valueNid": "affirmative",
+            "teachingExampleFrom": "Could you tell me the way?",
+            "teachingExampleTo": "Yes, I can."
+        },
+        {
+            "pairNid": "ask_modal_tell_to_negative_clause",
+            "pair": {
+                "nid": "ask_modal_tell_to_negative_clause",
+                "order": 282000.0,
+                "pairTypeNid": "qa_pair",
+                "pairType": {
+                    "nid": "qa_pair",
+                    "name": [
+                        {
+                            "lang": "zh",
+                            "text": "问答配对"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Question-Answer Pair"
+                        }
+                    ],
+                    "description": [
+                        {
+                            "lang": "zh",
+                            "text": "用于把一个问句和最直接的答句结构绑定成教学问答对。"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Links a question pattern with its most direct answer pattern for teaching."
+                        }
+                    ]
+                },
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "礼貌请求告知并得到否定完整回答"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Could-You-Tell Request and Full No Answer"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "礼貌请求别人告知某事，再用完整否定答句作答。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "A could-you-tell request is answered with a full no-clause."
+                    }
+                ],
+                "teachingExampleFrom": "Could you tell me the way?",
+                "teachingExampleTo": "No, I can't.",
+                "practiceMode": "fork",
+                "preferredPractice": "fork",
+                "system": true,
+                "enabled": true,
+                "fromRealization": {
+                    "patternNid": "ask_modal_subject_tell_listener",
+                    "pattern": {
+                        "nid": "ask_modal_subject_tell_listener",
+                        "name": [
+                            {
+                                "lang": "zh",
+                                "text": "礼貌请求别人告知"
+                            },
+                            {
+                                "lang": "en",
+                                "text": "Politely Asking Someone to Tell You"
+                            }
+                        ],
+                        "description": [
+                            {
+                                "lang": "zh",
+                                "text": "礼貌请求对方告知信息的矩阵问句壳（Can/Could + 主语 + tell + 听话人）；其后的有限从句内容另作 dependent clause 分析，不塞进本。"
+                            },
+                            {
+                                "lang": "en",
+                                "text": "Polite matrix request shell with Can/Could + subject + tell + listener; any following finite content clause is a separate dependent clause."
+                            }
+                        ],
+                        "template": "{question_request_modal} {question_subject} tell {listener} {context_phrase} {time_expression}?"
+                    },
+                    "grammarFeatureNids": [
+                        "modal_could",
+                        "indicative_mood",
+                        "active_voice"
+                    ],
+                    "grammarFeatures": [
+                        {
+                            "nid": "modal_could",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "情态 could"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Modal Could"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "常表示过去能力、较委婉请求，或较弱的可能性与假设。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Often expresses past ability, polite requests, or weaker possibility and hypothesis."
+                                }
+                            ]
+                        },
+                        {
+                            "nid": "indicative_mood",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "陈述语气"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Indicative Mood"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+                                }
+                            ]
+                        },
+                        {
+                            "nid": "active_voice",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "主动语态"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Active Voice"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "toRealization": {
+                    "patternNid": "response_clause",
+                    "pattern": {
+                        "nid": "response_clause",
+                        "name": [
+                            {
+                                "lang": "zh",
+                                "text": "用应答语带出完整一句"
+                            },
+                            {
+                                "lang": "en",
+                                "text": "Responding with a Marker Plus a Full Clause"
+                            }
+                        ],
+                        "description": [
+                            {
+                                "lang": "zh",
+                                "text": "先明确表示答应，再把后面的信息补完整，让回应更自然也更完整。"
+                            },
+                            {
+                                "lang": "en",
+                                "text": "Used to say yes first and then add a complete response."
+                            }
+                        ],
+                        "template": "{response_chunk}, {response_content}."
+                    },
+                    "grammarFeatureNids": [
+                        "negative",
+                        "indicative_mood",
+                        "active_voice"
+                    ],
+                    "grammarFeatures": [
+                        {
+                            "nid": "negative",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "否定形式"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Negative"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示否定、不存在、不发生或不允许，常见于 not、never、no 等结构。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Marks negation, absence, non-occurrence, or prohibition, often signaled by not, never, or no."
+                                }
+                            ]
+                        },
+                        {
+                            "nid": "indicative_mood",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "陈述语气"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Indicative Mood"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+                                }
+                            ]
+                        },
+                        {
+                            "nid": "active_voice",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "主动语态"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Active Voice"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "interactionModes": [
+                    "connect",
+                    "sort"
+                ],
+                "relationDirection": "directed",
+                "orderConstraint": "from_before_to",
+                "semanticAnchorMappings": [
+                    {
+                        "fromPatternSlotKey": "question_subject",
+                        "fromPatternSlot": {
+                            "nid": "question_subject",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "问句中的主语"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Question Subject"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示提问时句子里面真正承担动作或状态的那个主语。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows the real subject inside a question: the person or thing that does the action or has the state."
+                                }
+                            ],
+                            "categoryNid": "subject_entity",
+                            "color": "rgba(14,165,233,1)"
+                        },
+                        "toPatternSlotKey": "response_content",
+                        "toPatternSlot": {
+                            "nid": "response_content",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "回应内容"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Response Content"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示在 yes、no 这类回应开头后面，真正补上的回答内容。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows the specific content connected with response."
+                                }
+                            ],
+                            "categoryNid": "clause_content",
+                            "color": "rgba(99,102,241,1)"
+                        }
+                    }
+                ],
+                "sentenceRealizations": [],
+                "created": "2026-08-18T10:52:04.779+00:00",
+                "updated": "2026-08-18T10:52:04.779+00:00"
+            },
+            "valueNid": "negative",
+            "teachingExampleFrom": "Could you tell me the way?",
+            "teachingExampleTo": "No, I can't."
+        }
+    ],
+    "boardExample": {
+        "fromText": "Could you tell me the way?",
+        "fromVisualHint": [
+            {
+                "lang": "zh",
+                "text": "两张图：问句在图里成立 / 问句在图里不成立"
+            },
+            {
+                "lang": "en",
+                "text": "Two pictures: the question is true / the question is false"
+            }
+        ],
+        "matches": [
+            {
+                "valueNid": "affirmative",
+                "toText": "Yes, I can.",
+                "visualHint": [
+                    {
+                        "lang": "zh",
+                        "text": "问句成立的那张图"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "The picture that makes the question true"
+                    }
+                ]
+            },
+            {
+                "valueNid": "negative",
+                "toText": "No, I can't.",
+                "visualHint": [
+                    {
+                        "lang": "zh",
+                        "text": "问句不成立的那张图"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "The picture that makes the question false"
+                    }
+                ]
+            }
+        ]
+    },
+    "usage": [
+        {
+            "lang": "zh",
+            "text": "答句只在 Yes, … / No, … 上分叉。只抽一边时所有答句同极性，没有肯否辨识，必须两成员一起出题。出题抽两个 member。From 卡共用「Could you tell me the way?」；两张图钉死极性（问句成立 → 「Yes, I can.」；问句不成立 → 「No, I can't.」）。对上后留下 From → To，不要消失。不要只抽其中一条。"
+        },
+        {
+            "lang": "en",
+            "text": "Answers only fork on Yes, … / No, …. A one-sided item has no yes/no contrast; both members must appear together. Use both members. Share “Could you tell me the way?”; two pictures (true vs false) carry polarity. Match to “Yes, I can.” / “No, I can't.”. Leave the From → To bridge. Never deal one side alone."
+        }
+    ],
+    "system": true,
+    "enabled": true,
+    "created": "2026-08-18T10:52:04.364+00:00",
+    "updated": "2026-08-18T10:52:04.364+00:00"
+}

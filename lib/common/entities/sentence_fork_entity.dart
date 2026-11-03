@@ -1,0 +1,475 @@
+import 'card_public_entity.dart';
+
+/// 句子分叉实体，对齐 manage_sentence_fork_item_widget.json 结构。
+class SentenceForkEntity {
+  String? nid;
+  String? pairTypeNid;
+  SentenceForkNamedInfoEntity? pairType;
+  List<LanguageText?>? name;
+  List<LanguageText?>? description;
+  double? order;
+  String? kind;
+  SentenceForkRealizationInfoEntity? sharedFrom;
+  String? sharedToPatternNid;
+  SentenceForkPatternInfoEntity? sharedToPattern;
+  String? contrastDimensionNid;
+  SentenceForkNamedInfoEntity? contrastDimension;
+  String? soloPairPractice;
+  List<SentenceForkMemberEntity?>? members;
+  SentenceForkBoardExampleEntity? boardExample;
+  List<LanguageText?>? usage;
+  bool? system;
+  bool? enabled;
+  String? created;
+  String? updated;
+
+  SentenceForkEntity({
+    this.nid,
+    this.pairTypeNid,
+    this.pairType,
+    this.name,
+    this.description,
+    this.order,
+    this.kind,
+    this.sharedFrom,
+    this.sharedToPatternNid,
+    this.sharedToPattern,
+    this.contrastDimensionNid,
+    this.contrastDimension,
+    this.soloPairPractice,
+    this.members,
+    this.boardExample,
+    this.usage,
+    this.system,
+    this.enabled,
+    this.created,
+    this.updated,
+  });
+
+  SentenceForkEntity.fromJson(Map<String, dynamic> json) {
+    nid = json['nid']?.toString();
+    pairTypeNid = json['pairTypeNid']?.toString();
+    pairType = _parseObject(json['pairType'], SentenceForkNamedInfoEntity.fromJson);
+    name = _parseLanguageTextList(json['name']);
+    description = _parseLanguageTextList(json['description']);
+    order = _parseDouble(json['order']);
+    kind = json['kind']?.toString();
+    sharedFrom = _parseObject(json['sharedFrom'], SentenceForkRealizationInfoEntity.fromJson);
+    sharedToPatternNid = json['sharedToPatternNid']?.toString();
+    sharedToPattern = _parseObject(json['sharedToPattern'], SentenceForkPatternInfoEntity.fromJson);
+    contrastDimensionNid = json['contrastDimensionNid']?.toString();
+    contrastDimension = _parseObject(json['contrastDimension'], SentenceForkNamedInfoEntity.fromJson);
+    soloPairPractice = json['soloPairPractice']?.toString();
+    members = _parseObjectList(json['members'], SentenceForkMemberEntity.fromJson);
+    boardExample = _parseObject(json['boardExample'], SentenceForkBoardExampleEntity.fromJson);
+    usage = _parseLanguageTextList(json['usage']);
+    system = json['system'];
+    enabled = json['enabled'];
+    created = json['created']?.toString();
+    updated = json['updated']?.toString();
+  }
+
+  Map<String, dynamic> toJson() {
+    final data = <String, dynamic>{};
+    data['nid'] = nid;
+    data['pairTypeNid'] = pairTypeNid;
+    data['pairType'] = pairType?.toJson();
+    data['name'] = name?.map((v) => v?.toJson()).toList();
+    data['description'] = description?.map((v) => v?.toJson()).toList();
+    data['order'] = order;
+    data['kind'] = kind;
+    data['sharedFrom'] = sharedFrom?.toJson();
+    data['sharedToPatternNid'] = sharedToPatternNid;
+    data['sharedToPattern'] = sharedToPattern?.toJson();
+    data['contrastDimensionNid'] = contrastDimensionNid;
+    data['contrastDimension'] = contrastDimension?.toJson();
+    data['soloPairPractice'] = soloPairPractice;
+    data['members'] = members?.map((v) => v?.toJson()).toList();
+    data['boardExample'] = boardExample?.toJson();
+    data['usage'] = usage?.map((v) => v?.toJson()).toList();
+    data['system'] = system;
+    data['enabled'] = enabled;
+    data['created'] = created;
+    data['updated'] = updated;
+    return data;
+  }
+}
+
+/// 句子分叉里的通用命名信息。
+class SentenceForkNamedInfoEntity {
+  String? nid;
+  List<LanguageText?>? name;
+  List<LanguageText?>? description;
+  String? categoryNid;
+  List<String?>? usageKinds;
+  List<String?>? surfaceFromSlotKeys;
+  String? color;
+
+  SentenceForkNamedInfoEntity({
+    this.nid,
+    this.name,
+    this.description,
+    this.categoryNid,
+    this.usageKinds,
+    this.surfaceFromSlotKeys,
+    this.color,
+  });
+
+  SentenceForkNamedInfoEntity.fromJson(Map<String, dynamic> json) {
+    nid = json['nid']?.toString();
+    name = _parseLanguageTextList(json['name']);
+    description = _parseLanguageTextList(json['description']);
+    categoryNid = json['categoryNid']?.toString();
+    usageKinds = _parseStringList(json['usageKinds']);
+    surfaceFromSlotKeys = _parseStringList(json['surfaceFromSlotKeys']);
+    color = json['color']?.toString();
+  }
+
+  Map<String, dynamic> toJson() {
+    final data = <String, dynamic>{};
+    data['nid'] = nid;
+    data['name'] = name?.map((v) => v?.toJson()).toList();
+    data['description'] = description?.map((v) => v?.toJson()).toList();
+    data['categoryNid'] = categoryNid;
+    data['usageKinds'] = usageKinds;
+    data['surfaceFromSlotKeys'] = surfaceFromSlotKeys;
+    data['color'] = color;
+    return data;
+  }
+}
+
+/// 句子分叉里的轻量句型信息。
+class SentenceForkPatternInfoEntity {
+  String? nid;
+  List<LanguageText?>? name;
+  List<LanguageText?>? description;
+  String? template;
+
+  SentenceForkPatternInfoEntity({
+    this.nid,
+    this.name,
+    this.description,
+    this.template,
+  });
+
+  SentenceForkPatternInfoEntity.fromJson(Map<String, dynamic> json) {
+    nid = json['nid']?.toString();
+    name = _parseLanguageTextList(json['name']);
+    description = _parseLanguageTextList(json['description']);
+    template = json['template']?.toString();
+  }
+
+  Map<String, dynamic> toJson() {
+    final data = <String, dynamic>{};
+    data['nid'] = nid;
+    data['name'] = name?.map((v) => v?.toJson()).toList();
+    data['description'] = description?.map((v) => v?.toJson()).toList();
+    data['template'] = template;
+    return data;
+  }
+}
+
+/// 句子分叉里的 realization 信息。
+class SentenceForkRealizationInfoEntity {
+  String? patternNid;
+  SentenceForkPatternInfoEntity? pattern;
+  List<String?>? grammarFeatureNids;
+  List<SentenceForkNamedInfoEntity?>? grammarFeatures;
+
+  SentenceForkRealizationInfoEntity({
+    this.patternNid,
+    this.pattern,
+    this.grammarFeatureNids,
+    this.grammarFeatures,
+  });
+
+  SentenceForkRealizationInfoEntity.fromJson(Map<String, dynamic> json) {
+    patternNid = json['patternNid']?.toString();
+    pattern = _parseObject(json['pattern'], SentenceForkPatternInfoEntity.fromJson);
+    grammarFeatureNids = _parseStringList(json['grammarFeatureNids']);
+    grammarFeatures = _parseObjectList(json['grammarFeatures'], SentenceForkNamedInfoEntity.fromJson);
+  }
+
+  Map<String, dynamic> toJson() {
+    final data = <String, dynamic>{};
+    data['patternNid'] = patternNid;
+    data['pattern'] = pattern?.toJson();
+    data['grammarFeatureNids'] = grammarFeatureNids;
+    data['grammarFeatures'] = grammarFeatures?.map((v) => v?.toJson()).toList();
+    return data;
+  }
+}
+
+/// fork 内嵌的配对实体。
+class SentenceForkPairEntity {
+  String? nid;
+  double? order;
+  String? pairTypeNid;
+  SentenceForkNamedInfoEntity? pairType;
+  List<LanguageText?>? name;
+  List<LanguageText?>? description;
+  String? teachingExampleFrom;
+  String? teachingExampleTo;
+  String? practiceMode;
+  String? preferredPractice;
+  bool? system;
+  bool? enabled;
+  SentenceForkRealizationInfoEntity? fromRealization;
+  SentenceForkRealizationInfoEntity? toRealization;
+  List<String?>? interactionModes;
+  String? relationDirection;
+  String? orderConstraint;
+  List<SentenceForkSemanticAnchorMappingEntity?>? semanticAnchorMappings;
+  List<SentenceForkSentenceRealizationEntity?>? sentenceRealizations;
+  String? created;
+  String? updated;
+
+  SentenceForkPairEntity({
+    this.nid,
+    this.order,
+    this.pairTypeNid,
+    this.pairType,
+    this.name,
+    this.description,
+    this.teachingExampleFrom,
+    this.teachingExampleTo,
+    this.practiceMode,
+    this.preferredPractice,
+    this.system,
+    this.enabled,
+    this.fromRealization,
+    this.toRealization,
+    this.interactionModes,
+    this.relationDirection,
+    this.orderConstraint,
+    this.semanticAnchorMappings,
+    this.sentenceRealizations,
+    this.created,
+    this.updated,
+  });
+
+  SentenceForkPairEntity.fromJson(Map<String, dynamic> json) {
+    nid = json['nid']?.toString();
+    order = _parseDouble(json['order']);
+    pairTypeNid = json['pairTypeNid']?.toString();
+    pairType = _parseObject(json['pairType'], SentenceForkNamedInfoEntity.fromJson);
+    name = _parseLanguageTextList(json['name']);
+    description = _parseLanguageTextList(json['description']);
+    teachingExampleFrom = json['teachingExampleFrom']?.toString();
+    teachingExampleTo = json['teachingExampleTo']?.toString();
+    practiceMode = json['practiceMode']?.toString();
+    preferredPractice = json['preferredPractice']?.toString();
+    system = json['system'];
+    enabled = json['enabled'];
+    fromRealization = _parseObject(json['fromRealization'], SentenceForkRealizationInfoEntity.fromJson);
+    toRealization = _parseObject(json['toRealization'], SentenceForkRealizationInfoEntity.fromJson);
+    interactionModes = _parseStringList(json['interactionModes']);
+    relationDirection = json['relationDirection']?.toString();
+    orderConstraint = json['orderConstraint']?.toString();
+    semanticAnchorMappings = _parseObjectList(json['semanticAnchorMappings'], SentenceForkSemanticAnchorMappingEntity.fromJson);
+    sentenceRealizations = _parseObjectList(json['sentenceRealizations'], SentenceForkSentenceRealizationEntity.fromJson);
+    created = json['created']?.toString();
+    updated = json['updated']?.toString();
+  }
+
+  Map<String, dynamic> toJson() {
+    final data = <String, dynamic>{};
+    data['nid'] = nid;
+    data['order'] = order;
+    data['pairTypeNid'] = pairTypeNid;
+    data['pairType'] = pairType?.toJson();
+    data['name'] = name?.map((v) => v?.toJson()).toList();
+    data['description'] = description?.map((v) => v?.toJson()).toList();
+    data['teachingExampleFrom'] = teachingExampleFrom;
+    data['teachingExampleTo'] = teachingExampleTo;
+    data['practiceMode'] = practiceMode;
+    data['preferredPractice'] = preferredPractice;
+    data['system'] = system;
+    data['enabled'] = enabled;
+    data['fromRealization'] = fromRealization?.toJson();
+    data['toRealization'] = toRealization?.toJson();
+    data['interactionModes'] = interactionModes;
+    data['relationDirection'] = relationDirection;
+    data['orderConstraint'] = orderConstraint;
+    data['semanticAnchorMappings'] = semanticAnchorMappings?.map((v) => v?.toJson()).toList();
+    data['sentenceRealizations'] = sentenceRealizations?.map((v) => v?.toJson()).toList();
+    data['created'] = created;
+    data['updated'] = updated;
+    return data;
+  }
+}
+
+/// fork 内嵌配对里的语义锚点映射。
+class SentenceForkSemanticAnchorMappingEntity {
+  String? fromPatternSlotKey;
+  SentenceForkNamedInfoEntity? fromPatternSlot;
+  String? toPatternSlotKey;
+  SentenceForkNamedInfoEntity? toPatternSlot;
+
+  SentenceForkSemanticAnchorMappingEntity({
+    this.fromPatternSlotKey,
+    this.fromPatternSlot,
+    this.toPatternSlotKey,
+    this.toPatternSlot,
+  });
+
+  SentenceForkSemanticAnchorMappingEntity.fromJson(Map<String, dynamic> json) {
+    fromPatternSlotKey = json['fromPatternSlotKey']?.toString();
+    fromPatternSlot = _parseObject(json['fromPatternSlot'], SentenceForkNamedInfoEntity.fromJson);
+    toPatternSlotKey = json['toPatternSlotKey']?.toString();
+    toPatternSlot = _parseObject(json['toPatternSlot'], SentenceForkNamedInfoEntity.fromJson);
+  }
+
+  Map<String, dynamic> toJson() {
+    final data = <String, dynamic>{};
+    data['fromPatternSlotKey'] = fromPatternSlotKey;
+    data['fromPatternSlot'] = fromPatternSlot?.toJson();
+    data['toPatternSlotKey'] = toPatternSlotKey;
+    data['toPatternSlot'] = toPatternSlot?.toJson();
+    return data;
+  }
+}
+
+/// fork 内嵌配对里的句子实现。
+class SentenceForkSentenceRealizationEntity {
+  int? sentenceId;
+  int? order;
+
+  SentenceForkSentenceRealizationEntity({
+    this.sentenceId,
+    this.order,
+  });
+
+  SentenceForkSentenceRealizationEntity.fromJson(Map<String, dynamic> json) {
+    sentenceId = json['sentenceId']?.toInt();
+    order = json['order']?.toInt();
+  }
+
+  Map<String, dynamic> toJson() {
+    final data = <String, dynamic>{};
+    data['sentenceId'] = sentenceId;
+    data['order'] = order;
+    return data;
+  }
+}
+
+/// fork 成员，承载具体 pair 与该分支示例。
+class SentenceForkMemberEntity {
+  String? pairNid;
+  SentenceForkPairEntity? pair;
+  String? valueNid;
+  String? teachingExampleFrom;
+  String? teachingExampleTo;
+
+  SentenceForkMemberEntity({
+    this.pairNid,
+    this.pair,
+    this.valueNid,
+    this.teachingExampleFrom,
+    this.teachingExampleTo,
+  });
+
+  SentenceForkMemberEntity.fromJson(Map<String, dynamic> json) {
+    pairNid = json['pairNid']?.toString();
+    pair = _parseObject(json['pair'], SentenceForkPairEntity.fromJson);
+    valueNid = json['valueNid']?.toString();
+    teachingExampleFrom = json['teachingExampleFrom']?.toString();
+    teachingExampleTo = json['teachingExampleTo']?.toString();
+  }
+
+  Map<String, dynamic> toJson() {
+    final data = <String, dynamic>{};
+    data['pairNid'] = pairNid;
+    data['pair'] = pair?.toJson();
+    data['valueNid'] = valueNid;
+    data['teachingExampleFrom'] = teachingExampleFrom;
+    data['teachingExampleTo'] = teachingExampleTo;
+    return data;
+  }
+}
+
+/// 板书示例配置，描述 from 文案与候选匹配项。
+class SentenceForkBoardExampleEntity {
+  String? fromText;
+  List<LanguageText?>? fromVisualHint;
+  List<SentenceForkBoardExampleMatchEntity?>? matches;
+
+  SentenceForkBoardExampleEntity({
+    this.fromText,
+    this.fromVisualHint,
+    this.matches,
+  });
+
+  SentenceForkBoardExampleEntity.fromJson(Map<String, dynamic> json) {
+    fromText = json['fromText']?.toString();
+    fromVisualHint = _parseLanguageTextList(json['fromVisualHint']);
+    matches = _parseObjectList(json['matches'], SentenceForkBoardExampleMatchEntity.fromJson);
+  }
+
+  Map<String, dynamic> toJson() {
+    final data = <String, dynamic>{};
+    data['fromText'] = fromText;
+    data['fromVisualHint'] = fromVisualHint?.map((v) => v?.toJson()).toList();
+    data['matches'] = matches?.map((v) => v?.toJson()).toList();
+    return data;
+  }
+}
+
+/// 板书中的单个候选答句。
+class SentenceForkBoardExampleMatchEntity {
+  String? valueNid;
+  String? toText;
+  List<LanguageText?>? visualHint;
+
+  SentenceForkBoardExampleMatchEntity({
+    this.valueNid,
+    this.toText,
+    this.visualHint,
+  });
+
+  SentenceForkBoardExampleMatchEntity.fromJson(Map<String, dynamic> json) {
+    valueNid = json['valueNid']?.toString();
+    toText = json['toText']?.toString();
+    visualHint = _parseLanguageTextList(json['visualHint']);
+  }
+
+  Map<String, dynamic> toJson() {
+    final data = <String, dynamic>{};
+    data['valueNid'] = valueNid;
+    data['toText'] = toText;
+    data['visualHint'] = visualHint?.map((v) => v?.toJson()).toList();
+    return data;
+  }
+}
+
+List<LanguageText?>? _parseLanguageTextList(dynamic value) {
+  if (value is! List) return null;
+  return value.map((item) {
+    if (item == null || item is! Map) return null;
+    return LanguageText.fromJson(Map<String, dynamic>.from(item));
+  }).toList();
+}
+
+List<String?>? _parseStringList(dynamic value) {
+  if (value is! List) return null;
+  return value.map((item) => item?.toString()).toList();
+}
+
+T? _parseObject<T>(dynamic value, T Function(Map<String, dynamic> json) parser) {
+  if (value is! Map) return null;
+  return parser(Map<String, dynamic>.from(value));
+}
+
+List<T?>? _parseObjectList<T>(dynamic value, T Function(Map<String, dynamic> json) parser) {
+  if (value is! List) return null;
+  return value.map((item) {
+    if (item == null || item is! Map) return null;
+    return parser(Map<String, dynamic>.from(item));
+  }).toList();
+}
+
+double? _parseDouble(dynamic value) {
+  if (value == null) return null;
+  if (value is num) return value.toDouble();
+  return double.tryParse(value.toString());
+}

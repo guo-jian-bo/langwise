@@ -1,0 +1,2055 @@
+{
+    "code": 200,
+    "data": {
+        "nid": "evidence_data_report_that",
+        "name": [
+            {
+                "lang": "zh",
+                "text": "用数据来源说明发现"
+            },
+            {
+                "lang": "en",
+                "text": "Reporting Evidence from a Data Source"
+            }
+        ],
+        "description": [
+            {
+                "lang": "zh",
+                "text": "先摆出数据来源，再接具体发现。"
+            },
+            {
+                "lang": "en",
+                "text": "Used to evidence from a data source and bring outside information into the sentence."
+            }
+        ],
+        "familyNid": "opinion_and_support",
+        "family": {
+            "nid": "opinion_and_support",
+            "name": [
+                {
+                    "lang": "zh",
+                    "text": "提出观点并拿出依据"
+                },
+                {
+                    "lang": "en",
+                    "text": "Stating a View and Supporting It"
+                }
+            ],
+            "description": [
+                {
+                    "lang": "zh",
+                    "text": "这一组句型帮助学习者先把立场说出来，再用例子、经历、数据或别人的信息把这句话撑住。"
+                },
+                {
+                    "lang": "en",
+                    "text": "This group helps learners put forward a view and then support it with examples, personal experience, data, or outside information."
+                }
+            ]
+        },
+        "difficulty": {
+            "max": 4,
+            "min": 3
+        },
+        "order": 16000.0,
+        "blueprintScope": "sentence",
+        "patternTier": "specialized",
+        "analysisEligible": true,
+        "template": "{data_source} {report_verb_marking} that {evidence_clause}.",
+        "controlledGrammarSlots": [
+            {
+                "slotKey": "report_verb",
+                "rendersAs": "report_verb_marking",
+                "options": [
+                    "show",
+                    "shows",
+                    "suggest",
+                    "suggests"
+                ],
+                "activationFeatureNids": [
+                    "affirmative"
+                ]
+            },
+            {
+                "slotKey": "report_verb_negative",
+                "rendersAs": "report_verb_marking",
+                "options": [
+                    "do not show",
+                    "does not show",
+                    "don't show",
+                    "doesn't show",
+                    "did not show",
+                    "didn't show",
+                    "do not suggest",
+                    "does not suggest",
+                    "don't suggest",
+                    "doesn't suggest",
+                    "did not suggest",
+                    "didn't suggest"
+                ],
+                "activationFeatureNids": [
+                    "negative"
+                ]
+            }
+        ],
+        "controlledGrammarSlotList": [
+            {
+                "slotKey": "report_verb",
+                "rendersAs": "report_verb_marking",
+                "slot": {
+                    "nid": "report_verb",
+                    "name": [
+                        {
+                            "lang": "zh",
+                            "text": "report动词（肯定）"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "report (affirmative)"
+                        }
+                    ],
+                    "description": [
+                        {
+                            "lang": "zh",
+                            "text": "这个句型里动词写法受语法约束。这里用肯定说法。"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "The verb form is constrained by this pattern. This side is the affirmative form."
+                        }
+                    ],
+                    "categoryNid": "controlled_verb",
+                    "color": "rgba(245,158,11,1)"
+                },
+                "options": [
+                    "show",
+                    "shows",
+                    "suggest",
+                    "suggests"
+                ],
+                "activationFeatureNids": [
+                    "affirmative"
+                ],
+                "activationFeatures": [
+                    {
+                        "nid": "affirmative",
+                        "name": [
+                            {
+                                "lang": "zh",
+                                "text": "肯定形式"
+                            },
+                            {
+                                "lang": "en",
+                                "text": "Affirmative"
+                            }
+                        ],
+                        "description": [
+                            {
+                                "lang": "zh",
+                                "text": "表示肯定、确认或直接陈述某事成立。"
+                            },
+                            {
+                                "lang": "en",
+                                "text": "Marks a positive statement, confirmation, or direct assertion that something holds true."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "slotKey": "report_verb_negative",
+                "rendersAs": "report_verb_marking",
+                "slot": {
+                    "nid": "report_verb_negative",
+                    "name": [
+                        {
+                            "lang": "zh",
+                            "text": "report动词（否定）"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "report (negative)"
+                        }
+                    ],
+                    "description": [
+                        {
+                            "lang": "zh",
+                            "text": "这个句型里动词写法受语法约束。这里用否定说法，表示“不 / 没有”。"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "The verb form is constrained by this pattern. This side is the negative form."
+                        }
+                    ],
+                    "categoryNid": "controlled_verb",
+                    "color": "rgba(245,158,11,1)"
+                },
+                "options": [
+                    "do not show",
+                    "does not show",
+                    "don't show",
+                    "doesn't show",
+                    "did not show",
+                    "didn't show",
+                    "do not suggest",
+                    "does not suggest",
+                    "don't suggest",
+                    "doesn't suggest",
+                    "did not suggest",
+                    "didn't suggest"
+                ],
+                "activationFeatureNids": [
+                    "negative"
+                ],
+                "activationFeatures": [
+                    {
+                        "nid": "negative",
+                        "name": [
+                            {
+                                "lang": "zh",
+                                "text": "否定形式"
+                            },
+                            {
+                                "lang": "en",
+                                "text": "Negative"
+                            }
+                        ],
+                        "description": [
+                            {
+                                "lang": "zh",
+                                "text": "表示否定、不存在、不发生或不允许，常见于 not、never、no 等结构。"
+                            },
+                            {
+                                "lang": "en",
+                                "text": "Marks negation, absence, non-occurrence, or prohibition, often signaled by not, never, or no."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "openSlots": [
+            {
+                "slotKey": "data_source",
+                "required": true,
+                "grammarControlling": true,
+                "growthPriority": null,
+                "dependsOn": []
+            },
+            {
+                "slotKey": "evidence_clause",
+                "required": true,
+                "grammarControlling": true,
+                "growthPriority": null,
+                "dependsOn": []
+            }
+        ],
+        "openSlotList": [
+            {
+                "slotKey": "data_source",
+                "slot": {
+                    "nid": "data_source",
+                    "name": [
+                        {
+                            "lang": "zh",
+                            "text": "数据来源"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Data Source"
+                        }
+                    ],
+                    "description": [
+                        {
+                            "lang": "zh",
+                            "text": "表示一个名词性内容，比如人、事物、身份、类别或概念。用来引用、转述、举证或表达看法。"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Shows a noun-like piece of content such as a person, thing, role, category, or idea. It is used when reporting, citing, giving evidence, or presenting a view."
+                        }
+                    ],
+                    "categoryNid": "noun_phrase",
+                    "color": "rgba(6,182,212,1)"
+                },
+                "required": true,
+                "grammarControlling": true,
+                "dependsOn": []
+            },
+            {
+                "slotKey": "evidence_clause",
+                "slot": {
+                    "nid": "evidence_clause",
+                    "name": [
+                        {
+                            "lang": "zh",
+                            "text": "证据内容"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Evidence Clause"
+                        }
+                    ],
+                    "description": [
+                        {
+                            "lang": "zh",
+                            "text": "表示一句完整的话或一个完整意思，也就是可以单独说成一句完整话的内容。用来引用、转述、举证或表达看法。"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Shows a full statement or complete idea: a full statement that can stand as a complete idea. It is used when reporting, citing, giving evidence, or presenting a view."
+                        }
+                    ],
+                    "categoryNid": "clause_content",
+                    "color": "rgba(99,102,241,1)"
+                },
+                "required": true,
+                "grammarControlling": true,
+                "dependsOn": []
+            }
+        ],
+        "basicTypeNid": "complex",
+        "basicType": {
+            "nid": "complex",
+            "name": [
+                {
+                    "lang": "zh",
+                    "text": "复合句"
+                },
+                {
+                    "lang": "en",
+                    "text": "Complex Sentence"
+                }
+            ],
+            "description": [
+                {
+                    "lang": "zh",
+                    "text": "包含一个主句和至少一个从句，适合承载条件、原因、时间、定语等较复杂关系。"
+                },
+                {
+                    "lang": "en",
+                    "text": "Contains one main clause and at least one subordinate clause, supporting more complex relations such as condition, reason, time, or modification."
+                }
+            ]
+        },
+        "functionalTypeNid": "declarative",
+        "functionalType": {
+            "nid": "declarative",
+            "name": [
+                {
+                    "lang": "zh",
+                    "text": "陈述句"
+                },
+                {
+                    "lang": "en",
+                    "text": "Declarative"
+                }
+            ],
+            "description": [
+                {
+                    "lang": "zh",
+                    "text": "用于陈述事实、观点、状态或信息，是写作与说明中最基础、最常见的句子功能类型。"
+                },
+                {
+                    "lang": "en",
+                    "text": "Used to state facts, ideas, states, or information; the most common functional sentence type in writing and explanation."
+                }
+            ]
+        },
+        "clauseProfileNid": "subordinate_clause",
+        "clauseProfile": {
+            "nid": "subordinate_clause",
+            "name": [
+                {
+                    "lang": "zh",
+                    "text": "从属子句"
+                },
+                {
+                    "lang": "en",
+                    "text": "Subordinate Clause"
+                }
+            ],
+            "description": [
+                {
+                    "lang": "zh",
+                    "text": "句型核心包含从属结构，通常需要依附主句理解，可承担名词性、形容词性或状语性功能。"
+                },
+                {
+                    "lang": "en",
+                    "text": "The pattern includes a subordinate structure that usually depends on a main clause for full interpretation and may function as a noun, adjective, or adverbial clause."
+                }
+            ]
+        },
+        "grammarFeatureNids": [
+            "indicative_mood",
+            "active_voice"
+        ],
+        "grammarFeatures": [
+            {
+                "nid": "indicative_mood",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "陈述语气"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Indicative Mood"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+                    }
+                ]
+            },
+            {
+                "nid": "active_voice",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "主动语态"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Active Voice"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+                    }
+                ]
+            }
+        ],
+        "specialFeatureNids": [
+            "c_clause"
+        ],
+        "specialFeatures": [
+            {
+                "nid": "c_clause",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "补足语从句"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Complement Clause"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "作为动词、形容词或名词的补足成分，用来补全核心意义。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Functions as a complement to a verb, adjective, or noun, completing the core meaning."
+                    }
+                ]
+            }
+        ],
+        "communicativeFunctionNids": [
+            "analyze_data",
+            "support_opinion",
+            "cite_source"
+        ],
+        "communicativeFunctions": [
+            {
+                "nid": "analyze_data",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "分析数据"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Analyze Data"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "用于描述数据、趋势、变化和图表中的关键信息。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Used to describe data, trends, changes, and key information shown in charts or figures."
+                    }
+                ]
+            },
+            {
+                "nid": "support_opinion",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "支持观点"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Support Opinion"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "用于为观点提供理由、例子、证据或解释。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Used to support an opinion with reasons, examples, evidence, or explanation."
+                    }
+                ]
+            },
+            {
+                "nid": "cite_source",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "引用来源"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Cite Source"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "用于说明信息、观点、数据或结论来自哪里。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Used to indicate where information, opinion, data, or a conclusion comes from."
+                    }
+                ]
+            }
+        ],
+        "discourseRoleNids": [
+            "evidence_sentence",
+            "source_sentence",
+            "supporting_detail"
+        ],
+        "discourseRoles": [
+            {
+                "nid": "evidence_sentence",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "证据句"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Evidence Sentence"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "用于提供事实、数据、来源或观察支撑前面的观点。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Provides facts, data, sources, or observations to support a preceding claim or opinion."
+                    }
+                ]
+            },
+            {
+                "nid": "source_sentence",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "来源句"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Source Sentence"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "用于说明信息、数据或观点的来源。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Used to identify the source of information, data, or opinion."
+                    }
+                ]
+            },
+            {
+                "nid": "supporting_detail",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "支持细节句"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Supporting Detail"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "用于补充事实、细节、特征或说明，支撑主题句。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Adds facts, details, features, or explanation to support the topic sentence."
+                    }
+                ]
+            }
+        ],
+        "teachingRealizations": [
+            "The data show that students learn better with enough sleep.",
+            "The results suggest that clean energy can reduce pollution.",
+            "The data do not show that longer homework helps everyone.",
+            "The results do not suggest that the plan is ready."
+        ],
+        "system": true,
+        "enabled": true,
+        "primarySvocaCodeNid": "other",
+        "primarySvoca": {
+            "nid": "other",
+            "name": [
+                {
+                    "lang": "zh",
+                    "text": "其他复杂骨架"
+                },
+                {
+                    "lang": "en",
+                    "text": "Other Pattern"
+                }
+            ],
+            "description": [
+                {
+                    "lang": "zh",
+                    "text": "用于无法被前述核心 SVOCA 模式稳定概括的结构，通常需要结合从句或更高层 pattern 理解。"
+                },
+                {
+                    "lang": "en",
+                    "text": "Used when a clause cannot be cleanly summarized by the core SVOCA patterns and needs support from clause-level or higher-level pattern analysis."
+                }
+            ]
+        },
+        "allowedSvocaCodeNids": [
+            "other"
+        ],
+        "allowedSvocas": [
+            {
+                "nid": "other",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "其他复杂骨架"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Other Pattern"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "用于无法被前述核心 SVOCA 模式稳定概括的结构，通常需要结合从句或更高层 pattern 理解。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Used when a clause cannot be cleanly summarized by the core SVOCA patterns and needs support from clause-level or higher-level pattern analysis."
+                    }
+                ]
+            }
+        ],
+        "tenseScope": "neutral",
+        "predicateRealizationProfile": {
+            "kind": "fixed",
+            "predicateSlotKey": null,
+            "operatorSlotKeys": []
+        },
+        "predicateRealizationProfileInfo": {
+            "kind": "fixed",
+            "predicateSlotKey": null,
+            "predicateSlot": null,
+            "operatorSlotKeys": [],
+            "operatorSlots": []
+        },
+        "sentenceRealizations": [
+            {
+                "sentenceId": 508671,
+                "order": 200
+            },
+            {
+                "sentenceId": 519701,
+                "order": 100
+            }
+        ],
+        "sentenceRealizationList": [
+            {
+                "sentenceId": 508671,
+                "content": "My diary shows the date is the thirtieth.",
+                "definition": "我的日记显示日期是三十号。",
+                "patternNid": "evidence_data_report_that",
+                "patternTemplate": "{data_source} {report_verb_marking} that {evidence_clause}.",
+                "blueprintScope": "sentence",
+                "segmentList": [
+                    {
+                        "slotKey": "actor",
+                        "slot": {
+                            "nid": "actor",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "动作发出者"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Actor"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示真正发出这个动作的人或事物，也就是“是谁在做这件事”。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows the subject in this meaning."
+                                }
+                            ],
+                            "categoryNid": "subject_entity",
+                            "color": "rgba(14,165,233,1)"
+                        },
+                        "required": true,
+                        "grammarControlling": true,
+                        "dependsOn": [],
+                        "text": "My diary",
+                        "renderSlotKey": "data_source",
+                        "sourceSlotKey": "actor",
+                        "sourceSlot": {
+                            "nid": "actor",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "动作发出者"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Actor"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示真正发出这个动作的人或事物，也就是“是谁在做这件事”。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows the subject in this meaning."
+                                }
+                            ],
+                            "categoryNid": "subject_entity",
+                            "color": "rgba(14,165,233,1)"
+                        },
+                        "slotUid": 124210,
+                        "semanticIds": [],
+                        "literal": false,
+                        "hasChildStruct": false
+                    },
+                    {
+                        "slotKey": "__literal__",
+                        "text": "that",
+                        "renderSlotKey": "__literal__",
+                        "sourceSlotKey": "__literal__",
+                        "literal": true
+                    },
+                    {
+                        "slotKey": "evidence_clause",
+                        "slot": {
+                            "nid": "evidence_clause",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "证据内容"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Evidence Clause"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示一句完整的话或一个完整意思，也就是可以单独说成一句完整话的内容。用来引用、转述、举证或表达看法。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows a full statement or complete idea: a full statement that can stand as a complete idea. It is used when reporting, citing, giving evidence, or presenting a view."
+                                }
+                            ],
+                            "categoryNid": "clause_content",
+                            "color": "rgba(99,102,241,1)"
+                        },
+                        "required": true,
+                        "grammarControlling": true,
+                        "dependsOn": [],
+                        "text": "My diary shows the date is the thirtieth",
+                        "renderSlotKey": "evidence_clause",
+                        "sourceSlotKey": "evidence_clause",
+                        "sourceSlot": {
+                            "nid": "evidence_clause",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "证据内容"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Evidence Clause"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示一句完整的话或一个完整意思，也就是可以单独说成一句完整话的内容。用来引用、转述、举证或表达看法。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows a full statement or complete idea: a full statement that can stand as a complete idea. It is used when reporting, citing, giving evidence, or presenting a view."
+                                }
+                            ],
+                            "categoryNid": "clause_content",
+                            "color": "rgba(99,102,241,1)"
+                        },
+                        "literal": false,
+                        "hasChildStruct": true,
+                        "childStruct": {
+                            "structType": "clause_group",
+                            "rootClauseId": 107555,
+                            "clauseIdList": [
+                                107555,
+                                107556
+                            ],
+                            "content": "My diary shows the date is the thirtieth",
+                            "patternNid": "entity_pred",
+                            "patternTemplate": "{actor} {finite_operator_marking} {action_predicate} {object} {place_phrase} {context_phrase} {time_expression} {manner_expression} {reason_expression} {purpose_expression} {relative_clause}.",
+                            "patternName": [
+                                {
+                                    "lang": "zh",
+                                    "text": "说明做什么"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Say what someone does"
+                                }
+                            ],
+                            "patternDescription": [
+                                {
+                                    "lang": "zh",
+                                    "text": "用来讲一般会做、习惯做或将要做的动作，不强调“正在进行中”。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "For habitual, general, or future actions — not the sense of “in progress right now”."
+                                }
+                            ],
+                            "clauseType": "independent",
+                            "segmentList": [
+                                {
+                                    "slotKey": "actor",
+                                    "slot": {
+                                        "nid": "actor",
+                                        "name": [
+                                            {
+                                                "lang": "zh",
+                                                "text": "动作发出者"
+                                            },
+                                            {
+                                                "lang": "en",
+                                                "text": "Actor"
+                                            }
+                                        ],
+                                        "description": [
+                                            {
+                                                "lang": "zh",
+                                                "text": "表示真正发出这个动作的人或事物，也就是“是谁在做这件事”。"
+                                            },
+                                            {
+                                                "lang": "en",
+                                                "text": "Shows the subject in this meaning."
+                                            }
+                                        ],
+                                        "categoryNid": "subject_entity",
+                                        "color": "rgba(14,165,233,1)"
+                                    },
+                                    "required": true,
+                                    "grammarControlling": true,
+                                    "dependsOn": [],
+                                    "text": "My diary",
+                                    "renderSlotKey": "actor",
+                                    "sourceSlotKey": "actor",
+                                    "sourceSlot": {
+                                        "nid": "actor",
+                                        "name": [
+                                            {
+                                                "lang": "zh",
+                                                "text": "动作发出者"
+                                            },
+                                            {
+                                                "lang": "en",
+                                                "text": "Actor"
+                                            }
+                                        ],
+                                        "description": [
+                                            {
+                                                "lang": "zh",
+                                                "text": "表示真正发出这个动作的人或事物，也就是“是谁在做这件事”。"
+                                            },
+                                            {
+                                                "lang": "en",
+                                                "text": "Shows the subject in this meaning."
+                                            }
+                                        ],
+                                        "categoryNid": "subject_entity",
+                                        "color": "rgba(14,165,233,1)"
+                                    },
+                                    "slotUid": 124210,
+                                    "semanticIds": [],
+                                    "literal": false,
+                                    "hasChildStruct": false
+                                },
+                                {
+                                    "slotKey": "action_predicate",
+                                    "slot": {
+                                        "nid": "action_predicate",
+                                        "name": [
+                                            {
+                                                "lang": "zh",
+                                                "text": "动作本身"
+                                            },
+                                            {
+                                                "lang": "en",
+                                                "text": "Action Itself"
+                                            }
+                                        ],
+                                        "description": [
+                                            {
+                                                "lang": "zh",
+                                                "text": "表示句子里真正发生的那个动作本身。"
+                                            },
+                                            {
+                                                "lang": "en",
+                                                "text": "Shows the action itself: the central action happening in the sentence."
+                                            }
+                                        ],
+                                        "categoryNid": "verb_predicate",
+                                        "color": "rgba(244,63,94,1)"
+                                    },
+                                    "required": true,
+                                    "grammarControlling": true,
+                                    "dependsOn": [],
+                                    "text": "shows",
+                                    "renderSlotKey": "action_predicate",
+                                    "sourceSlotKey": "action_predicate",
+                                    "sourceSlot": {
+                                        "nid": "action_predicate",
+                                        "name": [
+                                            {
+                                                "lang": "zh",
+                                                "text": "动作本身"
+                                            },
+                                            {
+                                                "lang": "en",
+                                                "text": "Action Itself"
+                                            }
+                                        ],
+                                        "description": [
+                                            {
+                                                "lang": "zh",
+                                                "text": "表示句子里真正发生的那个动作本身。"
+                                            },
+                                            {
+                                                "lang": "en",
+                                                "text": "Shows the action itself: the central action happening in the sentence."
+                                            }
+                                        ],
+                                        "categoryNid": "verb_predicate",
+                                        "color": "rgba(244,63,94,1)"
+                                    },
+                                    "slotUid": 124212,
+                                    "semanticIds": [
+                                        728409
+                                    ],
+                                    "literal": false,
+                                    "hasChildStruct": false
+                                },
+                                {
+                                    "slotKey": "object",
+                                    "slot": {
+                                        "nid": "object",
+                                        "name": [
+                                            {
+                                                "lang": "zh",
+                                                "text": "宾语对象"
+                                            },
+                                            {
+                                                "lang": "en",
+                                                "text": "Object"
+                                            }
+                                        ],
+                                        "description": [
+                                            {
+                                                "lang": "zh",
+                                                "text": "表示动作直接作用到的对象，比如买什么、吃什么、带什么、看到什么。"
+                                            },
+                                            {
+                                                "lang": "en",
+                                                "text": "Shows the thing directly affected by the action, such as what is bought, eaten, taken, or seen."
+                                            }
+                                        ],
+                                        "categoryNid": "object_entity",
+                                        "color": "rgba(139,92,246,1)"
+                                    },
+                                    "required": false,
+                                    "grammarControlling": true,
+                                    "growthPriority": 10,
+                                    "dependsOn": [],
+                                    "text": "the date is the thirtieth",
+                                    "renderSlotKey": "object",
+                                    "sourceSlotKey": "object",
+                                    "sourceSlot": {
+                                        "nid": "object",
+                                        "name": [
+                                            {
+                                                "lang": "zh",
+                                                "text": "宾语对象"
+                                            },
+                                            {
+                                                "lang": "en",
+                                                "text": "Object"
+                                            }
+                                        ],
+                                        "description": [
+                                            {
+                                                "lang": "zh",
+                                                "text": "表示动作直接作用到的对象，比如买什么、吃什么、带什么、看到什么。"
+                                            },
+                                            {
+                                                "lang": "en",
+                                                "text": "Shows the thing directly affected by the action, such as what is bought, eaten, taken, or seen."
+                                            }
+                                        ],
+                                        "categoryNid": "object_entity",
+                                        "color": "rgba(139,92,246,1)"
+                                    },
+                                    "slotUid": 124213,
+                                    "semanticIds": [],
+                                    "literal": false,
+                                    "hasChildStruct": true,
+                                    "childStruct": {
+                                        "structType": "clause",
+                                        "rootClauseId": 107556,
+                                        "clauseIdList": [
+                                            107556
+                                        ],
+                                        "content": "the date is the thirtieth",
+                                        "patternNid": "subject_be_time_expression",
+                                        "patternTemplate": "{timed_subject} {be_marking} {time_phrase} {context_phrase} {place_phrase} {time_expression}.",
+                                        "patternName": [
+                                            {
+                                                "lang": "zh",
+                                                "text": "说明是什么时候"
+                                            },
+                                            {
+                                                "lang": "en",
+                                                "text": "Say when it is"
+                                            }
+                                        ],
+                                        "patternDescription": [
+                                            {
+                                                "lang": "zh",
+                                                "text": "把主语和某个时间点或时段对应起来，说明“是什么时候”。"
+                                            },
+                                            {
+                                                "lang": "en",
+                                                "text": "Links a subject to a time expression — when it is."
+                                            }
+                                        ],
+                                        "clauseType": "dependent_noun",
+                                        "segmentList": [
+                                            {
+                                                "slotKey": "timed_subject",
+                                                "slot": {
+                                                    "nid": "timed_subject",
+                                                    "name": [
+                                                        {
+                                                            "lang": "zh",
+                                                            "text": "计时对象主语"
+                                                        },
+                                                        {
+                                                            "lang": "en",
+                                                            "text": "Timed Subject"
+                                                        }
+                                                    ],
+                                                    "description": [
+                                                        {
+                                                            "lang": "zh",
+                                                            "text": "表示那个“花了多久”或“时间是多少”的对象。"
+                                                        },
+                                                        {
+                                                            "lang": "en",
+                                                            "text": "Shows the subject whose time is being stated or measured."
+                                                        }
+                                                    ],
+                                                    "categoryNid": "subject_entity",
+                                                    "color": "rgba(14,165,233,1)"
+                                                },
+                                                "required": true,
+                                                "grammarControlling": true,
+                                                "dependsOn": [],
+                                                "text": "the date",
+                                                "renderSlotKey": "timed_subject",
+                                                "sourceSlotKey": "timed_subject",
+                                                "sourceSlot": {
+                                                    "nid": "timed_subject",
+                                                    "name": [
+                                                        {
+                                                            "lang": "zh",
+                                                            "text": "计时对象主语"
+                                                        },
+                                                        {
+                                                            "lang": "en",
+                                                            "text": "Timed Subject"
+                                                        }
+                                                    ],
+                                                    "description": [
+                                                        {
+                                                            "lang": "zh",
+                                                            "text": "表示那个“花了多久”或“时间是多少”的对象。"
+                                                        },
+                                                        {
+                                                            "lang": "en",
+                                                            "text": "Shows the subject whose time is being stated or measured."
+                                                        }
+                                                    ],
+                                                    "categoryNid": "subject_entity",
+                                                    "color": "rgba(14,165,233,1)"
+                                                },
+                                                "slotUid": 124250,
+                                                "semanticIds": [],
+                                                "literal": false,
+                                                "hasChildStruct": false
+                                            },
+                                            {
+                                                "slotKey": "copula_be",
+                                                "slot": {
+                                                    "nid": "copula_be",
+                                                    "name": [
+                                                        {
+                                                            "lang": "zh",
+                                                            "text": "be 系动词（肯定）"
+                                                        },
+                                                        {
+                                                            "lang": "en",
+                                                            "text": "be linking verb (affirmative)"
+                                                        }
+                                                    ],
+                                                    "description": [
+                                                        {
+                                                            "lang": "zh",
+                                                            "text": "把主语和身份、状态、特征连起来，说明“是什么 / 怎么样”。这里用肯定说法。"
+                                                        },
+                                                        {
+                                                            "lang": "en",
+                                                            "text": "Links the subject to an identity, state, or quality — what it is or how it is. This side is the affirmative form."
+                                                        }
+                                                    ],
+                                                    "categoryNid": "grammar_auxiliary",
+                                                    "color": "rgba(245,158,11,1)"
+                                                },
+                                                "text": "is",
+                                                "renderSlotKey": "be_marking",
+                                                "sourceSlotKey": "copula_be",
+                                                "sourceSlot": {
+                                                    "nid": "copula_be",
+                                                    "name": [
+                                                        {
+                                                            "lang": "zh",
+                                                            "text": "be 系动词（肯定）"
+                                                        },
+                                                        {
+                                                            "lang": "en",
+                                                            "text": "be linking verb (affirmative)"
+                                                        }
+                                                    ],
+                                                    "description": [
+                                                        {
+                                                            "lang": "zh",
+                                                            "text": "把主语和身份、状态、特征连起来，说明“是什么 / 怎么样”。这里用肯定说法。"
+                                                        },
+                                                        {
+                                                            "lang": "en",
+                                                            "text": "Links the subject to an identity, state, or quality — what it is or how it is. This side is the affirmative form."
+                                                        }
+                                                    ],
+                                                    "categoryNid": "grammar_auxiliary",
+                                                    "color": "rgba(245,158,11,1)"
+                                                },
+                                                "slotUid": 124251,
+                                                "semanticIds": [
+                                                    734314
+                                                ],
+                                                "literal": false,
+                                                "hasChildStruct": false
+                                            },
+                                            {
+                                                "slotKey": "time_phrase",
+                                                "slot": {
+                                                    "nid": "time_phrase",
+                                                    "name": [
+                                                        {
+                                                            "lang": "zh",
+                                                            "text": "时间短语"
+                                                        },
+                                                        {
+                                                            "lang": "en",
+                                                            "text": "Time Phrase"
+                                                        }
+                                                    ],
+                                                    "description": [
+                                                        {
+                                                            "lang": "zh",
+                                                            "text": "表示时间点、时间段、频率或先后顺序。用来说明时间安排、时长或频率。"
+                                                        },
+                                                        {
+                                                            "lang": "en",
+                                                            "text": "Shows time points, durations, frequencies, or sequence information. It is used for time, duration, or frequency information."
+                                                        }
+                                                    ],
+                                                    "categoryNid": "time_expression",
+                                                    "color": "rgba(0,188,125,1)"
+                                                },
+                                                "required": true,
+                                                "grammarControlling": true,
+                                                "dependsOn": [],
+                                                "text": "the thirtieth",
+                                                "renderSlotKey": "time_phrase",
+                                                "sourceSlotKey": "time_phrase",
+                                                "sourceSlot": {
+                                                    "nid": "time_phrase",
+                                                    "name": [
+                                                        {
+                                                            "lang": "zh",
+                                                            "text": "时间短语"
+                                                        },
+                                                        {
+                                                            "lang": "en",
+                                                            "text": "Time Phrase"
+                                                        }
+                                                    ],
+                                                    "description": [
+                                                        {
+                                                            "lang": "zh",
+                                                            "text": "表示时间点、时间段、频率或先后顺序。用来说明时间安排、时长或频率。"
+                                                        },
+                                                        {
+                                                            "lang": "en",
+                                                            "text": "Shows time points, durations, frequencies, or sequence information. It is used for time, duration, or frequency information."
+                                                        }
+                                                    ],
+                                                    "categoryNid": "time_expression",
+                                                    "color": "rgba(0,188,125,1)"
+                                                },
+                                                "slotUid": 124252,
+                                                "semanticIds": [],
+                                                "literal": false,
+                                                "hasChildStruct": false
+                                            },
+                                            {
+                                                "slotKey": "__literal__",
+                                                "text": ".",
+                                                "renderSlotKey": "__literal__",
+                                                "sourceSlotKey": "__literal__",
+                                                "literal": true
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "slotKey": "__literal__",
+                                    "text": ".",
+                                    "renderSlotKey": "__literal__",
+                                    "sourceSlotKey": "__literal__",
+                                    "literal": true
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "slotKey": "__literal__",
+                        "text": ".",
+                        "renderSlotKey": "__literal__",
+                        "sourceSlotKey": "__literal__",
+                        "literal": true
+                    }
+                ]
+            },
+            {
+                "sentenceId": 519701,
+                "content": "Supported by his research, Professor Salovey suggests that EQ plays a crucial role in career success.",
+                "definition": "基于他的研究，萨洛维教授提出情商在职业成功中起着关键作用。",
+                "patternNid": "evidence_data_report_that",
+                "patternTemplate": "{data_source} {report_verb_marking} that {evidence_clause}.",
+                "blueprintScope": "sentence",
+                "segmentList": [
+                    {
+                        "slotKey": "actor",
+                        "slot": {
+                            "nid": "actor",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "动作发出者"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Actor"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示真正发出这个动作的人或事物，也就是“是谁在做这件事”。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows the subject in this meaning."
+                                }
+                            ],
+                            "categoryNid": "subject_entity",
+                            "color": "rgba(14,165,233,1)"
+                        },
+                        "required": true,
+                        "grammarControlling": true,
+                        "dependsOn": [],
+                        "text": "Professor Salovey",
+                        "renderSlotKey": "data_source",
+                        "sourceSlotKey": "actor",
+                        "sourceSlot": {
+                            "nid": "actor",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "动作发出者"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Actor"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示真正发出这个动作的人或事物，也就是“是谁在做这件事”。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows the subject in this meaning."
+                                }
+                            ],
+                            "categoryNid": "subject_entity",
+                            "color": "rgba(14,165,233,1)"
+                        },
+                        "slotUid": 159124,
+                        "semanticIds": [],
+                        "literal": false,
+                        "hasChildStruct": false
+                    },
+                    {
+                        "slotKey": "__literal__",
+                        "text": "that",
+                        "renderSlotKey": "__literal__",
+                        "sourceSlotKey": "__literal__",
+                        "literal": true
+                    },
+                    {
+                        "slotKey": "evidence_clause",
+                        "slot": {
+                            "nid": "evidence_clause",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "证据内容"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Evidence Clause"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示一句完整的话或一个完整意思，也就是可以单独说成一句完整话的内容。用来引用、转述、举证或表达看法。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows a full statement or complete idea: a full statement that can stand as a complete idea. It is used when reporting, citing, giving evidence, or presenting a view."
+                                }
+                            ],
+                            "categoryNid": "clause_content",
+                            "color": "rgba(99,102,241,1)"
+                        },
+                        "required": true,
+                        "grammarControlling": true,
+                        "dependsOn": [],
+                        "text": "Supported by his research, Professor Salovey suggests that EQ plays a crucial role in career success",
+                        "renderSlotKey": "evidence_clause",
+                        "sourceSlotKey": "evidence_clause",
+                        "sourceSlot": {
+                            "nid": "evidence_clause",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "证据内容"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Evidence Clause"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示一句完整的话或一个完整意思，也就是可以单独说成一句完整话的内容。用来引用、转述、举证或表达看法。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows a full statement or complete idea: a full statement that can stand as a complete idea. It is used when reporting, citing, giving evidence, or presenting a view."
+                                }
+                            ],
+                            "categoryNid": "clause_content",
+                            "color": "rgba(99,102,241,1)"
+                        },
+                        "literal": false,
+                        "hasChildStruct": true,
+                        "childStruct": {
+                            "structType": "clause_group",
+                            "rootClauseId": 118111,
+                            "clauseIdList": [
+                                118111,
+                                118112
+                            ],
+                            "content": "Supported by his research, Professor Salovey suggests that EQ plays a crucial role in career success",
+                            "patternNid": "entity_pred",
+                            "patternTemplate": "{actor} {finite_operator_marking} {action_predicate} {object} {place_phrase} {context_phrase} {time_expression} {manner_expression} {reason_expression} {purpose_expression} {relative_clause}.",
+                            "patternName": [
+                                {
+                                    "lang": "zh",
+                                    "text": "说明做什么"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Say what someone does"
+                                }
+                            ],
+                            "patternDescription": [
+                                {
+                                    "lang": "zh",
+                                    "text": "用来讲一般会做、习惯做或将要做的动作，不强调“正在进行中”。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "For habitual, general, or future actions — not the sense of “in progress right now”."
+                                }
+                            ],
+                            "clauseType": "independent",
+                            "segmentList": [
+                                {
+                                    "slotKey": "actor",
+                                    "slot": {
+                                        "nid": "actor",
+                                        "name": [
+                                            {
+                                                "lang": "zh",
+                                                "text": "动作发出者"
+                                            },
+                                            {
+                                                "lang": "en",
+                                                "text": "Actor"
+                                            }
+                                        ],
+                                        "description": [
+                                            {
+                                                "lang": "zh",
+                                                "text": "表示真正发出这个动作的人或事物，也就是“是谁在做这件事”。"
+                                            },
+                                            {
+                                                "lang": "en",
+                                                "text": "Shows the subject in this meaning."
+                                            }
+                                        ],
+                                        "categoryNid": "subject_entity",
+                                        "color": "rgba(14,165,233,1)"
+                                    },
+                                    "required": true,
+                                    "grammarControlling": true,
+                                    "dependsOn": [],
+                                    "text": "Professor Salovey",
+                                    "renderSlotKey": "actor",
+                                    "sourceSlotKey": "actor",
+                                    "sourceSlot": {
+                                        "nid": "actor",
+                                        "name": [
+                                            {
+                                                "lang": "zh",
+                                                "text": "动作发出者"
+                                            },
+                                            {
+                                                "lang": "en",
+                                                "text": "Actor"
+                                            }
+                                        ],
+                                        "description": [
+                                            {
+                                                "lang": "zh",
+                                                "text": "表示真正发出这个动作的人或事物，也就是“是谁在做这件事”。"
+                                            },
+                                            {
+                                                "lang": "en",
+                                                "text": "Shows the subject in this meaning."
+                                            }
+                                        ],
+                                        "categoryNid": "subject_entity",
+                                        "color": "rgba(14,165,233,1)"
+                                    },
+                                    "slotUid": 159124,
+                                    "semanticIds": [],
+                                    "literal": false,
+                                    "hasChildStruct": false
+                                },
+                                {
+                                    "slotKey": "action_predicate",
+                                    "slot": {
+                                        "nid": "action_predicate",
+                                        "name": [
+                                            {
+                                                "lang": "zh",
+                                                "text": "动作本身"
+                                            },
+                                            {
+                                                "lang": "en",
+                                                "text": "Action Itself"
+                                            }
+                                        ],
+                                        "description": [
+                                            {
+                                                "lang": "zh",
+                                                "text": "表示句子里真正发生的那个动作本身。"
+                                            },
+                                            {
+                                                "lang": "en",
+                                                "text": "Shows the action itself: the central action happening in the sentence."
+                                            }
+                                        ],
+                                        "categoryNid": "verb_predicate",
+                                        "color": "rgba(244,63,94,1)"
+                                    },
+                                    "required": true,
+                                    "grammarControlling": true,
+                                    "dependsOn": [],
+                                    "text": "suggests",
+                                    "renderSlotKey": "action_predicate",
+                                    "sourceSlotKey": "action_predicate",
+                                    "sourceSlot": {
+                                        "nid": "action_predicate",
+                                        "name": [
+                                            {
+                                                "lang": "zh",
+                                                "text": "动作本身"
+                                            },
+                                            {
+                                                "lang": "en",
+                                                "text": "Action Itself"
+                                            }
+                                        ],
+                                        "description": [
+                                            {
+                                                "lang": "zh",
+                                                "text": "表示句子里真正发生的那个动作本身。"
+                                            },
+                                            {
+                                                "lang": "en",
+                                                "text": "Shows the action itself: the central action happening in the sentence."
+                                            }
+                                        ],
+                                        "categoryNid": "verb_predicate",
+                                        "color": "rgba(244,63,94,1)"
+                                    },
+                                    "slotUid": 159126,
+                                    "semanticIds": [
+                                        715831,
+                                        715832
+                                    ],
+                                    "literal": false,
+                                    "hasChildStruct": false
+                                },
+                                {
+                                    "slotKey": "object",
+                                    "slot": {
+                                        "nid": "object",
+                                        "name": [
+                                            {
+                                                "lang": "zh",
+                                                "text": "宾语对象"
+                                            },
+                                            {
+                                                "lang": "en",
+                                                "text": "Object"
+                                            }
+                                        ],
+                                        "description": [
+                                            {
+                                                "lang": "zh",
+                                                "text": "表示动作直接作用到的对象，比如买什么、吃什么、带什么、看到什么。"
+                                            },
+                                            {
+                                                "lang": "en",
+                                                "text": "Shows the thing directly affected by the action, such as what is bought, eaten, taken, or seen."
+                                            }
+                                        ],
+                                        "categoryNid": "object_entity",
+                                        "color": "rgba(139,92,246,1)"
+                                    },
+                                    "required": false,
+                                    "grammarControlling": true,
+                                    "growthPriority": 10,
+                                    "dependsOn": [],
+                                    "text": "that EQ plays a crucial role in career success",
+                                    "renderSlotKey": "object",
+                                    "sourceSlotKey": "object",
+                                    "sourceSlot": {
+                                        "nid": "object",
+                                        "name": [
+                                            {
+                                                "lang": "zh",
+                                                "text": "宾语对象"
+                                            },
+                                            {
+                                                "lang": "en",
+                                                "text": "Object"
+                                            }
+                                        ],
+                                        "description": [
+                                            {
+                                                "lang": "zh",
+                                                "text": "表示动作直接作用到的对象，比如买什么、吃什么、带什么、看到什么。"
+                                            },
+                                            {
+                                                "lang": "en",
+                                                "text": "Shows the thing directly affected by the action, such as what is bought, eaten, taken, or seen."
+                                            }
+                                        ],
+                                        "categoryNid": "object_entity",
+                                        "color": "rgba(139,92,246,1)"
+                                    },
+                                    "slotUid": 159127,
+                                    "semanticIds": [],
+                                    "literal": false,
+                                    "hasChildStruct": true,
+                                    "childStruct": {
+                                        "structType": "clause",
+                                        "rootClauseId": 118112,
+                                        "clauseIdList": [
+                                            118112
+                                        ],
+                                        "content": "that EQ plays a crucial role in career success",
+                                        "patternNid": "entity_pred",
+                                        "patternTemplate": "{actor} {finite_operator_marking} {action_predicate} {object} {place_phrase} {context_phrase} {time_expression} {manner_expression} {reason_expression} {purpose_expression} {relative_clause}.",
+                                        "patternName": [
+                                            {
+                                                "lang": "zh",
+                                                "text": "说明做什么"
+                                            },
+                                            {
+                                                "lang": "en",
+                                                "text": "Say what someone does"
+                                            }
+                                        ],
+                                        "patternDescription": [
+                                            {
+                                                "lang": "zh",
+                                                "text": "用来讲一般会做、习惯做或将要做的动作，不强调“正在进行中”。"
+                                            },
+                                            {
+                                                "lang": "en",
+                                                "text": "For habitual, general, or future actions — not the sense of “in progress right now”."
+                                            }
+                                        ],
+                                        "clauseType": "dependent_noun",
+                                        "roleInParent": "object",
+                                        "segmentList": [
+                                            {
+                                                "slotKey": "actor",
+                                                "slot": {
+                                                    "nid": "actor",
+                                                    "name": [
+                                                        {
+                                                            "lang": "zh",
+                                                            "text": "动作发出者"
+                                                        },
+                                                        {
+                                                            "lang": "en",
+                                                            "text": "Actor"
+                                                        }
+                                                    ],
+                                                    "description": [
+                                                        {
+                                                            "lang": "zh",
+                                                            "text": "表示真正发出这个动作的人或事物，也就是“是谁在做这件事”。"
+                                                        },
+                                                        {
+                                                            "lang": "en",
+                                                            "text": "Shows the subject in this meaning."
+                                                        }
+                                                    ],
+                                                    "categoryNid": "subject_entity",
+                                                    "color": "rgba(14,165,233,1)"
+                                                },
+                                                "required": true,
+                                                "grammarControlling": true,
+                                                "dependsOn": [],
+                                                "text": "EQ",
+                                                "renderSlotKey": "actor",
+                                                "sourceSlotKey": "actor",
+                                                "sourceSlot": {
+                                                    "nid": "actor",
+                                                    "name": [
+                                                        {
+                                                            "lang": "zh",
+                                                            "text": "动作发出者"
+                                                        },
+                                                        {
+                                                            "lang": "en",
+                                                            "text": "Actor"
+                                                        }
+                                                    ],
+                                                    "description": [
+                                                        {
+                                                            "lang": "zh",
+                                                            "text": "表示真正发出这个动作的人或事物，也就是“是谁在做这件事”。"
+                                                        },
+                                                        {
+                                                            "lang": "en",
+                                                            "text": "Shows the subject in this meaning."
+                                                        }
+                                                    ],
+                                                    "categoryNid": "subject_entity",
+                                                    "color": "rgba(14,165,233,1)"
+                                                },
+                                                "slotUid": 159185,
+                                                "semanticIds": [],
+                                                "literal": false,
+                                                "hasChildStruct": false
+                                            },
+                                            {
+                                                "slotKey": "action_predicate",
+                                                "slot": {
+                                                    "nid": "action_predicate",
+                                                    "name": [
+                                                        {
+                                                            "lang": "zh",
+                                                            "text": "动作本身"
+                                                        },
+                                                        {
+                                                            "lang": "en",
+                                                            "text": "Action Itself"
+                                                        }
+                                                    ],
+                                                    "description": [
+                                                        {
+                                                            "lang": "zh",
+                                                            "text": "表示句子里真正发生的那个动作本身。"
+                                                        },
+                                                        {
+                                                            "lang": "en",
+                                                            "text": "Shows the action itself: the central action happening in the sentence."
+                                                        }
+                                                    ],
+                                                    "categoryNid": "verb_predicate",
+                                                    "color": "rgba(244,63,94,1)"
+                                                },
+                                                "required": true,
+                                                "grammarControlling": true,
+                                                "dependsOn": [],
+                                                "text": "plays",
+                                                "renderSlotKey": "action_predicate",
+                                                "sourceSlotKey": "action_predicate",
+                                                "sourceSlot": {
+                                                    "nid": "action_predicate",
+                                                    "name": [
+                                                        {
+                                                            "lang": "zh",
+                                                            "text": "动作本身"
+                                                        },
+                                                        {
+                                                            "lang": "en",
+                                                            "text": "Action Itself"
+                                                        }
+                                                    ],
+                                                    "description": [
+                                                        {
+                                                            "lang": "zh",
+                                                            "text": "表示句子里真正发生的那个动作本身。"
+                                                        },
+                                                        {
+                                                            "lang": "en",
+                                                            "text": "Shows the action itself: the central action happening in the sentence."
+                                                        }
+                                                    ],
+                                                    "categoryNid": "verb_predicate",
+                                                    "color": "rgba(244,63,94,1)"
+                                                },
+                                                "slotUid": 159187,
+                                                "semanticIds": [
+                                                    730031
+                                                ],
+                                                "literal": false,
+                                                "hasChildStruct": false
+                                            },
+                                            {
+                                                "slotKey": "object",
+                                                "slot": {
+                                                    "nid": "object",
+                                                    "name": [
+                                                        {
+                                                            "lang": "zh",
+                                                            "text": "宾语对象"
+                                                        },
+                                                        {
+                                                            "lang": "en",
+                                                            "text": "Object"
+                                                        }
+                                                    ],
+                                                    "description": [
+                                                        {
+                                                            "lang": "zh",
+                                                            "text": "表示动作直接作用到的对象，比如买什么、吃什么、带什么、看到什么。"
+                                                        },
+                                                        {
+                                                            "lang": "en",
+                                                            "text": "Shows the thing directly affected by the action, such as what is bought, eaten, taken, or seen."
+                                                        }
+                                                    ],
+                                                    "categoryNid": "object_entity",
+                                                    "color": "rgba(139,92,246,1)"
+                                                },
+                                                "required": false,
+                                                "grammarControlling": true,
+                                                "growthPriority": 10,
+                                                "dependsOn": [],
+                                                "text": "a crucial role",
+                                                "renderSlotKey": "object",
+                                                "sourceSlotKey": "object",
+                                                "sourceSlot": {
+                                                    "nid": "object",
+                                                    "name": [
+                                                        {
+                                                            "lang": "zh",
+                                                            "text": "宾语对象"
+                                                        },
+                                                        {
+                                                            "lang": "en",
+                                                            "text": "Object"
+                                                        }
+                                                    ],
+                                                    "description": [
+                                                        {
+                                                            "lang": "zh",
+                                                            "text": "表示动作直接作用到的对象，比如买什么、吃什么、带什么、看到什么。"
+                                                        },
+                                                        {
+                                                            "lang": "en",
+                                                            "text": "Shows the thing directly affected by the action, such as what is bought, eaten, taken, or seen."
+                                                        }
+                                                    ],
+                                                    "categoryNid": "object_entity",
+                                                    "color": "rgba(139,92,246,1)"
+                                                },
+                                                "slotUid": 159188,
+                                                "semanticIds": [],
+                                                "literal": false,
+                                                "hasChildStruct": false
+                                            },
+                                            {
+                                                "slotKey": "context_phrase",
+                                                "slot": {
+                                                    "nid": "context_phrase",
+                                                    "name": [
+                                                        {
+                                                            "lang": "zh",
+                                                            "text": "背景短语"
+                                                        },
+                                                        {
+                                                            "lang": "en",
+                                                            "text": "Context Phrase"
+                                                        }
+                                                    ],
+                                                    "description": [
+                                                        {
+                                                            "lang": "zh",
+                                                            "text": "表示动作或状态发生时的背景补充：常见为介词短语（地点、搭配、场景），也可为缩略的 V-ing 情状状语（如 entering Atlantic Daylight Time / walking home），不单独升成从句。"
+                                                        },
+                                                        {
+                                                            "lang": "en",
+                                                            "text": "Background adjunct for an action or state: often a PP (place, company, setting), and also a reduced V-ing circumstance adjunct (e.g. entering Atlantic Daylight Time / walking home), kept inside the clause rather than promoted."
+                                                        }
+                                                    ],
+                                                    "categoryNid": "lexical_chunk",
+                                                    "color": "rgba(148,163,184,1)"
+                                                },
+                                                "required": false,
+                                                "grammarControlling": true,
+                                                "growthPriority": 30,
+                                                "dependsOn": [],
+                                                "text": "in career success",
+                                                "renderSlotKey": "place_phrase",
+                                                "sourceSlotKey": "context_phrase",
+                                                "sourceSlot": {
+                                                    "nid": "context_phrase",
+                                                    "name": [
+                                                        {
+                                                            "lang": "zh",
+                                                            "text": "背景短语"
+                                                        },
+                                                        {
+                                                            "lang": "en",
+                                                            "text": "Context Phrase"
+                                                        }
+                                                    ],
+                                                    "description": [
+                                                        {
+                                                            "lang": "zh",
+                                                            "text": "表示动作或状态发生时的背景补充：常见为介词短语（地点、搭配、场景），也可为缩略的 V-ing 情状状语（如 entering Atlantic Daylight Time / walking home），不单独升成从句。"
+                                                        },
+                                                        {
+                                                            "lang": "en",
+                                                            "text": "Background adjunct for an action or state: often a PP (place, company, setting), and also a reduced V-ing circumstance adjunct (e.g. entering Atlantic Daylight Time / walking home), kept inside the clause rather than promoted."
+                                                        }
+                                                    ],
+                                                    "categoryNid": "lexical_chunk",
+                                                    "color": "rgba(148,163,184,1)"
+                                                },
+                                                "slotUid": 159189,
+                                                "semanticIds": [],
+                                                "literal": false,
+                                                "hasChildStruct": false
+                                            },
+                                            {
+                                                "slotKey": "__literal__",
+                                                "text": ".",
+                                                "renderSlotKey": "__literal__",
+                                                "sourceSlotKey": "__literal__",
+                                                "literal": true
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "slotKey": "context_phrase",
+                                    "slot": {
+                                        "nid": "context_phrase",
+                                        "name": [
+                                            {
+                                                "lang": "zh",
+                                                "text": "背景短语"
+                                            },
+                                            {
+                                                "lang": "en",
+                                                "text": "Context Phrase"
+                                            }
+                                        ],
+                                        "description": [
+                                            {
+                                                "lang": "zh",
+                                                "text": "表示动作或状态发生时的背景补充：常见为介词短语（地点、搭配、场景），也可为缩略的 V-ing 情状状语（如 entering Atlantic Daylight Time / walking home），不单独升成从句。"
+                                            },
+                                            {
+                                                "lang": "en",
+                                                "text": "Background adjunct for an action or state: often a PP (place, company, setting), and also a reduced V-ing circumstance adjunct (e.g. entering Atlantic Daylight Time / walking home), kept inside the clause rather than promoted."
+                                            }
+                                        ],
+                                        "categoryNid": "lexical_chunk",
+                                        "color": "rgba(148,163,184,1)"
+                                    },
+                                    "required": false,
+                                    "grammarControlling": true,
+                                    "growthPriority": 30,
+                                    "dependsOn": [],
+                                    "text": "Supported by his research",
+                                    "renderSlotKey": "place_phrase",
+                                    "sourceSlotKey": "context_phrase",
+                                    "sourceSlot": {
+                                        "nid": "context_phrase",
+                                        "name": [
+                                            {
+                                                "lang": "zh",
+                                                "text": "背景短语"
+                                            },
+                                            {
+                                                "lang": "en",
+                                                "text": "Context Phrase"
+                                            }
+                                        ],
+                                        "description": [
+                                            {
+                                                "lang": "zh",
+                                                "text": "表示动作或状态发生时的背景补充：常见为介词短语（地点、搭配、场景），也可为缩略的 V-ing 情状状语（如 entering Atlantic Daylight Time / walking home），不单独升成从句。"
+                                            },
+                                            {
+                                                "lang": "en",
+                                                "text": "Background adjunct for an action or state: often a PP (place, company, setting), and also a reduced V-ing circumstance adjunct (e.g. entering Atlantic Daylight Time / walking home), kept inside the clause rather than promoted."
+                                            }
+                                        ],
+                                        "categoryNid": "lexical_chunk",
+                                        "color": "rgba(148,163,184,1)"
+                                    },
+                                    "slotUid": 159128,
+                                    "semanticIds": [],
+                                    "literal": false,
+                                    "hasChildStruct": false
+                                },
+                                {
+                                    "slotKey": "__literal__",
+                                    "text": ".",
+                                    "renderSlotKey": "__literal__",
+                                    "sourceSlotKey": "__literal__",
+                                    "literal": true
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "slotKey": "__literal__",
+                        "text": ".",
+                        "renderSlotKey": "__literal__",
+                        "sourceSlotKey": "__literal__",
+                        "literal": true
+                    }
+                ]
+            }
+        ],
+        "supportsPyramid": false,
+        "created": "2026-08-18T10:52:03.738+00:00",
+        "updated": "2026-08-19T08:16:06.776+00:00"
+    }
+}
