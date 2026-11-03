@@ -1,0 +1,376 @@
+name: langwise
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+
+# 
+version: 2.0.4+60
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_screenutil: ^5.9.3
+
+  # 定位
+  geolocator: ^13.0.1
+  # 获取音频waveform数据
+  just_waveform: ^0.0.7
+  # 弹出菜单
+  popover: ^0.3.1
+  # 音频后台播放服务
+  audio_service: ^0.18.18
+  # 音频播放
+  just_audio: ^0.10.5
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  # 吐司 https://pub.dev/packages/bot_toast
+  # Api 文档 https://github.com/MMMzq/bot_toast/blob/master/API_zh.md#%E9%80%9A%E7%94%A8%E5%8F%82%E6%95%B0%E8%AF%B4%E6%98%8E
+  bot_toast: 4.1.3
+  # 权限管理 重要：不支持macos 需找出解决方案
+  permission_handler: ^11.3.1
+  convert: ^3.1.2
+  encrypt: ^5.0.3
+  crypto: ^3.0.6
+  pointycastle: ^3.9.1
+  uuid: any
+  auto_size_text: ^3.0.0-nullsafety.0
+  path_provider: ^2.1.5
+  path: ^1.9.1
+  open_file: ^3.5.10
+  package_info_plus: ^8.1.2
+  common_utils: ^2.1.0
+  wakelock_plus: ^1.2.8
+  url_launcher: ^6.3.1
+  # 录音
+  record: ^6.0.0
+  # 页面可见性监听 https://pub.dev/packages/visibility_detector/example
+  visibility_detector: ^0.4.0+2
+  # 内存泄漏排查工具 https://pub-web.flutter-io.cn/packages/leak_detector
+  #  leak_detector: ^1.1.0
+  # getx 框架 https://pub.dev/packages/get
+  get: ^4.6.6
+  # 轮播 https://pub-web.flutter-io.cn/packages/carousel_slider
+  carousel_slider: ^5.0.0
+  # 文字公告轮博
+  marquee: ^2.3.0
+  flutter_svg: 2.2.0
+  # 列表动画
+  flutter_staggered_animations: ^1.1.1
+  # 气泡框
+  bubble_box: ^0.5.3
+  # 支持桌面端的拖拽文件到应用
+  desktop_drop: ^0.5.0
+  # 虚线边框
+  dotted_border: ^2.1.0
+  # 悬浮按钮
+  draggable_float_widget: ^0.1.0
+  # loading
+  flutter_spinkit: ^5.2.1
+  #Path 动画
+  animated_path: ^0.0.2
+  #拖拽排序
+  reorderables: ^0.6.0
+  flutter_fancy_tree_view2: ^1.6.2
+  # 获取操作系统时区
+  flutter_timezone: ^4.1.1
+  # 日历
+  calendar_date_picker2: ^2.0.0
+  table_calendar: ^3.1.3
+  # 日期时间选择器
+  flutter_picker_plus: 1.3.0
+  # 图片裁剪
+  crop_your_image: ^2.0.0
+  # 头部吸附
+  flutter_sticky_header: ^0.7.0
+  # 主题工具
+  themed: ^8.1.0
+  # 反转卡牌动画
+  flip_card: ^0.7.0
+  # 锚点滚动定位
+  scroll_to_index: ^3.0.1
+  # 汉字转拼音
+  lpinyin: ^2.0.3
+  # 滚动监听
+  scrollview_observer: ^1.26.1
+  # 关系树
+  graphview: 1.2.0
+  # 点击放大图片
+  photo_view: ^0.15.0
+  # 文字描边
+  bordered_text: ^2.0.0
+  #  json 视图
+  flutter_json_view: ^1.1.5
+  # web socket
+  web_socket_channel: ^3.0.2
+  # 本地通知
+  flutter_local_notifications: ^19.0.0
+  # lottie 
+  lottie: ^3.3.1
+  # 输入框验证规则
+  mask_text_input_formatter: ^2.9.0
+  # windows 相机
+  camera_windows: ^0.2.6+2
+  # 友盟
+  umeng_apm_sdk: ^2.3.4
+  umeng_common_sdk: ^1.2.9
+  # webview
+  flutter_inappwebview: ^6.1.5
+  # 极光推送
+  jpush_flutter: 3.3.2
+  device_info_plus: ^11.3.0
+  app_links: ^6.4.0
+  # 图表
+  flutter_chart_plus: ^0.4.1
+  # 支付宝支付
+  tobias: 5.1.2
+  # 苹果支付 (警告: 该版本收据是StoreKit 1，如果升级该插件需要服务端验证收据支持StoreKit 2)
+  in_app_purchase: 3.2.0
+  # 二维码
+  qr_flutter: ^4.1.0
+  # 验证码 https://pub-web.flutter-io.cn/packages/pinput
+  pinput: ^5.0.0
+  # 图片 https://pub-web.flutter-io.cn/packages/image
+  image: ^4.5.2
+  # 图片压缩
+  flutter_image_compress: ^2.4.0
+  # 图片选择器 https://pub-web.flutter-io.cn/packages/image_picker
+  image_picker: ^1.1.2
+  # 文件选择器 https://pub.dev/packages/file_picker
+  file_picker: ^8.1.7
+  # 保存文件
+  file_saver: ^0.2.14
+  # 保存图片
+  image_gallery_saver_plus: ^4.0.1
+  # 分享
+  share_plus: 10.1.4
+  # 文件的 MIME 类型  https://pub-web.flutter-io.cn/packages/mime
+  mime: ^1.0.6
+  connectivity_plus: ^6.1.5
+  # 下拉刷新/上拉加载 https://pub-web.flutter-io.cn/packages/easy_refresh
+  easy_refresh: ^3.4.0
+  # 文本输入框 https://pub-web.flutter-io.cn/packages/auto_size_text_field
+  auto_size_text_field: ^2.2.4
+  # 切换按钮
+  animated_toggle_switch: ^0.8.5
+  sqlite3: ^2.4.0
+  sqlite3_flutter_libs: ^0.5.41
+  # 面包屑
+  flutter_breadcrumb: ^1.0.1
+  #markdown
+  markdown_widget: ^2.3.2+8
+  flutter_markdown_plus: 1.0.3
+  decimal: 3.2.4
+  #zip操作
+  archive: 4.0.9
+
+  lib_common:
+    git:
+      url: 'git@git.timelywise.cn:app/lib/common.git'
+      ref: '0.0.3'
+  ui_essentials:
+    git:
+      url: 'git@git.timelywise.cn:app/lib/ui_essentials.git'
+      ref: '0.0.1'
+  login_module:
+    git:
+      url: 'git@git.timelywise.cn:app/lib/login.git'
+      ref: '0.0.5'
+  wise_http:
+    git:
+      url: "git@git.timelywise.cn:app/lib/wise_http.git"
+      ref: "0.0.2"
+  api:
+    git:
+      url: 'git@git.timelywise.cn:app/lib/api.git'
+      ref: "0.0.2"
+  audio_player_ex:
+    git:
+      url: 'git@git.timelywise.cn:app/lib/audio_player_ex.git'
+      ref: '0.0.5'
+  quiz_play:
+    git:
+      url: 'git@git.timelywise.cn:app/lib/quizplay.git'
+      # ref: 'future'
+      ref: '1.2.5'
+#    path: ./quizplay
+#  abc->play_arrow_rounded12345678
+
+  resource_cache_package:
+    git:
+      url: 'git@git.timelywise.cn:app/lib/resource_cache_package.git'
+      # ref: 'feature'
+      ref: '0.0.9'
+  data_table_2:
+    path: ./plugins/data_table_2
+  # 拖放功能的动画列表和网格 https://pub-web.flutter-io.cn/packages/animated_reorderable_list
+  animated_reorderable_list:
+    path: ./plugins/animated_reorderable_list
+  # macos 相机
+  camera_macos:
+    path: ./plugins/camera_macos
+  permissions_macos_plugin:
+    git:
+      url: 'git@git.timelywise.cn:app/lib/permissions_macos_plugin.git'
+      ref: '0.0.1'
+  # 视频播放组件
+  video_player:
+    git:
+      url: 'git@git.timelywise.cn:app/lib/video_player.git'
+      ref: '0.0.6'
+  wise_camera:
+    git:
+      url: 'git@git.timelywise.cn:app/lib/wise_camera.git'
+      ref: 'main'
+  # 相机 https://pub-web.flutter-io.cn/packages/camera
+  camera: ^0.11.2
+  window_manager: ^0.4.3
+  vm_service: ^14.3.0
+
+dependency_overrides:
+  http: ^1.0.0
+  path: ^1.9.1
+  web: ^1.0.0
+  wise_http:
+    git:
+      url: "git@git.timelywise.cn:app/lib/wise_http.git"
+      ref: "0.0.2"
+      # ref: "wk_dio"
+
+dev_dependencies:
+  flutter_driver:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^1.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/txt/source_license.txt
+    - assets/images/
+    - assets/images/splash/launch_image.png
+    - assets/images/splash/
+    - assets/images/logo/
+    - assets/images/practice_questions/
+    - assets/images/sign_in_up/
+    - assets/images/elements/
+    - assets/images/official_course_details/
+    - assets/images/custom_course/
+    - assets/images/manager/
+    - assets/images/update_app/
+    - assets/images/user_center/
+    - assets/images/mission/
+    - assets/images/public/
+    - assets/images/application/
+    - assets/svg/manage/
+    - assets/svg/photographing_books/
+    - assets/svg/practice_questions/
+    - assets/svg/exam_plan/
+    - assets/svg/custom_course/
+    - assets/svg/public/
+    - assets/svg/membership_card/
+    - assets/svg/today_plan/
+    - assets/svg/official_course_details/
+    - assets/svg/guided_settings/
+    - assets/svg/elements/
+    - assets/svg/user_center/
+    - assets/svg/image_moderation/
+    - assets/svg/mission/
+    - assets/language_json/
+    - assets/svg/
+    - assets/lottie/
+    - assets/audios/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: LangWiseFont
+      fonts:
+        - asset: assets/fonts/LangWise-Bold.otf
+          weight: 700
+        - asset: assets/fonts/LangWise-Medium.otf
+          weight: 500
+        - asset: assets/fonts/LangWise-Regular.otf
+          weight: 400
+
+    - family: AndikaRegular
+      fonts:
+        - asset: assets/fonts/Andika-Regular.ttf
+          weight: 400
+
+    - family: SourceSerif4
+      fonts:
+        - asset: assets/fonts/SourceSerif4-Light.ttf
+          weight: 300
+        - asset: assets/fonts/SourceSerif4-Medium.ttf
+          weight: 400
+        - asset: assets/fonts/SourceSerif4-Regular.ttf
+          weight: 500
+        - asset: assets/fonts/SourceSerif4-SemiBold.ttf
+          weight: 600
+
+    - family: LXGWWenKaiGBScreen
+      fonts:
+        - asset: assets/fonts/LXGWWenKaiGBScreen.ttf
+          weight: 300
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+
+tobias:
+  url_scheme: langwise
+  ios:
+    ignore_security: true
+    universal_link: https://timelywise.cn/alipay/

@@ -1,0 +1,57 @@
+{
+  "routes": {
+    "Routes.APPLICATION": "应用主框架",
+    "Routes.USER_CENTER": "用户中心",
+    "Routes.HOME": "首页",
+    "Routes.TODAY_PLAN": "今日计划",
+    "Routes.USER_EVALUATION": "用户Evaluation",
+    "Routes.MISSION_CONTROL_CENTER": "MissionControl中心",
+    "Routes.NEW_CREATE_STUDY_PLAN": "NewCreateStudy计划",
+    "Routes.PRACTICE_QUESTIONS_EVAL": "练习题目Eval"
+  },
+  "anchors": {
+    "Routes.APPLICATION": {
+      "user_center": "用户中心",
+      "favourite_btn": "收藏按钮",
+      "to_user_center": "To用户中心"
+    },
+    "Routes.USER_CENTER": {
+      "save_btn": "保存按钮",
+      "edit_profile": "编辑资料",
+      "check_assessment_report": "CheckAssessmentReport",
+      "check_coupons": "CheckCoupons",
+      "add_student": "AddStudent"
+    },
+    "Routes.HOME": {
+      "to_study_plan": "ToStudy计划",
+      "home_fist_card_start": "首页FistCardStart"
+    },
+    "Routes.TODAY_PLAN": {
+      "add_official_plan": "AddOfficial计划",
+      "add_textbook_plan": "AddTextbook计划",
+      "add_phonics_plan": "AddPhonics计划",
+      "resume_plan": "Resume计划",
+      "pause_plan": "Pause计划",
+      "edit_plan": "编辑计划"
+    },
+    "Routes.USER_EVALUATION": {
+      "start_free_evaluation": "StartFreeEvaluation"
+    },
+    "Routes.MISSION_CONTROL_CENTER": {
+      "preview_btn": "Preview按钮",
+      "listen_and_write_btn": "ListenAndWrite按钮",
+      "browse_courses_btn": "BrowseCourses按钮",
+      "mission_unit": "MissionUnit",
+      "mission_btn": "Mission按钮",
+      "professional_mission_${item.type}": "ProfessionalMission${item.type}"
+    },
+    "Routes.NEW_CREATE_STUDY_PLAN": {
+      "study_days": "StudyDays",
+      "study_wordkdays": "StudyWordkdays",
+      "study_holidays": "StudyHolidays"
+    },
+    "Routes.PRACTICE_QUESTIONS_EVAL": {
+      "see_assessment": "SeeAssessment"
+    }
+  }
+}
