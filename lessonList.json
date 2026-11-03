@@ -1,0 +1,115 @@
+{
+  "code": 200,
+  "data": {
+    "courseId": 29,
+    "courseName": "LangWise官方课程",
+    "courseCoverUrl": "https://img.timelywise.cn/u/861273427f8ece51dff5ba64ac6fe6ce/28_1f04a65f-951d-6f10-b718-07a9eb06953d.png?auth_key=1775895022-ramxya7fe4fn-0-4c4b0b685531e0c74e96a0c90e918701",
+    "specialty": "EN_OFFICIAL",
+    "levelId": 42,
+    "levelName": "Level 0",
+    "moduleId": 249,
+    "moduleName": "日常活动",
+    "descriptionTitle": "模块详情",
+    "moduleDescription": "学习日常生活中的常见动作，能使用简单的现在进行时的语法结构，来描述身边人正在做的动作。",
+    "moduleCoverUrl": "https://img.timelywise.cn/course/BC97BDA298905DD684E1253BD4043285.webp?auth_key=1775895022-q59l7n6au1ve-0-255e0d9ab62a00816513a852025715c7",
+    "moduleStatus": "LEARNING",
+    "moduleProgress": 0.04,
+    "lessonId": 804,
+    "lessonIndex": 1,
+    "lessonCount": 28,
+    "manageType": "READ",
+    "isOfficial": true,
+    "modules": [
+      {
+        "uid": 249,
+        "language": "en",
+        "subject": null,
+        "name": "日常活动",
+        "cover": "course/BC97BDA298905DD684E1253BD4043285.webp",
+        "coverUrl": "https://img.timelywise.cn/course/BC97BDA298905DD684E1253BD4043285.webp?auth_key=1775895022-q59l7n6au1ve-0-255e0d9ab62a00816513a852025715c7",
+        "description": "学习日常生活中的常见动作，能使用简单的现在进行时的语法结构，来描述身边人正在做的动作。",
+        "difficulty": null,
+        "unitIds": [
+          2752,
+          5326,
+          5327,
+          5328
+        ],
+        "bookId": null,
+        "completed": true,
+        "order": 1000000.0,
+        "status": null,
+        "payStatus": null,
+        "pageCount": null,
+        "estimatedTime": null,
+        "analysisCount": null,
+        "topic": null,
+        "contentInfo": null
+      }
+    ],
+    "units": [
+      {
+        "unitId": 2752,
+        "unitName": "Unit 1 日常活动1",
+        "bgColor": [
+          {
+            "theme": "DARK",
+            "color": "linear-gradient(180deg, rgba(56, 189, 248, 0.30) 0%, rgba(56, 189, 248, 0.00) 100%)",
+            "borderColor": null
+          },
+          {
+            "theme": "LIGHT",
+            "color": "linear-gradient(180deg, rgba(56, 189, 248, 0.30) 0%, rgba(56, 189, 248, 0.00) 100%)",
+            "borderColor": null
+          }
+        ],
+        "current": true,
+        "lessons": [
+          {
+            "uid": 365,
+            "name": "单元目标",
+            "description": null,
+            "coverUrl": "https://img.timelywise.cn/knowledge/cover/qJ68E58bsoqmNvyVMwwjMifMSqoRluvvganIYI3J99g7pgeS.webp?auth_key=1775895023-1h40bmbxww0z-0-5bdebdc106ed48467b5818fd02040e70",
+            "exerciseIndex": 0,
+            "exerciseCount": 0,
+            "exerciseTotal": null,
+            "estimatedTime": null,
+            "progress": 0.0,
+            "status": "UNLEARNED",
+            "newExercise": null,
+            "type": "TARGET",
+            "updated": "2025-04-06T13:37:11.647+00:00"
+          },
+          {
+            "uid": 804,
+            "name": "先导课(预备级)",
+            "description": "像学母语一样，自然融入新知海洋。 以沉浸式学习法全面感知和熟悉单元核心内容，轻松构建知识框架，为接下来的深度学习铺就坚实平坦的道路。",
+            "coverUrl": "https://img.timelywise.cn/knowledge/semantic/E8868EE09D07F396FAB235D6EE890070.webp?auth_key=1775895023-hvv19zad6jgh-0-9722e9474067b4a0eb9c86c35fb6b12d",
+            "exerciseIndex": 2,
+            "exerciseCount": 21,
+            "exerciseTotal": 21,
+            "estimatedTime": 621.841,
+            "progress": 1.0,
+            "status": "LEARNED",
+            "newExercise": false,
+            "type": "LEARN_PRACTICE",
+            "updated": "2025-05-02T09:00:20.652+00:00"
+          }
+        ],
+        "difficulty": 0,
+        "progress": 0.17
+      }
+    ],
+    "planNode": {
+      "exerciseType": "PRONUNCIATION_ASSESSMENT",
+      "levelId": 42,
+      "moduleId": 249,
+      "unitId": 2752,
+      "lessonId": 804,
+      "exerciseId": 68901,
+      "estimatedTime": null,
+      "tier": null
+    },
+    "enableNewCustom": false
+  }
+}

@@ -1,0 +1,3604 @@
+//api-lw.timelywise.cn/course/exercise/list/by/uids?courseId=29&levelId=42&moduleId=249&unitId=2752&lessonId=804&userId=378144274&memberId=378145362
+{
+  "code": 200,
+  "data": {
+    "list": [
+      {
+        "uid": 68103,
+        "type": "IMMERSIVE_CHAIN",
+        "purpose": "LEARN",
+        "contentList": [
+          {
+            "uid": 106212,
+            "type": "EN_WORD",
+            "semanticId": 666381
+          },
+          {
+            "uid": 118745,
+            "type": "EN_WORD",
+            "semanticId": 691299
+          }
+        ],
+        "stems": [
+          {
+            "text": "girl",
+            "gloss": [
+              {
+                "lang": "en",
+                "text": "young female persons in childhood"
+              },
+              {
+                "lang": "zh",
+                "text": "童年时期的女性"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/41A506DBE2CE840BBC654762DC778C01.mp3?auth_key=1776432003-tqg2we5fhqux-0-3058e1a9c13ca614b0cd360048ca176f",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/185F1500057BE1EE3C7D3114F0F41462.webp?auth_key=1776432003-34du02y5y7cx-0-dce33671414d5a2c76a6a57512414394",
+            "imageKey": "knowledge/semantic/185F1500057BE1EE3C7D3114F0F41462.webp",
+            "imageMd5": "185F1500057BE1EE3C7D3114F0F41462",
+            "video": {
+              "styleId": 10,
+              "videoId": 1998436,
+              "videoUrl": "https://video.timelywise.cn/video/generated/206CE542E198083A2D28A6477932235B.mp4?auth_key=1776432003-qxpl38x94r99-0-727f0b79ddd2572ebdd21ca582440c43",
+              "videoKey": "video/generated/206CE542E198083A2D28A6477932235B.mp4",
+              "duration": 2.92,
+              "startSeconds": 0.0,
+              "endSeconds": 2.92,
+              "md5": "206CE542E198083A2D28A6477932235B",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/185F1500057BE1EE3C7D3114F0F41462.webp?auth_key=1776432003-34du02y5y7cx-0-dce33671414d5a2c76a6a57512414394",
+              "firstFrameKey": "knowledge/semantic/185F1500057BE1EE3C7D3114F0F41462.webp",
+              "firstFrameMd5": "185F1500057BE1EE3C7D3114F0F41462",
+              "ass": "Dialogue:0,0:00:0.00,0:00:2.62,Default,,0,0,0,,{\\k137}Hello!{\\k10}{\\k5}Do{\\k6}you{\\k16}want{\\k6}to{\\k28}play{\\k19}with{\\k34}me?",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue:0,0:00:0.00,0:00:2.62,Default,,0,0,0,,你好！想不想和我一起玩呀？"
+                }
+              ]
+            }
+          },
+          {
+            "text": "boy",
+            "gloss": [
+              {
+                "lang": "en",
+                "text": "male children or young people"
+              },
+              {
+                "lang": "zh",
+                "text": "年轻的男性或儿童"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/2849D10A70BDF200ED274A7BF0D6DAC8.mp3?auth_key=1776432003-5qyj6p1trjxm-0-29318fdb2c98e553705e8b98ee8caff2",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/1B066CACD773FD2609485B2D88C514A0.webp?auth_key=1776432003-zn8p3ccztr7q-0-60ed62ee4be3d5419b0dc445da33315b",
+            "imageKey": "knowledge/semantic/1B066CACD773FD2609485B2D88C514A0.webp",
+            "imageMd5": "1B066CACD773FD2609485B2D88C514A0",
+            "video": {
+              "styleId": 10,
+              "videoId": 1998477,
+              "videoUrl": "https://video.timelywise.cn/knowledge/video/CD81D1575B139C8BE5B8077BE583EC24.mp4?auth_key=1776432003-9evv14hhrwcd-0-a3638974ed06396f420f9bc2db8bb5b1",
+              "videoKey": "knowledge/video/CD81D1575B139C8BE5B8077BE583EC24.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 3.88,
+              "md5": "CD81D1575B139C8BE5B8077BE583EC24",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/1B066CACD773FD2609485B2D88C514A0.webp?auth_key=1776432003-zn8p3ccztr7q-0-60ed62ee4be3d5419b0dc445da33315b",
+              "firstFrameKey": "knowledge/semantic/1B066CACD773FD2609485B2D88C514A0.webp",
+              "firstFrameMd5": "1B066CACD773FD2609485B2D88C514A0",
+              "ass": "Dialogue: 0,0:00:00.00,0:00:01.75,Default,,0,0,0,,{\\k175}Hi!\nDialogue: 0,0:00:01.85,0:00:03.23,Default,,0,0,0,,{\\k28}Look{\\k6}at{\\k14}my{\\k22}new{\\k68}toy!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.00,0:00:01.75,Default,,0,0,0,,嗨！\nDialogue: 0,0:00:01.85,0:00:03.23,Default,,0,0,0,,快看我的新玩具！"
+                }
+              ]
+            }
+          }
+        ],
+        "config": {
+          "uid": 1184,
+          "stemDisplay": "IMAGE",
+          "optionDisplay": "TEXT",
+          "preTeaching": true,
+          "stemAudio": true,
+          "optionAudio": true,
+          "questionAudio": null,
+          "inputMode": null,
+          "highlight": null,
+          "followSentence": null,
+          "breakdownLevel": null,
+          "optionCount": null,
+          "errorCount": null
+        },
+        "guide": [
+          {
+            "lang": "en",
+            "text": "Drag the picture to the correct word. Listen to the sound and match. Try again if it bounces back."
+          },
+          {
+            "lang": "zh",
+            "text": "将图片拖到正确的单词上。听声音并匹配。如果弹回，请再试一次。"
+          }
+        ],
+        "estimatedTime": 26.0,
+        "status": "LEARNED",
+        "correct": true,
+        "duration": 35.0,
+        "result": "excellent",
+        "access": "NORMAL"
+      },
+      {
+        "uid": 126465,
+        "type": "IMMERSIVE_CHAIN",
+        "purpose": "LEARN",
+        "contentList": [
+          {
+            "uid": 114332,
+            "type": "EN_WORD",
+            "semanticId": 680571
+          },
+          {
+            "uid": 149902,
+            "type": "EN_WORD",
+            "semanticId": 684696
+          }
+        ],
+        "stems": [
+          {
+            "text": "drinking",
+            "gloss": [
+              {
+                "lang": "en",
+                "text": "to consume liquid by swallowing"
+              },
+              {
+                "lang": "zh",
+                "text": "吞咽液体到胃里"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/85C10978A18FAEB51B369F340F63738D.mp3?auth_key=1776432003-49sk96c88wwy-0-827f54fde58ff88e83fa0b44a2296724",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/6984FC0A6199D0255CEE9C47075D25B9.webp?auth_key=1776432003-uf6rv9drnlnq-0-c82634c39bea0715ee3647e0af0e8a35",
+            "imageKey": "knowledge/semantic/6984FC0A6199D0255CEE9C47075D25B9.webp",
+            "imageMd5": "6984FC0A6199D0255CEE9C47075D25B9",
+            "video": {
+              "styleId": 10,
+              "videoId": 1940985,
+              "videoUrl": "https://video.timelywise.cn/video/audio_enhanced/A42F774AC27A6CA7917DDECA98DD9C96.mp4?auth_key=1776432003-d2ebg6nf520b-0-9abfcb33b2085d220f68a36ed0a4efd4",
+              "videoKey": "video/audio_enhanced/A42F774AC27A6CA7917DDECA98DD9C96.mp4",
+              "duration": 3.9,
+              "startSeconds": 0.0,
+              "endSeconds": 3.88,
+              "md5": "A42F774AC27A6CA7917DDECA98DD9C96",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/6984FC0A6199D0255CEE9C47075D25B9.webp?auth_key=1776432003-uf6rv9drnlnq-0-c82634c39bea0715ee3647e0af0e8a35",
+              "firstFrameKey": "knowledge/semantic/6984FC0A6199D0255CEE9C47075D25B9.webp",
+              "firstFrameMd5": "6984FC0A6199D0255CEE9C47075D25B9",
+              "ass": "Dialogue: 0,0:00:01.54,0:00:03.53,Default,,0,0,0,,{\\k73}Ah,{\\k14}that{\\k27}hits{\\k10}the{\\k62}spot!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "\nDialogue: 0,0:00:01.54,0:00:03.53,Default,,0,0,0,,啊，正合我意！"
+                }
+              ]
+            }
+          },
+          {
+            "text": "eating",
+            "gloss": [
+              {
+                "lang": "en",
+                "text": "to ingest something as food"
+              },
+              {
+                "lang": "zh",
+                "text": "摄入食物"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/EE2CF3DD9B0E3410FDEF2891FF995100.mp3?auth_key=1776432003-ulya4enr55gj-0-3fe0ceb660436729fc2205531d44ae15",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/9CDC236AD1F939CAB24BFEB69FA63BED.webp?auth_key=1776432003-7gex74l0wayf-0-31444c4e381ec25cad6c93a864373bac",
+            "imageKey": "knowledge/semantic/9CDC236AD1F939CAB24BFEB69FA63BED.webp",
+            "imageMd5": "9CDC236AD1F939CAB24BFEB69FA63BED",
+            "video": {
+              "styleId": 10,
+              "videoId": 1941021,
+              "videoUrl": "https://video.timelywise.cn/video/audio_enhanced/3169FCE5B80C156D798F67AD6A38491A.mp4?auth_key=1776432003-9cg2faam9a4y-0-027bd91f2b8ff31ebc576f788bb537fe",
+              "videoKey": "video/audio_enhanced/3169FCE5B80C156D798F67AD6A38491A.mp4",
+              "duration": 3.9,
+              "startSeconds": 0.0,
+              "endSeconds": 3.88,
+              "md5": "3169FCE5B80C156D798F67AD6A38491A",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/9CDC236AD1F939CAB24BFEB69FA63BED.webp?auth_key=1776432003-7gex74l0wayf-0-31444c4e381ec25cad6c93a864373bac",
+              "firstFrameKey": "knowledge/semantic/9CDC236AD1F939CAB24BFEB69FA63BED.webp",
+              "firstFrameMd5": "9CDC236AD1F939CAB24BFEB69FA63BED",
+              "ass": "Dialogue: 0,0:00:01.74,0:00:03.43,Default,,0,0,0,,{\\k85}Mmm,{\\k84}yummy!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:01.74,0:00:03.43,Default,,0,0,0,,嗯，真好吃！"
+                }
+              ]
+            }
+          }
+        ],
+        "config": {
+          "uid": 1184,
+          "stemDisplay": "IMAGE",
+          "optionDisplay": "TEXT",
+          "preTeaching": true,
+          "stemAudio": true,
+          "optionAudio": true,
+          "questionAudio": null,
+          "inputMode": null,
+          "highlight": null,
+          "followSentence": null,
+          "breakdownLevel": null,
+          "optionCount": null,
+          "errorCount": null
+        },
+        "guide": [
+          {
+            "lang": "en",
+            "text": "Drag the picture to the correct word. Listen to the sound and match. Try again if it bounces back."
+          },
+          {
+            "lang": "zh",
+            "text": "将图片拖到正确的单词上。听声音并匹配。如果弹回，请再试一次。"
+          }
+        ],
+        "estimatedTime": 18.0,
+        "status": "LEARNED",
+        "correct": true,
+        "duration": 28.0,
+        "result": "pass",
+        "access": "NORMAL"
+      },
+      {
+        "uid": 68303,
+        "type": "IMMERSIVE_CHAIN",
+        "purpose": "LEARN",
+        "contentList": [
+          {
+            "uid": 153874,
+            "type": "EN_SENTENCE",
+            "semanticId": 731048
+          },
+          {
+            "uid": 153875,
+            "type": "EN_SENTENCE",
+            "semanticId": 731049
+          }
+        ],
+        "stems": [
+          {
+            "text": "The girl is drinking.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "这个女孩正在喝水。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/0878A17F48B313BA86DF0A76CBCC4D22.mp3?auth_key=1776432003-c91qshfhxabp-0-27cf8a8f9789c746d225c51e83176afe",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/3AEA24065E7ED4B03FF7185CEF91E205.webp?auth_key=1776432003-xkxspe1jnf83-0-9f903fba2025ff40b93fded82556c77d",
+            "imageKey": "knowledge/semantic/3AEA24065E7ED4B03FF7185CEF91E205.webp",
+            "imageMd5": "3AEA24065E7ED4B03FF7185CEF91E205",
+            "video": {
+              "styleId": 10,
+              "videoId": 1954948,
+              "videoUrl": "https://video.timelywise.cn/video/generated/F7A2A782B7F8534D25DC6B44425EB82B.mp4?auth_key=1776432003-0vlhcpvwn78u-0-302122fad311facc266c99b8eb062cfa",
+              "videoKey": "video/generated/F7A2A782B7F8534D25DC6B44425EB82B.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 3.88,
+              "md5": "F7A2A782B7F8534D25DC6B44425EB82B",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/3AEA24065E7ED4B03FF7185CEF91E205.webp?auth_key=1776432003-xkxspe1jnf83-0-9f903fba2025ff40b93fded82556c77d",
+              "firstFrameKey": "knowledge/semantic/3AEA24065E7ED4B03FF7185CEF91E205.webp",
+              "firstFrameMd5": "3AEA24065E7ED4B03FF7185CEF91E205"
+            }
+          },
+          {
+            "text": "The girl is eating.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "这个女孩正在吃东西。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/960572FBA3009BAC253714A2221F8D6D.mp3?auth_key=1776432003-khnysaq4j703-0-20fe85b1a10e4156e65b41e6e3e40ec8",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/E252F932D377EC9BB4A6F1490FF6B87B.webp?auth_key=1776432003-qy8t59qa9m5w-0-1cc58134bd7c11497621a32dff2f1209",
+            "imageKey": "knowledge/semantic/E252F932D377EC9BB4A6F1490FF6B87B.webp",
+            "imageMd5": "E252F932D377EC9BB4A6F1490FF6B87B",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990198,
+              "videoUrl": "https://video.timelywise.cn/video/generated/60A8AA1DBD40FC7ED2044D2537A9FE98.mp4?auth_key=1776432003-s5rcaspp8mnt-0-96979a8681fdd1056c5e1e4732d11bfd",
+              "videoKey": "video/generated/60A8AA1DBD40FC7ED2044D2537A9FE98.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.38,
+              "endSeconds": 3.88,
+              "md5": "60A8AA1DBD40FC7ED2044D2537A9FE98",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/E252F932D377EC9BB4A6F1490FF6B87B.webp?auth_key=1776432003-qy8t59qa9m5w-0-1cc58134bd7c11497621a32dff2f1209",
+              "firstFrameKey": "knowledge/semantic/E252F932D377EC9BB4A6F1490FF6B87B.webp",
+              "firstFrameMd5": "E252F932D377EC9BB4A6F1490FF6B87B",
+              "ass": "Dialogue: 0,0:00:00.00,0:00:03.28,Default,,0,0,0,,{\\k1}Mmm,I{\\k227} {\\k41}like{\\k59}this!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.00,0:00:03.28,Default,,0,0,0,,嗯，我喜欢这个！"
+                }
+              ]
+            }
+          }
+        ],
+        "config": {
+          "uid": 1184,
+          "stemDisplay": "IMAGE",
+          "optionDisplay": "TEXT",
+          "preTeaching": true,
+          "stemAudio": true,
+          "optionAudio": true,
+          "questionAudio": null,
+          "inputMode": null,
+          "highlight": null,
+          "followSentence": null,
+          "breakdownLevel": null,
+          "optionCount": null,
+          "errorCount": null
+        },
+        "guide": [
+          {
+            "lang": "en",
+            "text": "Drag the picture to the correct word. Listen to the sound and match. Try again if it bounces back."
+          },
+          {
+            "lang": "zh",
+            "text": "将图片拖到正确的单词上。听声音并匹配。如果弹回，请再试一次。"
+          }
+        ],
+        "estimatedTime": 28.0,
+        "status": "LEARNED",
+        "correct": true,
+        "duration": 51.0,
+        "result": "excellent",
+        "access": "NORMAL"
+      },
+      {
+        "uid": 68403,
+        "type": "IMMERSIVE_CHAIN",
+        "purpose": "LEARN",
+        "contentList": [
+          {
+            "uid": 153871,
+            "type": "EN_SENTENCE",
+            "semanticId": 731045
+          },
+          {
+            "uid": 153870,
+            "type": "EN_SENTENCE",
+            "semanticId": 731044
+          },
+          {
+            "uid": 153875,
+            "type": "EN_SENTENCE",
+            "semanticId": 731049
+          },
+          {
+            "uid": 153874,
+            "type": "EN_SENTENCE",
+            "semanticId": 731048
+          }
+        ],
+        "stems": [
+          {
+            "text": "The boy is eating.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "这个男孩正在吃东西。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/5B05C220AF64329934FC36AFFD43E2BA.mp3?auth_key=1776432003-htzuh6j00ywv-0-587bf98cdbcc9b0762527573950e180e",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/B7F777CAFD079A3FDBD8C33A5C9C9409.webp?auth_key=1776432003-88wpwpf0ehez-0-ac0a1c5e6fadd044b559375b9dc7bd95",
+            "imageKey": "knowledge/semantic/B7F777CAFD079A3FDBD8C33A5C9C9409.webp",
+            "imageMd5": "B7F777CAFD079A3FDBD8C33A5C9C9409",
+            "video": {
+              "styleId": 10,
+              "videoId": 1638262,
+              "videoUrl": "https://video.timelywise.cn/video/generated/22B8291453DE289A00B434B6DD894B93.mp4?auth_key=1776432003-ht2azavkxt5n-0-a12369af69a575eb6f5db6c1a0897908",
+              "videoKey": "video/generated/22B8291453DE289A00B434B6DD894B93.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.35,
+              "endSeconds": 3.59,
+              "md5": "22B8291453DE289A00B434B6DD894B93",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/B7F777CAFD079A3FDBD8C33A5C9C9409.webp?auth_key=1776432003-88wpwpf0ehez-0-ac0a1c5e6fadd044b559375b9dc7bd95",
+              "firstFrameKey": "knowledge/semantic/B7F777CAFD079A3FDBD8C33A5C9C9409.webp",
+              "firstFrameMd5": "B7F777CAFD079A3FDBD8C33A5C9C9409",
+              "ass": "Dialogue: 0,0:00:00.94,0:00:03.20,Default,,0,0,0,,{\\k85}Mmm,{\\k141}delicious!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.94,0:00:03.20,Default,,0,0,0,,嗯，真好吃！"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The girl is drinking.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "这个女孩正在喝水。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/0878A17F48B313BA86DF0A76CBCC4D22.mp3?auth_key=1776432003-c91qshfhxabp-0-27cf8a8f9789c746d225c51e83176afe",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/3AEA24065E7ED4B03FF7185CEF91E205.webp?auth_key=1776432003-xkxspe1jnf83-0-9f903fba2025ff40b93fded82556c77d",
+            "imageKey": "knowledge/semantic/3AEA24065E7ED4B03FF7185CEF91E205.webp",
+            "imageMd5": "3AEA24065E7ED4B03FF7185CEF91E205",
+            "video": {
+              "styleId": 10,
+              "videoId": 1954948,
+              "videoUrl": "https://video.timelywise.cn/video/generated/F7A2A782B7F8534D25DC6B44425EB82B.mp4?auth_key=1776432003-0vlhcpvwn78u-0-302122fad311facc266c99b8eb062cfa",
+              "videoKey": "video/generated/F7A2A782B7F8534D25DC6B44425EB82B.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 3.88,
+              "md5": "F7A2A782B7F8534D25DC6B44425EB82B",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/3AEA24065E7ED4B03FF7185CEF91E205.webp?auth_key=1776432003-xkxspe1jnf83-0-9f903fba2025ff40b93fded82556c77d",
+              "firstFrameKey": "knowledge/semantic/3AEA24065E7ED4B03FF7185CEF91E205.webp",
+              "firstFrameMd5": "3AEA24065E7ED4B03FF7185CEF91E205"
+            }
+          },
+          {
+            "text": "The girl is eating.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "这个女孩正在吃东西。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/960572FBA3009BAC253714A2221F8D6D.mp3?auth_key=1776432003-khnysaq4j703-0-20fe85b1a10e4156e65b41e6e3e40ec8",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/E252F932D377EC9BB4A6F1490FF6B87B.webp?auth_key=1776432003-qy8t59qa9m5w-0-1cc58134bd7c11497621a32dff2f1209",
+            "imageKey": "knowledge/semantic/E252F932D377EC9BB4A6F1490FF6B87B.webp",
+            "imageMd5": "E252F932D377EC9BB4A6F1490FF6B87B",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990198,
+              "videoUrl": "https://video.timelywise.cn/video/generated/60A8AA1DBD40FC7ED2044D2537A9FE98.mp4?auth_key=1776432003-s5rcaspp8mnt-0-96979a8681fdd1056c5e1e4732d11bfd",
+              "videoKey": "video/generated/60A8AA1DBD40FC7ED2044D2537A9FE98.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.38,
+              "endSeconds": 3.88,
+              "md5": "60A8AA1DBD40FC7ED2044D2537A9FE98",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/E252F932D377EC9BB4A6F1490FF6B87B.webp?auth_key=1776432003-qy8t59qa9m5w-0-1cc58134bd7c11497621a32dff2f1209",
+              "firstFrameKey": "knowledge/semantic/E252F932D377EC9BB4A6F1490FF6B87B.webp",
+              "firstFrameMd5": "E252F932D377EC9BB4A6F1490FF6B87B",
+              "ass": "Dialogue: 0,0:00:00.00,0:00:03.28,Default,,0,0,0,,{\\k1}Mmm,I{\\k227} {\\k41}like{\\k59}this!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.00,0:00:03.28,Default,,0,0,0,,嗯，我喜欢这个！"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The boy is drinking.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "这个男孩正在喝水。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/E518E73CE17F764549656126CC4D0F5D.mp3?auth_key=1776432003-m4q37kq9nnlm-0-b84bbba8f6a4149f2c879e390a5c93a7",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/1D03C8BB57CFBDD5D7D0946FC96C7D54.webp?auth_key=1776432003-j90067h6qgd2-0-e6fc6d3dc3519b58c069dab450a9dabe",
+            "imageKey": "knowledge/semantic/1D03C8BB57CFBDD5D7D0946FC96C7D54.webp",
+            "imageMd5": "1D03C8BB57CFBDD5D7D0946FC96C7D54",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990411,
+              "videoUrl": "https://video.timelywise.cn/knowledge/video/B66028C375A0275D49FF9D8607BE8C30.mp4?auth_key=1776432003-sb0mkghdalbk-0-3e7ea7779b4b534b05df2a44674b8108",
+              "videoKey": "knowledge/video/B66028C375A0275D49FF9D8607BE8C30.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 3.47,
+              "md5": "B66028C375A0275D49FF9D8607BE8C30",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/1D03C8BB57CFBDD5D7D0946FC96C7D54.webp?auth_key=1776432003-j90067h6qgd2-0-e6fc6d3dc3519b58c069dab450a9dabe",
+              "firstFrameKey": "knowledge/semantic/1D03C8BB57CFBDD5D7D0946FC96C7D54.webp",
+              "firstFrameMd5": "1D03C8BB57CFBDD5D7D0946FC96C7D54",
+              "ass": "Dialogue:0,0:00:0.00,0:00:3.62,Default,,0,0,0,,{\\k133}Ah.{\\k10}{\\k36}.{\\k10}{\\k36}.{\\k10}{\\k1}I{\\k12}can{\\k15}have{\\k26}another{\\k75}glass!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue:0,0:00:0.00,0:00:3.62,Default,,0,0,0,,啊...我还能再来一杯！"
+                }
+              ]
+            }
+          }
+        ],
+        "config": {
+          "uid": 1193,
+          "stemDisplay": "TEXT",
+          "optionDisplay": "IMAGE",
+          "preTeaching": false,
+          "stemAudio": true,
+          "optionAudio": true,
+          "questionAudio": null,
+          "inputMode": null,
+          "highlight": null,
+          "followSentence": null,
+          "breakdownLevel": null,
+          "optionCount": null,
+          "errorCount": null
+        },
+        "guide": [
+          {
+            "lang": "en",
+            "text": "Listen to the word, then drag it to the matching picture. Tap to hear the word or picture again."
+          },
+          {
+            "lang": "zh",
+            "text": "听单词发音，将其拖到对应的图片上。可点击再次听单词或图片发音。"
+          }
+        ],
+        "estimatedTime": 35.0,
+        "status": "LEARNED",
+        "correct": true,
+        "duration": 24.0,
+        "result": "pass",
+        "access": "NORMAL"
+      },
+      {
+        "uid": 68503,
+        "type": "IMMERSIVE_CHAIN",
+        "purpose": "LEARN",
+        "contentList": [
+          {
+            "uid": 153871,
+            "type": "EN_SENTENCE",
+            "semanticId": 731045
+          },
+          {
+            "uid": 153874,
+            "type": "EN_SENTENCE",
+            "semanticId": 731048
+          },
+          {
+            "uid": 153875,
+            "type": "EN_SENTENCE",
+            "semanticId": 731049
+          },
+          {
+            "uid": 153870,
+            "type": "EN_SENTENCE",
+            "semanticId": 731044
+          }
+        ],
+        "stems": [
+          {
+            "text": "The boy is eating.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "这个男孩正在吃东西。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/5B05C220AF64329934FC36AFFD43E2BA.mp3?auth_key=1776432003-htzuh6j00ywv-0-587bf98cdbcc9b0762527573950e180e",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/B7F777CAFD079A3FDBD8C33A5C9C9409.webp?auth_key=1776432003-88wpwpf0ehez-0-ac0a1c5e6fadd044b559375b9dc7bd95",
+            "imageKey": "knowledge/semantic/B7F777CAFD079A3FDBD8C33A5C9C9409.webp",
+            "imageMd5": "B7F777CAFD079A3FDBD8C33A5C9C9409",
+            "video": {
+              "styleId": 10,
+              "videoId": 1638262,
+              "videoUrl": "https://video.timelywise.cn/video/generated/22B8291453DE289A00B434B6DD894B93.mp4?auth_key=1776432003-ht2azavkxt5n-0-a12369af69a575eb6f5db6c1a0897908",
+              "videoKey": "video/generated/22B8291453DE289A00B434B6DD894B93.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.35,
+              "endSeconds": 3.59,
+              "md5": "22B8291453DE289A00B434B6DD894B93",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/B7F777CAFD079A3FDBD8C33A5C9C9409.webp?auth_key=1776432003-88wpwpf0ehez-0-ac0a1c5e6fadd044b559375b9dc7bd95",
+              "firstFrameKey": "knowledge/semantic/B7F777CAFD079A3FDBD8C33A5C9C9409.webp",
+              "firstFrameMd5": "B7F777CAFD079A3FDBD8C33A5C9C9409",
+              "ass": "Dialogue: 0,0:00:00.94,0:00:03.20,Default,,0,0,0,,{\\k85}Mmm,{\\k141}delicious!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.94,0:00:03.20,Default,,0,0,0,,嗯，真好吃！"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The girl is drinking.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "这个女孩正在喝水。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/0878A17F48B313BA86DF0A76CBCC4D22.mp3?auth_key=1776432003-c91qshfhxabp-0-27cf8a8f9789c746d225c51e83176afe",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/3AEA24065E7ED4B03FF7185CEF91E205.webp?auth_key=1776432003-xkxspe1jnf83-0-9f903fba2025ff40b93fded82556c77d",
+            "imageKey": "knowledge/semantic/3AEA24065E7ED4B03FF7185CEF91E205.webp",
+            "imageMd5": "3AEA24065E7ED4B03FF7185CEF91E205",
+            "video": {
+              "styleId": 10,
+              "videoId": 1954948,
+              "videoUrl": "https://video.timelywise.cn/video/generated/F7A2A782B7F8534D25DC6B44425EB82B.mp4?auth_key=1776432003-0vlhcpvwn78u-0-302122fad311facc266c99b8eb062cfa",
+              "videoKey": "video/generated/F7A2A782B7F8534D25DC6B44425EB82B.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 3.88,
+              "md5": "F7A2A782B7F8534D25DC6B44425EB82B",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/3AEA24065E7ED4B03FF7185CEF91E205.webp?auth_key=1776432003-xkxspe1jnf83-0-9f903fba2025ff40b93fded82556c77d",
+              "firstFrameKey": "knowledge/semantic/3AEA24065E7ED4B03FF7185CEF91E205.webp",
+              "firstFrameMd5": "3AEA24065E7ED4B03FF7185CEF91E205"
+            }
+          },
+          {
+            "text": "The girl is eating.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "这个女孩正在吃东西。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/960572FBA3009BAC253714A2221F8D6D.mp3?auth_key=1776432003-khnysaq4j703-0-20fe85b1a10e4156e65b41e6e3e40ec8",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/E252F932D377EC9BB4A6F1490FF6B87B.webp?auth_key=1776432003-qy8t59qa9m5w-0-1cc58134bd7c11497621a32dff2f1209",
+            "imageKey": "knowledge/semantic/E252F932D377EC9BB4A6F1490FF6B87B.webp",
+            "imageMd5": "E252F932D377EC9BB4A6F1490FF6B87B",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990198,
+              "videoUrl": "https://video.timelywise.cn/video/generated/60A8AA1DBD40FC7ED2044D2537A9FE98.mp4?auth_key=1776432003-s5rcaspp8mnt-0-96979a8681fdd1056c5e1e4732d11bfd",
+              "videoKey": "video/generated/60A8AA1DBD40FC7ED2044D2537A9FE98.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.38,
+              "endSeconds": 3.88,
+              "md5": "60A8AA1DBD40FC7ED2044D2537A9FE98",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/E252F932D377EC9BB4A6F1490FF6B87B.webp?auth_key=1776432003-qy8t59qa9m5w-0-1cc58134bd7c11497621a32dff2f1209",
+              "firstFrameKey": "knowledge/semantic/E252F932D377EC9BB4A6F1490FF6B87B.webp",
+              "firstFrameMd5": "E252F932D377EC9BB4A6F1490FF6B87B",
+              "ass": "Dialogue: 0,0:00:00.00,0:00:03.28,Default,,0,0,0,,{\\k1}Mmm,I{\\k227} {\\k41}like{\\k59}this!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.00,0:00:03.28,Default,,0,0,0,,嗯，我喜欢这个！"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The boy is drinking.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "这个男孩正在喝水。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/E518E73CE17F764549656126CC4D0F5D.mp3?auth_key=1776432003-m4q37kq9nnlm-0-b84bbba8f6a4149f2c879e390a5c93a7",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/1D03C8BB57CFBDD5D7D0946FC96C7D54.webp?auth_key=1776432003-j90067h6qgd2-0-e6fc6d3dc3519b58c069dab450a9dabe",
+            "imageKey": "knowledge/semantic/1D03C8BB57CFBDD5D7D0946FC96C7D54.webp",
+            "imageMd5": "1D03C8BB57CFBDD5D7D0946FC96C7D54",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990411,
+              "videoUrl": "https://video.timelywise.cn/knowledge/video/B66028C375A0275D49FF9D8607BE8C30.mp4?auth_key=1776432003-sb0mkghdalbk-0-3e7ea7779b4b534b05df2a44674b8108",
+              "videoKey": "knowledge/video/B66028C375A0275D49FF9D8607BE8C30.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 3.47,
+              "md5": "B66028C375A0275D49FF9D8607BE8C30",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/1D03C8BB57CFBDD5D7D0946FC96C7D54.webp?auth_key=1776432003-j90067h6qgd2-0-e6fc6d3dc3519b58c069dab450a9dabe",
+              "firstFrameKey": "knowledge/semantic/1D03C8BB57CFBDD5D7D0946FC96C7D54.webp",
+              "firstFrameMd5": "1D03C8BB57CFBDD5D7D0946FC96C7D54",
+              "ass": "Dialogue:0,0:00:0.00,0:00:3.62,Default,,0,0,0,,{\\k133}Ah.{\\k10}{\\k36}.{\\k10}{\\k36}.{\\k10}{\\k1}I{\\k12}can{\\k15}have{\\k26}another{\\k75}glass!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue:0,0:00:0.00,0:00:3.62,Default,,0,0,0,,啊...我还能再来一杯！"
+                }
+              ]
+            }
+          }
+        ],
+        "config": {
+          "uid": 1218,
+          "stemDisplay": "AUDIO",
+          "optionDisplay": "IMAGE",
+          "preTeaching": false,
+          "stemAudio": true,
+          "optionAudio": true,
+          "questionAudio": null,
+          "inputMode": null,
+          "highlight": null,
+          "followSentence": null,
+          "breakdownLevel": null,
+          "optionCount": null,
+          "errorCount": null
+        },
+        "guide": [
+          {
+            "lang": "en",
+            "text": "Listen to the sound and drag it to the matching picture. Tap to hear the sound again."
+          },
+          {
+            "lang": "zh",
+            "text": "听声音并将其拖到对应的图片上。可点击再次听声音。"
+          }
+        ],
+        "estimatedTime": 36.0,
+        "status": "LEARNED",
+        "correct": true,
+        "duration": 55.0,
+        "result": "pass",
+        "access": "NORMAL"
+      },
+      {
+        "uid": 69403,
+        "type": "IMMERSIVE_CHAIN",
+        "purpose": "LEARN",
+        "contentList": [
+          {
+            "uid": 149882,
+            "type": "EN_WORD",
+            "semanticId": 666381
+          },
+          {
+            "uid": 149883,
+            "type": "EN_WORD",
+            "semanticId": 691299
+          }
+        ],
+        "stems": [
+          {
+            "text": "boys",
+            "gloss": [
+              {
+                "lang": "en",
+                "text": "male children or young people; young males in specific roles or backgrounds; a group of male friends; an affectionate term for soldiers; a historically offensive term for black men"
+              },
+              {
+                "lang": "zh",
+                "text": "年轻的男性或儿童；特定职业或背景中的年轻男性；一群男性朋友；对本國士兵的昵称；历史上对黑人男性的冒犯性称呼"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/593B40DB808157F11A6E5B6CDA40726C.mp3?auth_key=1776432003-n3kadbz324xn-0-303260619cf2ee5b6235b060f2278033",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/BFFB99A8456C65EBF54D45B24B9A6366.webp?auth_key=1776432003-x1mbjflknp91-0-ed81b81ad3fbc845bb9453dc07441aa6",
+            "imageKey": "knowledge/semantic/BFFB99A8456C65EBF54D45B24B9A6366.webp",
+            "imageMd5": "BFFB99A8456C65EBF54D45B24B9A6366",
+            "video": {
+              "styleId": 10,
+              "videoId": 1989805,
+              "videoUrl": "https://video.timelywise.cn/video/generated/FD6AA02B2539B0ABC1E5CDF956101B50.mp4?auth_key=1776432003-l48xa45hby7n-0-7eafa8cf63ffdded103deaf3c1789de5",
+              "videoKey": "video/generated/FD6AA02B2539B0ABC1E5CDF956101B50.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 1.62,
+              "md5": "FD6AA02B2539B0ABC1E5CDF956101B50",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/BFFB99A8456C65EBF54D45B24B9A6366.webp?auth_key=1776432003-x1mbjflknp91-0-ed81b81ad3fbc845bb9453dc07441aa6",
+              "firstFrameKey": "knowledge/semantic/BFFB99A8456C65EBF54D45B24B9A6366.webp",
+              "firstFrameMd5": "BFFB99A8456C65EBF54D45B24B9A6366",
+              "ass": "Dialogue: 0,0:00:00.23,0:00:01.71,Default,,0,0,0,,{\\k41}Let's{\\k26}go,{\\k75}guys.",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.23,0:00:01.71,Default,,0,0,0,,咱们出发吧，伙伴们。"
+                }
+              ]
+            }
+          },
+          {
+            "text": "girls",
+            "gloss": [
+              {
+                "lang": "en",
+                "text": "young female persons in childhood; female children of parents; females in early adulthood; women in employment or organizations; female romantic partners; older women, especially in families"
+              },
+              {
+                "lang": "zh",
+                "text": "童年时期的女性；父母的女性孩子；成年早期的女性；职业或组织中的女性；恋爱中的女性伴侣；年长女性（尤指家庭中的）"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/061D032FDA8CBD4BD5C940DCAFFE7D3C.mp3?auth_key=1776432003-4588aldc7z27-0-82d9d84213a2f4aaca08e3aecdeabb99",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/F4D018000A06C01BA52BAA5D0F6F3391.webp?auth_key=1776432003-r1vz40zmbh03-0-ec421745d54b2818d61e8e13f8472f45",
+            "imageKey": "knowledge/semantic/F4D018000A06C01BA52BAA5D0F6F3391.webp",
+            "imageMd5": "F4D018000A06C01BA52BAA5D0F6F3391",
+            "video": {
+              "styleId": 10,
+              "videoId": 1989889,
+              "videoUrl": "https://video.timelywise.cn/video/generated/B12C59BBB9D7F093CA5E243B80287674.mp4?auth_key=1776432003-u25k4atqassy-0-d1793a5547b21af584b373058a7f6bd9",
+              "videoKey": "video/generated/B12C59BBB9D7F093CA5E243B80287674.mp4",
+              "duration": 2.92,
+              "startSeconds": 0.0,
+              "endSeconds": 2.03,
+              "md5": "B12C59BBB9D7F093CA5E243B80287674",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/F4D018000A06C01BA52BAA5D0F6F3391.webp?auth_key=1776432003-r1vz40zmbh03-0-ec421745d54b2818d61e8e13f8472f45",
+              "firstFrameKey": "knowledge/semantic/F4D018000A06C01BA52BAA5D0F6F3391.webp",
+              "firstFrameMd5": "F4D018000A06C01BA52BAA5D0F6F3391",
+              "ass": "Dialogue: 0,0:00:00.00,0:00:02.34,Default,,0,0,0,,{\\k43}Sharing{\\k43}all{\\k18}our{\\k25}little{\\k105}secrets.",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.00,0:00:02.34,Default,,0,0,0,,分享我们之间所有的小秘密。"
+                }
+              ]
+            }
+          }
+        ],
+        "config": {
+          "uid": 1184,
+          "stemDisplay": "IMAGE",
+          "optionDisplay": "TEXT",
+          "preTeaching": true,
+          "stemAudio": true,
+          "optionAudio": true,
+          "questionAudio": null,
+          "inputMode": null,
+          "highlight": null,
+          "followSentence": null,
+          "breakdownLevel": null,
+          "optionCount": null,
+          "errorCount": null
+        },
+        "guide": [
+          {
+            "lang": "en",
+            "text": "Drag the picture to the correct word. Listen to the sound and match. Try again if it bounces back."
+          },
+          {
+            "lang": "zh",
+            "text": "将图片拖到正确的单词上。听声音并匹配。如果弹回，请再试一次。"
+          }
+        ],
+        "estimatedTime": 18.0,
+        "status": "LEARNED",
+        "correct": true,
+        "duration": 30.0,
+        "result": "good",
+        "access": "NORMAL"
+      },
+      {
+        "uid": 69903,
+        "type": "IMMERSIVE_CHAIN",
+        "purpose": "LEARN",
+        "contentList": [
+          {
+            "uid": 153883,
+            "type": "EN_SENTENCE",
+            "semanticId": 731057
+          },
+          {
+            "uid": 153882,
+            "type": "EN_SENTENCE",
+            "semanticId": 731056
+          },
+          {
+            "uid": 153879,
+            "type": "EN_SENTENCE",
+            "semanticId": 731053
+          },
+          {
+            "uid": 153878,
+            "type": "EN_SENTENCE",
+            "semanticId": 731052
+          }
+        ],
+        "stems": [
+          {
+            "text": "The boys are drinking.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "男孩们正在喝水。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/61BA7ED7C885587887896FA7333BA4DA.mp3?auth_key=1776432003-htvzgejs1ps1-0-c310d1f3449c37030df44acfada2da54",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/CDFBEFD0CDCDBA98B43F242E132FBD01.webp?auth_key=1776432003-xb4u3u2nkw9e-0-8371beb926be61ea529e2c1826b5d1c1",
+            "imageKey": "knowledge/semantic/CDFBEFD0CDCDBA98B43F242E132FBD01.webp",
+            "imageMd5": "CDFBEFD0CDCDBA98B43F242E132FBD01",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990319,
+              "videoUrl": "https://video.timelywise.cn/knowledge/video/6585D22E5C7F19386F7D2421D01C4E72.mp4?auth_key=1776432003-w1tbtceks0t6-0-127671930739512e4b576afb93749dc5",
+              "videoKey": "knowledge/video/6585D22E5C7F19386F7D2421D01C4E72.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 3.46,
+              "md5": "6585D22E5C7F19386F7D2421D01C4E72",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/CDFBEFD0CDCDBA98B43F242E132FBD01.webp?auth_key=1776432003-xb4u3u2nkw9e-0-8371beb926be61ea529e2c1826b5d1c1",
+              "firstFrameKey": "knowledge/semantic/CDFBEFD0CDCDBA98B43F242E132FBD01.webp",
+              "firstFrameMd5": "CDFBEFD0CDCDBA98B43F242E132FBD01",
+              "ass": "Dialogue: 0,0:00:01.97,0:00:03.45,Default,,0,0,0,,{\\k23}Game{\\k30}over,{\\k39}water{\\k56}first!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:01.97,0:00:03.45,Default,,0,0,0,,游戏结束，先喝水！"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The boys are eating.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "男孩们正在吃东西。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/FC86A60187D6AF6EC8F4AAD260C8DBB1.mp3?auth_key=1776432003-9nmx3nlyds03-0-ba6c47d9963ead24c9dd0224aee82356",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/206912D663D23D81BE9DB6070CF1ACA3.webp?auth_key=1776432003-cczxj1fusjy4-0-3394ac579874aacbe1c1bf3d52a909c5",
+            "imageKey": "knowledge/semantic/206912D663D23D81BE9DB6070CF1ACA3.webp",
+            "imageMd5": "206912D663D23D81BE9DB6070CF1ACA3",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990314,
+              "videoUrl": "https://video.timelywise.cn/video/audio_enhanced/413FB11C9A4303F409B738B3DCA7D499.mp4?auth_key=1776432003-lgdtwxgke1v1-0-2244e660f3a526d24bed41cb2a0407d9",
+              "videoKey": "video/audio_enhanced/413FB11C9A4303F409B738B3DCA7D499.mp4",
+              "duration": 3.9,
+              "startSeconds": 0.0,
+              "endSeconds": 3.88,
+              "md5": "413FB11C9A4303F409B738B3DCA7D499",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/206912D663D23D81BE9DB6070CF1ACA3.webp?auth_key=1776432003-cczxj1fusjy4-0-3394ac579874aacbe1c1bf3d52a909c5",
+              "firstFrameKey": "knowledge/semantic/206912D663D23D81BE9DB6070CF1ACA3.webp",
+              "firstFrameMd5": "206912D663D23D81BE9DB6070CF1ACA3",
+              "ass": "Dialogue: 0,0:00:01.30,0:00:03.81,Default,,0,0,0,,{\\k127}Mmm,{\\k53}so{\\k71}good!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:01.30,0:00:03.81,Default,,0,0,0,,嗯，真好吃！"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The girls are eating.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "女孩们正在吃东西。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/C4EBA6620567A5E90CE280A470A093CB.mp3?auth_key=1776432003-lv5wlc3fz13w-0-f34da18d2efefde6beb541c68a41f68c",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/28EDD94FBD252E3D47004789E0D520F9.webp?auth_key=1776432003-hzumpwy5lkqk-0-b30c9017500051bd5158c4cb9220b7b4",
+            "imageKey": "knowledge/semantic/28EDD94FBD252E3D47004789E0D520F9.webp",
+            "imageMd5": "28EDD94FBD252E3D47004789E0D520F9",
+            "video": {
+              "styleId": 10,
+              "videoId": 1786892,
+              "videoUrl": "https://video.timelywise.cn/video/generated/676F65E8A5F4AA2DD3F95FE7CA9DCB70.mp4?auth_key=1776432003-9medhszrwuxd-0-a0cc963e8a0b78dd17fa396b17763ec5",
+              "videoKey": "video/generated/676F65E8A5F4AA2DD3F95FE7CA9DCB70.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 1.43,
+              "md5": "676F65E8A5F4AA2DD3F95FE7CA9DCB70",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/28EDD94FBD252E3D47004789E0D520F9.webp?auth_key=1776432003-hzumpwy5lkqk-0-b30c9017500051bd5158c4cb9220b7b4",
+              "firstFrameKey": "knowledge/semantic/28EDD94FBD252E3D47004789E0D520F9.webp",
+              "firstFrameMd5": "28EDD94FBD252E3D47004789E0D520F9",
+              "ass": "Dialogue: 0,0:00:00.00,0:00:03.86,Default,,0,0,0,,{\\k386}Yum!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.00,0:00:03.86,Default,,0,0,0,,真好吃！"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The girls are drinking.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "女孩们正在喝水。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/0FC85C440EEE3638DB8F9D576ADA01BE.mp3?auth_key=1776432003-2n9e5hmryy2h-0-307c69ddad2b3480ac63e132813be031",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/67A092E1ADA0A9FC124656D94718A146.webp?auth_key=1776432003-nr9d21891wqa-0-a3ca1c0f87d36a50fd2c11d524260ed1",
+            "imageKey": "knowledge/semantic/67A092E1ADA0A9FC124656D94718A146.webp",
+            "imageMd5": "67A092E1ADA0A9FC124656D94718A146",
+            "video": {
+              "styleId": 10,
+              "videoId": 1544020,
+              "videoUrl": "https://video.timelywise.cn/video/generated/64830B9770240EA255C01C907CA85BB9.mp4?auth_key=1776432003-k60vmcl0up7n-0-a780eb1402af1fdbad51224b8f798a9c",
+              "videoKey": "video/generated/64830B9770240EA255C01C907CA85BB9.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.03,
+              "endSeconds": 3.88,
+              "md5": "64830B9770240EA255C01C907CA85BB9",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/67A092E1ADA0A9FC124656D94718A146.webp?auth_key=1776432003-nr9d21891wqa-0-a3ca1c0f87d36a50fd2c11d524260ed1",
+              "firstFrameKey": "knowledge/semantic/67A092E1ADA0A9FC124656D94718A146.webp",
+              "firstFrameMd5": "67A092E1ADA0A9FC124656D94718A146",
+              "ass": "Dialogue: 0,0:00:00.63,0:00:02.37,Default,,0,0,0,,{\\k49}Mmm,{\\k40}so{\\k85}refreshing!\nDialogue: 0,0:00:02.49,0:00:03.85,Default,,0,0,0,,{\\k53}Perfect{\\k22}for{\\k1}a{\\k26}hot{\\k33}day.",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "\nDialogue: 0,0:00:00.63,0:00:02.37,Default,,0,0,0,,嗯,好清爽啊！\nDialogue: 0,0:00:02.49,0:00:03.85,Default,,0,0,0,,这种大热天喝它正合适。"
+                }
+              ]
+            }
+          }
+        ],
+        "config": {
+          "uid": 1193,
+          "stemDisplay": "TEXT",
+          "optionDisplay": "IMAGE",
+          "preTeaching": false,
+          "stemAudio": true,
+          "optionAudio": true,
+          "questionAudio": null,
+          "inputMode": null,
+          "highlight": null,
+          "followSentence": null,
+          "breakdownLevel": null,
+          "optionCount": null,
+          "errorCount": null
+        },
+        "guide": [
+          {
+            "lang": "en",
+            "text": "Listen to the word, then drag it to the matching picture. Tap to hear the word or picture again."
+          },
+          {
+            "lang": "zh",
+            "text": "听单词发音，将其拖到对应的图片上。可点击再次听单词或图片发音。"
+          }
+        ],
+        "estimatedTime": 40.0,
+        "status": "LEARNED",
+        "correct": true,
+        "duration": 38.0,
+        "result": "pass",
+        "access": "NORMAL"
+      },
+      {
+        "uid": 71103,
+        "type": "IMMERSIVE_CHAIN",
+        "purpose": "LEARN",
+        "contentList": [
+          {
+            "uid": 153876,
+            "type": "EN_SENTENCE",
+            "semanticId": 731050
+          },
+          {
+            "uid": 153872,
+            "type": "EN_SENTENCE",
+            "semanticId": 731046
+          },
+          {
+            "uid": 153880,
+            "type": "EN_SENTENCE",
+            "semanticId": 731054
+          },
+          {
+            "uid": 153884,
+            "type": "EN_SENTENCE",
+            "semanticId": 731058
+          }
+        ],
+        "stems": [
+          {
+            "text": "The boys are playing.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "男孩们正在玩耍。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/3F32E8D8C854E93970760C36337F34BE.mp3?auth_key=1776432003-gjhpzg8cmgl7-0-884a58303164d06b39530eac719c0920",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/60D312077E257669FD27593EB0264389.webp?auth_key=1776432003-9j0lbvz2k51t-0-433f794ce85c7842d2a38a2f980e828f",
+            "imageKey": "knowledge/semantic/60D312077E257669FD27593EB0264389.webp",
+            "imageMd5": "60D312077E257669FD27593EB0264389",
+            "video": {
+              "styleId": 10,
+              "videoId": 1942311,
+              "videoUrl": "https://video.timelywise.cn/video/generated/13BC434EC2A5142DF673F3A0E93C5D65.mp4?auth_key=1776432003-48wcy49rz3gt-0-67ec6ecbbb1f97ba1b5ae04d321518d1",
+              "videoKey": "video/generated/13BC434EC2A5142DF673F3A0E93C5D65.mp4",
+              "duration": 5.16,
+              "startSeconds": 0.82,
+              "endSeconds": 5.16,
+              "md5": "13BC434EC2A5142DF673F3A0E93C5D65",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/60D312077E257669FD27593EB0264389.webp?auth_key=1776432003-9j0lbvz2k51t-0-433f794ce85c7842d2a38a2f980e828f",
+              "firstFrameKey": "knowledge/semantic/60D312077E257669FD27593EB0264389.webp",
+              "firstFrameMd5": "60D312077E257669FD27593EB0264389",
+              "ass": "Dialogue: 0,0:00:00.94,0:00:01.82,Default,,0,0,0,,{\\k33}Here{\\k14}you{\\k41}go!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.94,0:00:01.82,Default,,0,0,0,,给你！"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The girls are playing.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "女孩们正在玩耍。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/98720B7B0DEF918E60010B4A37A8BFE7.mp3?auth_key=1776432003-wc7kvcd823mj-0-d4de886d3296badb39bc715e8527a4b8",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/1450CD542C6FD8ECD2EAD7B884E548DF.webp?auth_key=1776432003-rhx3e4sh8uy2-0-76d465ce775fdb168fd85fca2ff207ca",
+            "imageKey": "knowledge/semantic/1450CD542C6FD8ECD2EAD7B884E548DF.webp",
+            "imageMd5": "1450CD542C6FD8ECD2EAD7B884E548DF",
+            "video": {
+              "styleId": 10,
+              "videoId": 1942357,
+              "videoUrl": "https://video.timelywise.cn/video/generated/9D86734DD9B3BA2890426C82B3E8291E.mp4?auth_key=1776432003-j07ka7d1sx5g-0-9aedf476a9301cb6b91fa0337dc0c34b",
+              "videoKey": "video/generated/9D86734DD9B3BA2890426C82B3E8291E.mp4",
+              "duration": 5.16,
+              "startSeconds": 0.0,
+              "endSeconds": 3.2,
+              "md5": "9D86734DD9B3BA2890426C82B3E8291E",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/1450CD542C6FD8ECD2EAD7B884E548DF.webp?auth_key=1776432003-rhx3e4sh8uy2-0-76d465ce775fdb168fd85fca2ff207ca",
+              "firstFrameKey": "knowledge/semantic/1450CD542C6FD8ECD2EAD7B884E548DF.webp",
+              "firstFrameMd5": "1450CD542C6FD8ECD2EAD7B884E548DF",
+              "ass": "Dialogue: 0,0:00:00.78,0:00:01.20,Default,,0,0,0,,{\\k42}Ready?\nDialogue: 0,0:00:02.32,0:00:02.85,Default,,0,0,0,,{\\k53}Yeah!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.78,0:00:01.20,Default,,0,0,0,,准备好了吗？\nDialogue: 0,0:00:02.32,0:00:02.85,Default,,0,0,0,,嗯，好了！"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The boy is playing.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "这个男孩正在玩耍。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/875FF60440A081B553D2CABBF4399E0B.mp3?auth_key=1776432003-neqw8fvzuyxt-0-d06ba36086f9d2cdf9a57d29a413f7c9",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/D45C2AADDF82DB0ADD5321FF22FF873C.webp?auth_key=1776432003-mc2dgnahr9ke-0-f349e745a02bc14d55134aa59ec4af9c",
+            "imageKey": "knowledge/semantic/D45C2AADDF82DB0ADD5321FF22FF873C.webp",
+            "imageMd5": "D45C2AADDF82DB0ADD5321FF22FF873C",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990219,
+              "videoUrl": "https://video.timelywise.cn/video/generated/1A03AC44EB030904E25F8EDFFD0CE7C4.mp4?auth_key=1776432003-g9retzv2pul7-0-bb892cf85655b0b25e2fd520f70b4678",
+              "videoKey": "video/generated/1A03AC44EB030904E25F8EDFFD0CE7C4.mp4",
+              "duration": 3.88,
+              "startSeconds": 1.05,
+              "endSeconds": 3.88,
+              "md5": "1A03AC44EB030904E25F8EDFFD0CE7C4",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/D45C2AADDF82DB0ADD5321FF22FF873C.webp?auth_key=1776432003-mc2dgnahr9ke-0-f349e745a02bc14d55134aa59ec4af9c",
+              "firstFrameKey": "knowledge/semantic/D45C2AADDF82DB0ADD5321FF22FF873C.webp",
+              "firstFrameMd5": "D45C2AADDF82DB0ADD5321FF22FF873C",
+              "ass": "Dialogue: 0,0:00:00.00,0:00:03.86,Default,,0,0,0,,{\\k154}This{\\k77}is{\\k155}fun.",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.00,0:00:03.86,Default,,0,0,0,,这真有意思。"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The girl is playing.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "这个女孩正在玩耍。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/AF9EF7F5097294005DC8FBAAB8013C03.mp3?auth_key=1776432003-xmpd0rs6z3kc-0-22497483ab52f7ad8d2db8e961a9bd53",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/C3433069D5A36CE96F825784FBE6EEC8.webp?auth_key=1776432003-tql46343khsb-0-1bb16472cf3cfce537a4d64c7bfc071c",
+            "imageKey": "knowledge/semantic/C3433069D5A36CE96F825784FBE6EEC8.webp",
+            "imageMd5": "C3433069D5A36CE96F825784FBE6EEC8",
+            "video": {
+              "styleId": 10,
+              "videoId": 1909040,
+              "videoUrl": "https://video.timelywise.cn/video/generated/B4E0B0D72735310C904CB5B6FC7E3414.mp4?auth_key=1776432003-ns3s87fmjxse-0-b1d3e683084be878b4a2d8d64adacd74",
+              "videoKey": "video/generated/B4E0B0D72735310C904CB5B6FC7E3414.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 2.81,
+              "md5": "B4E0B0D72735310C904CB5B6FC7E3414",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/C3433069D5A36CE96F825784FBE6EEC8.webp?auth_key=1776432003-tql46343khsb-0-1bb16472cf3cfce537a4d64c7bfc071c",
+              "firstFrameKey": "knowledge/semantic/C3433069D5A36CE96F825784FBE6EEC8.webp",
+              "firstFrameMd5": "C3433069D5A36CE96F825784FBE6EEC8",
+              "ass": "Dialogue: 0,0:00:00.00,0:00:01.29,Default,,0,0,0,,{\\k50}Hello,{\\k35}little{\\k44}one.",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.00,0:00:01.29,Default,,0,0,0,,你好啊，小家伙。"
+                }
+              ]
+            }
+          }
+        ],
+        "config": {
+          "uid": 1193,
+          "stemDisplay": "TEXT",
+          "optionDisplay": "IMAGE",
+          "preTeaching": false,
+          "stemAudio": true,
+          "optionAudio": true,
+          "questionAudio": null,
+          "inputMode": null,
+          "highlight": null,
+          "followSentence": null,
+          "breakdownLevel": null,
+          "optionCount": null,
+          "errorCount": null
+        },
+        "guide": [
+          {
+            "lang": "en",
+            "text": "Listen to the word, then drag it to the matching picture. Tap to hear the word or picture again."
+          },
+          {
+            "lang": "zh",
+            "text": "听单词发音，将其拖到对应的图片上。可点击再次听单词或图片发音。"
+          }
+        ],
+        "estimatedTime": 39.0,
+        "status": "LEARNED",
+        "correct": true,
+        "duration": 28.0,
+        "result": "excellent",
+        "access": "NORMAL"
+      },
+      {
+        "uid": 71203,
+        "type": "IMMERSIVE_CHAIN",
+        "purpose": "LEARN",
+        "contentList": [
+          {
+            "uid": 153873,
+            "type": "EN_SENTENCE",
+            "semanticId": 731047
+          },
+          {
+            "uid": 153881,
+            "type": "EN_SENTENCE",
+            "semanticId": 731055
+          },
+          {
+            "uid": 153877,
+            "type": "EN_SENTENCE",
+            "semanticId": 731051
+          },
+          {
+            "uid": 153885,
+            "type": "EN_SENTENCE",
+            "semanticId": 731059
+          }
+        ],
+        "stems": [
+          {
+            "text": "The girl is sleeping.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "女孩正在睡觉。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/2888CBBFE16BEAC60A95FFD25FD5E952.mp3?auth_key=1776432003-xzz3gd30n8xw-0-936b25880c85d1ac1a18b85ebb6d6833",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/77925C158E4566E9758F5C55885D62E2.webp?auth_key=1776432003-rnxn9b861rws-0-9e3ec77aefc489deb6a7e612a805de50",
+            "imageKey": "knowledge/semantic/77925C158E4566E9758F5C55885D62E2.webp",
+            "imageMd5": "77925C158E4566E9758F5C55885D62E2",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990310,
+              "videoUrl": "https://video.timelywise.cn/knowledge/video/19E6722FF23369F977E82FBEEE5D8704.mp4?auth_key=1776432003-7xncanfy7x1q-0-99a5c5a2c2cac0b24e25dcc757dc2553",
+              "videoKey": "knowledge/video/19E6722FF23369F977E82FBEEE5D8704.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 3.88,
+              "md5": "19E6722FF23369F977E82FBEEE5D8704",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/77925C158E4566E9758F5C55885D62E2.webp?auth_key=1776432003-rnxn9b861rws-0-9e3ec77aefc489deb6a7e612a805de50",
+              "firstFrameKey": "knowledge/semantic/77925C158E4566E9758F5C55885D62E2.webp",
+              "firstFrameMd5": "77925C158E4566E9758F5C55885D62E2",
+              "ass": "Dialogue: 0,0:00:00.21,0:00:03.23,Default,,0,0,0,,{\\k35}She{\\k64}sleeps{\\k64}so{\\k136}quietly!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.21,0:00:03.23,Default,,0,0,0,,她睡得好安静啊！"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The girls are sleeping.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "女孩们正在睡觉。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/0C55462614415B616146B4D0AFABEBCB.mp3?auth_key=1776432003-fjbs68l76gzu-0-9be419d2e9afad86d26cbcf1384fe099",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/508C58133D72D89AB049CE0B1556DED8.webp?auth_key=1776432003-uu22aguhkyve-0-bd094bc2ec4b0638f730916bfc7e3d55",
+            "imageKey": "knowledge/semantic/508C58133D72D89AB049CE0B1556DED8.webp",
+            "imageMd5": "508C58133D72D89AB049CE0B1556DED8",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990372,
+              "videoUrl": "https://video.timelywise.cn/knowledge/video/9CBC33E78DCAF4601ABF59A5BE43A1B1.mp4?auth_key=1776432003-qdapwkht4sp5-0-0383d05d350f7ab3bab92d8fd4c4da52",
+              "videoKey": "knowledge/video/9CBC33E78DCAF4601ABF59A5BE43A1B1.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 2.59,
+              "md5": "9CBC33E78DCAF4601ABF59A5BE43A1B1",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/508C58133D72D89AB049CE0B1556DED8.webp?auth_key=1776432003-uu22aguhkyve-0-bd094bc2ec4b0638f730916bfc7e3d55",
+              "firstFrameKey": "knowledge/semantic/508C58133D72D89AB049CE0B1556DED8.webp",
+              "firstFrameMd5": "508C58133D72D89AB049CE0B1556DED8",
+              "ass": "Dialogue: 0,0:00:00.03,0:00:02.74,Default,,0,0,0,,{\\k52}Oh,{\\k16}I{\\k34}hope{\\k12}they{\\k20}have{\\k19}good{\\k89}dreams.",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "\nDialogue: 0,0:00:00.03,0:00:02.74,Default,,0,0,0,,哦，希望她们能做个好梦。"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The boy is sleeping.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "这个男孩正在睡觉。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/4F3ECD2730FF4453C6B402F19A5CAF2C.mp3?auth_key=1776432003-pw3kfek1k0d0-0-a9d0d90f9e55f5a3b5ea5a06982e18aa",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/67F77AE38A925228E0B51586EB27449E.webp?auth_key=1776432003-swey742x12lw-0-b169871cf676b58a70a54d3abd12c146",
+            "imageKey": "knowledge/semantic/67F77AE38A925228E0B51586EB27449E.webp",
+            "imageMd5": "67F77AE38A925228E0B51586EB27449E",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990406,
+              "videoUrl": "https://video.timelywise.cn/knowledge/video/89C79805B6C632716EB1613889307ACB.mp4?auth_key=1776432003-vs6f9pyhqjxl-0-8f15bab34945c82786f139ce5af404c9",
+              "videoKey": "knowledge/video/89C79805B6C632716EB1613889307ACB.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 3.88,
+              "md5": "89C79805B6C632716EB1613889307ACB",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/67F77AE38A925228E0B51586EB27449E.webp?auth_key=1776432003-swey742x12lw-0-b169871cf676b58a70a54d3abd12c146",
+              "firstFrameKey": "knowledge/semantic/67F77AE38A925228E0B51586EB27449E.webp",
+              "firstFrameMd5": "67F77AE38A925228E0B51586EB27449E",
+              "ass": "Dialogue: 0,0:00:01.72,0:00:03.30,Default,,0,0,0,,{\\k28}Feel{\\k30}so{\\k80}comfortable.",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:01.72,0:00:03.30,Default,,0,0,0,,感觉好舒服呀。"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The boys are sleeping.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "男孩们正在睡觉。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/F4FB3893C9A8028D7D3BD814E3E160F6.mp3?auth_key=1776432003-f6vmh1k1h6mr-0-429d3ffc813a6623ebc749dd205fbc30",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/F088B1D48C6D57E1F64C317AE1D8C39E.webp?auth_key=1776432003-xx8wjaz9uwz0-0-6b5f3a38abfc037396c2765ee4a270dd",
+            "imageKey": "knowledge/semantic/F088B1D48C6D57E1F64C317AE1D8C39E.webp",
+            "imageMd5": "F088B1D48C6D57E1F64C317AE1D8C39E",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990329,
+              "videoUrl": "https://video.timelywise.cn/knowledge/video/571009A4D66686497CB9FD682F95C957.mp4?auth_key=1776432003-9adpld6q3yrk-0-a2c5251e3604807d5b7471e8c21bf62e",
+              "videoKey": "knowledge/video/571009A4D66686497CB9FD682F95C957.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 3.88,
+              "md5": "571009A4D66686497CB9FD682F95C957",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/F088B1D48C6D57E1F64C317AE1D8C39E.webp?auth_key=1776432003-xx8wjaz9uwz0-0-6b5f3a38abfc037396c2765ee4a270dd",
+              "firstFrameKey": "knowledge/semantic/F088B1D48C6D57E1F64C317AE1D8C39E.webp",
+              "firstFrameMd5": "F088B1D48C6D57E1F64C317AE1D8C39E",
+              "ass": "Dialogue: 0,0:00:00.00,0:00:03.86,Default,,0,0,0,,{\\k73}Shh,{\\k92}don’t{\\k129}disturb{\\k92}them.",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.00,0:00:03.86,Default,,0,0,0,,嘘，别打扰他们。"
+                }
+              ]
+            }
+          }
+        ],
+        "config": {
+          "uid": 1193,
+          "stemDisplay": "TEXT",
+          "optionDisplay": "IMAGE",
+          "preTeaching": false,
+          "stemAudio": true,
+          "optionAudio": true,
+          "questionAudio": null,
+          "inputMode": null,
+          "highlight": null,
+          "followSentence": null,
+          "breakdownLevel": null,
+          "optionCount": null,
+          "errorCount": null
+        },
+        "guide": [
+          {
+            "lang": "en",
+            "text": "Listen to the word, then drag it to the matching picture. Tap to hear the word or picture again."
+          },
+          {
+            "lang": "zh",
+            "text": "听单词发音，将其拖到对应的图片上。可点击再次听单词或图片发音。"
+          }
+        ],
+        "estimatedTime": 33.0,
+        "status": "LEARNED",
+        "correct": true,
+        "duration": 34.0,
+        "result": "pass",
+        "access": "NORMAL"
+      },
+      {
+        "uid": 71303,
+        "type": "IMMERSIVE_CHAIN",
+        "purpose": "LEARN",
+        "contentList": [
+          {
+            "uid": 153877,
+            "type": "EN_SENTENCE",
+            "semanticId": 731051
+          },
+          {
+            "uid": 153876,
+            "type": "EN_SENTENCE",
+            "semanticId": 731050
+          },
+          {
+            "uid": 153872,
+            "type": "EN_SENTENCE",
+            "semanticId": 731046
+          },
+          {
+            "uid": 153873,
+            "type": "EN_SENTENCE",
+            "semanticId": 731047
+          }
+        ],
+        "stems": [
+          {
+            "text": "The girl is sleeping.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "女孩正在睡觉。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/2888CBBFE16BEAC60A95FFD25FD5E952.mp3?auth_key=1776432003-xzz3gd30n8xw-0-936b25880c85d1ac1a18b85ebb6d6833",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/77925C158E4566E9758F5C55885D62E2.webp?auth_key=1776432003-rnxn9b861rws-0-9e3ec77aefc489deb6a7e612a805de50",
+            "imageKey": "knowledge/semantic/77925C158E4566E9758F5C55885D62E2.webp",
+            "imageMd5": "77925C158E4566E9758F5C55885D62E2",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990310,
+              "videoUrl": "https://video.timelywise.cn/knowledge/video/19E6722FF23369F977E82FBEEE5D8704.mp4?auth_key=1776432003-7xncanfy7x1q-0-99a5c5a2c2cac0b24e25dcc757dc2553",
+              "videoKey": "knowledge/video/19E6722FF23369F977E82FBEEE5D8704.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 3.88,
+              "md5": "19E6722FF23369F977E82FBEEE5D8704",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/77925C158E4566E9758F5C55885D62E2.webp?auth_key=1776432003-rnxn9b861rws-0-9e3ec77aefc489deb6a7e612a805de50",
+              "firstFrameKey": "knowledge/semantic/77925C158E4566E9758F5C55885D62E2.webp",
+              "firstFrameMd5": "77925C158E4566E9758F5C55885D62E2",
+              "ass": "Dialogue: 0,0:00:00.21,0:00:03.23,Default,,0,0,0,,{\\k35}She{\\k64}sleeps{\\k64}so{\\k136}quietly!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.21,0:00:03.23,Default,,0,0,0,,她睡得好安静啊！"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The boy is playing.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "这个男孩正在玩耍。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/875FF60440A081B553D2CABBF4399E0B.mp3?auth_key=1776432003-neqw8fvzuyxt-0-d06ba36086f9d2cdf9a57d29a413f7c9",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/D45C2AADDF82DB0ADD5321FF22FF873C.webp?auth_key=1776432003-mc2dgnahr9ke-0-f349e745a02bc14d55134aa59ec4af9c",
+            "imageKey": "knowledge/semantic/D45C2AADDF82DB0ADD5321FF22FF873C.webp",
+            "imageMd5": "D45C2AADDF82DB0ADD5321FF22FF873C",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990219,
+              "videoUrl": "https://video.timelywise.cn/video/generated/1A03AC44EB030904E25F8EDFFD0CE7C4.mp4?auth_key=1776432003-g9retzv2pul7-0-bb892cf85655b0b25e2fd520f70b4678",
+              "videoKey": "video/generated/1A03AC44EB030904E25F8EDFFD0CE7C4.mp4",
+              "duration": 3.88,
+              "startSeconds": 1.05,
+              "endSeconds": 3.88,
+              "md5": "1A03AC44EB030904E25F8EDFFD0CE7C4",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/D45C2AADDF82DB0ADD5321FF22FF873C.webp?auth_key=1776432003-mc2dgnahr9ke-0-f349e745a02bc14d55134aa59ec4af9c",
+              "firstFrameKey": "knowledge/semantic/D45C2AADDF82DB0ADD5321FF22FF873C.webp",
+              "firstFrameMd5": "D45C2AADDF82DB0ADD5321FF22FF873C",
+              "ass": "Dialogue: 0,0:00:00.00,0:00:03.86,Default,,0,0,0,,{\\k154}This{\\k77}is{\\k155}fun.",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.00,0:00:03.86,Default,,0,0,0,,这真有意思。"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The boy is sleeping.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "这个男孩正在睡觉。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/4F3ECD2730FF4453C6B402F19A5CAF2C.mp3?auth_key=1776432003-pw3kfek1k0d0-0-a9d0d90f9e55f5a3b5ea5a06982e18aa",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/67F77AE38A925228E0B51586EB27449E.webp?auth_key=1776432003-swey742x12lw-0-b169871cf676b58a70a54d3abd12c146",
+            "imageKey": "knowledge/semantic/67F77AE38A925228E0B51586EB27449E.webp",
+            "imageMd5": "67F77AE38A925228E0B51586EB27449E",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990406,
+              "videoUrl": "https://video.timelywise.cn/knowledge/video/89C79805B6C632716EB1613889307ACB.mp4?auth_key=1776432003-vs6f9pyhqjxl-0-8f15bab34945c82786f139ce5af404c9",
+              "videoKey": "knowledge/video/89C79805B6C632716EB1613889307ACB.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 3.88,
+              "md5": "89C79805B6C632716EB1613889307ACB",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/67F77AE38A925228E0B51586EB27449E.webp?auth_key=1776432003-swey742x12lw-0-b169871cf676b58a70a54d3abd12c146",
+              "firstFrameKey": "knowledge/semantic/67F77AE38A925228E0B51586EB27449E.webp",
+              "firstFrameMd5": "67F77AE38A925228E0B51586EB27449E",
+              "ass": "Dialogue: 0,0:00:01.72,0:00:03.30,Default,,0,0,0,,{\\k28}Feel{\\k30}so{\\k80}comfortable.",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:01.72,0:00:03.30,Default,,0,0,0,,感觉好舒服呀。"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The girl is playing.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "这个女孩正在玩耍。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/AF9EF7F5097294005DC8FBAAB8013C03.mp3?auth_key=1776432003-xmpd0rs6z3kc-0-22497483ab52f7ad8d2db8e961a9bd53",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/C3433069D5A36CE96F825784FBE6EEC8.webp?auth_key=1776432003-tql46343khsb-0-1bb16472cf3cfce537a4d64c7bfc071c",
+            "imageKey": "knowledge/semantic/C3433069D5A36CE96F825784FBE6EEC8.webp",
+            "imageMd5": "C3433069D5A36CE96F825784FBE6EEC8",
+            "video": {
+              "styleId": 10,
+              "videoId": 1909040,
+              "videoUrl": "https://video.timelywise.cn/video/generated/B4E0B0D72735310C904CB5B6FC7E3414.mp4?auth_key=1776432003-ns3s87fmjxse-0-b1d3e683084be878b4a2d8d64adacd74",
+              "videoKey": "video/generated/B4E0B0D72735310C904CB5B6FC7E3414.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 2.81,
+              "md5": "B4E0B0D72735310C904CB5B6FC7E3414",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/C3433069D5A36CE96F825784FBE6EEC8.webp?auth_key=1776432003-tql46343khsb-0-1bb16472cf3cfce537a4d64c7bfc071c",
+              "firstFrameKey": "knowledge/semantic/C3433069D5A36CE96F825784FBE6EEC8.webp",
+              "firstFrameMd5": "C3433069D5A36CE96F825784FBE6EEC8",
+              "ass": "Dialogue: 0,0:00:00.00,0:00:01.29,Default,,0,0,0,,{\\k50}Hello,{\\k35}little{\\k44}one.",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.00,0:00:01.29,Default,,0,0,0,,你好啊，小家伙。"
+                }
+              ]
+            }
+          }
+        ],
+        "config": {
+          "uid": 1193,
+          "stemDisplay": "TEXT",
+          "optionDisplay": "IMAGE",
+          "preTeaching": false,
+          "stemAudio": true,
+          "optionAudio": true,
+          "questionAudio": null,
+          "inputMode": null,
+          "highlight": null,
+          "followSentence": null,
+          "breakdownLevel": null,
+          "optionCount": null,
+          "errorCount": null
+        },
+        "guide": [
+          {
+            "lang": "en",
+            "text": "Listen to the word, then drag it to the matching picture. Tap to hear the word or picture again."
+          },
+          {
+            "lang": "zh",
+            "text": "听单词发音，将其拖到对应的图片上。可点击再次听单词或图片发音。"
+          }
+        ],
+        "estimatedTime": 33.0,
+        "status": "LEARNED",
+        "correct": true,
+        "duration": 27.0,
+        "result": "pass",
+        "access": "NORMAL"
+      },
+      {
+        "uid": 71403,
+        "type": "IMMERSIVE_CHAIN",
+        "purpose": "LEARN",
+        "contentList": [
+          {
+            "uid": 153872,
+            "type": "EN_SENTENCE",
+            "semanticId": 731046
+          },
+          {
+            "uid": 153873,
+            "type": "EN_SENTENCE",
+            "semanticId": 731047
+          },
+          {
+            "uid": 153880,
+            "type": "EN_SENTENCE",
+            "semanticId": 731054
+          },
+          {
+            "uid": 153881,
+            "type": "EN_SENTENCE",
+            "semanticId": 731055
+          }
+        ],
+        "stems": [
+          {
+            "text": "The boys are playing.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "男孩们正在玩耍。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/3F32E8D8C854E93970760C36337F34BE.mp3?auth_key=1776432003-gjhpzg8cmgl7-0-884a58303164d06b39530eac719c0920",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/60D312077E257669FD27593EB0264389.webp?auth_key=1776432003-9j0lbvz2k51t-0-433f794ce85c7842d2a38a2f980e828f",
+            "imageKey": "knowledge/semantic/60D312077E257669FD27593EB0264389.webp",
+            "imageMd5": "60D312077E257669FD27593EB0264389",
+            "video": {
+              "styleId": 10,
+              "videoId": 1942311,
+              "videoUrl": "https://video.timelywise.cn/video/generated/13BC434EC2A5142DF673F3A0E93C5D65.mp4?auth_key=1776432003-48wcy49rz3gt-0-67ec6ecbbb1f97ba1b5ae04d321518d1",
+              "videoKey": "video/generated/13BC434EC2A5142DF673F3A0E93C5D65.mp4",
+              "duration": 5.16,
+              "startSeconds": 0.82,
+              "endSeconds": 5.16,
+              "md5": "13BC434EC2A5142DF673F3A0E93C5D65",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/60D312077E257669FD27593EB0264389.webp?auth_key=1776432003-9j0lbvz2k51t-0-433f794ce85c7842d2a38a2f980e828f",
+              "firstFrameKey": "knowledge/semantic/60D312077E257669FD27593EB0264389.webp",
+              "firstFrameMd5": "60D312077E257669FD27593EB0264389",
+              "ass": "Dialogue: 0,0:00:00.94,0:00:01.82,Default,,0,0,0,,{\\k33}Here{\\k14}you{\\k41}go!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.94,0:00:01.82,Default,,0,0,0,,给你！"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The boy is playing.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "这个男孩正在玩耍。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/875FF60440A081B553D2CABBF4399E0B.mp3?auth_key=1776432003-neqw8fvzuyxt-0-d06ba36086f9d2cdf9a57d29a413f7c9",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/D45C2AADDF82DB0ADD5321FF22FF873C.webp?auth_key=1776432003-mc2dgnahr9ke-0-f349e745a02bc14d55134aa59ec4af9c",
+            "imageKey": "knowledge/semantic/D45C2AADDF82DB0ADD5321FF22FF873C.webp",
+            "imageMd5": "D45C2AADDF82DB0ADD5321FF22FF873C",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990219,
+              "videoUrl": "https://video.timelywise.cn/video/generated/1A03AC44EB030904E25F8EDFFD0CE7C4.mp4?auth_key=1776432003-g9retzv2pul7-0-bb892cf85655b0b25e2fd520f70b4678",
+              "videoKey": "video/generated/1A03AC44EB030904E25F8EDFFD0CE7C4.mp4",
+              "duration": 3.88,
+              "startSeconds": 1.05,
+              "endSeconds": 3.88,
+              "md5": "1A03AC44EB030904E25F8EDFFD0CE7C4",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/D45C2AADDF82DB0ADD5321FF22FF873C.webp?auth_key=1776432003-mc2dgnahr9ke-0-f349e745a02bc14d55134aa59ec4af9c",
+              "firstFrameKey": "knowledge/semantic/D45C2AADDF82DB0ADD5321FF22FF873C.webp",
+              "firstFrameMd5": "D45C2AADDF82DB0ADD5321FF22FF873C",
+              "ass": "Dialogue: 0,0:00:00.00,0:00:03.86,Default,,0,0,0,,{\\k154}This{\\k77}is{\\k155}fun.",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.00,0:00:03.86,Default,,0,0,0,,这真有意思。"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The boy is sleeping.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "这个男孩正在睡觉。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/4F3ECD2730FF4453C6B402F19A5CAF2C.mp3?auth_key=1776432003-pw3kfek1k0d0-0-a9d0d90f9e55f5a3b5ea5a06982e18aa",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/67F77AE38A925228E0B51586EB27449E.webp?auth_key=1776432003-swey742x12lw-0-b169871cf676b58a70a54d3abd12c146",
+            "imageKey": "knowledge/semantic/67F77AE38A925228E0B51586EB27449E.webp",
+            "imageMd5": "67F77AE38A925228E0B51586EB27449E",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990406,
+              "videoUrl": "https://video.timelywise.cn/knowledge/video/89C79805B6C632716EB1613889307ACB.mp4?auth_key=1776432003-vs6f9pyhqjxl-0-8f15bab34945c82786f139ce5af404c9",
+              "videoKey": "knowledge/video/89C79805B6C632716EB1613889307ACB.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 3.88,
+              "md5": "89C79805B6C632716EB1613889307ACB",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/67F77AE38A925228E0B51586EB27449E.webp?auth_key=1776432003-swey742x12lw-0-b169871cf676b58a70a54d3abd12c146",
+              "firstFrameKey": "knowledge/semantic/67F77AE38A925228E0B51586EB27449E.webp",
+              "firstFrameMd5": "67F77AE38A925228E0B51586EB27449E",
+              "ass": "Dialogue: 0,0:00:01.72,0:00:03.30,Default,,0,0,0,,{\\k28}Feel{\\k30}so{\\k80}comfortable.",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:01.72,0:00:03.30,Default,,0,0,0,,感觉好舒服呀。"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The boys are sleeping.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "男孩们正在睡觉。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/F4FB3893C9A8028D7D3BD814E3E160F6.mp3?auth_key=1776432003-f6vmh1k1h6mr-0-429d3ffc813a6623ebc749dd205fbc30",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/F088B1D48C6D57E1F64C317AE1D8C39E.webp?auth_key=1776432003-xx8wjaz9uwz0-0-6b5f3a38abfc037396c2765ee4a270dd",
+            "imageKey": "knowledge/semantic/F088B1D48C6D57E1F64C317AE1D8C39E.webp",
+            "imageMd5": "F088B1D48C6D57E1F64C317AE1D8C39E",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990329,
+              "videoUrl": "https://video.timelywise.cn/knowledge/video/571009A4D66686497CB9FD682F95C957.mp4?auth_key=1776432003-9adpld6q3yrk-0-a2c5251e3604807d5b7471e8c21bf62e",
+              "videoKey": "knowledge/video/571009A4D66686497CB9FD682F95C957.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 3.88,
+              "md5": "571009A4D66686497CB9FD682F95C957",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/F088B1D48C6D57E1F64C317AE1D8C39E.webp?auth_key=1776432003-xx8wjaz9uwz0-0-6b5f3a38abfc037396c2765ee4a270dd",
+              "firstFrameKey": "knowledge/semantic/F088B1D48C6D57E1F64C317AE1D8C39E.webp",
+              "firstFrameMd5": "F088B1D48C6D57E1F64C317AE1D8C39E",
+              "ass": "Dialogue: 0,0:00:00.00,0:00:03.86,Default,,0,0,0,,{\\k73}Shh,{\\k92}don’t{\\k129}disturb{\\k92}them.",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.00,0:00:03.86,Default,,0,0,0,,嘘，别打扰他们。"
+                }
+              ]
+            }
+          }
+        ],
+        "config": {
+          "uid": 1193,
+          "stemDisplay": "TEXT",
+          "optionDisplay": "IMAGE",
+          "preTeaching": false,
+          "stemAudio": true,
+          "optionAudio": true,
+          "questionAudio": null,
+          "inputMode": null,
+          "highlight": null,
+          "followSentence": null,
+          "breakdownLevel": null,
+          "optionCount": null,
+          "errorCount": null
+        },
+        "guide": [
+          {
+            "lang": "en",
+            "text": "Listen to the word, then drag it to the matching picture. Tap to hear the word or picture again."
+          },
+          {
+            "lang": "zh",
+            "text": "听单词发音，将其拖到对应的图片上。可点击再次听单词或图片发音。"
+          }
+        ],
+        "estimatedTime": 34.0,
+        "status": "LEARNED",
+        "correct": true,
+        "duration": 32.0,
+        "result": "good",
+        "access": "NORMAL"
+      },
+      {
+        "uid": 72303,
+        "type": "IMMERSIVE_CHAIN",
+        "purpose": "LEARN",
+        "contentList": [
+          {
+            "uid": 153884,
+            "type": "EN_SENTENCE",
+            "semanticId": 731058
+          },
+          {
+            "uid": 153880,
+            "type": "EN_SENTENCE",
+            "semanticId": 731054
+          },
+          {
+            "uid": 153872,
+            "type": "EN_SENTENCE",
+            "semanticId": 731046
+          },
+          {
+            "uid": 153876,
+            "type": "EN_SENTENCE",
+            "semanticId": 731050
+          }
+        ],
+        "stems": [
+          {
+            "text": "The boys are playing.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "男孩们正在玩耍。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/3F32E8D8C854E93970760C36337F34BE.mp3?auth_key=1776432003-gjhpzg8cmgl7-0-884a58303164d06b39530eac719c0920",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/60D312077E257669FD27593EB0264389.webp?auth_key=1776432003-9j0lbvz2k51t-0-433f794ce85c7842d2a38a2f980e828f",
+            "imageKey": "knowledge/semantic/60D312077E257669FD27593EB0264389.webp",
+            "imageMd5": "60D312077E257669FD27593EB0264389",
+            "video": {
+              "styleId": 10,
+              "videoId": 1942311,
+              "videoUrl": "https://video.timelywise.cn/video/generated/13BC434EC2A5142DF673F3A0E93C5D65.mp4?auth_key=1776432003-48wcy49rz3gt-0-67ec6ecbbb1f97ba1b5ae04d321518d1",
+              "videoKey": "video/generated/13BC434EC2A5142DF673F3A0E93C5D65.mp4",
+              "duration": 5.16,
+              "startSeconds": 0.82,
+              "endSeconds": 5.16,
+              "md5": "13BC434EC2A5142DF673F3A0E93C5D65",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/60D312077E257669FD27593EB0264389.webp?auth_key=1776432003-9j0lbvz2k51t-0-433f794ce85c7842d2a38a2f980e828f",
+              "firstFrameKey": "knowledge/semantic/60D312077E257669FD27593EB0264389.webp",
+              "firstFrameMd5": "60D312077E257669FD27593EB0264389",
+              "ass": "Dialogue: 0,0:00:00.94,0:00:01.82,Default,,0,0,0,,{\\k33}Here{\\k14}you{\\k41}go!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.94,0:00:01.82,Default,,0,0,0,,给你！"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The girls are playing.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "女孩们正在玩耍。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/98720B7B0DEF918E60010B4A37A8BFE7.mp3?auth_key=1776432003-wc7kvcd823mj-0-d4de886d3296badb39bc715e8527a4b8",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/1450CD542C6FD8ECD2EAD7B884E548DF.webp?auth_key=1776432003-rhx3e4sh8uy2-0-76d465ce775fdb168fd85fca2ff207ca",
+            "imageKey": "knowledge/semantic/1450CD542C6FD8ECD2EAD7B884E548DF.webp",
+            "imageMd5": "1450CD542C6FD8ECD2EAD7B884E548DF",
+            "video": {
+              "styleId": 10,
+              "videoId": 1942357,
+              "videoUrl": "https://video.timelywise.cn/video/generated/9D86734DD9B3BA2890426C82B3E8291E.mp4?auth_key=1776432003-j07ka7d1sx5g-0-9aedf476a9301cb6b91fa0337dc0c34b",
+              "videoKey": "video/generated/9D86734DD9B3BA2890426C82B3E8291E.mp4",
+              "duration": 5.16,
+              "startSeconds": 0.0,
+              "endSeconds": 3.2,
+              "md5": "9D86734DD9B3BA2890426C82B3E8291E",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/1450CD542C6FD8ECD2EAD7B884E548DF.webp?auth_key=1776432003-rhx3e4sh8uy2-0-76d465ce775fdb168fd85fca2ff207ca",
+              "firstFrameKey": "knowledge/semantic/1450CD542C6FD8ECD2EAD7B884E548DF.webp",
+              "firstFrameMd5": "1450CD542C6FD8ECD2EAD7B884E548DF",
+              "ass": "Dialogue: 0,0:00:00.78,0:00:01.20,Default,,0,0,0,,{\\k42}Ready?\nDialogue: 0,0:00:02.32,0:00:02.85,Default,,0,0,0,,{\\k53}Yeah!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.78,0:00:01.20,Default,,0,0,0,,准备好了吗？\nDialogue: 0,0:00:02.32,0:00:02.85,Default,,0,0,0,,嗯，好了！"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The boy is playing.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "这个男孩正在玩耍。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/875FF60440A081B553D2CABBF4399E0B.mp3?auth_key=1776432003-neqw8fvzuyxt-0-d06ba36086f9d2cdf9a57d29a413f7c9",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/D45C2AADDF82DB0ADD5321FF22FF873C.webp?auth_key=1776432003-mc2dgnahr9ke-0-f349e745a02bc14d55134aa59ec4af9c",
+            "imageKey": "knowledge/semantic/D45C2AADDF82DB0ADD5321FF22FF873C.webp",
+            "imageMd5": "D45C2AADDF82DB0ADD5321FF22FF873C",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990219,
+              "videoUrl": "https://video.timelywise.cn/video/generated/1A03AC44EB030904E25F8EDFFD0CE7C4.mp4?auth_key=1776432003-g9retzv2pul7-0-bb892cf85655b0b25e2fd520f70b4678",
+              "videoKey": "video/generated/1A03AC44EB030904E25F8EDFFD0CE7C4.mp4",
+              "duration": 3.88,
+              "startSeconds": 1.05,
+              "endSeconds": 3.88,
+              "md5": "1A03AC44EB030904E25F8EDFFD0CE7C4",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/D45C2AADDF82DB0ADD5321FF22FF873C.webp?auth_key=1776432003-mc2dgnahr9ke-0-f349e745a02bc14d55134aa59ec4af9c",
+              "firstFrameKey": "knowledge/semantic/D45C2AADDF82DB0ADD5321FF22FF873C.webp",
+              "firstFrameMd5": "D45C2AADDF82DB0ADD5321FF22FF873C",
+              "ass": "Dialogue: 0,0:00:00.00,0:00:03.86,Default,,0,0,0,,{\\k154}This{\\k77}is{\\k155}fun.",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.00,0:00:03.86,Default,,0,0,0,,这真有意思。"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The girl is playing.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "这个女孩正在玩耍。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/AF9EF7F5097294005DC8FBAAB8013C03.mp3?auth_key=1776432003-xmpd0rs6z3kc-0-22497483ab52f7ad8d2db8e961a9bd53",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/C3433069D5A36CE96F825784FBE6EEC8.webp?auth_key=1776432003-tql46343khsb-0-1bb16472cf3cfce537a4d64c7bfc071c",
+            "imageKey": "knowledge/semantic/C3433069D5A36CE96F825784FBE6EEC8.webp",
+            "imageMd5": "C3433069D5A36CE96F825784FBE6EEC8",
+            "video": {
+              "styleId": 10,
+              "videoId": 1909040,
+              "videoUrl": "https://video.timelywise.cn/video/generated/B4E0B0D72735310C904CB5B6FC7E3414.mp4?auth_key=1776432003-ns3s87fmjxse-0-b1d3e683084be878b4a2d8d64adacd74",
+              "videoKey": "video/generated/B4E0B0D72735310C904CB5B6FC7E3414.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 2.81,
+              "md5": "B4E0B0D72735310C904CB5B6FC7E3414",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/C3433069D5A36CE96F825784FBE6EEC8.webp?auth_key=1776432003-tql46343khsb-0-1bb16472cf3cfce537a4d64c7bfc071c",
+              "firstFrameKey": "knowledge/semantic/C3433069D5A36CE96F825784FBE6EEC8.webp",
+              "firstFrameMd5": "C3433069D5A36CE96F825784FBE6EEC8",
+              "ass": "Dialogue: 0,0:00:00.00,0:00:01.29,Default,,0,0,0,,{\\k50}Hello,{\\k35}little{\\k44}one.",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.00,0:00:01.29,Default,,0,0,0,,你好啊，小家伙。"
+                }
+              ]
+            }
+          }
+        ],
+        "config": {
+          "uid": 1218,
+          "stemDisplay": "AUDIO",
+          "optionDisplay": "IMAGE",
+          "preTeaching": false,
+          "stemAudio": true,
+          "optionAudio": true,
+          "questionAudio": null,
+          "inputMode": null,
+          "highlight": null,
+          "followSentence": null,
+          "breakdownLevel": null,
+          "optionCount": null,
+          "errorCount": null
+        },
+        "guide": [
+          {
+            "lang": "en",
+            "text": "Listen to the sound and drag it to the matching picture. Tap to hear the sound again."
+          },
+          {
+            "lang": "zh",
+            "text": "听声音并将其拖到对应的图片上。可点击再次听声音。"
+          }
+        ],
+        "estimatedTime": 39.0,
+        "status": "LEARNED",
+        "correct": true,
+        "duration": 88.0,
+        "result": "pass",
+        "access": "NORMAL"
+      },
+      {
+        "uid": 72403,
+        "type": "IMMERSIVE_CHAIN",
+        "purpose": "LEARN",
+        "contentList": [
+          {
+            "uid": 153877,
+            "type": "EN_SENTENCE",
+            "semanticId": 731051
+          },
+          {
+            "uid": 153885,
+            "type": "EN_SENTENCE",
+            "semanticId": 731059
+          },
+          {
+            "uid": 153873,
+            "type": "EN_SENTENCE",
+            "semanticId": 731047
+          },
+          {
+            "uid": 153881,
+            "type": "EN_SENTENCE",
+            "semanticId": 731055
+          }
+        ],
+        "stems": [
+          {
+            "text": "The girl is sleeping.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "女孩正在睡觉。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/2888CBBFE16BEAC60A95FFD25FD5E952.mp3?auth_key=1776432003-xzz3gd30n8xw-0-936b25880c85d1ac1a18b85ebb6d6833",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/77925C158E4566E9758F5C55885D62E2.webp?auth_key=1776432003-rnxn9b861rws-0-9e3ec77aefc489deb6a7e612a805de50",
+            "imageKey": "knowledge/semantic/77925C158E4566E9758F5C55885D62E2.webp",
+            "imageMd5": "77925C158E4566E9758F5C55885D62E2",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990310,
+              "videoUrl": "https://video.timelywise.cn/knowledge/video/19E6722FF23369F977E82FBEEE5D8704.mp4?auth_key=1776432003-7xncanfy7x1q-0-99a5c5a2c2cac0b24e25dcc757dc2553",
+              "videoKey": "knowledge/video/19E6722FF23369F977E82FBEEE5D8704.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 3.88,
+              "md5": "19E6722FF23369F977E82FBEEE5D8704",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/77925C158E4566E9758F5C55885D62E2.webp?auth_key=1776432003-rnxn9b861rws-0-9e3ec77aefc489deb6a7e612a805de50",
+              "firstFrameKey": "knowledge/semantic/77925C158E4566E9758F5C55885D62E2.webp",
+              "firstFrameMd5": "77925C158E4566E9758F5C55885D62E2",
+              "ass": "Dialogue: 0,0:00:00.21,0:00:03.23,Default,,0,0,0,,{\\k35}She{\\k64}sleeps{\\k64}so{\\k136}quietly!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.21,0:00:03.23,Default,,0,0,0,,她睡得好安静啊！"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The girls are sleeping.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "女孩们正在睡觉。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/0C55462614415B616146B4D0AFABEBCB.mp3?auth_key=1776432003-fjbs68l76gzu-0-9be419d2e9afad86d26cbcf1384fe099",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/508C58133D72D89AB049CE0B1556DED8.webp?auth_key=1776432003-uu22aguhkyve-0-bd094bc2ec4b0638f730916bfc7e3d55",
+            "imageKey": "knowledge/semantic/508C58133D72D89AB049CE0B1556DED8.webp",
+            "imageMd5": "508C58133D72D89AB049CE0B1556DED8",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990372,
+              "videoUrl": "https://video.timelywise.cn/knowledge/video/9CBC33E78DCAF4601ABF59A5BE43A1B1.mp4?auth_key=1776432003-qdapwkht4sp5-0-0383d05d350f7ab3bab92d8fd4c4da52",
+              "videoKey": "knowledge/video/9CBC33E78DCAF4601ABF59A5BE43A1B1.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 2.59,
+              "md5": "9CBC33E78DCAF4601ABF59A5BE43A1B1",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/508C58133D72D89AB049CE0B1556DED8.webp?auth_key=1776432003-uu22aguhkyve-0-bd094bc2ec4b0638f730916bfc7e3d55",
+              "firstFrameKey": "knowledge/semantic/508C58133D72D89AB049CE0B1556DED8.webp",
+              "firstFrameMd5": "508C58133D72D89AB049CE0B1556DED8",
+              "ass": "Dialogue: 0,0:00:00.03,0:00:02.74,Default,,0,0,0,,{\\k52}Oh,{\\k16}I{\\k34}hope{\\k12}they{\\k20}have{\\k19}good{\\k89}dreams.",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "\nDialogue: 0,0:00:00.03,0:00:02.74,Default,,0,0,0,,哦，希望她们能做个好梦。"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The boy is sleeping.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "这个男孩正在睡觉。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/4F3ECD2730FF4453C6B402F19A5CAF2C.mp3?auth_key=1776432003-pw3kfek1k0d0-0-a9d0d90f9e55f5a3b5ea5a06982e18aa",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/67F77AE38A925228E0B51586EB27449E.webp?auth_key=1776432003-swey742x12lw-0-b169871cf676b58a70a54d3abd12c146",
+            "imageKey": "knowledge/semantic/67F77AE38A925228E0B51586EB27449E.webp",
+            "imageMd5": "67F77AE38A925228E0B51586EB27449E",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990406,
+              "videoUrl": "https://video.timelywise.cn/knowledge/video/89C79805B6C632716EB1613889307ACB.mp4?auth_key=1776432003-vs6f9pyhqjxl-0-8f15bab34945c82786f139ce5af404c9",
+              "videoKey": "knowledge/video/89C79805B6C632716EB1613889307ACB.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 3.88,
+              "md5": "89C79805B6C632716EB1613889307ACB",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/67F77AE38A925228E0B51586EB27449E.webp?auth_key=1776432003-swey742x12lw-0-b169871cf676b58a70a54d3abd12c146",
+              "firstFrameKey": "knowledge/semantic/67F77AE38A925228E0B51586EB27449E.webp",
+              "firstFrameMd5": "67F77AE38A925228E0B51586EB27449E",
+              "ass": "Dialogue: 0,0:00:01.72,0:00:03.30,Default,,0,0,0,,{\\k28}Feel{\\k30}so{\\k80}comfortable.",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:01.72,0:00:03.30,Default,,0,0,0,,感觉好舒服呀。"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The boys are sleeping.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "男孩们正在睡觉。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/F4FB3893C9A8028D7D3BD814E3E160F6.mp3?auth_key=1776432003-f6vmh1k1h6mr-0-429d3ffc813a6623ebc749dd205fbc30",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/F088B1D48C6D57E1F64C317AE1D8C39E.webp?auth_key=1776432003-xx8wjaz9uwz0-0-6b5f3a38abfc037396c2765ee4a270dd",
+            "imageKey": "knowledge/semantic/F088B1D48C6D57E1F64C317AE1D8C39E.webp",
+            "imageMd5": "F088B1D48C6D57E1F64C317AE1D8C39E",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990329,
+              "videoUrl": "https://video.timelywise.cn/knowledge/video/571009A4D66686497CB9FD682F95C957.mp4?auth_key=1776432003-9adpld6q3yrk-0-a2c5251e3604807d5b7471e8c21bf62e",
+              "videoKey": "knowledge/video/571009A4D66686497CB9FD682F95C957.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 3.88,
+              "md5": "571009A4D66686497CB9FD682F95C957",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/F088B1D48C6D57E1F64C317AE1D8C39E.webp?auth_key=1776432003-xx8wjaz9uwz0-0-6b5f3a38abfc037396c2765ee4a270dd",
+              "firstFrameKey": "knowledge/semantic/F088B1D48C6D57E1F64C317AE1D8C39E.webp",
+              "firstFrameMd5": "F088B1D48C6D57E1F64C317AE1D8C39E",
+              "ass": "Dialogue: 0,0:00:00.00,0:00:03.86,Default,,0,0,0,,{\\k73}Shh,{\\k92}don’t{\\k129}disturb{\\k92}them.",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.00,0:00:03.86,Default,,0,0,0,,嘘，别打扰他们。"
+                }
+              ]
+            }
+          }
+        ],
+        "config": {
+          "uid": 1218,
+          "stemDisplay": "AUDIO",
+          "optionDisplay": "IMAGE",
+          "preTeaching": false,
+          "stemAudio": true,
+          "optionAudio": true,
+          "questionAudio": null,
+          "inputMode": null,
+          "highlight": null,
+          "followSentence": null,
+          "breakdownLevel": null,
+          "optionCount": null,
+          "errorCount": null
+        },
+        "guide": [
+          {
+            "lang": "en",
+            "text": "Listen to the sound and drag it to the matching picture. Tap to hear the sound again."
+          },
+          {
+            "lang": "zh",
+            "text": "听声音并将其拖到对应的图片上。可点击再次听声音。"
+          }
+        ],
+        "estimatedTime": 37.0,
+        "status": "LEARNED",
+        "correct": true,
+        "duration": 171.0,
+        "result": "pass",
+        "access": "NORMAL"
+      },
+      {
+        "uid": 72503,
+        "type": "IMMERSIVE_CHAIN",
+        "purpose": "LEARN",
+        "contentList": [
+          {
+            "uid": 153873,
+            "type": "EN_SENTENCE",
+            "semanticId": 731047
+          },
+          {
+            "uid": 153872,
+            "type": "EN_SENTENCE",
+            "semanticId": 731046
+          },
+          {
+            "uid": 153876,
+            "type": "EN_SENTENCE",
+            "semanticId": 731050
+          },
+          {
+            "uid": 153877,
+            "type": "EN_SENTENCE",
+            "semanticId": 731051
+          }
+        ],
+        "stems": [
+          {
+            "text": "The girl is sleeping.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "女孩正在睡觉。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/2888CBBFE16BEAC60A95FFD25FD5E952.mp3?auth_key=1776432003-xzz3gd30n8xw-0-936b25880c85d1ac1a18b85ebb6d6833",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/77925C158E4566E9758F5C55885D62E2.webp?auth_key=1776432003-rnxn9b861rws-0-9e3ec77aefc489deb6a7e612a805de50",
+            "imageKey": "knowledge/semantic/77925C158E4566E9758F5C55885D62E2.webp",
+            "imageMd5": "77925C158E4566E9758F5C55885D62E2",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990310,
+              "videoUrl": "https://video.timelywise.cn/knowledge/video/19E6722FF23369F977E82FBEEE5D8704.mp4?auth_key=1776432003-7xncanfy7x1q-0-99a5c5a2c2cac0b24e25dcc757dc2553",
+              "videoKey": "knowledge/video/19E6722FF23369F977E82FBEEE5D8704.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 3.88,
+              "md5": "19E6722FF23369F977E82FBEEE5D8704",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/77925C158E4566E9758F5C55885D62E2.webp?auth_key=1776432003-rnxn9b861rws-0-9e3ec77aefc489deb6a7e612a805de50",
+              "firstFrameKey": "knowledge/semantic/77925C158E4566E9758F5C55885D62E2.webp",
+              "firstFrameMd5": "77925C158E4566E9758F5C55885D62E2",
+              "ass": "Dialogue: 0,0:00:00.21,0:00:03.23,Default,,0,0,0,,{\\k35}She{\\k64}sleeps{\\k64}so{\\k136}quietly!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.21,0:00:03.23,Default,,0,0,0,,她睡得好安静啊！"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The boy is playing.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "这个男孩正在玩耍。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/875FF60440A081B553D2CABBF4399E0B.mp3?auth_key=1776432003-neqw8fvzuyxt-0-d06ba36086f9d2cdf9a57d29a413f7c9",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/D45C2AADDF82DB0ADD5321FF22FF873C.webp?auth_key=1776432003-mc2dgnahr9ke-0-f349e745a02bc14d55134aa59ec4af9c",
+            "imageKey": "knowledge/semantic/D45C2AADDF82DB0ADD5321FF22FF873C.webp",
+            "imageMd5": "D45C2AADDF82DB0ADD5321FF22FF873C",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990219,
+              "videoUrl": "https://video.timelywise.cn/video/generated/1A03AC44EB030904E25F8EDFFD0CE7C4.mp4?auth_key=1776432003-g9retzv2pul7-0-bb892cf85655b0b25e2fd520f70b4678",
+              "videoKey": "video/generated/1A03AC44EB030904E25F8EDFFD0CE7C4.mp4",
+              "duration": 3.88,
+              "startSeconds": 1.05,
+              "endSeconds": 3.88,
+              "md5": "1A03AC44EB030904E25F8EDFFD0CE7C4",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/D45C2AADDF82DB0ADD5321FF22FF873C.webp?auth_key=1776432003-mc2dgnahr9ke-0-f349e745a02bc14d55134aa59ec4af9c",
+              "firstFrameKey": "knowledge/semantic/D45C2AADDF82DB0ADD5321FF22FF873C.webp",
+              "firstFrameMd5": "D45C2AADDF82DB0ADD5321FF22FF873C",
+              "ass": "Dialogue: 0,0:00:00.00,0:00:03.86,Default,,0,0,0,,{\\k154}This{\\k77}is{\\k155}fun.",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.00,0:00:03.86,Default,,0,0,0,,这真有意思。"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The boy is sleeping.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "这个男孩正在睡觉。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/4F3ECD2730FF4453C6B402F19A5CAF2C.mp3?auth_key=1776432003-pw3kfek1k0d0-0-a9d0d90f9e55f5a3b5ea5a06982e18aa",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/67F77AE38A925228E0B51586EB27449E.webp?auth_key=1776432003-swey742x12lw-0-b169871cf676b58a70a54d3abd12c146",
+            "imageKey": "knowledge/semantic/67F77AE38A925228E0B51586EB27449E.webp",
+            "imageMd5": "67F77AE38A925228E0B51586EB27449E",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990406,
+              "videoUrl": "https://video.timelywise.cn/knowledge/video/89C79805B6C632716EB1613889307ACB.mp4?auth_key=1776432003-vs6f9pyhqjxl-0-8f15bab34945c82786f139ce5af404c9",
+              "videoKey": "knowledge/video/89C79805B6C632716EB1613889307ACB.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 3.88,
+              "md5": "89C79805B6C632716EB1613889307ACB",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/67F77AE38A925228E0B51586EB27449E.webp?auth_key=1776432003-swey742x12lw-0-b169871cf676b58a70a54d3abd12c146",
+              "firstFrameKey": "knowledge/semantic/67F77AE38A925228E0B51586EB27449E.webp",
+              "firstFrameMd5": "67F77AE38A925228E0B51586EB27449E",
+              "ass": "Dialogue: 0,0:00:01.72,0:00:03.30,Default,,0,0,0,,{\\k28}Feel{\\k30}so{\\k80}comfortable.",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:01.72,0:00:03.30,Default,,0,0,0,,感觉好舒服呀。"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The girl is playing.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "这个女孩正在玩耍。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/AF9EF7F5097294005DC8FBAAB8013C03.mp3?auth_key=1776432003-xmpd0rs6z3kc-0-22497483ab52f7ad8d2db8e961a9bd53",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/C3433069D5A36CE96F825784FBE6EEC8.webp?auth_key=1776432003-tql46343khsb-0-1bb16472cf3cfce537a4d64c7bfc071c",
+            "imageKey": "knowledge/semantic/C3433069D5A36CE96F825784FBE6EEC8.webp",
+            "imageMd5": "C3433069D5A36CE96F825784FBE6EEC8",
+            "video": {
+              "styleId": 10,
+              "videoId": 1909040,
+              "videoUrl": "https://video.timelywise.cn/video/generated/B4E0B0D72735310C904CB5B6FC7E3414.mp4?auth_key=1776432003-ns3s87fmjxse-0-b1d3e683084be878b4a2d8d64adacd74",
+              "videoKey": "video/generated/B4E0B0D72735310C904CB5B6FC7E3414.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 2.81,
+              "md5": "B4E0B0D72735310C904CB5B6FC7E3414",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/C3433069D5A36CE96F825784FBE6EEC8.webp?auth_key=1776432003-tql46343khsb-0-1bb16472cf3cfce537a4d64c7bfc071c",
+              "firstFrameKey": "knowledge/semantic/C3433069D5A36CE96F825784FBE6EEC8.webp",
+              "firstFrameMd5": "C3433069D5A36CE96F825784FBE6EEC8",
+              "ass": "Dialogue: 0,0:00:00.00,0:00:01.29,Default,,0,0,0,,{\\k50}Hello,{\\k35}little{\\k44}one.",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.00,0:00:01.29,Default,,0,0,0,,你好啊，小家伙。"
+                }
+              ]
+            }
+          }
+        ],
+        "config": {
+          "uid": 1218,
+          "stemDisplay": "AUDIO",
+          "optionDisplay": "IMAGE",
+          "preTeaching": false,
+          "stemAudio": true,
+          "optionAudio": true,
+          "questionAudio": null,
+          "inputMode": null,
+          "highlight": null,
+          "followSentence": null,
+          "breakdownLevel": null,
+          "optionCount": null,
+          "errorCount": null
+        },
+        "guide": [
+          {
+            "lang": "en",
+            "text": "Listen to the sound and drag it to the matching picture. Tap to hear the sound again."
+          },
+          {
+            "lang": "zh",
+            "text": "听声音并将其拖到对应的图片上。可点击再次听声音。"
+          }
+        ],
+        "estimatedTime": 32.0,
+        "status": "LEARNED",
+        "correct": true,
+        "duration": 41.0,
+        "result": "pass",
+        "access": "NORMAL"
+      },
+      {
+        "uid": 72603,
+        "type": "IMMERSIVE_CHAIN",
+        "purpose": "LEARN",
+        "contentList": [
+          {
+            "uid": 153876,
+            "type": "EN_SENTENCE",
+            "semanticId": 731050
+          },
+          {
+            "uid": 153877,
+            "type": "EN_SENTENCE",
+            "semanticId": 731051
+          },
+          {
+            "uid": 153885,
+            "type": "EN_SENTENCE",
+            "semanticId": 731059
+          },
+          {
+            "uid": 153884,
+            "type": "EN_SENTENCE",
+            "semanticId": 731058
+          }
+        ],
+        "stems": [
+          {
+            "text": "The girls are playing.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "女孩们正在玩耍。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/98720B7B0DEF918E60010B4A37A8BFE7.mp3?auth_key=1776432003-wc7kvcd823mj-0-d4de886d3296badb39bc715e8527a4b8",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/1450CD542C6FD8ECD2EAD7B884E548DF.webp?auth_key=1776432003-rhx3e4sh8uy2-0-76d465ce775fdb168fd85fca2ff207ca",
+            "imageKey": "knowledge/semantic/1450CD542C6FD8ECD2EAD7B884E548DF.webp",
+            "imageMd5": "1450CD542C6FD8ECD2EAD7B884E548DF",
+            "video": {
+              "styleId": 10,
+              "videoId": 1942357,
+              "videoUrl": "https://video.timelywise.cn/video/generated/9D86734DD9B3BA2890426C82B3E8291E.mp4?auth_key=1776432003-j07ka7d1sx5g-0-9aedf476a9301cb6b91fa0337dc0c34b",
+              "videoKey": "video/generated/9D86734DD9B3BA2890426C82B3E8291E.mp4",
+              "duration": 5.16,
+              "startSeconds": 0.0,
+              "endSeconds": 3.2,
+              "md5": "9D86734DD9B3BA2890426C82B3E8291E",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/1450CD542C6FD8ECD2EAD7B884E548DF.webp?auth_key=1776432003-rhx3e4sh8uy2-0-76d465ce775fdb168fd85fca2ff207ca",
+              "firstFrameKey": "knowledge/semantic/1450CD542C6FD8ECD2EAD7B884E548DF.webp",
+              "firstFrameMd5": "1450CD542C6FD8ECD2EAD7B884E548DF",
+              "ass": "Dialogue: 0,0:00:00.78,0:00:01.20,Default,,0,0,0,,{\\k42}Ready?\nDialogue: 0,0:00:02.32,0:00:02.85,Default,,0,0,0,,{\\k53}Yeah!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.78,0:00:01.20,Default,,0,0,0,,准备好了吗？\nDialogue: 0,0:00:02.32,0:00:02.85,Default,,0,0,0,,嗯，好了！"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The girl is sleeping.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "女孩正在睡觉。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/2888CBBFE16BEAC60A95FFD25FD5E952.mp3?auth_key=1776432003-xzz3gd30n8xw-0-936b25880c85d1ac1a18b85ebb6d6833",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/77925C158E4566E9758F5C55885D62E2.webp?auth_key=1776432003-rnxn9b861rws-0-9e3ec77aefc489deb6a7e612a805de50",
+            "imageKey": "knowledge/semantic/77925C158E4566E9758F5C55885D62E2.webp",
+            "imageMd5": "77925C158E4566E9758F5C55885D62E2",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990310,
+              "videoUrl": "https://video.timelywise.cn/knowledge/video/19E6722FF23369F977E82FBEEE5D8704.mp4?auth_key=1776432003-7xncanfy7x1q-0-99a5c5a2c2cac0b24e25dcc757dc2553",
+              "videoKey": "knowledge/video/19E6722FF23369F977E82FBEEE5D8704.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 3.88,
+              "md5": "19E6722FF23369F977E82FBEEE5D8704",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/77925C158E4566E9758F5C55885D62E2.webp?auth_key=1776432003-rnxn9b861rws-0-9e3ec77aefc489deb6a7e612a805de50",
+              "firstFrameKey": "knowledge/semantic/77925C158E4566E9758F5C55885D62E2.webp",
+              "firstFrameMd5": "77925C158E4566E9758F5C55885D62E2",
+              "ass": "Dialogue: 0,0:00:00.21,0:00:03.23,Default,,0,0,0,,{\\k35}She{\\k64}sleeps{\\k64}so{\\k136}quietly!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.21,0:00:03.23,Default,,0,0,0,,她睡得好安静啊！"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The girls are sleeping.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "女孩们正在睡觉。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/0C55462614415B616146B4D0AFABEBCB.mp3?auth_key=1776432003-fjbs68l76gzu-0-9be419d2e9afad86d26cbcf1384fe099",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/508C58133D72D89AB049CE0B1556DED8.webp?auth_key=1776432003-uu22aguhkyve-0-bd094bc2ec4b0638f730916bfc7e3d55",
+            "imageKey": "knowledge/semantic/508C58133D72D89AB049CE0B1556DED8.webp",
+            "imageMd5": "508C58133D72D89AB049CE0B1556DED8",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990372,
+              "videoUrl": "https://video.timelywise.cn/knowledge/video/9CBC33E78DCAF4601ABF59A5BE43A1B1.mp4?auth_key=1776432003-qdapwkht4sp5-0-0383d05d350f7ab3bab92d8fd4c4da52",
+              "videoKey": "knowledge/video/9CBC33E78DCAF4601ABF59A5BE43A1B1.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 2.59,
+              "md5": "9CBC33E78DCAF4601ABF59A5BE43A1B1",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/508C58133D72D89AB049CE0B1556DED8.webp?auth_key=1776432003-uu22aguhkyve-0-bd094bc2ec4b0638f730916bfc7e3d55",
+              "firstFrameKey": "knowledge/semantic/508C58133D72D89AB049CE0B1556DED8.webp",
+              "firstFrameMd5": "508C58133D72D89AB049CE0B1556DED8",
+              "ass": "Dialogue: 0,0:00:00.03,0:00:02.74,Default,,0,0,0,,{\\k52}Oh,{\\k16}I{\\k34}hope{\\k12}they{\\k20}have{\\k19}good{\\k89}dreams.",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "\nDialogue: 0,0:00:00.03,0:00:02.74,Default,,0,0,0,,哦，希望她们能做个好梦。"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The girl is playing.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "这个女孩正在玩耍。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/AF9EF7F5097294005DC8FBAAB8013C03.mp3?auth_key=1776432003-xmpd0rs6z3kc-0-22497483ab52f7ad8d2db8e961a9bd53",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/C3433069D5A36CE96F825784FBE6EEC8.webp?auth_key=1776432003-tql46343khsb-0-1bb16472cf3cfce537a4d64c7bfc071c",
+            "imageKey": "knowledge/semantic/C3433069D5A36CE96F825784FBE6EEC8.webp",
+            "imageMd5": "C3433069D5A36CE96F825784FBE6EEC8",
+            "video": {
+              "styleId": 10,
+              "videoId": 1909040,
+              "videoUrl": "https://video.timelywise.cn/video/generated/B4E0B0D72735310C904CB5B6FC7E3414.mp4?auth_key=1776432003-ns3s87fmjxse-0-b1d3e683084be878b4a2d8d64adacd74",
+              "videoKey": "video/generated/B4E0B0D72735310C904CB5B6FC7E3414.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 2.81,
+              "md5": "B4E0B0D72735310C904CB5B6FC7E3414",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/C3433069D5A36CE96F825784FBE6EEC8.webp?auth_key=1776432003-tql46343khsb-0-1bb16472cf3cfce537a4d64c7bfc071c",
+              "firstFrameKey": "knowledge/semantic/C3433069D5A36CE96F825784FBE6EEC8.webp",
+              "firstFrameMd5": "C3433069D5A36CE96F825784FBE6EEC8",
+              "ass": "Dialogue: 0,0:00:00.00,0:00:01.29,Default,,0,0,0,,{\\k50}Hello,{\\k35}little{\\k44}one.",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.00,0:00:01.29,Default,,0,0,0,,你好啊，小家伙。"
+                }
+              ]
+            }
+          }
+        ],
+        "config": {
+          "uid": 1218,
+          "stemDisplay": "AUDIO",
+          "optionDisplay": "IMAGE",
+          "preTeaching": false,
+          "stemAudio": true,
+          "optionAudio": true,
+          "questionAudio": null,
+          "inputMode": null,
+          "highlight": null,
+          "followSentence": null,
+          "breakdownLevel": null,
+          "optionCount": null,
+          "errorCount": null
+        },
+        "guide": [
+          {
+            "lang": "en",
+            "text": "Listen to the sound and drag it to the matching picture. Tap to hear the sound again."
+          },
+          {
+            "lang": "zh",
+            "text": "听声音并将其拖到对应的图片上。可点击再次听声音。"
+          }
+        ],
+        "estimatedTime": 41.0,
+        "status": "LEARNED",
+        "correct": true,
+        "duration": 25.0,
+        "result": "excellent",
+        "access": "NORMAL"
+      },
+      {
+        "uid": 73303,
+        "type": "IMMERSIVE_CHAIN",
+        "purpose": "LEARN",
+        "contentList": [
+          {
+            "uid": 153870,
+            "type": "EN_SENTENCE",
+            "semanticId": 731044
+          },
+          {
+            "uid": 153884,
+            "type": "EN_SENTENCE",
+            "semanticId": 731058
+          },
+          {
+            "uid": 153881,
+            "type": "EN_SENTENCE",
+            "semanticId": 731055
+          },
+          {
+            "uid": 153875,
+            "type": "EN_SENTENCE",
+            "semanticId": 731049
+          }
+        ],
+        "stems": [
+          {
+            "text": "The boy is eating.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "这个男孩正在吃东西。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/5B05C220AF64329934FC36AFFD43E2BA.mp3?auth_key=1776432003-htzuh6j00ywv-0-587bf98cdbcc9b0762527573950e180e",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/B7F777CAFD079A3FDBD8C33A5C9C9409.webp?auth_key=1776432003-88wpwpf0ehez-0-ac0a1c5e6fadd044b559375b9dc7bd95",
+            "imageKey": "knowledge/semantic/B7F777CAFD079A3FDBD8C33A5C9C9409.webp",
+            "imageMd5": "B7F777CAFD079A3FDBD8C33A5C9C9409",
+            "video": {
+              "styleId": 10,
+              "videoId": 1638262,
+              "videoUrl": "https://video.timelywise.cn/video/generated/22B8291453DE289A00B434B6DD894B93.mp4?auth_key=1776432003-ht2azavkxt5n-0-a12369af69a575eb6f5db6c1a0897908",
+              "videoKey": "video/generated/22B8291453DE289A00B434B6DD894B93.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.35,
+              "endSeconds": 3.59,
+              "md5": "22B8291453DE289A00B434B6DD894B93",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/B7F777CAFD079A3FDBD8C33A5C9C9409.webp?auth_key=1776432003-88wpwpf0ehez-0-ac0a1c5e6fadd044b559375b9dc7bd95",
+              "firstFrameKey": "knowledge/semantic/B7F777CAFD079A3FDBD8C33A5C9C9409.webp",
+              "firstFrameMd5": "B7F777CAFD079A3FDBD8C33A5C9C9409",
+              "ass": "Dialogue: 0,0:00:00.94,0:00:03.20,Default,,0,0,0,,{\\k85}Mmm,{\\k141}delicious!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.94,0:00:03.20,Default,,0,0,0,,嗯，真好吃！"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The girls are playing.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "女孩们正在玩耍。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/98720B7B0DEF918E60010B4A37A8BFE7.mp3?auth_key=1776432003-wc7kvcd823mj-0-d4de886d3296badb39bc715e8527a4b8",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/1450CD542C6FD8ECD2EAD7B884E548DF.webp?auth_key=1776432003-rhx3e4sh8uy2-0-76d465ce775fdb168fd85fca2ff207ca",
+            "imageKey": "knowledge/semantic/1450CD542C6FD8ECD2EAD7B884E548DF.webp",
+            "imageMd5": "1450CD542C6FD8ECD2EAD7B884E548DF",
+            "video": {
+              "styleId": 10,
+              "videoId": 1942357,
+              "videoUrl": "https://video.timelywise.cn/video/generated/9D86734DD9B3BA2890426C82B3E8291E.mp4?auth_key=1776432003-j07ka7d1sx5g-0-9aedf476a9301cb6b91fa0337dc0c34b",
+              "videoKey": "video/generated/9D86734DD9B3BA2890426C82B3E8291E.mp4",
+              "duration": 5.16,
+              "startSeconds": 0.0,
+              "endSeconds": 3.2,
+              "md5": "9D86734DD9B3BA2890426C82B3E8291E",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/1450CD542C6FD8ECD2EAD7B884E548DF.webp?auth_key=1776432003-rhx3e4sh8uy2-0-76d465ce775fdb168fd85fca2ff207ca",
+              "firstFrameKey": "knowledge/semantic/1450CD542C6FD8ECD2EAD7B884E548DF.webp",
+              "firstFrameMd5": "1450CD542C6FD8ECD2EAD7B884E548DF",
+              "ass": "Dialogue: 0,0:00:00.78,0:00:01.20,Default,,0,0,0,,{\\k42}Ready?\nDialogue: 0,0:00:02.32,0:00:02.85,Default,,0,0,0,,{\\k53}Yeah!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.78,0:00:01.20,Default,,0,0,0,,准备好了吗？\nDialogue: 0,0:00:02.32,0:00:02.85,Default,,0,0,0,,嗯，好了！"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The girl is drinking.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "这个女孩正在喝水。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/0878A17F48B313BA86DF0A76CBCC4D22.mp3?auth_key=1776432003-c91qshfhxabp-0-27cf8a8f9789c746d225c51e83176afe",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/3AEA24065E7ED4B03FF7185CEF91E205.webp?auth_key=1776432003-xkxspe1jnf83-0-9f903fba2025ff40b93fded82556c77d",
+            "imageKey": "knowledge/semantic/3AEA24065E7ED4B03FF7185CEF91E205.webp",
+            "imageMd5": "3AEA24065E7ED4B03FF7185CEF91E205",
+            "video": {
+              "styleId": 10,
+              "videoId": 1954948,
+              "videoUrl": "https://video.timelywise.cn/video/generated/F7A2A782B7F8534D25DC6B44425EB82B.mp4?auth_key=1776432003-0vlhcpvwn78u-0-302122fad311facc266c99b8eb062cfa",
+              "videoKey": "video/generated/F7A2A782B7F8534D25DC6B44425EB82B.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 3.88,
+              "md5": "F7A2A782B7F8534D25DC6B44425EB82B",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/3AEA24065E7ED4B03FF7185CEF91E205.webp?auth_key=1776432003-xkxspe1jnf83-0-9f903fba2025ff40b93fded82556c77d",
+              "firstFrameKey": "knowledge/semantic/3AEA24065E7ED4B03FF7185CEF91E205.webp",
+              "firstFrameMd5": "3AEA24065E7ED4B03FF7185CEF91E205"
+            }
+          },
+          {
+            "text": "The boys are sleeping.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "男孩们正在睡觉。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/F4FB3893C9A8028D7D3BD814E3E160F6.mp3?auth_key=1776432003-f6vmh1k1h6mr-0-429d3ffc813a6623ebc749dd205fbc30",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/F088B1D48C6D57E1F64C317AE1D8C39E.webp?auth_key=1776432003-xx8wjaz9uwz0-0-6b5f3a38abfc037396c2765ee4a270dd",
+            "imageKey": "knowledge/semantic/F088B1D48C6D57E1F64C317AE1D8C39E.webp",
+            "imageMd5": "F088B1D48C6D57E1F64C317AE1D8C39E",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990329,
+              "videoUrl": "https://video.timelywise.cn/knowledge/video/571009A4D66686497CB9FD682F95C957.mp4?auth_key=1776432003-9adpld6q3yrk-0-a2c5251e3604807d5b7471e8c21bf62e",
+              "videoKey": "knowledge/video/571009A4D66686497CB9FD682F95C957.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 3.88,
+              "md5": "571009A4D66686497CB9FD682F95C957",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/F088B1D48C6D57E1F64C317AE1D8C39E.webp?auth_key=1776432003-xx8wjaz9uwz0-0-6b5f3a38abfc037396c2765ee4a270dd",
+              "firstFrameKey": "knowledge/semantic/F088B1D48C6D57E1F64C317AE1D8C39E.webp",
+              "firstFrameMd5": "F088B1D48C6D57E1F64C317AE1D8C39E",
+              "ass": "Dialogue: 0,0:00:00.00,0:00:03.86,Default,,0,0,0,,{\\k73}Shh,{\\k92}don’t{\\k129}disturb{\\k92}them.",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.00,0:00:03.86,Default,,0,0,0,,嘘，别打扰他们。"
+                }
+              ]
+            }
+          }
+        ],
+        "config": {
+          "uid": 1193,
+          "stemDisplay": "TEXT",
+          "optionDisplay": "IMAGE",
+          "preTeaching": false,
+          "stemAudio": true,
+          "optionAudio": true,
+          "questionAudio": null,
+          "inputMode": null,
+          "highlight": null,
+          "followSentence": null,
+          "breakdownLevel": null,
+          "optionCount": null,
+          "errorCount": null
+        },
+        "guide": [
+          {
+            "lang": "en",
+            "text": "Listen to the word, then drag it to the matching picture. Tap to hear the word or picture again."
+          },
+          {
+            "lang": "zh",
+            "text": "听单词发音，将其拖到对应的图片上。可点击再次听单词或图片发音。"
+          }
+        ],
+        "estimatedTime": 36.0,
+        "status": "LEARNED",
+        "correct": true,
+        "duration": 54.0,
+        "result": "pass",
+        "access": "NORMAL"
+      },
+      {
+        "uid": 73403,
+        "type": "IMMERSIVE_CHAIN",
+        "purpose": "LEARN",
+        "contentList": [
+          {
+            "uid": 153879,
+            "type": "EN_SENTENCE",
+            "semanticId": 731053
+          },
+          {
+            "uid": 153880,
+            "type": "EN_SENTENCE",
+            "semanticId": 731054
+          },
+          {
+            "uid": 153881,
+            "type": "EN_SENTENCE",
+            "semanticId": 731055
+          },
+          {
+            "uid": 153878,
+            "type": "EN_SENTENCE",
+            "semanticId": 731052
+          }
+        ],
+        "stems": [
+          {
+            "text": "The boys are playing.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "男孩们正在玩耍。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/3F32E8D8C854E93970760C36337F34BE.mp3?auth_key=1776432003-gjhpzg8cmgl7-0-884a58303164d06b39530eac719c0920",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/60D312077E257669FD27593EB0264389.webp?auth_key=1776432003-9j0lbvz2k51t-0-433f794ce85c7842d2a38a2f980e828f",
+            "imageKey": "knowledge/semantic/60D312077E257669FD27593EB0264389.webp",
+            "imageMd5": "60D312077E257669FD27593EB0264389",
+            "video": {
+              "styleId": 10,
+              "videoId": 1942311,
+              "videoUrl": "https://video.timelywise.cn/video/generated/13BC434EC2A5142DF673F3A0E93C5D65.mp4?auth_key=1776432003-48wcy49rz3gt-0-67ec6ecbbb1f97ba1b5ae04d321518d1",
+              "videoKey": "video/generated/13BC434EC2A5142DF673F3A0E93C5D65.mp4",
+              "duration": 5.16,
+              "startSeconds": 0.82,
+              "endSeconds": 5.16,
+              "md5": "13BC434EC2A5142DF673F3A0E93C5D65",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/60D312077E257669FD27593EB0264389.webp?auth_key=1776432003-9j0lbvz2k51t-0-433f794ce85c7842d2a38a2f980e828f",
+              "firstFrameKey": "knowledge/semantic/60D312077E257669FD27593EB0264389.webp",
+              "firstFrameMd5": "60D312077E257669FD27593EB0264389",
+              "ass": "Dialogue: 0,0:00:00.94,0:00:01.82,Default,,0,0,0,,{\\k33}Here{\\k14}you{\\k41}go!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.94,0:00:01.82,Default,,0,0,0,,给你！"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The boys are drinking.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "男孩们正在喝水。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/61BA7ED7C885587887896FA7333BA4DA.mp3?auth_key=1776432003-htvzgejs1ps1-0-c310d1f3449c37030df44acfada2da54",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/CDFBEFD0CDCDBA98B43F242E132FBD01.webp?auth_key=1776432003-xb4u3u2nkw9e-0-8371beb926be61ea529e2c1826b5d1c1",
+            "imageKey": "knowledge/semantic/CDFBEFD0CDCDBA98B43F242E132FBD01.webp",
+            "imageMd5": "CDFBEFD0CDCDBA98B43F242E132FBD01",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990319,
+              "videoUrl": "https://video.timelywise.cn/knowledge/video/6585D22E5C7F19386F7D2421D01C4E72.mp4?auth_key=1776432003-w1tbtceks0t6-0-127671930739512e4b576afb93749dc5",
+              "videoKey": "knowledge/video/6585D22E5C7F19386F7D2421D01C4E72.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 3.46,
+              "md5": "6585D22E5C7F19386F7D2421D01C4E72",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/CDFBEFD0CDCDBA98B43F242E132FBD01.webp?auth_key=1776432003-xb4u3u2nkw9e-0-8371beb926be61ea529e2c1826b5d1c1",
+              "firstFrameKey": "knowledge/semantic/CDFBEFD0CDCDBA98B43F242E132FBD01.webp",
+              "firstFrameMd5": "CDFBEFD0CDCDBA98B43F242E132FBD01",
+              "ass": "Dialogue: 0,0:00:01.97,0:00:03.45,Default,,0,0,0,,{\\k23}Game{\\k30}over,{\\k39}water{\\k56}first!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:01.97,0:00:03.45,Default,,0,0,0,,游戏结束，先喝水！"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The boys are eating.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "男孩们正在吃东西。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/FC86A60187D6AF6EC8F4AAD260C8DBB1.mp3?auth_key=1776432003-9nmx3nlyds03-0-ba6c47d9963ead24c9dd0224aee82356",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/206912D663D23D81BE9DB6070CF1ACA3.webp?auth_key=1776432003-cczxj1fusjy4-0-3394ac579874aacbe1c1bf3d52a909c5",
+            "imageKey": "knowledge/semantic/206912D663D23D81BE9DB6070CF1ACA3.webp",
+            "imageMd5": "206912D663D23D81BE9DB6070CF1ACA3",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990314,
+              "videoUrl": "https://video.timelywise.cn/video/audio_enhanced/413FB11C9A4303F409B738B3DCA7D499.mp4?auth_key=1776432003-lgdtwxgke1v1-0-2244e660f3a526d24bed41cb2a0407d9",
+              "videoKey": "video/audio_enhanced/413FB11C9A4303F409B738B3DCA7D499.mp4",
+              "duration": 3.9,
+              "startSeconds": 0.0,
+              "endSeconds": 3.88,
+              "md5": "413FB11C9A4303F409B738B3DCA7D499",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/206912D663D23D81BE9DB6070CF1ACA3.webp?auth_key=1776432003-cczxj1fusjy4-0-3394ac579874aacbe1c1bf3d52a909c5",
+              "firstFrameKey": "knowledge/semantic/206912D663D23D81BE9DB6070CF1ACA3.webp",
+              "firstFrameMd5": "206912D663D23D81BE9DB6070CF1ACA3",
+              "ass": "Dialogue: 0,0:00:01.30,0:00:03.81,Default,,0,0,0,,{\\k127}Mmm,{\\k53}so{\\k71}good!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:01.30,0:00:03.81,Default,,0,0,0,,嗯，真好吃！"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The boys are sleeping.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "男孩们正在睡觉。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/F4FB3893C9A8028D7D3BD814E3E160F6.mp3?auth_key=1776432003-f6vmh1k1h6mr-0-429d3ffc813a6623ebc749dd205fbc30",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/F088B1D48C6D57E1F64C317AE1D8C39E.webp?auth_key=1776432003-xx8wjaz9uwz0-0-6b5f3a38abfc037396c2765ee4a270dd",
+            "imageKey": "knowledge/semantic/F088B1D48C6D57E1F64C317AE1D8C39E.webp",
+            "imageMd5": "F088B1D48C6D57E1F64C317AE1D8C39E",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990329,
+              "videoUrl": "https://video.timelywise.cn/knowledge/video/571009A4D66686497CB9FD682F95C957.mp4?auth_key=1776432003-9adpld6q3yrk-0-a2c5251e3604807d5b7471e8c21bf62e",
+              "videoKey": "knowledge/video/571009A4D66686497CB9FD682F95C957.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 3.88,
+              "md5": "571009A4D66686497CB9FD682F95C957",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/F088B1D48C6D57E1F64C317AE1D8C39E.webp?auth_key=1776432003-xx8wjaz9uwz0-0-6b5f3a38abfc037396c2765ee4a270dd",
+              "firstFrameKey": "knowledge/semantic/F088B1D48C6D57E1F64C317AE1D8C39E.webp",
+              "firstFrameMd5": "F088B1D48C6D57E1F64C317AE1D8C39E",
+              "ass": "Dialogue: 0,0:00:00.00,0:00:03.86,Default,,0,0,0,,{\\k73}Shh,{\\k92}don’t{\\k129}disturb{\\k92}them.",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.00,0:00:03.86,Default,,0,0,0,,嘘，别打扰他们。"
+                }
+              ]
+            }
+          }
+        ],
+        "config": {
+          "uid": 1218,
+          "stemDisplay": "AUDIO",
+          "optionDisplay": "IMAGE",
+          "preTeaching": false,
+          "stemAudio": true,
+          "optionAudio": true,
+          "questionAudio": null,
+          "inputMode": null,
+          "highlight": null,
+          "followSentence": null,
+          "breakdownLevel": null,
+          "optionCount": null,
+          "errorCount": null
+        },
+        "guide": [
+          {
+            "lang": "en",
+            "text": "Listen to the sound and drag it to the matching picture. Tap to hear the sound again."
+          },
+          {
+            "lang": "zh",
+            "text": "听声音并将其拖到对应的图片上。可点击再次听声音。"
+          }
+        ],
+        "estimatedTime": 35.0,
+        "status": "LEARNED",
+        "correct": true,
+        "duration": 100.0,
+        "result": "pass",
+        "access": "NORMAL"
+      },
+      {
+        "uid": 73503,
+        "type": "IMMERSIVE_CHAIN",
+        "purpose": "LEARN",
+        "contentList": [
+          {
+            "uid": 153882,
+            "type": "EN_SENTENCE",
+            "semanticId": 731056
+          },
+          {
+            "uid": 153871,
+            "type": "EN_SENTENCE",
+            "semanticId": 731045
+          },
+          {
+            "uid": 153880,
+            "type": "EN_SENTENCE",
+            "semanticId": 731054
+          },
+          {
+            "uid": 153877,
+            "type": "EN_SENTENCE",
+            "semanticId": 731051
+          }
+        ],
+        "stems": [
+          {
+            "text": "The boys are playing.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "男孩们正在玩耍。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/3F32E8D8C854E93970760C36337F34BE.mp3?auth_key=1776432003-gjhpzg8cmgl7-0-884a58303164d06b39530eac719c0920",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/60D312077E257669FD27593EB0264389.webp?auth_key=1776432003-9j0lbvz2k51t-0-433f794ce85c7842d2a38a2f980e828f",
+            "imageKey": "knowledge/semantic/60D312077E257669FD27593EB0264389.webp",
+            "imageMd5": "60D312077E257669FD27593EB0264389",
+            "video": {
+              "styleId": 10,
+              "videoId": 1942311,
+              "videoUrl": "https://video.timelywise.cn/video/generated/13BC434EC2A5142DF673F3A0E93C5D65.mp4?auth_key=1776432003-48wcy49rz3gt-0-67ec6ecbbb1f97ba1b5ae04d321518d1",
+              "videoKey": "video/generated/13BC434EC2A5142DF673F3A0E93C5D65.mp4",
+              "duration": 5.16,
+              "startSeconds": 0.82,
+              "endSeconds": 5.16,
+              "md5": "13BC434EC2A5142DF673F3A0E93C5D65",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/60D312077E257669FD27593EB0264389.webp?auth_key=1776432003-9j0lbvz2k51t-0-433f794ce85c7842d2a38a2f980e828f",
+              "firstFrameKey": "knowledge/semantic/60D312077E257669FD27593EB0264389.webp",
+              "firstFrameMd5": "60D312077E257669FD27593EB0264389",
+              "ass": "Dialogue: 0,0:00:00.94,0:00:01.82,Default,,0,0,0,,{\\k33}Here{\\k14}you{\\k41}go!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.94,0:00:01.82,Default,,0,0,0,,给你！"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The girl is sleeping.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "女孩正在睡觉。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/2888CBBFE16BEAC60A95FFD25FD5E952.mp3?auth_key=1776432003-xzz3gd30n8xw-0-936b25880c85d1ac1a18b85ebb6d6833",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/77925C158E4566E9758F5C55885D62E2.webp?auth_key=1776432003-rnxn9b861rws-0-9e3ec77aefc489deb6a7e612a805de50",
+            "imageKey": "knowledge/semantic/77925C158E4566E9758F5C55885D62E2.webp",
+            "imageMd5": "77925C158E4566E9758F5C55885D62E2",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990310,
+              "videoUrl": "https://video.timelywise.cn/knowledge/video/19E6722FF23369F977E82FBEEE5D8704.mp4?auth_key=1776432003-7xncanfy7x1q-0-99a5c5a2c2cac0b24e25dcc757dc2553",
+              "videoKey": "knowledge/video/19E6722FF23369F977E82FBEEE5D8704.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 3.88,
+              "md5": "19E6722FF23369F977E82FBEEE5D8704",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/77925C158E4566E9758F5C55885D62E2.webp?auth_key=1776432003-rnxn9b861rws-0-9e3ec77aefc489deb6a7e612a805de50",
+              "firstFrameKey": "knowledge/semantic/77925C158E4566E9758F5C55885D62E2.webp",
+              "firstFrameMd5": "77925C158E4566E9758F5C55885D62E2",
+              "ass": "Dialogue: 0,0:00:00.21,0:00:03.23,Default,,0,0,0,,{\\k35}She{\\k64}sleeps{\\k64}so{\\k136}quietly!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.21,0:00:03.23,Default,,0,0,0,,她睡得好安静啊！"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The girls are eating.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "女孩们正在吃东西。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/C4EBA6620567A5E90CE280A470A093CB.mp3?auth_key=1776432003-lv5wlc3fz13w-0-f34da18d2efefde6beb541c68a41f68c",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/28EDD94FBD252E3D47004789E0D520F9.webp?auth_key=1776432003-hzumpwy5lkqk-0-b30c9017500051bd5158c4cb9220b7b4",
+            "imageKey": "knowledge/semantic/28EDD94FBD252E3D47004789E0D520F9.webp",
+            "imageMd5": "28EDD94FBD252E3D47004789E0D520F9",
+            "video": {
+              "styleId": 10,
+              "videoId": 1786892,
+              "videoUrl": "https://video.timelywise.cn/video/generated/676F65E8A5F4AA2DD3F95FE7CA9DCB70.mp4?auth_key=1776432003-9medhszrwuxd-0-a0cc963e8a0b78dd17fa396b17763ec5",
+              "videoKey": "video/generated/676F65E8A5F4AA2DD3F95FE7CA9DCB70.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 1.43,
+              "md5": "676F65E8A5F4AA2DD3F95FE7CA9DCB70",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/28EDD94FBD252E3D47004789E0D520F9.webp?auth_key=1776432003-hzumpwy5lkqk-0-b30c9017500051bd5158c4cb9220b7b4",
+              "firstFrameKey": "knowledge/semantic/28EDD94FBD252E3D47004789E0D520F9.webp",
+              "firstFrameMd5": "28EDD94FBD252E3D47004789E0D520F9",
+              "ass": "Dialogue: 0,0:00:00.00,0:00:03.86,Default,,0,0,0,,{\\k386}Yum!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.00,0:00:03.86,Default,,0,0,0,,真好吃！"
+                }
+              ]
+            }
+          },
+          {
+            "text": "The boy is drinking.",
+            "gloss": [
+              {
+                "lang": "zh",
+                "text": "这个男孩正在喝水。"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/E518E73CE17F764549656126CC4D0F5D.mp3?auth_key=1776432003-m4q37kq9nnlm-0-b84bbba8f6a4149f2c879e390a5c93a7",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/1D03C8BB57CFBDD5D7D0946FC96C7D54.webp?auth_key=1776432003-j90067h6qgd2-0-e6fc6d3dc3519b58c069dab450a9dabe",
+            "imageKey": "knowledge/semantic/1D03C8BB57CFBDD5D7D0946FC96C7D54.webp",
+            "imageMd5": "1D03C8BB57CFBDD5D7D0946FC96C7D54",
+            "video": {
+              "styleId": 10,
+              "videoId": 1990411,
+              "videoUrl": "https://video.timelywise.cn/knowledge/video/B66028C375A0275D49FF9D8607BE8C30.mp4?auth_key=1776432003-sb0mkghdalbk-0-3e7ea7779b4b534b05df2a44674b8108",
+              "videoKey": "knowledge/video/B66028C375A0275D49FF9D8607BE8C30.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 3.47,
+              "md5": "B66028C375A0275D49FF9D8607BE8C30",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/1D03C8BB57CFBDD5D7D0946FC96C7D54.webp?auth_key=1776432003-j90067h6qgd2-0-e6fc6d3dc3519b58c069dab450a9dabe",
+              "firstFrameKey": "knowledge/semantic/1D03C8BB57CFBDD5D7D0946FC96C7D54.webp",
+              "firstFrameMd5": "1D03C8BB57CFBDD5D7D0946FC96C7D54",
+              "ass": "Dialogue:0,0:00:0.00,0:00:3.62,Default,,0,0,0,,{\\k133}Ah.{\\k10}{\\k36}.{\\k10}{\\k36}.{\\k10}{\\k1}I{\\k12}can{\\k15}have{\\k26}another{\\k75}glass!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue:0,0:00:0.00,0:00:3.62,Default,,0,0,0,,啊...我还能再来一杯！"
+                }
+              ]
+            }
+          }
+        ],
+        "config": {
+          "uid": 1218,
+          "stemDisplay": "AUDIO",
+          "optionDisplay": "IMAGE",
+          "preTeaching": false,
+          "stemAudio": true,
+          "optionAudio": true,
+          "questionAudio": null,
+          "inputMode": null,
+          "highlight": null,
+          "followSentence": null,
+          "breakdownLevel": null,
+          "optionCount": null,
+          "errorCount": null
+        },
+        "guide": [
+          {
+            "lang": "en",
+            "text": "Listen to the sound and drag it to the matching picture. Tap to hear the sound again."
+          },
+          {
+            "lang": "zh",
+            "text": "听声音并将其拖到对应的图片上。可点击再次听声音。"
+          }
+        ],
+        "estimatedTime": 33.0,
+        "status": "LEARNED",
+        "correct": true,
+        "duration": 23.0,
+        "result": "excellent",
+        "access": "NORMAL"
+      },
+      {
+        "uid": 178176,
+        "type": "IMMERSIVE_CHAIN",
+        "purpose": "LEARN",
+        "contentList": [
+          {
+            "uid": 149903,
+            "type": "EN_WORD",
+            "semanticId": 728747
+          },
+          {
+            "uid": 132653,
+            "type": "EN_WORD",
+            "semanticId": 730026
+          }
+        ],
+        "stems": [
+          {
+            "text": "playing",
+            "gloss": [
+              {
+                "lang": "en",
+                "text": "to engage in fun activities like children do"
+              },
+              {
+                "lang": "zh",
+                "text": "像孩子一样进行娱乐活动"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/9AA8DC9FACC978DF5CCA5C2A8BEB45D4.mp3?auth_key=1776432003-6fn9kemq0fu8-0-caf1caaa09eb2e55958bc958746c60ed",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/F8D442811E7F01687BBED7011DC90490.webp?auth_key=1776432003-e7jxnky52bnk-0-9ebed4e0b59b38e0bc7a9ac79ad3923e",
+            "imageKey": "knowledge/semantic/F8D442811E7F01687BBED7011DC90490.webp",
+            "imageMd5": "F8D442811E7F01687BBED7011DC90490",
+            "video": {
+              "styleId": 10,
+              "videoId": 1718568,
+              "videoUrl": "https://video.timelywise.cn/video/generated/676B30A496DE822CA2C684B692C7F0E5.mp4?auth_key=1776432003-pg12svgg09s1-0-e35947d14e516eb42d7cf69afb9b63de",
+              "videoKey": "video/generated/676B30A496DE822CA2C684B692C7F0E5.mp4",
+              "duration": 2.92,
+              "startSeconds": 0.12,
+              "endSeconds": 2.46,
+              "md5": "676B30A496DE822CA2C684B692C7F0E5",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/F8D442811E7F01687BBED7011DC90490.webp?auth_key=1776432003-e7jxnky52bnk-0-9ebed4e0b59b38e0bc7a9ac79ad3923e",
+              "firstFrameKey": "knowledge/semantic/F8D442811E7F01687BBED7011DC90490.webp",
+              "firstFrameMd5": "F8D442811E7F01687BBED7011DC90490",
+              "ass": "Dialogue:0,0:00:1.15,0:00:2.25,Default,,0,0,0,,{\\k24}Go {\\k33}go {\\k52}go!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue:0,0:00:1.15,0:00:2.25,Default,,0,0,0,,冲啊冲啊冲啊！"
+                }
+              ]
+            }
+          },
+          {
+            "text": "sleeping",
+            "gloss": [
+              {
+                "lang": "en",
+                "text": "to rest with closed eyes in an inactive state"
+              },
+              {
+                "lang": "zh",
+                "text": "闭眼时身心不活跃"
+              }
+            ],
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/08C3FB6F14F54ABBC853BEAE7DD15A95.mp3?auth_key=1776432003-hm69wyvj3cln-0-9f651576bc9359c6212978317179e416",
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/499D8496756BD922AE53D8BD9AABE8C8.webp?auth_key=1776432003-tex2lrvjanqn-0-946dba714afdb5543340086d7fab5bdd",
+            "imageKey": "knowledge/semantic/499D8496756BD922AE53D8BD9AABE8C8.webp",
+            "imageMd5": "499D8496756BD922AE53D8BD9AABE8C8",
+            "video": {
+              "styleId": 10,
+              "videoId": 1533605,
+              "videoUrl": "https://video.timelywise.cn/video/generated/7CE7C8FEEA5E4AA578C9C621A92F0A82.mp4?auth_key=1776432003-rncqjhustexy-0-a31bd0f6293b6fbaa0c5505fd70b5c45",
+              "videoKey": "video/generated/7CE7C8FEEA5E4AA578C9C621A92F0A82.mp4",
+              "duration": 2.92,
+              "startSeconds": 0.0,
+              "endSeconds": 2.92,
+              "md5": "7CE7C8FEEA5E4AA578C9C621A92F0A82",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/499D8496756BD922AE53D8BD9AABE8C8.webp?auth_key=1776432003-tex2lrvjanqn-0-946dba714afdb5543340086d7fab5bdd",
+              "firstFrameKey": "knowledge/semantic/499D8496756BD922AE53D8BD9AABE8C8.webp",
+              "firstFrameMd5": "499D8496756BD922AE53D8BD9AABE8C8"
+            }
+          }
+        ],
+        "config": {
+          "uid": 1184,
+          "stemDisplay": "IMAGE",
+          "optionDisplay": "TEXT",
+          "preTeaching": true,
+          "stemAudio": true,
+          "optionAudio": true,
+          "questionAudio": null,
+          "inputMode": null,
+          "highlight": null,
+          "followSentence": null,
+          "breakdownLevel": null,
+          "optionCount": null,
+          "errorCount": null
+        },
+        "guide": [
+          {
+            "lang": "en",
+            "text": "Drag the picture to the correct word. Listen to the sound and match. Try again if it bounces back."
+          },
+          {
+            "lang": "zh",
+            "text": "将图片拖到正确的单词上。听声音并匹配。如果弹回，请再试一次。"
+          }
+        ],
+        "estimatedTime": 16.0,
+        "status": "LEARNED",
+        "correct": true,
+        "duration": 17.0,
+        "result": "good",
+        "access": "NORMAL"
+      },
+      {
+        "uid": 907934,
+        "type": "LABEL_PICTURE",
+        "purpose": "LEARN",
+        "contentList": [
+          {
+            "uid": 106212,
+            "type": "EN_WORD",
+            "semanticId": 666381
+          },
+          {
+            "uid": 149882,
+            "type": "EN_WORD",
+            "semanticId": 666381
+          },
+          {
+            "uid": 118745,
+            "type": "EN_WORD",
+            "semanticId": 691299
+          },
+          {
+            "uid": 149883,
+            "type": "EN_WORD",
+            "semanticId": 691299
+          }
+        ],
+        "stems": [
+          {
+            "styleId": 10,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/09818AFE543F53449A9743F6AFACA2AB.webp?auth_key=1776432003-80d98yqwl9em-0-a980d3d377005ecdc7d8dec6c5590322"
+          }
+        ],
+        "options": [
+          {
+            "text": "girl",
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/41A506DBE2CE840BBC654762DC778C01.mp3?auth_key=1776432003-tqg2we5fhqux-0-3058e1a9c13ca614b0cd360048ca176f",
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/185F1500057BE1EE3C7D3114F0F41462.webp?auth_key=1776432003-34du02y5y7cx-0-dce33671414d5a2c76a6a57512414394",
+            "imageKey": "knowledge/semantic/185F1500057BE1EE3C7D3114F0F41462.webp",
+            "imageMd5": "185F1500057BE1EE3C7D3114F0F41462",
+            "video": {
+              "styleId": 10,
+              "videoId": 1998436,
+              "videoUrl": "https://video.timelywise.cn/video/generated/206CE542E198083A2D28A6477932235B.mp4?auth_key=1776432003-qxpl38x94r99-0-727f0b79ddd2572ebdd21ca582440c43",
+              "videoKey": "video/generated/206CE542E198083A2D28A6477932235B.mp4",
+              "duration": 2.92,
+              "startSeconds": 0.0,
+              "endSeconds": 2.92,
+              "md5": "206CE542E198083A2D28A6477932235B",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/185F1500057BE1EE3C7D3114F0F41462.webp?auth_key=1776432003-34du02y5y7cx-0-dce33671414d5a2c76a6a57512414394",
+              "firstFrameKey": "knowledge/semantic/185F1500057BE1EE3C7D3114F0F41462.webp",
+              "firstFrameMd5": "185F1500057BE1EE3C7D3114F0F41462",
+              "ass": "Dialogue:0,0:00:0.00,0:00:2.62,Default,,0,0,0,,{\\k137}Hello!{\\k10}{\\k5}Do{\\k6}you{\\k16}want{\\k6}to{\\k28}play{\\k19}with{\\k34}me?",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue:0,0:00:0.00,0:00:2.62,Default,,0,0,0,,你好！想不想和我一起玩呀？"
+                }
+              ]
+            },
+            "boxs": [
+              0.01,
+              0.49766646241830065,
+              0.38097500742721324,
+              0.4923335375816993
+            ]
+          },
+          {
+            "text": "boys",
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/593B40DB808157F11A6E5B6CDA40726C.mp3?auth_key=1776432003-n3kadbz324xn-0-303260619cf2ee5b6235b060f2278033",
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/BFFB99A8456C65EBF54D45B24B9A6366.webp?auth_key=1776432003-x1mbjflknp91-0-ed81b81ad3fbc845bb9453dc07441aa6",
+            "imageKey": "knowledge/semantic/BFFB99A8456C65EBF54D45B24B9A6366.webp",
+            "imageMd5": "BFFB99A8456C65EBF54D45B24B9A6366",
+            "video": {
+              "styleId": 10,
+              "videoId": 1989805,
+              "videoUrl": "https://video.timelywise.cn/video/generated/FD6AA02B2539B0ABC1E5CDF956101B50.mp4?auth_key=1776432003-l48xa45hby7n-0-7eafa8cf63ffdded103deaf3c1789de5",
+              "videoKey": "video/generated/FD6AA02B2539B0ABC1E5CDF956101B50.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 1.62,
+              "md5": "FD6AA02B2539B0ABC1E5CDF956101B50",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/BFFB99A8456C65EBF54D45B24B9A6366.webp?auth_key=1776432003-x1mbjflknp91-0-ed81b81ad3fbc845bb9453dc07441aa6",
+              "firstFrameKey": "knowledge/semantic/BFFB99A8456C65EBF54D45B24B9A6366.webp",
+              "firstFrameMd5": "BFFB99A8456C65EBF54D45B24B9A6366",
+              "ass": "Dialogue: 0,0:00:00.23,0:00:01.71,Default,,0,0,0,,{\\k41}Let's{\\k26}go,{\\k75}guys.",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.23,0:00:01.71,Default,,0,0,0,,咱们出发吧，伙伴们。"
+                }
+              ]
+            },
+            "boxs": [
+              0.3910995989304813,
+              0.00002896613190730895,
+              0.6070709855912061,
+              0.49778371954842543
+            ]
+          },
+          {
+            "text": "boy",
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/2849D10A70BDF200ED274A7BF0D6DAC8.mp3?auth_key=1776432003-5qyj6p1trjxm-0-29318fdb2c98e553705e8b98ee8caff2",
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/1B066CACD773FD2609485B2D88C514A0.webp?auth_key=1776432003-zn8p3ccztr7q-0-60ed62ee4be3d5419b0dc445da33315b",
+            "imageKey": "knowledge/semantic/1B066CACD773FD2609485B2D88C514A0.webp",
+            "imageMd5": "1B066CACD773FD2609485B2D88C514A0",
+            "video": {
+              "styleId": 10,
+              "videoId": 1998477,
+              "videoUrl": "https://video.timelywise.cn/knowledge/video/CD81D1575B139C8BE5B8077BE583EC24.mp4?auth_key=1776432003-9evv14hhrwcd-0-a3638974ed06396f420f9bc2db8bb5b1",
+              "videoKey": "knowledge/video/CD81D1575B139C8BE5B8077BE583EC24.mp4",
+              "duration": 3.88,
+              "startSeconds": 0.0,
+              "endSeconds": 3.88,
+              "md5": "CD81D1575B139C8BE5B8077BE583EC24",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/1B066CACD773FD2609485B2D88C514A0.webp?auth_key=1776432003-zn8p3ccztr7q-0-60ed62ee4be3d5419b0dc445da33315b",
+              "firstFrameKey": "knowledge/semantic/1B066CACD773FD2609485B2D88C514A0.webp",
+              "firstFrameMd5": "1B066CACD773FD2609485B2D88C514A0",
+              "ass": "Dialogue: 0,0:00:00.00,0:00:01.75,Default,,0,0,0,,{\\k175}Hi!\nDialogue: 0,0:00:01.85,0:00:03.23,Default,,0,0,0,,{\\k28}Look{\\k6}at{\\k14}my{\\k22}new{\\k68}toy!",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.00,0:00:01.75,Default,,0,0,0,,嗨！\nDialogue: 0,0:00:01.85,0:00:03.23,Default,,0,0,0,,快看我的新玩具！"
+                }
+              ]
+            },
+            "boxs": [
+              0.007821319815805083,
+              0.006885490938799776,
+              0.3777921680035651,
+              0.48374832887700536
+            ]
+          },
+          {
+            "text": "girls",
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/061D032FDA8CBD4BD5C940DCAFFE7D3C.mp3?auth_key=1776432003-4588aldc7z27-0-82d9d84213a2f4aaca08e3aecdeabb99",
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/F4D018000A06C01BA52BAA5D0F6F3391.webp?auth_key=1776432003-r1vz40zmbh03-0-ec421745d54b2818d61e8e13f8472f45",
+            "imageKey": "knowledge/semantic/F4D018000A06C01BA52BAA5D0F6F3391.webp",
+            "imageMd5": "F4D018000A06C01BA52BAA5D0F6F3391",
+            "video": {
+              "styleId": 10,
+              "videoId": 1989889,
+              "videoUrl": "https://video.timelywise.cn/video/generated/B12C59BBB9D7F093CA5E243B80287674.mp4?auth_key=1776432003-u25k4atqassy-0-d1793a5547b21af584b373058a7f6bd9",
+              "videoKey": "video/generated/B12C59BBB9D7F093CA5E243B80287674.mp4",
+              "duration": 2.92,
+              "startSeconds": 0.0,
+              "endSeconds": 2.03,
+              "md5": "B12C59BBB9D7F093CA5E243B80287674",
+              "isMute": false,
+              "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/F4D018000A06C01BA52BAA5D0F6F3391.webp?auth_key=1776432003-r1vz40zmbh03-0-ec421745d54b2818d61e8e13f8472f45",
+              "firstFrameKey": "knowledge/semantic/F4D018000A06C01BA52BAA5D0F6F3391.webp",
+              "firstFrameMd5": "F4D018000A06C01BA52BAA5D0F6F3391",
+              "ass": "Dialogue: 0,0:00:00.00,0:00:02.34,Default,,0,0,0,,{\\k43}Sharing{\\k43}all{\\k18}our{\\k25}little{\\k105}secrets.",
+              "translateAss": [
+                {
+                  "lang": "zh",
+                  "text": "Dialogue: 0,0:00:00.00,0:00:02.34,Default,,0,0,0,,分享我们之间所有的小秘密。"
+                }
+              ]
+            },
+            "boxs": [
+              0.3889487707961972,
+              0.5035641339869281,
+              0.5930258467023173,
+              0.4818752785204991
+            ]
+          }
+        ],
+        "config": {
+          "uid": 1201,
+          "stemDisplay": "IMAGE",
+          "optionDisplay": "TEXT",
+          "preTeaching": null,
+          "stemAudio": true,
+          "optionAudio": true,
+          "questionAudio": null,
+          "inputMode": null,
+          "highlight": null,
+          "followSentence": null,
+          "breakdownLevel": null,
+          "optionCount": 2,
+          "errorCount": null
+        },
+        "guide": [
+          {
+            "lang": "en",
+            "text": "Listen to the scene description, then drag the words to match the correct objects in the picture. Tap the words to hear them again."
+          },
+          {
+            "lang": "zh",
+            "text": "听场景描述，然后将词语拖拽到图片中对应的物体上。可点击词语再次听发音。"
+          }
+        ],
+        "estimatedTime": 12.841,
+        "status": "UNLEARNED",
+        "access": "NORMAL"
+      }
+    ]
+  }
+}

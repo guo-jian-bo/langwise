@@ -1,0 +1,410 @@
+
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+
+import '../../../../../../common/entities/entities.dart';
+import '../../../../../../common/enum/enum.dart';
+import '../../../../../../common/https/https.dart';
+import '../../../../../../common/widgets/widgets.dart';
+import '../../../../../../theme/theme.dart';
+import '../../../../../../utils/utils.dart';
+import '../../../../../routes/routes.dart';
+import '../../../controllers/manage_setting_controller.dart';
+import '../../../dialog/dialogs.dart';
+import '../../../enums/enums.dart';
+import '../../../models/manage_english_content_management_sentence_model.dart';
+import '../../../models/models.dart';
+import '../../../utils/utils.dart';
+
+class ManageSentenceController extends GetxController with ManageBreadcrumbMixin {
+  final String tag;
+  ManageSentenceController({required this.tag});
+
+  @override
+  String get breadcrumbRoute => Routes.MANAGE_SENTENCE;
+
+  @override
+  String get breadcrumbTitle => '句子';
+
+  final String languageCode = "en";
+
+  final RxMap<String, FilterConditionData> filterConditionDatas = <String, FilterConditionData>{
+    "in_course": FilterConditionData(
+      title: "课程归属",
+      isSingle: true,
+      conditions: [
+        FilterConditionItem(
+          name: CourseAffiliationEnum.inCourse.name,
+          value: true,
+          color: const Color(0xff818CF8),
+        ),
+        FilterConditionItem(
+          name: CourseAffiliationEnum.notInCourse.name,
+          value: false,
+          color: const Color(0xff818CF8),
+        ),
+      ],
+    ),
+    "published": FilterConditionData(
+      title: "发布状态",
+      isSingle: true,
+      conditions: [
+        FilterConditionItem(
+          name: ReleaseStatusEnum.PUBLISHED.name,
+          value: true,
+          color: const Color(0xffF97316),
+        ),
+        FilterConditionItem(
+          name: ReleaseStatusEnum.UNPUBLISHED.name,
+          value: false,
+          color: const Color(0xffF97316),
+        ),
+      ],
+    ),
+    "locked": FilterConditionData(
+      title: "定稿状态",
+      isSingle: true,
+      conditions: [
+        FilterConditionItem(
+          name: "定稿",
+          value: true,
+          color: const Color(0xffF97316),
+        ),
+        FilterConditionItem(
+          name: "未定稿",
+          value: false,
+          color: const Color(0xffF97316),
+        ),
+      ],
+    ),
+    "checked": FilterConditionData(
+      title: "审核状态",
+      isSingle: true,
+      conditions: [
+        FilterConditionItem(
+          name: "已审核",
+          value: true,
+          color: AppTheme.cSurfaceSuccess.color,
+        ),
+        FilterConditionItem(
+          name: "未审核",
+          value: false,
+          color: AppTheme.cSurfaceError.color,
+        ),
+      ],
+    ),
+    "order": FilterConditionData(
+      title: "排序",
+      isSingle: true,
+      crossAxisCount: 4,
+      conditions: [
+        FilterConditionItem(
+          name: "课程数量降序",
+          value: "-in_course_cnt",
+          color: AppTheme.cTextBrand.color,
+          selected: true
+        ),
+        FilterConditionItem(
+          name: "课程数量升序",
+          value: "in_course_cnt",
+          color: AppTheme.cTextBrand.color,
+        ),
+        FilterConditionItem(
+          name: "uid降序",
+          value: "-uid",
+          color: AppTheme.cTextBrand.color,
+        ),
+        FilterConditionItem(
+          name: "uid升序",
+          value: "uid",
+          color: AppTheme.cTextBrand.color,
+        ),
+      ],
+    ),
+  }.obs;
+
+  final Map<String, FilterInputData> filterInputDatas = {
+    "uid": FilterInputData(
+      hintText: "uid",
+      controller: TextEditingController(),
+    ),
+    "content": FilterInputData(
+      hintText: "名字",
+      controller: TextEditingController(),
+    ),
+  };
+
+  final RxList<ManageExpandModel<EnKnowledgeEntity>> knowledgeList = <ManageExpandModel<EnKnowledgeEntity>>[].obs;
+  final RxInt totalCount = 0.obs;
+  int offset = 0;
+  int limit = 20;
+  final PagerController pagerController = PagerController();
+
+
+  @override
+  void onInit() {
+    super.onInit();
+    initBreadcrumb(tag);
+    if (Get.arguments != null) {
+      int? uid = Get.arguments["uid"];
+      filterInputDatas['uid']?.controller.text = uid.toString();
+    }
+
+    getKnowledgeList();
+  }
+
+  /// 筛选-改变
+  void changeFilterConditionData(Map<String, FilterConditionData> datas) {
+    filterConditionDatas.value = datas;
+    filterConditionDatas.refresh();
+    pagerController.jumpToPage(1);
+  }
+
+  /// 搜索提交
+  void searchSubmitted() {
+    pagerController.jumpToPage(1);
+  }
+
+  /// 分页器回调
+  void pagerCallback(int page, int pageSize) {
+    offset = (page - 1) * pageSize;
+    limit = pageSize;
+    getKnowledgeList();
+  }
+
+  Future<void> getKnowledgeList() async {
+    try {
+      
+      ToastUtils.showLoading();
+
+      Map<String, dynamic> parameters = {
+        "offset": offset,
+        "limit": limit,
+      };
+
+      List<FilterConditionItem>? filterResolved = FilterDialog.getFilterData(key: "order", filterConditionData: filterConditionDatas);
+      if(filterResolved != null && filterResolved.isNotEmpty){
+        parameters['order'] = filterResolved.first.value;  
+      }
+
+      Map<String, dynamic> data = {
+        "mediaMode": ManageSettingController.to.defaultResources.value == ResourceTypeEnum.image ? 0 : 1,
+      };
+
+      List<FilterConditionItem>? filterResolved2 = FilterDialog.getFilterData(key: "in_course", filterConditionData: filterConditionDatas);
+      if(filterResolved2 != null && filterResolved2.isNotEmpty){
+        data['in_course'] = filterResolved2.first.value;  
+      }
+
+      List<FilterConditionItem>? filterResolved3 = FilterDialog.getFilterData(key: "published", filterConditionData: filterConditionDatas);
+      if(filterResolved3 != null && filterResolved3.isNotEmpty){
+        data['published'] = filterResolved3.first.value;  
+      }
+
+      List<FilterConditionItem>? filterResolved6 = FilterDialog.getFilterData(key: "locked", filterConditionData: filterConditionDatas);
+      if(filterResolved6 != null && filterResolved6.isNotEmpty){
+        data['locked'] = filterResolved6.first.value;
+      }
+
+      List<FilterConditionItem>? filterResolved7 = FilterDialog.getFilterData(key: "checked", filterConditionData: filterConditionDatas);
+      if(filterResolved7 != null && filterResolved7.isNotEmpty){
+        data['checked'] = filterResolved7.first.value;
+      }
+
+
+      String? searchStr = FilterDialog.getSearchStr(key: "uid", filterInputDatas: filterInputDatas);
+      List<int>? uids = FilterDialog.stringToIntList(searchStr);
+      if(uids != null){
+        data['uid'] = uids;
+      }
+
+      String? contentStr = FilterDialog.getSearchStr(key: "content", filterInputDatas: filterInputDatas);
+      if(contentStr != null){
+        data['content'] = contentStr;
+      }
+
+      int? styleId = await ManageSettingController.to.getDefaultStyleId();
+      if(styleId != null){
+        data['styleId'] = styleId;
+      }
+
+      ListResponseEntity<EnKnowledgeEntity>? response = await LanguageConsoleRequest.getEnSentenceKnowledgeList(
+        parameters: parameters,
+        data: data,
+      );
+      if(response == null) return;
+      totalCount.value = response.count??0;
+
+      List<EnKnowledgeEntity>? datas = response.datas;
+      if(datas == null) return;
+
+      knowledgeList.clear();
+      for(var e in datas){
+        var model = ManageExpandModel<EnKnowledgeEntity>(data: e);
+        knowledgeList.add(model);
+      }
+
+    } finally{
+      ToastUtils.hideLoading();
+    }
+
+  }
+
+
+  /// 删除知识点
+  Future<void> deleteKnowledge(BuildContext context, ManageExpandModel<EnKnowledgeEntity> entity) async{
+    if(entity.data.uid == null) return;
+    bool askRes = await DeleteDialog.show(
+      context: context, 
+      title: "删除",
+      subTitle: "您确定要删除这个知识点吗？",
+    );
+
+    if(!askRes) return;
+
+    try {
+      ToastUtils.showLoading();
+      bool res = await LanguageConsoleRequest.deleteSentence(entity.data.uid!);
+      if(!res) return;
+      ToastUtils.showToast(text: "删除成功", type: ToastType.success);
+      getKnowledgeList();
+    } finally{
+      ToastUtils.hideLoading();
+    }
+
+  }
+
+  Future<void> onSemanticVideo(EnKnowledgeEntity knowledge) async{
+    await ManagePageRegistry.jumpTo(
+      Routes.MANAGE_KNOWLEDGE_RELATED_DETAILS,
+      arguments: {
+        'type': knowledge.contentType,
+        'uid': knowledge.uid,
+        "quizOrImage": 2,
+      },
+    );
+
+    getKnowledgeList();
+  }
+
+  Future<void> onSemanticImage(EnKnowledgeEntity knowledge) async{
+    await ManagePageRegistry.jumpTo(
+      Routes.MANAGE_KNOWLEDGE_RELATED_DETAILS,
+      arguments: {
+        'type': knowledge.contentType,
+        'uid': knowledge.uid,
+        "quizOrImage": 1,
+      },
+    );
+
+    getKnowledgeList();
+  }
+  
+  Future<void> onSemanticExercises(EnKnowledgeEntity knowledge) async{
+    await ManagePageRegistry.jumpTo(
+      Routes.MANAGE_KNOWLEDGE_RELATED_DETAILS,
+      arguments: {
+        'type': knowledge.contentType,
+        'uid': knowledge.uid,
+        "quizOrImage": 0,
+      },
+    );
+
+    getKnowledgeList();
+  }
+
+  /// 跳转至音频管理
+  Future<void> jumpToAudioManage(EnKnowledgeEntity entity, EnKnowledgeEntityAudioExpressionList data) async{
+
+    if(!ManageAuthUtils.isAuth(ManageAuthCode.audioExpressQuery)) return;
+
+    int index = entity.audioExpressionList?.indexOf(data) ?? 0;
+
+    List<ManageEnglishContentManagementSentenceIpaAudioModel?> audios = [];
+    List<EnKnowledgeEntityAudioExpressionList?> audioExpressionList = entity.audioExpressionList??[];
+    for(var item in audioExpressionList){
+      if(item == null) continue;
+      audios.add(ManageEnglishContentManagementSentenceIpaAudioModel.fromJson(item.toJson()));
+    }
+
+    await ManagePageRegistry.jumpTo(
+      Routes.MANAGE_AUDIO_SUBTITLE_EDITOR,
+      arguments: {
+        "audioList": audios,
+        "currentAudioIndex": index,
+        "type": entity.contentType,
+      },
+    );
+
+    getKnowledgeList();
+
+  }
+
+  Future<void> showCreateSentence(BuildContext context) async{
+    ManageAddSentenceDialog.show(context: context);
+  }
+
+  Future<void> editKnowledge(BuildContext context, ManageExpandModel<EnKnowledgeEntity> entity) async{
+    EnKnowledgeEntity? res = await ManageEditSentenceManager.show(context: context, entity: entity.data);
+    if(res == null) return;
+    entity.data = res;
+    knowledgeList.refresh();
+  }
+  
+
+  Future<void> onKnowledgeCore(BuildContext context, ManageExpandModel<EnKnowledgeEntity> entity) async{
+    ManagePageRegistry.jumpTo(
+      Routes.MANAGE_CORE_KNOWLEDGE,
+      arguments: {
+        "uid": entity.data.uid,
+        "type": entity.data.contentType,
+      },
+    );
+  }
+
+  Future<void> onSemanticQuote(EnKnowledgeEntity knowledge) async{
+    await ManagePageRegistry.jumpTo(
+      Routes.MANAGE_ENGLISH_COURSE_USAGE,
+      arguments: {
+        "type": knowledge.contentType,
+        'uid': knowledge.uid,
+      },
+    );
+
+    getKnowledgeList();
+  }
+
+  Future<void> jumpToCreateHistory(BuildContext context) async{
+
+    String? contentType;
+    if(knowledgeList.isNotEmpty){
+      contentType = knowledgeList.first.data.contentType??"";
+    }
+    contentType ??= ElementsCardType.sentence.value;
+
+
+    dynamic uid = await ManagePageRegistry.jumpTo(
+      Routes.MANAGE_KNOWLEDGE_CREATE_HISTORY,
+      arguments: {
+        "contentType": contentType,
+      },
+    );
+    if(uid == null) return;
+
+    filterInputDatas['uid']?.controller.text = uid.toString();
+    pagerController.jumpToPage(1);
+
+  }
+
+
+  void toUsagePage(int uid, EnEntitySemantics item, String? contentType) {
+    ManagePageRegistry.jumpTo(
+      Routes.MANAGE_ENGLISH_COURSE_USAGE,
+      arguments: {
+        "type": contentType,
+        'uid': uid,
+        'semanticId': item.uid,
+      },
+    );
+  }
+}
