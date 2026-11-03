@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </base-config>
+
+    <!-- 仅对白名单域名放行 HTTP，避免继续全局允许明文流量。 -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">agreement.timelywise.cn</domain>
+        <domain includeSubdomains="false">api-beta-test.timelywise.cn</domain>
+        <domain includeSubdomains="false">api-demo.timelywise.cn</domain>
+        <domain includeSubdomains="false">api-lw.timelywise.cn</domain>
+        <domain includeSubdomains="false">api.stkouyu.com</domain>
+        <domain includeSubdomains="false">docs.timelywise.cn</domain>
+        <domain includeSubdomains="false">img.timelywise.cn</domain>
+        <domain includeSubdomains="false">jyric.timelywise.cn</domain>
+        <domain includeSubdomains="false">logs.timelywise.cn</domain>
+        <domain includeSubdomains="false">openpic.timelywise.cn</domain>
+        <domain includeSubdomains="false">track.timelywise.cn</domain>
+        <domain includeSubdomains="false">video.timelywise.cn</domain>
+        <domain includeSubdomains="false">version.timelywise.cn</domain>
+        <domain includeSubdomains="false">voice.timelywise.cn</domain>
+        <domain includeSubdomains="false">omni-images.oss-cn-shanghai.aliyuncs.com</domain>
+    </domain-config>
+</network-security-config>

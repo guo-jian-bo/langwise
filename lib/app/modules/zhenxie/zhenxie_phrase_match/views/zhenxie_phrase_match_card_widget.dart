@@ -1,0 +1,282 @@
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:langwise/common/values/values.dart';
+import 'package:langwise/common/widgets/widgets.dart';
+import 'package:ui_essentials/ui_essentials.dart';
+
+import '../../../../../common/entities/entities.dart';
+import '../../../../../common/public_controller/config_controller.dart';
+import '../../../../../theme/theme.dart';
+import '../../../../../utils/utils.dart';
+import '../../../management/common/commons.dart';
+
+/// 短语搭配组卡片：对齐 ui_ux React 的甄写纸面风格（衬线字体 + 纸面配色）。
+/// 结构参考句型蓝图：竖排紧凑，只排教例表层（英文 + 译义），无对照轴。
+class ZhenxiePhraseMatchCardWidget extends StatelessWidget {
+  final PhraseMatchEntity data;
+  final bool isManagement;
+  final void Function()? onTap;
+
+  const ZhenxiePhraseMatchCardWidget({
+    super.key,
+    required this.data,
+    this.onTap,
+    this.isManagement = false,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return TapScaleWidget(
+      onTap: onTap,
+      sclae: 1,
+      backColor: AppTheme.cZhenxieFontPrimary.color.withValues(alpha: 0.06),
+      borderRadius: 16.wMin,
+      child: Container(
+        padding: EdgeInsets.all(20.wMin),
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(16.wMin),
+          color: AppTheme.cZhenxieBackgroundPrimary.color,
+          border: Border.all(
+            color: AppTheme.cZhenxieBorderPrimary.color,
+            width: 1.wMin,
+          ),
+        ),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            _buildHeaderWidget(),
+            _buildTeachingWidget(),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildHeaderWidget() {
+    final name = LearningLangUtils.getLocalLang(data.name);
+    final description = LearningLangUtils.getLocalLang(data.description);
+    final int issuedCount = data.issuedCount ?? 0;
+    final int extrasCount = data.extrasCount ?? 0;
+    final String countText = _buildCountText(issuedCount: issuedCount, extrasCount: extrasCount);
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(children: [
+                    Container(
+                      height: 8.wMin,
+                      width: 8.wMin,
+                      decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                        color: const Color(0xffD9D9D9),
+                      ),
+                    ),
+                    SizedBox(width: 6.wMin),
+                    Text(
+                      data.clusterTypeNameZh ?? '',
+                      style: TextStyle(
+                        fontSize: 16.wMin,
+                        fontWeight: FontWeight.w400,
+                        color: AppTheme.cZhenxieFontTertiary.color,
+                        fontFamily: AppFontValue.sourceHanSerifCN,
+                      ),
+                    ),
+                  ]),
+                  SizedBox(height: 6.wMin),
+                  Wrap(
+                    spacing: 4.wMin,
+                    runSpacing: 4.wMin,
+                    crossAxisAlignment: WrapCrossAlignment.center,
+                    children: [
+                      Text(
+                        name?.text ?? '',
+                        style: TextStyle(
+                          fontSize: 26.wMin,
+                          fontWeight: FontWeight.w600,
+                          color: AppTheme.cZhenxieFontPrimary.color,
+                          fontFamily: AppFontValue.sourceHanSerifCN,
+                        ),
+                      ),
+                      CopyTagWidget(
+                        name: "搭配组",
+                        value: data.nid ?? '',
+                        isShow: isManagement,
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ),
+            SizedBox(width: 12.wMin),
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.end,
+              children: [
+                _buildTagWidget(tagText: _difficultyLabel()),
+                SizedBox(height: 6.wMin),
+                Text(
+                  countText,
+                  style: TextStyle(
+                    fontSize: 15.wMin,
+                    fontWeight: FontWeight.w400,
+                    color: AppTheme.cZhenxieFontSecondary.color,
+                    fontFamily: AppFontValue.sourceHanSerifCN,
+                  ),
+                ),
+              ],
+            ),
+          ],
+        ),
+        SizedBox(height: 8.wMin),
+        Text(
+          description?.text ?? '',
+          maxLines: 2,
+          overflow: TextOverflow.ellipsis,
+          style: TextStyle(
+            fontSize: 16.wMin,
+            fontWeight: FontWeight.w400,
+            color: AppTheme.cZhenxieFontSecondary.color,
+            fontFamily: AppFontValue.sourceHanSerifCN,
+            height: 1.5,
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildTeachingWidget() {
+    final List<PhraseMatchEntitySlots?> slots = data.slots ?? [];
+    if (slots.isEmpty) {
+      return const SizedBox.shrink();
+    }
+    return Container(
+      width: double.infinity,
+      margin: EdgeInsets.only(top: 16.wMin),
+      padding: EdgeInsets.only(top: 16.wMin, left: 60.wMin),
+      decoration: BoxDecoration(
+        border: Border(
+          top: BorderSide(
+            color: AppTheme.cZhenxieBorderPrimary.color,
+            width: 1.wMin,
+          ),
+        ),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        spacing: 12.wMin,
+        children: List.generate(slots.length, (index) {
+          return _buildSlotWidget(slots[index]);
+        }),
+      ),
+    );
+  }
+
+  Widget _buildSlotWidget(PhraseMatchEntitySlots? slot) {
+    final List<PhraseMatchEntitySlotsMembers?> members = slot?.members ?? [];
+    final PhraseMatchEntitySlotsMembers? member =
+        members.firstWhereOrNull((e) => e?.teaching == true) ?? (members.isNotEmpty ? members.first : null);
+    final String surface = (slot?.teachingExample?.isNotEmpty == true)
+        ? slot!.teachingExample!
+        : ((member?.surface?.isNotEmpty == true) ? member!.surface! : '待挑');
+    final bool isDim = slot?.filled == false || surface == '待挑';
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Wrap(
+          spacing: 4.wMin,
+          crossAxisAlignment: WrapCrossAlignment.center,
+          children: [
+
+            Text(
+              surface,
+              style: TextStyle(
+                fontSize: 20.wMin,
+                fontWeight: FontWeight.w500,
+                color: isDim ? AppTheme.cZhenxieFontSecondary.color : AppTheme.cZhenxieFontPrimary.color,
+                fontFamily: AppFontValue.sourceHanSerifCN,
+              ),
+            ),
+            CopyTagWidget(
+              name: "短语",
+              value: member?.phraseId?.toString() ?? '',
+              isShow: isManagement && (member?.phraseId ?? 0) > 0,
+            ),
+          ],
+        ),
+        if (member?.semanticBrief?.isNotEmpty == true) ...[
+          SizedBox(height: 2.wMin),
+          Text(
+            member!.semanticBrief!,
+            style: TextStyle(
+              fontSize: 16.wMin,
+              fontWeight: FontWeight.w400,
+              color: AppTheme.cZhenxieFontSecondary.color,
+              fontFamily: AppFontValue.sourceHanSerifCN,
+            ),
+          ),
+        ],
+      ],
+    );
+  }
+
+  String _difficultyLabel() {
+    final ConfigController configController = Get.find<ConfigController>();
+    final DifficultieEntity? min = DifficultieUtils.getLanguageDifficultieLevel(
+      configController.appConfig.value,
+      "en",
+      data.difficulty?.min,
+    );
+    final DifficultieEntity? max = DifficultieUtils.getLanguageDifficultieLevel(
+      configController.appConfig.value,
+      "en",
+      data.difficulty?.max,
+    );
+    return "${min?.name?.text ?? ''} - ${max?.name?.text ?? ''}";
+  }
+
+  String _buildCountText({required int issuedCount, required int extrasCount}) {
+    if (issuedCount <= 0 && extrasCount <= 0) return '待挑';
+    if (extrasCount <= 0) return "$issuedCount条";
+    return "$issuedCount条 · $extrasCount条补充";
+  }
+
+  Widget _buildTagWidget({
+    required String tagText,
+    Color textColor = AppTheme.cZhenxieFontTertiary,
+    Color bgColor = AppTheme.cZhenxieBackgroundPrimary,
+    Color borderColor = AppTheme.cZhenxieBorderPrimary,
+  }) {
+    return Container(
+      height: 28.wMin,
+      padding: EdgeInsets.symmetric(horizontal: 10.wMin),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(99),
+        color: bgColor,
+        border: Border.all(
+          color: borderColor.withValues(alpha: 0.2),
+          width: 0.5.wMin,
+        ),
+      ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Text(
+            tagText,
+            style: TextStyle(
+              fontSize: 16.wMin,
+              fontWeight: FontWeight.w400,
+              color: textColor,
+              fontFamily: AppFontValue.sourceHanSerifCN,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
