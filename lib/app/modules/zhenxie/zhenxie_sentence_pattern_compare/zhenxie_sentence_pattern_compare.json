@@ -1,0 +1,1005 @@
+{
+  "nid": "find_it_vs_it_be_adj",
+  "dimensionNid": "find_it_vs_it_be_adj",
+  "dimension": {
+    "nid": "find_it_vs_it_be_adj",
+    "name": [
+      {
+        "lang": "zh",
+        "text": "find it 与 it is adj to do 近义"
+      },
+      {
+        "lang": "en",
+        "text": "Find It vs It Is Adjective to Do"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "同事同场景：某人觉得做某事怎么样，对照客观评价 It is adj to do。"
+      },
+      {
+        "lang": "en",
+        "text": "Same scene: someone finds an action a certain way versus an objective It is adj to do."
+      }
+    ]
+  },
+  "transformationKindNid": "realization",
+  "transformationKind": {
+    "nid": "realization",
+    "name": [
+      {
+        "lang": "zh",
+        "text": "同一条主线可以换哪些说法"
+      },
+      {
+        "lang": "en",
+        "text": "How One Learning Path Changes Form"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "用于说明同一学习主线下，不同实现说法之间怎样切换。"
+      },
+      {
+        "lang": "en",
+        "text": "Used to show how different realizations can appear within the same learning path."
+      }
+    ]
+  },
+  "contrastTypeNid": "nuance",
+  "contrastType": {
+    "nid": "nuance",
+    "name": [
+      {
+        "lang": "zh",
+        "text": "近义有差"
+      },
+      {
+        "lang": "en",
+        "text": "Near-synonym with a taught difference"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "同事、同场景，但必须画出可教的差别（如内在/外在义务、意愿/计划）。"
+      },
+      {
+        "lang": "en",
+        "text": "Same situation, but the picture must show the taught difference (e.g. inner vs outer obligation, intention vs plan)."
+      }
+    ]
+  },
+  "name": [
+    {
+      "lang": "zh",
+      "text": "find it 和 it is adj to do 怎样对照"
+    },
+    {
+      "lang": "en",
+      "text": "Find It vs It Is Adjective to Do"
+    }
+  ],
+  "description": [
+    {
+      "lang": "zh",
+      "text": "同事同场景，对照「我觉得做某事怎么样」和客观评价 It is adj to do；图要画出主观觉得和客观评价。"
+    },
+    {
+      "lang": "en",
+      "text": "Same scene, contrasting I find it adj to do with objective It is adj to do."
+    }
+  ],
+  "memberSwitchPolicy": {
+    "mode": "replace_pattern",
+    "carry": "mapped_slots_only",
+    "unmappedSourceSlots": "drop",
+    "targetControlledSlots": "from_target_pattern"
+  },
+  "teachingEntry": {
+    "patternNid": "find_it_adj_to_inf",
+    "grammarFeatureNids": [
+      "affirmative",
+      "indicative_mood",
+      "active_voice"
+    ]
+  },
+  "teachingEntryInfo": {
+    "patternNid": "find_it_adj_to_inf",
+    "pattern": {
+      "nid": "find_it_adj_to_inf",
+      "name": [
+        {
+          "lang": "zh",
+          "text": "觉得做某事怎么样（find it + adj + to do）"
+        },
+        {
+          "lang": "en",
+          "text": "Finding It Adjective to Do Something"
+        }
+      ],
+      "description": [
+        {
+          "lang": "zh",
+          "text": "形式宾语 it：find it + 形容词 + to do，说明某人觉得做某事容易、难或重要。与客观评价 It is adj to do、find + 宾语 + 补语区分。"
+        },
+        {
+          "lang": "en",
+          "text": "Formal object it: find it + adjective + to do. Distinct from objective It is adj to do and from find + object + complement."
+        }
+      ],
+      "template": "{subject} {find_verb_marking} it {evaluative_adjective} to {evaluated_action} {context_phrase} {time_expression}."
+    },
+    "grammarFeatureNids": [
+      "affirmative",
+      "indicative_mood",
+      "active_voice"
+    ],
+    "grammarFeatures": [
+      {
+        "nid": "affirmative",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "肯定形式"
+          },
+          {
+            "lang": "en",
+            "text": "Affirmative"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "表示肯定、确认或直接陈述某事成立。"
+          },
+          {
+            "lang": "en",
+            "text": "Marks a positive statement, confirmation, or direct assertion that something holds true."
+          }
+        ]
+      },
+      {
+        "nid": "indicative_mood",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "陈述语气"
+          },
+          {
+            "lang": "en",
+            "text": "Indicative Mood"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+          },
+          {
+            "lang": "en",
+            "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+          }
+        ]
+      },
+      {
+        "nid": "active_voice",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "主动语态"
+          },
+          {
+            "lang": "en",
+            "text": "Active Voice"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+          },
+          {
+            "lang": "en",
+            "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+          }
+        ]
+      }
+    ]
+  },
+  "paradigmSlots": [
+    {
+      "slotKey": "adjective",
+      "required": true,
+      "slotRole": "semantic_carry"
+    },
+    {
+      "slotKey": "action",
+      "required": true,
+      "slotRole": "semantic_carry"
+    }
+  ],
+  "members": [
+    {
+      "valueNid": "find_it",
+      "realization": {
+        "patternNid": "find_it_adj_to_inf",
+        "grammarFeatureNids": [
+          "affirmative",
+          "indicative_mood",
+          "active_voice"
+        ]
+      },
+      "teachingExample": "I find it easy to make tea.",
+      "activeParadigmSlotKeys": [
+        "adjective",
+        "action"
+      ],
+      "slotMappings": [
+        {
+          "paradigmSlotKey": "adjective",
+          "patternSlotKey": "evaluative_adjective"
+        },
+        {
+          "paradigmSlotKey": "action",
+          "patternSlotKey": "evaluated_action"
+        }
+      ],
+      "controlledSlotKeys": [
+        "find_verb"
+      ],
+      "contrastFocus": {
+        "patternSlotKeys": [
+          "find_verb"
+        ],
+        "templateLiterals": [
+          "it"
+        ]
+      }
+    },
+    {
+      "valueNid": "it_be_adj",
+      "realization": {
+        "patternNid": "it_be_adj_to_inf",
+        "grammarFeatureNids": [
+          "affirmative",
+          "indicative_mood",
+          "active_voice"
+        ]
+      },
+      "teachingExample": "It is easy to make tea.",
+      "activeParadigmSlotKeys": [
+        "adjective",
+        "action"
+      ],
+      "slotMappings": [
+        {
+          "paradigmSlotKey": "adjective",
+          "patternSlotKey": "evaluative_adjective"
+        },
+        {
+          "paradigmSlotKey": "action",
+          "patternSlotKey": "evaluated_action"
+        }
+      ],
+      "controlledSlotKeys": [
+        "copula_be"
+      ],
+      "contrastFocus": {
+        "patternSlotKeys": [
+          "copula_be"
+        ],
+        "templateLiterals": [
+          "It"
+        ]
+      }
+    }
+  ],
+  "memberList": [
+    {
+      "valueNid": "find_it",
+      "valueLabel": {
+        "nid": "find_it"
+      },
+      "realization": {
+        "patternNid": "find_it_adj_to_inf",
+        "grammarFeatureNids": [
+          "affirmative",
+          "indicative_mood",
+          "active_voice"
+        ]
+      },
+      "realizationInfo": {
+        "patternNid": "find_it_adj_to_inf",
+        "pattern": {
+          "nid": "find_it_adj_to_inf",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "觉得做某事怎么样（find it + adj + to do）"
+            },
+            {
+              "lang": "en",
+              "text": "Finding It Adjective to Do Something"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "形式宾语 it：find it + 形容词 + to do，说明某人觉得做某事容易、难或重要。与客观评价 It is adj to do、find + 宾语 + 补语区分。"
+            },
+            {
+              "lang": "en",
+              "text": "Formal object it: find it + adjective + to do. Distinct from objective It is adj to do and from find + object + complement."
+            }
+          ],
+          "template": "{subject} {find_verb_marking} it {evaluative_adjective} to {evaluated_action} {context_phrase} {time_expression}."
+        },
+        "grammarFeatureNids": [
+          "affirmative",
+          "indicative_mood",
+          "active_voice"
+        ],
+        "grammarFeatures": [
+          {
+            "nid": "affirmative",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "肯定形式"
+              },
+              {
+                "lang": "en",
+                "text": "Affirmative"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "表示肯定、确认或直接陈述某事成立。"
+              },
+              {
+                "lang": "en",
+                "text": "Marks a positive statement, confirmation, or direct assertion that something holds true."
+              }
+            ]
+          },
+          {
+            "nid": "indicative_mood",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "陈述语气"
+              },
+              {
+                "lang": "en",
+                "text": "Indicative Mood"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+              }
+            ]
+          },
+          {
+            "nid": "active_voice",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "主动语态"
+              },
+              {
+                "lang": "en",
+                "text": "Active Voice"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+              },
+              {
+                "lang": "en",
+                "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+              }
+            ]
+          }
+        ]
+      },
+      "teachingExample": "I find it easy to make tea.",
+      "activeParadigmSlotKeys": [
+        "adjective",
+        "action"
+      ],
+      "slotMappings": [
+        {
+          "paradigmSlotKey": "adjective",
+          "patternSlotKey": "evaluative_adjective"
+        },
+        {
+          "paradigmSlotKey": "action",
+          "patternSlotKey": "evaluated_action"
+        }
+      ],
+      "controlledSlotKeys": [
+        "find_verb"
+      ],
+      "contrastFocus": {
+        "patternSlotKeys": [
+          "find_verb"
+        ],
+        "templateLiterals": [
+          "it"
+        ]
+      }
+    },
+    {
+      "valueNid": "it_be_adj",
+      "valueLabel": {
+        "nid": "it_be_adj"
+      },
+      "realization": {
+        "patternNid": "it_be_adj_to_inf",
+        "grammarFeatureNids": [
+          "affirmative",
+          "indicative_mood",
+          "active_voice"
+        ]
+      },
+      "realizationInfo": {
+        "patternNid": "it_be_adj_to_inf",
+        "pattern": {
+          "nid": "it_be_adj_to_inf",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "评价做某事怎么样"
+            },
+            {
+              "lang": "en",
+              "text": "Evaluating How Easy, Hard, or Important an Action Is"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "对一件事作出整体评价，比如说它容易、困难、重要或危险。"
+            },
+            {
+              "lang": "en",
+              "text": "Used to evaluate an action as easy, hard, important, safe, and so on."
+            }
+          ],
+          "template": "It {be_marking} {evaluative_adjective} to {evaluated_action} {context_phrase} {time_expression}."
+        },
+        "grammarFeatureNids": [
+          "affirmative",
+          "indicative_mood",
+          "active_voice"
+        ],
+        "grammarFeatures": [
+          {
+            "nid": "affirmative",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "肯定形式"
+              },
+              {
+                "lang": "en",
+                "text": "Affirmative"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "表示肯定、确认或直接陈述某事成立。"
+              },
+              {
+                "lang": "en",
+                "text": "Marks a positive statement, confirmation, or direct assertion that something holds true."
+              }
+            ]
+          },
+          {
+            "nid": "indicative_mood",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "陈述语气"
+              },
+              {
+                "lang": "en",
+                "text": "Indicative Mood"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+              }
+            ]
+          },
+          {
+            "nid": "active_voice",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "主动语态"
+              },
+              {
+                "lang": "en",
+                "text": "Active Voice"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+              },
+              {
+                "lang": "en",
+                "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+              }
+            ]
+          }
+        ]
+      },
+      "teachingExample": "It is easy to make tea.",
+      "activeParadigmSlotKeys": [
+        "adjective",
+        "action"
+      ],
+      "slotMappings": [
+        {
+          "paradigmSlotKey": "adjective",
+          "patternSlotKey": "evaluative_adjective"
+        },
+        {
+          "paradigmSlotKey": "action",
+          "patternSlotKey": "evaluated_action"
+        }
+      ],
+      "controlledSlotKeys": [
+        "copula_be"
+      ],
+      "contrastFocus": {
+        "patternSlotKeys": [
+          "copula_be"
+        ],
+        "templateLiterals": [
+          "It"
+        ]
+      }
+    }
+  ],
+  "realizationSetList": [
+    {
+      "uid": 10483,
+      "assetType": "paradigm",
+      "assetNid": "find_it_vs_it_be_adj",
+      "paradigm": {
+        "nid": "find_it_vs_it_be_adj",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "find it 和 it is adj to do 怎样对照"
+          },
+          {
+            "lang": "en",
+            "text": "Find It vs It Is Adjective to Do"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "同事同场景，对照「我觉得做某事怎么样」和客观评价 It is adj to do；图要画出主观觉得和客观评价。"
+          },
+          {
+            "lang": "en",
+            "text": "Same scene, contrasting I find it adj to do with objective It is adj to do."
+          }
+        ]
+      },
+      "order": 0,
+      "members": [
+        {
+          "sentenceId": 579292,
+          "role": "member",
+          "valueNid": "find_it",
+          "addedSlotKeys": [],
+          "foci": [
+            {
+              "focusKey": "contrast",
+              "ranges": [
+                {
+                  "start": 2,
+                  "end": 9,
+                  "text": "find it",
+                  "key": null
+                }
+              ]
+            }
+          ],
+          "order": 0
+        },
+        {
+          "sentenceId": 504431,
+          "role": "member",
+          "valueNid": "it_be_adj",
+          "addedSlotKeys": [],
+          "foci": [
+            {
+              "focusKey": "contrast",
+              "ranges": [
+                {
+                  "start": 0,
+                  "end": 5,
+                  "text": "It is",
+                  "key": null
+                }
+              ]
+            }
+          ],
+          "order": 0
+        }
+      ],
+      "memberList": [
+        {
+          "valueNid": "find_it",
+          "valueLabel": {
+            "nid": "find_it"
+          },
+          "realization": {
+            "patternNid": "find_it_adj_to_inf",
+            "grammarFeatureNids": [
+              "affirmative",
+              "indicative_mood",
+              "active_voice"
+            ]
+          },
+          "realizationInfo": {
+            "patternNid": "find_it_adj_to_inf",
+            "pattern": {
+              "nid": "find_it_adj_to_inf",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "觉得做某事怎么样（find it + adj + to do）"
+                },
+                {
+                  "lang": "en",
+                  "text": "Finding It Adjective to Do Something"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "形式宾语 it：find it + 形容词 + to do，说明某人觉得做某事容易、难或重要。与客观评价 It is adj to do、find + 宾语 + 补语区分。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Formal object it: find it + adjective + to do. Distinct from objective It is adj to do and from find + object + complement."
+                }
+              ],
+              "template": "{subject} {find_verb_marking} it {evaluative_adjective} to {evaluated_action} {context_phrase} {time_expression}."
+            },
+            "grammarFeatureNids": [
+              "affirmative",
+              "indicative_mood",
+              "active_voice"
+            ],
+            "grammarFeatures": [
+              {
+                "nid": "affirmative",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "肯定形式"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Affirmative"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "表示肯定、确认或直接陈述某事成立。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Marks a positive statement, confirmation, or direct assertion that something holds true."
+                  }
+                ]
+              },
+              {
+                "nid": "indicative_mood",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "陈述语气"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Indicative Mood"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+                  }
+                ]
+              },
+              {
+                "nid": "active_voice",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "主动语态"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Active Voice"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+                  }
+                ]
+              }
+            ]
+          },
+          "teachingExample": "I find it easy to make tea.",
+          "activeParadigmSlotKeys": [
+            "adjective",
+            "action"
+          ],
+          "slotMappings": [
+            {
+              "paradigmSlotKey": "adjective",
+              "patternSlotKey": "evaluative_adjective"
+            },
+            {
+              "paradigmSlotKey": "action",
+              "patternSlotKey": "evaluated_action"
+            }
+          ],
+          "controlledSlotKeys": [
+            "find_verb"
+          ],
+          "contrastFocus": {
+            "patternSlotKeys": [
+              "find_verb"
+            ],
+            "templateLiterals": [
+              "it"
+            ]
+          }
+        },
+        {
+          "valueNid": "it_be_adj",
+          "valueLabel": {
+            "nid": "it_be_adj"
+          },
+          "realization": {
+            "patternNid": "it_be_adj_to_inf",
+            "grammarFeatureNids": [
+              "affirmative",
+              "indicative_mood",
+              "active_voice"
+            ]
+          },
+          "realizationInfo": {
+            "patternNid": "it_be_adj_to_inf",
+            "pattern": {
+              "nid": "it_be_adj_to_inf",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "评价做某事怎么样"
+                },
+                {
+                  "lang": "en",
+                  "text": "Evaluating How Easy, Hard, or Important an Action Is"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "对一件事作出整体评价，比如说它容易、困难、重要或危险。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to evaluate an action as easy, hard, important, safe, and so on."
+                }
+              ],
+              "template": "It {be_marking} {evaluative_adjective} to {evaluated_action} {context_phrase} {time_expression}."
+            },
+            "grammarFeatureNids": [
+              "affirmative",
+              "indicative_mood",
+              "active_voice"
+            ],
+            "grammarFeatures": [
+              {
+                "nid": "affirmative",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "肯定形式"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Affirmative"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "表示肯定、确认或直接陈述某事成立。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Marks a positive statement, confirmation, or direct assertion that something holds true."
+                  }
+                ]
+              },
+              {
+                "nid": "indicative_mood",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "陈述语气"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Indicative Mood"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+                  }
+                ]
+              },
+              {
+                "nid": "active_voice",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "主动语态"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Active Voice"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+                  }
+                ]
+              }
+            ]
+          },
+          "teachingExample": "It is easy to make tea.",
+          "activeParadigmSlotKeys": [
+            "adjective",
+            "action"
+          ],
+          "slotMappings": [
+            {
+              "paradigmSlotKey": "adjective",
+              "patternSlotKey": "evaluative_adjective"
+            },
+            {
+              "paradigmSlotKey": "action",
+              "patternSlotKey": "evaluated_action"
+            }
+          ],
+          "controlledSlotKeys": [
+            "copula_be"
+          ],
+          "contrastFocus": {
+            "patternSlotKeys": [
+              "copula_be"
+            ],
+            "templateLiterals": [
+              "It"
+            ]
+          }
+        }
+      ],
+      "bindingList": [
+        {
+          "valueNid": "find_it",
+          "sentenceId": 579292,
+          "sentenceStruct": {
+            "sentenceId": 579292,
+            "semanticId": 1200403,
+            "contentType": "EN_SENTENCE",
+            "content": "I find it easy to forget things.",
+            "definition": "我觉得忘记事情很容易。",
+            "patternNid": "find_it_adj_to_inf",
+            "patternTemplate": "{subject} {find_verb_marking} it {evaluative_adjective} to {evaluated_action} {context_phrase} {time_expression}.",
+            "patternName": [
+              {
+                "lang": "zh",
+                "text": "觉得做某事怎么样（find it + adj + to do）"
+              },
+              {
+                "lang": "en",
+                "text": "Finding It Adjective to Do Something"
+              }
+            ],
+            "patternDescription": [
+              {
+                "lang": "zh",
+                "text": "形式宾语 it：find it + 形容词 + to do，说明某人觉得做某事容易、难或重要。与客观评价 It is adj to do、find + 宾语 + 补语区分。"
+              },
+              {
+                "lang": "en",
+                "text": "Formal object it: find it + adjective + to do. Distinct from objective It is adj to do and from find + object + complement."
+              }
+            ],
+            "access": "INTERNAL"
+          }
+        },
+        {
+          "valueNid": "it_be_adj",
+          "sentenceId": 504431,
+          "sentenceStruct": {
+            "sentenceId": 504431,
+            "semanticId": 1121717,
+            "contentType": "EN_SENTENCE",
+            "content": "It is easy to forget things.",
+            "definition": "忘记事情是容易的。",
+            "access": "NORMAL"
+          }
+        }
+      ],
+      "access": "INTERNAL",
+      "created": "2026-09-02T16:45:28.583+00:00",
+      "updated": "2026-09-03T13:11:34.639+00:00"
+    }
+  ],
+  "system": true,
+  "enabled": true,
+  "order": 81900,
+  "created": "2026-10-04T14:31:46.158+00:00",
+  "updated": "2026-10-04T14:31:46.158+00:00"
+}

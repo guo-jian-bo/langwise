@@ -1,0 +1,2030 @@
+{
+  "nid": "email_letter_message",
+  "order": 4,
+  "primaryFrameworkNid": "message_email",
+  "primaryFramework": {
+    "nid": "message_email",
+    "name": [
+      {
+        "lang": "zh",
+        "text": "邮件和留言"
+      },
+      {
+        "lang": "en",
+        "text": "Email and Message"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "写给确定的人：先问好或说明来意，再把事情写清楚，最后礼貌收尾。"
+      },
+      {
+        "lang": "en",
+        "text": "Write to someone: start with a greeting or your purpose, explain the matter, and close politely."
+      }
+    ]
+  },
+  "name": [
+    {
+      "lang": "zh",
+      "text": "邮件、书信和留言"
+    },
+    {
+      "lang": "en",
+      "text": "Emails, Letters, and Messages"
+    }
+  ],
+  "description": [
+    {
+      "lang": "zh",
+      "text": "写信、发邮件或留一句话给别人，把你的来意和事情说清楚。"
+    },
+    {
+      "lang": "en",
+      "text": "Write an email, a letter, or a message to someone, and make your purpose clear."
+    }
+  ],
+  "difficulty": {
+    "max": 4,
+    "min": 1
+  },
+  "blueprints": [
+    {
+      "nid": "email_mini_a1",
+      "name": [
+        {
+          "lang": "zh",
+          "text": "一封超短邮件"
+        },
+        {
+          "lang": "en",
+          "text": "A Very Short Email"
+        }
+      ],
+      "description": [
+        {
+          "lang": "zh",
+          "text": "先写你为什么写信，再写一句收尾。别忘了称呼和落款。"
+        },
+        {
+          "lang": "en",
+          "text": "First say why you are writing, then add a short close. Remember the greeting and sign-off."
+        }
+      ],
+      "compositionFamilyNid": "email_letter_message",
+      "frameworkNid": "message_email",
+      "framework": {
+        "nid": "message_email",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "邮件和留言"
+          },
+          {
+            "lang": "en",
+            "text": "Email and Message"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "写给确定的人：先问好或说明来意，再把事情写清楚，最后礼貌收尾。"
+          },
+          {
+            "lang": "en",
+            "text": "Write to someone: start with a greeting or your purpose, explain the matter, and close politely."
+          }
+        ]
+      },
+      "skinNid": "email_client",
+      "skin": {
+        "nid": "email_client",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "邮箱"
+          },
+          {
+            "lang": "en",
+            "text": "Email"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "在邮箱里写信：收件人、正文、发送。"
+          },
+          {
+            "lang": "en",
+            "text": "Write in a mailbox: to, body, and send."
+          }
+        ]
+      },
+      "difficulty": {
+        "max": 1,
+        "min": 1
+      },
+      "order": 1,
+      "minParagraphCount": 2,
+      "maxParagraphCount": 2,
+      "frame": {
+        "hasHead": true,
+        "hasTail": true,
+        "hasHeadings": false,
+        "headName": [
+          {
+            "lang": "zh",
+            "text": "称呼"
+          },
+          {
+            "lang": "en",
+            "text": "Greeting"
+          }
+        ],
+        "headDescription": [
+          {
+            "lang": "zh",
+            "text": "先写给谁，比如 Hi Tom 或 Dear Sir or Madam。"
+          },
+          {
+            "lang": "en",
+            "text": "Write who it is for, such as Hi Tom or Dear Sir or Madam."
+          }
+        ],
+        "tailName": [
+          {
+            "lang": "zh",
+            "text": "落款"
+          },
+          {
+            "lang": "en",
+            "text": "Sign-off"
+          }
+        ],
+        "tailDescription": [
+          {
+            "lang": "zh",
+            "text": "最后写落款，比如 Yours, 或 Yours faithfully。"
+          },
+          {
+            "lang": "en",
+            "text": "End with a sign-off, such as Yours, or Yours faithfully."
+          }
+        ]
+      },
+      "slots": [
+        {
+          "order": 1,
+          "beatNid": "opening",
+          "required": true,
+          "repeatMin": 1,
+          "repeatMax": 1,
+          "allowedParagraphs": [
+            {
+              "paragraphTypeNid": "qa",
+              "paragraphType": {
+                "nid": "qa",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "问答"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Question and Answer"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "先直接回答问题，再补上相关的细节。问题一般已经写在题目里。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Answer the question first, then add a little more. The question is usually already in the prompt."
+                  }
+                ]
+              },
+              "usageName": [
+                {
+                  "lang": "zh",
+                  "text": "直接回答问题"
+                },
+                {
+                  "lang": "en",
+                  "text": "Answer the question first"
+                }
+              ],
+              "usageDescription": [
+                {
+                  "lang": "zh",
+                  "text": "题目里问什么就先答什么，再补一句相关细节。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Answer what the prompt asks first, then add one related detail."
+                }
+              ]
+            },
+            {
+              "paragraphTypeNid": "description",
+              "paragraphType": {
+                "nid": "description",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "描述"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Description"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "先说出要写的是谁或什么，再把它的样子和特点写清楚，最后可以补一句感受。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "First name who or what you are writing about, then add how it looks or what it is like, and you may end with a feeling."
+                  }
+                ]
+              },
+              "usageName": [
+                {
+                  "lang": "zh",
+                  "text": "先说来意"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say why you are writing"
+                }
+              ],
+              "usageDescription": [
+                {
+                  "lang": "zh",
+                  "text": "先写你为什么写信、要说哪一件事。"
+                },
+                {
+                  "lang": "en",
+                  "text": "First say why you are writing and what it is about."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "beatNid": "close",
+          "required": true,
+          "repeatMin": 1,
+          "repeatMax": 1,
+          "allowedParagraphs": [
+            {
+              "paragraphTypeNid": "description",
+              "paragraphType": {
+                "nid": "description",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "描述"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Description"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "先说出要写的是谁或什么，再把它的样子和特点写清楚，最后可以补一句感受。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "First name who or what you are writing about, then add how it looks or what it is like, and you may end with a feeling."
+                  }
+                ]
+              },
+              "usageName": [
+                {
+                  "lang": "zh",
+                  "text": "收一句收尾"
+                },
+                {
+                  "lang": "en",
+                  "text": "Add a short close"
+                }
+              ],
+              "usageDescription": [
+                {
+                  "lang": "zh",
+                  "text": "用一句把信收住，比如谢谢或回见。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Close the mail in one sentence, such as a thank-you or see you."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "system": true,
+      "enabled": true,
+      "created": "2026-09-08T03:26:52.648+00:00",
+      "updated": "2026-09-08T03:26:52.648+00:00"
+    },
+    {
+      "nid": "email_a2",
+      "name": [
+        {
+          "lang": "zh",
+          "text": "一封简单邮件"
+        },
+        {
+          "lang": "en",
+          "text": "A Short Email"
+        }
+      ],
+      "description": [
+        {
+          "lang": "zh",
+          "text": "先说来意，再把事情写清楚，最后礼貌收尾。"
+        },
+        {
+          "lang": "en",
+          "text": "First say why you are writing, then explain the matter, and close politely."
+        }
+      ],
+      "compositionFamilyNid": "email_letter_message",
+      "frameworkNid": "message_email",
+      "framework": {
+        "nid": "message_email",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "邮件和留言"
+          },
+          {
+            "lang": "en",
+            "text": "Email and Message"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "写给确定的人：先问好或说明来意，再把事情写清楚，最后礼貌收尾。"
+          },
+          {
+            "lang": "en",
+            "text": "Write to someone: start with a greeting or your purpose, explain the matter, and close politely."
+          }
+        ]
+      },
+      "skinNid": "email_client",
+      "skin": {
+        "nid": "email_client",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "邮箱"
+          },
+          {
+            "lang": "en",
+            "text": "Email"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "在邮箱里写信：收件人、正文、发送。"
+          },
+          {
+            "lang": "en",
+            "text": "Write in a mailbox: to, body, and send."
+          }
+        ]
+      },
+      "difficulty": {
+        "max": 2,
+        "min": 2
+      },
+      "order": 2,
+      "minParagraphCount": 3,
+      "maxParagraphCount": 3,
+      "frame": {
+        "hasHead": true,
+        "hasTail": true,
+        "hasHeadings": false,
+        "headName": [
+          {
+            "lang": "zh",
+            "text": "称呼"
+          },
+          {
+            "lang": "en",
+            "text": "Greeting"
+          }
+        ],
+        "headDescription": [
+          {
+            "lang": "zh",
+            "text": "先写给谁，比如 Hi Tom 或 Dear Sir or Madam。"
+          },
+          {
+            "lang": "en",
+            "text": "Write who it is for, such as Hi Tom or Dear Sir or Madam."
+          }
+        ],
+        "tailName": [
+          {
+            "lang": "zh",
+            "text": "落款"
+          },
+          {
+            "lang": "en",
+            "text": "Sign-off"
+          }
+        ],
+        "tailDescription": [
+          {
+            "lang": "zh",
+            "text": "最后写落款，比如 Yours, 或 Yours faithfully。"
+          },
+          {
+            "lang": "en",
+            "text": "End with a sign-off, such as Yours, or Yours faithfully."
+          }
+        ]
+      },
+      "slots": [
+        {
+          "order": 1,
+          "beatNid": "opening",
+          "required": true,
+          "repeatMin": 1,
+          "repeatMax": 1,
+          "allowedParagraphs": [
+            {
+              "paragraphTypeNid": "description",
+              "paragraphType": {
+                "nid": "description",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "描述"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Description"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "先说出要写的是谁或什么，再把它的样子和特点写清楚，最后可以补一句感受。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "First name who or what you are writing about, then add how it looks or what it is like, and you may end with a feeling."
+                  }
+                ]
+              },
+              "usageName": [
+                {
+                  "lang": "zh",
+                  "text": "先说来意"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say why you are writing"
+                }
+              ],
+              "usageDescription": [
+                {
+                  "lang": "zh",
+                  "text": "先写你为什么写信，让对方知道来意。"
+                },
+                {
+                  "lang": "en",
+                  "text": "First say why you are writing, so the reader knows your purpose."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "beatNid": "develop",
+          "required": true,
+          "repeatMin": 1,
+          "repeatMax": 1,
+          "allowedParagraphs": [
+            {
+              "paragraphTypeNid": "description",
+              "paragraphType": {
+                "nid": "description",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "描述"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Description"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "先说出要写的是谁或什么，再把它的样子和特点写清楚，最后可以补一句感受。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "First name who or what you are writing about, then add how it looks or what it is like, and you may end with a feeling."
+                  }
+                ]
+              },
+              "usageName": [
+                {
+                  "lang": "zh",
+                  "text": "把事情说清楚"
+                },
+                {
+                  "lang": "en",
+                  "text": "Explain the matter"
+                }
+              ],
+              "usageDescription": [
+                {
+                  "lang": "zh",
+                  "text": "把时间、地点或要对方知道的事写明白。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Write the time, place, or facts the reader needs to know."
+                }
+              ]
+            },
+            {
+              "paragraphTypeNid": "reason_example",
+              "paragraphType": {
+                "nid": "reason_example",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "原因和例子"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Reason and Example"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "先写出你要说明的那一点，再说为什么，最好再举一个例子。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "First make your point, then say why, and add an example if you can."
+                  }
+                ]
+              },
+              "usageName": [
+                {
+                  "lang": "zh",
+                  "text": "写原因或例子"
+                },
+                {
+                  "lang": "en",
+                  "text": "Give a reason or example"
+                }
+              ],
+              "usageDescription": [
+                {
+                  "lang": "zh",
+                  "text": "补上为什么，或举一件具体的事。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Add why, or give one concrete example."
+                }
+              ]
+            },
+            {
+              "paragraphTypeNid": "problem_solution",
+              "paragraphType": {
+                "nid": "problem_solution",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "问题和办法"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Problem and Solution"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "先写出问题，再说明情况，接着给出办法，最后写结果或建议。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "First name the problem, explain the situation, then offer a way to solve it, and end with the result or advice."
+                  }
+                ]
+              },
+              "usageName": [
+                {
+                  "lang": "zh",
+                  "text": "写麻烦和办法"
+                },
+                {
+                  "lang": "en",
+                  "text": "Write the problem and a way"
+                }
+              ],
+              "usageDescription": [
+                {
+                  "lang": "zh",
+                  "text": "写你碰到什么麻烦，需要对方怎样帮忙。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what the trouble is and what help you need."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "beatNid": "close",
+          "required": true,
+          "repeatMin": 1,
+          "repeatMax": 1,
+          "allowedParagraphs": [
+            {
+              "paragraphTypeNid": "description",
+              "paragraphType": {
+                "nid": "description",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "描述"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Description"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "先说出要写的是谁或什么，再把它的样子和特点写清楚，最后可以补一句感受。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "First name who or what you are writing about, then add how it looks or what it is like, and you may end with a feeling."
+                  }
+                ]
+              },
+              "usageName": [
+                {
+                  "lang": "zh",
+                  "text": "礼貌收尾"
+                },
+                {
+                  "lang": "en",
+                  "text": "Close politely"
+                }
+              ],
+              "usageDescription": [
+                {
+                  "lang": "zh",
+                  "text": "用一句谢谢、回见或等回复把信收住。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Close with thanks, see you, or that you wait for a reply."
+                }
+              ]
+            },
+            {
+              "paragraphTypeNid": "opinion",
+              "paragraphType": {
+                "nid": "opinion",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "观点"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Opinion"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "先说出你的看法，再用理由撑住，最后把观点收住。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "First say what you think, support it with reasons, and close with your view."
+                  }
+                ]
+              },
+              "usageName": [
+                {
+                  "lang": "zh",
+                  "text": "补一句希望"
+                },
+                {
+                  "lang": "en",
+                  "text": "Add a hope"
+                }
+              ],
+              "usageDescription": [
+                {
+                  "lang": "zh",
+                  "text": "写一句你希望对方怎样，或你的看法。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Add what you hope they will do, or what you think."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "system": true,
+      "enabled": true,
+      "created": "2026-09-08T03:26:52.650+00:00",
+      "updated": "2026-09-08T03:26:52.650+00:00"
+    },
+    {
+      "nid": "email_b1",
+      "name": [
+        {
+          "lang": "zh",
+          "text": "一封完整邮件"
+        },
+        {
+          "lang": "en",
+          "text": "A Full Email"
+        }
+      ],
+      "description": [
+        {
+          "lang": "zh",
+          "text": "先说来意，再把事情写充分，需要时提出请求，最后礼貌收尾。"
+        },
+        {
+          "lang": "en",
+          "text": "First say why you are writing, explain the matter, make a request if you need to, and close politely."
+        }
+      ],
+      "compositionFamilyNid": "email_letter_message",
+      "frameworkNid": "message_email",
+      "framework": {
+        "nid": "message_email",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "邮件和留言"
+          },
+          {
+            "lang": "en",
+            "text": "Email and Message"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "写给确定的人：先问好或说明来意，再把事情写清楚，最后礼貌收尾。"
+          },
+          {
+            "lang": "en",
+            "text": "Write to someone: start with a greeting or your purpose, explain the matter, and close politely."
+          }
+        ]
+      },
+      "skinNid": "email_client",
+      "skin": {
+        "nid": "email_client",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "邮箱"
+          },
+          {
+            "lang": "en",
+            "text": "Email"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "在邮箱里写信：收件人、正文、发送。"
+          },
+          {
+            "lang": "en",
+            "text": "Write in a mailbox: to, body, and send."
+          }
+        ]
+      },
+      "difficulty": {
+        "max": 4,
+        "min": 3
+      },
+      "order": 3,
+      "minParagraphCount": 3,
+      "maxParagraphCount": 4,
+      "frame": {
+        "hasHead": true,
+        "hasTail": true,
+        "hasHeadings": false,
+        "headName": [
+          {
+            "lang": "zh",
+            "text": "称呼"
+          },
+          {
+            "lang": "en",
+            "text": "Greeting"
+          }
+        ],
+        "headDescription": [
+          {
+            "lang": "zh",
+            "text": "先写给谁，比如 Hi Tom 或 Dear Sir or Madam。"
+          },
+          {
+            "lang": "en",
+            "text": "Write who it is for, such as Hi Tom or Dear Sir or Madam."
+          }
+        ],
+        "tailName": [
+          {
+            "lang": "zh",
+            "text": "落款"
+          },
+          {
+            "lang": "en",
+            "text": "Sign-off"
+          }
+        ],
+        "tailDescription": [
+          {
+            "lang": "zh",
+            "text": "最后写落款，比如 Yours, 或 Yours faithfully。"
+          },
+          {
+            "lang": "en",
+            "text": "End with a sign-off, such as Yours, or Yours faithfully."
+          }
+        ]
+      },
+      "slots": [
+        {
+          "order": 1,
+          "beatNid": "opening",
+          "required": true,
+          "repeatMin": 1,
+          "repeatMax": 1,
+          "allowedParagraphs": [
+            {
+              "paragraphTypeNid": "description",
+              "paragraphType": {
+                "nid": "description",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "描述"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Description"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "先说出要写的是谁或什么，再把它的样子和特点写清楚，最后可以补一句感受。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "First name who or what you are writing about, then add how it looks or what it is like, and you may end with a feeling."
+                  }
+                ]
+              },
+              "usageName": [
+                {
+                  "lang": "zh",
+                  "text": "先说来意"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say why you are writing"
+                }
+              ],
+              "usageDescription": [
+                {
+                  "lang": "zh",
+                  "text": "先写你为什么写信，把来意说清楚。"
+                },
+                {
+                  "lang": "en",
+                  "text": "First say why you are writing and make your purpose clear."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "beatNid": "develop",
+          "required": true,
+          "repeatMin": 1,
+          "repeatMax": 1,
+          "allowedParagraphs": [
+            {
+              "paragraphTypeNid": "reason_example",
+              "paragraphType": {
+                "nid": "reason_example",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "原因和例子"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Reason and Example"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "先写出你要说明的那一点，再说为什么，最好再举一个例子。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "First make your point, then say why, and add an example if you can."
+                  }
+                ]
+              },
+              "usageName": [
+                {
+                  "lang": "zh",
+                  "text": "把原因写充分"
+                },
+                {
+                  "lang": "en",
+                  "text": "Give full reasons"
+                }
+              ],
+              "usageDescription": [
+                {
+                  "lang": "zh",
+                  "text": "把事情的原因或依据写够，让对方看得懂。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Give enough reasons or facts so the reader can follow."
+                }
+              ]
+            },
+            {
+              "paragraphTypeNid": "process",
+              "paragraphType": {
+                "nid": "process",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "过程"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "How to Do It"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "讲清楚一件事通常怎么做：先说要讲哪些步骤，再一步步写，最后写做成之后会怎样。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Explain how something is usually done: say what the steps are, write them in order, and end with the result."
+                  }
+                ]
+              },
+              "usageName": [
+                {
+                  "lang": "zh",
+                  "text": "把做法或安排写清"
+                },
+                {
+                  "lang": "en",
+                  "text": "Explain the plan or steps"
+                }
+              ],
+              "usageDescription": [
+                {
+                  "lang": "zh",
+                  "text": "如果要说明怎么做、怎么安排，按步骤写。"
+                },
+                {
+                  "lang": "en",
+                  "text": "If you need to say how it works or how it is arranged, write the steps."
+                }
+              ]
+            },
+            {
+              "paragraphTypeNid": "description",
+              "paragraphType": {
+                "nid": "description",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "描述"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Description"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "先说出要写的是谁或什么，再把它的样子和特点写清楚，最后可以补一句感受。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "First name who or what you are writing about, then add how it looks or what it is like, and you may end with a feeling."
+                  }
+                ]
+              },
+              "usageName": [
+                {
+                  "lang": "zh",
+                  "text": "把事情写开"
+                },
+                {
+                  "lang": "en",
+                  "text": "Open up the matter"
+                }
+              ],
+              "usageDescription": [
+                {
+                  "lang": "zh",
+                  "text": "把这件事本身写清楚：是什么、有谁、在哪。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Explain the matter itself: what it is, who is involved, and where."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "beatNid": "turn",
+          "required": false,
+          "repeatMin": 0,
+          "repeatMax": 1,
+          "allowedParagraphs": [
+            {
+              "paragraphTypeNid": "opinion",
+              "paragraphType": {
+                "nid": "opinion",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "观点"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Opinion"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "先说出你的看法，再用理由撑住，最后把观点收住。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "First say what you think, support it with reasons, and close with your view."
+                  }
+                ]
+              },
+              "usageName": [
+                {
+                  "lang": "zh",
+                  "text": "提出请求或看法"
+                },
+                {
+                  "lang": "en",
+                  "text": "Make a request or view"
+                }
+              ],
+              "usageDescription": [
+                {
+                  "lang": "zh",
+                  "text": "在这里提出你希望对方做什么，或你的看法。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Ask the reader to do something, or give your view."
+                }
+              ]
+            },
+            {
+              "paragraphTypeNid": "problem_solution",
+              "paragraphType": {
+                "nid": "problem_solution",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "问题和办法"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Problem and Solution"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "先写出问题，再说明情况，接着给出办法，最后写结果或建议。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "First name the problem, explain the situation, then offer a way to solve it, and end with the result or advice."
+                  }
+                ]
+              },
+              "usageName": [
+                {
+                  "lang": "zh",
+                  "text": "写还没解决的问题"
+                },
+                {
+                  "lang": "en",
+                  "text": "Raise the remaining problem"
+                }
+              ],
+              "usageDescription": [
+                {
+                  "lang": "zh",
+                  "text": "如果还有麻烦要对方处理，写在这里。"
+                },
+                {
+                  "lang": "en",
+                  "text": "If a problem still needs the reader, write it here."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "beatNid": "close",
+          "required": true,
+          "repeatMin": 1,
+          "repeatMax": 1,
+          "allowedParagraphs": [
+            {
+              "paragraphTypeNid": "opinion",
+              "paragraphType": {
+                "nid": "opinion",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "观点"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Opinion"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "先说出你的看法，再用理由撑住，最后把观点收住。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "First say what you think, support it with reasons, and close with your view."
+                  }
+                ]
+              },
+              "usageName": [
+                {
+                  "lang": "zh",
+                  "text": "礼貌收住并提希望"
+                },
+                {
+                  "lang": "en",
+                  "text": "Close and add a hope"
+                }
+              ],
+              "usageDescription": [
+                {
+                  "lang": "zh",
+                  "text": "礼貌收尾，可以再提一句你希望怎样。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Close politely, and you may add one hope."
+                }
+              ]
+            },
+            {
+              "paragraphTypeNid": "description",
+              "paragraphType": {
+                "nid": "description",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "描述"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Description"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "先说出要写的是谁或什么，再把它的样子和特点写清楚，最后可以补一句感受。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "First name who or what you are writing about, then add how it looks or what it is like, and you may end with a feeling."
+                  }
+                ]
+              },
+              "usageName": [
+                {
+                  "lang": "zh",
+                  "text": "用一句把信收住"
+                },
+                {
+                  "lang": "en",
+                  "text": "Close the mail"
+                }
+              ],
+              "usageDescription": [
+                {
+                  "lang": "zh",
+                  "text": "用一句谢谢、回见或等回复收住。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Close with thanks, see you, or that you wait for a reply."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "system": true,
+      "enabled": true,
+      "created": "2026-09-08T03:26:52.658+00:00",
+      "updated": "2026-09-08T03:26:52.658+00:00"
+    },
+    {
+      "nid": "letter_a2",
+      "name": [
+        {
+          "lang": "zh",
+          "text": "一封信"
+        },
+        {
+          "lang": "en",
+          "text": "A Letter"
+        }
+      ],
+      "description": [
+        {
+          "lang": "zh",
+          "text": "先写称呼，说来意，把事情写清楚，最后落款。"
+        },
+        {
+          "lang": "en",
+          "text": "Write a greeting, say why you are writing, make the matter clear, and sign off."
+        }
+      ],
+      "compositionFamilyNid": "email_letter_message",
+      "frameworkNid": "message_email",
+      "framework": {
+        "nid": "message_email",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "邮件和留言"
+          },
+          {
+            "lang": "en",
+            "text": "Email and Message"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "写给确定的人：先问好或说明来意，再把事情写清楚，最后礼貌收尾。"
+          },
+          {
+            "lang": "en",
+            "text": "Write to someone: start with a greeting or your purpose, explain the matter, and close politely."
+          }
+        ]
+      },
+      "skinNid": "letter_paper",
+      "skin": {
+        "nid": "letter_paper",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "信纸"
+          },
+          {
+            "lang": "en",
+            "text": "Letter Paper"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "一页信纸，左上称呼，右下落款。"
+          },
+          {
+            "lang": "en",
+            "text": "A letter page with a greeting at the top and a sign-off at the end."
+          }
+        ]
+      },
+      "difficulty": {
+        "max": 2,
+        "min": 2
+      },
+      "order": 4,
+      "minParagraphCount": 3,
+      "maxParagraphCount": 3,
+      "frame": {
+        "hasHead": true,
+        "hasTail": true,
+        "hasHeadings": false,
+        "headName": [
+          {
+            "lang": "zh",
+            "text": "称呼"
+          },
+          {
+            "lang": "en",
+            "text": "Greeting"
+          }
+        ],
+        "headDescription": [
+          {
+            "lang": "zh",
+            "text": "先写称呼，比如 Dear Tom 或 Dear Sir or Madam。"
+          },
+          {
+            "lang": "en",
+            "text": "Write who it is for, such as Dear Tom or Dear Sir or Madam."
+          }
+        ],
+        "tailName": [
+          {
+            "lang": "zh",
+            "text": "落款"
+          },
+          {
+            "lang": "en",
+            "text": "Sign-off"
+          }
+        ],
+        "tailDescription": [
+          {
+            "lang": "zh",
+            "text": "最后写落款，比如 Yours, 或 Yours sincerely。"
+          },
+          {
+            "lang": "en",
+            "text": "End with a sign-off, such as Yours, or Yours sincerely."
+          }
+        ]
+      },
+      "slots": [
+        {
+          "order": 1,
+          "beatNid": "opening",
+          "required": true,
+          "repeatMin": 1,
+          "repeatMax": 1,
+          "allowedParagraphs": [
+            {
+              "paragraphTypeNid": "description",
+              "paragraphType": {
+                "nid": "description",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "描述"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Description"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "先说出要写的是谁或什么，再把它的样子和特点写清楚，最后可以补一句感受。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "First name who or what you are writing about, then add how it looks or what it is like, and you may end with a feeling."
+                  }
+                ]
+              },
+              "usageName": [
+                {
+                  "lang": "zh",
+                  "text": "先说来意"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say why you are writing"
+                }
+              ],
+              "usageDescription": [
+                {
+                  "lang": "zh",
+                  "text": "先写你为什么写信，让对方知道来意。"
+                },
+                {
+                  "lang": "en",
+                  "text": "First say why you are writing, so the reader knows your purpose."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "beatNid": "develop",
+          "required": true,
+          "repeatMin": 1,
+          "repeatMax": 1,
+          "allowedParagraphs": [
+            {
+              "paragraphTypeNid": "description",
+              "paragraphType": {
+                "nid": "description",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "描述"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Description"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "先说出要写的是谁或什么，再把它的样子和特点写清楚，最后可以补一句感受。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "First name who or what you are writing about, then add how it looks or what it is like, and you may end with a feeling."
+                  }
+                ]
+              },
+              "usageName": [
+                {
+                  "lang": "zh",
+                  "text": "把事情说清楚"
+                },
+                {
+                  "lang": "en",
+                  "text": "Explain the matter"
+                }
+              ],
+              "usageDescription": [
+                {
+                  "lang": "zh",
+                  "text": "把时间、地点或要对方知道的事写明白。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Write the time, place, or facts the reader needs to know."
+                }
+              ]
+            },
+            {
+              "paragraphTypeNid": "reason_example",
+              "paragraphType": {
+                "nid": "reason_example",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "原因和例子"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Reason and Example"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "先写出你要说明的那一点，再说为什么，最好再举一个例子。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "First make your point, then say why, and add an example if you can."
+                  }
+                ]
+              },
+              "usageName": [
+                {
+                  "lang": "zh",
+                  "text": "写原因或例子"
+                },
+                {
+                  "lang": "en",
+                  "text": "Give a reason or example"
+                }
+              ],
+              "usageDescription": [
+                {
+                  "lang": "zh",
+                  "text": "补上为什么，或举一件具体的事。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Add why, or give one concrete example."
+                }
+              ]
+            },
+            {
+              "paragraphTypeNid": "problem_solution",
+              "paragraphType": {
+                "nid": "problem_solution",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "问题和办法"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Problem and Solution"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "先写出问题，再说明情况，接着给出办法，最后写结果或建议。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "First name the problem, explain the situation, then offer a way to solve it, and end with the result or advice."
+                  }
+                ]
+              },
+              "usageName": [
+                {
+                  "lang": "zh",
+                  "text": "写麻烦和办法"
+                },
+                {
+                  "lang": "en",
+                  "text": "Write the problem and a way"
+                }
+              ],
+              "usageDescription": [
+                {
+                  "lang": "zh",
+                  "text": "写你碰到什么麻烦，需要对方怎样帮忙。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what the trouble is and what help you need."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "beatNid": "close",
+          "required": true,
+          "repeatMin": 1,
+          "repeatMax": 1,
+          "allowedParagraphs": [
+            {
+              "paragraphTypeNid": "description",
+              "paragraphType": {
+                "nid": "description",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "描述"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Description"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "先说出要写的是谁或什么，再把它的样子和特点写清楚，最后可以补一句感受。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "First name who or what you are writing about, then add how it looks or what it is like, and you may end with a feeling."
+                  }
+                ]
+              },
+              "usageName": [
+                {
+                  "lang": "zh",
+                  "text": "礼貌收尾"
+                },
+                {
+                  "lang": "en",
+                  "text": "Close politely"
+                }
+              ],
+              "usageDescription": [
+                {
+                  "lang": "zh",
+                  "text": "用一句谢谢、回见或等回复把信收住。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Close with thanks, see you, or that you wait for a reply."
+                }
+              ]
+            },
+            {
+              "paragraphTypeNid": "opinion",
+              "paragraphType": {
+                "nid": "opinion",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "观点"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Opinion"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "先说出你的看法，再用理由撑住，最后把观点收住。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "First say what you think, support it with reasons, and close with your view."
+                  }
+                ]
+              },
+              "usageName": [
+                {
+                  "lang": "zh",
+                  "text": "补一句希望"
+                },
+                {
+                  "lang": "en",
+                  "text": "Add a hope"
+                }
+              ],
+              "usageDescription": [
+                {
+                  "lang": "zh",
+                  "text": "写一句你希望对方怎样，或你的看法。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Add what you hope they will do, or what you think."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "system": true,
+      "enabled": true,
+      "created": "2026-09-08T03:26:52.659+00:00",
+      "updated": "2026-09-08T03:26:52.659+00:00"
+    },
+    {
+      "nid": "message_a1",
+      "name": [
+        {
+          "lang": "zh",
+          "text": "一张留言"
+        },
+        {
+          "lang": "en",
+          "text": "A Short Message"
+        }
+      ],
+      "description": [
+        {
+          "lang": "zh",
+          "text": "用一两句话留下你要说的事，可以先写下给谁。"
+        },
+        {
+          "lang": "en",
+          "text": "Leave one or two sentences for someone. You may write who it is for."
+        }
+      ],
+      "compositionFamilyNid": "email_letter_message",
+      "frameworkNid": "message_email",
+      "framework": {
+        "nid": "message_email",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "邮件和留言"
+          },
+          {
+            "lang": "en",
+            "text": "Email and Message"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "写给确定的人：先问好或说明来意，再把事情写清楚，最后礼貌收尾。"
+          },
+          {
+            "lang": "en",
+            "text": "Write to someone: start with a greeting or your purpose, explain the matter, and close politely."
+          }
+        ]
+      },
+      "skinNid": "message_slip",
+      "skin": {
+        "nid": "message_slip",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "留言条"
+          },
+          {
+            "lang": "en",
+            "text": "Message Slip"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "留下一两句话，告诉别人一件事。"
+          },
+          {
+            "lang": "en",
+            "text": "A short slip that leaves one or two lines for someone."
+          }
+        ]
+      },
+      "difficulty": {
+        "max": 1,
+        "min": 1
+      },
+      "order": 5,
+      "minParagraphCount": 2,
+      "maxParagraphCount": 2,
+      "frame": {
+        "hasHead": true,
+        "hasTail": true,
+        "hasHeadings": false,
+        "headName": [
+          {
+            "lang": "zh",
+            "text": "称呼"
+          },
+          {
+            "lang": "en",
+            "text": "Name"
+          }
+        ],
+        "headDescription": [
+          {
+            "lang": "zh",
+            "text": "可以先写下给谁，比如 Tom,。"
+          },
+          {
+            "lang": "en",
+            "text": "You may write who it is for, such as Tom,"
+          }
+        ],
+        "tailName": [
+          {
+            "lang": "zh",
+            "text": "署名"
+          },
+          {
+            "lang": "en",
+            "text": "Name"
+          }
+        ],
+        "tailDescription": [
+          {
+            "lang": "zh",
+            "text": "最后可以写自己的名字。"
+          },
+          {
+            "lang": "en",
+            "text": "You may end with your name."
+          }
+        ]
+      },
+      "slots": [
+        {
+          "order": 1,
+          "beatNid": "opening",
+          "required": true,
+          "repeatMin": 1,
+          "repeatMax": 1,
+          "allowedParagraphs": [
+            {
+              "paragraphTypeNid": "qa",
+              "paragraphType": {
+                "nid": "qa",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "问答"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Question and Answer"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "先直接回答问题，再补上相关的细节。问题一般已经写在题目里。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Answer the question first, then add a little more. The question is usually already in the prompt."
+                  }
+                ]
+              },
+              "usageName": [
+                {
+                  "lang": "zh",
+                  "text": "直接回答问题"
+                },
+                {
+                  "lang": "en",
+                  "text": "Answer the question first"
+                }
+              ],
+              "usageDescription": [
+                {
+                  "lang": "zh",
+                  "text": "题目里问什么就先答什么，再补一句相关细节。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Answer what the prompt asks first, then add one related detail."
+                }
+              ]
+            },
+            {
+              "paragraphTypeNid": "description",
+              "paragraphType": {
+                "nid": "description",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "描述"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Description"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "先说出要写的是谁或什么，再把它的样子和特点写清楚，最后可以补一句感受。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "First name who or what you are writing about, then add how it looks or what it is like, and you may end with a feeling."
+                  }
+                ]
+              },
+              "usageName": [
+                {
+                  "lang": "zh",
+                  "text": "先说来意"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say why you are writing"
+                }
+              ],
+              "usageDescription": [
+                {
+                  "lang": "zh",
+                  "text": "先写你为什么写信、要说哪一件事。"
+                },
+                {
+                  "lang": "en",
+                  "text": "First say why you are writing and what it is about."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "beatNid": "close",
+          "required": true,
+          "repeatMin": 1,
+          "repeatMax": 1,
+          "allowedParagraphs": [
+            {
+              "paragraphTypeNid": "description",
+              "paragraphType": {
+                "nid": "description",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "描述"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Description"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "先说出要写的是谁或什么，再把它的样子和特点写清楚，最后可以补一句感受。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "First name who or what you are writing about, then add how it looks or what it is like, and you may end with a feeling."
+                  }
+                ]
+              },
+              "usageName": [
+                {
+                  "lang": "zh",
+                  "text": "收一句收尾"
+                },
+                {
+                  "lang": "en",
+                  "text": "Add a short close"
+                }
+              ],
+              "usageDescription": [
+                {
+                  "lang": "zh",
+                  "text": "用一句把信收住，比如谢谢或回见。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Close the mail in one sentence, such as a thank-you or see you."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "system": true,
+      "enabled": true,
+      "created": "2026-09-08T03:26:52.661+00:00",
+      "updated": "2026-09-08T03:26:52.661+00:00"
+    }
+  ],
+  "system": true,
+  "enabled": true,
+  "created": "2026-09-08T03:26:52.156+00:00",
+  "updated": "2026-09-08T03:26:52.156+00:00"
+}

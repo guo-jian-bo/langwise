@@ -1,0 +1,1244 @@
+[
+  {
+    "nid": "description",
+    "order": 1,
+    "localTask": [
+      {
+        "lang": "zh",
+        "text": "把一个对象说完整"
+      },
+      {
+        "lang": "en",
+        "text": "Describe one object fully"
+      }
+    ],
+    "beats": [
+      {
+        "order": 1,
+        "beatNid": "opening",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "点出对象"
+          },
+          {
+            "lang": "en",
+            "text": "Name the object"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "先把要写的对象点出来：这是谁、是什么，或你眼前看到的是哪一件。读完这一句，别人就知道这段在写什么。"
+          },
+          {
+            "lang": "en",
+            "text": "First name what you are writing about: who it is, what it is, or what you see in front of you. After this sentence, a reader should know what this paragraph is about."
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "beatNid": "develop",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "写样子特点"
+          },
+          {
+            "lang": "en",
+            "text": "Add how it looks"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "接着写它的样子、特点或常在做什么。用看得见、听得到的细节把这个对象立住，不要另起一个话题。"
+          },
+          {
+            "lang": "en",
+            "text": "Then write how it looks, what it is like, or what it often does. Use details you can see or hear, and stay with this one thing."
+          }
+        ]
+      },
+      {
+        "order": 3,
+        "beatNid": "turn",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "举个例子"
+          },
+          {
+            "lang": "en",
+            "text": "Give an example"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "如果还要再写，就补一个具体的例子或一个特别的地方，让前面那些特点落到一件真事上。"
+          },
+          {
+            "lang": "en",
+            "text": "If you write more, add a concrete example or one special detail so the earlier points land on something real."
+          }
+        ]
+      },
+      {
+        "order": 4,
+        "beatNid": "close",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "收一句感受"
+          },
+          {
+            "lang": "en",
+            "text": "End with a feeling"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "可以收一句你的感受、喜好，或它为什么值得一写。不写也可以，别在这里突然换成别的东西。"
+          },
+          {
+            "lang": "en",
+            "text": "You may end with a feeling, a preference, or why it is worth writing about. You can skip this beat, but do not switch to something else."
+          }
+        ]
+      }
+    ],
+    "difficulty": {
+      "min": 0,
+      "max": 3
+    },
+    "name": [
+      {
+        "lang": "zh",
+        "text": "描述"
+      },
+      {
+        "lang": "en",
+        "text": "Description"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "先说出要写的是谁或什么，再把它的样子和特点写清楚，最后可以补一句感受。"
+      },
+      {
+        "lang": "en",
+        "text": "First name who or what you are writing about, then add how it looks or what it is like, and you may end with a feeling."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "qa",
+    "order": 2,
+    "localTask": [
+      {
+        "lang": "zh",
+        "text": "围绕一个核心问题作答并补细节"
+      },
+      {
+        "lang": "en",
+        "text": "Answer one question and add detail"
+      }
+    ],
+    "beats": [
+      {
+        "order": 1,
+        "beatNid": "opening",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "先答问题"
+          },
+          {
+            "lang": "en",
+            "text": "Answer first"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "题目问什么，第一句就答什么。不要先铺垫、绕圈子；别人读完就应该听到那个答案。"
+          },
+          {
+            "lang": "en",
+            "text": "Answer the question in the first sentence. Do not warm up or talk around it; a reader should hear the answer at once."
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "beatNid": "develop",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "补相关细节"
+          },
+          {
+            "lang": "en",
+            "text": "Add related detail"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "再补上和这个答案直接有关的细节：谁、在哪、怎么样、为什么。补的内容要能撑住刚才那句回答。"
+          },
+          {
+            "lang": "en",
+            "text": "Then add details that belong to that answer: who, where, how, or why. What you add should support the sentence you just wrote."
+          }
+        ]
+      },
+      {
+        "order": 3,
+        "beatNid": "turn",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "再补一个角度"
+          },
+          {
+            "lang": "en",
+            "text": "Add another angle"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "如果还要写，就换一个小角度再补一点，例如另一种情况或另一条相关信息，仍然围着同一个问题。"
+          },
+          {
+            "lang": "en",
+            "text": "If you write more, add one more angle — another case or one related fact — still about the same question."
+          }
+        ]
+      },
+      {
+        "order": 4,
+        "beatNid": "close",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "把回答收住"
+          },
+          {
+            "lang": "en",
+            "text": "Close the answer"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "用一句把回答收住，让人觉得这个问题已经说完了。不要在收尾时再抛出新问题。"
+          },
+          {
+            "lang": "en",
+            "text": "Close so the question feels finished. Do not open a new question at the end."
+          }
+        ]
+      }
+    ],
+    "difficulty": {
+      "min": 0,
+      "max": 2
+    },
+    "name": [
+      {
+        "lang": "zh",
+        "text": "问答"
+      },
+      {
+        "lang": "en",
+        "text": "Question and Answer"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "先直接回答问题，再补上相关的细节。问题一般已经写在题目里。"
+      },
+      {
+        "lang": "en",
+        "text": "Answer the question first, then add a little more. The question is usually already in the prompt."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "recount",
+    "order": 3,
+    "localTask": [
+      {
+        "lang": "zh",
+        "text": "把一件发生过的事按顺序说完"
+      },
+      {
+        "lang": "en",
+        "text": "Tell what happened, in order"
+      }
+    ],
+    "beats": [
+      {
+        "order": 1,
+        "beatNid": "opening",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "交代时间地点"
+          },
+          {
+            "lang": "en",
+            "text": "Set time and place"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "先交代那一次是在什么时候、什么地方，必要时点出有谁。让读者知道你要讲的是已经发生过的一件事。"
+          },
+          {
+            "lang": "en",
+            "text": "First say when and where that time was, and who was there if it matters. A reader should know you are telling something that already happened."
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "beatNid": "develop",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "按顺序写经过"
+          },
+          {
+            "lang": "en",
+            "text": "Tell it in order"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "按发生的顺序把经过写下去：先怎样、后来怎样。一件事接一件事，不要跳到说明做法或发表观点。"
+          },
+          {
+            "lang": "en",
+            "text": "Tell what happened in order: first this, then that. Stay with the events; do not switch into how-to steps or an opinion."
+          }
+        ]
+      },
+      {
+        "order": 3,
+        "beatNid": "turn",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "写意外转折"
+          },
+          {
+            "lang": "en",
+            "text": "Write the turn"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "如果有变化、意外或转折，就写在这里：事情跟预想不一样的那一下。没有的话这一拍可以空着。"
+          },
+          {
+            "lang": "en",
+            "text": "If something changed or went unexpected, write that shift here. If nothing turned, this beat may stay empty."
+          }
+        ]
+      },
+      {
+        "order": 4,
+        "beatNid": "close",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "写结果感受"
+          },
+          {
+            "lang": "en",
+            "text": "End with the result"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "写这件事的结果，或你当时的感受。收在「那一次」上，不要改口去讲以后常常怎么做。"
+          },
+          {
+            "lang": "en",
+            "text": "End with the result or how you felt that time. Stay with that one occasion; do not switch into how it is usually done."
+          }
+        ]
+      }
+    ],
+    "difficulty": {
+      "min": 0,
+      "max": 4
+    },
+    "name": [
+      {
+        "lang": "zh",
+        "text": "经过"
+      },
+      {
+        "lang": "en",
+        "text": "What Happened"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "写下那一次发生了什么：先交代时间和地点，再按顺序写经过，最后写结果或感受。"
+      },
+      {
+        "lang": "en",
+        "text": "Tell what happened that time: set the time and place, then write the events in order, and end with the result or how you felt."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "process",
+    "order": 4,
+    "localTask": [
+      {
+        "lang": "zh",
+        "text": "把一种做法或通用过程讲清楚"
+      },
+      {
+        "lang": "en",
+        "text": "Explain how something is done"
+      }
+    ],
+    "beats": [
+      {
+        "order": 1,
+        "beatNid": "opening",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "先说怎么做"
+          },
+          {
+            "lang": "en",
+            "text": "Say what the steps are"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "先说清楚你要讲的是哪一件事怎么做，以及大概有几步。读者应该知道接下来是说明书，不是在讲某一次经历。"
+          },
+          {
+            "lang": "en",
+            "text": "First say what you are explaining how to do, and roughly how many steps there are. A reader should know this is a how-to, not one past event."
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "beatNid": "develop",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "一步步写"
+          },
+          {
+            "lang": "en",
+            "text": "Write the steps"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "按步骤往下写：先做什么、再做什么。每一步都是通用做法，用顺序词带着走，别写成「有一天我……」。"
+          },
+          {
+            "lang": "en",
+            "text": "Write the steps in order: first do this, then that. These are the usual steps, not a story that starts with “one day I…”."
+          }
+        ]
+      },
+      {
+        "order": 3,
+        "beatNid": "turn",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "这一拍空着"
+          },
+          {
+            "lang": "en",
+            "text": "Leave this beat empty"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "过程段通常不在这里拐弯。这一拍空着，把步骤写在展开里就行。"
+          },
+          {
+            "lang": "en",
+            "text": "A process paragraph usually does not turn here. Leave this beat empty and keep the steps in the develop beat."
+          }
+        ]
+      },
+      {
+        "order": 4,
+        "beatNid": "close",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "写做成之后"
+          },
+          {
+            "lang": "en",
+            "text": "Say what it is like done"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "写做成之后会怎样，或提醒最后要注意什么。让人感到这套步骤已经走完。"
+          },
+          {
+            "lang": "en",
+            "text": "Say what it is like when it is done, or give a last reminder. The steps should feel finished."
+          }
+        ]
+      }
+    ],
+    "difficulty": {
+      "min": 1,
+      "max": 4
+    },
+    "name": [
+      {
+        "lang": "zh",
+        "text": "过程"
+      },
+      {
+        "lang": "en",
+        "text": "How to Do It"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "讲清楚一件事通常怎么做：先说要讲哪些步骤，再一步步写，最后写做成之后会怎样。"
+      },
+      {
+        "lang": "en",
+        "text": "Explain how something is usually done: say what the steps are, write them in order, and end with the result."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "reason_example",
+    "order": 5,
+    "localTask": [
+      {
+        "lang": "zh",
+        "text": "先立一点，再给原因，再用例子撑住"
+      },
+      {
+        "lang": "en",
+        "text": "State a point, then reason, then example"
+      }
+    ],
+    "beats": [
+      {
+        "order": 1,
+        "beatNid": "opening",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "先立那一点"
+          },
+          {
+            "lang": "en",
+            "text": "State the point"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "先把你要说明的那一点写出来：你主张什么、或要解释哪一件事实。后面所有句子都围着这一点。"
+          },
+          {
+            "lang": "en",
+            "text": "First state the point you will explain: what you claim, or which fact you are accounting for. Everything after this stays on that point."
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "beatNid": "develop",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "再说为什么"
+          },
+          {
+            "lang": "en",
+            "text": "Say why"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "接着说为什么：给出原因、根据或道理。这一拍是在撑住开头那一点，不是另起一个观点。"
+          },
+          {
+            "lang": "en",
+            "text": "Then say why: give a reason or grounds. This beat supports the opening point; it is not a new claim."
+          }
+        ]
+      },
+      {
+        "order": 3,
+        "beatNid": "turn",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "落到例子上"
+          },
+          {
+            "lang": "en",
+            "text": "Land on an example"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "最好再落到一个具体例子上，让原因变得可看见。没有合适的例子时可以空着，但有例子会更稳。"
+          },
+          {
+            "lang": "en",
+            "text": "If you can, land on a concrete example so the reason can be seen. You may skip this beat, but an example makes it stronger."
+          }
+        ]
+      },
+      {
+        "order": 4,
+        "beatNid": "close",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "把这一点收住"
+          },
+          {
+            "lang": "en",
+            "text": "Close on that point"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "用一句把这一点收住，让人回到开头那个判断。不要在收尾时换成另一个主张。"
+          },
+          {
+            "lang": "en",
+            "text": "Close back on that same point. Do not switch to a different claim at the end."
+          }
+        ]
+      }
+    ],
+    "difficulty": {
+      "min": 1,
+      "max": 4
+    },
+    "name": [
+      {
+        "lang": "zh",
+        "text": "原因和例子"
+      },
+      {
+        "lang": "en",
+        "text": "Reason and Example"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "先写出你要说明的那一点，再说为什么，最好再举一个例子。"
+      },
+      {
+        "lang": "en",
+        "text": "First make your point, then say why, and add an example if you can."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "comparison",
+    "order": 6,
+    "localTask": [
+      {
+        "lang": "zh",
+        "text": "对照两个对象后落下判断"
+      },
+      {
+        "lang": "en",
+        "text": "Compare two sides and judge"
+      }
+    ],
+    "beats": [
+      {
+        "order": 1,
+        "beatNid": "opening",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "先说比什么"
+          },
+          {
+            "lang": "en",
+            "text": "Say what you compare"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "先说要比的是哪两方、比什么。读完这一句，读者就知道后面是在对照，而不是只写其中一边。"
+          },
+          {
+            "lang": "en",
+            "text": "First say which two sides you are comparing, and on what. A reader should know this is a contrast, not a description of only one side."
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "beatNid": "develop",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "写清楚一边"
+          },
+          {
+            "lang": "en",
+            "text": "Write one side"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "把其中一边写清楚：它什么样、有什么特点。先把这一边立住，再留给下一拍去写另一边。"
+          },
+          {
+            "lang": "en",
+            "text": "Write one side clearly: what it is like. Set this side down before the next beat takes the other side."
+          }
+        ]
+      },
+      {
+        "order": 3,
+        "beatNid": "turn",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "再写另一边"
+          },
+          {
+            "lang": "en",
+            "text": "Write the other side"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "再写另一边，对准刚才比的那几件事来说。两边要对得上，才看得出异同。"
+          },
+          {
+            "lang": "en",
+            "text": "Then write the other side, on the same points you just used. The two sides should line up so the difference can be seen."
+          }
+        ]
+      },
+      {
+        "order": 4,
+        "beatNid": "close",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "落下判断"
+          },
+          {
+            "lang": "en",
+            "text": "Give your judgment"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "落下你的判断：更喜欢哪边、哪边更合适，或两边各自适合什么。不要只停在罗列差异。"
+          },
+          {
+            "lang": "en",
+            "text": "Give your judgment: which side you prefer, which fits better, or what each side is for. Do not stop at listing differences."
+          }
+        ]
+      }
+    ],
+    "difficulty": {
+      "min": 1,
+      "max": 4
+    },
+    "name": [
+      {
+        "lang": "zh",
+        "text": "比较"
+      },
+      {
+        "lang": "en",
+        "text": "Comparison"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "先说要比什么，再一边一边写清楚，最后说出你的判断。"
+      },
+      {
+        "lang": "en",
+        "text": "First say what you are comparing, write one side and then the other, and finish with your judgment."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "opinion",
+    "order": 7,
+    "localTask": [
+      {
+        "lang": "zh",
+        "text": "先表态，再撑住，再收束"
+      },
+      {
+        "lang": "en",
+        "text": "State a view, support it, and close"
+      }
+    ],
+    "beats": [
+      {
+        "order": 1,
+        "beatNid": "opening",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "先说出看法"
+          },
+          {
+            "lang": "en",
+            "text": "State your view"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "先把自己的看法说出来，态度要清楚。后面是在为这个看法辩护，不是先讲故事再猜你的立场。"
+          },
+          {
+            "lang": "en",
+            "text": "State your view first, clearly. What follows defends this view; do not tell a story and leave the stance to guesswork."
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "beatNid": "develop",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "用理由撑住"
+          },
+          {
+            "lang": "en",
+            "text": "Support with a reason"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "用理由撑住刚才的看法：为什么你会这样想。一条理由写清楚，比空泛地重复观点更有用。"
+          },
+          {
+            "lang": "en",
+            "text": "Support that view with a reason: why you think so. One clear reason is worth more than repeating the opinion."
+          }
+        ]
+      },
+      {
+        "order": 3,
+        "beatNid": "turn",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "举例或让一步"
+          },
+          {
+            "lang": "en",
+            "text": "Give an example or concede"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "可以举例、让一步，或点出别人可能不同意的地方再回应。这一拍是把看法写厚，不是改口。"
+          },
+          {
+            "lang": "en",
+            "text": "You may give an example, concede a little, or answer a likely disagreement. This thickens the view; it is not a change of mind."
+          }
+        ]
+      },
+      {
+        "order": 4,
+        "beatNid": "close",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "再点回观点"
+          },
+          {
+            "lang": "en",
+            "text": "Restate the view"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "再点一句你的观点，把整段收回到开头的立场上。不要在最后改成另一个结论。"
+          },
+          {
+            "lang": "en",
+            "text": "Restate your view and close on the same stance you opened with. Do not switch to a different conclusion."
+          }
+        ]
+      }
+    ],
+    "difficulty": {
+      "min": 2,
+      "max": 4
+    },
+    "name": [
+      {
+        "lang": "zh",
+        "text": "观点"
+      },
+      {
+        "lang": "en",
+        "text": "Opinion"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "先说出你的看法，再用理由撑住，最后把观点收住。"
+      },
+      {
+        "lang": "en",
+        "text": "First say what you think, support it with reasons, and close with your view."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "problem_solution",
+    "order": 8,
+    "localTask": [
+      {
+        "lang": "zh",
+        "text": "提出问题并给出办法"
+      },
+      {
+        "lang": "en",
+        "text": "Name a problem and offer a solution"
+      }
+    ],
+    "beats": [
+      {
+        "order": 1,
+        "beatNid": "opening",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "点出问题"
+          },
+          {
+            "lang": "en",
+            "text": "Name the problem"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "先把问题点出来：难在哪里、谁会碰到。让读者知道这段是在处理一个麻烦，不是在描写风景。"
+          },
+          {
+            "lang": "en",
+            "text": "Name the problem first: what is hard, and who runs into it. A reader should know this paragraph is handling a trouble, not describing a scene."
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "beatNid": "develop",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "说清情况"
+          },
+          {
+            "lang": "en",
+            "text": "Explain the situation"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "把现在的情况说清楚：这个问题带来什么影响、为什么值得管。为后面给办法做铺垫。"
+          },
+          {
+            "lang": "en",
+            "text": "Explain the situation: what the problem does, and why it matters. This sets up the solution that follows."
+          }
+        ]
+      },
+      {
+        "order": 3,
+        "beatNid": "turn",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "给出办法"
+          },
+          {
+            "lang": "en",
+            "text": "Give a solution"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "给出办法：可以怎么做、谁来做。办法要能对上开头那个问题，不要另开一张清单。"
+          },
+          {
+            "lang": "en",
+            "text": "Give a way to deal with it: what to do, and who does it. The solution must meet the problem you named, not start a new list."
+          }
+        ]
+      },
+      {
+        "order": 4,
+        "beatNid": "close",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "写结果建议"
+          },
+          {
+            "lang": "en",
+            "text": "End with result or advice"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "写做成之后会怎样，或给一条建议、提醒。让人感到问题已经被接住了。"
+          },
+          {
+            "lang": "en",
+            "text": "Say what happens if it works, or give one last piece of advice. The problem should feel taken up."
+          }
+        ]
+      }
+    ],
+    "difficulty": {
+      "min": 2,
+      "max": 4
+    },
+    "name": [
+      {
+        "lang": "zh",
+        "text": "问题和办法"
+      },
+      {
+        "lang": "en",
+        "text": "Problem and Solution"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "先写出问题，再说明情况，接着给出办法，最后写结果或建议。"
+      },
+      {
+        "lang": "en",
+        "text": "First name the problem, explain the situation, then offer a way to solve it, and end with the result or advice."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "summary",
+    "order": 9,
+    "localTask": [
+      {
+        "lang": "zh",
+        "text": "把给定文本的要点转述出来，不表态"
+      },
+      {
+        "lang": "en",
+        "text": "Restate a given text without adding a stance"
+      }
+    ],
+    "beats": [
+      {
+        "order": 1,
+        "beatNid": "opening",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "写出大意"
+          },
+          {
+            "lang": "en",
+            "text": "State the gist"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "用一句话写出原文大意：这篇文章大致在说什么。用自己的话，不要掺进你赞不赞成。"
+          },
+          {
+            "lang": "en",
+            "text": "In one sentence, say what the source is about, in your own words. Do not add whether you agree."
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "beatNid": "develop",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "转述要点"
+          },
+          {
+            "lang": "en",
+            "text": "Retell the points"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "按原文的要点往下转述，仍然用自己的话。只写原文有的意思，不要补充新例子或新评价。"
+          },
+          {
+            "lang": "en",
+            "text": "Retell the main points in your own words. Stay with what the source says; do not add new examples or judgments."
+          }
+        ]
+      },
+      {
+        "order": 3,
+        "beatNid": "turn",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "这一拍空着"
+          },
+          {
+            "lang": "en",
+            "text": "Leave this beat empty"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "概要不要在这里拐去谈你自己的看法。这一拍空着，避免把转述写成评论。"
+          },
+          {
+            "lang": "en",
+            "text": "A summary does not turn into your own view here. Leave this beat empty so retelling does not become a comment."
+          }
+        ]
+      },
+      {
+        "order": 4,
+        "beatNid": "close",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "收住原文落点"
+          },
+          {
+            "lang": "en",
+            "text": "Close on the source"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "收住原文的结论或落点。到此为止仍是别人的意思，最后一句也不要改成「我认为」。"
+          },
+          {
+            "lang": "en",
+            "text": "Close on the source’s ending point. It is still the other writer’s meaning; do not finish with “I think”."
+          }
+        ]
+      }
+    ],
+    "difficulty": {
+      "min": 3,
+      "max": 5
+    },
+    "name": [
+      {
+        "lang": "zh",
+        "text": "概要"
+      },
+      {
+        "lang": "en",
+        "text": "Summary"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "用自己的话写出别人文章的要点，不要加入你自己的看法。"
+      },
+      {
+        "lang": "en",
+        "text": "Retell the main points of a given text in your own words, without adding your own opinion."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  }
+]

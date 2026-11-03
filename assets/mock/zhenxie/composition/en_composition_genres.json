@@ -1,0 +1,58 @@
+[
+  {
+    "nid": "narrative",
+    "order": 1,
+    "name": [
+      { "lang": "zh", "text": "记叙文" },
+      { "lang": "en", "text": "Narrative" }
+    ],
+    "description": [
+      { "lang": "zh", "text": "写人、记事、看图或把故事接着写下去。" },
+      { "lang": "en", "text": "Write about people and events, describe a picture, or continue a story." }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "expository",
+    "order": 2,
+    "name": [
+      { "lang": "zh", "text": "说明文" },
+      { "lang": "en", "text": "Expository" }
+    ],
+    "description": [
+      { "lang": "zh", "text": "介绍或说明一个人、地方、事物、做法或原因。" },
+      { "lang": "en", "text": "Introduce or explain a person, place, thing, process, or reason." }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "argumentative",
+    "order": 3,
+    "name": [
+      { "lang": "zh", "text": "议论文" },
+      { "lang": "en", "text": "Argumentative" }
+    ],
+    "description": [
+      { "lang": "zh", "text": "提出看法或问题，再写出理由、建议或办法。" },
+      { "lang": "en", "text": "State a view or a problem, then give reasons, suggestions, or solutions." }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "practical",
+    "order": 4,
+    "name": [
+      { "lang": "zh", "text": "应用文" },
+      { "lang": "en", "text": "Practical Writing" }
+    ],
+    "description": [
+      { "lang": "zh", "text": "写信、邮件、通知、便签、日记等给别人看或自己用的实用文字。" },
+      { "lang": "en", "text": "Write practical texts such as letters, emails, notices, notes, or diary entries." }
+    ],
+    "system": true,
+    "enabled": true
+  }
+]

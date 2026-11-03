@@ -1,0 +1,20 @@
+<svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 162903">
+<g id="Phosphor Icons / BellSimple">
+<path id="Vector" d="M12.25 20.75H16.75" stroke="#ACB4C0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M9.45349 11.3126C9.45255 10.6457 9.58356 9.98527 9.83896 9.36925C10.0944 8.75324 10.4691 8.19385 10.9416 7.72329C11.4142 7.25273 11.9751 6.8803 12.5922 6.62747C13.2092 6.37463 13.8702 6.24637 14.5371 6.25008C17.3215 6.27117 19.5504 8.58445 19.5504 11.3759V11.8751C19.5504 14.3923 20.0777 15.8548 20.5418 16.6563C20.5911 16.7417 20.617 16.8385 20.6171 16.9371C20.6172 17.0357 20.5914 17.1325 20.5423 17.218C20.4931 17.3034 20.4224 17.3745 20.3372 17.424C20.2519 17.4735 20.1552 17.4997 20.0566 17.5001H8.94724C8.84867 17.4997 8.75192 17.4735 8.66668 17.424C8.58145 17.3745 8.51072 17.3034 8.46158 17.218C8.41245 17.1325 8.38663 17.0357 8.38672 16.9371C8.38681 16.8385 8.41279 16.7417 8.46208 16.6563C8.92614 15.8548 9.45349 14.3923 9.45349 11.8751V11.3126Z" stroke="#ACB4C0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="Rectangle" filter="url(#filter0_d_18768_87768)">
+</g>
+</g>
+<defs>
+<filter id="filter0_d_18768_87768" x="20" y="2" width="6" height="6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_18768_87768"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_18768_87768" result="shape"/>
+</filter>
+</defs>
+</svg>
