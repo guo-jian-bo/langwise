@@ -1,0 +1,2170 @@
+{
+  "nid": "state_sentence_type_contrast",
+  "dimensionNid": "sentence_type_contrast",
+  "dimension": {
+    "nid": "sentence_type_contrast",
+    "name": [
+      {
+        "lang": "zh",
+        "text": "句子类型对照"
+      },
+      {
+        "lang": "en",
+        "text": "Sentence Type Contrast"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "用于把陈述、疑问、祈使等句力放在一起对照；不是简单句/并列句/复合句的基本类型轴。"
+      },
+      {
+        "lang": "en",
+        "text": "Contrasts sentence force (statement, question, imperative), not basic clause complexity."
+      }
+    ]
+  },
+  "transformationKindNid": "realization",
+  "transformationKind": {
+    "nid": "realization",
+    "name": [
+      {
+        "lang": "zh",
+        "text": "同一条主线可以换哪些说法"
+      },
+      {
+        "lang": "en",
+        "text": "How One Learning Path Changes Form"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "用于说明同一学习主线下，不同实现说法之间怎样切换。"
+      },
+      {
+        "lang": "en",
+        "text": "Used to show how different realizations can appear within the same learning path."
+      }
+    ]
+  },
+  "contrastTypeNid": "alternatives",
+  "contrastType": {
+    "nid": "alternatives",
+    "name": [
+      {
+        "lang": "zh",
+        "text": "换档并列"
+      },
+      {
+        "lang": "en",
+        "text": "Independent alternatives"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "各成员独立画面，只保持画风和主角；不强制同场景，也不做成相反状态。"
+      },
+      {
+        "lang": "en",
+        "text": "Independent pictures per member; keep style and lead character only. Do not force a shared scene or opposite states."
+      }
+    ]
+  },
+  "name": [
+    {
+      "lang": "zh",
+      "text": "be 句怎样陈述、确认和追问"
+    },
+    {
+      "lang": "en",
+      "text": "Be-State Sentences Across Statement and Question Types"
+    }
+  ],
+  "description": [
+    {
+      "lang": "zh",
+      "text": "同一个状态，对照陈述、一般疑问和特殊疑问；换档并列，各壳独立画面。"
+    },
+    {
+      "lang": "en",
+      "text": "The same state as a statement, yes-no question, or wh-question. Independent pictures."
+    }
+  ],
+  "memberSwitchPolicy": {
+    "mode": "replace_pattern",
+    "carry": "mapped_slots_only",
+    "unmappedSourceSlots": "drop",
+    "targetControlledSlots": "from_target_pattern"
+  },
+  "teachingEntry": {
+    "patternNid": "state_entity_be_adj",
+    "grammarFeatureNids": [
+      "affirmative",
+      "indicative_mood",
+      "active_voice"
+    ]
+  },
+  "teachingEntryInfo": {
+    "patternNid": "state_entity_be_adj",
+    "pattern": {
+      "nid": "state_entity_be_adj",
+      "name": [
+        {
+          "lang": "zh",
+          "text": "说明是什么状态"
+        },
+        {
+          "lang": "en",
+          "text": "Say what state it is in"
+        }
+      ],
+      "description": [
+        {
+          "lang": "zh",
+          "text": "说明主语处于什么状态。情绪形容词后可跟 to-inf（glad/happy/pleased/delighted to do），不按形容词拆 nid。"
+        },
+        {
+          "lang": "en",
+          "text": "Say what state the subject is in. Evaluative adjectives may take an optional to-infinitive; do not split by adjective."
+        }
+      ],
+      "template": "{fronted_context} {subject} {be_marking} {frequency_adv} {property} {evaluated_action} {context_phrase}."
+    },
+    "grammarFeatureNids": [
+      "affirmative",
+      "indicative_mood",
+      "active_voice"
+    ],
+    "grammarFeatures": [
+      {
+        "nid": "affirmative",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "肯定形式"
+          },
+          {
+            "lang": "en",
+            "text": "Affirmative"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "表示肯定、确认或直接陈述某事成立。"
+          },
+          {
+            "lang": "en",
+            "text": "Marks a positive statement, confirmation, or direct assertion that something holds true."
+          }
+        ]
+      },
+      {
+        "nid": "indicative_mood",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "陈述语气"
+          },
+          {
+            "lang": "en",
+            "text": "Indicative Mood"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+          },
+          {
+            "lang": "en",
+            "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+          }
+        ]
+      },
+      {
+        "nid": "active_voice",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "主动语态"
+          },
+          {
+            "lang": "en",
+            "text": "Active Voice"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+          },
+          {
+            "lang": "en",
+            "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+          }
+        ]
+      }
+    ]
+  },
+  "paradigmSlots": [
+    {
+      "slotKey": "subject",
+      "required": true,
+      "slotRole": "semantic_carry"
+    },
+    {
+      "slotKey": "property",
+      "required": false,
+      "slotRole": "semantic_carry"
+    }
+  ],
+  "members": [
+    {
+      "valueNid": "declarative",
+      "realization": {
+        "patternNid": "state_entity_be_adj",
+        "grammarFeatureNids": [
+          "affirmative",
+          "indicative_mood",
+          "active_voice"
+        ]
+      },
+      "teachingExample": "She is tall.",
+      "activeParadigmSlotKeys": [
+        "subject",
+        "property"
+      ],
+      "slotMappings": [
+        {
+          "paradigmSlotKey": "subject",
+          "patternSlotKey": "subject"
+        },
+        {
+          "paradigmSlotKey": "property",
+          "patternSlotKey": "property"
+        }
+      ],
+      "controlledSlotKeys": [
+        "copula_be"
+      ],
+      "contrastFocus": {
+        "patternSlotKeys": [
+          "copula_be"
+        ],
+        "templateLiterals": []
+      }
+    },
+    {
+      "valueNid": "yes_no_question",
+      "realization": {
+        "patternNid": "ask_be_yes_no",
+        "grammarFeatureNids": [
+          "affirmative",
+          "indicative_mood",
+          "active_voice"
+        ]
+      },
+      "teachingExample": "Is she tall?",
+      "activeParadigmSlotKeys": [
+        "subject",
+        "property"
+      ],
+      "slotMappings": [
+        {
+          "paradigmSlotKey": "subject",
+          "patternSlotKey": "question_subject"
+        },
+        {
+          "paradigmSlotKey": "property",
+          "patternSlotKey": "question_complement"
+        }
+      ],
+      "controlledSlotKeys": [
+        "aux_be"
+      ],
+      "contrastFocus": {
+        "patternSlotKeys": [
+          "aux_be"
+        ],
+        "templateLiterals": []
+      }
+    },
+    {
+      "valueNid": "wh_question",
+      "realization": {
+        "patternNid": "ask_what_be_subject",
+        "grammarFeatureNids": [
+          "indicative_mood",
+          "active_voice"
+        ]
+      },
+      "teachingExample": "What is she?",
+      "activeParadigmSlotKeys": [
+        "subject"
+      ],
+      "slotMappings": [
+        {
+          "paradigmSlotKey": "subject",
+          "patternSlotKey": "question_subject"
+        }
+      ],
+      "controlledSlotKeys": [
+        "aux_be"
+      ],
+      "contrastFocus": {
+        "patternSlotKeys": [
+          "aux_be"
+        ],
+        "templateLiterals": [
+          "What"
+        ]
+      }
+    }
+  ],
+  "memberList": [
+    {
+      "valueNid": "declarative",
+      "valueLabel": {
+        "nid": "declarative",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "陈述句"
+          },
+          {
+            "lang": "en",
+            "text": "Declarative"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "用于陈述事实、观点、状态或信息，是写作与说明中最基础、最常见的句子功能类型。"
+          },
+          {
+            "lang": "en",
+            "text": "Used to state facts, ideas, states, or information; the most common functional sentence type in writing and explanation."
+          }
+        ]
+      },
+      "realization": {
+        "patternNid": "state_entity_be_adj",
+        "grammarFeatureNids": [
+          "affirmative",
+          "indicative_mood",
+          "active_voice"
+        ]
+      },
+      "realizationInfo": {
+        "patternNid": "state_entity_be_adj",
+        "pattern": {
+          "nid": "state_entity_be_adj",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "说明是什么状态"
+            },
+            {
+              "lang": "en",
+              "text": "Say what state it is in"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "说明主语处于什么状态。情绪形容词后可跟 to-inf（glad/happy/pleased/delighted to do），不按形容词拆 nid。"
+            },
+            {
+              "lang": "en",
+              "text": "Say what state the subject is in. Evaluative adjectives may take an optional to-infinitive; do not split by adjective."
+            }
+          ],
+          "template": "{fronted_context} {subject} {be_marking} {frequency_adv} {property} {evaluated_action} {context_phrase}."
+        },
+        "grammarFeatureNids": [
+          "affirmative",
+          "indicative_mood",
+          "active_voice"
+        ],
+        "grammarFeatures": [
+          {
+            "nid": "affirmative",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "肯定形式"
+              },
+              {
+                "lang": "en",
+                "text": "Affirmative"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "表示肯定、确认或直接陈述某事成立。"
+              },
+              {
+                "lang": "en",
+                "text": "Marks a positive statement, confirmation, or direct assertion that something holds true."
+              }
+            ]
+          },
+          {
+            "nid": "indicative_mood",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "陈述语气"
+              },
+              {
+                "lang": "en",
+                "text": "Indicative Mood"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+              }
+            ]
+          },
+          {
+            "nid": "active_voice",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "主动语态"
+              },
+              {
+                "lang": "en",
+                "text": "Active Voice"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+              },
+              {
+                "lang": "en",
+                "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+              }
+            ]
+          }
+        ]
+      },
+      "teachingExample": "She is tall.",
+      "activeParadigmSlotKeys": [
+        "subject",
+        "property"
+      ],
+      "slotMappings": [
+        {
+          "paradigmSlotKey": "subject",
+          "patternSlotKey": "subject"
+        },
+        {
+          "paradigmSlotKey": "property",
+          "patternSlotKey": "property"
+        }
+      ],
+      "controlledSlotKeys": [
+        "copula_be"
+      ],
+      "contrastFocus": {
+        "patternSlotKeys": [
+          "copula_be"
+        ],
+        "templateLiterals": []
+      }
+    },
+    {
+      "valueNid": "yes_no_question",
+      "valueLabel": {
+        "nid": "yes_no_question",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "一般疑问句"
+          },
+          {
+            "lang": "en",
+            "text": "Yes-No Question"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "用于询问答案是否为“是/否”的问题，常通过助动词、be 动词或情态动词提前形成。"
+          },
+          {
+            "lang": "en",
+            "text": "Used to ask for a yes-or-no answer, usually formed by fronting an auxiliary, a form of be, or a modal verb."
+          }
+        ]
+      },
+      "realization": {
+        "patternNid": "ask_be_yes_no",
+        "grammarFeatureNids": [
+          "affirmative",
+          "indicative_mood",
+          "active_voice"
+        ]
+      },
+      "realizationInfo": {
+        "patternNid": "ask_be_yes_no",
+        "pattern": {
+          "nid": "ask_be_yes_no",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "确认是什么身份或状态"
+            },
+            {
+              "lang": "en",
+              "text": "Checking Someone's or Something's Identity or State"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "当场确认某人或某物现在是不是某种身份、状态或类别。"
+            },
+            {
+              "lang": "en",
+              "text": "Used to check whether someone or something is a certain person, thing, or state right now."
+            }
+          ],
+          "template": "{aux_be} {question_subject} {question_complement} {context_phrase} {time_expression}?"
+        },
+        "grammarFeatureNids": [
+          "affirmative",
+          "indicative_mood",
+          "active_voice"
+        ],
+        "grammarFeatures": [
+          {
+            "nid": "affirmative",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "肯定形式"
+              },
+              {
+                "lang": "en",
+                "text": "Affirmative"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "表示肯定、确认或直接陈述某事成立。"
+              },
+              {
+                "lang": "en",
+                "text": "Marks a positive statement, confirmation, or direct assertion that something holds true."
+              }
+            ]
+          },
+          {
+            "nid": "indicative_mood",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "陈述语气"
+              },
+              {
+                "lang": "en",
+                "text": "Indicative Mood"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+              }
+            ]
+          },
+          {
+            "nid": "active_voice",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "主动语态"
+              },
+              {
+                "lang": "en",
+                "text": "Active Voice"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+              },
+              {
+                "lang": "en",
+                "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+              }
+            ]
+          }
+        ]
+      },
+      "teachingExample": "Is she tall?",
+      "activeParadigmSlotKeys": [
+        "subject",
+        "property"
+      ],
+      "slotMappings": [
+        {
+          "paradigmSlotKey": "subject",
+          "patternSlotKey": "question_subject"
+        },
+        {
+          "paradigmSlotKey": "property",
+          "patternSlotKey": "question_complement"
+        }
+      ],
+      "controlledSlotKeys": [
+        "aux_be"
+      ],
+      "contrastFocus": {
+        "patternSlotKeys": [
+          "aux_be"
+        ],
+        "templateLiterals": []
+      }
+    },
+    {
+      "valueNid": "wh_question",
+      "valueLabel": {
+        "nid": "wh_question",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "特殊疑问句"
+          },
+          {
+            "lang": "en",
+            "text": "WH Question"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "用于询问人物、时间、地点、原因、方式等具体信息，通常由 what、who、where、why、how 等引导。"
+          },
+          {
+            "lang": "en",
+            "text": "Used to ask for specific information such as person, time, place, reason, or manner, typically introduced by what, who, where, why, or how."
+          }
+        ]
+      },
+      "realization": {
+        "patternNid": "ask_what_be_subject",
+        "grammarFeatureNids": [
+          "indicative_mood",
+          "active_voice"
+        ]
+      },
+      "realizationInfo": {
+        "patternNid": "ask_what_be_subject",
+        "pattern": {
+          "nid": "ask_what_be_subject",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "询问是什么"
+            },
+            {
+              "lang": "en",
+              "text": "Asking What It Is"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "询问现在是什么。"
+            },
+            {
+              "lang": "en",
+              "text": "Used to ask about what it is."
+            }
+          ],
+          "template": "What {aux_be} {question_subject} {context_phrase} {time_expression}?"
+        },
+        "grammarFeatureNids": [
+          "indicative_mood",
+          "active_voice"
+        ],
+        "grammarFeatures": [
+          {
+            "nid": "indicative_mood",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "陈述语气"
+              },
+              {
+                "lang": "en",
+                "text": "Indicative Mood"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+              }
+            ]
+          },
+          {
+            "nid": "active_voice",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "主动语态"
+              },
+              {
+                "lang": "en",
+                "text": "Active Voice"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+              },
+              {
+                "lang": "en",
+                "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+              }
+            ]
+          }
+        ]
+      },
+      "teachingExample": "What is she?",
+      "activeParadigmSlotKeys": [
+        "subject"
+      ],
+      "slotMappings": [
+        {
+          "paradigmSlotKey": "subject",
+          "patternSlotKey": "question_subject"
+        }
+      ],
+      "controlledSlotKeys": [
+        "aux_be"
+      ],
+      "contrastFocus": {
+        "patternSlotKeys": [
+          "aux_be"
+        ],
+        "templateLiterals": [
+          "What"
+        ]
+      }
+    }
+  ],
+  "realizationSetList": [
+    {
+      "uid": 11790,
+      "contentType": "EN_SENTENCE_REALIZATION_SET",
+      "assetType": "paradigm",
+      "assetNid": "state_sentence_type_contrast",
+      "paradigm": {
+        "nid": "state_sentence_type_contrast",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "be 句怎样陈述、确认和追问"
+          },
+          {
+            "lang": "en",
+            "text": "Be-State Sentences Across Statement and Question Types"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "同一个状态，对照陈述、一般疑问和特殊疑问；换档并列，各壳独立画面。"
+          },
+          {
+            "lang": "en",
+            "text": "The same state as a statement, yes-no question, or wh-question. Independent pictures."
+          }
+        ]
+      },
+      "order": 0,
+      "members": [
+        {
+          "sentenceId": 548393,
+          "role": "member",
+          "valueNid": "declarative",
+          "addedSlotKeys": [],
+          "foci": [
+            {
+              "focusKey": "contrast",
+              "ranges": [
+                {
+                  "start": 0,
+                  "end": 7,
+                  "text": "You are",
+                  "key": null
+                }
+              ]
+            }
+          ],
+          "order": 0
+        },
+        {
+          "sentenceId": 513224,
+          "role": "member",
+          "valueNid": "yes_no_question",
+          "addedSlotKeys": [],
+          "foci": [
+            {
+              "focusKey": "contrast",
+              "ranges": [
+                {
+                  "start": 0,
+                  "end": 7,
+                  "text": "Are you",
+                  "key": null
+                }
+              ]
+            }
+          ],
+          "order": 0
+        },
+        {
+          "sentenceId": 487595,
+          "role": "member",
+          "valueNid": "wh_question",
+          "addedSlotKeys": [],
+          "foci": [
+            {
+              "focusKey": "contrast",
+              "ranges": [
+                {
+                  "start": 44,
+                  "end": 56,
+                  "text": "what you are",
+                  "key": null
+                }
+              ]
+            }
+          ],
+          "order": 0
+        }
+      ],
+      "memberList": [
+        {
+          "valueNid": "declarative",
+          "valueLabel": {
+            "nid": "declarative",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "陈述句"
+              },
+              {
+                "lang": "en",
+                "text": "Declarative"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "用于陈述事实、观点、状态或信息，是写作与说明中最基础、最常见的句子功能类型。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to state facts, ideas, states, or information; the most common functional sentence type in writing and explanation."
+              }
+            ]
+          },
+          "realization": {
+            "patternNid": "state_entity_be_adj",
+            "grammarFeatureNids": [
+              "affirmative",
+              "indicative_mood",
+              "active_voice"
+            ]
+          },
+          "realizationInfo": {
+            "patternNid": "state_entity_be_adj",
+            "pattern": {
+              "nid": "state_entity_be_adj",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "说明是什么状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state it is in"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "说明主语处于什么状态。情绪形容词后可跟 to-inf（glad/happy/pleased/delighted to do），不按形容词拆 nid。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state the subject is in. Evaluative adjectives may take an optional to-infinitive; do not split by adjective."
+                }
+              ],
+              "template": "{fronted_context} {subject} {be_marking} {frequency_adv} {property} {evaluated_action} {context_phrase}."
+            },
+            "grammarFeatureNids": [
+              "affirmative",
+              "indicative_mood",
+              "active_voice"
+            ],
+            "grammarFeatures": [
+              {
+                "nid": "affirmative",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "肯定形式"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Affirmative"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "表示肯定、确认或直接陈述某事成立。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Marks a positive statement, confirmation, or direct assertion that something holds true."
+                  }
+                ]
+              },
+              {
+                "nid": "indicative_mood",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "陈述语气"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Indicative Mood"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+                  }
+                ]
+              },
+              {
+                "nid": "active_voice",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "主动语态"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Active Voice"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+                  }
+                ]
+              }
+            ]
+          },
+          "teachingExample": "She is tall.",
+          "activeParadigmSlotKeys": [
+            "subject",
+            "property"
+          ],
+          "slotMappings": [
+            {
+              "paradigmSlotKey": "subject",
+              "patternSlotKey": "subject"
+            },
+            {
+              "paradigmSlotKey": "property",
+              "patternSlotKey": "property"
+            }
+          ],
+          "controlledSlotKeys": [
+            "copula_be"
+          ],
+          "contrastFocus": {
+            "patternSlotKeys": [
+              "copula_be"
+            ],
+            "templateLiterals": []
+          }
+        },
+        {
+          "valueNid": "yes_no_question",
+          "valueLabel": {
+            "nid": "yes_no_question",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "一般疑问句"
+              },
+              {
+                "lang": "en",
+                "text": "Yes-No Question"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "用于询问答案是否为“是/否”的问题，常通过助动词、be 动词或情态动词提前形成。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to ask for a yes-or-no answer, usually formed by fronting an auxiliary, a form of be, or a modal verb."
+              }
+            ]
+          },
+          "realization": {
+            "patternNid": "ask_be_yes_no",
+            "grammarFeatureNids": [
+              "affirmative",
+              "indicative_mood",
+              "active_voice"
+            ]
+          },
+          "realizationInfo": {
+            "patternNid": "ask_be_yes_no",
+            "pattern": {
+              "nid": "ask_be_yes_no",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "确认是什么身份或状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Checking Someone's or Something's Identity or State"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "当场确认某人或某物现在是不是某种身份、状态或类别。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to check whether someone or something is a certain person, thing, or state right now."
+                }
+              ],
+              "template": "{aux_be} {question_subject} {question_complement} {context_phrase} {time_expression}?"
+            },
+            "grammarFeatureNids": [
+              "affirmative",
+              "indicative_mood",
+              "active_voice"
+            ],
+            "grammarFeatures": [
+              {
+                "nid": "affirmative",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "肯定形式"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Affirmative"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "表示肯定、确认或直接陈述某事成立。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Marks a positive statement, confirmation, or direct assertion that something holds true."
+                  }
+                ]
+              },
+              {
+                "nid": "indicative_mood",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "陈述语气"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Indicative Mood"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+                  }
+                ]
+              },
+              {
+                "nid": "active_voice",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "主动语态"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Active Voice"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+                  }
+                ]
+              }
+            ]
+          },
+          "teachingExample": "Is she tall?",
+          "activeParadigmSlotKeys": [
+            "subject",
+            "property"
+          ],
+          "slotMappings": [
+            {
+              "paradigmSlotKey": "subject",
+              "patternSlotKey": "question_subject"
+            },
+            {
+              "paradigmSlotKey": "property",
+              "patternSlotKey": "question_complement"
+            }
+          ],
+          "controlledSlotKeys": [
+            "aux_be"
+          ],
+          "contrastFocus": {
+            "patternSlotKeys": [
+              "aux_be"
+            ],
+            "templateLiterals": []
+          }
+        },
+        {
+          "valueNid": "wh_question",
+          "valueLabel": {
+            "nid": "wh_question",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "特殊疑问句"
+              },
+              {
+                "lang": "en",
+                "text": "WH Question"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "用于询问人物、时间、地点、原因、方式等具体信息，通常由 what、who、where、why、how 等引导。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to ask for specific information such as person, time, place, reason, or manner, typically introduced by what, who, where, why, or how."
+              }
+            ]
+          },
+          "realization": {
+            "patternNid": "ask_what_be_subject",
+            "grammarFeatureNids": [
+              "indicative_mood",
+              "active_voice"
+            ]
+          },
+          "realizationInfo": {
+            "patternNid": "ask_what_be_subject",
+            "pattern": {
+              "nid": "ask_what_be_subject",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "询问是什么"
+                },
+                {
+                  "lang": "en",
+                  "text": "Asking What It Is"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "询问现在是什么。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to ask about what it is."
+                }
+              ],
+              "template": "What {aux_be} {question_subject} {context_phrase} {time_expression}?"
+            },
+            "grammarFeatureNids": [
+              "indicative_mood",
+              "active_voice"
+            ],
+            "grammarFeatures": [
+              {
+                "nid": "indicative_mood",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "陈述语气"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Indicative Mood"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+                  }
+                ]
+              },
+              {
+                "nid": "active_voice",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "主动语态"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Active Voice"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+                  }
+                ]
+              }
+            ]
+          },
+          "teachingExample": "What is she?",
+          "activeParadigmSlotKeys": [
+            "subject"
+          ],
+          "slotMappings": [
+            {
+              "paradigmSlotKey": "subject",
+              "patternSlotKey": "question_subject"
+            }
+          ],
+          "controlledSlotKeys": [
+            "aux_be"
+          ],
+          "contrastFocus": {
+            "patternSlotKeys": [
+              "aux_be"
+            ],
+            "templateLiterals": [
+              "What"
+            ]
+          }
+        }
+      ],
+      "bindingList": [
+        {
+          "valueNid": "declarative",
+          "sentenceId": 548393,
+          "sentenceStruct": {
+            "sentenceId": 548393,
+            "semanticId": 1166830,
+            "contentType": "EN_SENTENCE",
+            "content": "You are happy.",
+            "definition": "你很开心。",
+            "access": "NORMAL"
+          }
+        },
+        {
+          "valueNid": "yes_no_question",
+          "sentenceId": 513224,
+          "sentenceStruct": {
+            "sentenceId": 513224,
+            "semanticId": 1130510,
+            "contentType": "EN_SENTENCE",
+            "content": "Are you happy?",
+            "definition": "你开心吗？",
+            "patternNid": "ask_be_yes_no",
+            "patternTemplate": "{aux_be} {question_subject} {question_complement} {context_phrase} {time_expression}?",
+            "patternName": [
+              {
+                "lang": "zh",
+                "text": "确认是什么身份或状态"
+              },
+              {
+                "lang": "en",
+                "text": "Checking Someone's or Something's Identity or State"
+              }
+            ],
+            "patternDescription": [
+              {
+                "lang": "zh",
+                "text": "当场确认某人或某物现在是不是某种身份、状态或类别。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to check whether someone or something is a certain person, thing, or state right now."
+              }
+            ],
+            "access": "NORMAL"
+          }
+        },
+        {
+          "valueNid": "wh_question",
+          "sentenceId": 487595,
+          "sentenceStruct": {
+            "sentenceId": 487595,
+            "semanticId": 1099705,
+            "contentType": "EN_SENTENCE",
+            "content": "Twinkle, twinkle, little star, how I wonder what you are.",
+            "definition": "一闪一闪小星星，我多想知道你是什么。",
+            "access": "NORMAL"
+          }
+        }
+      ],
+      "access": "INTERNAL",
+      "created": "2026-10-15T08:05:36.729+00:00",
+      "updated": "2026-10-15T08:05:52.957+00:00"
+    }
+  ],
+  "realizationSets": [
+    {
+      "uid": 11790,
+      "contentType": "EN_SENTENCE_REALIZATION_SET",
+      "assetType": "paradigm",
+      "assetNid": "state_sentence_type_contrast",
+      "isSet": true,
+      "asset": {
+        "nid": "state_sentence_type_contrast",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "be 句怎样陈述、确认和追问"
+          },
+          {
+            "lang": "en",
+            "text": "Be-State Sentences Across Statement and Question Types"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "同一个状态，对照陈述、一般疑问和特殊疑问；换档并列，各壳独立画面。"
+          },
+          {
+            "lang": "en",
+            "text": "The same state as a statement, yes-no question, or wh-question. Independent pictures."
+          }
+        ]
+      },
+      "order": 0,
+      "topicNid": null,
+      "difficulty": null,
+      "tier": 0,
+      "access": "INTERNAL",
+      "baseSlotKeys": [],
+      "dialSlotKeys": [],
+      "growthSlotKeys": [],
+      "members": [
+        {
+          "sentenceId": 548393,
+          "sentence": {
+            "sentenceId": 548393,
+            "semanticId": 1166830,
+            "contentType": "EN_SENTENCE",
+            "content": "You are happy.",
+            "definition": "你很开心。",
+            "access": "NORMAL"
+          },
+          "role": "member",
+          "valueNid": "declarative",
+          "cell": null,
+          "pair": null,
+          "toPattern": null,
+          "addedSlotKeys": [],
+          "foci": [
+            {
+              "focusKey": "contrast",
+              "ranges": [
+                {
+                  "start": 0,
+                  "end": 7,
+                  "text": "You are",
+                  "key": null
+                }
+              ]
+            }
+          ],
+          "order": 0
+        },
+        {
+          "sentenceId": 513224,
+          "sentence": {
+            "sentenceId": 513224,
+            "semanticId": 1130510,
+            "contentType": "EN_SENTENCE",
+            "content": "Are you happy?",
+            "definition": "你开心吗？",
+            "patternNid": "ask_be_yes_no",
+            "patternTemplate": "{aux_be} {question_subject} {question_complement} {context_phrase} {time_expression}?",
+            "patternName": [
+              {
+                "lang": "zh",
+                "text": "确认是什么身份或状态"
+              },
+              {
+                "lang": "en",
+                "text": "Checking Someone's or Something's Identity or State"
+              }
+            ],
+            "patternDescription": [
+              {
+                "lang": "zh",
+                "text": "当场确认某人或某物现在是不是某种身份、状态或类别。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to check whether someone or something is a certain person, thing, or state right now."
+              }
+            ],
+            "access": "NORMAL"
+          },
+          "role": "member",
+          "valueNid": "yes_no_question",
+          "cell": null,
+          "pair": null,
+          "toPattern": null,
+          "addedSlotKeys": [],
+          "foci": [
+            {
+              "focusKey": "contrast",
+              "ranges": [
+                {
+                  "start": 0,
+                  "end": 7,
+                  "text": "Are you",
+                  "key": null
+                }
+              ]
+            }
+          ],
+          "order": 0
+        },
+        {
+          "sentenceId": 487595,
+          "sentence": {
+            "sentenceId": 487595,
+            "semanticId": 1099705,
+            "contentType": "EN_SENTENCE",
+            "content": "Twinkle, twinkle, little star, how I wonder what you are.",
+            "definition": "一闪一闪小星星，我多想知道你是什么。",
+            "access": "NORMAL"
+          },
+          "role": "member",
+          "valueNid": "wh_question",
+          "cell": null,
+          "pair": null,
+          "toPattern": null,
+          "addedSlotKeys": [],
+          "foci": [
+            {
+              "focusKey": "contrast",
+              "ranges": [
+                {
+                  "start": 44,
+                  "end": 56,
+                  "text": "what you are",
+                  "key": null
+                }
+              ]
+            }
+          ],
+          "order": 0
+        }
+      ],
+      "memberList": [
+        {
+          "valueNid": "declarative",
+          "valueLabel": {
+            "nid": "declarative",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "陈述句"
+              },
+              {
+                "lang": "en",
+                "text": "Declarative"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "用于陈述事实、观点、状态或信息，是写作与说明中最基础、最常见的句子功能类型。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to state facts, ideas, states, or information; the most common functional sentence type in writing and explanation."
+              }
+            ]
+          },
+          "realization": {
+            "patternNid": "state_entity_be_adj",
+            "grammarFeatureNids": [
+              "affirmative",
+              "indicative_mood",
+              "active_voice"
+            ]
+          },
+          "realizationInfo": {
+            "patternNid": "state_entity_be_adj",
+            "pattern": {
+              "nid": "state_entity_be_adj",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "说明是什么状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state it is in"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "说明主语处于什么状态。情绪形容词后可跟 to-inf（glad/happy/pleased/delighted to do），不按形容词拆 nid。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state the subject is in. Evaluative adjectives may take an optional to-infinitive; do not split by adjective."
+                }
+              ],
+              "template": "{fronted_context} {subject} {be_marking} {frequency_adv} {property} {evaluated_action} {context_phrase}."
+            },
+            "grammarFeatureNids": [
+              "affirmative",
+              "indicative_mood",
+              "active_voice"
+            ],
+            "grammarFeatures": [
+              {
+                "nid": "affirmative",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "肯定形式"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Affirmative"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "表示肯定、确认或直接陈述某事成立。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Marks a positive statement, confirmation, or direct assertion that something holds true."
+                  }
+                ]
+              },
+              {
+                "nid": "indicative_mood",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "陈述语气"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Indicative Mood"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+                  }
+                ]
+              },
+              {
+                "nid": "active_voice",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "主动语态"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Active Voice"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+                  }
+                ]
+              }
+            ]
+          },
+          "teachingExample": "She is tall.",
+          "activeParadigmSlotKeys": [
+            "subject",
+            "property"
+          ],
+          "slotMappings": [
+            {
+              "paradigmSlotKey": "subject",
+              "patternSlotKey": "subject"
+            },
+            {
+              "paradigmSlotKey": "property",
+              "patternSlotKey": "property"
+            }
+          ],
+          "controlledSlotKeys": [
+            "copula_be"
+          ],
+          "contrastFocus": {
+            "patternSlotKeys": [
+              "copula_be"
+            ],
+            "templateLiterals": []
+          }
+        },
+        {
+          "valueNid": "yes_no_question",
+          "valueLabel": {
+            "nid": "yes_no_question",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "一般疑问句"
+              },
+              {
+                "lang": "en",
+                "text": "Yes-No Question"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "用于询问答案是否为“是/否”的问题，常通过助动词、be 动词或情态动词提前形成。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to ask for a yes-or-no answer, usually formed by fronting an auxiliary, a form of be, or a modal verb."
+              }
+            ]
+          },
+          "realization": {
+            "patternNid": "ask_be_yes_no",
+            "grammarFeatureNids": [
+              "affirmative",
+              "indicative_mood",
+              "active_voice"
+            ]
+          },
+          "realizationInfo": {
+            "patternNid": "ask_be_yes_no",
+            "pattern": {
+              "nid": "ask_be_yes_no",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "确认是什么身份或状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Checking Someone's or Something's Identity or State"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "当场确认某人或某物现在是不是某种身份、状态或类别。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to check whether someone or something is a certain person, thing, or state right now."
+                }
+              ],
+              "template": "{aux_be} {question_subject} {question_complement} {context_phrase} {time_expression}?"
+            },
+            "grammarFeatureNids": [
+              "affirmative",
+              "indicative_mood",
+              "active_voice"
+            ],
+            "grammarFeatures": [
+              {
+                "nid": "affirmative",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "肯定形式"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Affirmative"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "表示肯定、确认或直接陈述某事成立。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Marks a positive statement, confirmation, or direct assertion that something holds true."
+                  }
+                ]
+              },
+              {
+                "nid": "indicative_mood",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "陈述语气"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Indicative Mood"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+                  }
+                ]
+              },
+              {
+                "nid": "active_voice",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "主动语态"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Active Voice"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+                  }
+                ]
+              }
+            ]
+          },
+          "teachingExample": "Is she tall?",
+          "activeParadigmSlotKeys": [
+            "subject",
+            "property"
+          ],
+          "slotMappings": [
+            {
+              "paradigmSlotKey": "subject",
+              "patternSlotKey": "question_subject"
+            },
+            {
+              "paradigmSlotKey": "property",
+              "patternSlotKey": "question_complement"
+            }
+          ],
+          "controlledSlotKeys": [
+            "aux_be"
+          ],
+          "contrastFocus": {
+            "patternSlotKeys": [
+              "aux_be"
+            ],
+            "templateLiterals": []
+          }
+        },
+        {
+          "valueNid": "wh_question",
+          "valueLabel": {
+            "nid": "wh_question",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "特殊疑问句"
+              },
+              {
+                "lang": "en",
+                "text": "WH Question"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "用于询问人物、时间、地点、原因、方式等具体信息，通常由 what、who、where、why、how 等引导。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to ask for specific information such as person, time, place, reason, or manner, typically introduced by what, who, where, why, or how."
+              }
+            ]
+          },
+          "realization": {
+            "patternNid": "ask_what_be_subject",
+            "grammarFeatureNids": [
+              "indicative_mood",
+              "active_voice"
+            ]
+          },
+          "realizationInfo": {
+            "patternNid": "ask_what_be_subject",
+            "pattern": {
+              "nid": "ask_what_be_subject",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "询问是什么"
+                },
+                {
+                  "lang": "en",
+                  "text": "Asking What It Is"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "询问现在是什么。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to ask about what it is."
+                }
+              ],
+              "template": "What {aux_be} {question_subject} {context_phrase} {time_expression}?"
+            },
+            "grammarFeatureNids": [
+              "indicative_mood",
+              "active_voice"
+            ],
+            "grammarFeatures": [
+              {
+                "nid": "indicative_mood",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "陈述语气"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Indicative Mood"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+                  }
+                ]
+              },
+              {
+                "nid": "active_voice",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "主动语态"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Active Voice"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "zh",
+                    "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+                  }
+                ]
+              }
+            ]
+          },
+          "teachingExample": "What is she?",
+          "activeParadigmSlotKeys": [
+            "subject"
+          ],
+          "slotMappings": [
+            {
+              "paradigmSlotKey": "subject",
+              "patternSlotKey": "question_subject"
+            }
+          ],
+          "controlledSlotKeys": [
+            "aux_be"
+          ],
+          "contrastFocus": {
+            "patternSlotKeys": [
+              "aux_be"
+            ],
+            "templateLiterals": [
+              "What"
+            ]
+          }
+        }
+      ],
+      "contents": [
+        {
+          "valueNid": "declarative",
+          "sentenceId": 548393,
+          "sentenceStruct": {
+            "sentenceId": 548393,
+            "semanticId": 1166830,
+            "contentType": "EN_SENTENCE",
+            "content": "You are happy.",
+            "definition": "你很开心。",
+            "access": "NORMAL"
+          }
+        },
+        {
+          "valueNid": "yes_no_question",
+          "sentenceId": 513224,
+          "sentenceStruct": {
+            "sentenceId": 513224,
+            "semanticId": 1130510,
+            "contentType": "EN_SENTENCE",
+            "content": "Are you happy?",
+            "definition": "你开心吗？",
+            "patternNid": "ask_be_yes_no",
+            "patternTemplate": "{aux_be} {question_subject} {question_complement} {context_phrase} {time_expression}?",
+            "patternName": [
+              {
+                "lang": "zh",
+                "text": "确认是什么身份或状态"
+              },
+              {
+                "lang": "en",
+                "text": "Checking Someone's or Something's Identity or State"
+              }
+            ],
+            "patternDescription": [
+              {
+                "lang": "zh",
+                "text": "当场确认某人或某物现在是不是某种身份、状态或类别。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to check whether someone or something is a certain person, thing, or state right now."
+              }
+            ],
+            "access": "NORMAL"
+          }
+        },
+        {
+          "valueNid": "wh_question",
+          "sentenceId": 487595,
+          "sentenceStruct": {
+            "sentenceId": 487595,
+            "semanticId": 1099705,
+            "contentType": "EN_SENTENCE",
+            "content": "Twinkle, twinkle, little star, how I wonder what you are.",
+            "definition": "一闪一闪小星星，我多想知道你是什么。",
+            "access": "NORMAL"
+          }
+        }
+      ],
+      "paradigm": {
+        "nid": "state_sentence_type_contrast",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "be 句怎样陈述、确认和追问"
+          },
+          {
+            "lang": "en",
+            "text": "Be-State Sentences Across Statement and Question Types"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "同一个状态，对照陈述、一般疑问和特殊疑问；换档并列，各壳独立画面。"
+          },
+          {
+            "lang": "en",
+            "text": "The same state as a statement, yes-no question, or wh-question. Independent pictures."
+          }
+        ]
+      },
+      "pair": null,
+      "fork": null,
+      "grid": null,
+      "cellCount": null,
+      "filledCellCount": null,
+      "missingCellKeys": null,
+      "bindingList": [
+        {
+          "valueNid": "declarative",
+          "sentenceId": 548393,
+          "sentenceStruct": {
+            "sentenceId": 548393,
+            "semanticId": 1166830,
+            "contentType": "EN_SENTENCE",
+            "content": "You are happy.",
+            "definition": "你很开心。",
+            "access": "NORMAL"
+          }
+        },
+        {
+          "valueNid": "yes_no_question",
+          "sentenceId": 513224,
+          "sentenceStruct": {
+            "sentenceId": 513224,
+            "semanticId": 1130510,
+            "contentType": "EN_SENTENCE",
+            "content": "Are you happy?",
+            "definition": "你开心吗？",
+            "patternNid": "ask_be_yes_no",
+            "patternTemplate": "{aux_be} {question_subject} {question_complement} {context_phrase} {time_expression}?",
+            "patternName": [
+              {
+                "lang": "zh",
+                "text": "确认是什么身份或状态"
+              },
+              {
+                "lang": "en",
+                "text": "Checking Someone's or Something's Identity or State"
+              }
+            ],
+            "patternDescription": [
+              {
+                "lang": "zh",
+                "text": "当场确认某人或某物现在是不是某种身份、状态或类别。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to check whether someone or something is a certain person, thing, or state right now."
+              }
+            ],
+            "access": "NORMAL"
+          }
+        },
+        {
+          "valueNid": "wh_question",
+          "sentenceId": 487595,
+          "sentenceStruct": {
+            "sentenceId": 487595,
+            "semanticId": 1099705,
+            "contentType": "EN_SENTENCE",
+            "content": "Twinkle, twinkle, little star, how I wonder what you are.",
+            "definition": "一闪一闪小星星，我多想知道你是什么。",
+            "access": "NORMAL"
+          }
+        }
+      ],
+      "realization": null,
+      "realizationSet": null,
+      "created": "2026-10-15T08:05:36.729+00:00",
+      "updated": "2026-10-15T08:05:52.957+00:00"
+    }
+  ],
+  "system": true,
+  "enabled": true,
+  "order": 499000,
+  "created": "2026-10-18T12:43:16.389+00:00",
+  "updated": "2026-10-18T12:43:16.389+00:00"
+}

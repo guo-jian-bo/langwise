@@ -1,0 +1,4551 @@
+{
+  "unitId": null,
+  "detailData": {
+    "nid": "state_sentence_type_contrast",
+    "dimensionNid": "sentence_type_contrast",
+    "dimension": {
+      "nid": "sentence_type_contrast",
+      "name": [
+        {
+          "lang": "zh",
+          "text": "句子类型对照"
+        },
+        {
+          "lang": "en",
+          "text": "Sentence Type Contrast"
+        }
+      ],
+      "description": [
+        {
+          "lang": "zh",
+          "text": "用于把陈述、疑问、祈使等句力放在一起对照；不是简单句/并列句/复合句的基本类型轴。"
+        },
+        {
+          "lang": "en",
+          "text": "Contrasts sentence force (statement, question, imperative), not basic clause complexity."
+        }
+      ],
+      "categoryNid": null,
+      "categoryName": null,
+      "categoryDescription": null,
+      "usageKinds": null,
+      "surfaceFromSlotKeys": null,
+      "color": null
+    },
+    "transformationKindNid": "realization",
+    "transformationKind": {
+      "nid": "realization",
+      "name": [
+        {
+          "lang": "zh",
+          "text": "同一条主线可以换哪些说法"
+        },
+        {
+          "lang": "en",
+          "text": "How One Learning Path Changes Form"
+        }
+      ],
+      "description": [
+        {
+          "lang": "zh",
+          "text": "用于说明同一学习主线下，不同实现说法之间怎样切换。"
+        },
+        {
+          "lang": "en",
+          "text": "Used to show how different realizations can appear within the same learning path."
+        }
+      ],
+      "categoryNid": null,
+      "categoryName": null,
+      "categoryDescription": null,
+      "usageKinds": null,
+      "surfaceFromSlotKeys": null,
+      "color": null
+    },
+    "contrastTypeNid": "alternatives",
+    "contrastType": {
+      "nid": "alternatives",
+      "name": [
+        {
+          "lang": "zh",
+          "text": "换档并列"
+        },
+        {
+          "lang": "en",
+          "text": "Independent alternatives"
+        }
+      ],
+      "description": [
+        {
+          "lang": "zh",
+          "text": "各成员独立画面，只保持画风和主角；不强制同场景，也不做成相反状态。"
+        },
+        {
+          "lang": "en",
+          "text": "Independent pictures per member; keep style and lead character only. Do not force a shared scene or opposite states."
+        }
+      ]
+    },
+    "name": [
+      {
+        "lang": "zh",
+        "text": "be 句怎样陈述、确认和追问"
+      },
+      {
+        "lang": "en",
+        "text": "Be-State Sentences Across Statement and Question Types"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "同一个状态，对照陈述、一般疑问和特殊疑问；换档并列，各壳独立画面。"
+      },
+      {
+        "lang": "en",
+        "text": "The same state as a statement, yes-no question, or wh-question. Independent pictures."
+      }
+    ],
+    "memberSwitchPolicy": {
+      "mode": "replace_pattern",
+      "carry": "mapped_slots_only",
+      "unmappedSourceSlots": "drop",
+      "targetControlledSlots": "from_target_pattern"
+    },
+    "teachingEntry": {
+      "patternNid": "state_entity_be_adj",
+      "grammarFeatureNids": [
+        "affirmative",
+        "indicative_mood",
+        "active_voice"
+      ]
+    },
+    "teachingEntryInfo": {
+      "patternNid": "state_entity_be_adj",
+      "pattern": {
+        "nid": "state_entity_be_adj",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "说明是什么状态"
+          },
+          {
+            "lang": "en",
+            "text": "Say what state it is in"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "说明主语处于什么状态。情绪形容词后可跟 to-inf（glad/happy/pleased/delighted to do），不按形容词拆 nid。"
+          },
+          {
+            "lang": "en",
+            "text": "Say what state the subject is in. Evaluative adjectives may take an optional to-infinitive; do not split by adjective."
+          }
+        ],
+        "template": "{fronted_context} {subject} {be_marking} {frequency_adv} {property} {evaluated_action} {context_phrase}."
+      },
+      "grammarFeatureNids": [
+        "affirmative",
+        "indicative_mood",
+        "active_voice"
+      ],
+      "grammarFeatures": [
+        {
+          "nid": "affirmative",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "肯定形式"
+            },
+            {
+              "lang": "en",
+              "text": "Affirmative"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "表示肯定、确认或直接陈述某事成立。"
+            },
+            {
+              "lang": "en",
+              "text": "Marks a positive statement, confirmation, or direct assertion that something holds true."
+            }
+          ],
+          "categoryNid": null,
+          "categoryName": null,
+          "categoryDescription": null,
+          "usageKinds": null,
+          "surfaceFromSlotKeys": null,
+          "color": null
+        },
+        {
+          "nid": "indicative_mood",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "陈述语气"
+            },
+            {
+              "lang": "en",
+              "text": "Indicative Mood"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+            },
+            {
+              "lang": "en",
+              "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+            }
+          ],
+          "categoryNid": null,
+          "categoryName": null,
+          "categoryDescription": null,
+          "usageKinds": null,
+          "surfaceFromSlotKeys": null,
+          "color": null
+        },
+        {
+          "nid": "active_voice",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "主动语态"
+            },
+            {
+              "lang": "en",
+              "text": "Active Voice"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+            },
+            {
+              "lang": "en",
+              "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+            }
+          ],
+          "categoryNid": null,
+          "categoryName": null,
+          "categoryDescription": null,
+          "usageKinds": null,
+          "surfaceFromSlotKeys": null,
+          "color": null
+        }
+      ]
+    },
+    "paradigmSlots": [
+      {
+        "slotKey": "subject",
+        "required": true,
+        "slotRole": "semantic_carry"
+      },
+      {
+        "slotKey": "property",
+        "required": false,
+        "slotRole": "semantic_carry"
+      }
+    ],
+    "members": [
+      {
+        "sentenceId": null,
+        "role": null,
+        "valueNid": "declarative",
+        "valueLabel": null,
+        "realization": {
+          "patternNid": "state_entity_be_adj",
+          "grammarFeatureNids": [
+            "affirmative",
+            "indicative_mood",
+            "active_voice"
+          ]
+        },
+        "realizationInfo": null,
+        "teachingExample": "She is tall.",
+        "addedSlotKeys": null,
+        "activeParadigmSlotKeys": [
+          "subject",
+          "property"
+        ],
+        "slotMappings": [
+          {
+            "paradigmSlotKey": "subject",
+            "patternSlotKey": "subject"
+          },
+          {
+            "paradigmSlotKey": "property",
+            "patternSlotKey": "property"
+          }
+        ],
+        "controlledSlotKeys": [
+          "copula_be"
+        ],
+        "contrastFocus": {
+          "patternSlotKeys": [
+            "copula_be"
+          ],
+          "templateLiterals": []
+        },
+        "foci": null,
+        "order": null
+      },
+      {
+        "sentenceId": null,
+        "role": null,
+        "valueNid": "yes_no_question",
+        "valueLabel": null,
+        "realization": {
+          "patternNid": "ask_be_yes_no",
+          "grammarFeatureNids": [
+            "affirmative",
+            "indicative_mood",
+            "active_voice"
+          ]
+        },
+        "realizationInfo": null,
+        "teachingExample": "Is she tall?",
+        "addedSlotKeys": null,
+        "activeParadigmSlotKeys": [
+          "subject",
+          "property"
+        ],
+        "slotMappings": [
+          {
+            "paradigmSlotKey": "subject",
+            "patternSlotKey": "question_subject"
+          },
+          {
+            "paradigmSlotKey": "property",
+            "patternSlotKey": "question_complement"
+          }
+        ],
+        "controlledSlotKeys": [
+          "aux_be"
+        ],
+        "contrastFocus": {
+          "patternSlotKeys": [
+            "aux_be"
+          ],
+          "templateLiterals": []
+        },
+        "foci": null,
+        "order": null
+      },
+      {
+        "sentenceId": null,
+        "role": null,
+        "valueNid": "wh_question",
+        "valueLabel": null,
+        "realization": {
+          "patternNid": "ask_what_be_subject",
+          "grammarFeatureNids": [
+            "indicative_mood",
+            "active_voice"
+          ]
+        },
+        "realizationInfo": null,
+        "teachingExample": "What is she?",
+        "addedSlotKeys": null,
+        "activeParadigmSlotKeys": [
+          "subject"
+        ],
+        "slotMappings": [
+          {
+            "paradigmSlotKey": "subject",
+            "patternSlotKey": "question_subject"
+          }
+        ],
+        "controlledSlotKeys": [
+          "aux_be"
+        ],
+        "contrastFocus": {
+          "patternSlotKeys": [
+            "aux_be"
+          ],
+          "templateLiterals": [
+            "What"
+          ]
+        },
+        "foci": null,
+        "order": null
+      }
+    ],
+    "memberList": [
+      {
+        "sentenceId": null,
+        "role": null,
+        "valueNid": "declarative",
+        "valueLabel": {
+          "nid": "declarative",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "陈述句"
+            },
+            {
+              "lang": "en",
+              "text": "Declarative"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "用于陈述事实、观点、状态或信息，是写作与说明中最基础、最常见的句子功能类型。"
+            },
+            {
+              "lang": "en",
+              "text": "Used to state facts, ideas, states, or information; the most common functional sentence type in writing and explanation."
+            }
+          ]
+        },
+        "realization": {
+          "patternNid": "state_entity_be_adj",
+          "grammarFeatureNids": [
+            "affirmative",
+            "indicative_mood",
+            "active_voice"
+          ]
+        },
+        "realizationInfo": {
+          "patternNid": "state_entity_be_adj",
+          "pattern": {
+            "nid": "state_entity_be_adj",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "说明是什么状态"
+              },
+              {
+                "lang": "en",
+                "text": "Say what state it is in"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "说明主语处于什么状态。情绪形容词后可跟 to-inf（glad/happy/pleased/delighted to do），不按形容词拆 nid。"
+              },
+              {
+                "lang": "en",
+                "text": "Say what state the subject is in. Evaluative adjectives may take an optional to-infinitive; do not split by adjective."
+              }
+            ],
+            "template": "{fronted_context} {subject} {be_marking} {frequency_adv} {property} {evaluated_action} {context_phrase}."
+          },
+          "grammarFeatureNids": [
+            "affirmative",
+            "indicative_mood",
+            "active_voice"
+          ],
+          "grammarFeatures": [
+            {
+              "nid": "affirmative",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "肯定形式"
+                },
+                {
+                  "lang": "en",
+                  "text": "Affirmative"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "表示肯定、确认或直接陈述某事成立。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Marks a positive statement, confirmation, or direct assertion that something holds true."
+                }
+              ],
+              "categoryNid": null,
+              "categoryName": null,
+              "categoryDescription": null,
+              "usageKinds": null,
+              "surfaceFromSlotKeys": null,
+              "color": null
+            },
+            {
+              "nid": "indicative_mood",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "陈述语气"
+                },
+                {
+                  "lang": "en",
+                  "text": "Indicative Mood"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+                }
+              ],
+              "categoryNid": null,
+              "categoryName": null,
+              "categoryDescription": null,
+              "usageKinds": null,
+              "surfaceFromSlotKeys": null,
+              "color": null
+            },
+            {
+              "nid": "active_voice",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "主动语态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Active Voice"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+                },
+                {
+                  "lang": "en",
+                  "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+                }
+              ],
+              "categoryNid": null,
+              "categoryName": null,
+              "categoryDescription": null,
+              "usageKinds": null,
+              "surfaceFromSlotKeys": null,
+              "color": null
+            }
+          ]
+        },
+        "teachingExample": "She is tall.",
+        "addedSlotKeys": null,
+        "activeParadigmSlotKeys": [
+          "subject",
+          "property"
+        ],
+        "slotMappings": [
+          {
+            "paradigmSlotKey": "subject",
+            "patternSlotKey": "subject"
+          },
+          {
+            "paradigmSlotKey": "property",
+            "patternSlotKey": "property"
+          }
+        ],
+        "controlledSlotKeys": [
+          "copula_be"
+        ],
+        "contrastFocus": {
+          "patternSlotKeys": [
+            "copula_be"
+          ],
+          "templateLiterals": []
+        },
+        "foci": null,
+        "order": null
+      },
+      {
+        "sentenceId": null,
+        "role": null,
+        "valueNid": "yes_no_question",
+        "valueLabel": {
+          "nid": "yes_no_question",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "一般疑问句"
+            },
+            {
+              "lang": "en",
+              "text": "Yes-No Question"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "用于询问答案是否为“是/否”的问题，常通过助动词、be 动词或情态动词提前形成。"
+            },
+            {
+              "lang": "en",
+              "text": "Used to ask for a yes-or-no answer, usually formed by fronting an auxiliary, a form of be, or a modal verb."
+            }
+          ]
+        },
+        "realization": {
+          "patternNid": "ask_be_yes_no",
+          "grammarFeatureNids": [
+            "affirmative",
+            "indicative_mood",
+            "active_voice"
+          ]
+        },
+        "realizationInfo": {
+          "patternNid": "ask_be_yes_no",
+          "pattern": {
+            "nid": "ask_be_yes_no",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "确认是什么身份或状态"
+              },
+              {
+                "lang": "en",
+                "text": "Checking Someone's or Something's Identity or State"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "当场确认某人或某物现在是不是某种身份、状态或类别。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to check whether someone or something is a certain person, thing, or state right now."
+              }
+            ],
+            "template": "{aux_be} {question_subject} {question_complement} {context_phrase} {time_expression}?"
+          },
+          "grammarFeatureNids": [
+            "affirmative",
+            "indicative_mood",
+            "active_voice"
+          ],
+          "grammarFeatures": [
+            {
+              "nid": "affirmative",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "肯定形式"
+                },
+                {
+                  "lang": "en",
+                  "text": "Affirmative"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "表示肯定、确认或直接陈述某事成立。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Marks a positive statement, confirmation, or direct assertion that something holds true."
+                }
+              ],
+              "categoryNid": null,
+              "categoryName": null,
+              "categoryDescription": null,
+              "usageKinds": null,
+              "surfaceFromSlotKeys": null,
+              "color": null
+            },
+            {
+              "nid": "indicative_mood",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "陈述语气"
+                },
+                {
+                  "lang": "en",
+                  "text": "Indicative Mood"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+                }
+              ],
+              "categoryNid": null,
+              "categoryName": null,
+              "categoryDescription": null,
+              "usageKinds": null,
+              "surfaceFromSlotKeys": null,
+              "color": null
+            },
+            {
+              "nid": "active_voice",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "主动语态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Active Voice"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+                },
+                {
+                  "lang": "en",
+                  "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+                }
+              ],
+              "categoryNid": null,
+              "categoryName": null,
+              "categoryDescription": null,
+              "usageKinds": null,
+              "surfaceFromSlotKeys": null,
+              "color": null
+            }
+          ]
+        },
+        "teachingExample": "Is she tall?",
+        "addedSlotKeys": null,
+        "activeParadigmSlotKeys": [
+          "subject",
+          "property"
+        ],
+        "slotMappings": [
+          {
+            "paradigmSlotKey": "subject",
+            "patternSlotKey": "question_subject"
+          },
+          {
+            "paradigmSlotKey": "property",
+            "patternSlotKey": "question_complement"
+          }
+        ],
+        "controlledSlotKeys": [
+          "aux_be"
+        ],
+        "contrastFocus": {
+          "patternSlotKeys": [
+            "aux_be"
+          ],
+          "templateLiterals": []
+        },
+        "foci": null,
+        "order": null
+      },
+      {
+        "sentenceId": null,
+        "role": null,
+        "valueNid": "wh_question",
+        "valueLabel": {
+          "nid": "wh_question",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "特殊疑问句"
+            },
+            {
+              "lang": "en",
+              "text": "WH Question"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "用于询问人物、时间、地点、原因、方式等具体信息，通常由 what、who、where、why、how 等引导。"
+            },
+            {
+              "lang": "en",
+              "text": "Used to ask for specific information such as person, time, place, reason, or manner, typically introduced by what, who, where, why, or how."
+            }
+          ]
+        },
+        "realization": {
+          "patternNid": "ask_what_be_subject",
+          "grammarFeatureNids": [
+            "indicative_mood",
+            "active_voice"
+          ]
+        },
+        "realizationInfo": {
+          "patternNid": "ask_what_be_subject",
+          "pattern": {
+            "nid": "ask_what_be_subject",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "询问是什么"
+              },
+              {
+                "lang": "en",
+                "text": "Asking What It Is"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "询问现在是什么。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to ask about what it is."
+              }
+            ],
+            "template": "What {aux_be} {question_subject} {context_phrase} {time_expression}?"
+          },
+          "grammarFeatureNids": [
+            "indicative_mood",
+            "active_voice"
+          ],
+          "grammarFeatures": [
+            {
+              "nid": "indicative_mood",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "陈述语气"
+                },
+                {
+                  "lang": "en",
+                  "text": "Indicative Mood"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+                }
+              ],
+              "categoryNid": null,
+              "categoryName": null,
+              "categoryDescription": null,
+              "usageKinds": null,
+              "surfaceFromSlotKeys": null,
+              "color": null
+            },
+            {
+              "nid": "active_voice",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "主动语态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Active Voice"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+                },
+                {
+                  "lang": "en",
+                  "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+                }
+              ],
+              "categoryNid": null,
+              "categoryName": null,
+              "categoryDescription": null,
+              "usageKinds": null,
+              "surfaceFromSlotKeys": null,
+              "color": null
+            }
+          ]
+        },
+        "teachingExample": "What is she?",
+        "addedSlotKeys": null,
+        "activeParadigmSlotKeys": [
+          "subject"
+        ],
+        "slotMappings": [
+          {
+            "paradigmSlotKey": "subject",
+            "patternSlotKey": "question_subject"
+          }
+        ],
+        "controlledSlotKeys": [
+          "aux_be"
+        ],
+        "contrastFocus": {
+          "patternSlotKeys": [
+            "aux_be"
+          ],
+          "templateLiterals": [
+            "What"
+          ]
+        },
+        "foci": null,
+        "order": null
+      }
+    ],
+    "realizationSets": [
+      {
+        "uid": 11790,
+        "contentType": "EN_SENTENCE_REALIZATION_SET",
+        "assetType": "paradigm",
+        "assetNid": "state_sentence_type_contrast",
+        "isSet": true,
+        "asset": {
+          "nid": "state_sentence_type_contrast",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "be 句怎样陈述、确认和追问"
+            },
+            {
+              "lang": "en",
+              "text": "Be-State Sentences Across Statement and Question Types"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "同一个状态，对照陈述、一般疑问和特殊疑问；换档并列，各壳独立画面。"
+            },
+            {
+              "lang": "en",
+              "text": "The same state as a statement, yes-no question, or wh-question. Independent pictures."
+            }
+          ]
+        },
+        "order": 0,
+        "topicNid": null,
+        "difficulty": null,
+        "tier": 0,
+        "access": "INTERNAL",
+        "baseSlotKeys": [],
+        "dialSlotKeys": [],
+        "growthSlotKeys": [],
+        "members": [
+          {
+            "sentenceId": 548393,
+            "sentence": {
+              "sentenceId": 548393,
+              "semanticId": 1166830,
+              "contentType": "EN_SENTENCE",
+              "content": "You are happy.",
+              "definition": "你很开心。",
+              "patternNid": null,
+              "patternTemplate": null,
+              "patternName": null,
+              "patternDescription": null,
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "declarative",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 7,
+                    "text": "You are",
+                    "key": null
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 513224,
+            "sentence": {
+              "sentenceId": 513224,
+              "semanticId": 1130510,
+              "contentType": "EN_SENTENCE",
+              "content": "Are you happy?",
+              "definition": "你开心吗？",
+              "patternNid": "ask_be_yes_no",
+              "patternTemplate": "{aux_be} {question_subject} {question_complement} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "确认是什么身份或状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Checking Someone's or Something's Identity or State"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "当场确认某人或某物现在是不是某种身份、状态或类别。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to check whether someone or something is a certain person, thing, or state right now."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "yes_no_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 7,
+                    "text": "Are you",
+                    "key": null
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 487595,
+            "sentence": {
+              "sentenceId": 487595,
+              "semanticId": 1099705,
+              "contentType": "EN_SENTENCE",
+              "content": "Twinkle, twinkle, little star, how I wonder what you are.",
+              "definition": "一闪一闪小星星，我多想知道你是什么。",
+              "patternNid": "ask_what_be_subject",
+              "patternTemplate": "What {aux_be} {question_subject} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "询问是什么"
+                },
+                {
+                  "lang": "en",
+                  "text": "Asking What It Is"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "询问现在是什么。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to ask about what it is."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "wh_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 44,
+                    "end": 56,
+                    "text": "what you are",
+                    "key": null
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          }
+        ],
+        "memberList": null,
+        "bindingList": null,
+        "created": "2026-10-15T08:05:36.729+00:00",
+        "updated": "2026-10-15T08:05:52.957+00:00"
+      },
+      {
+        "uid": 11789,
+        "contentType": "EN_SENTENCE_REALIZATION_SET",
+        "assetType": "paradigm",
+        "assetNid": "state_sentence_type_contrast",
+        "isSet": true,
+        "asset": {
+          "nid": "state_sentence_type_contrast",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "be 句怎样陈述、确认和追问"
+            },
+            {
+              "lang": "en",
+              "text": "Be-State Sentences Across Statement and Question Types"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "同一个状态，对照陈述、一般疑问和特殊疑问；换档并列，各壳独立画面。"
+            },
+            {
+              "lang": "en",
+              "text": "The same state as a statement, yes-no question, or wh-question. Independent pictures."
+            }
+          ]
+        },
+        "order": 0,
+        "topicNid": null,
+        "difficulty": null,
+        "tier": null,
+        "access": "INTERNAL",
+        "baseSlotKeys": [],
+        "dialSlotKeys": [],
+        "growthSlotKeys": [],
+        "members": [
+          {
+            "sentenceId": 512737,
+            "sentence": {
+              "sentenceId": 512737,
+              "semanticId": 1130023,
+              "contentType": "EN_SENTENCE",
+              "content": "He is excited.",
+              "definition": "他很兴奋。",
+              "patternNid": "state_entity_be_adj",
+              "patternTemplate": "{fronted_context} {subject} {be_marking} {frequency_adv} {property} {evaluated_action} {context_phrase}.",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "说明是什么状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state it is in"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "说明主语处于什么状态。情绪形容词后可跟 to-inf（glad/happy/pleased/delighted to do），不按形容词拆 nid。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state the subject is in. Evaluative adjectives may take an optional to-infinitive; do not split by adjective."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "declarative",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 3,
+                    "end": 5,
+                    "text": "is",
+                    "key": null
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 557249,
+            "sentence": {
+              "sentenceId": 557249,
+              "semanticId": 1176301,
+              "contentType": "EN_SENTENCE",
+              "content": "Is he excited?",
+              "definition": "他兴奋吗？",
+              "patternNid": "ask_be_yes_no",
+              "patternTemplate": "{aux_be} {question_subject} {question_complement} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "确认是什么身份或状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Checking Someone's or Something's Identity or State"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "当场确认某人或某物现在是不是某种身份、状态或类别。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to check whether someone or something is a certain person, thing, or state right now."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "yes_no_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 2,
+                    "text": "Is",
+                    "key": null
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 508837,
+            "sentence": {
+              "sentenceId": 508837,
+              "semanticId": 1126123,
+              "contentType": "EN_SENTENCE",
+              "content": "What is he like?",
+              "definition": "他是什么样的人？",
+              "patternNid": "ask_what_be_subject",
+              "patternTemplate": "What {aux_be} {question_subject} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "询问是什么"
+                },
+                {
+                  "lang": "en",
+                  "text": "Asking What It Is"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "询问现在是什么。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to ask about what it is."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "wh_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 7,
+                    "text": "What is",
+                    "key": null
+                  },
+                  {
+                    "start": 11,
+                    "end": 15,
+                    "text": "like",
+                    "key": null
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          }
+        ],
+        "memberList": null,
+        "bindingList": null,
+        "created": "2026-10-15T08:03:18.487+00:00",
+        "updated": "2026-10-15T08:03:36.504+00:00"
+      },
+      {
+        "uid": 11786,
+        "contentType": "EN_SENTENCE_REALIZATION_SET",
+        "assetType": "paradigm",
+        "assetNid": "state_sentence_type_contrast",
+        "isSet": true,
+        "asset": {
+          "nid": "state_sentence_type_contrast",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "be 句怎样陈述、确认和追问"
+            },
+            {
+              "lang": "en",
+              "text": "Be-State Sentences Across Statement and Question Types"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "同一个状态，对照陈述、一般疑问和特殊疑问；换档并列，各壳独立画面。"
+            },
+            {
+              "lang": "en",
+              "text": "The same state as a statement, yes-no question, or wh-question. Independent pictures."
+            }
+          ]
+        },
+        "order": 0,
+        "topicNid": null,
+        "difficulty": null,
+        "tier": 0,
+        "access": "INTERNAL",
+        "baseSlotKeys": [],
+        "dialSlotKeys": [],
+        "growthSlotKeys": [],
+        "members": [
+          {
+            "sentenceId": 154366,
+            "sentence": {
+              "sentenceId": 154366,
+              "semanticId": 731540,
+              "contentType": "EN_SENTENCE",
+              "content": "My mom is thin.",
+              "definition": "我妈妈很瘦。",
+              "patternNid": "state_entity_be_adj",
+              "patternTemplate": "{fronted_context} {subject} {be_marking} {frequency_adv} {property} {evaluated_action} {context_phrase}.",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "说明是什么状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state it is in"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "说明主语处于什么状态。情绪形容词后可跟 to-inf（glad/happy/pleased/delighted to do），不按形容词拆 nid。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state the subject is in. Evaluative adjectives may take an optional to-infinitive; do not split by adjective."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "declarative",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 7,
+                    "end": 9,
+                    "text": "is",
+                    "key": null
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 596272,
+            "sentence": {
+              "sentenceId": 596272,
+              "semanticId": 1217955,
+              "contentType": "EN_SENTENCE",
+              "content": "Is my mom thin?",
+              "definition": "我妈妈瘦吗？",
+              "patternNid": "ask_be_yes_no",
+              "patternTemplate": "{aux_be} {question_subject} {question_complement} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "确认是什么身份或状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Checking Someone's or Something's Identity or State"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "当场确认某人或某物现在是不是某种身份、状态或类别。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to check whether someone or something is a certain person, thing, or state right now."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "INTERNAL"
+            },
+            "role": "member",
+            "valueNid": "yes_no_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 9,
+                    "text": "Is my mom",
+                    "key": null
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 596273,
+            "sentence": {
+              "sentenceId": 596273,
+              "semanticId": 1217956,
+              "contentType": "EN_SENTENCE",
+              "content": "What is my mom?",
+              "definition": "我妈妈是做什么的？",
+              "patternNid": "ask_what_be_subject",
+              "patternTemplate": "What {aux_be} {question_subject} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "询问是什么"
+                },
+                {
+                  "lang": "en",
+                  "text": "Asking What It Is"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "询问现在是什么。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to ask about what it is."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "INTERNAL"
+            },
+            "role": "member",
+            "valueNid": "wh_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 7,
+                    "text": "What is",
+                    "key": null
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          }
+        ],
+        "memberList": null,
+        "bindingList": null,
+        "created": "2026-10-15T07:49:40.863+00:00",
+        "updated": "2026-10-15T07:50:04.270+00:00"
+      },
+      {
+        "uid": 11785,
+        "contentType": "EN_SENTENCE_REALIZATION_SET",
+        "assetType": "paradigm",
+        "assetNid": "state_sentence_type_contrast",
+        "isSet": true,
+        "asset": {
+          "nid": "state_sentence_type_contrast",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "be 句怎样陈述、确认和追问"
+            },
+            {
+              "lang": "en",
+              "text": "Be-State Sentences Across Statement and Question Types"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "同一个状态，对照陈述、一般疑问和特殊疑问；换档并列，各壳独立画面。"
+            },
+            {
+              "lang": "en",
+              "text": "The same state as a statement, yes-no question, or wh-question. Independent pictures."
+            }
+          ]
+        },
+        "order": 0,
+        "topicNid": null,
+        "difficulty": null,
+        "tier": 0,
+        "access": "INTERNAL",
+        "baseSlotKeys": [],
+        "dialSlotKeys": [],
+        "growthSlotKeys": [],
+        "members": [
+          {
+            "sentenceId": 154347,
+            "sentence": {
+              "sentenceId": 154347,
+              "semanticId": 731521,
+              "contentType": "EN_SENTENCE",
+              "content": "My dad is tall.",
+              "definition": "我爸爸很高。",
+              "patternNid": "state_entity_be_adj",
+              "patternTemplate": "{fronted_context} {subject} {be_marking} {frequency_adv} {property} {evaluated_action} {context_phrase}.",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "说明是什么状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state it is in"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "说明主语处于什么状态。情绪形容词后可跟 to-inf（glad/happy/pleased/delighted to do），不按形容词拆 nid。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state the subject is in. Evaluative adjectives may take an optional to-infinitive; do not split by adjective."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "declarative",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 7,
+                    "end": 9,
+                    "text": "is",
+                    "key": null
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 596270,
+            "sentence": {
+              "sentenceId": 596270,
+              "semanticId": 1217953,
+              "contentType": "EN_SENTENCE",
+              "content": "Is my dad tall?",
+              "definition": "我爸爸高吗？",
+              "patternNid": "ask_be_yes_no",
+              "patternTemplate": "{aux_be} {question_subject} {question_complement} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "确认是什么身份或状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Checking Someone's or Something's Identity or State"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "当场确认某人或某物现在是不是某种身份、状态或类别。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to check whether someone or something is a certain person, thing, or state right now."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "INTERNAL"
+            },
+            "role": "member",
+            "valueNid": "yes_no_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 2,
+                    "text": "Is",
+                    "key": null
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 596271,
+            "sentence": {
+              "sentenceId": 596271,
+              "semanticId": 1217954,
+              "contentType": "EN_SENTENCE",
+              "content": "What is my dad?",
+              "definition": "我爸爸是做什么的？",
+              "patternNid": "ask_what_be_subject",
+              "patternTemplate": "What {aux_be} {question_subject} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "询问是什么"
+                },
+                {
+                  "lang": "en",
+                  "text": "Asking What It Is"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "询问现在是什么。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to ask about what it is."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "INTERNAL"
+            },
+            "role": "member",
+            "valueNid": "wh_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 7,
+                    "text": "What is",
+                    "key": null
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          }
+        ],
+        "memberList": null,
+        "bindingList": null,
+        "created": "2026-10-15T07:48:52.124+00:00",
+        "updated": "2026-10-15T07:49:02.910+00:00"
+      },
+      {
+        "uid": 10187,
+        "contentType": "EN_SENTENCE_REALIZATION_SET",
+        "assetType": "paradigm",
+        "assetNid": "state_sentence_type_contrast",
+        "isSet": true,
+        "asset": {
+          "nid": "state_sentence_type_contrast",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "be 句怎样陈述、确认和追问"
+            },
+            {
+              "lang": "en",
+              "text": "Be-State Sentences Across Statement and Question Types"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "同一个状态，对照陈述、一般疑问和特殊疑问；换档并列，各壳独立画面。"
+            },
+            {
+              "lang": "en",
+              "text": "The same state as a statement, yes-no question, or wh-question. Independent pictures."
+            }
+          ]
+        },
+        "order": 0,
+        "topicNid": null,
+        "difficulty": null,
+        "tier": 1,
+        "access": "INTERNAL",
+        "baseSlotKeys": [],
+        "dialSlotKeys": [],
+        "growthSlotKeys": [],
+        "members": [
+          {
+            "sentenceId": 578839,
+            "sentence": {
+              "sentenceId": 578839,
+              "semanticId": 1199950,
+              "contentType": "EN_SENTENCE",
+              "content": "Blue is beautiful.",
+              "definition": "蓝色是美丽的。",
+              "patternNid": "state_entity_be_adj",
+              "patternTemplate": "{fronted_context} {subject} {be_marking} {frequency_adv} {property} {evaluated_action} {context_phrase}.",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "说明是什么状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state it is in"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "说明主语处于什么状态。情绪形容词后可跟 to-inf（glad/happy/pleased/delighted to do），不按形容词拆 nid。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state the subject is in. Evaluative adjectives may take an optional to-infinitive; do not split by adjective."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "INTERNAL"
+            },
+            "role": "member",
+            "valueNid": "declarative",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 5,
+                    "end": 7,
+                    "text": "is",
+                    "key": "copula_be"
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 578840,
+            "sentence": {
+              "sentenceId": 578840,
+              "semanticId": 1199951,
+              "contentType": "EN_SENTENCE",
+              "content": "Is blue beautiful?",
+              "definition": "蓝色是美丽的吗？",
+              "patternNid": "ask_be_yes_no",
+              "patternTemplate": "{aux_be} {question_subject} {question_complement} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "确认是什么身份或状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Checking Someone's or Something's Identity or State"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "当场确认某人或某物现在是不是某种身份、状态或类别。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to check whether someone or something is a certain person, thing, or state right now."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "INTERNAL"
+            },
+            "role": "member",
+            "valueNid": "yes_no_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 2,
+                    "text": "Is",
+                    "key": "aux_be"
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 510396,
+            "sentence": {
+              "sentenceId": 510396,
+              "semanticId": 1127682,
+              "contentType": "EN_SENTENCE",
+              "content": "What is blue?",
+              "definition": "蓝色是什么？",
+              "patternNid": "ask_what_be_subject",
+              "patternTemplate": "What {aux_be} {question_subject} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "询问是什么"
+                },
+                {
+                  "lang": "en",
+                  "text": "Asking What It Is"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "询问现在是什么。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to ask about what it is."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "wh_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 7,
+                    "text": "What is",
+                    "key": null
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          }
+        ],
+        "memberList": null,
+        "bindingList": null,
+        "created": "2026-09-02T12:11:42.755+00:00",
+        "updated": "2026-09-03T13:11:33.335+00:00"
+      },
+      {
+        "uid": 10182,
+        "contentType": "EN_SENTENCE_REALIZATION_SET",
+        "assetType": "paradigm",
+        "assetNid": "state_sentence_type_contrast",
+        "isSet": true,
+        "asset": {
+          "nid": "state_sentence_type_contrast",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "be 句怎样陈述、确认和追问"
+            },
+            {
+              "lang": "en",
+              "text": "Be-State Sentences Across Statement and Question Types"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "同一个状态，对照陈述、一般疑问和特殊疑问；换档并列，各壳独立画面。"
+            },
+            {
+              "lang": "en",
+              "text": "The same state as a statement, yes-no question, or wh-question. Independent pictures."
+            }
+          ]
+        },
+        "order": 0,
+        "topicNid": null,
+        "difficulty": null,
+        "tier": 1,
+        "access": "INTERNAL",
+        "baseSlotKeys": [],
+        "dialSlotKeys": [],
+        "growthSlotKeys": [],
+        "members": [
+          {
+            "sentenceId": 578830,
+            "sentence": {
+              "sentenceId": 578830,
+              "semanticId": 1199941,
+              "contentType": "EN_SENTENCE",
+              "content": "Red is warm.",
+              "definition": "红色是暖的。",
+              "patternNid": "state_entity_be_adj",
+              "patternTemplate": "{fronted_context} {subject} {be_marking} {frequency_adv} {property} {evaluated_action} {context_phrase}.",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "说明是什么状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state it is in"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "说明主语处于什么状态。情绪形容词后可跟 to-inf（glad/happy/pleased/delighted to do），不按形容词拆 nid。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state the subject is in. Evaluative adjectives may take an optional to-infinitive; do not split by adjective."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "INTERNAL"
+            },
+            "role": "member",
+            "valueNid": "declarative",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 4,
+                    "end": 6,
+                    "text": "is",
+                    "key": "copula_be"
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 578831,
+            "sentence": {
+              "sentenceId": 578831,
+              "semanticId": 1199942,
+              "contentType": "EN_SENTENCE",
+              "content": "Is red warm?",
+              "definition": "红色是暖的吗？",
+              "patternNid": "ask_be_yes_no",
+              "patternTemplate": "{aux_be} {question_subject} {question_complement} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "确认是什么身份或状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Checking Someone's or Something's Identity or State"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "当场确认某人或某物现在是不是某种身份、状态或类别。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to check whether someone or something is a certain person, thing, or state right now."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "INTERNAL"
+            },
+            "role": "member",
+            "valueNid": "yes_no_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 2,
+                    "text": "Is",
+                    "key": "aux_be"
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 510390,
+            "sentence": {
+              "sentenceId": 510390,
+              "semanticId": 1127676,
+              "contentType": "EN_SENTENCE",
+              "content": "What is red?",
+              "definition": "红色是什么？",
+              "patternNid": "ask_what_be_subject",
+              "patternTemplate": "What {aux_be} {question_subject} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "询问是什么"
+                },
+                {
+                  "lang": "en",
+                  "text": "Asking What It Is"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "询问现在是什么。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to ask about what it is."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "wh_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 7,
+                    "text": "What is",
+                    "key": null
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          }
+        ],
+        "memberList": null,
+        "bindingList": null,
+        "created": "2026-09-02T12:09:10.976+00:00",
+        "updated": "2026-09-03T13:11:33.385+00:00"
+      },
+      {
+        "uid": 10177,
+        "contentType": "EN_SENTENCE_REALIZATION_SET",
+        "assetType": "paradigm",
+        "assetNid": "state_sentence_type_contrast",
+        "isSet": true,
+        "asset": {
+          "nid": "state_sentence_type_contrast",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "be 句怎样陈述、确认和追问"
+            },
+            {
+              "lang": "en",
+              "text": "Be-State Sentences Across Statement and Question Types"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "同一个状态，对照陈述、一般疑问和特殊疑问；换档并列，各壳独立画面。"
+            },
+            {
+              "lang": "en",
+              "text": "The same state as a statement, yes-no question, or wh-question. Independent pictures."
+            }
+          ]
+        },
+        "order": 0,
+        "topicNid": null,
+        "difficulty": null,
+        "tier": 0,
+        "access": "INTERNAL",
+        "baseSlotKeys": [],
+        "dialSlotKeys": [],
+        "growthSlotKeys": [],
+        "members": [
+          {
+            "sentenceId": 507900,
+            "sentence": {
+              "sentenceId": 507900,
+              "semanticId": 1125186,
+              "contentType": "EN_SENTENCE",
+              "content": "It is windy.",
+              "definition": "风很大。",
+              "patternNid": "state_entity_be_adj",
+              "patternTemplate": "{fronted_context} {subject} {be_marking} {frequency_adv} {property} {evaluated_action} {context_phrase}.",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "说明是什么状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state it is in"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "说明主语处于什么状态。情绪形容词后可跟 to-inf（glad/happy/pleased/delighted to do），不按形容词拆 nid。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state the subject is in. Evaluative adjectives may take an optional to-infinitive; do not split by adjective."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "declarative",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 3,
+                    "end": 5,
+                    "text": "is",
+                    "key": "copula_be"
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 504881,
+            "sentence": {
+              "sentenceId": 504881,
+              "semanticId": 1122167,
+              "contentType": "EN_SENTENCE",
+              "content": "Is it windy?",
+              "definition": "刮风吗？",
+              "patternNid": "ask_be_yes_no",
+              "patternTemplate": "{aux_be} {question_subject} {question_complement} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "确认是什么身份或状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Checking Someone's or Something's Identity or State"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "当场确认某人或某物现在是不是某种身份、状态或类别。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to check whether someone or something is a certain person, thing, or state right now."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "yes_no_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 2,
+                    "text": "Is",
+                    "key": "aux_be"
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 504863,
+            "sentence": {
+              "sentenceId": 504863,
+              "semanticId": 1122149,
+              "contentType": "EN_SENTENCE",
+              "content": "What is it?",
+              "definition": "它是什么？",
+              "patternNid": "ask_what_be_subject",
+              "patternTemplate": "What {aux_be} {question_subject} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "询问是什么"
+                },
+                {
+                  "lang": "en",
+                  "text": "Asking What It Is"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "询问现在是什么。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to ask about what it is."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "wh_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 7,
+                    "text": "What is",
+                    "key": null
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          }
+        ],
+        "memberList": null,
+        "bindingList": null,
+        "created": "2026-09-02T12:06:11.934+00:00",
+        "updated": "2026-09-03T13:11:33.259+00:00"
+      },
+      {
+        "uid": 10171,
+        "contentType": "EN_SENTENCE_REALIZATION_SET",
+        "assetType": "paradigm",
+        "assetNid": "state_sentence_type_contrast",
+        "isSet": true,
+        "asset": {
+          "nid": "state_sentence_type_contrast",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "be 句怎样陈述、确认和追问"
+            },
+            {
+              "lang": "en",
+              "text": "Be-State Sentences Across Statement and Question Types"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "同一个状态，对照陈述、一般疑问和特殊疑问；换档并列，各壳独立画面。"
+            },
+            {
+              "lang": "en",
+              "text": "The same state as a statement, yes-no question, or wh-question. Independent pictures."
+            }
+          ]
+        },
+        "order": 0,
+        "topicNid": null,
+        "difficulty": null,
+        "tier": 1,
+        "access": "INTERNAL",
+        "baseSlotKeys": [],
+        "dialSlotKeys": [],
+        "growthSlotKeys": [],
+        "members": [
+          {
+            "sentenceId": 574579,
+            "sentence": {
+              "sentenceId": 574579,
+              "semanticId": 1195639,
+              "contentType": "EN_SENTENCE",
+              "content": "Daming is naughty.",
+              "definition": "大明很调皮。",
+              "patternNid": "state_entity_be_adj",
+              "patternTemplate": "{fronted_context} {subject} {be_marking} {frequency_adv} {property} {evaluated_action} {context_phrase}.",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "说明是什么状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state it is in"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "说明主语处于什么状态。情绪形容词后可跟 to-inf（glad/happy/pleased/delighted to do），不按形容词拆 nid。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state the subject is in. Evaluative adjectives may take an optional to-infinitive; do not split by adjective."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "INTERNAL"
+            },
+            "role": "member",
+            "valueNid": "declarative",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 7,
+                    "end": 9,
+                    "text": "is",
+                    "key": "copula_be"
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 504538,
+            "sentence": {
+              "sentenceId": 504538,
+              "semanticId": 1121824,
+              "contentType": "EN_SENTENCE",
+              "content": "Is Daming naughty?",
+              "definition": "大明淘气吗？",
+              "patternNid": "ask_be_yes_no",
+              "patternTemplate": "{aux_be} {question_subject} {question_complement} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "确认是什么身份或状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Checking Someone's or Something's Identity or State"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "当场确认某人或某物现在是不是某种身份、状态或类别。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to check whether someone or something is a certain person, thing, or state right now."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "yes_no_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 2,
+                    "text": "Is",
+                    "key": "aux_be"
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 578811,
+            "sentence": {
+              "sentenceId": 578811,
+              "semanticId": 1199922,
+              "contentType": "EN_SENTENCE",
+              "content": "What is Daming?",
+              "definition": "大明是做什么的？",
+              "patternNid": "ask_what_be_subject",
+              "patternTemplate": "What {aux_be} {question_subject} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "询问是什么"
+                },
+                {
+                  "lang": "en",
+                  "text": "Asking What It Is"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "询问现在是什么。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to ask about what it is."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "INTERNAL"
+            },
+            "role": "member",
+            "valueNid": "wh_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 7,
+                    "text": "What is",
+                    "key": null
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          }
+        ],
+        "memberList": null,
+        "bindingList": null,
+        "created": "2026-09-02T12:02:19.817+00:00",
+        "updated": "2026-09-03T13:11:33.396+00:00"
+      },
+      {
+        "uid": 10166,
+        "contentType": "EN_SENTENCE_REALIZATION_SET",
+        "assetType": "paradigm",
+        "assetNid": "state_sentence_type_contrast",
+        "isSet": true,
+        "asset": {
+          "nid": "state_sentence_type_contrast",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "be 句怎样陈述、确认和追问"
+            },
+            {
+              "lang": "en",
+              "text": "Be-State Sentences Across Statement and Question Types"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "同一个状态，对照陈述、一般疑问和特殊疑问；换档并列，各壳独立画面。"
+            },
+            {
+              "lang": "en",
+              "text": "The same state as a statement, yes-no question, or wh-question. Independent pictures."
+            }
+          ]
+        },
+        "order": 0,
+        "topicNid": null,
+        "difficulty": null,
+        "tier": 1,
+        "access": "INTERNAL",
+        "baseSlotKeys": [],
+        "dialSlotKeys": [],
+        "growthSlotKeys": [],
+        "members": [
+          {
+            "sentenceId": 578804,
+            "sentence": {
+              "sentenceId": 578804,
+              "semanticId": 1199915,
+              "contentType": "EN_SENTENCE",
+              "content": "You are OK.",
+              "definition": "你没事的。",
+              "patternNid": "state_entity_be_adj",
+              "patternTemplate": "{fronted_context} {subject} {be_marking} {frequency_adv} {property} {evaluated_action} {context_phrase}.",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "说明是什么状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state it is in"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "说明主语处于什么状态。情绪形容词后可跟 to-inf（glad/happy/pleased/delighted to do），不按形容词拆 nid。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state the subject is in. Evaluative adjectives may take an optional to-infinitive; do not split by adjective."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "INTERNAL"
+            },
+            "role": "member",
+            "valueNid": "declarative",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 4,
+                    "end": 7,
+                    "text": "are",
+                    "key": "copula_be"
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 503883,
+            "sentence": {
+              "sentenceId": 503883,
+              "semanticId": 1116034,
+              "contentType": "EN_SENTENCE",
+              "content": "Are you OK?",
+              "definition": "你还好吗？",
+              "patternNid": "ask_be_yes_no",
+              "patternTemplate": "{aux_be} {question_subject} {question_complement} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "确认是什么身份或状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Checking Someone's or Something's Identity or State"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "当场确认某人或某物现在是不是某种身份、状态或类别。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to check whether someone or something is a certain person, thing, or state right now."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "yes_no_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 3,
+                    "text": "Are",
+                    "key": "aux_be"
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 509648,
+            "sentence": {
+              "sentenceId": 509648,
+              "semanticId": 1126934,
+              "contentType": "EN_SENTENCE",
+              "content": "What are you?",
+              "definition": "你是做什么工作的？",
+              "patternNid": "ask_what_be_subject",
+              "patternTemplate": "What {aux_be} {question_subject} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "询问是什么"
+                },
+                {
+                  "lang": "en",
+                  "text": "Asking What It Is"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "询问现在是什么。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to ask about what it is."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "wh_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 8,
+                    "text": "What are",
+                    "key": null
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          }
+        ],
+        "memberList": null,
+        "bindingList": null,
+        "created": "2026-09-02T11:58:44.837+00:00",
+        "updated": "2026-09-03T13:11:33.247+00:00"
+      },
+      {
+        "uid": 10162,
+        "contentType": "EN_SENTENCE_REALIZATION_SET",
+        "assetType": "paradigm",
+        "assetNid": "state_sentence_type_contrast",
+        "isSet": true,
+        "asset": {
+          "nid": "state_sentence_type_contrast",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "be 句怎样陈述、确认和追问"
+            },
+            {
+              "lang": "en",
+              "text": "Be-State Sentences Across Statement and Question Types"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "同一个状态，对照陈述、一般疑问和特殊疑问；换档并列，各壳独立画面。"
+            },
+            {
+              "lang": "en",
+              "text": "The same state as a statement, yes-no question, or wh-question. Independent pictures."
+            }
+          ]
+        },
+        "order": 0,
+        "topicNid": null,
+        "difficulty": null,
+        "tier": 0,
+        "access": "INTERNAL",
+        "baseSlotKeys": [],
+        "dialSlotKeys": [],
+        "growthSlotKeys": [],
+        "members": [
+          {
+            "sentenceId": 536611,
+            "sentence": {
+              "sentenceId": 536611,
+              "semanticId": 1154155,
+              "contentType": "EN_SENTENCE",
+              "content": "You are ready.",
+              "definition": "你准备好了。",
+              "patternNid": "state_entity_be_adj",
+              "patternTemplate": "{fronted_context} {subject} {be_marking} {frequency_adv} {property} {evaluated_action} {context_phrase}.",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "说明是什么状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state it is in"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "说明主语处于什么状态。情绪形容词后可跟 to-inf（glad/happy/pleased/delighted to do），不按形容词拆 nid。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state the subject is in. Evaluative adjectives may take an optional to-infinitive; do not split by adjective."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "declarative",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 4,
+                    "end": 7,
+                    "text": "are",
+                    "key": "copula_be"
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 503850,
+            "sentence": {
+              "sentenceId": 503850,
+              "semanticId": 1116001,
+              "contentType": "EN_SENTENCE",
+              "content": "Are you ready?",
+              "definition": "准备好了吗？",
+              "patternNid": "ask_be_yes_no",
+              "patternTemplate": "{aux_be} {question_subject} {question_complement} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "确认是什么身份或状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Checking Someone's or Something's Identity or State"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "当场确认某人或某物现在是不是某种身份、状态或类别。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to check whether someone or something is a certain person, thing, or state right now."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "yes_no_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 3,
+                    "text": "Are",
+                    "key": "aux_be"
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 509648,
+            "sentence": {
+              "sentenceId": 509648,
+              "semanticId": 1126934,
+              "contentType": "EN_SENTENCE",
+              "content": "What are you?",
+              "definition": "你是做什么工作的？",
+              "patternNid": "ask_what_be_subject",
+              "patternTemplate": "What {aux_be} {question_subject} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "询问是什么"
+                },
+                {
+                  "lang": "en",
+                  "text": "Asking What It Is"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "询问现在是什么。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to ask about what it is."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "wh_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 8,
+                    "text": "What are",
+                    "key": null
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          }
+        ],
+        "memberList": null,
+        "bindingList": null,
+        "created": "2026-09-02T11:53:49.104+00:00",
+        "updated": "2026-09-03T13:11:33.404+00:00"
+      },
+      {
+        "uid": 10157,
+        "contentType": "EN_SENTENCE_REALIZATION_SET",
+        "assetType": "paradigm",
+        "assetNid": "state_sentence_type_contrast",
+        "isSet": true,
+        "asset": {
+          "nid": "state_sentence_type_contrast",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "be 句怎样陈述、确认和追问"
+            },
+            {
+              "lang": "en",
+              "text": "Be-State Sentences Across Statement and Question Types"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "同一个状态，对照陈述、一般疑问和特殊疑问；换档并列，各壳独立画面。"
+            },
+            {
+              "lang": "en",
+              "text": "The same state as a statement, yes-no question, or wh-question. Independent pictures."
+            }
+          ]
+        },
+        "order": 0,
+        "topicNid": null,
+        "difficulty": null,
+        "tier": 1,
+        "access": "INTERNAL",
+        "baseSlotKeys": [],
+        "dialSlotKeys": [],
+        "growthSlotKeys": [],
+        "members": [
+          {
+            "sentenceId": 154190,
+            "sentence": {
+              "sentenceId": 154190,
+              "semanticId": 731364,
+              "contentType": "EN_SENTENCE",
+              "content": "The toothbrush is old.",
+              "definition": "这支牙刷旧了。",
+              "patternNid": "state_entity_be_adj",
+              "patternTemplate": "{fronted_context} {subject} {be_marking} {frequency_adv} {property} {evaluated_action} {context_phrase}.",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "说明是什么状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state it is in"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "说明主语处于什么状态。情绪形容词后可跟 to-inf（glad/happy/pleased/delighted to do），不按形容词拆 nid。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state the subject is in. Evaluative adjectives may take an optional to-infinitive; do not split by adjective."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "declarative",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 15,
+                    "end": 17,
+                    "text": "is",
+                    "key": "copula_be"
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 154207,
+            "sentence": {
+              "sentenceId": 154207,
+              "semanticId": 731381,
+              "contentType": "EN_SENTENCE",
+              "content": "Is the toothbrush old?",
+              "definition": "这个牙刷旧了吗？",
+              "patternNid": "ask_be_yes_no",
+              "patternTemplate": "{aux_be} {question_subject} {question_complement} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "确认是什么身份或状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Checking Someone's or Something's Identity or State"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "当场确认某人或某物现在是不是某种身份、状态或类别。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to check whether someone or something is a certain person, thing, or state right now."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "yes_no_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 2,
+                    "text": "Is",
+                    "key": "aux_be"
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 578733,
+            "sentence": {
+              "sentenceId": 578733,
+              "semanticId": 1199844,
+              "contentType": "EN_SENTENCE",
+              "content": "What is the toothbrush?",
+              "definition": "这个牙刷是什么？",
+              "patternNid": "ask_what_be_subject",
+              "patternTemplate": "What {aux_be} {question_subject} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "询问是什么"
+                },
+                {
+                  "lang": "en",
+                  "text": "Asking What It Is"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "询问现在是什么。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to ask about what it is."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "INTERNAL"
+            },
+            "role": "member",
+            "valueNid": "wh_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 7,
+                    "text": "What is",
+                    "key": null
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          }
+        ],
+        "memberList": null,
+        "bindingList": null,
+        "created": "2026-09-02T11:45:50.726+00:00",
+        "updated": "2026-09-03T13:11:33.207+00:00"
+      },
+      {
+        "uid": 10153,
+        "contentType": "EN_SENTENCE_REALIZATION_SET",
+        "assetType": "paradigm",
+        "assetNid": "state_sentence_type_contrast",
+        "isSet": true,
+        "asset": {
+          "nid": "state_sentence_type_contrast",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "be 句怎样陈述、确认和追问"
+            },
+            {
+              "lang": "en",
+              "text": "Be-State Sentences Across Statement and Question Types"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "同一个状态，对照陈述、一般疑问和特殊疑问；换档并列，各壳独立画面。"
+            },
+            {
+              "lang": "en",
+              "text": "The same state as a statement, yes-no question, or wh-question. Independent pictures."
+            }
+          ]
+        },
+        "order": 0,
+        "topicNid": null,
+        "difficulty": null,
+        "tier": 1,
+        "access": "INTERNAL",
+        "baseSlotKeys": [],
+        "dialSlotKeys": [],
+        "growthSlotKeys": [],
+        "members": [
+          {
+            "sentenceId": 154189,
+            "sentence": {
+              "sentenceId": 154189,
+              "semanticId": 731363,
+              "contentType": "EN_SENTENCE",
+              "content": "The pillow is old.",
+              "definition": "这个枕头是旧的。",
+              "patternNid": "state_entity_be_adj",
+              "patternTemplate": "{fronted_context} {subject} {be_marking} {frequency_adv} {property} {evaluated_action} {context_phrase}.",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "说明是什么状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state it is in"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "说明主语处于什么状态。情绪形容词后可跟 to-inf（glad/happy/pleased/delighted to do），不按形容词拆 nid。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state the subject is in. Evaluative adjectives may take an optional to-infinitive; do not split by adjective."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "declarative",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 11,
+                    "end": 13,
+                    "text": "is",
+                    "key": "copula_be"
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 154206,
+            "sentence": {
+              "sentenceId": 154206,
+              "semanticId": 731380,
+              "contentType": "EN_SENTENCE",
+              "content": "Is the pillow old?",
+              "definition": "这个枕头旧吗？",
+              "patternNid": "ask_be_yes_no",
+              "patternTemplate": "{aux_be} {question_subject} {question_complement} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "确认是什么身份或状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Checking Someone's or Something's Identity or State"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "当场确认某人或某物现在是不是某种身份、状态或类别。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to check whether someone or something is a certain person, thing, or state right now."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "yes_no_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 2,
+                    "text": "Is",
+                    "key": "aux_be"
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 578724,
+            "sentence": {
+              "sentenceId": 578724,
+              "semanticId": 1199835,
+              "contentType": "EN_SENTENCE",
+              "content": "What is the pillow?",
+              "definition": "这个枕头是什么？",
+              "patternNid": "ask_what_be_subject",
+              "patternTemplate": "What {aux_be} {question_subject} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "询问是什么"
+                },
+                {
+                  "lang": "en",
+                  "text": "Asking What It Is"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "询问现在是什么。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to ask about what it is."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "INTERNAL"
+            },
+            "role": "member",
+            "valueNid": "wh_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 7,
+                    "text": "What is",
+                    "key": null
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          }
+        ],
+        "memberList": null,
+        "bindingList": null,
+        "created": "2026-09-02T11:41:43.681+00:00",
+        "updated": "2026-09-03T13:11:33.088+00:00"
+      },
+      {
+        "uid": 10149,
+        "contentType": "EN_SENTENCE_REALIZATION_SET",
+        "assetType": "paradigm",
+        "assetNid": "state_sentence_type_contrast",
+        "isSet": true,
+        "asset": {
+          "nid": "state_sentence_type_contrast",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "be 句怎样陈述、确认和追问"
+            },
+            {
+              "lang": "en",
+              "text": "Be-State Sentences Across Statement and Question Types"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "同一个状态，对照陈述、一般疑问和特殊疑问；换档并列，各壳独立画面。"
+            },
+            {
+              "lang": "en",
+              "text": "The same state as a statement, yes-no question, or wh-question. Independent pictures."
+            }
+          ]
+        },
+        "order": 0,
+        "topicNid": null,
+        "difficulty": null,
+        "tier": 0,
+        "access": "INTERNAL",
+        "baseSlotKeys": [],
+        "dialSlotKeys": [],
+        "growthSlotKeys": [],
+        "members": [
+          {
+            "sentenceId": 154188,
+            "sentence": {
+              "sentenceId": 154188,
+              "semanticId": 731362,
+              "contentType": "EN_SENTENCE",
+              "content": "The sofa is old.",
+              "definition": "这个沙发旧了。",
+              "patternNid": "state_entity_be_adj",
+              "patternTemplate": "{fronted_context} {subject} {be_marking} {frequency_adv} {property} {evaluated_action} {context_phrase}.",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "说明是什么状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state it is in"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "说明主语处于什么状态。情绪形容词后可跟 to-inf（glad/happy/pleased/delighted to do），不按形容词拆 nid。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state the subject is in. Evaluative adjectives may take an optional to-infinitive; do not split by adjective."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "declarative",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 9,
+                    "end": 11,
+                    "text": "is",
+                    "key": "copula_be"
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 154205,
+            "sentence": {
+              "sentenceId": 154205,
+              "semanticId": 731379,
+              "contentType": "EN_SENTENCE",
+              "content": "Is the sofa old?",
+              "definition": "这个沙发旧吗？",
+              "patternNid": "ask_be_yes_no",
+              "patternTemplate": "{aux_be} {question_subject} {question_complement} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "确认是什么身份或状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Checking Someone's or Something's Identity or State"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "当场确认某人或某物现在是不是某种身份、状态或类别。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to check whether someone or something is a certain person, thing, or state right now."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "yes_no_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 2,
+                    "text": "Is",
+                    "key": "aux_be"
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 578720,
+            "sentence": {
+              "sentenceId": 578720,
+              "semanticId": 1199831,
+              "contentType": "EN_SENTENCE",
+              "content": "What is the sofa?",
+              "definition": "这个沙发是什么？",
+              "patternNid": "ask_what_be_subject",
+              "patternTemplate": "What {aux_be} {question_subject} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "询问是什么"
+                },
+                {
+                  "lang": "en",
+                  "text": "Asking What It Is"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "询问现在是什么。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to ask about what it is."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "INTERNAL"
+            },
+            "role": "member",
+            "valueNid": "wh_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 7,
+                    "text": "What is",
+                    "key": null
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          }
+        ],
+        "memberList": null,
+        "bindingList": null,
+        "created": "2026-09-02T11:37:08.870+00:00",
+        "updated": "2026-09-03T13:11:33.106+00:00"
+      },
+      {
+        "uid": 10147,
+        "contentType": "EN_SENTENCE_REALIZATION_SET",
+        "assetType": "paradigm",
+        "assetNid": "state_sentence_type_contrast",
+        "isSet": true,
+        "asset": {
+          "nid": "state_sentence_type_contrast",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "be 句怎样陈述、确认和追问"
+            },
+            {
+              "lang": "en",
+              "text": "Be-State Sentences Across Statement and Question Types"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "同一个状态，对照陈述、一般疑问和特殊疑问；换档并列，各壳独立画面。"
+            },
+            {
+              "lang": "en",
+              "text": "The same state as a statement, yes-no question, or wh-question. Independent pictures."
+            }
+          ]
+        },
+        "order": 0,
+        "topicNid": null,
+        "difficulty": null,
+        "tier": 1,
+        "access": "INTERNAL",
+        "baseSlotKeys": [],
+        "dialSlotKeys": [],
+        "growthSlotKeys": [],
+        "members": [
+          {
+            "sentenceId": 154187,
+            "sentence": {
+              "sentenceId": 154187,
+              "semanticId": 731361,
+              "contentType": "EN_SENTENCE",
+              "content": "The chair is old.",
+              "definition": "这把椅子很旧。",
+              "patternNid": "state_entity_be_adj",
+              "patternTemplate": "{fronted_context} {subject} {be_marking} {frequency_adv} {property} {evaluated_action} {context_phrase}.",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "说明是什么状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state it is in"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "说明主语处于什么状态。情绪形容词后可跟 to-inf（glad/happy/pleased/delighted to do），不按形容词拆 nid。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state the subject is in. Evaluative adjectives may take an optional to-infinitive; do not split by adjective."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "declarative",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 10,
+                    "end": 12,
+                    "text": "is",
+                    "key": "copula_be"
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 154204,
+            "sentence": {
+              "sentenceId": 154204,
+              "semanticId": 731378,
+              "contentType": "EN_SENTENCE",
+              "content": "Is the chair old?",
+              "definition": "这把椅子旧吗？",
+              "patternNid": "ask_be_yes_no",
+              "patternTemplate": "{aux_be} {question_subject} {question_complement} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "确认是什么身份或状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Checking Someone's or Something's Identity or State"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "当场确认某人或某物现在是不是某种身份、状态或类别。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to check whether someone or something is a certain person, thing, or state right now."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "yes_no_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 2,
+                    "text": "Is",
+                    "key": "aux_be"
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 578710,
+            "sentence": {
+              "sentenceId": 578710,
+              "semanticId": 1199821,
+              "contentType": "EN_SENTENCE",
+              "content": "What is the chair?",
+              "definition": "这把椅子是什么？",
+              "patternNid": "ask_what_be_subject",
+              "patternTemplate": "What {aux_be} {question_subject} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "询问是什么"
+                },
+                {
+                  "lang": "en",
+                  "text": "Asking What It Is"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "询问现在是什么。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to ask about what it is."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "INTERNAL"
+            },
+            "role": "member",
+            "valueNid": "wh_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 7,
+                    "text": "What is",
+                    "key": null
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          }
+        ],
+        "memberList": null,
+        "bindingList": null,
+        "created": "2026-09-02T11:32:32.877+00:00",
+        "updated": "2026-09-03T13:11:33.104+00:00"
+      },
+      {
+        "uid": 10143,
+        "contentType": "EN_SENTENCE_REALIZATION_SET",
+        "assetType": "paradigm",
+        "assetNid": "state_sentence_type_contrast",
+        "isSet": true,
+        "asset": {
+          "nid": "state_sentence_type_contrast",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "be 句怎样陈述、确认和追问"
+            },
+            {
+              "lang": "en",
+              "text": "Be-State Sentences Across Statement and Question Types"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "同一个状态，对照陈述、一般疑问和特殊疑问；换档并列，各壳独立画面。"
+            },
+            {
+              "lang": "en",
+              "text": "The same state as a statement, yes-no question, or wh-question. Independent pictures."
+            }
+          ]
+        },
+        "order": 0,
+        "topicNid": null,
+        "difficulty": null,
+        "tier": 1,
+        "access": "INTERNAL",
+        "baseSlotKeys": [],
+        "dialSlotKeys": [],
+        "growthSlotKeys": [],
+        "members": [
+          {
+            "sentenceId": 154186,
+            "sentence": {
+              "sentenceId": 154186,
+              "semanticId": 731360,
+              "contentType": "EN_SENTENCE",
+              "content": "The table is old.",
+              "definition": "这张桌子旧了。",
+              "patternNid": "state_entity_be_adj",
+              "patternTemplate": "{fronted_context} {subject} {be_marking} {frequency_adv} {property} {evaluated_action} {context_phrase}.",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "说明是什么状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state it is in"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "说明主语处于什么状态。情绪形容词后可跟 to-inf（glad/happy/pleased/delighted to do），不按形容词拆 nid。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state the subject is in. Evaluative adjectives may take an optional to-infinitive; do not split by adjective."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "declarative",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 10,
+                    "end": 12,
+                    "text": "is",
+                    "key": "copula_be"
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 154203,
+            "sentence": {
+              "sentenceId": 154203,
+              "semanticId": 731377,
+              "contentType": "EN_SENTENCE",
+              "content": "Is the table old?",
+              "definition": "这张桌子旧吗？",
+              "patternNid": "ask_be_yes_no",
+              "patternTemplate": "{aux_be} {question_subject} {question_complement} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "确认是什么身份或状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Checking Someone's or Something's Identity or State"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "当场确认某人或某物现在是不是某种身份、状态或类别。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to check whether someone or something is a certain person, thing, or state right now."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "yes_no_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 2,
+                    "text": "Is",
+                    "key": "aux_be"
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 578700,
+            "sentence": {
+              "sentenceId": 578700,
+              "semanticId": 1199811,
+              "contentType": "EN_SENTENCE",
+              "content": "What is the table?",
+              "definition": "这张桌子是什么？",
+              "patternNid": "ask_what_be_subject",
+              "patternTemplate": "What {aux_be} {question_subject} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "询问是什么"
+                },
+                {
+                  "lang": "en",
+                  "text": "Asking What It Is"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "询问现在是什么。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to ask about what it is."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "INTERNAL"
+            },
+            "role": "member",
+            "valueNid": "wh_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 7,
+                    "text": "What is",
+                    "key": null
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          }
+        ],
+        "memberList": null,
+        "bindingList": null,
+        "created": "2026-09-02T11:27:43.297+00:00",
+        "updated": "2026-09-03T13:11:33.080+00:00"
+      },
+      {
+        "uid": 10140,
+        "contentType": "EN_SENTENCE_REALIZATION_SET",
+        "assetType": "paradigm",
+        "assetNid": "state_sentence_type_contrast",
+        "isSet": true,
+        "asset": {
+          "nid": "state_sentence_type_contrast",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "be 句怎样陈述、确认和追问"
+            },
+            {
+              "lang": "en",
+              "text": "Be-State Sentences Across Statement and Question Types"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "同一个状态，对照陈述、一般疑问和特殊疑问；换档并列，各壳独立画面。"
+            },
+            {
+              "lang": "en",
+              "text": "The same state as a statement, yes-no question, or wh-question. Independent pictures."
+            }
+          ]
+        },
+        "order": 0,
+        "topicNid": null,
+        "difficulty": null,
+        "tier": 0,
+        "access": "INTERNAL",
+        "baseSlotKeys": [],
+        "dialSlotKeys": [],
+        "growthSlotKeys": [],
+        "members": [
+          {
+            "sentenceId": 154185,
+            "sentence": {
+              "sentenceId": 154185,
+              "semanticId": 731359,
+              "contentType": "EN_SENTENCE",
+              "content": "The bag is old.",
+              "definition": "这个包旧了。",
+              "patternNid": "state_entity_be_adj",
+              "patternTemplate": "{fronted_context} {subject} {be_marking} {frequency_adv} {property} {evaluated_action} {context_phrase}.",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "说明是什么状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state it is in"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "说明主语处于什么状态。情绪形容词后可跟 to-inf（glad/happy/pleased/delighted to do），不按形容词拆 nid。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state the subject is in. Evaluative adjectives may take an optional to-infinitive; do not split by adjective."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "declarative",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 8,
+                    "end": 10,
+                    "text": "is",
+                    "key": "copula_be"
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 154202,
+            "sentence": {
+              "sentenceId": 154202,
+              "semanticId": 731376,
+              "contentType": "EN_SENTENCE",
+              "content": "Is the bag old?",
+              "definition": "这个包旧吗？",
+              "patternNid": "ask_be_yes_no",
+              "patternTemplate": "{aux_be} {question_subject} {question_complement} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "确认是什么身份或状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Checking Someone's or Something's Identity or State"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "当场确认某人或某物现在是不是某种身份、状态或类别。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to check whether someone or something is a certain person, thing, or state right now."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "yes_no_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 2,
+                    "text": "Is",
+                    "key": "aux_be"
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 578693,
+            "sentence": {
+              "sentenceId": 578693,
+              "semanticId": 1199804,
+              "contentType": "EN_SENTENCE",
+              "content": "What is the bag?",
+              "definition": "这个包是什么？",
+              "patternNid": "ask_what_be_subject",
+              "patternTemplate": "What {aux_be} {question_subject} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "询问是什么"
+                },
+                {
+                  "lang": "en",
+                  "text": "Asking What It Is"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "询问现在是什么。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to ask about what it is."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "INTERNAL"
+            },
+            "role": "member",
+            "valueNid": "wh_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 7,
+                    "text": "What is",
+                    "key": null
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          }
+        ],
+        "memberList": null,
+        "bindingList": null,
+        "created": "2026-09-02T11:24:03.758+00:00",
+        "updated": "2026-09-03T13:11:33.097+00:00"
+      },
+      {
+        "uid": 10136,
+        "contentType": "EN_SENTENCE_REALIZATION_SET",
+        "assetType": "paradigm",
+        "assetNid": "state_sentence_type_contrast",
+        "isSet": true,
+        "asset": {
+          "nid": "state_sentence_type_contrast",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "be 句怎样陈述、确认和追问"
+            },
+            {
+              "lang": "en",
+              "text": "Be-State Sentences Across Statement and Question Types"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "同一个状态，对照陈述、一般疑问和特殊疑问；换档并列，各壳独立画面。"
+            },
+            {
+              "lang": "en",
+              "text": "The same state as a statement, yes-no question, or wh-question. Independent pictures."
+            }
+          ]
+        },
+        "order": 0,
+        "topicNid": null,
+        "difficulty": null,
+        "tier": 1,
+        "access": "INTERNAL",
+        "baseSlotKeys": [],
+        "dialSlotKeys": [],
+        "growthSlotKeys": [],
+        "members": [
+          {
+            "sentenceId": 154184,
+            "sentence": {
+              "sentenceId": 154184,
+              "semanticId": 731358,
+              "contentType": "EN_SENTENCE",
+              "content": "The case is old.",
+              "definition": "这个箱子很旧了。",
+              "patternNid": "state_entity_be_adj",
+              "patternTemplate": "{fronted_context} {subject} {be_marking} {frequency_adv} {property} {evaluated_action} {context_phrase}.",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "说明是什么状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state it is in"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "说明主语处于什么状态。情绪形容词后可跟 to-inf（glad/happy/pleased/delighted to do），不按形容词拆 nid。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what state the subject is in. Evaluative adjectives may take an optional to-infinitive; do not split by adjective."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "declarative",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 9,
+                    "end": 11,
+                    "text": "is",
+                    "key": "copula_be"
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 154201,
+            "sentence": {
+              "sentenceId": 154201,
+              "semanticId": 731375,
+              "contentType": "EN_SENTENCE",
+              "content": "Is the case old?",
+              "definition": "这个箱子旧吗？",
+              "patternNid": "ask_be_yes_no",
+              "patternTemplate": "{aux_be} {question_subject} {question_complement} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "确认是什么身份或状态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Checking Someone's or Something's Identity or State"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "当场确认某人或某物现在是不是某种身份、状态或类别。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to check whether someone or something is a certain person, thing, or state right now."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "NORMAL"
+            },
+            "role": "member",
+            "valueNid": "yes_no_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 2,
+                    "text": "Is",
+                    "key": "aux_be"
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          {
+            "sentenceId": 578681,
+            "sentence": {
+              "sentenceId": 578681,
+              "semanticId": 1199792,
+              "contentType": "EN_SENTENCE",
+              "content": "What is the case?",
+              "definition": "这个箱子是什么？",
+              "patternNid": "ask_what_be_subject",
+              "patternTemplate": "What {aux_be} {question_subject} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "询问是什么"
+                },
+                {
+                  "lang": "en",
+                  "text": "Asking What It Is"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "询问现在是什么。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to ask about what it is."
+                }
+              ],
+              "blueprintScope": null,
+              "blueprintScopeName": null,
+              "addedSlotKeys": null,
+              "segmentList": null,
+              "access": "INTERNAL"
+            },
+            "role": "member",
+            "valueNid": "wh_question",
+            "cell": null,
+            "pair": null,
+            "toPattern": null,
+            "addedSlotKeys": [],
+            "foci": [
+              {
+                "focusKey": "contrast",
+                "ranges": [
+                  {
+                    "start": 0,
+                    "end": 7,
+                    "text": "What is",
+                    "key": null
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          }
+        ],
+        "memberList": null,
+        "bindingList": null,
+        "created": "2026-09-02T11:19:34.149+00:00",
+        "updated": "2026-09-03T13:11:33.109+00:00"
+      }
+    ],
+    "order": 499000,
+    "system": true,
+    "enabled": true,
+    "created": "2026-10-18T12:43:16.389+00:00",
+    "updated": "2026-10-18T12:43:16.389+00:00"
+  }
+}

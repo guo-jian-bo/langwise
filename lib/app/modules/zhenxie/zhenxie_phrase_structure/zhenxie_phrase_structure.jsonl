@@ -1,0 +1,174 @@
+{
+    "phraseId": 137591,
+    "content": "'at' symbol",
+    "pos": "NOUN",
+    "mixLabel": "1 固定 · 1 可换",
+    "explanationZh": "名词短语，用引号内的词 'at' 修饰核心名词 symbol，指代特定的排版符号（@）。",
+    "items": [
+        {
+            "uid": 18141,
+            "roleNid": "modifier",
+            "roleNameZh": "修饰词",
+            "tokenPosition": 1,
+            "text": "'at'",
+            "isFixed": true,
+            "wordPos": "NOUN",
+            "wordId": null,
+            "semanticIds": [],
+            "semanticBrief": null
+        },
+        {
+            "uid": 18142,
+            "roleNid": "head",
+            "roleNameZh": "核心词",
+            "tokenPosition": 2,
+            "text": "symbol",
+            "isFixed": false,
+            "wordPos": "NOUN",
+            "wordId": 142648,
+            "semanticIds": [
+                716589,
+                716590
+            ],
+            "semanticBrief": "象征；代表物"
+        }
+    ]
+}
+
+{
+    "phraseId": 137591,
+    "content": "'at' symbol",
+    "pos": "NOUN",
+    "mixLabel": "1 固定 · 1 可换",
+    "structures": [
+        {
+            "uid": 6751,
+            "phrasePos": "NOUN",
+            "explanations": [
+                {
+                    "lang": "en",
+                    "text": "A noun phrase in which a quoted word ('at') modifies the head noun 'symbol' to name a specific typographic character (@)."
+                },
+                {
+                    "lang": "zh",
+                    "text": "名词短语，用引号内的词 'at' 修饰核心名词 symbol，指代特定的排版符号（@）。"
+                }
+            ]
+        }
+    ],
+    "items": [
+        {
+            "uid": 18141,
+            "roleNid": "modifier",
+            "roleNameZh": "修饰词",
+            "tokenPosition": 1,
+            "text": "'at'",
+            "isFixed": true,
+            "wordPos": "NOUN",
+            "wordId": null,
+            "semanticIds": [],
+            "semanticBrief": null
+        },
+        {
+            "uid": 18142,
+            "roleNid": "head",
+            "roleNameZh": "核心词",
+            "tokenPosition": 2,
+            "text": "symbol",
+            "isFixed": false,
+            "wordPos": "NOUN",
+            "wordId": 142648,
+            "semanticIds": [
+                716589,
+                716590
+            ],
+            "semanticBrief": "象征；代表物"
+        }
+    ],
+    "contentCards": [
+        {
+            "contentType": "EN_WORD",
+            "contentTypeTitle": "Word",
+            "contentId": 142648,
+            "semanticId": 716589,
+            "content": "symbol",
+            "definition": "代表更广泛特质或情况的人、物体或事件；在科学、数学等领域具有固定含义的记号",
+            "gloss": [
+                {
+                    "lang": "zh",
+                    "text": "象征；代表物"
+                },
+                {
+                    "lang": "en",
+                    "text": "something that represents a larger idea or situation"
+                }
+            ],
+            "tags": [
+                {
+                    "gloss": [
+                        {
+                            "lang": "en",
+                            "text": "n."
+                        },
+                        {
+                            "lang": "zh",
+                            "text": "名词"
+                        }
+                    ],
+                    "style": null
+                },
+                {
+                    "gloss": [
+                        {
+                            "lang": "en",
+                            "text": "flexible"
+                        },
+                        {
+                            "lang": "zh",
+                            "text": "可换"
+                        }
+                    ],
+                    "style": null
+                }
+            ],
+            "pronunciations": [
+                {
+                    "audioId": 45056,
+                    "accentId": 7,
+                    "phonetic": "ˈsɪmbl",
+                    "audioUrl": "https://track.timelywise.cn/knowledge/speech/2109552346CF90AC8FC89086DC6F0853.mp3?auth_key=1788436529-mg8qyz3s3ukb-0-e80c89d198a60143c1ca0f12c8f5ba0b",
+                    "duration": 1.49,
+                    "national": "US",
+                    "nationalTitle": "美音",
+                    "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                    "isExercise": true
+                },
+                {
+                    "audioId": 45055,
+                    "accentId": 9,
+                    "phonetic": "ˈsɪmbl",
+                    "audioUrl": "https://track.timelywise.cn/knowledge/speech/1EBB5D7ADFF56C9919955D85051B98DF.mp3?auth_key=1788436529-pthl2fzyjhvj-0-7e0d812465e2d795cf7761ec369cb345",
+                    "duration": 1.49,
+                    "national": "UK",
+                    "nationalTitle": "英音",
+                    "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                    "isExercise": true
+                }
+            ],
+            "difficulty": {
+                "max": 2,
+                "min": 2
+            },
+            "imageId": 6124308,
+            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/FC912D1AC54974BDAE32BFC2667011E8.webp?auth_key=1788436529-6zpus6twmkvg-0-595e528fcfd63aac140a65676cbc5f50",
+            "imageKey": "knowledge/semantic/FC912D1AC54974BDAE32BFC2667011E8.webp",
+            "imageMd5": "FC912D1AC54974BDAE32BFC2667011E8",
+            "phonetic": "ˈsɪmbl",
+            "audioUrl": "https://track.timelywise.cn/knowledge/speech/2109552346CF90AC8FC89086DC6F0853.mp3?auth_key=1788436529-mg8qyz3s3ukb-0-e80c89d198a60143c1ca0f12c8f5ba0b",
+            "pos": "n.",
+            "posTitle": "名词",
+            "in_course_cnt": 30,
+            "access": "NORMAL"
+        }
+    ]
+}
