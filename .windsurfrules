@@ -1,0 +1,66 @@
+# Langwise 项目架构规范
+
+## 1. 文件夹结构
+- `lib/app/modules/`: 模块化功能页面，每个功能独立文件夹
+- `lib/app/routes/`: 路由管理
+- `lib/common/entities/`: 实体类模型
+- `lib/common/https/`: 网络请求工具
+- `lib/common/widgets/`: 公共UI组件
+- `lib/common/stores/`: 全局状态管理
+- `lib/utils/`: 工具类
+
+## 2. 命名规范
+- 类名：使用PascalCase (如`ManageTopicController`)
+- 变量/方法：使用camelCase (如`onCreateTopic`)
+- 私有成员：使用下划线前缀 (如`_initData`)
+- 文件名：使用snake_case (如`manage_topic_controller.dart`)
+
+## 3. 实体类规范
+- 所有实体类继承自`Dessert`基类
+- 使用UUID生成唯一标识
+- 实现标准化的相等性比较
+- 所有实体包含GlobalKey用于UI关联
+
+## 4. 控制器规范
+- 使用GetX框架管理状态
+- 控制器继承自`GetxController`或`BaseController`
+- 工作器在`onClose`方法中必须销毁
+- 应用单例模式获取控制器实例 (如`static Controller get to => Get.find()`)
+
+## 5. UI组件规范
+- 表格组件使用`AsyncDataTableWidget`并优化宽度设置
+- 使用内联编辑模式实现单元格编辑
+- 组件尺寸使用`ScreenUtil`进行适配 (如`.ww`和`.wh`扩展方法)
+- 多选组件使用`ManageMultiSelectWidget`
+
+## 6. 设计原则
+- **单一职责原则 (SRP)**：每个类/方法应当只有一个变更的理由，只聚焦于完成一个特定功能
+- 模块间保持低耦合高内聚，减少依赖关系
+- 优先使用组合而非继承，提高代码复用性和灵活性
+- 通过接口分离和依赖注入实现模块解耦
+- 业务逻辑与UI表现层分离，便于单元测试和维护
+
+## 7. 语言国际化
+- 使用`LanguageTranslations`管理多语言
+- 国际化文本通过键访问 (如`'key'.tr`)
+
+## 8. 网络请求规范
+- 使用`WiseHttp`发起网络请求
+- 使用拦截器处理认证、重试和缓存
+- API请求封装在专用工具类中 (如`TopicUtil`)
+
+## 9. 状态管理
+- 使用GetX响应式编程 (Rx变量、ever等工作器)
+- 全局状态使用`GetxService`实现单例模式
+- 工作器必须注册和销毁，避免内存泄漏
+
+## 10. 代码风格
+- 方法长度控制在50行以内
+- 类长度控制在500行以内
+- 使用Doc注释描述方法和类
+- 复杂逻辑添加行内注释
+
+## 11. Context7
+- 总是使用context7 MCP服务器查询Pydantic AI和Streamlit等库的文档
+- 对于tokens参数，从5000开始，如果第一次搜索没有获得相关文档，则增加到20000
+- 对于任何特定文档，最多搜索三次。如果仍未获得所需内容，使用Brave MCP服务器进行更广泛的搜索
