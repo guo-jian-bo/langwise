@@ -1,0 +1,141 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
+    id "dev.flutter.flutter-gradle-plugin"
+    id "com.huawei.agconnect"
+}
+
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file("local.properties")
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader("UTF-8") { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterVersionCode = localProperties.getProperty("flutter.versionCode")
+if (flutterVersionCode == null) {
+    flutterVersionCode = "1"
+}
+
+def flutterVersionName = localProperties.getProperty("flutter.versionName")
+if (flutterVersionName == null) {
+    flutterVersionName = "1.0"
+}
+
+android {
+    namespace = "com.timelywise.langwise"
+    // compileSdk = flutter.compileSdkVersion
+    compileSdk = 36
+    // ndkVersion = flutter.ndkVersion
+    ndkVersion = "28.2.13676358"
+    
+
+    compileOptions {
+        coreLibraryDesugaringEnabled true
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_17
+    }
+
+    // 添加 libs 目录作为依赖源
+    repositories {
+        flatDir {
+            dirs 'libs'  // 指向 app/libs 目录
+        }
+    }
+
+    defaultConfig {
+        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+        applicationId = "com.timelywise.langwise"
+        // You can update the following values to match your application needs.
+        // For more information, see: https://flutter.dev/to/review-gradle-config.
+
+        minSdk = 24
+        // minSdk = flutter.minSdkVersion
+        targetSdk = flutter.targetSdkVersion
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
+        
+        manifestPlaceholders = [
+            JPUSH_PKGNAME: applicationId,
+            JPUSH_APPKEY : "4ce82a85e32bb649afc96363",
+            JPUSH_CHANNEL: "developer-default", //暂时填写默认值即可.
+            applicationName:"io.flutter.app.FlutterApplication",
+
+            XIAOMI_APPKEY : "3/+Ky0wVsdgfNVOWeMPKiA==",// 小米平台注册的appkey，xiaomi-v5.5.3版本开始，不需要添加前缀 “MI-”
+            XIAOMI_APPID : "2882303761520437408", // 小米平台注册的appid，xiaomi-v5.5.3版本开始，不需要添加前缀 “MI-”·
+
+            MEIZU_APPKEY : "MZ-7702dee227984ff999f803377da7a6ff", // 魅族平台注册的appkey
+            MEIZU_APPID : "MZ-155991", // 魅族平台注册的appid
+
+            VIVO_APPKEY : "18adca32264eff37eb98a48855459a94", // VIVO平台注册的appkey
+            VIVO_APPID : "105937558", // VIVO平台注册的appid
+
+            OPPO_APPKEY : "OP-35cae770b3604ba6a71dd5f3b22bd25a", // OPPO平台注册的appkey
+            OPPO_APPID : "OP-35328751", // OPPO平台注册的appid
+            OPPO_APPSECRET: "OP-c913065ce90b4bd69dc61b4b020f8bf4",//OPPO平台注册的appsecret
+
+            HONOR_APPID : "104513104", // Honor平台注册的APP ID
+        ]
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("/Users/alexyou/Androidkey/langwise-apk.jks")
+            // storeFile file("/Users/langwise/Desktop/ns/file/langwise-apk.jks")
+            storePassword "wise1118"
+            keyAlias "langwise"
+            keyPassword "wise1118"
+            v1SigningEnabled true  // 启用 v1 签名
+            v2SigningEnabled true  // 启用 v2 签名
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true   // 启用代码压缩
+            shrinkResources true // 移除无用资源
+            // proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro' //友盟压缩规则
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro' //友盟压缩规则
+            // TODO: Add your own signing config for the release build.
+            // Signing with the debug keys for now, so `flutter run --release` works.
+            signingConfig = signingConfigs.release
+        }
+        debug {
+            // TODO: Add your own signing config for the debug build.
+            // Signing with the debug keys for now, so `flutter run --debug` works.
+            signingConfig = signingConfigs.debug
+        }
+    }
+}
+
+dependencies {
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.1.4'  // 本地通知 必须添加！
+    implementation 'cn.jiguang.sdk.plugin:xiaomi:5.7.0' // 小米推送
+    implementation 'cn.jiguang.sdk.plugin:meizu:5.7.0' // 魅族推送
+    implementation 'cn.jiguang.sdk.plugin:vivo:5.7.0' // vivo推送
+    implementation 'cn.jiguang.sdk.plugin:oppo:5.7.0' // oppo推送
+    implementation 'cn.jiguang.sdk.plugin:honor:5.7.0' // honor推送
+    implementation 'com.meituan.android.walle:library:1.1.7'
+
+    //JPush Android SDK 4.6.0 以上版本更新华为 HMS SDK 版本为:6.3.0.304 及以上版本,接入要求：Android Studio 3.6.1 或更高版本、Android Gradle 插件 3.5.4 或更高版本。
+    implementation 'com.huawei.hms:push:6.12.0.300'
+    implementation 'cn.jiguang.sdk.plugin:huawei:5.7.0'
+
+    // 引入libs下的所有jar和aar文件
+    implementation fileTree(include: ['*.jar','*.aar'], dir: 'libs')
+
+    //OPPO 3.1.0 aar 及其以上版本需要添加以下依赖
+    implementation 'com.google.code.gson:gson:2.6.2'
+    implementation 'commons-codec:commons-codec:1.6'
+    implementation 'androidx.annotation:annotation:1.1.0'
+}
+
+flutter {
+    source = "../.."
+}
