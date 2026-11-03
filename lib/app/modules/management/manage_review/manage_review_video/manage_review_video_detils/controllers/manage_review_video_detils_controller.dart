@@ -1,0 +1,451 @@
+
+
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:langwise/common/widgets/widgets.dart';
+
+import '../../../../../../../common/entities/entities.dart';
+import '../../../../../../../common/https/https.dart';
+import '../../../../../../../utils/utils.dart';
+import '../../../../../../routes/routes.dart';
+import '../../../../enums/video_aspect_ratio_enum.dart';
+import '../../../../utils/utils.dart';
+import '../../model/video_task_status_enum.dart';
+import '../../../../common/video_edit_widget.dart';
+
+
+class ManageReviewVideoDetilsController extends GetxController with ManageBreadcrumbMixin {
+  final String tag;
+  ManageReviewVideoDetilsController({required this.tag});
+
+  @override
+  String get breadcrumbRoute => Routes.MANAGE_REVIEW_VIDEO_DETILS;
+
+  @override
+  String get breadcrumbTitle => '视频详情';
+
+  /// 页面参数 - 视频任务ID
+  int? videoTaskId;
+  /// 页面参数 - 视频id
+  int? videoRelationId;
+  /// 页面参数 - 当前视频ID
+  int? currentVideoId;
+
+  /// 视频详情数据
+  final Rx<VideoTaskEntityList> videoData = VideoTaskEntityList().obs;
+
+  /// 视频列表
+  final RxList<VideoTaskEntityListVideos> videoList = <VideoTaskEntityListVideos>[].obs;
+  /// 当前视频索引
+  final RxInt currentVideoIndex = 0.obs;
+
+  /// 帧信息是否展开
+  final Rx<bool> isFrameImageExpanded = true.obs;
+
+  /// 视频信息是否展开
+  final Rx<bool> isVideoInfoExpanded = true.obs;
+  /// 视频的实际时长 解析出视频后赋值
+  final Rx<Duration> actualDuration = Duration.zero.obs;
+  
+  /// 视频时长
+  final RxInt videoDuration = 0.obs;
+  /// 编辑时长 - 可选择的视频时长列表
+  final List<int> editVideoDurationList = [3, 4, 5, 6, 7, 8, 9, 10];
+  /// 编辑时长 - 选择的视频时长
+  final RxInt editSelectVideoDuration = 0.obs;
+  /// 视频分辨率宽
+  final RxInt videoWidth = 0.obs;
+  /// 视频分辨率高
+  final RxInt videoHeight = 0.obs;
+  /// 编辑分辨率 - 可选择的视频分辨率列表
+  final List<VideoAspectRatioEnum> editVideoAspectRatioList = VideoAspectRatioEnum.values;
+  /// 编辑分辨率 - 选择的视频分辨率
+  final Rx<VideoAspectRatioEnum> editSelectVideoAspectRatio = VideoAspectRatioEnum.ratio_1_1.obs;
+  /// 编辑分辨率 - 可选择的视频清晰度
+  final List<VideoQualityEnum> editVideoQualityList = VideoQualityEnum.values;
+  /// 编辑分辨率 - 选择的视频清晰度值
+  final Rx<VideoQualityEnum> editSelectVideoQualityValue = VideoQualityEnum.quality_2k.obs;
+  /// 视频区域编辑状态 0-未编辑 1-编辑时长 2-编辑分辨率
+  final RxInt videoEditStatus = 0.obs;
+  /// 视频裁剪区域开始时长 秒
+  final Rx<Duration> videoCropStartDuration = Duration.zero.obs;
+  /// 视频裁剪区域结束时长 秒
+  final Rx<Duration> videoCropEndDuration = Duration.zero.obs;
+  /// 视频是否静音
+  final RxBool videoIsMute = false.obs;
+
+  /// 场景引导是否展开
+  final Rx<bool> isSceneGuideExpanded = true.obs;
+  /// 场景引导是否编辑
+  final RxBool isSceneGuideEditing = false.obs;
+  /// 场景引导 - 场景焦点 文本
+  final RxString sceneFocusText = "".obs;
+  /// 场景引导 - 场景焦点 输入框
+  final TextEditingController sceneFocusController = TextEditingController();
+  ////场景引导 - 画面动态 文本
+  final RxString suggestedMotionText = "".obs;
+  /// 场景引导 - 画面动态 输入框
+  final TextEditingController suggestedMotionController = TextEditingController();
+  /// 场景引导 - 音频描述  文本
+  final RxString suggestedAudioText = "".obs;
+  /// 场景引导 - 音频描述  输入框
+  final TextEditingController suggestedAudioController = TextEditingController();
+
+  /// 台词是否展开
+  final Rx<bool> isDialogueExpanded = true.obs;
+
+  /// 视频提示词是否展开
+  final Rx<bool> isPromptExpanded = true.obs;
+  /// 视频提示词 - 编辑状态
+  final RxBool isPromptEditing = false.obs;
+  /// 视频提示词 - 文本
+  final RxString videoPromptText = "".obs;
+  /// 视频提示词 - 输入框
+  final TextEditingController videoPromptController = TextEditingController();
+
+  final VideoEditController videoEditController = VideoEditController();
+
+  @override
+  void onInit() {
+    super.onInit();
+    initBreadcrumb(tag);
+    if(Get.arguments != null){
+      videoTaskId = Get.arguments['videoTaskId'];
+      videoRelationId = Get.arguments['videoRelationId'];
+      currentVideoId = Get.arguments['currentVideoId'];
+    }
+    getTaskVideoData();
+  }
+
+  /// 获取任务列表
+  Future<void> getTaskVideoData({bool showLoading = true}) async{
+    try {
+      if(showLoading) ToastUtils.showLoading();
+      Map<String, dynamic> parameters = {
+        "relationUid": videoRelationId,
+        "videoTaskId": videoTaskId,
+      };
+      VideoTaskEntityList? response = await LanguageUtil.videoGetInfos(parameters: parameters);
+      if(response == null) return;
+      videoData.value = response;
+
+      List<VideoTaskEntityListVideos?> videos = videoData.value.videos??[];
+      if(videos.isEmpty) return;
+      videoList.clear();
+      for(var video in videos){
+        if(video == null) continue;
+        videoList.add(video);
+      }
+      
+      VideoTaskEntityListVideos? video = videos.firstWhereOrNull((element) => element?.videoId == currentVideoId);
+      if(video == null) {
+        if(videoList.isEmpty) return;
+        video = videos.first;
+        if(video == null) return;
+      }
+      currentVideoIndex.value = videoList.indexOf(video);
+
+      
+      videoDuration.value = video.duration??0;
+      videoWidth.value = video.width??0;
+      videoHeight.value = video.height??0;
+
+      VideoTaskStatusEnum status = VideoTaskStatusEnum.fromValue(videoData.value.status);
+      
+      if(status == VideoTaskStatusEnum.checked){ // 已审核视频 自动设置裁剪的开始结束时间
+        videoCropStartDuration.value = DateFormatUtil.secondsToDuration(video.startSeconds??0);
+        videoCropEndDuration.value = DateFormatUtil.secondsToDuration(video.endSeconds??0);
+      }
+      
+
+      videoIsMute.value = video.isMute??false;
+
+      editSelectVideoDuration.value = videoDuration.value;
+
+      VideoTaskEntityListFrames? firstFrame = videoData.value.frames?.first;
+
+      sceneFocusText.value = firstFrame?.semanticFocus??"";
+      sceneFocusController.text = firstFrame?.semanticFocus??"";
+
+      suggestedMotionText.value = firstFrame?.suggestedMotion??"";
+      suggestedMotionController.text = firstFrame?.suggestedMotion??"";
+
+      suggestedAudioText.value = firstFrame?.suggestedAudio??"";
+      suggestedAudioController.text = firstFrame?.suggestedAudio??"";
+
+      videoPromptText.value = videoData.value.videoPrompt??"";
+      videoPromptController.text = videoData.value.videoPrompt??"";
+      
+    } finally{
+      if(showLoading) ToastUtils.hideLoading();
+    }
+  }
+
+
+
+  /// 切换帧图片展开状态
+  void toggleFrameImageExpanded(){
+    isFrameImageExpanded.value = !isFrameImageExpanded.value;
+  }
+
+  /// 切换视频信息展开状态
+  void toggleVideoInfoExpanded(){
+    isVideoInfoExpanded.value = !isVideoInfoExpanded.value;
+  }
+
+  /// 切换视频区域编辑状态 0-未编辑 1-编辑时长 2-编辑分辨率
+  void toggleVideoEditStatus(int status){
+    videoEditStatus.value = status;
+    if(status == 0){ // 重置编辑选择的数据
+      editSelectVideoDuration.value = videoDuration.value;
+      editSelectVideoAspectRatio.value = VideoRatioQualityUtils.getAspectRatio(Size(videoWidth.value.toDouble(), videoHeight.value.toDouble()))??VideoAspectRatioEnum.ratio_1_1;
+      editSelectVideoQualityValue.value = VideoRatioQualityUtils.getQuality(Size(videoWidth.value.toDouble(), videoHeight.value.toDouble()))??VideoQualityEnum.quality_2k;
+    }
+  }
+
+  /// 编辑时长 - 选择时长
+  void selectEditVideoDuration(int duration){
+    editSelectVideoDuration.value = duration;
+  }
+
+  /// 编辑时长 - 保存
+  Future<void> saveEditVideoDuration() async{
+    videoDuration.value = editSelectVideoDuration.value;
+    bool res = await savePromptOtherEdit();
+    if(!res) return;
+    toggleVideoEditStatus(0);
+  }
+
+  /// 编辑分辨率 - 选择分辨率
+  void selectEditVideoAspectRatio(VideoAspectRatioEnum aspectRatio){
+    editSelectVideoAspectRatio.value = aspectRatio;
+  }
+
+  /// 编辑分辨率 - 选择清晰度
+  void selectEditVideoQuality(VideoQualityEnum quality){
+    editSelectVideoQualityValue.value = quality;
+  }
+
+  /// 编辑分辨率 - 保存
+  void saveEditVideoAspectRatio(){
+    Size size = VideoRatioQualityUtils.getSize(editSelectVideoAspectRatio.value, editSelectVideoQualityValue.value);
+    videoWidth.value = size.width.toInt();
+    videoHeight.value = size.height.toInt();
+    toggleVideoEditStatus(0);
+  }
+
+  /// 根据视频比例合清晰度计算视频分辨率
+  Size calculateVideoAspectRatio(){
+    Size size = VideoRatioQualityUtils.getSize(editSelectVideoAspectRatio.value, editSelectVideoQualityValue.value);
+    return size;
+  }
+
+  /// 场景引导 - 展开/收起
+  void toggleSceneGuideExpanded(){
+    isSceneGuideExpanded.value = !isSceneGuideExpanded.value;
+  }
+
+  /// 场景引导 - 展开编辑/收起编辑
+  void toggleSceneGuideEditing(bool value){
+    isSceneGuideEditing.value = value;
+    if(value){
+      sceneFocusController.text = sceneFocusText.value;
+      suggestedMotionController.text = suggestedMotionText.value;
+      suggestedAudioController.text = suggestedAudioText.value;
+    }
+  }
+
+  /// 场景引导 - 保存编辑
+  Future<void> saveSceneGuideEdit() async{
+    sceneFocusText.value = sceneFocusController.text;
+    suggestedMotionText.value = suggestedMotionController.text;
+    suggestedAudioText.value = suggestedAudioController.text;
+    bool res = await savePromptOtherEdit();
+    if(!res) return;
+    toggleSceneGuideEditing(false);
+  }
+
+
+  /// 台词 - 展开/收起
+  void toggleDialogueExpanded(){
+    isDialogueExpanded.value = !isDialogueExpanded.value;
+  }
+
+  /// 视频提示词 - 展开/收起
+  void togglePromptExpanded(){
+    isPromptExpanded.value = !isPromptExpanded.value;
+  }
+
+  /// 保存提示词
+  Future<void> savePromptEdit() async{
+    videoPromptText.value = videoPromptController.text;
+    bool res = await savePromptOtherEdit();
+    if(!res) return;
+    togglePromptEditing(false);
+
+  }
+
+  /// 视频提示词 - 展开编辑/收起编辑
+  void togglePromptEditing(bool value){
+    isPromptEditing.value = value;
+    if(value){
+      videoPromptController.text = videoPromptText.value;
+    }
+  }
+
+
+
+  // =================== 以下是右边视频逻辑 ==================
+
+  /// 待审核模式下切换视频
+  Future<void> toggleReviewVideo({bool isNext = true}) async{
+    if(!isNext){
+      if(currentVideoIndex.value <= 0) return;
+      currentVideoIndex.value -= 1;
+      await videoEditController.setResource(videoList[currentVideoIndex.value].videoUrl??"");
+    }else{
+      if(currentVideoIndex.value >= videoList.length - 1) return;
+      currentVideoIndex.value += 1;
+      await videoEditController.setResource(videoList[currentVideoIndex.value].videoUrl??"");
+    }
+  }
+
+
+
+  // ================== 以下是请求逻辑 =======================
+
+
+  /// 视频提示词 (同时也编辑时长/场景引导) - 保存编辑
+  Future<bool> savePromptOtherEdit() async{
+
+    try {
+      ToastUtils.showLoading();
+      Map<String, dynamic> reqData = {
+        "promptId": videoData.value.promptId,
+        "prompt": videoPromptText.value,
+        "semanticFocus": sceneFocusText.value,
+        "suggestedMotion": suggestedMotionText.value,
+        "suggestedAudio": suggestedAudioText.value,
+        "duration": videoDuration.value,
+      };
+      bool response = await LanguageConsoleRequest.updateVideoPrompt(data: reqData);
+      if(!response) return false;
+      ToastUtils.showToast(text: '修改成功', type: ToastType.success);
+      return true;
+    } finally{
+      ToastUtils.hideLoading();
+    }
+
+  }
+
+  /// 重新生成提示词和视频
+  Future<void> regeneratePromptAndVideos() async{
+    try {
+      ToastUtils.showLoading();
+      Map<String, dynamic> reqData = {
+        "videoTaskId": videoData.value.taskId,
+        "width": videoWidth.value,
+        "height": videoHeight.value,
+      };
+      bool response = await LanguageConsoleRequest.regeneratePromptAndVideos(data: reqData);
+      if(!response) return;
+      ToastUtils.showToast(text: '提交成功', type: ToastType.success);
+      Get.back(result: {"type": "remove"});
+    } finally{
+      ToastUtils.hideLoading();
+    }
+  }
+
+  ///用提示词重新生成视频
+  Future<void> usePromptRegenerateTheVideo() async{
+    try {
+      ToastUtils.showLoading();
+      Map<String, dynamic> reqData = {
+        "videoTaskId": videoData.value.taskId,
+        "width": videoWidth.value,
+        "height": videoHeight.value,
+      };
+      bool response = await LanguageConsoleRequest.usePromptRegenerateTheVideo(data: reqData);
+      if(!response) return;
+      ToastUtils.showToast(text: '提交成功', type: ToastType.success);
+      Get.back(result: {"type": "remove"});
+    } finally{
+      ToastUtils.hideLoading();
+    }
+  }
+
+  /// 保存裁剪&静音状态
+  Future<void> saveCropMute() async{
+    try {
+      ToastUtils.showLoading();
+      Map<String, dynamic> reqData = {
+        "uid": videoList[currentVideoIndex.value].videoId,
+        "startSeconds": DateFormatUtil.millisecondsToSecondsWithDecimal(videoCropStartDuration.value.inMilliseconds), 
+        "endSeconds": DateFormatUtil.millisecondsToSecondsWithDecimal(videoCropEndDuration.value.inMilliseconds),
+        "isMute": videoIsMute.value,
+      };
+      bool response = await LanguageConsoleRequest.updateVideoInfo(data: reqData);
+      if(!response) return;
+      ToastUtils.showToast(text: '保存成功', type: ToastType.success);
+      // Get.back(result: true);
+    } finally{
+      ToastUtils.hideLoading();
+    }
+  }
+
+  /// 音频增强
+  Future<void> audioEnhancement(BuildContext context) async{
+    
+    bool askRes = await DeleteDialog.show(
+      context: context, 
+      title: "音频增强",
+      subTitle: "确认对该视频执行音频增强？",
+      content: "将调用音频增强接口优化视频 #${videoList[currentVideoIndex.value].videoId??''} 的音质。处理完成后会生成新的视频记录。",
+      confirmText: "确认增强",
+      showCountdown: false,
+    );
+    if(!askRes) return;
+
+    try {
+      ToastUtils.showLoading();
+      Map<String, dynamic> reqData = {
+        "videoId": videoList[currentVideoIndex.value].videoId,
+      };
+      bool response = await LanguageConsoleRequest.audioEnhancement(data: reqData);
+      if(!response) return;
+      ToastUtils.showToast(text: '提交成功', type: ToastType.success);
+      Get.back(result: {"type": "remove"});
+    } finally{
+      ToastUtils.hideLoading();
+    }
+  }
+
+  /// 审核通过
+  Future<void> videoApprove() async{
+    try {
+      ToastUtils.showLoading();
+      Map<String, dynamic> reqData = {
+        "videoTaskId": videoData.value.taskId,
+        "videoIdSelected": videoList[currentVideoIndex.value].videoId,
+        "isMute": videoIsMute.value,
+        "startSeconds": DateFormatUtil.millisecondsToSecondsWithDecimal(videoCropStartDuration.value.inMilliseconds), 
+        "endSeconds": DateFormatUtil.millisecondsToSecondsWithDecimal(videoCropEndDuration.value.inMilliseconds),
+        "realDuration": DateFormatUtil.millisecondsToSecondsWithDecimal(actualDuration.value.inMilliseconds),
+      };
+      bool response = await LanguageUtil.videoApprove(data: reqData);
+      if(!response) return;
+      ToastUtils.showToast(text: '审核成功', type: ToastType.success);
+      Get.back(result: {"type": "remove"});
+    } finally{
+      ToastUtils.hideLoading();
+    }
+  }
+  
+
+
+  @override
+  void onClose() {
+    // TODO: 清理逻辑
+    super.onClose();
+  }
+}

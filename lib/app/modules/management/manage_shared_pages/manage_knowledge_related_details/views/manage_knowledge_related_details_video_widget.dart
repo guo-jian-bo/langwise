@@ -1,0 +1,525 @@
+
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:langwise/common/widgets/widgets.dart';
+import 'package:langwise/theme/theme.dart';
+import 'package:ui_essentials/ui_essentials.dart';
+
+import '../../../../../../common/entities/entities.dart';
+import '../../../../../../common/stores/user.dart';
+import '../../../common/commons.dart';
+import '../../../utils/utils.dart';
+import '../controllers/manage_knowledge_related_details_controller.dart';
+
+class ManageLnowledgeRelatedDetailsVideoWidget extends StatelessWidget {
+  final String controllerTag;
+  const ManageLnowledgeRelatedDetailsVideoWidget({super.key, required this.controllerTag});
+
+  ManageKnowledgeRelatedDetailsController get controller =>  Get.find<ManageKnowledgeRelatedDetailsController>(tag: controllerTag);
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Row(
+          children: [
+            _buildVideoTypeList(),
+            Expanded(child: _buildVideoListWidget(context)),
+          ],
+        ),
+
+        Obx((){
+          if(!controller.loading.value){
+            return const SizedBox.shrink();
+          }
+          return Container(
+            alignment: Alignment.center,
+            color: Colors.transparent,
+            child: const CircularProgressIndicator(),
+          );
+        }),
+
+      ],
+    );
+  }
+
+
+
+  /// 视频分类列表
+  Widget _buildVideoTypeList() {
+    return Container(
+      width: 280.wMin,
+      padding: EdgeInsets.only(top: 24.wMin),
+      decoration: BoxDecoration(
+        color: const Color(0xff19213D).withValues(alpha: 0.6),
+        border: Border(
+          right: BorderSide(
+            color: const Color(0xff353E5C),
+            width: 1.wMin,
+          ),
+        ),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        spacing: 8.wMin,
+        children: [
+          Container(
+            padding: EdgeInsets.symmetric(horizontal: 24.wMin),
+            child: Text(
+              "视频列表",
+              style: TextStyle(
+                fontSize: 18.wMin,
+                color: const Color(0xffFFFFFF),
+                fontWeight: FontWeight.w400,
+              ),
+            ),
+          ),
+          Expanded(
+            child: SingleChildScrollView(
+              padding: EdgeInsets.only(
+                bottom: 24.wMin,
+                left: 24.wMin,
+                right: 24.wMin,
+              ),
+              child: Obx((){
+                return Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  spacing: 10.wMin,
+                  children: [
+                    TapScaleWidget(
+                      onTap: () {
+                        controller.changeVideoClass(-1);
+                      },
+                      sclae: 1.01,
+                      child: Container(
+                        height: 40.wMin,
+                        padding: EdgeInsets.all(6.wMin),
+                        decoration: BoxDecoration(
+                          color: controller.videoSelectStyleId.value == -1 ? const Color(0xFF2388FF) : const Color(0xFF353E5C),
+                          borderRadius: BorderRadius.circular(8.wMin),
+                        ),
+                        child: Row(
+                          children: [
+                            Text(
+                              "全部",
+                              style: TextStyle(
+                                color: controller.videoSelectStyleId.value == -1 ? Colors.white : Colors.white70, 
+                                fontSize: 18.wMin,
+                              ),
+                            ),
+                            const Spacer(),
+                            Container(
+                              height: 28.wMin,
+                              width: 28.wMin,
+                              alignment: Alignment.center,
+                              decoration: BoxDecoration(
+                                shape: BoxShape.circle, 
+                                color: controller.videoSelectStyleId.value == -1 ? const Color(0xFF19213D) : Colors.transparent,
+                              ),
+                              child: Text(
+                                controller.videoCount.value.toString(),
+                                style: TextStyle(color: Colors.white, fontSize: 14.wMin),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                    ...List.generate(controller.videoList.length, (index){
+                      return _buildVideoTypeGroupListWidget(controller.videoList[index]);
+                    }),
+                  ],
+                );
+              }),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildVideoTypeGroupListWidget(EnKnowledgeVideoEntityStyleGroups group){
+    List<EnKnowledgeVideoEntityStyleGroupsCountryGroups?> countryGroups = group.countryGroups??[];
+
+    int count = 0;
+    for(var item in countryGroups){
+      if(item == null) continue;
+      count += item.videoCount??0;
+    }
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Container(
+          padding: EdgeInsets.symmetric(vertical: 8.wMin),
+          child: Row(
+            children: [
+              Expanded(
+                child: Text(
+                  group.styleTitle??"",
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: TextStyle(
+                    fontSize: 18.wMin,
+                    fontWeight: FontWeight.w400,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+
+              Text(
+                count.toString(),
+                style: TextStyle(
+                  fontSize: 18.wMin,
+                  fontWeight: FontWeight.w400,
+                  color: Colors.white.withValues(alpha: 0.6),
+                ),
+              ),
+
+              SizedBox(width: 10.wMin),
+              
+            ],
+          ),
+        ),
+
+        Column(
+          spacing: 6.wMin,
+          children: List.generate(countryGroups.length, (index){
+            return _buildVideoTypeGroupListItemWidget(countryGroups[index]);
+          }),
+        ),
+
+      ],
+    );
+  }
+
+  Widget _buildVideoTypeGroupListItemWidget(EnKnowledgeVideoEntityStyleGroupsCountryGroups? item){
+    bool selected = controller.videoSelectStyleId.value == item?.styleId;
+    return TapScaleWidget(
+      onTap: () {
+        controller.changeVideoClass(item?.styleId);
+      },
+      sclae: 1.01,
+      child: Container(
+        height: 40.wMin,
+        padding: EdgeInsets.all(6.wMin),
+        decoration: BoxDecoration(
+          color: selected ? const Color(0xFF2388FF) : const Color(0xFF353E5C),
+          borderRadius: BorderRadius.circular(8.wMin),
+        ),
+        child: Row(
+          children: [
+            SizedBox(
+              height: 20.wMin,
+              child: CachedImageWidget(
+                item?.iconUrl??"",
+                placeholder: buildEmptyWidget(),
+                errorWidget: buildEmptyWidget(),
+              ),
+            ),
+            SizedBox(width: 4.wMin),
+            Text(
+              item?.country??"",
+              style: TextStyle(
+                color: selected ? Colors.white : Colors.white70, 
+                fontSize: 18.wMin,
+              ),
+            ),
+            const Spacer(),
+            Container(
+              height: 28.wMin,
+              width: 28.wMin,
+              alignment: Alignment.center,
+              decoration: BoxDecoration(shape: BoxShape.circle, color: selected ? const Color(0xFF19213D) : Colors.transparent),
+              child: Text(
+                '${item?.videoCount ?? (item?.videos?.length ?? 0)}',
+                style: TextStyle(color: Colors.white, fontSize: 14.wMin),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildVideoListWidget(BuildContext context){
+
+    return Obx((){
+      return Stack(
+        children: [
+
+          GridView.builder(
+            padding: EdgeInsets.all(38.wMin),
+            itemCount: controller.videoShowList.length,
+            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: 4,
+              crossAxisSpacing: 24.wMin,
+              mainAxisSpacing: 24.wMin,
+              childAspectRatio: 1,
+            ),
+            itemBuilder: (context, index) {
+              return _buildVideoListItemWidget(context, controller.videoShowList[index]);
+            },
+          ),
+
+          Positioned(
+            right: 16.wMin,
+            bottom: 16.wMin,
+            child: _buildBottomButtonsWidget(context),
+          ),
+
+        ],
+      );
+    });
+  }
+
+
+  Widget _buildBottomButtonsWidget(BuildContext context){
+    return Row(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        Visibility(
+          visible: UserStore.to.rolePermissions.value.userIsVideoReviewer,
+          child: ButtonWidget(
+            text: "待审核 ${controller.pendingVideoReviewCount.value} 个",
+            padding: EdgeInsets.symmetric(horizontal: 16.wMin),
+            height: 56.wMin,
+            borderRadius: 4.wMin,
+            color: AppTheme.cSurfaceWarning.color,
+            fontSize: 18.wMin,
+            sclae: 1.05,
+            onTap: () {
+              controller.toReviewVideo();
+            },
+          ),
+        ),
+
+        ManageAuthBoxWidget(
+          authCodes: const [ManageAuthCode.videoReviewGenerateFrameStart, ManageAuthCode.videoReviewGenerateStartEndFrames],
+          isAny: true,
+          margin: EdgeInsets.only(left: 12.wMin),
+          child: ButtonWidget(
+            text: "新建视频",
+            padding: EdgeInsets.symmetric(horizontal: 16.wMin),
+            height: 56.wMin,
+            borderRadius: 4.wMin,
+            color: AppTheme.cSurfaceInfo.color,
+            fontSize: 18.wMin,
+            sclae: 1.05,
+            onTap: () {
+              controller.crtateVideoDialog(context);
+            },
+          ),
+        ),
+
+      ],
+    );
+  }
+
+
+
+  Widget _buildVideoListItemWidget(BuildContext context, EnKnowledgeVideoEntityStyleGroupsCountryGroupsVideos data){
+    return ClipRRect(
+      borderRadius: BorderRadius.circular(10.wMin),
+      child: Stack(
+        children: [
+
+          Positioned.fill(
+            child: TapScaleWidget(
+              onTap: () {
+                controller.toVideoDetils(data.videoRelationId);
+              },
+              sclae: 1,
+              child: CachedImageWidget(
+                data.firstImageUrl??"",
+                errorWidget: buildEmptyWidget(),
+                placeholder: buildLoadingWidget(),
+                fadeInDuration: Duration.zero,
+              ),
+            ),
+          ),
+
+          Positioned(
+            top: 6.wMin,
+            left: 6.wMin,
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              spacing: 4.wMin,
+              children: [
+                ManageTagFS16Widget(
+                  tag: data.styleTitle,
+                  fontColor: Colors.white,
+                  bgColor: const Color(0xff1DA1F2).withValues(alpha: 0.8),
+                ),
+                Container(
+                  padding: EdgeInsets.symmetric(horizontal: 6.wMin, vertical: 2.wMin),
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(4.wMin),
+                    color: const Color(0xCC393F5A),
+                  ),
+                  child: Row(
+                    children: [
+                      SizedBox(
+                        width: 22.wMin,
+                        child: CachedImageWidget(
+                          data.iconUrl ?? "",
+                          errorWidget: buildEmptyWidget(),
+                          placeholder: buildEmptyWidget(),
+                        ),
+                      ),
+                      SizedBox(width: 4.wMin),
+                      Text(
+                        data.localeTitle ?? '',
+                        style: TextStyle(color: Colors.white, fontSize: 16.wMin),
+                      ),
+                    ],
+                  ),
+                ),
+                ManageTagFS16Widget(
+                  tag: "id:${data.videoRelationId??''}",
+                  fontColor: Colors.white,
+                  bgColor: const Color(0xCC393F5A),
+                ),
+                Visibility(
+                  visible: data.prompt != null,
+                  child: ButtonWidget(
+                    text: "prompt",
+                    borderRadius: 4.wMin,
+                    height: 28.wMin,
+                    padding: EdgeInsets.symmetric(horizontal: 8.wMin),
+                    fontSize: 16.wMin,
+                    sclae: 1.05,
+                    onTap: () {
+                      showDialog(
+                        context: context,
+                        builder: (context) {
+                          return GestureDetector(
+                            onTap: () {
+                              Navigator.pop(context);
+                            },
+                            child: Material(
+                              type: MaterialType.transparency,
+                              child: Center(
+                                child: GestureDetector(
+                                  onTap: () {},
+                                  child: Container(
+                                    width: 800.wMin,
+                                    padding: EdgeInsets.all(24.wMin),
+                                    decoration: BoxDecoration(
+                                      color: const Color(0xFF1D1D1D),
+                                      borderRadius: BorderRadius.circular(12.wMin),
+                                    ),
+                                    child: SelectableText(
+                                      data.prompt ?? '',
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontSize: 14.wMin,
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ),
+                          );
+                        },
+                      );
+                    },
+                  ),
+                ),
+              ],
+            ),
+          ),
+
+          Positioned(
+            left: 6.wMin,
+            bottom: 6.wMin,
+            child: Column(
+              spacing: 4.wMin,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                ManageTagFS16Widget(
+                  tag: "${data.duration??0}s",
+                  fontColor: Colors.white,
+                  bgColor: const Color(0xCC393F5A),
+                ),
+                Container(
+                  padding: EdgeInsets.symmetric(horizontal: 6.wMin, vertical: 2.wMin),
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(4.wMin),
+                    color: const Color(0xCC393F5A),
+                  ),
+                  child: Row(
+                    children: [
+                      Text(
+                        "${data.startSeconds??0}s - ${data.endSeconds??0}s",
+                        style: TextStyle(
+                          fontSize: 16.wMin,
+                          fontWeight: FontWeight.w400,
+                          color: AppTheme.cTextBrand.color,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
+
+          Positioned(
+            right: 6.wMin,
+            top: 6.wMin,
+            child: Row(
+              children: [
+                ManageAuthBoxWidget(
+                  authCodes: [ data.locked == true ? ManageAuthCode.videoReviewVideoUnlock : ManageAuthCode.videoReviewVideoLock],
+                  child: _buildMiniActionButton(
+                    title: data.locked == true ? '已定稿' : '定稿',
+                    color: data.locked == true ? AppTheme.cInversePrimary.color : const Color(0xFF9247FD),
+                    onTap: () async {
+                      if(data.locked == true){
+                        controller.cancelFinalDraftVideo(context, data.videoRelationId);
+                      }else{
+                        controller.finalDraftVideo(data.videoRelationId);
+                      }
+                    },
+                  ),
+                ),
+
+                ManageAuthBoxWidget(
+                  authCodes: const [ManageAuthCode.videoReviewVideoTakedown],
+                  margin: EdgeInsets.only(left: 8.wMin),
+                  child: _buildMiniActionButton(
+                    title: '下架',
+                    color: const Color(0xFFFF2D46),
+                    onTap: () {
+                      controller.downVideo(context, data.videoRelationId);
+                    },
+                  ),
+                ),
+
+              ],
+            ),
+          ),
+
+        ],
+      ),
+    );
+  }
+
+  Widget _buildMiniActionButton({required String title, required Color color, required VoidCallback onTap}) {
+    return TapScaleWidget(
+      onTap: onTap,
+      sclae: 1.03,
+      child: Container(
+        padding: EdgeInsets.symmetric(horizontal: 8.wMin, vertical: 6.wMin),
+        decoration: BoxDecoration(color: color, borderRadius: BorderRadius.circular(4.wMin)),
+        child: Text(
+          title,
+          style: TextStyle(color: Colors.white, fontSize: 14.wMin, fontWeight: FontWeight.w500),
+        ),
+      ),
+    );
+  }
+
+
+}
