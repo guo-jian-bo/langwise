@@ -1,0 +1,11 @@
+NSCameraUsageDescription = "To take profile photos, course covers, textbook covers, and scan ISBN barcodes";
+NSAppleMusicUsageDescription = "To play locally stored audio files (e.g., course materials, textbook-related audio)";
+NSMicrophoneUsageDescription = "For voice evaluation, speaking practice, and audio recording";
+NSPhotoLibraryUsageDescription = "To select profile photos, course covers, and textbook covers";
+UIUserNotificationUsageDescription = "For sending study reminders and important notifications";
+NSLocationWhenInUseUsageDescription = "Cities used in statistical textbooks";
+NSLocationAlwaysUsageDescription = "Cities used in statistical textbooks";
+NSLocationAlwaysAndWhenInUseUsageDescription = "Cities used in statistical textbooks";
+NSPhotoLibraryAddUsageDescription = "To save shared posters";
+
+CFBundleDisplayName = "LangWise";
