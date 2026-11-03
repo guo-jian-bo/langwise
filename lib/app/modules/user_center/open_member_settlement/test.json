@@ -1,0 +1,183 @@
+{
+    "code": 200,
+    "data": {
+        "servicePackage": {
+            "servicePackageId": 487,
+            "servicePackageVersion": 1,
+            "title": "Max",
+            "describe": "应用全能",
+            "publicity": [
+                {
+                    "text": "适合想听说读写全能自由应用的学员"
+                },
+                {
+                    "text": "随着甄进功能更新，价格会逐渐上涨，直到恢复原价",
+                    "bgColors": [
+                        {
+                            "theme": "LIGHT",
+                            "color": "rgba(220, 38, 38, 1)",
+                            "borderColor": null
+                        },
+                        {
+                            "theme": "DARK",
+                            "color": "rgba(220, 38, 38, 1)",
+                            "borderColor": null
+                        }
+                    ]
+                }
+            ],
+            "corners": [
+                {
+                    "type": "TOP_RIGHT",
+                    "text": "逐步涨价",
+                    "bgColors": [
+                        {
+                            "theme": "LIGHT",
+                            "color": "rgba(244, 63, 94, 1)",
+                            "borderColor": null
+                        },
+                        {
+                            "theme": "DARK",
+                            "color": "rgba(244, 63, 94, 1)",
+                            "borderColor": null
+                        }
+                    ],
+                    "textStyles": null
+                }
+            ],
+            "currentService": {
+                "title": "Max",
+                "describe": "应用全能",
+                "publicity": [
+                    {
+                        "text": "到期时间：2029-11-01"
+                    },
+                    {
+                        "text": "剩余天数：1097 天"
+                    }
+                ]
+            },
+            "changeName": "续费",
+            "durationTitle": "4年",
+            "duration": 4,
+            "durationType": "YOUR",
+            "durationTypeTitle": "年",
+            "durationEnd": "2033-11-01T15:59:59.000+00:00",
+            "payMethod": "CREDIT",
+            "price": 259900,
+            "originalPrice": 299900,
+            "priceOriginal": 299900,
+            "subType": "vipRenewal"
+        },
+        "servicePackageRights": [
+            {
+                "rightsId": 201,
+                "version": 1,
+                "title": "成员名额时长4年",
+                "describe": "当前会员赠送1个学员名额，每增加一个学员400元/4年",
+                "quantity": 3,
+                "disable": true,
+                "publicityItems": null,
+                "servicePackage": {
+                    "servicePackageId": 485,
+                    "servicePackageVersion": 2,
+                    "title": "成员名额时长4年",
+                    "describe": "当前会员赠送1个学员名额，每增加一个学员400元/4年",
+                    "publicity": [
+                        {
+                            "text": "免费",
+                            "textStyles": [
+                                {
+                                    "theme": "DARK",
+                                    "color": "rgba(20, 184, 166, 1.0)",
+                                    "fontsize": 20
+                                },
+                                {
+                                    "theme": "LIGHT",
+                                    "color": "rgba(20, 184, 166, 1.0)",
+                                    "fontsize": 20
+                                }
+                            ]
+                        },
+                        {
+                            "text": "首位学员免费",
+                            "textStyles": [
+                                {
+                                    "theme": "DARK",
+                                    "color": "rgba(221, 227, 234, 1.0)",
+                                    "fontsize": 18
+                                },
+                                {
+                                    "theme": "LIGHT",
+                                    "color": "rgba(221, 227, 234, 1.0)",
+                                    "fontsize": 18
+                                }
+                            ]
+                        }
+                    ],
+                    "durationTitle": "4年",
+                    "duration": 4,
+                    "durationType": "YOUR",
+                    "durationTypeTitle": "年",
+                    "durationEnd": "2030-10-31T15:59:59.000+00:00",
+                    "payMethod": "CREDIT",
+                    "price": 40000,
+                    "priceOriginal": 79600
+                },
+                "subType": "TRAINEE",
+                "subExtend": {
+                    "trainees": [
+                        {
+                            "expired": {
+                                "start": "2026-10-31T10:47:28.148+00:00",
+                                "end": "2029-11-01T15:59:59.000+00:00"
+                            },
+                            "isUse": null,
+                            "traineeId": 1,
+                            "memberUserId": 426104772,
+                            "avatarUrl": null,
+                            "nickname": "123",
+                            "isExpired": false
+                        },
+                        {
+                            "expired": {
+                                "start": "2026-10-31T10:47:28.148+00:00",
+                                "end": "2029-11-01T15:59:59.000+00:00"
+                            },
+                            "isUse": null,
+                            "traineeId": 2,
+                            "memberUserId": null,
+                            "avatarUrl": null,
+                            "nickname": null,
+                            "isExpired": false
+                        },
+                        {
+                            "expired": {
+                                "start": "2026-10-31T10:47:28.148+00:00",
+                                "end": "2029-11-01T15:59:59.000+00:00"
+                            },
+                            "isUse": null,
+                            "traineeId": 3,
+                            "memberUserId": null,
+                            "avatarUrl": null,
+                            "nickname": null,
+                            "isExpired": false
+                        }
+                    ]
+                }
+            }
+        ],
+        "coupons": null,
+        "userCredit": 539600,
+        "userPoints": 35000,
+        "orderCredit": 259900,
+        "rechargeCredit": 0,
+        "orderOriginCredit": 538700,
+        "orderDiscountCredit": null,
+        "orderPoints": null,
+        "orderOriginPoints": null,
+        "orderDiscountPoints": null,
+        "orderDescribe": null,
+        "affordable": true
+    }
+}

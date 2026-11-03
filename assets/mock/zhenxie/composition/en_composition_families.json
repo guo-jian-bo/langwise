@@ -1,0 +1,322 @@
+[
+  {
+    "nid": "form_label_note",
+    "order": 1,
+    "primaryFrameworkNid": "message_email",
+    "genreNid": "practical",
+    "difficulty": {
+      "min": 0,
+      "max": 1
+    },
+    "name": [
+      {
+        "lang": "zh",
+        "text": "表格、标签和便签"
+      },
+      {
+        "lang": "en",
+        "text": "Forms, Labels, and Notes"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "写很短的实用文字，比如表格空、标签或一张小纸条。"
+      },
+      {
+        "lang": "en",
+        "text": "Write a very short practical text, such as a form, a label, or a small note."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "picture_based",
+    "order": 2,
+    "primaryFrameworkNid": "picture_composition",
+    "genreNid": "narrative",
+    "difficulty": {
+      "min": 0,
+      "max": 3
+    },
+    "name": [
+      {
+        "lang": "zh",
+        "text": "看图写话"
+      },
+      {
+        "lang": "en",
+        "text": "Picture Writing"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "看着图画写几句话或一段话，把图上看到的内容写清楚。"
+      },
+      {
+        "lang": "en",
+        "text": "Look at a picture and write a few sentences or a short paragraph about what you see."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "introduction_profile",
+    "order": 3,
+    "primaryFrameworkNid": "introduction_explanation",
+    "genreNid": "expository",
+    "difficulty": {
+      "min": 1,
+      "max": 3
+    },
+    "name": [
+      {
+        "lang": "zh",
+        "text": "介绍"
+      },
+      {
+        "lang": "en",
+        "text": "Introducing Someone or Somewhere"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "向别人介绍一个人、一个地方、一个节日或一次活动。"
+      },
+      {
+        "lang": "en",
+        "text": "Introduce a person, place, festival, or event."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "email_letter_message",
+    "order": 4,
+    "primaryFrameworkNid": "message_email",
+    "genreNid": "practical",
+    "difficulty": {
+      "min": 1,
+      "max": 5
+    },
+    "name": [
+      {
+        "lang": "zh",
+        "text": "邮件、书信和留言"
+      },
+      {
+        "lang": "en",
+        "text": "Emails, Letters, and Messages"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "写信、发邮件或留一句话给别人，把你的来意和事情说清楚。"
+      },
+      {
+        "lang": "en",
+        "text": "Write an email, a letter, or a message to someone, and make your purpose clear."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "diary_journal",
+    "order": 5,
+    "primaryFrameworkNid": "diary_record",
+    "genreNid": "practical",
+    "difficulty": {
+      "min": 1,
+      "max": 4
+    },
+    "name": [
+      {
+        "lang": "zh",
+        "text": "日记"
+      },
+      {
+        "lang": "en",
+        "text": "Diary"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "写下自己的一天或一件亲身经历，也写下当时的心情。"
+      },
+      {
+        "lang": "en",
+        "text": "Write about your own day or something you experienced, and how you felt."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "explanation_process_report",
+    "order": 6,
+    "primaryFrameworkNid": "introduction_explanation",
+    "genreNid": "expository",
+    "difficulty": {
+      "min": 2,
+      "max": 5
+    },
+    "name": [
+      {
+        "lang": "zh",
+        "text": "说明和报告"
+      },
+      {
+        "lang": "en",
+        "text": "Explanations and Reports"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "说明一件事物是什么、怎么做，或为什么会这样；也可以把一篇文章的要点转述出来。"
+      },
+      {
+        "lang": "en",
+        "text": "Explain what something is, how it works, or why it happens. You may also retell the main points of a text."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "notice_announcement",
+    "order": 7,
+    "primaryFrameworkNid": "message_email",
+    "genreNid": "practical",
+    "difficulty": {
+      "min": 1,
+      "max": 5
+    },
+    "name": [
+      {
+        "lang": "zh",
+        "text": "通知、报道和发言"
+      },
+      {
+        "lang": "en",
+        "text": "Notices, Reports, and Speeches"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "写给大家看的通知、报道或发言，把时间、地点和注意事项写清楚。"
+      },
+      {
+        "lang": "en",
+        "text": "Write a notice, a report, or a short speech for others, with the time, place, and what to do."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "opinion_suggestion",
+    "order": 8,
+    "primaryFrameworkNid": "opinion_problem_solution",
+    "genreNid": "argumentative",
+    "difficulty": {
+      "min": 2,
+      "max": 5
+    },
+    "name": [
+      {
+        "lang": "zh",
+        "text": "观点和建议"
+      },
+      {
+        "lang": "en",
+        "text": "Opinions and Suggestions"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "说出你的看法或建议，也可以先提出问题，再给出解决办法。"
+      },
+      {
+        "lang": "en",
+        "text": "Share your opinion or suggestion, or name a problem and offer a way to solve it."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "story_continuation",
+    "order": 9,
+    "primaryFrameworkNid": "story_continuation",
+    "genreNid": "narrative",
+    "difficulty": {
+      "min": 2,
+      "max": 5
+    },
+    "name": [
+      {
+        "lang": "zh",
+        "text": "续写故事"
+      },
+      {
+        "lang": "en",
+        "text": "Continuing a Story"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "根据给出的开头或前文，把故事接着写下去。"
+      },
+      {
+        "lang": "en",
+        "text": "Continue a story from a given opening or earlier text."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "chart_description",
+    "order": 10,
+    "primaryFrameworkNid": "introduction_explanation",
+    "genreNid": "expository",
+    "difficulty": {
+      "min": 3,
+      "max": 5
+    },
+    "name": [
+      {
+        "lang": "zh",
+        "text": "图表描述"
+      },
+      {
+        "lang": "en",
+        "text": "Describing Charts and Data"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "看着图表、表格或流程图，把它显示的主要信息和变化写清楚，不加自己的看法。"
+      },
+      {
+        "lang": "en",
+        "text": "Look at a chart, table, or diagram and describe the main information and changes it shows, without giving your own view."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  }
+]

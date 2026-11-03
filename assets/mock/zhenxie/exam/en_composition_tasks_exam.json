@@ -1,0 +1,4001 @@
+[
+ {
+  "uid": 214,
+  "sourceKey": "exam/email_a2_exam/introduce_a_place",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "介绍一个地方"
+   }
+  ],
+  "stageNid": "email_a2_exam",
+  "examEvidence": [
+   "2026 天津｜邮件｜向英国笔友介绍天津著名景观（天津之眼、黄崖关长城）及休闲活动并表达想法｜用一般过去时与一般现在时准确描述景观的建成时间与特征；按要点组织信息并保持行文连贯；在邮件外壳中自然表达个人看法｜「介绍这两个景观及喜闻乐见的休闲活动，并表达你的想法」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请你给一位外国笔友写一封邮件，介绍你所在城市的一处著名景观或特色地点。邮件中需介绍该景观的相关信息、当地受欢迎的休闲活动，并表达你对这个地方的看法。词数80~100词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 215,
+  "sourceKey": "exam/email_a2_exam/introduce_an_event_arrangement",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "介绍活动安排"
+   }
+  ],
+  "stageNid": "email_a2_exam",
+  "examEvidence": [
+   "2023 广州｜邮件｜向交换生 Sam 介绍“健康你和我”志愿服务活动的安排｜用一般将来时按要素介绍活动的时间、地点、内容与目的；在表格提示基础上适当拓展活动细节与目的；保持电子邮件格式与得体、热情的语气；做到不透露学校、姓名等个人信息｜「你是校志愿队队长李华。你校将于下周六组织主题为“健康你和我”的志愿服务活动，交换生 Sam 也报名参加。请你根据以下内容写一封电子邮件，向 Sam 介绍活动的安排」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请你给一位交换生写一封邮件，介绍你校即将举办的一项活动的具体安排。邮件中需说明活动主题、时间、地点、具体内容和活动目的，并欢迎对方参加。词数80词左右。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 221,
+  "sourceKey": "exam/email_a2_exam/reply_to_questions_in_an_email",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "回信回应多个问题"
+   }
+  ],
+  "stageNid": "email_a2_exam",
+  "examEvidence": [
+   "2023 浙江｜邮件｜回复英国朋友 Jack 关于杭州之行及礼物的邮件｜用一般将来时与现在时描述双方计划与现状；针对对方多个疑问逐一作出明确回应；在邮件格式内保持连贯、得体的语气并表达情感｜「假定你是李平，请你对英国朋友Jack的邮件进行回复。词数80左右，可适当增加细节，以使行文连贯」",
+   "2025 江苏｜邮件｜回复英国交换生 Daniel 的邮件，分享自己新学的技能、学习原因及学完后的感受｜用邮件格式与得体称呼、落款完成回复；围绕对方三个问题逐点展开，覆盖全部要点；用恰当的时态描述技能、原因与感受，保证全文连贯通顺｜「Could you share the new skill you've learnt? Why do you learn it? How do you feel after learning the new skill?」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请你给一位外国朋友回一封邮件，针对他/她来信中提出的几个问题逐一作出明确回应，并表达你的期待或情感。词数80词左右。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 223,
+  "sourceKey": "exam/email_a2_exam/share_a_plan",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "分享一个计划"
+   }
+  ],
+  "stageNid": "email_a2_exam",
+  "examEvidence": [
+   "2026 湖北｜邮件｜向好友分享暑假用零花钱做有意义之事的计划｜用一般将来时描述暑假计划与打算；围绕三个提示问题有条理地组织邮件内容；保持书信格式与对好友的友好语气；在限定词数内补充具体细节使内容充实｜「This summer holiday, I plan to use my pocket money to do something meaningful with the help of my parents」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请你给一位好友写一封邮件，分享你的一项计划或打算。邮件中需说明计划的背景或来源、具体打算怎么做，并谈谈你对这个计划的看法。词数100词左右。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 227,
+  "sourceKey": "exam/email_b1_exam/explain_a_cultural_concept",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "解释文化概念"
+   }
+  ],
+  "stageNid": "email_b1_exam",
+  "examEvidence": [
+   "2023 自主命题卷｜邮件｜向英国朋友解释“活雷锋”的含义并举身边例子、鼓励其继续学汉语｜用邮件格式向外国友人解释中国文化概念“活雷锋”；用具体身边事例支撑解释，使内容充实；用鼓励性语言促进对方持续学习汉语；保持行文连贯、词数达标｜「你的英国朋友 Chris 热爱学习汉语，上周他在邮件中向你询问“活雷锋”这一表达是什么意思」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "你的外国朋友在学习汉语时遇到一个中国文化词语或概念，发来邮件询问其含义。请你用英文回复邮件，解释这一概念的意思，举一个身边的例子加以说明，并鼓励他继续学习汉语，不少于100词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 3,
+   "max": 3
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 232,
+  "sourceKey": "exam/email_b1_exam/make_a_suggestion_and_volunteer",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "提建议并自荐"
+   }
+  ],
+  "stageNid": "email_b1_exam",
+  "examEvidence": [
+   "2026 新高考全国Ⅱ卷｜邮件｜给外教Kate写邮件，建议英语作文集配图并自荐承担画图工作｜用礼貌得体的语气向外教提出建议；清晰表达自荐意愿并说明理由；在给定开头结尾框架内连贯成文｜「It's a great idea to make a collection of our English essays」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "班级或团队正在筹备一项作品或活动，你有一些改进想法并愿意承担其中一部分工作。请你用英文写一封邮件，向老师提出你的建议，并自荐承担某项具体任务，约80词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 3,
+   "max": 3
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 242,
+  "sourceKey": "exam/intro_a1_exam/describe_an_object",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "描述一件物品"
+   }
+  ],
+  "stageNid": "intro_a1_exam",
+  "examEvidence": [
+   "四川｜说明文｜仿照 pen 的介绍，根据提示词简单描述 bag 的情况｜用一般现在时按提示词顺序描述物品特征；正确使用形容词比较级（heavier than）表达比较；仿照范文句式结构组织连贯语段｜「仿写，请根据有关pen的介绍，简单描述bag的情况」",
+   "2024 深圳｜说明文｜补充题目 My favourite ____，并写一段话介绍自己最喜欢的事物｜围绕自拟主题展开连贯段落；组织至少8句完整、相关的句子｜「同学们好，请你自己补充下面题目，然后，根据你的题目，写一段话（至少8句话）」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "仿照范文，用英语写几句话描述一件物品（如书包、文具等）：说明它的颜色、位置、与另一物品的比较、能装什么或有什么用途，不少于5句话。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 245,
+  "sourceKey": "exam/intro_a1_exam/describe_school_changes",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "介绍学校变化"
+   }
+  ],
+  "stageNid": "intro_a1_exam",
+  "examEvidence": [
+   "陕西｜说明文｜以 My School 为题介绍学校六年来的变化｜用对比结构（before/now）描述学校变化；正确使用一般现在时与一般过去时表达今昔对照；整合表格信息点并适当扩展，保持语句通顺连贯｜「Hello! My name is Li Ming. There are many changes in our school」",
+   "陕西｜说明文｜介绍自己学校三十年来发生的变化｜用对比结构（过去 vs 现在）描述学校变化；正确运用一般过去时与一般现在时；围绕表格要点组织内容并适当发挥｜「Hello, I'm Li Hua. Let me tell you some changes about my」",
+   "河南｜记叙文｜自拟题目，描述自己观察到的变化（自身、家人、朋友或学校、家乡、科技等）｜用过去与现在的对比描述变化；条理清晰地组织所选对象的变化要点；准确使用描述变化与对比的词汇句型｜「自拟题目，尝试描述你观察到的变化，可以是你自身、家人或朋友的变化，也可以是学校、家乡、科技变化」",
+   "2026 深圳｜说明文｜以 About school 为题，根据思维导图介绍现在学校与未来学校的异同｜用一般现在时描述现在学校的样子、课程与喜好；用一般将来时描述未来学校的位置、上学方式与活动；围绕思维导图要点组织内容并对比现在与未来的异同；做到条理清晰、书写规范、不出现真实校名｜「请你以 About school 为题，根据思维导图的提示，介绍一下现在学校和未来学校之间的异同吧！」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "根据表格或提示信息，用英语写一篇短文介绍你学校今昔的变化（如校舍、功能室、设备、师生人数等），用过去与现在对比的方式，不少于6句话。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 248,
+  "sourceKey": "exam/intro_a1_exam/introduce_a_country",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "介绍一个国家"
+   }
+  ],
+  "stageNid": "intro_a1_exam",
+  "examEvidence": [
+   "江苏｜说明文｜根据思维导图从天气、食物、运动、城市、动物等方面介绍中国的基本情况｜用一般现在时围绕国家多个维度（气候、饮食、运动、城市、动物等）组织介绍性内容；依据思维导图的分支信息合理选材并展开成句；注意书写规范、标点与大小写正确｜「请你根据思维导图，从以下几个方面介绍中国的基本情况！」",
+   "江苏｜说明文｜以 An interesting country 为题，从城市、运动、动物、美食等方面向外国小朋友介绍中国｜用一般将来时描述外国小朋友将来将参观、看到、享受的内容；依据思维导图按城市、运动、动物、美食四个方面组织信息；套用参考句型表达邀请与期待｜「China is an interesting country. ______ I believe you will love China」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "根据思维导图或提示，从天气、食物、运动、城市、动物等方面写一篇短文介绍一个国家的基本情况，用一般现在时，不少于5句话。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 249,
+  "sourceKey": "exam/intro_a1_exam/introduce_a_famous_person",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "介绍一位名人"
+   }
+  ],
+  "stageNid": "intro_a1_exam",
+  "examEvidence": [
+   "2026 广东、广州｜说明文｜用英语介绍科学家钱学森的生平｜按表格要点组织并完整覆盖人物基本信息；用一般过去时叙述其生平与成就；正确使用名词短语与形容词描述评价；做到紧扣主题、表达正确、书写工整｜「请根据表格信息用英语向大家介绍他的生平吧！」",
+   "2025 广东、广州｜说明文｜介绍你熟悉的一位名人｜用一般现在时介绍名人的基本信息与主要事迹；围绕名人特点组织连贯的说明性语句｜「介绍你熟悉的一位名人」",
+   "广东｜说明文｜根据档案和问题介绍机器人发明者王兴兴｜用一般过去时按时间顺序叙述人物经历；根据档案表格提取关键信息并组织成连贯句子；围绕提示问题完整覆盖人物介绍的各个要点｜「请根据信息和提示问题写几句话介绍他」",
+   "重庆｜说明文｜根据思维导图提示写一段关于跳水运动员全红婵的介绍｜按思维导图三大板块组织信息，结构清晰；用一般过去时与一般现在时准确描述人物经历与现状；围绕中心词 Quan Hongchan 展开连贯的人物介绍｜「Quan Hongchan is an athlete. She was born」",
+   "重庆｜说明文｜根据图表信息写著名聋哑舞蹈艺术家邰丽华的个人简介｜用一般过去时按时间顺序叙述人物经历；围绕人物要点组织连贯段落；正确使用简单句与形容词描述人物成就｜「根据图表信息，写一写著名聋哑人舞蹈艺术家邰丽华的个人简介，不少于5句话」",
+   "2024 广州｜说明文｜介绍你熟悉的一个名人｜用一般现在时描述人物的身份与特征；围绕人物事迹或品质组织连贯的说明内容｜「介绍你熟悉的一个名人」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "根据提示信息，用英语介绍一位名人（姓名、出生年份与地点、职业、主要成就或事迹），按要点组织内容，不少于40词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 250,
+  "sourceKey": "exam/intro_a1_exam/introduce_a_person",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "介绍一个人"
+   }
+  ],
+  "stageNid": "intro_a1_exam",
+  "examEvidence": [
+   "北京｜记叙文｜以 My Role Model 为题分享榜样人物的故事｜用恰当的时态/词态描述人物及其事迹；围绕榜样人物组织不少于五句的连贯短文；介绍人物身份并分享其故事｜「请以 My Role Model为题，分享他/她的故事」",
+   "北京｜记叙文｜仿照短文以 My Favourite ___ 为题，介绍小学生活中最喜欢的一位老师或同学及喜欢的原因｜用外貌描写刻画人物形象；用具体事例支撑喜欢该人物的原因；按外貌—事例—原因的结构组织短文；在不少于5句的篇幅内完成仿写｜「介绍小学生活中你最喜欢的一位老师或者同学，以及你喜欢他/她的原因」",
+   "2026 广东、广州｜记叙文｜介绍生活中对自己帮助很大的一个人｜用一般现在时介绍人物身份与外貌特征；说明该人物对自己重要的原因；表达想对该人物说的话或情感；保持语句通顺、书写规范｜「小学六年的学习生活马上就要结束了」",
+   "重庆｜说明文｜根据表格信息向大家介绍新笔友彼得的基本情况、上学方式、爱好特长、日常生活和理想职业｜用一般现在时准确描述人物基本信息与日常活动；按表格分类（上学、爱好、日常、职业）有条理地组织信息；选用恰当的词汇与句型介绍爱好与理想职业｜「请根据表格中的信息，向大家介绍你的新笔友彼得的基本情况、上学方式、爱好特长、日常生活、理想职业等」",
+   "陕西｜说明文｜根据表格信息介绍自己的好朋友 Linda｜用一般现在时按表格信息描述人物特征（年龄、身高、体重、爱好）；用一般过去时叙述上周末的具体活动；围绕表格要点组织连贯、完整的介绍性短文｜「请你根据表格提示，写一篇英语短文，向大家介绍你的好朋友吧！」",
+   "福建｜说明文｜模仿范例，用英文短文介绍自己的阿姨 Susan｜用一般现在时按范例结构介绍人物基本信息；正确使用第三人称单数动词形式；模仿给定范例的句式与表达进行仿写｜「根据图文信息，模仿范例写短文」",
+   "河南｜记叙文｜小学毕业时写一写想要感谢的人及其外貌性格与共同参加的难忘活动｜用一般现在时描述人物的外貌与性格特征；用一般过去时按时间顺序叙述共同参加的难忘活动；在文中自然表达感谢与珍惜之情；做到段落条理清晰、逻辑连贯｜「马上要小学毕业了，你想要感谢的人是谁呢？」",
+   "山东｜记叙文｜以 My friend 为题写一篇关于童年友谊的文章｜围绕童年友谊主题组织内容，介绍朋友并叙述共同经历；运用描述人物特征与事件的句式，按时间或逻辑顺序展开；正确使用姓名替代规则，避免使用真实姓名｜「请以 My friend 为题完成一篇不少于 60 字的文章。如涉及姓名，请男生用 Mike，女生用 Amy 替代」",
+   "湖北｜说明文｜以 My cousin 为题，根据思维导图介绍表弟/堂兄 Mike 的基本情况｜用一般现在时按类别介绍人物基本信息；依据思维导图组织信息，做到条理清楚；做到书写规范、字数达标｜「根据思维导图的信息和提示，以 My cousin 为题，写小短文」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "写一篇短文介绍一个人（可以是家人、老师、同学、朋友或你敬佩的人），说明他/她是谁、外貌或性格特点、你们之间的一件事或他/她对你重要的原因，并写出你想对他/她说的话。不少于5句话或40词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 252,
+  "sourceKey": "exam/intro_a1_exam/introduce_healthy_habits",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "介绍生活习惯"
+   }
+  ],
+  "stageNid": "intro_a1_exam",
+  "examEvidence": [
+   "河南｜说明文｜为校公众号“健康生活”栏目从运动和饮食两方面介绍自己的生活习惯并投稿｜用一般现在时描述日常运动与饮食习惯；围绕“运动”和“饮食”两个维度组织内容并覆盖思维导图提示要点；以投稿短文形式连贯成篇｜「请你根据下列提示及自己的生活习惯，从运动和饮食两方面写一篇短文投稿」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "为校刊或公众号写一篇短文，从运动和饮食两方面介绍自己的生活习惯（喜欢的运动、运动时间、三餐安排等），用一般现在时，条理清晰。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 259,
+  "sourceKey": "exam/intro_a2_exam/describe_future_life",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "展望未来生活"
+   }
+  ],
+  "stageNid": "intro_a2_exam",
+  "examEvidence": [
+   "2024 湖北｜说明文｜描绘 25 年后自己的生活（Tomorrow's Life）｜用一般将来时（will / be going to）描述未来生活；按生活、工作、家庭、空闲时间等方面分点组织内容；围绕提示问题展开并补充细节使内容连贯完整｜「My life will be very different in 25 years」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "写一篇短文描绘你多年后的生活：说明想居住和工作的地方、家庭会是什么样子、空闲时间打算如何度过，并补充其他关于未来生活的内容。100词左右。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 262,
+  "sourceKey": "exam/intro_a2_exam/introduce_a_festival",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "介绍一个节日"
+   }
+  ],
+  "stageNid": "intro_a2_exam",
+  "examEvidence": [
+   "2024 山东｜说明文｜为英语杂志社征文活动介绍一个有特色的中国节日｜用一般现在时介绍节日的来历与概况；按要点顺序组织内容并适当发挥；描述节日活动与习俗；表达过节的个人感受｜「介绍一个有特色的中国节日」",
+   "2024 江苏｜说明文｜为英语报“Culture”专栏撰写以“Duanwu Festival—A celebration of patriotism”为题的征文，介绍端午节并阐述其爱国主义内涵｜用一般现在时按“是什么—为什么—怎么做”的逻辑介绍节日的日期、习俗与地位；用因果与解释结构说明屈原故事和龙舟精神所体现的爱国主义内涵；用列举结构提出青少年践行爱国主义的具体做法；保证上下文连贯、语法正确并控制词数｜「Duanwu Festival is also called the Dragon Boat Festival」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "为英语杂志社征文活动写一篇短文，介绍一个有特色的中国节日：包括节日简介、节日活动以及过节的感受。100词左右。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 269,
+  "sourceKey": "exam/letter_a1_exam/letter_to_future_self",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "写给未来的自己"
+   }
+  ],
+  "stageNid": "letter_a1_exam",
+  "examEvidence": [
+   "2025 深圳｜书信｜给未来的自己写一封信，记录当下并展望未来｜用一般现在时描述当下各方面的情况；用一般将来时展望未来的变化；按思维导图要点组织书信内容并覆盖至少5个方面；正确使用书信格式（称呼、正文、落款 Yours）｜「给未来的自己写一封信，记录当下和展望未来」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请给未来的自己写一封信，用一般现在时描述你现在的年龄、居住地、爱好、外貌等方面的情况，并用一般将来时展望未来的变化，至少涵盖5个方面。注意书信格式（称呼、正文、落款）。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 273,
+  "sourceKey": "exam/letter_a2_exam/recommend_a_book",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "推荐一本读物"
+   }
+  ],
+  "stageNid": "letter_a2_exam",
+  "examEvidence": [
+   "2026 江苏｜书信｜向校英文报“A good read”栏目推荐一本优秀读物｜用书信格式向校报编辑推荐读物；用说明性语言介绍书名与主要内容；用至少两条理由支撑推荐（评价/因果逻辑）；控制词数在 90 词左右｜「请你给校英文报“A good read”栏目写一封信，推荐一本优秀读物」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请你给校英文报相关栏目编辑写一封信，推荐一本优秀读物，简要介绍书名和主要内容，并给出至少两条推荐理由，词数90左右。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 292,
+  "sourceKey": "exam/opinion_a2_exam/describe_self_with_adjectives",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "用形容词介绍自己"
+   }
+  ],
+  "stageNid": "opinion_a2_exam",
+  "examEvidence": [
+   "2026 河南｜应用文-其他｜用三个形容词描述自己并阐述理由，向英文报刊专栏投稿｜用三个形容词准确概括自我特征；分点阐述理由，做到条理清晰、逻辑连贯；采用征文投稿文体，使用恰当的时态与衔接手段｜「If you're asked to describe yourself with three description words, what will they be? And explain why」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请你用英文向报刊专栏投稿，用三个形容词概括自己的特点，并分别说明选择每个形容词的理由，条理清晰、逻辑连贯。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 293,
+  "sourceKey": "exam/opinion_a2_exam/explain_a_concept_and_call_to_action",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "阐释概念并倡议行动"
+   }
+  ],
+  "stageNid": "opinion_a2_exam",
+  "examEvidence": [
+   "2025 广东｜说明文｜围绕校英文报征稿主题“零废弃（Zero Waste）”写一篇短文投稿｜用一般现在时准确介绍“零废弃”的定义与内涵；给出理由论证零废弃的必要性；提出具体可行的做法建议；按 what-why-what 三点逻辑组织成连贯短文｜「请根据以下征稿启事写一篇短文投稿」",
+   "2026 广州｜记叙文｜以“做中学（learning by doing）”为主题写征文投稿｜用一般现在时解释“做中学”的含义；用一般过去时按逻辑顺序叙述一次亲身经历；由经历升华出感悟与收获，呼应主题｜「Every day, we are learning by experiencing life」",
+   "2025 广州｜议论文｜以“Longer Breaks, Greater Joy”为题就延长课间时长写征文短文｜用一般现在时阐述延长课间的原因；提出具体可行的课间活动建议；表达个人对更长课间的观点与感受；在提示基础上适当拓展信息｜「校英语社团以“Longer Breaks, Greater Joy”为题向学生进行征文。请你结合以下要点写一篇英语短文，参加征文活动」",
+   "2024 山东｜应用文-其他｜在论坛回帖阐述对成语“近朱者赤，近墨者黑”的理解并从交友角度举例｜用英文准确解释中国成语的含义；从择友、交友角度举例论证观点；在论坛回帖语境下连贯表达见解｜「请你回帖发表你的见解：阐述你对该成语的理解，并从择友、交友的角度举例加以说明」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请你根据征稿启事用英文写一篇短文投稿，说明某一环保理念的含义、它为什么必要，以及我们可以采取哪些具体做法，80词左右。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 303,
+  "sourceKey": "exam/picture_opening_a1_exam_a1/describe_changes_in_me",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "描述个人变化"
+   }
+  ],
+  "stageNid": "picture_opening_a1_exam_a1",
+  "examEvidence": [
+   "陕西｜说明文｜根据 Before/Now 对比图，写一写自己小学六年来的变化｜用一般过去时与一般现在时对比描述前后变化；用形容词准确描述外貌与性格特征；结合图片信息列举具体事例支撑变化｜「Before, I was (1)____ and (2)____. Now, I am (6)____ and (7)____」",
+   "河北｜图表作文｜以Mike身份写一篇“Changes in me”短文，描述自己小学六年来的外貌、性格、能力变化｜用一般过去时与现在时对比描述外貌、性格、能力的前后变化；按外形、性格、能力三个要点条理清晰地组织内容；做到语义连贯、语句通顺、书写规范｜「Mike就要小学毕业了，他有了很多变化，请你帮Mike写一篇“Changes in me”的小短文留给母校」",
+   "浙江｜应用文-其他｜根据图片和提示帮助 Lin Jiang 补全毕业纪念册中的句子（外貌、爱好、回忆、梦想工作）｜用一般过去时与一般现在时对比描述外貌和爱好变化；根据图片信息补全对应时间段的句子；按时间顺序（Last May Day / Last month / In the future）叙述经历与展望；保证逻辑合理、语句通顺、书写规范｜「六年的小学生活接近尾声，Lin Jiang 正在完成他的毕业纪念册，请根据他提供的图片帮助完成纪念册」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "根据 Before/Now 对比图或提示，用英语写一段话描述自己（或某人）过去与现在的变化，包括外貌、性格、爱好或能力等方面，用一般过去时与一般现在时对比，不少于5句话。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 306,
+  "sourceKey": "exam/picture_opening_a1_exam_a1/imitate_sentence_patterns",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "仿写句子"
+   }
+  ],
+  "stageNid": "picture_opening_a1_exam_a1",
+  "examEvidence": [
+   "福建｜其他｜模仿范例，根据提示词 beautiful 及裙子图画仿写句子｜用 what 引导的感叹句描述物品特征；用 be going to 表达将来的打算；模仿范例句式结构进行仿写｜「What an interesting book! I'm going to read it」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "模仿范例句式，根据所给提示词和图片，用英语仿写句子，如用 what 引导的感叹句描述物品特征，并用 be going to 结构表达接下来的打算。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 307,
+  "sourceKey": "exam/picture_opening_a1_exam_a1/introduce_a_wild_animal",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "介绍野生动物"
+   }
+  ],
+  "stageNid": "picture_opening_a1_exam_a1",
+  "examEvidence": [
+   "2026 广东、广州｜说明文｜根据图意介绍一种野生动物并写出保护野生动物的做法｜用一般现在时描述动物的产地与外形特征；表达对该动物的主观看法；提出保护野生动物的具体做法；在不少于40词内做到内容完整、语言准确、表达流畅｜「根据图意和问题的提示，用几句话介绍一种野生动物，并写出你保护野生动物的做法」",
+   "2024 深圳｜说明文｜以 Earth Day 为题，结合图片信息谈对地球日的思考或做法｜用一般现在时陈述地球日的时间与意义；用 should / shouldn't 等情态结构表达环保建议；围绕图片多个要点组织连贯语篇｜「参考图片信息，以Earth Day为题，说一说你的思考或做法，请写在相应的位置上，表达形式不限，不少于5句话」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "根据图片和提示，用英语写几句话介绍一种野生动物，说明它是什么、来自哪里、长什么样，表达你对它的看法，并写出人们能做什么来保护野生动物，不少于40个单词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 308,
+  "sourceKey": "exam/picture_opening_a1_exam_a1/introduce_school_facilities",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "介绍校园设施"
+   }
+  ],
+  "stageNid": "picture_opening_a1_exam_a1",
+  "examEvidence": [
+   "天津｜说明文｜介绍自己的学校及图中校园设施｜用方位介词（near / behind / in front of 等）描述各设施相对位置；用一般现在时连贯介绍校园设施；围绕校园平面图组织成完整段落｜「Welcome to my school. My school is ______」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "根据校园平面图或图片，用英语写一段话介绍自己的学校，至少介绍图中5个校园设施，用方位介词说明它们的相对位置，不少于40个单词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 309,
+  "sourceKey": "exam/picture_opening_a1_exam_a1/make_e_friends",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "结交网友"
+   }
+  ],
+  "stageNid": "picture_opening_a1_exam_a1",
+  "examEvidence": [
+   "江苏｜记叙文｜以“Making e-friends”为题，根据图片介绍自己并邀请中国网友做暑假向导｜用一般现在时介绍个人年龄、爱好与习惯；用一般将来时表达暑假出行与游览计划；结合多幅图片信息组织连贯、符合逻辑的短文；正确使用参考词汇并保证时态正确｜「Tim暑假将来北京旅游，他想结交一名中国网友做向导，请以“Making e-friends”为题，根据下列图片写作」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "根据图片提示，用英语写一篇短文介绍自己（年龄、爱好、未来愿望），并说明假期出行计划，表达想结交一名网友做向导的愿望，做到时态正确、逻辑连贯。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 332,
+  "sourceKey": "exam/chart_b1_exam/describe_a_survey_chart",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "图表数据描述"
+   }
+  ],
+  "stageNid": "chart_b1_exam",
+  "examEvidence": [
+   "2022 全国乙卷｜图表作文｜根据学生课外英语学习活动调查图表写短文投稿，描述活动状况、评论并提建议｜用一般现在时准确转述图表中各项活动的百分比数据；对比不同课外英语学习活动的受欢迎程度并加以评论；就如何更好地在课堂外学习英语提出合理建议｜「There are many things we can do to learn English well」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "某英文报就某项校园调查的结果向你约稿。请根据所给图表，用英语写一篇短文投稿：先描述图表中反映的主要情况，再对其作简要评论，最后提出你的建议。篇幅约100词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 3,
+   "max": 3
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 333,
+  "sourceKey": "exam/diary_a1_exam/diary_a_special_event",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "特别活动日记"
+   }
+  ],
+  "stageNid": "diary_a1_exam",
+  "examEvidence": [
+   "河南｜日记｜用日记记录毕业派对（告别日）的珍贵时刻｜用一般过去时按活动顺序叙述派对经过；依据思维导图信息组织日记内容；在结尾表达告别与不舍的情感｜「Today was a special day. There was a farewell party in ______」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "以日记形式记录一次特别的活动（如派对、聚会、庆典），写明时间、地点、参与的人，按顺序描述活动中做了哪些事，并在结尾表达自己的感受与心情，不少于40个单词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 334,
+  "sourceKey": "exam/diary_a1_exam/diary_a_trip_experience",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "旅行经历日记"
+   }
+  ],
+  "stageNid": "diary_a1_exam",
+  "examEvidence": [
+   "山东｜日记｜以 John 身份写去年暑假去新疆旅行的日记｜用一般过去时按时间顺序叙述旅行活动经过；结合四幅图片与朋友圈文字提取并整合要点；用形容词与句型表达旅行感受｜「I went to Xinjiang last summer holiday」",
+   "山东｜记叙文｜以Lily身份记录上周末和朋友去大明湖游玩的经历｜用一般过去时按要素顺序叙述一次旅行经过；围绕 when/where/how/weather/what 等思维导图要素组织内容；用第一人称描述活动并表达开心感受｜「上周末Lily和她的朋友去大明湖了，他们玩得很开心。Lily想记录下来，先构思了框架，假如你是Lily，请你帮助思维导图帮她写一写」",
+   "浙江｜日记｜仿照例文写一写自己的假期经历｜用一般过去时按要点叙述假期经历；仿照例文结构组织内容；涵盖时间、地点、方式、活动四要素｜「仿照例文写一写你的假期经历」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "以日记形式（Dear Diary）记录一次旅行或假期出游经历，写清时间、地点、同行的人、交通方式、天气以及做了哪些活动，并用一般过去时按顺序叙述，最后表达自己的感受，不少于5句话。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 335,
+  "sourceKey": "exam/email_a2_exam/explain_a_choice_with_reasons",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "说明选择及理由"
+   }
+  ],
+  "stageNid": "email_a2_exam",
+  "examEvidence": [
+   "江西｜邮件｜为学校劳动课程选择主题（家务技能或蔬菜种植）并给专栏编辑写邮件说明｜用书信格式向专栏编辑清晰传达所选劳动课程主题；按三个要点条理组织内容并适当发挥；用具体理由和益处支撑主题选择，体现观点表达｜「Knowing that our school offers two themes for labor classes, I prefer to learn______」",
+   "2022 上海｜邮件｜给校报张老师写邮件，表明最喜欢的学生活动室设想并说明理由｜用邮件格式得体地称呼与落款；清晰陈述所选设想并给出充分理由；使用恰当的连接词与理由表达组织语篇｜「假设你是李华，请给校报张老师写封邮件，表明你最喜欢的一种设想，并说明理由」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请你给一位编辑或老师写一封邮件，从给定的几个选项中选择你最喜欢/最想参加的一项，说明你选择它的理由以及它带来的益处。词数80~100词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 336,
+  "sourceKey": "exam/email_a2_exam/express_thanks_and_recall_experience",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "感谢并回忆经历"
+   }
+  ],
+  "stageNid": "email_a2_exam",
+  "examEvidence": [
+   "河北｜邮件｜给好友Helen写一封感谢信，回忆在加拿大旅行时受其家人热情接待的快乐时光｜用一般过去时按事件顺序叙述旅行中的接待活动；准确表达感谢与愉悦的情感态度；完整覆盖提示要点并适当发挥，保持邮件格式规范｜「假定你是李华，上周你和家人一起去加拿大旅行，受到了好友Helen及其家人的热情接待。请你根据以下提示给Helen写一封邮件」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请你给一位外国朋友写一封邮件，感谢他/她及其家人对你的热情接待。邮件中需表达感谢，并回忆你们共度的快乐时光或相关经历。词数80词左右。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 337,
+  "sourceKey": "exam/email_a2_exam/introduce_customs_and_manners",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "介绍风俗礼仪"
+   }
+  ],
+  "stageNid": "email_a2_exam",
+  "examEvidence": [
+   "2022 北京｜邮件｜向英国笔友介绍中国人日常生活中的基本社交礼仪｜用一般现在时说明礼仪规范与行为做法；按'见面礼仪—餐桌礼仪'分点组织内容；自然使用提示词汇（manners, shake hands, polite, gift, chopsticks）；保持书信格式与得体语气｜「请你用英语回复一封邮件，介绍你所知道的相关礼仪」",
+   "2024 江苏｜邮件｜给国外笔友 Tom 介绍一个中国传统节日｜用规范邮件格式（称呼、正文、结尾敬语）向笔友介绍节日；按时间或庆祝方式有条理地组织节日信息；用一般现在时描述节日习俗与活动；结尾用一般疑问句与对方互动、引出对方文化｜「请你给国外的笔友Tom发一封英文邮件，向他介绍一个中国传统节日（时间、庆祝方式等）」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请你给一位外国笔友写一封邮件，介绍你所在国家日常生活中的基本社交礼仪。邮件中需说明在初次见面时人们通常怎么做，以及在餐桌上如何得体地行为。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 338,
+  "sourceKey": "exam/email_a2_exam/introduce_yourself_and_your_region",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "自我介绍与家乡"
+   }
+  ],
+  "stageNid": "email_a2_exam",
+  "examEvidence": [
+   "2026 安徽｜邮件｜给英国交换生Jack回邮件，介绍自己并分享陕西信息以结交朋友｜用规范的邮件格式（称呼、正文、落款等）组织篇章；围绕征友启事中对方询问的要点逐项回应，做到要点齐全；恰当使用所给参考词汇介绍自己与陕西；在涵盖要点基础上适当发挥，使内容连贯自然｜「If you are interested, could you please tell me something about yourself? And could you share with me some information about Shaanxi?」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请你给一位外国交换生写一封邮件，回应对方的交友启事。邮件中需介绍你自己的基本情况，并分享你所在地区（家乡）的相关信息，以便结交朋友。可适当发挥，注意邮件格式完整。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 339,
+  "sourceKey": "exam/email_a2_exam/invite_a_friend_to_an_event",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "邀请参加活动"
+   }
+  ],
+  "stageNid": "email_a2_exam",
+  "examEvidence": [
+   "2023 北京｜邮件｜邀请交换生Peter参加毕业前为学校种纪念树/整理图书的有意义活动｜用一般将来时按要点说明活动安排；清晰表达邀请目的并阐述活动意义；使用提示词 invite / plant / meaningful 等组织内容｜「How is everything going?」",
+   "福建｜邮件｜给在国外的朋友Jim写邮件，邀请他参加学校举办的“中国传统文化体验周”活动｜用邀请、告知的语气撰写一封格式正确的电子邮件；准确涵盖思维导图中的时间、地点、活动、目的等要点；在给定开头句基础上自然衔接，使行文连贯并适当增加细节；使用与活动介绍、邀请相关的词汇与句式｜「请你结合思维导图提示，给在国外的朋友 Jim 写一封电子邮件，邀请他前来参加」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请你给一位外国朋友写一封邮件，邀请他/她参加你校即将举办的一项活动。邮件中需说明活动的时间、地点、主要内容和举办目的，并表达希望对方参加的邀请。词数80词左右。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 340,
+  "sourceKey": "exam/email_a2_exam/narrate_an_event_and_feelings",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "叙述活动谈感受"
+   }
+  ],
+  "stageNid": "email_a2_exam",
+  "examEvidence": [
+   "2024 天津｜邮件｜向笔友介绍同学王红帮助盲人过马路的好事并谈感受｜用一般过去时按时间顺序叙述事件经过；在叙述基础上表达个人感受与观点；保持书信格式与行文连贯，要点齐全｜「I'm writing to tell you a story about my classmate Wang Hong」",
+   "2025 福建｜邮件｜向好友Henry介绍学校“共植诚信树”主题活动的内容及感受｜用一般过去时按活动顺序叙述活动经过；准确使用书信/邮件格式与开头结尾衔接；表达个人感受与评价；涵盖时间、活动、感受等所有提示信息｜「I'm glad to share with you the event \"Plant an Honest Tree Together\" in our school」",
+   "2024 福建｜邮件｜向笔友介绍学校上周五开展的为期一天的实践活动的过程及自己的感受｜用一般过去时按时间顺序叙述一天的活动经过；正确使用书信/邮件格式与交际用语；在叙述基础上表达个人感受与评价｜「请你结合以下提示，用英语给他写一封信，谈谈活动过程及你的感受。词数80左右」",
+   "2025 广州｜邮件｜向英国笔友介绍学校举办的“交通安全日”活动｜用一般过去时按要素（时间/地点/人物/活动）叙述活动经过；在要点基础上适当拓展信息使内容连贯；使用书信格式并保持与笔友交流的得体语气；准确表达个人感受与评价｜「请你根据以下信息，写一封邮件，向她分享此次活动的过程及你的感受」",
+   "2026 山东｜邮件｜向英国朋友介绍学校“交通安全日”活动情况及个人感受｜用一般过去时按逻辑顺序描述活动经过；结合图片信息展开活动细节；表达个人感受与收获；保持邮件语体自然得体｜「给他回复邮件，介绍本次活动情况以及你的感受」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请你给一位外国朋友写一封邮件，讲述你参加或目睹的一次有意义的活动/事件。邮件中需按时间顺序说明活动的时间、地点、参与人员和具体经过，并表达你的感受或看法。词数80~100词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 341,
+  "sourceKey": "exam/email_a2_exam/offer_help_and_make_a_plan",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "提供帮助并定计划"
+   }
+  ],
+  "stageNid": "email_a2_exam",
+  "examEvidence": [
+   "2024 深圳｜邮件｜向交换生Ethan表示愿意做其古诗词共读伙伴并提供帮助｜用邮件格式与得体语气表达意愿并提供帮助；依据思维导图分点展开个人优势与共读计划；在提示基础上适当拓展信息并保持语句连贯｜「用英文写一封邮件，表示愿意成为他的共读伙伴，并提供帮助」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请你给一位需要帮助的同学或朋友写一封邮件，表示愿意提供帮助。邮件中需表达你的意愿、说明你在这方面的个人优势，并提出具体的帮助计划。词数80词左右。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 342,
+  "sourceKey": "exam/email_a2_exam/recommend_something_to_a_friend",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "推荐并说明理由"
+   }
+  ],
+  "stageNid": "email_a2_exam",
+  "examEvidence": [
+   "2024 浙江｜邮件｜向英国好友Candy推荐一所适合她暑期来华游学的学校｜结合收信人的兴趣点与两所学校的特征做匹配并给出推荐理由；使用比较、选择与因果结构说明为何该学校适合对方；运用邮件格式与友好得体的语气完成推荐｜「假如你是李华，你的英国好友Candy暑期将来中国游学。请根据以下相关信息，写一封邮件，向她推荐一所合适的学校」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请你给一位外国朋友写一封邮件，根据他/她的兴趣爱好，从给定的几个选项中推荐一个最合适的选择，并说明推荐理由。词数80词左右。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 343,
+  "sourceKey": "exam/email_b1_exam/give_advice_with_reasons",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "提建议并说明理由"
+   }
+  ],
+  "stageNid": "email_b1_exam",
+  "examEvidence": [
+   "2025 自主命题卷｜邮件｜就联合国全球青少年倡议征集活动给外国好友 Jim 提出建议并说明理由｜用建议类句式（如 suggest / recommend / It would be a good idea to）提出倡议主题建议；用因果逻辑连接词阐述建议理由；保持书信格式与得体、友好的语气；围绕‘倡议 proposal’主题展开内容｜「你的外国好友Jim打算参加，为此发来邮件，就倡议内容询问你的建议。请你用英文给他回复」",
+   "2023 自主命题卷｜邮件｜就“绿色北京”主题社团活动向英国好友 Jim 提出建议｜用建议语气（如 could / why not / it would be a good idea to）提出活动形式与内容；围绕“绿色北京”主题组织两个要点，逻辑连贯；控制词数在 100 词左右，开头结尾不计入｜「假设你是红星中学高三学生李华。你的英国好友Jim正在策划一次以“绿色北京”为主题的社团活动，他发来邮件询问你的建议。请你用英文给他回复」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "你的外国朋友正在筹划一项活动或准备一份投稿，发来邮件询问你的建议。请你用英文回复邮件，提出你的具体建议，并简要说明理由，约100词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 3,
+   "max": 3
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 344,
+  "sourceKey": "exam/email_b1_exam/raise_a_problem_and_suggest",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "说明问题并提出建议"
+   }
+  ],
+  "stageNid": "email_b1_exam",
+  "examEvidence": [
+   "2023 新课标I卷｜邮件｜就课后口语练习的随机分组问题给外教写邮件说明问题并提出建议｜用礼貌得体的语气向外教指出分组方案的问题；提出具体可行的替代分组建议；保持邮件格式与连贯的论证结构｜「外教Ryan准备将学生随机分为两人一组，让大家课后练习口语，你认为这样分组存在问题」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "你对老师或组织者安排的某项方案有不同看法。请你用英文写一封邮件，礼貌地说明该方案存在的问题，并提出具体可行的改进建议，约80词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 3,
+   "max": 3
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 345,
+  "sourceKey": "exam/email_b1_exam/reply_in_an_online_comment",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "网络留言回应"
+   }
+  ],
+  "stageNid": "email_b1_exam",
+  "examEvidence": [
+   "2024 自主命题卷｜留言｜就外国游客短视频中科技在中国的应用向网友 Chris 留言回应｜用网络留言/评论的语体与口吻回应网友提问；按三个要点顺序组织内容，使行文连贯；使用肯定、举例说明与邀请展望类表达；围绕科技在购物、出行、学习等方面的应用展开具体细节｜「一位名为 Chris 的网友在评论区询问是否确实如此」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "一位外国网友在某网站评论区就中国某方面的情况向你提问。请你用英文写一条留言回应，肯定他提到的情况，结合自身生活举例介绍相关应用或现象，并欢迎国际友人来中国亲身体验，不少于100词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 3,
+   "max": 3
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 346,
+  "sourceKey": "exam/email_b1_exam/reply_sharing_an_experience",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "分享一次经历"
+   }
+  ],
+  "stageNid": "email_b1_exam",
+  "examEvidence": [
+   "2026 自主命题卷｜邮件｜向外国好友介绍学校“当运动遇见 AI”主题活动｜用一般过去时按时间顺序叙述上个月开展的活动经过；分点条理清晰地介绍“当运动遇见 AI”主题活动的具体内容；表达个人在活动中的收获与感受；符合英文邮件格式与得体、友好的语气｜「请你用英文给他回复，内容包括：1. 活动内容；2. 你的收获」",
+   "2024 新课标I卷｜邮件｜给英国朋友Chris写邮件分享上周五在公园上美术课的经历｜用一般过去时按时间顺序叙述公园美术课的经过；具体描述所完成作品的内容与特点；表达上这节课的感想与情感态度｜「I'm writing to share with you an art class I had in a park last Friday」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "你的外国朋友发来邮件，想了解你最近参加的一次活动或经历。请你用英文回复邮件，介绍这次活动的内容或经过，并谈谈你的收获与感想，约100词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 3,
+   "max": 3
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 347,
+  "sourceKey": "exam/email_b1_exam/state_a_choice_with_reasons",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "表达选择并说明理由"
+   }
+  ],
+  "stageNid": "email_b1_exam",
+  "examEvidence": [
+   "2025 新高考全国I卷｜邮件｜就班级英语报新增栏目向Jenny说明自己的选择及理由｜用书信格式完整表达一个明确选择；用连贯的论证句式给出支撑理由；在限定词数内做到要点齐全、语气得体｜「假定你是李华，你班的英语报要增设一个栏目。外教 Jenny 提出“Fun at my school”和“Guess who I am”两个选项供大家选择。请给 Jenny 写一封邮件，内容包括：（1）你的选择；（2）说明理由」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "老师或组织者就某项活动提供了几个选项，征求大家的意见。请你用英文写一封邮件，说明你的选择，并阐述你做出这一选择的理由，约80词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 3,
+   "max": 3
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 348,
+  "sourceKey": "exam/email_b1_exam/urge_a_contribution",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "催稿提醒"
+   }
+  ],
+  "stageNid": "email_b1_exam",
+  "examEvidence": [
+   "2025 新高考全国Ⅱ卷｜邮件｜给外教Chris写邮件催交介绍加拿大体育运动的稿件｜用礼貌得体的语气催稿而不显唐突；完整覆盖询问进度与提醒交稿时间两个要点；使用规范邮件格式（称呼、结尾落款）；控制词数在 80 词左右｜「假定你是校英文报编辑李华，外教Chris上个月答应写一篇介绍加拿大体育运动的文，请给Chris写一封邮件」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "你负责编辑一份刊物或组织一次活动，某位作者答应供稿但尚未交稿。请你用英文写一封邮件，礼貌地询问写作进度，并提醒交稿时间，约80词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 3,
+   "max": 3
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 349,
+  "sourceKey": "exam/email_b1_exam/write_an_invitation",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "写一封邀请信"
+   }
+  ],
+  "stageNid": "email_b1_exam",
+  "examEvidence": [
+   "2022 自主命题卷｜邮件｜邀请美国好友 Jim 为班级做一次关于英语写作的线上经验交流｜用礼貌得体的邀请语气组织邮件结构；分点说明建议的交流内容并陈述原因；交代交流时间等相关细节事项；使用符合书信格式的开头与结尾｜「你打算邀请美国好友 Jim 为你们班做一次关于英语写作的线上经验交流」",
+   "2022 新课标I卷｜邮件｜以校广播站英语节目负责人李华身份给外教Caroline写邮件邀请她做一次访谈｜用礼貌得体的语气撰写邀请邮件；完整涵盖节目介绍与访谈时间、话题两个要点；控制词数在80词左右并符合书信格式｜「假定你是校广播站英语节目\"Talk and Talk\"的负责人李华，请给外教Caroline写邮件邀请她做一次访谈」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "你想邀请一位外教或外国朋友参加一次线上或线下的交流活动。请你用英文写一封邀请邮件，介绍活动或节目内容，说明活动的时间和话题等相关事项，约100词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 3,
+   "max": 3
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 350,
+  "sourceKey": "exam/email_mini_a1_exam/holiday_plan_support_email",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "假期安排求助邮件"
+   }
+  ],
+  "stageNid": "email_mini_a1_exam",
+  "examEvidence": [
+   "江苏｜邮件｜给好友 Jacky 写邮件，介绍自己的不良习惯及参加夏令营改正习惯的暑假安排｜用 going to / 一般将来时描述暑假计划与打算；结合两幅图信息（不良习惯、夏令营活动）组织内容；保持邮件格式与上下文连贯｜「Summer holiday is coming. I am going to join a summer camp」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请给你的好友写一封邮件，介绍自己的一些不良习惯以及假期里打算参加某个活动来改正这些习惯的安排，并希望得到对方的支持。词数40左右，注意邮件格式与内容连贯。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 351,
+  "sourceKey": "exam/email_mini_a1_exam/reply_about_past_experience",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "回信讲述上周经历"
+   }
+  ],
+  "stageNid": "email_mini_a1_exam",
+  "examEvidence": [
+   "浙江｜邮件｜回复 Jack 关于上周端午节活动的邮件，介绍自己上周的经历｜用一般过去时按时间顺序叙述上周活动经过；围绕端午节 / 周末经历组织连贯内容；保持书信格式并对对方问候作出礼貌回应｜「假设你是李平，请你对邮件进行回复。不少于五句话」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请回复你朋友的一封邮件，回答他/她关于你上周做了什么的问题，用一般过去时按时间顺序讲述你上周参加的一次活动或经历。不少于五句话，注意书信格式与礼貌回应。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 352,
+  "sourceKey": "exam/email_mini_a1_exam/reply_about_personal_changes",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "回信谈自身变化"
+   }
+  ],
+  "stageNid": "email_mini_a1_exam",
+  "examEvidence": [
+   "浙江｜邮件｜模仿划线句向好友Lily回信介绍自己的近况变化｜用 Before...Now... 对比结构描述自身变化；交替使用一般过去时与一般现在时表达前后对比；完成符合邮件格式的回信并涵盖近况要点｜「Before, I was shy and I didn't like sports.Now I'm active and I like running」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请给你的好友写一封回信，介绍自己的近况与变化，用 Before...Now... 的对比结构描述自己在某方面的前后不同。不少于五句话，注意邮件格式。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 353,
+  "sourceKey": "exam/email_mini_a1_exam/weather_activity_tips_email",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "天气活动提示邮件"
+   }
+  ],
+  "stageNid": "email_mini_a1_exam",
+  "examEvidence": [
+   "上海｜邮件｜向朋友介绍上海暑期天气并推荐旅行活动、给出旅行提示｜用一般现在时准确转述图表中的天气数据；依据天气信息合理推荐活动并给出对应提示；使用邮件格式与得体的开头、结尾｜「It's a good idea to visit my hometown Shanghai」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "假设你的外国朋友将来你的家乡旅行，请给他/她写一封邮件：介绍当地该季节的天气情况，根据天气推荐几项合适的旅行活动，并给出几条实用的旅行提示。不少于50词，注意邮件格式。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 354,
+  "sourceKey": "exam/explain_a2_exam/activity_plan",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "活动计划"
+   }
+  ],
+  "stageNid": "explain_a2_exam",
+  "examEvidence": [
+   "2026 江苏｜应用文-其他｜以“My plan for exploring folk art in my hometown”为题写一份探索家乡民俗艺术的活动计划｜用一般将来时按计划顺序说明探索对象、选择理由与具体做法；围绕提示要点展开并适当发挥，使内容充实；保持上下文连贯、语法正确、表达清楚｜「Many forms of folk art in my hometown have a long history. This summer holiday I'm going to explore」",
+   "2025 江苏｜应用文-其他｜以“The beauty of our school”为主题完成一份小组实践活动计划｜按要点顺序组织活动计划内容，做到上下文连贯；说明做法并给出合理理由（记录与分享方式及原因）；列举至少两点预期收获，体现计划完整性｜「To present the beauty of our school, we plan to record」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "以小组或社团成员为读者，写一份100词左右的活动计划：说明打算开展什么活动（或探索、记录什么内容），说明选择它的理由，说明将如何开展（至少三点做法），并列出期望的收获。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 355,
+  "sourceKey": "exam/explain_a2_exam/how_i_improved_efficiency",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "做法与效果"
+   }
+  ],
+  "stageNid": "explain_a2_exam",
+  "examEvidence": [
+   "2022 北京｜应用文-其他｜谈在学习或生活中如何提升效率及取得的效果｜用一般现在时描述提升效率的具体做法；用现在完成时说明已取得的效果；组织'做法—效果'的逻辑结构；自然使用提示词汇（plan, task, attention, make use of, progress）｜「谈谈你在学习或生活中是如何提升效率的，取得了什么效果」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "面向英文网站征文读者，写一篇短文介绍你在学习或生活中提升效率（或改进某方面）的具体做法，并说明由此取得的效果或成果，做到做法与效果逻辑清晰。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 356,
+  "sourceKey": "exam/intro_a1_exam/a_wonderful_weekend",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "美好的周末"
+   }
+  ],
+  "stageNid": "intro_a1_exam",
+  "examEvidence": [
+   "北京｜记叙文｜结合自己经历介绍一个美好的周末｜用一般过去时按要素叙述周末活动经过；围绕主题组织内容并覆盖地点、同伴、交通、活动等信息；满足句数与时态的硬性要求｜「请结合自己的经历，向大家介绍一个美好的周末」",
+   "重庆｜记叙文｜写一写自己上周末的活动｜用一般过去时按时间顺序叙述周末活动经过；正确运用首字母大写与句末标点；围绕 When 与 What 两个维度组织内容｜「例如：I washed my clothes in the morning」",
+   "重庆｜记叙文｜介绍自己上周末的购物情况｜用一般过去时按时间顺序叙述一次购物活动的经过；围绕时间、地点、人物、方式、物品等要素组织连贯短文；在约 40 词内做到语句通顺、标点正确｜「介绍你自己上周末的购物的情况，用英语写一篇小短文」",
+   "安徽｜记叙文｜根据问题提示写短文，叙述上周末全家外出的经历｜用一般过去时按时间顺序叙述上周末全家外出的经过；围绕天气、地点、交通方式、活动内容、个人感受五个要点展开；自拟题目并保证不少于五句话｜「假定上周末你们全家外出了，请根据问题提示，写一篇英语短文，要求不少于五句话，题目自拟」",
+   "河南｜记叙文｜以“Chen Jie's day on the farm”为题写 Chen Jie 在农场度过的一天｜用一般过去时按早中晚时间顺序叙述一天的活动；整合表格中全部信息点并适当发挥；用给定的开头句和结尾句自然衔接正文｜「Chen Jie visited a farm with her parents last Saturday」",
+   "河南｜记叙文｜以“My bad but also a good day”为题描述自己特别的一天（看似糟糕最后变好事）｜用一般过去时按开端—经过—结果的时间顺序叙述一天经历；围绕“看似糟糕最后变成好事”的主题组织内容并点题；做到条理清晰、语句准确、意思连贯、书写规范｜「My bad but also a good day」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "结合自己的经历，向大家介绍一个美好的周末：说明去了哪里、和谁一起、怎么去、做了什么，用一般过去时，不少于5句话。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 357,
+  "sourceKey": "exam/intro_a1_exam/choose_an_activity",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "选择一项活动"
+   }
+  ],
+  "stageNid": "intro_a1_exam",
+  "examEvidence": [
+   "北京｜说明文｜介绍学校跨学科主题活动日中你想参加的活动及原因｜用一般现在时介绍所选跨学科活动；给出选择该活动的合理理由；描述为活动所做的具体准备；控制篇幅不少于 60 词且语句通顺｜「假设你所在的学校即将举办一场“跨学科主题活动日”，请你根据以下提示，写一篇英语短文，介绍你想要参加的活动及原因」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "学校将举办主题活动日，请从若干活动中选择一项你想参加的活动，写一篇短文说明你选择它的原因以及你为此做的准备，不少于60词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 358,
+  "sourceKey": "exam/intro_a1_exam/describe_others_changes",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "介绍他人变化"
+   }
+  ],
+  "stageNid": "intro_a1_exam",
+  "examEvidence": [
+   "陕西｜说明文｜介绍几个老朋友两年前和现在的外貌与喜好变化｜用一般过去时与一般现在时对比描述人物外貌和喜好的变化；正确使用形容词描述身高、体型、头发等外貌特征；运用对比结构（two years ago / now）组织连贯短文；保证语法准确、语句通顺、表达清楚｜「I'm Li Wen. I have three old friends. Now, they are different from two years ago」",
+   "浙江｜应用文-其他｜阅读 Jack 的成长纪念册并完成信息介绍填空｜用一般过去时与一般现在时对比描述外貌与爱好的变化；根据上下文语境与纪念册图标信息选词填空｜「My name is Jack. Look! I'm different now. Before, I was short and thin. Now, I'm taller and (1) than before」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "根据表格或提示信息，用英语写一篇短文介绍几位朋友（或家人）两年前与现在在外貌和喜好等方面的变化，用过去与现在对比的方式，不少于8句话。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 359,
+  "sourceKey": "exam/intro_a1_exam/describe_personal_changes",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "介绍自身变化"
+   }
+  ],
+  "stageNid": "intro_a1_exam",
+  "examEvidence": [
+   "陕西｜说明文｜写自己小学阶段在外貌、性格、爱好、能力等方面的成长与变化｜用一般过去时与一般现在时对比描述自身变化；按外貌、性格、喜好、能力分方面组织内容；使用连词使语句通顺、意义连贯｜「How time flies (光阴似箭)! I changed a lot. Before, I ______」",
+   "河南｜说明文｜在个人成长纪念册中写自己在小学六年的变化（外表、能力、爱好今昔对比）｜用一般过去时描述“以前”的外表、能力、爱好状态；用一般现在时描述“现在”的外表、能力、爱好状态；围绕外表、能力、爱好三个维度组织今昔对比；在毕业纪念册语境下自然表达成长变化与对师友的感谢｜「It's time to say goodbye to our school.Everyone has had many changes in the past six years.Me, too. Before, I was short」",
+   "河南｜说明文｜以“My changes”为题写自己在外貌、性格、喜好和能力等方面的变化｜用一般现在时与一般过去时对比描述自身变化；围绕外貌、性格、喜好、能力分方面有条理地组织内容；做到语句准确、书写规范｜「请以“My changes”为题，写一写自己在外貌、性格、喜好和能力等方面的变化」",
+   "河南｜说明文｜以“Changes in me”为题介绍自己小学六年的变化｜用现在时与过去时对比呈现自身变化；按外貌、性格、能力、爱好分方面有条理组织内容；使用比较级或对比结构突出变化｜「请你以“Changes in me”为题写一篇短文，介绍下自己的变化吧！」",
+   "山东｜说明文｜以 Changes 为题介绍自己和学校六年来发生的变化｜用过去与现在时态对比描述变化；围绕相貌、性格、爱好、能力等要点组织内容；在限定词数内保持行文连贯｜「请以Changes为题，来介绍一下你和学校的变化吧」",
+   "山东｜说明文｜以“My changes”为题描述自己六年来的变化｜用过去时与现在时对比呈现六年来的变化；按外貌、性格、能力、喜好分方面条理清晰地组织内容；准确使用形容词及比较结构表达变化｜「请你以“My changes”为题，从外貌、性格、能力、喜好等方面描述自己的变化，注意条理清晰，表达准确，不少于5句话」",
+   "山东｜记叙文｜回顾六年来的变化并介绍小学最后一个暑假的安排｜用过去时或现在完成时叙述六年来的变化；用一般将来时描述暑假计划安排；从外貌、性格、爱好、能力多角度展开；控制篇幅在60词左右并涵盖所有要点｜「请回想六年来你的变化并简单说说你小学阶段最后一个暑假的安排」",
+   "浙江｜应用文-其他｜模仿 Jack 的成长纪念册写自己的成长记录表｜用一般过去时与一般现在时对比叙述小学阶段的成长变化；按要点组织内容并表达未来愿望｜「请你模仿 Jack 的成长纪念册内容，回想自己在小学中的成长变化、快乐时光与未来畅想，并写一写自己的记录表，要求不少于 5 个句子，要点齐全，注意书写规范，照抄不得分」",
+   "浙江｜记叙文｜以“My changes”为题描写自己六年来的变化｜用一般过去时与一般现在时对比描写变化；围绕外貌/性格/能力/喜好至少两方面展开；用 was/were、could、liked 等过去式与 am、can、like 现在式形成对照｜「请以“My changes”为题，从外貌、性格、能力、喜好等方面（至少两方面）描写自己的变化，不少于5句话」",
+   "2025 深圳｜说明文｜以“My changes”为题写征文，介绍自己在身体、学习、生活等方面的变化｜用对比或变化类表达描述不同方面的成长变化；按身体、学习、生活分点组织内容；在 60 词左右控制篇幅并保持语句通顺｜「请你以“My changes”为题，参考下图提示，写一篇短文应征」",
+   "2024 深圳｜记叙文｜以“Growing up”为题写自己的成长变化及对初中学习和生活的展望｜用一般过去时与现在时对比描述外貌、爱好、能力等方面的成长变化；用一般将来时表达对初中学习和生活的展望；按时间维度（过去/现在/未来）有条理地组织内容｜「请以“Growing up”为题，写一篇你的成长变化以及你对初中学习和生活的展望」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "以「我的变化」为题写一篇短文，从外貌、性格、爱好、能力等方面对比描述自己过去与现在的变化，用一般过去时与一般现在时，不少于6句话或50词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 360,
+  "sourceKey": "exam/intro_a1_exam/future_life",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "未来生活变化"
+   }
+  ],
+  "stageNid": "intro_a1_exam",
+  "examEvidence": [
+   "上海｜说明文｜以“2035年的出行”为题，描述未来城市公共交通与某种交通工具的变化｜用一般将来时描述未来交通与出行变化；围绕给定主题组织两个参考要点展开；控制词数并遵守标点不占格等格式要求｜「Write at least 50 words on the given topic \"Traveling in 2035\"」",
+   "江苏｜应用文-其他｜从多方面努力成为更好的自己（完成信息卡并写一段话）｜用动词短语准确填写信息卡各栏目关键词；围绕多个方面组织连贯段落，条理清晰；正确使用一般现在时/一般将来时描述习惯与努力计划｜「暑假之后，我们就成为中学生了，让我们从多方面努力成为更好的自己」",
+   "2025 深圳｜记叙文｜以 A day in middle school 为题写对初中学习、生活的思考或计划｜按时间顺序叙述初中一天的学习与生活；表达对初中学习与生活的思考或计划；组织不少于 5 句连贯、符合要求的语句｜「以A day in middle school为题，写一写你对初中学习、生活的思考或计划」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "以「2035年的出行」为题写一篇短文，描述未来城市公共交通会变得怎么样，并选择一种交通工具谈谈它在2035年的变化，用一般将来时，不少于50词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 361,
+  "sourceKey": "exam/intro_a1_exam/holiday_plan",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "假期计划"
+   }
+  ],
+  "stageNid": "intro_a1_exam",
+  "examEvidence": [
+   "北京｜说明文｜以 My Summer Holiday Plan 为题介绍自己的暑假计划｜用一般将来时描述暑假打算；围绕地点、方式、同伴、活动四个要点组织内容；做到语句通顺、书写工整｜「请以“My Summer Holiday Plan”为题，介绍你的暑假计划」",
+   "北京｜说明文｜说说自己的暑期安排｜用一般将来时（be going to）描述暑期计划；围绕三个提示问题组织内容，做到意思连贯、符合逻辑；满足不少于5句话的篇幅要求｜「请你根据问题提示用英文写段短文，说说你的暑期安排」",
+   "天津｜说明文｜以“My Summer Holiday Travel Plan”为题制订自己的暑假旅行计划｜用一般将来时描述旅行安排与打算；按提示问题（地点、交通、活动）组织内容；保持篇章连贯并使描述丰富生动｜「请你以“My Summer Holiday Travel Plan”为题写一篇短文，制订自己的旅行计划」",
+   "陕西｜说明文｜用英语介绍自己的寒假计划｜用一般将来时描述寒假打算的活动；组织连贯、通顺的语句；达到最低句数（不少于5句）要求｜「寒假即将来临，请用英语介绍一下你的寒假计划」",
+   "陕西｜说明文｜说说今年的暑假计划（去哪儿、和谁、干什么）｜用一般将来时描述暑期打算；围绕去哪儿、和谁、干什么组织内容；保证书写规范与语句连贯｜「假如你是张彬，马上要放暑假了，你打算去哪儿？和谁一起去？想去干什么？请你来说说今年的暑假计划吧」",
+   "河南｜记叙文｜结合实际情况写一写自己的暑假计划｜用一般将来时描述暑假将开展的活动；按条理组织计划要点，做到逻辑顺畅；控制篇幅，写出不少于5句完整句子｜「请参考阅读理解（B），结合实际情况，写一写你的暑假计划」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "以 My Holiday Plan 为题写一篇短文，介绍你的假期计划：打算去哪里、和谁一起去、怎么去、打算做什么，用一般将来时，不少于5句话或60词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 362,
+  "sourceKey": "exam/intro_a1_exam/introduce_yourself",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "自我介绍"
+   }
+  ],
+  "stageNid": "intro_a1_exam",
+  "examEvidence": [
+   "北京｜说明文｜向未来的新同学介绍独一无二的自己｜用第一人称介绍个人基本信息；用一般现在时描述擅长之事与梦想职业；组织不少于五句的连贯短文｜「请写一篇短文向未来的新同学介绍独一无二的你」",
+   "北京｜应用文-其他｜初中新生向老师和同学做自我介绍｜用一般现在时介绍个人基本信息与特点；条理清晰地组织自我介绍内容；组织至少四项内容使表达充实｜「亲爱的同学！初中生活即将开启，为了让老师和同学们更好地认识你，你准备做哪些自我介绍呢？可参考以下提示介绍」",
+   "重庆｜说明文｜以 My Dream 为题，参考词汇包写自己的梦想、性格、爱好与打算｜用一般现在时描述性格与爱好；用 be going to / can 表达未来打算；围绕 My Dream 把性格、梦想、爱好、打算组织成连贯短文；规范书写：首字母大写、句末用句号｜「以My Dream为题目，参考词汇包所提供的词汇，把你的梦想写出来吧」",
+   "四川｜说明文｜向全班同学介绍自己和父母的情况｜用一般现在时介绍个人基本信息（年龄、班级、爱好）；描述家庭成员的职业；准确列举物品与联系方式，正确使用名词与介词短语｜「Hello, everyone! My name is John」",
+   "四川｜说明文｜以 My Hobby/Hobbies 为题介绍自己的兴趣爱好｜用一般现在时描述自己的爱好；用 because 引导原因说明喜欢的原因；围绕主题组织简短连贯的段落｜「请以My Hobby/Hobbies为题写一篇不少于三句话的小短文介绍你的爱好」",
+   "安徽｜记叙文｜以“My Growth（成长）”为题写自己六年小学时光的收获与成长｜用一般过去时与一般现在时对比描述成长变化；按时间顺序（过去—现在—未来）组织内容；围绕成长主题连贯表达个人收获｜「在六年的小学时光里，你一定有不少收获。请根据提示，以“My Growth（成长）”为题，写一篇作文」",
+   "陕西｜说明文｜以“About Me”为题介绍自己（姓名、年龄、生日、地址、爱好、梦想）｜用一般现在时准确陈述个人信息；将零散信息卡条目组织成连贯短文；围绕主题适当发挥扩展内容｜「以“About Me”为题，写一篇短文，介绍一下你自己吧！」",
+   "福建｜应用文-其他｜根据 Name Card 信息补充 Tom 的自我介绍｜用一般现在时按要点组织一段自我介绍；正确使用 be 动词与第三人称单数形式；完整涵盖 Name Card 中的全部信息点｜「Tom报名了暑期夏令营，请根据他的 Name Card 提供的信息，帮他把自我介绍补充完整」",
+   "福建｜说明文｜像 Ben 一样向初中老师写一份自我介绍｜用一般现在时描述个人爱好与日常锻炼习惯；用 want to be 表达梦想职业；用 can 表达做家务的能力；按表格要点组织一份完整的自我介绍｜「假设你是 David 或 Cindy，请像 Ben 一样向初中老师写一份自我介绍，至少写 5 句，要求表达完整，有创新，字迹工整清晰」",
+   "江苏｜说明文｜以“My dream”为题介绍自己的梦想、原因及实现计划｜用一般将来时表达未来想成为的职业或身份；说明拥有该梦想的原因；描述为实现梦想将采取的具体行动；按思维导图的三个分支条理清晰地组织短文｜「请以“My dream”为题，用英文写一篇短文」",
+   "江苏｜说明文｜向新老师和同学做自我介绍｜用一般现在时介绍个人基本情况；围绕四个指定要点组织内容并适当扩展；保持语句通顺、意思连贯、书写规范｜「亲爱的同学们，你们即将步入新的校园，请你们向新老师和同学们做个自我介绍」",
+   "山东｜说明文｜即将成为中学生的新生写一篇自我介绍｜用一般现在时介绍个人基本信息与外貌性格特征；描述日常上学方式；表达长大后的理想与未来假期计划；做到语句通顺、标点语法正确、书写工整｜「现在请你写一篇自我介绍，内容包括你的姓名、年龄、外貌、性格、爱好，怎样上学，长大后的理想，未来某个假期的计划等等」",
+   "山东｜说明文｜小学毕业之际写一篇自我介绍，回顾六年变化与爱好｜用一般现在时与一般过去时描述自身变化与爱好；组织一段连贯、内容饱满的自我介绍；控制字数并做到语句通顺、书写美观｜「This is me」",
+   "2025 深圳｜应用文-其他｜向英国小朋友写一份自我介绍（身高、体重、兴趣和爱好等）｜用一般现在时介绍个人基本信息（身高、体重）与兴趣爱好；写满至少8句构成完整自我介绍｜「Hello! My name is ___」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "写一篇短文向新老师和新同学介绍自己，包含姓名、年龄、擅长的事情、梦想职业等至少四项个人信息，不少于5句话或25词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 363,
+  "sourceKey": "exam/intro_a1_exam/my_school_life",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "介绍学校生活"
+   }
+  ],
+  "stageNid": "intro_a1_exam",
+  "examEvidence": [
+   "北京｜说明文｜以 My School Life 为题介绍自己的小学生活｜用一般现在时描述学校与班级的基本情况；用 there be 句型说明班级人数；用频率副词描述与同学的日常活动；表达个人喜好并保证语句通顺｜「请参考下面的问题提示，以“My School Life”为题，在答题卡上介绍一下你的小学生活吧」",
+   "天津｜说明文｜以“OUR ENGLISH LEARNING”为题介绍小学的英语学习情况｜用一般现在时或一般过去时描述小学英语学习活动；围绕提示词列举并展开多种英语学习形式；在限定句数与字数内组织连贯的说明性段落｜「请你以“OUR ENGLISH LEARNING”为题，介绍一下小学的英语学习情况」",
+   "四川｜记叙文｜以 My Middle School 为题畅想中学生活｜用一般将来时表达对中学生活的畅想与计划；围绕多个指定要点组织并展开内容；恰当表达毕业心情、祝福与憧憬祝愿｜「小学生活即将结束，请你以 My Middle School 为题，谈谈你对中学生活的畅想」",
+   "陕西｜说明文｜以刘强的身份介绍自己的学校生活｜用一般现在时描述日常学校作息；按时间顺序（上午/下午）组织一天学校生活；使用 because 等连词说明喜欢某科目的原因；正确使用 by bike、at school 等介词短语｜「My name is Liu Qiang. I have a busy but happy life at」",
+   "湖北｜说明文｜描述梦想中的学校｜用 There be 句型描述学校设施与场所；用一般现在时按思维导图结构介绍学校各部分；用 I hope... 表达愿望与期待｜「你梦想中的学校是什么样子的？请结合思维导图和提示句型，以“The school of my dreams”为题，描述一下你梦想中的学校吧！」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "以 My School Life 为题写一篇短文，介绍你的学校（学校的样子、班级人数、常和同学一起做什么、最喜欢的科目或英语学习情况），不少于5句话。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 364,
+  "sourceKey": "exam/intro_a1_exam/my_winter_holiday",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "我的寒假生活"
+   }
+  ],
+  "stageNid": "intro_a1_exam",
+  "examEvidence": [
+   "广东｜记叙文｜用英语描述自己有意义又充实的寒假生活｜用一般过去时按要点叙述假期活动经过；围绕「有意义又充实」组织并串联四个内容要点；用连贯的短文形式向同学交流假期生活｜「I had a good time during my winter holiday」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "写一篇短文向同学介绍你充实而有意义的寒假生活，包含坚持运动、阅读、帮助父母、当志愿者等活动，用一般过去时，语句连贯。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 365,
+  "sourceKey": "exam/intro_a1_exam/recommend_a_season",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "推荐一个季节"
+   }
+  ],
+  "stageNid": "intro_a1_exam",
+  "examEvidence": [
+   "天津｜说明文｜向Mike介绍天津最适合旅游的季节｜用一般现在时描述季节特征；给出选择该季节的理由；围绕主题组织连贯段落｜「Mike要到天津来旅游，你觉得哪个季节最好，向他介绍一下」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "你的朋友要来你的城市旅游，写一篇短文向他推荐最适合来旅游的季节，说明是哪个季节以及推荐的理由。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 366,
+  "sourceKey": "exam/intro_a1_exam/travel_plan_or_experience",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "旅游计划或经历"
+   }
+  ],
+  "stageNid": "intro_a1_exam",
+  "examEvidence": [
+   "2025 广东、广州｜记叙文｜写一个暑假旅游计划或一次旅游经历｜按时间顺序或计划条理描述旅游安排或经历；使用恰当的时态（计划用将来时、经历用过去时）叙述活动经过｜「写一个暑假旅游计划或一次旅游经历」",
+   "2024 广东、广州｜其他｜二选一：分享一段旅游经历，或谈谈迎接中学生活的暑期计划｜用一般过去时按要素（时间、地点、人物、交通、心情、意义）叙述旅游经历；用计划性表达（学习、运动、作息、出行）说明暑期安排以应对变化与挑战；围绕单一主题组织要点，保证语句通顺、意思连贯、语法标点正确｜「下学期你将成为一名中学生。中学的生活不同于小学的生活……为了更好地迎接这些变化和挑战，请谈谈你的暑期计划」",
+   "安徽｜记叙文｜结合去年暑假经历与今年暑假计划写一篇小作文｜用一般过去时按时间顺序叙述去年暑假的活动经过；用一般将来时或 be going to 结构表达今年暑假的计划；做到段落层次清晰、句间逻辑连贯｜「请你结合去年暑假和今年暑假两个部分写一篇小作文吧」",
+   "河南｜说明文｜以 A Trip Plan 为题，根据思维导图写一段自己的旅行计划｜用一般将来时描述旅行计划的各项安排；按思维导图要素（地点/时间/方式/同伴/内容）组织信息使逻辑清晰；正确使用大小写与拼写，避免语法错误｜「先根据提示完成思维导图，再根据该思维导图以 \"A Trip Plan\" 为题，写一段通顺、逻辑清晰的话」",
+   "河南｜记叙文｜以 My holiday 为题介绍自己的假期生活｜用一般过去时按要素叙述假期活动经过；围绕思维导图的 what/who/where/how 组织内容；做到条理清晰、书写规范｜「请以 My holiday 为题目，参考下面的思维导图，可适当发挥，写一篇小短文介绍一下你的假期生活」",
+   "山东｜记叙文｜以“A wonderful trip to ___”为题写一次难忘的旅行｜用一般过去时按地点、人物、事件、感受等要素叙述一次旅行经历；依据思维导图框架（Where/Who/What/How）组织内容、不遗漏要点；保持语句通顺、语意连贯、表达流畅｜「请以“A wonderful trip to ___”为题写一下自己的美妙之旅吧」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "写一篇短文，介绍一次旅游经历或一个旅游计划：说明去了/要去哪里、和谁一起、怎么去、做了什么/打算做什么，注意时态（经历用过去时、计划用将来时），不少于5句话或40词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 367,
+  "sourceKey": "exam/intro_a2_exam/describe_a_sport_experience",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "描述运动经历"
+   }
+  ],
+  "stageNid": "intro_a2_exam",
+  "examEvidence": [
+   "2024 陕西｜记叙文｜以 Sports 为主题，描述对你帮助最大的运动或克服困难的经历｜围绕体育主题选定一个角度（帮助最大的运动 / 克服困难经历）展开；用过去时或现在时按逻辑顺序描述运动过程或经历；使用连接词使短文连贯，体现收获与感受｜「简单描述在体育活动中对你帮助最大的运动或者你克服困难的经历」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "以 Sports 为主题写一篇英语小短文：描述一项对你帮助最大的运动，或描述一次你克服困难的经历，并写出你的收获与感受。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 368,
+  "sourceKey": "exam/intro_a2_exam/describe_an_unforgettable_trip",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "描述一次难忘旅行"
+   }
+  ],
+  "stageNid": "intro_a2_exam",
+  "examEvidence": [
+   "2024 广东、广州｜记叙文｜根据思维导图写一篇关于一次难忘学校旅行的短文｜用一般过去时按思维导图六要素叙述一次学校旅行经历；在提示基础上适当拓展信息使内容连贯完整；控制词数在 80 词左右并避免透露个人信息｜「你校将在英语周举办英语征文比赛，主题是“An unforgettable school trip”」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "根据提示写一篇关于一次难忘旅行的短文：说明何时去、去了哪里、和谁一起、在那里做了什么、感受如何。80词左右。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 369,
+  "sourceKey": "exam/intro_a2_exam/describe_renewing_an_old_item",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "描述旧物焕新经历"
+   }
+  ],
+  "stageNid": "intro_a2_exam",
+  "examEvidence": [
+   "2026 江苏｜记叙文｜向校英文报投稿，介绍一次让旧物焕发新生的经历｜用一般过去时按逻辑顺序叙述一次让旧物焕新的经历；完整覆盖旧物来历、改造方式、感受收获三个要点；使用细节描写与连接词使叙述连贯具体｜「介绍一次你让旧物焕发新生的经历」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "向校英文报投稿，介绍一次让旧物焕发新生的经历：说明旧物的名称与来历、让旧物焕新的原因和方式（如修理、改造、赠送他人等），以及你的感受或收获。100词左右。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 370,
+  "sourceKey": "exam/intro_a2_exam/introduce_a_club_experience",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "介绍社团经历"
+   }
+  ],
+  "stageNid": "intro_a2_exam",
+  "examEvidence": [
+   "2023 北京｜应用文-其他｜向学校英文网站投稿介绍一个你参加过的社团及其活动内容与收获｜用一般过去时叙述在社团中的活动经过；用现在完成时表达从经历中获得的收获；介绍社团基本信息并条理清晰地组织内容｜「What have you learned from the experience?」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "向学校英文网站投稿，介绍你参加过的某个社团：说明社团是什么、你在社团里做过哪些活动、以及你从这段经历中学到了什么。不少于50词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 371,
+  "sourceKey": "exam/intro_a2_exam/introduce_a_designed_place",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "介绍设计场所"
+   }
+  ],
+  "stageNid": "intro_a2_exam",
+  "examEvidence": [
+   "2022 广州｜说明文｜介绍自己设计的绿色学校图书馆｜用一般现在时描述图书馆的外观特征（颜色、形状）；围绕“绿色”主题说明材料、能源等具体方面；列举图书馆内可开展的活动；按思维导图的提示组织说明文结构并适当拓展｜「请根据以下思维导图的内容提示写一篇短文投稿，介绍你所设计（design）的绿色图书馆」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "向学校英文报投稿，介绍你所设计的一个场所：描述它的外观（颜色、形状）、说明它为什么是环保/绿色的（材料、能源等）、以及在里面可以做什么。80词左右。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 372,
+  "sourceKey": "exam/intro_a2_exam/introduce_a_historical_figure",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "介绍历史人物"
+   }
+  ],
+  "stageNid": "intro_a2_exam",
+  "examEvidence": [
+   "2024 江苏｜说明文｜介绍徐州历史名人苏轼在徐事迹并谈启示｜用一般过去时按要点叙述苏轼在徐州的功绩；围绕三个规定要点组织短文结构；结尾表达个人启示或观点｜「他带领人民抗洪水，修苏堤，建黄楼，寻煤炭，在徐期间著有大量诗词」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "为校英文报征文活动写一篇短文，介绍一位历史人物的事迹：按要点叙述他做过的主要事情，并写出这些内容给你的启示。90词左右。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 373,
+  "sourceKey": "exam/intro_a2_exam/narrate_a_special_experience",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "叙述一次特殊经历"
+   }
+  ],
+  "stageNid": "intro_a2_exam",
+  "examEvidence": [
+   "2025 天津｜记叙文｜为校报英语专栏写一篇短文，介绍同班同学李华去年暑假在天津科学技术馆当小讲解员的一次特殊经历｜用一般过去时按时间顺序叙述一次经历；完整覆盖所给要点并适当发挥补充；保持行文连贯、要点齐全，符合校报专栏短文语域｜「请你根据以下内容提示，以“A Special Experience of Li Hua”为题，为校报英语专栏写一篇短文，介绍你同班同学李华的一次特殊经历」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "为校报英语专栏写一篇短文，介绍某人（或你自己）一次特殊的经历：按时间顺序说明事情发生的时间、地点、做了什么、结果如何，并写出你对这次经历的看法。80～100词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 374,
+  "sourceKey": "exam/intro_a2_exam_b1/introduce_an_item_for_exhibition",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "展品介绍"
+   }
+  ],
+  "stageNid": "intro_a2_exam_b1",
+  "examEvidence": [
+   "2023 自主命题卷｜说明文｜为“快乐童年”展览提交一件物品并写介绍｜用描述性语言刻画所选物品的外观与特征；用因果逻辑说明选择该物品的理由；围绕“快乐童年”主题组织内容并体现个人情感｜「学校英语节举办“快乐童年”展览，请提交一件物品并写介绍」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "学校将举办主题展览，请提交一件与主题相关的物品并写一段介绍：简要描述该物品的外观与特征，并说明你选择它的理由。面向展览参观者，约80词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 3,
+   "max": 3
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 375,
+  "sourceKey": "exam/letter_a1_exam/letter_about_travel_plan",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "旅行近况书信"
+   }
+  ],
+  "stageNid": "letter_a1_exam",
+  "examEvidence": [
+   "浙江｜书信｜向父母介绍自己与表妹的旅行近况和行程｜用一般过去时按时间顺序叙述每日行程；套用书信格式并与给定开头句自然衔接；围绕表格信息组织连贯的叙述｜「她打算给爸爸妈妈写一封信，说说她的旅行近况」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "你正在和家人或朋友旅行，请给父母写一封信，说明你此刻在哪里、和谁在一起，并按时间顺序介绍这几天的行程安排（去了哪里、做了什么、买了什么、何时回家），表达你的心情。注意书信格式与时间顺序。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 376,
+  "sourceKey": "exam/letter_a1_exam/reply_to_pen_pal_about_hometown",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "回复笔友来信"
+   }
+  ],
+  "stageNid": "letter_a1_exam",
+  "examEvidence": [
+   "上海｜书信｜回复美国笔友Emma关于家乡最佳参观时间、有趣活动及携带物品的建议｜针对来信中的多个问题逐点回应，做到要点齐全；用一般现在时与情态动词介绍家乡活动与时间；使用书信格式与得体、友好的语气｜「请阅读Emma的来信，并给她回复」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "你的外国笔友来信询问你的家乡，请给他/她写一封回信：介绍家乡最适合参观的时间、一些有趣的活动，并建议对方应该带些什么。50词左右，注意书信格式与友好语气。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 377,
+  "sourceKey": "exam/letter_a2_exam/apply_to_join_a_group",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "申请加入社团"
+   }
+  ],
+  "stageNid": "letter_a2_exam",
+  "examEvidence": [
+   "2025 上海｜书信｜假定李华，在三个项目化招新小组中任选一个加入，写一封申请信｜用申请信格式表达加入意愿与礼貌语气；在三个选项中明确选定其一并自洽；清晰陈述选择理由与个人优势；围绕所选主题（健康食物/音乐助学习/大结局书籍）展开｜「假定你是李华，在三个项目化招新中任选一个加入写一封申请信」",
+   "2026 北京｜书信｜给社团负责人写自荐信申请加入人工智能社团｜用书信格式与得体称呼落款完成自荐信；用因果与列举结构清晰陈述加入理由；用情态动词与一般现在时表达自身能力与贡献；围绕提示词组织连贯段落｜「请你给社团负责人Mr.Zhang写一封自荐信，表达你想加入这个社团的原因，以及你能为社团做出的贡献」",
+   "2023 深圳｜书信｜给外教Mr.Brown写自荐信，申请当志愿者接待新西兰教育考察团｜用书信格式与得体语气写一封自荐信；用第一人称分条陈述个人优势与申请意愿；在结尾表达期待收获与希望获得机会｜「I am writing to apply to work as a volunteer to show the visitors from New Zealand around our campus」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "假定你是李华，请给某社团或项目小组的负责人写一封申请信，说明你想加入哪个小组、选择它的理由，以及你能为小组做出的贡献或自身优势，词数80左右。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 378,
+  "sourceKey": "exam/letter_a2_exam/give_advice_in_a_reply",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "回信给建议"
+   }
+  ],
+  "stageNid": "letter_a2_exam",
+  "examEvidence": [
+   "2025 深圳｜书信｜向学弟学妹分享如何度过美好初中生活的建议信｜用第二人称向学弟学妹提出具体可行的建议；使用祈使句或情态动词等表达建议的句式；按学习、兴趣、人际交往等方面分点组织内容；在结尾用恰当句式表达美好祝愿｜「As a middle-grader who is about to graduate, I want to share some advice with you to make your junior high school life wonderful」",
+   "2026 浙江｜书信｜以学校英语报 Q&A 栏目学生编辑张华身份，选择一位读者（John 或 Jenny）的问题进行回复并给出建议｜用祈使句、情态动词等建议类表达给出具体可行的建议；围绕所选读者的问题展开连贯、有针对性的回复；正确使用书信格式（Dear 开头）并保持得体、亲切的语气｜「I want to run faster. Any suggestions?」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "假定你是某栏目编辑或学长学姐，请给来信求助的读者或学弟学妹写一封回信，针对对方的问题或困惑，从若干方面给出至少两三条具体可行的建议，并在结尾送上祝福，词数80左右。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 379,
+  "sourceKey": "exam/letter_b1_exam/write_a_letter_of_advice",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "建议信"
+   }
+  ],
+  "stageNid": "letter_b1_exam",
+  "examEvidence": [
+   "2024 自主命题卷｜书信｜回复校报专栏来信，就 Lynn 想学做饭但父母不同意一事给建议并说明理由｜用建议类句式（如 had better / why not / it would be better to）表达观点；用因果、让步等逻辑连接词支撑理由；保持专栏回信/书信的得体语体与称呼落款｜「希望你给建议并说明理由」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "假设某位读者来信倾诉一个困扰（如想做某事但家人不同意），请你以专栏回信的形式给他/她写一封建议信：针对其情况提出你的建议，并说明理由。语体得体，包含称呼与落款。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 3,
+   "max": 3
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 380,
+  "sourceKey": "exam/letter_b1_exam/write_an_application_letter",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "申请信"
+   }
+  ],
+  "stageNid": "letter_b1_exam",
+  "examEvidence": [
+   "2026 自主命题卷｜书信｜给学校英语报写申请信，申请参加夏令营课程｜用书信格式撰写申请信并体现得体语域；明确表达所选课程并陈述选择理由；用情态动词或将来时表达课程内容与个人收获的期望；在 120-150 词内组织连贯、完整的申请段落｜「你对此很感兴趣，准备给英语报写一封申请信」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "假设你看到一则面向学生的项目/课程招募信息，请给相关负责人写一封申请信：说明你想申请的项目或课程、你希望它包含哪些内容、以及你希望它能给你带来什么帮助。约120-150词，语体得体、结构完整。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 3,
+   "max": 3
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 381,
+  "sourceKey": "exam/message_a1_exam/graduation_message_to_a_friend",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "毕业留言"
+   }
+  ],
+  "stageNid": "message_a1_exam",
+  "examEvidence": [
+   "浙江｜留言｜写给好友Cindy的毕业留言，回忆一次共同经历并谈中学阶段打算｜用一般过去时按时间顺序叙述一次共同经历；用一般将来时表达中学阶段的学习或职业打算；保持毕业留言/书信的格式与得体语气｜「假设你是Xinxin，请模仿范文完成写给好友Cindy的毕业留言，回忆一次共同的经历，并说说自己在中学阶段的打算」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "写一则毕业留言给一位好友：回忆你们共同经历过的一件事，并说说自己在下一阶段（如中学/高中）的打算。不少于50词，注意留言的格式与语气。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 382,
+  "sourceKey": "exam/message_a2_exam/chart_plan_and_reasons",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "图表数据与个人打算"
+   }
+  ],
+  "stageNid": "message_a2_exam",
+  "examEvidence": [
+   "2026 北京｜图表作文｜结合问卷调查表格，给公众号留言谈毕业后处理学习资料的打算和理由｜准确转述表格中的百分比数据并做简要比较；用一般将来时表达自己处理旧资料的打算；围绕环保主题使用提示词展开议论并说明理由｜「This table shows what students will do with their used learning materials after graduation」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "英语社团公众号发布了一份问卷调查结果表格。请你留言，先结合表格数据说明同学们在某件事上的做法及比例，再写出你自己的打算，并说明理由。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 383,
+  "sourceKey": "exam/message_a2_exam/describe_ideal_place_and_benefits",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "描绘设想并说明好处"
+   }
+  ],
+  "stageNid": "message_a2_exam",
+  "examEvidence": [
+   "2025 上海｜留言｜给英语社团公众号留言提出“Dream Library”设想并说明好处｜用描述性语言描绘梦想图书馆的特征；用情态动词 / 将来时说明学生受益之处；围绕“书香校园”主题组织留言内容｜「提出你的设想，并简要说明它会带来哪些好处」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "学校英语社团公众号邀请同学们为校园建设提出设想。请你留言，描述你设想的某个场所或设施是什么样的，并简要说明同学们能从中获得哪些好处。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 384,
+  "sourceKey": "exam/message_a2_exam/farewell_gift_card_message",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "离别礼物贺卡留言"
+   }
+  ],
+  "stageNid": "message_a2_exam",
+  "examEvidence": [
+   "2024 上海｜留言｜向即将回国的外国好友 Frank 送一件带中国元素的离别礼物并写英文贺卡留言｜用描述性语言准确介绍礼物的名称、外观与用途；连贯说明选择该礼物的理由；在留言中自然表达送别与祝福的情感；符合贺卡留言的格式与字数要求｜「请写一张英文贺卡留言」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "你的外国好友即将回国，你准备送一件带有本国文化元素的礼物。请写一张英文贺卡留言，介绍礼物的名称、外观和用途，说明选择它的理由，并表达送别与祝福。至少60词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 385,
+  "sourceKey": "exam/message_a2_exam/suggest_activity_with_reasons",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "建议活动并说明理由"
+   }
+  ],
+  "stageNid": "message_a2_exam",
+  "examEvidence": [
+   "2024 北京｜留言｜给英语社团公众号留言，为接待国外学生代表团的交流活动提供设计并说明理由｜用建议类表达（如 suggest / why not / you could）提出具体活动设计；用 because / so / in this way 等连接词说明理由；在语境中自然使用提示词 visit、performance、culture 等｜「请你给英语社团公众号留言，提供一个交流活动设计并说明理由」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "学校英语社团公众号正在征集活动创意。请你留言，提出一项你建议举办的活动（如交流、展示、比赛等），并说明为什么建议这样做。不少于50词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 386,
+  "sourceKey": "exam/news_report_a2_exam/report_a_school_activity",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "校园活动报道"
+   }
+  ],
+  "stageNid": "news_report_a2_exam",
+  "examEvidence": [
+   "2025 河北｜新闻报道｜根据采访记录写短文介绍外国学生Alice在校体验体育课的经历与感受，发给校报｜用一般过去时按要点叙述Alice在体育课上的活动经过；描述并补充Alice对体育课及体育老师的感受；整合采访记录信息成连贯短文，符合校报稿件语体｜「假定你是校英文报记者黄方，外国学生Alice上周五在你校体验了一节体育课，请根据你对她的采访记录写一篇英语短文发给校报」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "假定你是校英文报记者，请根据采访记录或活动安排，为校英文报写一篇短文，报道某位同学（或某个社团）参加一次校园活动的经历与感受。须交代活动的时间、地点、参与人员，按顺序叙述活动经过，并写出参与者的感受或活动的意义；可适当补充细节，约80词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 387,
+  "sourceKey": "exam/notice_a1_exam/environment_speech",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "主题班会发言稿"
+   }
+  ],
+  "stageNid": "notice_a1_exam",
+  "examEvidence": [
+   "2025 广东、广州｜演讲稿｜环保主题班会发言稿：地球面临的问题、环保意义与行动建议｜用一般现在时陈述地球面临的环境问题；说明开展环保的意义；提出具体、可操作的行动建议；符合发言稿的格式与呼吁语气｜「请写一篇不少于45个单词的发言稿，从地球面临的问题出发，结合环保的意义，给出具体行动建议」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "在主题班会上写一篇发言稿，围绕一个公共议题，从问题现状、意义、具体行动建议三方面展开，符合发言稿格式与呼吁语气，不少于45词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 388,
+  "sourceKey": "exam/notice_a1_exam/holiday_safety_notice",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "假期安全通知"
+   }
+  ],
+  "stageNid": "notice_a1_exam",
+  "examEvidence": [
+   "上海｜通知｜以 Summer safety tips 为主题为学校拟定一则假期安全通知｜用祈使句或建议句式给出具体安全提示；按通知格式组织内容并分方面展开；围绕安全主题从至少两个方面提供建议｜「To make sure all the students will have a safe and meaningful holiday, here are some safety tips for you to follow」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "以假期安全为主题，为学校写一则面向全体学生的通知，从居家安全、出行安全、旅游安全、娱乐安全等方面中至少选两个方面给出具体安全提示，不少于50词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 389,
+  "sourceKey": "exam/notice_a1_exam/protection_proposal",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "保护倡议书"
+   }
+  ],
+  "stageNid": "notice_a1_exam",
+  "examEvidence": [
+   "2025 广东、广州｜应用文-其他｜以 Xiaomin 身份写倡议书，动员全民共同保护大熊猫｜用倡议书的格式与称呼、标题组织全文；按外貌习性、面临问题、帮助办法三方面分层展开内容；运用参考句型表达建议与呼吁，体现动员语气；在有限词数内做到内容切题、表达正确｜「假设你是Xiaomin，请你写一份倡议书，动员全民共同保护大熊猫」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "以某人的身份写一份倡议书，动员大家共同保护某种动物，介绍其外貌、习性、饮食等，说明它面临的问题，并提出如何帮助它的建议，不少于40词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 390,
+  "sourceKey": "exam/notice_a1_exam/travel_experience_speech",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "旅行经历发言稿"
+   }
+  ],
+  "stageNid": "notice_a1_exam",
+  "examEvidence": [
+   "北京｜演讲稿｜介绍 David 在中国的旅行经历（北京、杭州等城市的旅行）｜用一般过去时按城市顺序叙述旅行经过；围绕每个城市展开特色、活动、感受等多维度细节；使用已给发言稿开头结尾衔接，保持语意连贯｜「至少介绍三个城市（含北京和杭州），每个城市至少介绍两个方面的细节（城市特色、活动及感受等）」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "写一篇发言稿，向老师和同学们介绍一次旅行经历，至少介绍三个地点，每个地点从特色、活动、感受等方面写出至少两个细节，按顺序叙述，语意连贯。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 391,
+  "sourceKey": "exam/notice_a2_exam/broadcast_notice_for_event",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "广播通知活动"
+   }
+  ],
+  "stageNid": "notice_a2_exam",
+  "examEvidence": [
+   "2024 山东｜演讲稿｜以校园广播稿形式通知在校访问的外国学生观看课本剧《愚公移山》演出｜用广播稿/口头通告语体向听众传达演出信息；按要点顺序组织内容（时间地点、简介意义、欢迎建议）；使用恰当的口头播报语气与连贯衔接｜「校园广播站准备通知在学校访问的外国学生前去观看，请你用英语写一篇广播稿」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "假定你是校园广播站播音员，请用英语写一篇广播稿，向在校的听众（如来访的外国学生）通知即将举行的一场演出或活动：说明活动的时间、地点，简要介绍活动内容及其意义，并欢迎听众对活动提出意见建议。词数100左右，开头和结尾已给出，不计入总词数。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 392,
+  "sourceKey": "exam/opinion_a2_exam/advocate_civilized_behavior",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "倡导文明行为"
+   }
+  ],
+  "stageNid": "opinion_a2_exam",
+  "examEvidence": [
+   "2026 四川｜议论文｜以“Good Manners, Beautiful Parks”为题写征文稿，倡导文明游园｜用一般现在时阐述文明游园的重要性；用建议句式提出两条具体建议并加以阐释；用号召性语言收束全文；保持征文稿结构连贯、语气得体｜「Chengdu is developing into a park city」",
+   "2025 江苏｜议论文｜以“Ways to Protect the Yangtze River”为题写征文短文，介绍保护长江的措施并呼吁大家参与｜用一般现在时说明长江的重要性；列举至少两点长江面临的生态环境问题；提出至少两点具体的保护措施；用呼吁性语言（祈使句等）号召大家参与保护｜「请以“Ways to Protect the Yangtze River”为题写一篇短文，介绍保护长江的措施，并呼吁大家参与」",
+   "2023 辽宁｜议论文｜以“孝亲敬长”为主题写一篇英语征文参加比赛｜用一般现在时阐述孝亲敬长作为中华传统美德的意义；分点说明尊重的对象、原因及具体做法，条理清晰；结尾用祈使句或呼吁性表达发出号召；保持征文语体连贯，适当增加细节使行文流畅｜「Showing respect for elders is one of the family traditions that Chinese people have kept for thousands of years」",
+   "2025 江苏｜议论文｜就学生说脏话现象向校英文报投稿，谈观点与建议｜用观点加理由的结构论证不该说脏话；提出帮助他人戒除脏话的具体可行建议；使用情态动词与连接词使观点与建议连贯｜「I really don't think it's right for students to say dirty words」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请你用英文写一篇短文投稿，阐述某种文明行为的重要性，提出两条具体建议并适当阐释，最后发出号召，80词左右。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 393,
+  "sourceKey": "exam/opinion_a2_exam/analyze_survey_and_give_advice",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "分析调查并提建议"
+   }
+  ],
+  "stageNid": "opinion_a2_exam",
+  "examEvidence": [
+   "2025 重庆｜议论文｜以“Everyone can have time to read”为主题，简述阅读时间不足的原因调查结果并提出建议的征文｜用一般现在时描述柱状图数据并比较各项比例；准确识别并聚焦占比最高的主因（68% 没时间读书）；围绕主题提出具体、可操作的建议并简要说明理由｜「针对最突出的原因，以“Everyone can have time to read”为主题发起征文。请你简述调查结果，提出行之效的建议（1-2条）参与投稿」",
+   "2026 重庆｜议论文｜根据周末活动调查饼图指出问题，并规划一个理想的周末安排｜用饼图数据支撑对现状问题的判断；按自我成长、休闲娱乐、家人陪伴分类规划周末活动；为每项规划给出合理理由｜「谈谈你发现的问题（1—2个），并结合自我成长、休闲娱乐和家人陪伴等方面规划一个理想的周末安排，简述理由，参与投稿」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请你根据图表调查结果用英文写一篇短文投稿，简述调查发现的主要问题，针对最突出的问题提出一至两条可行建议并简要说明理由，80—120词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 394,
+  "sourceKey": "exam/opinion_a2_exam/argue_a_positive_view",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "论述积极观点"
+   }
+  ],
+  "stageNid": "opinion_a2_exam",
+  "examEvidence": [
+   "2025 湖南｜议论文｜以“Mistakes—steps towards success”为题写短文投稿，论述错误对成长的积极作用｜围绕中心论点“错误是通往成功的阶梯”组织分论点展开议论；准确使用思维导图给出的提示词（resilience、creativity 等）支撑各分论点；结合个人经历或感悟对论点加以升华；在限定词数内做到结构完整、衔接连贯｜「Mistakes are a part of life. Instead of fearing them, we should see them as chances to grow」",
+   "2024 湖南｜议论文｜围绕“What does Music Bring to Me?”谈音乐给自己带来的意义并投稿校刊｜围绕中心主题把思维导图各要点组织成连贯短文；在给定要点上作合理拓展并补充细节；用比喻等手法表达音乐对自己的意义；控制词数在80词左右并遵守匿名要求｜「Music is like a key, which opens a door to the world for me」",
+   "2025 山东｜议论文｜以“Learn from Famous People in Ancient Times”为题，结合宋濂材料谈自身经历与感悟的征文投稿｜提炼并概括文言材料中人物的优秀品质；用一般过去时按自身经历叙述故事；由事例引申出观点与感悟，做到夹叙夹议；在限定词数内完成投稿并规避真实个人信息｜「从材料中找出宋濂的优秀品质，结合自身经历讲述你的故事，并谈谈你的感悟与体会」",
+   "2025 山东｜其他｜围绕“生活中的幸福/快乐”向校刊英语专栏投稿，结合自身实际谈什么让自己快乐及原因｜围绕主题自拟标题并组织成文；用具体事例描述让自己快乐的人或事；说明感到快乐的原因，做到言之有据；结合自身体会，做到内容真实、连贯｜「你校校刊英语专栏正围绕 Happiness in Life 开展征文活动。请结合自身实际，自拟题目，从一个或几个方面用英语写一篇短文向专栏投稿」",
+   "2024 江苏｜议论文｜就英文小说 Auggie's Story 写读后感，二选一标题谈理解、举例与启发｜围绕给定标题阐释其含义并确立中心观点；用真实生活实例支撑观点，做到论据具体；由事例升华到个人启发与感悟，体现思辨；在 100 词左右篇幅内组织起观点—举例—启发的完整结构｜「After reading Auggie's story, I'm really touched」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请你用英文写一篇短文投稿，围绕一个成长主题提出你的观点，结合提示信息从两三个方面展开论述，并结合自身感悟适当发挥，80词左右。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 395,
+  "sourceKey": "exam/opinion_a2_exam/give_camping_advice",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "给出活动建议"
+   }
+  ],
+  "stageNid": "opinion_a2_exam",
+  "examEvidence": [
+   "2024 江苏｜说明文｜为国际青少年杂志撰写一篇关于学校露营的投稿文章｜用一般现在时与情态动词提出露营地点和物品建议；围绕两个要点组织连贯段落并给出理由；使用恰当连接词保证全文通顺｜「Camping is a good way to relax」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请你用英文为杂志写一篇短文投稿，说明某项户外活动可以去哪里进行、应该携带什么物品以及为什么，内容涵盖所有要点、全文连贯通顺，不少于60词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 396,
+  "sourceKey": "exam/opinion_a2_exam/introduce_a_person_and_an_experience",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "介绍一个人与一段经历"
+   }
+  ],
+  "stageNid": "opinion_a2_exam",
+  "examEvidence": [
+   "2024 北京｜记叙文｜向英文网站投稿，介绍最好的一位朋友并记述一段难忘的经历｜用形容词（kind、helpful 等）描述人物性格特征；用一般过去时按时间顺序记述一段难忘经历；在叙事中自然使用 encourage、support 等提示词｜「请你用英文写一篇短文投稿，介绍你最好的一位朋友，并记述你们之间一段难忘的经历」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请你用英文写一篇短文投稿，介绍你身边一位熟悉的人（如朋友、老师或家人），描述他/她的性格特点，并记述你们之间一段难忘的经历，不少于50词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 397,
+  "sourceKey": "exam/opinion_a2_exam/make_choices_and_call_for_action",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "做出选择并倡议"
+   }
+  ],
+  "stageNid": "opinion_a2_exam",
+  "examEvidence": [
+   "2025 山东｜议论文｜根据思维导图为青少年体育运动做出两种最佳选择并发表论坛文章｜依据思维导图信息筛选并论证两种最佳选择；用因果/理由句式陈述选择依据；用倡议句式向读者发出呼吁；围绕体育运动主题组织议论性篇章｜「请你根据思维导图做出两种最佳选择，并用英语写一篇文章，发表在论坛上」",
+   "2024 河南｜议论文｜选择独自学习或小组学习并陈述理由向校刊专栏投稿｜用一般现在时清晰表达个人观点与偏好；围绕所选学习方式的要点展开论述并适当发挥；结合个人实际举例支撑所选理由｜「你更喜欢哪一种学习方式？……用英语写一篇短文，陈述你的理由，向专栏投稿」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请你根据思维导图用英文写一篇文章发表在论坛上，做出两种最佳选择、陈述选择理由，并向读者发出倡议，100词左右。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 398,
+  "sourceKey": "exam/opinion_a2_exam/narrate_a_difficulty_and_lesson",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "叙述困难与收获"
+   }
+  ],
+  "stageNid": "opinion_a2_exam",
+  "examEvidence": [
+   "2023 江苏｜记叙文｜向校刊 Teens Talk 栏目投稿：叙述一次遇到的困难、如何应对及从中获得的收获｜用一般过去时按时间顺序叙述一次困难经历；具体说明应对困难的做法与过程；在结尾提炼从经历中获得的感悟或道理；符合校刊征稿投稿的语体并完整覆盖所有要点｜「Choose one difficulty and write an article about how you dealt with it and what you have learnt from this experience」",
+   "2024 山东｜记叙文｜以 My Story in Junior High School 为题向学校公众号投稿，讲述初中校园成长故事并谈感受与发展计划｜用一般过去时按时间顺序叙述一段校园经历；表达个人感受与收获；提出面向未来的发展规划；在 80—100 词内完整覆盖要点｜「假如学校公众号以 My Story in Junior High School 为题征稿，请选择 1—2 项内容，讲述你的成长故事，并谈论你的感受以及相关的发展计划」",
+   "2026 山东｜记叙文｜补全题目 The Moment I Came to Understand ___，写一段突然理解某个人的经历与感悟｜用一般过去时按时间顺序叙述从不理解到理解的过程；围绕补全后的人物展开具体细节描写；在叙事基础上点明情感变化与感悟；在 80-100 词内控制篇幅并避免真实个人信息｜「请补全“The Moment I Came to Understand ________”，并以此为题写一篇短文，讲述你对这个人从不理解到理解的过程及感悟」",
+   "2025 山东｜留言｜在国际青少年交流网站跟帖，分享一次做家务的经历与感受｜用一般过去时按时间顺序叙述一次做家务的经历；准确表达做这件事时的感受与体会；符合论坛跟帖的语体、人称与字数要求｜「Please share with us one of your stories of doing chores. Looking forward to your replies」",
+   "2024 山东｜应用文-其他｜在青少年交流网站跟帖，分享自己遇到的日常问题及解决经历｜用一般过去时按事情发展顺序叙述所遇问题及解决经过；围绕『问题与解决方案』主题组织内容，做到切题；采用论坛跟帖的口语化、互动性语体，呼应原帖提问｜「What problem did you meet and how did you solve it? Please share your story with us」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请你用英文写一篇短文投稿，叙述一次你遇到的困难、你是如何应对的，以及你从这次经历中学到了什么，80词左右。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 399,
+  "sourceKey": "exam/opinion_a2_exam/plan_and_comment_on_time",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "规划时间并作评价"
+   }
+  ],
+  "stageNid": "opinion_a2_exam",
+  "examEvidence": [
+   "2024 江西｜议论文｜围绕“Making Better Use of Time”谈课余时间的安排与利用｜用一般现在时按要点顺序描述课余时间安排；列举三件空闲时间常做的事并适当展开；表达观点并给出理由支撑；做到条理清楚、行文连贯、适当发挥｜「Do you think your free time is better used? Why or why not?」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请你用英文写一篇短文投稿，说明你什么时候有空闲时间、空闲时间常做什么（举出三个例子），并说明你认为这些时间是否被更好地利用了及理由，80—120词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 400,
+  "sourceKey": "exam/opinion_a2_exam/propose_an_idea_and_its_value",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "提出想法并说明意义"
+   }
+  ],
+  "stageNid": "opinion_a2_exam",
+  "examEvidence": [
+   "2026 北京｜留言｜在公众号留言提出爱心义卖想法并说明活动意义｜用留言/跟帖语体提出具体想法；用一般将来时描述义卖物品与资金用途；用观点与理由结构论证活动意义；围绕提示词组织连贯表达｜「请你用英文在公众号下方留言，提出你的想法并简要说明此次活动的意义」",
+   "2025 江苏｜应用文-其他｜为纪念安徒生诞辰220周年提出英文社团纪念活动方案｜用将来时或一般现在时清晰陈述方案的时间、地点、活动安排；用 because / so that 等结构为时间地点选择提供合理理由；用并列结构列举多项活动并至少自创一项；结尾用表达期望的句式收束全文，使行文连贯｜「The year 2025 marks the Danish writer Andersen's 220th birthday!」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请你用英文在公众号下方留言，提出一个具体的活动想法，说明你打算怎么做、如何安排相关资源，并简要说明这次活动为什么有意义，不少于50词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 401,
+  "sourceKey": "exam/opinion_a2_exam/report_an_activity_and_its_steps",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "报道活动并说明步骤"
+   }
+  ],
+  "stageNid": "opinion_a2_exam",
+  "examEvidence": [
+   "2024 安徽｜应用文-其他｜给校英文报投稿，介绍学校“消防安全日”活动及灭火器使用方法｜用一般过去时按时间顺序叙述“消防安全日”活动经过；用祈使句或过程说明句式清晰列出灭火器使用步骤；结尾表达个人体会与收获，符合校报投稿语体｜「假设你是李辉，上周在学校举行的“消防安全日”活动中学会了灭火器的使用方法，请结合下图信息，写一篇英语短文，给校英文报投稿」",
+   "2025 山东｜应用文-其他｜为校英语报以“Let's get moving”为题投稿，介绍“双大课间”活动并号召同学参与｜用现在完成时与一般现在时介绍“双大课间”活动的安排与背景；按“活动简介—个人参与及感受—号召参与”的要点顺序组织段落；使用号召性、倡议性语言激发同学参与；适当增加细节使行文连贯｜「Recently, all primary and middle schools in Yantai have been required to carry out the “Double Long Breaks” activity」",
+   "2026 江苏｜记叙文｜以“Being a volunteer”为题向英语社团投稿，叙述自己作为志愿者在学校和社区做的事及感受｜按“在学校 / 在社区 / 感受”分类组织内容，分点覆盖表格要点；对“帮助同学”等要点举具体例子展开说明；在表格留白处合理补充1点社区活动与1点感受；用连贯的时态与衔接词叙述经历并表达个人意义｜「As a junior high student, being a volunteer is very meaningful」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请你用英文写一篇短文给校英文报投稿，介绍你参加的一次主题活动，说明活动的目的、其中某项技能或物品的使用方法，并表达你的体会。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 402,
+  "sourceKey": "exam/opinion_a2_exam/share_habits_and_benefits",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "分享习惯与益处"
+   }
+  ],
+  "stageNid": "opinion_a2_exam",
+  "examEvidence": [
+   "2026 北京｜说明文｜给公众号专栏投稿，分享自己的护眼习惯及其带来的益处｜用一般现在时条理清晰地描述日常护眼习惯；说明这些习惯带来的具体益处；围绕护眼主题使用提示词组织段落｜「Eye health matters to everyone」",
+   "2025 江西｜应用文-其他｜以 Eat Well 为题向校刊英语专栏投稿，介绍日常饮食、饮食习惯及改进措施｜用一般现在时按三餐顺序描述日常饮食；对比陈述好的与坏的饮食习惯；用建议性表达提出改进措施；围绕 Eat Well 主题分段、条理清晰地组织短文｜「Eating well is important for health」",
+   "2025 浙江｜应用文-其他｜选择一种放松方式，结合自身体验向校报投稿｜用一般现在时按要点描述习惯性放松活动；围绕‘做法+看法’两个要点组织内容并表达观点；结合自身体验使描述具体、连贯｜「请根据以下相关信息，结合自身体验，选择一种放松的方式完成投稿」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请你用英文写一篇短文投稿，介绍自己常做的一两个好习惯，并说明这些习惯给自己带来的益处，条理清晰、时态正确。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 403,
+  "sourceKey": "exam/opinion_a2_exam/summarize_and_advise_on_performance",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "总结表现并提建议"
+   }
+  ],
+  "stageNid": "opinion_a2_exam",
+  "examEvidence": [
+   "2024 江苏｜应用文-其他｜根据同伴张军的课堂表现记录，总结其五个方面表现、作简单评价并就需改进的两方面提建议｜用一般过去时按表格要点描述五个方面的课堂表现；对表现作出简要评价（肯定优点）；针对两个不足方面用建议语气提出改进办法；在给定开头句后自然衔接并控制词数｜「请你根据记录内容写一篇短文，总结他五个方面的课堂表现并进行简单评价，然后就他需要改进的两个方面提出建议」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请你根据记录用英文写一篇短文，总结某人在几个方面的表现并作简单评价，然后就他需要改进的一两个方面提出建议，80词左右。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 404,
+  "sourceKey": "exam/opinion_b1_exam/advocate_protecting_the_environment",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "环保倡议"
+   }
+  ],
+  "stageNid": "opinion_b1_exam",
+  "examEvidence": [
+   "2022 全国甲卷｜议论文｜以世界海洋日为主题写征文，谈海洋重要性并发出保护倡议｜用议论与倡议语体阐述海洋对人类的重要性；围绕给定首句自然展开并衔接下文；提出具体可行的保护海洋倡议；控制词数在100词左右｜「你校将以六月八日世界海洋日为主题，举办英语征文比赛。请你写一篇短文投稿」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "写一篇英文短文向征文比赛投稿，围绕某个环保主题（如保护海洋、节约资源等）说明其重要性，并提出具体可行的保护倡议，约100词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 3,
+   "max": 3
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 405,
+  "sourceKey": "exam/opinion_b1_exam/introduce_a_historical_figure",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "介绍历史人物"
+   }
+  ],
+  "stageNid": "opinion_b1_exam",
+  "examEvidence": [
+   "2023 全国甲卷｜说明文｜以一位中国历史人物为题写一篇“用英文讲中国故事”征文投稿｜用英文介绍一位中国历史人物的生平与事迹；阐述该人物故事的意义或启示；符合征文投稿的文体结构与词数要求｜「请你以一位中国历史人物为题写一篇征文投稿」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "写一篇英文短文向学校征文活动投稿，介绍一位你熟悉的历史人物（可自选），简要介绍其生平与主要事迹，并说明他/她的故事带给你的意义或启示，约100词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 3,
+   "max": 3
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 406,
+  "sourceKey": "exam/opinion_b1_exam/share_a_new_skill_learned",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "分享新技能"
+   }
+  ],
+  "stageNid": "opinion_b1_exam",
+  "examEvidence": [
+   "2023 全国乙卷｜记叙文｜分享自己在假期中学到的新技能并谈体验感受（短文投稿）｜用一般过去时按过程叙述假期学习新技能的经过；用形容词与情感表达写出体验与感受；组织‘描述+感受’两段式结构并控制词数在100左右｜「学校英语社团组织同学们分享自己在假期中学到的新技能，请你以此为主题写一篇短文投稿」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "写一篇英文短文向学校英语社团投稿，简要描述你在假期中学到的一项新技能，并写出学习过程中的体验和感受，约100词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 3,
+   "max": 3
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 407,
+  "sourceKey": "exam/picture_opening_a1_exam_a1/describe_a_person_day",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "叙述一天活动"
+   }
+  ],
+  "stageNid": "picture_opening_a1_exam_a1",
+  "examEvidence": [
+   "北京｜记叙文｜根据连环画内容写 Li Jiaming 一天的工作和生活｜按时间顺序连贯叙述人物一天的活动；整合多幅连环画信息成完整段落；准确描述人物工作与生活的基本细节｜「根据连环画的内容，写出 Li Jiaming 一天的工作和生活」",
+   "浙江｜记叙文｜根据五幅图补全短文，描述小女孩Suzy上周六的活动｜用一般过去时按时间顺序叙述一天的活动；观察图片提取动作信息并补全句子；保持全文时态一致与上下文连贯｜「What did Suzy do last Saturday? In the morning, she got up early and had her breakfast first」",
+   "湖北｜其他｜根据图中提示写出Toby梦想中的世界｜用一般现在时描述梦想世界中的生活场景；把图中分散的提示词整合成连贯短文；看图提取关键信息并组织成完整句子｜「根据提示写出Toby的梦想」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "根据一组连环画或图片提示，按时间顺序用英语写一段话，介绍某个人一天的工作和生活，包含每幅图的基本信息，可参考所给提示词，不少于5句话。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 408,
+  "sourceKey": "exam/picture_opening_a1_exam_a1/describe_birthday",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "描述生日活动"
+   }
+  ],
+  "stageNid": "picture_opening_a1_exam_a1",
+  "examEvidence": [
+   "江苏｜记叙文｜观察图片写一写Emily的生日（去年与今年）｜用一般过去时按时间顺序叙述去年生日的活动经过；用打算/计划表达今年生日的安排；从两幅图中提取关键信息（蛋糕、礼物、家人聚餐等）并连贯成文；保持时态一致与段落连贯｜「请仔细观察以下图片，写一写她的生日」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "根据图片提示，用英语写一段话描述某人去年生日是怎样过的，以及今年打算怎样过，包含蛋糕、礼物、家人聚餐等信息，用一般过去时与表示打算的结构，不少于40个词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 409,
+  "sourceKey": "exam/picture_opening_a1_exam_a1/describe_housework",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "描述做家务"
+   }
+  ],
+  "stageNid": "picture_opening_a1_exam_a1",
+  "examEvidence": [
+   "福建｜记叙文｜以 Housework 为题，谈谈在家做家务的情况｜用一般现在时按场景顺序描述做家务的活动经过；围绕 Housework 主题组织连贯的短文；正确使用表示家务动作的动词短语｜「争做劳动小先锋。请以“Housework”为题，写一篇短文，谈谈你在家做家务的情况」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "以 Housework 为题，用英语写一篇短文，谈谈你在家做家务的情况，用一般现在时，至少写5句话，做到条理清晰、意思连贯。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 410,
+  "sourceKey": "exam/picture_opening_a1_exam_a1/describe_last_weekend",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "描述上周末活动"
+   }
+  ],
+  "stageNid": "picture_opening_a1_exam_a1",
+  "examEvidence": [
+   "重庆｜记叙文｜根据所给关键词信息写一段上周日外出活动的记叙｜用一般过去时按时间顺序叙述上周日外出活动的经过；围绕所给关键词（地点、同伴、交通方式、活动）组织连贯句子；正确使用交通方式表达（by bus）与活动动词短语（go cycling / take pictures）的过去式｜「I went to Nature park with my father last Sunday. We went there by car. We went camping. We also had a picnic. It was great!」",
+   "安徽｜记叙文｜以 Last weekend 为题描述上周做过的事情｜用一般过去时按活动顺序叙述上周经历；结合多幅图片信息组织连贯短文；正确选用过去时态动词并保证句意连贯｜「根据图片提示，以“Last weekend”为题，写一篇短文描述上周做过的事情，注意时态，不少于5句话」",
+   "陕西｜记叙文｜以“My last weekend”为题介绍自己上周末的活动｜用一般过去时按时间顺序叙述上周末的活动经过；结合思维导图要点（天气、活动、感受）组织内容；做到语句通顺、意思连贯、书写工整｜「假如你是陈红，请根据以下思维导图提示，以“My last weekend”为题，写一篇短文，介绍一下你的周末吧！」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "根据图片或关键词提示，用英语写一段话描述你上周末（或上周日）的活动，包含天气、活动内容和感受，用一般过去时，不少于5句话。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 411,
+  "sourceKey": "exam/picture_opening_a1_exam_a1/describe_summer_holiday",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "描述暑假活动"
+   }
+  ],
+  "stageNid": "picture_opening_a1_exam_a1",
+  "examEvidence": [
+   "江苏｜记叙文｜根据思维导图，以“My summer holidias”为题写去年与今年暑假的活动｜用一般过去时按思维导图叙述去年暑假的活动；用一般现在时或一般将来时描述今年暑假的安排；以中心主题为纲、按时间对比组织两段内容；做到书写规范、语言正确｜「请根据思维导图，以“My summer holidias”为题写作」",
+   "浙江｜记叙文｜根据思维导图提示完成句子，叙述去年暑假经历并说明今年暑假计划｜用一般过去时按要点叙述去年暑假的活动经过；用一般将来时表达今年暑假的安排与期待；依据思维导图的 Where/How/What/感受 四个维度组织信息；在给定句子框架中正确补全动词、介词短语与形容词｜「你还记得去年的暑假吗？今年的暑假你有什么计划？请根据相关提示，完成下列句子」",
+   "2025 深圳｜记叙文｜围绕“每周半计划”校外实践场馆，简述所见所感并分享暑假最想参观的地点及缘由｜提取思维导图中的场馆信息并组织成连贯语篇；按“所见所感＋最想参观地点＋缘由”的结构展开写作；在 60—70 词内控制篇幅并保持书写规范｜「请参照思维导图所呈现的部分场馆,简述你的所见所感。并请分享你暑假最想参观的地点及缘由」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "根据思维导图或提示，用英语写一段话，描述去年暑假的活动并说明今年暑假的安排，包含地点、交通方式、活动及感受，用一般过去时与一般将来时，不少于5句话。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 412,
+  "sourceKey": "exam/picture_opening_a1_exam_a1/introduce_self_and_friend",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "介绍自己与朋友"
+   }
+  ],
+  "stageNid": "picture_opening_a1_exam_a1",
+  "examEvidence": [
+   "浙江｜其他｜根据表格和图片信息，仿照范例介绍自己和朋友并描述寒假活动｜用形容词比较级比较两人的年龄与身高；用一般过去时按时间顺序叙述寒假活动经过；从表格与图片中提取信息并组织成连贯语篇｜「请仿照范例，看图写话」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "根据表格和图片信息，仿照范例用英语介绍自己和朋友的姓名、年龄、身高（用比较级作比较），并描述假期去的地点、交通方式及所进行的活动。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 413,
+  "sourceKey": "exam/picture_opening_a1_exam_a1/punctuate_and_capitalize",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "断句加标点"
+   }
+  ],
+  "stageNid": "picture_opening_a1_exam_a1",
+  "examEvidence": [
+   "浙江｜其他｜对未加标点和大小写的英文进行断句、改大小写并加标点｜根据语义对连续英文进行正确断句；运用句首大写与专有名词/代词 I 等大小写规则；正确添加句号、问号等标点符号｜「以下两段文字在电脑输入中未标明标点和大小写。请断句，并用正确的大小写抄写这些内容，并加上标点符号」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "对一段未加标点和大小写的英文进行断句，用正确的大小写抄写，并加上标点符号。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 414,
+  "sourceKey": "exam/picture_opening_a1_exam_a1/tell_a_story_from_pictures",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "看图讲故事"
+   }
+  ],
+  "stageNid": "picture_opening_a1_exam_a1",
+  "examEvidence": [
+   "2024 广东、广州｜记叙文｜参考四幅连环画及提示词，用英语讲述“孔融让梨”的中国故事｜用一般过去时按时间顺序叙述故事经过；用连贯衔接词把四幅画面组织成完整故事；准确运用提示词（in the garden / two pears / give big / small happy）表达情节｜「请参考下面的图片及提示词写一写“孔融让梨”的故事」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "根据一组连环画及提示词，用英语按顺序讲述一个故事，做到内容清晰、时态正确、连贯顺畅，不少于40个词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 415,
+  "sourceKey": "exam/picture_opening_a1_exam_a1/write_sentences_for_pictures",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "看图写句子"
+   }
+  ],
+  "stageNid": "picture_opening_a1_exam_a1",
+  "examEvidence": [
+   "河南｜其他｜观察相册照片，针对每幅图写一个相关句子｜观察图片提取关键信息；用简单句准确描述图中人物、动作或场景；结合图下时间提示使用相应时态｜「观察照片，根据照片内容，在横线上写出与之相关的一个句子，句式不限」",
+   "2024 深圳｜其他｜围绕“更好的城市、更好的生活”，参考图示在家、在校、在公共场合能做什么｜提取图示分支信息并组织成完整句子；用情态动词或建议句式表达可做的事｜「为了使我们的城市和我们的生活更美好，我们可以做些什么呢？参考图示，写1个句子」",
+   "2024 深圳｜其他｜根据图画和提示词，写关于帮助他人与日常重复利用物品的句子｜结合图画与提示词写出相符的句子；用一般现在时描述日常行为｜「Helping others is nice. How can you help others?」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "观察一组照片或图片，针对每幅图各写一个与之相关的英语句子，句式不限，注意根据图下时间提示使用相应时态。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 1,
+   "max": 1
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 416,
+  "sourceKey": "exam/speech_a2_exam/call_for_action_speech",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "倡议呼吁演讲"
+   }
+  ],
+  "stageNid": "speech_a2_exam",
+  "examEvidence": [
+   "2026 山东｜演讲稿｜呼吁大家停止玩手机游戏、去做有意义的事情的英语演讲稿｜用演讲稿格式与开场称呼切入主题；按“危害—替代活动及意义—倡议”的逻辑层次组织内容；使用祈使句与呼吁性语言发出倡议；准确运用参考词汇表达“上瘾、玩手机、社会实践”｜「请根据以下内容提示和要求写一篇英语演讲稿，呼吁大家停止玩手机游戏，去做一些有意义的事情」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请你写一篇英语演讲稿，指出某一不良现象或问题（如沉迷手机游戏、浪费水资源等）的危害，建议同学们去做有意义的事情或提出具体改进建议，并发出倡议呼吁大家行动起来。词数80—100。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 417,
+  "sourceKey": "exam/speech_a2_exam/find_a_partner_speech",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "寻找搭档发言"
+   }
+  ],
+  "stageNid": "speech_a2_exam",
+  "examEvidence": [
+   "2025 河南｜演讲稿｜在毕业典礼英语课前 Daily speech 环节寻找合唱搭档并陈述期待与理由｜用发言稿格式（开头称呼、结尾致谢）组织全文；按三条提示分点陈述对搭档的期待并给出理由；使用一般现在时表达观点与理由；恰当使用连接词使条理清晰｜「请你以“The partner I'm looking for”为主题，根据写作提示，用英语写一篇发言稿，表达你对搭档的期待并陈述理由，在英语课前Daily speech环节进行分享」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "在英语课前Daily speech环节，请你写一篇发言稿，表达你希望寻找一位活动搭档（如合唱搭档等），说明你希望搭档的性别、擅长的方面及原因，以及希望他/她是什么样的人及原因。词数100左右。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 418,
+  "sourceKey": "exam/speech_a2_exam/introduce_a_handmade_item_speech",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "介绍一件手工作品"
+   }
+  ],
+  "stageNid": "speech_a2_exam",
+  "examEvidence": [
+   "2025 江苏｜演讲稿｜在学校文化周活动中展示并介绍一把自制的手工扇｜用一般过去时按步骤顺序描述手工扇的制作过程；描述扇面设计内容并阐释其寓意；表达个人感受与美好愿望；使用发言稿/演讲稿的语体与称呼｜「Hi, everyone! Welcome to the cultural week! Chinese fans are both practical tools and beautiful works of art. Here is the fan I made」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "在学校文化周活动中，请你写一篇发言稿，向听众介绍你制作的一件手工作品，描述制作过程，说明其设计内容和寓意，并表达你的感受与愿望。词数100左右。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 419,
+  "sourceKey": "exam/speech_a2_exam/introduce_a_person_speech",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "介绍一个人"
+   }
+  ],
+  "stageNid": "speech_a2_exam",
+  "examEvidence": [
+   "2024 辽宁｜演讲稿｜介绍我心中的榜样（李想）｜用一般现在时描述榜样人物的外貌与品质特征；说明选择该人物作为榜样的理由；表达希望或向听众发出号召；保持发言稿语体并使行文连贯｜「Today I would like to introduce Li Xiang, a model student in my mind」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "在英语课前分享或演讲活动中，请你写一篇发言稿，向同学们介绍一个人（如你心中的榜样、你敬佩的人等），描述他/她的外貌或品质，说明你选择介绍他/她的理由，并表达你的希望或向听众发出号召。词数80—100。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 420,
+  "sourceKey": "exam/speech_a2_exam/recommend_a_place_speech",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "推荐一个地方"
+   }
+  ],
+  "stageNid": "speech_a2_exam",
+  "examEvidence": [
+   "2025 江苏｜演讲稿｜在志愿者面试中用英语推荐国内一个有特色的城市｜用一般现在时客观介绍城市概况与特色；用情态动词、祈使句等给出旅行建议与提示；按流程图三段逻辑组织发言稿，做到语句通顺、意思连贯；在面试发言稿语境中得体地推荐城市、传播中华文化｜「假设你是李华，你想报名参加面试，并已绘制了如下流程图，请根据图示内容完成面试发言稿」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "在面试或交流活动中，请你写一篇发言稿，向外国朋友推荐国内一个有特色的城市或地方，介绍其概况，说明在那里可以做什么，并给出旅行提示。词数90左右。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 421,
+  "sourceKey": "exam/speech_a2_exam/report_survey_results_speech",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "调查结果汇报"
+   }
+  ],
+  "stageNid": "speech_a2_exam",
+  "examEvidence": [
+   "2025 四川｜演讲稿｜根据图表描述“你最喜欢的科学探究场所”的调查结果并说明自己的选择及原因｜用一般现在时准确描述柱状图中各场所的百分比数据；对比不同场所的比例并作出评析；清晰表达个人选择并给出合理理由；使用发言稿语体与开头问候语｜「请根据图表信息写一篇发言稿」",
+   "2025 广州｜演讲稿｜围绕“世界水日”做节水调查并呼吁节水的英文演讲稿｜用一般过去时叙述开展调查的经过；用一般现在时描述同学们的用水用途与用水量；提出可行的节水建议；按演讲稿结构组织内容并适当发挥使文连贯完整｜「你校英语广播站将征集关于“世界水日（World Water Day）”主题征文，请根据以下提示写一篇英文演讲稿」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请你根据调查/图表信息写一篇发言稿，向同学们描述调查结果（如各选项的百分比或数据），对结果进行简要评析，并说明你自己的选择及原因。词数80—100。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 422,
+  "sourceKey": "exam/speech_a2_exam/share_a_personal_experience_speech",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "经历分享演讲"
+   }
+  ],
+  "stageNid": "speech_a2_exam",
+  "examEvidence": [
+   "2026 山西｜演讲稿｜以“A small step, a big breakthrough”为主题，结合亲身经历谈突破自我的演讲稿｜用第一人称和一般过去时叙述一次亲身经历；阐述对“小步”这一抽象概念的个人理解；说明该经历带来的影响与感悟；使用符合演讲场合的语体与衔接｜「你校英语社团将举办以“A small step, a big breakthrough（突破）”为主题的演讲活动，请结合自己的亲身经历，用英语写一篇演讲稿」",
+   "2025 山西｜演讲稿｜以“Feel love, learn to love”为主题写一篇参赛演讲稿，谈爱、被爱的经历及其影响｜用议论与叙事结合的方式阐明对‘爱’的理解；按叙事逻辑完整讲述一个被爱的具体经历；由经历升华到该经历对自身的影响与感悟；符合演讲稿的口语化与号召性语体｜「你校英语社团将举行主题为“Feel love, learn to love”的演讲比赛，请用英语写一篇参赛演讲稿」",
+   "2026 深圳｜演讲稿｜以“Small Kind Acts Warm the World”为题写演讲稿，谈小善举的意义并分享一次行善经历｜用演讲稿语体（称呼、互动、号召）组织全文；按‘理由—经历—影响’三个要点清晰分段；用一般过去时按时间顺序叙述一次行善经历；围绕‘小善举温暖世界’主题表达观点并升华｜「请你以“Small Kind Acts Warm the World”为题，用英语写一篇演讲稿，参加下周的学校英语演讲比赛」",
+   "2025 江苏｜演讲稿｜以“实践·成长”为主题就自己的一次经历完成演讲稿｜用一般过去时按时间顺序叙述一次实践经历；运用情感与评价性语言表达实践感受；用展望性句式表达成长愿景；衔接给定开头并保持演讲稿语体｜「It's my great honor to share my special experience here」",
+   "2024 江苏｜演讲稿｜以“A Friendly Smile”为主题，分享班级里与微笑有关的故事｜用一般过去时按时间顺序叙述班级里与微笑有关的故事；在叙事基础上表达个人感受与体会；符合发言稿语体，衔接已给出的开头与结尾｜「Today I like to share a story that happened in my class」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "学校英语社团/俱乐部将举办主题演讲活动，请你写一篇演讲稿，结合自己的亲身经历，谈谈你对某一主题（如成长、突破、实践等）的理解，讲述一次相关经历，并说明这次经历对你的影响或感悟。词数80—100。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 423,
+  "sourceKey": "exam/speech_a2_exam/share_a_skill_speech",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "分享一项技能"
+   }
+  ],
+  "stageNid": "speech_a2_exam",
+  "examEvidence": [
+   "2025 湖北｜演讲稿｜在英语课前分享中介绍自己本学期学到的生活技能及其对生活的改变｜用一般过去时按学习过程叙述技能习得经过；用现在完成时表达技能对当前生活产生的改变；围绕四个提示问题组织内容并展开具体细节；使用演讲稿的开场问候与分享语气，面向听众表达｜「Good morning, everyone! Now I'd like to talk about my new skill」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "在英语课前分享环节，请你写一篇发言稿，向同学们介绍你本学期学到的一项生活技能，说明你为什么学它，以及它如何改变了你的生活。词数100左右。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 424,
+  "sourceKey": "exam/speech_a2_exam/share_an_event_speech",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "分享一次活动"
+   }
+  ],
+  "stageNid": "speech_a2_exam",
+  "examEvidence": [
+   "2024 深圳｜演讲稿｜在英语一分钟演讲上分享“the Beauty of Nature”摄影展获奖作品的经历与感受｜用第一人称按要点顺序叙述摄影的时间、地点与内容；说明选择该照片的理由，体现逻辑衔接；表达参赛感受，符合一分钟演讲稿的口语化语体｜「你的英语老师邀请你在“英语一分钟演讲”上给同学们做分享」",
+   "2022 深圳｜演讲稿｜为“青春飞扬”深圳市中学生vlog作品展写一段校园活动（海边毕业庆祝）解说词｜用一般过去时按时间顺序叙述海边毕业庆祝活动的经过；使用解说词/演讲语体，开头结尾衔接自然；恰当表达活动感受与情感｜「Last Saturday, we went to the seaside to celebrate our graduation. In the afternoon, ______」",
+   "2026 山东｜演讲稿｜在英语课“Daily News”环节介绍在北京举办的机器人半程马拉松｜用一般过去时按要素叙述比赛的时间、地点与结果；套用发言稿格式，使用口语化开头与结尾；就机器人夺冠一事表达个人感想或观点；在 80—100 词内组织连贯行文并适当增加细节｜「介绍在北京举办的机器人半程马拉松的有关情况。请你用英语写一篇发言稿」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "请你写一篇发言稿或解说词，向同学们分享一次你参加过的活动（如毕业庆祝、摄影展、比赛等），按时间顺序描述活动的时间、地点和经过，说明你的选择或理由，并表达你的感受。词数80—100。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 425,
+  "sourceKey": "exam/speech_b1_exam/recruit_members_speech",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "社团招募演讲"
+   }
+  ],
+  "stageNid": "speech_b1_exam",
+  "examEvidence": [
+   "2022 自主命题卷｜演讲稿｜为英语口语社招募新成员撰写一段短视频的文字稿｜用邀请、号召的语气发出入社邀请；用一般现在时列举并介绍社团主要活动；用现在完成时或过去时叙述个人入社以来的收获；适当补充细节使内容充实、行文连贯｜「为招募新成员，口语社请你用英语为社团新活动录制一段短视频」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "你所在的社团（如口语社、读书社等）需要招募新成员，请你写一篇英语演讲稿（或短视频文字稿），向同学们发出加入邀请，介绍社团的主要活动，并分享自己入社以来的收获。词数不少于100。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 3,
+   "max": 3
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 426,
+  "sourceKey": "exam/story_a2_exam/write_a_first_person_story",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "第一人称写故事"
+   }
+  ],
+  "stageNid": "story_a2_exam",
+  "examEvidence": [
+   "2025 安徽｜记叙文｜根据表格提示以第一人称写一个故事向英文报 STORY 专栏投稿｜用一般过去时按时间顺序叙述事件经过；围绕表格关键词补充细节使故事完整连贯；以第一人称表达参与与感受（feel proud）｜「被英文报“STORY”专栏正在征集稿件，请你根据下面表格中的信息，以第一人称，用英语写一个故事投稿」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "某英文报的 STORY 专栏正在征集稿件。请根据给出的关键词（时间、地点、人物、事件），以第一人称用英语写一个故事投稿。要求：按时间顺序叙述事件经过，补充细节使故事完整连贯，表达自己的参与和感受；不要出现真实姓名和学校名称；词数 80~100。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 2,
+   "max": 2
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 427,
+  "sourceKey": "exam/story_long_b1_exam/continue_a_story_two_paragraphs",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "两段续写故事"
+   }
+  ],
+  "stageNid": "story_long_b1_exam",
+  "examEvidence": [
+   "2026 新高考全国I卷｜读后续写｜续写Emily在暴风雪中车被困获救后继续旅程并取回车的故事｜用一般过去时按时间顺序推进情节；刻画人物情感与互动细节；使续写与原文情节逻辑连贯、首尾呼应｜「阅读下面材料，根据其内容和所给段落开头语续写两段，使之构成一篇完整的短文」",
+   "2025 新高考全国I卷｜读后续写｜续写“我”与兄弟因聚会不欢而散后重归于好的故事｜承接上文情节与人物关系，合理推进冲突化解；用细节描写与心理刻画体现人物转变；保持时态、人称与原文风格一致，使两段衔接自然｜「阅读下面材料，根据其内容和所给段落开头语续写两段，使之构成一篇完整的短文」",
+   "2024 新课标I卷｜读后续写｜续写“我”与Gunter在维也纳相识相助后的后续故事｜保持与原文一致的一般过去时叙事时态；刻画人物动作、语言与情感变化；合理推进情节并给出温暖或圆满的收束｜「I ran back to Gunter and told him the bad news」",
+   "2023 新课标I卷｜读后续写｜续写作者参加写作比赛获奖及赛后与老师交流的故事｜承接上文情节合理推进故事发展；用一般过去时与细节描写刻画获奖与师生交流；体现作者情感变化并升华热爱写作的主题｜「When I was in middle school, my social studies teacher asked me to enter a writing contest」",
+   "2022 新课标I卷｜读后续写｜续写David（患脑病、行动不便却坚持参加越野跑）在起跑线前与\"我\"互动的故事｜依据给定情节逻辑续写两段并衔接段首句；运用细节描写与心理/情感变化刻画人物；保持时态、人称与原文一致并控制续写词数｜「It was the day of the big cross-country run」",
+   "2025 新高考全国Ⅱ卷｜读后续写｜续写国际学生从回避纠正他人发音到主动分享中文名字文化含义的故事｜续写两段使情节完整并呼应前文文化身份主题；用一般过去时与心理、动作描写刻画主人公从回避到主动的转变；合理衔接给定段首句并发展同学互动的情节；控制续写词数在 150 词左右｜「Once in a lecture, the professor tried repeating my name after me over and over in front of thirty classmates」",
+   "2026 新高考全国Ⅱ卷｜读后续写｜长期熬夜导致心脏超负荷后，主人公决定并逐步改变作息｜用一般过去时按时间顺序叙述改变作息的经过；通过动作、心理与细节描写体现人物从抗拒到适应的转变；使续写情节、人称、时态与原文保持一致并自然衔接两个段首句｜「Struck by the doctor's warning, I knew I had to make a change」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "阅读一篇记叙文材料，根据所给两段的段首句续写两段（每段约75词，全文150词左右），使之构成一篇完整的短文：承接上文情节合理推进故事发展，用一般过去时按时间顺序叙事，通过动作、语言、心理与细节描写刻画人物情感变化，并使续写与原文在人称、时态、风格上保持一致、首尾呼应。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 3,
+   "max": 3
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 428,
+  "sourceKey": "exam/suggestion_b1_exam/choose_and_justify_option",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "选择并说明理由"
+   }
+  ],
+  "stageNid": "suggestion_b1_exam",
+  "examEvidence": [
+   "2022 自主命题卷｜议论文｜为学校“走进历史”主题活动选择一种活动形式并说明理由｜清晰表达个人选择；用连贯、充分的理由支撑选择；恰当使用表达观点与因果关系的句式｜「学校正在向全体师生征求建议」",
+   "2025 自主命题卷｜应用文-其他｜在宇航爱好者论坛跟帖评论光盘拟收录的音像项目并推介一个最值得收录的项目｜用概括性语言对多个提名项目作整体评论；清晰推介一个项目并给出充分、具体的理由；使用论坛跟帖的得体语域与衔接｜「从中选取或另行推介一个你认为最值得收录的项目，并说明理由」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "学校/社团正在征集意见，给出若干备选方案（活动形式、收录项目等），请从中选择或另行推介一个，先对备选方案作简要概括性评论，再说明你的选择和理由。面向相关师生或网友，约100词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 3,
+   "max": 3
+  },
+  "access": "INTERNAL"
+ },
+ {
+  "uid": 429,
+  "sourceKey": "exam/suggestion_b1_exam/propose_a_campus_theme_day",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "推介校园主题日"
+   }
+  ],
+  "stageNid": "suggestion_b1_exam",
+  "examEvidence": [
+   "2026 自主命题卷｜应用文-其他｜为“My Dream Campus Day”征文活动投稿，介绍一个期待的校园主题日及其特色活动与意义｜从三个给定选题中择一并围绕其展开连贯论述；用条理清晰的分点结构呈现主题日、活动与意义三个要点；用一般现在时与一般将来时描述期待的活动安排与预期效果；结合校园生活实际阐述设立该主题日的意义与价值｜「请从下列选题中选择一个进行投稿」"
+  ],
+  "exemplarCompositionId": null,
+  "topicNid": null,
+  "stem": [
+   {
+    "lang": "zh",
+    "text": "学校英语俱乐部征文，请从给定选题中择一，介绍你期待设立的校园主题日、希望安排的特色活动，并说明设立它的意义。面向征文读者，约100词。"
+   }
+  ],
+  "answerCount": null,
+  "stemImages": [],
+  "stemVideos": [],
+  "stemAudios": [],
+  "knowledgePoints": [],
+  "difficulty": {
+   "min": 3,
+   "max": 3
+  },
+  "access": "INTERNAL"
+ }
+]

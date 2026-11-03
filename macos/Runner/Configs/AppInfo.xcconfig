@@ -1,0 +1,15 @@
+// Application-level settings for the Runner target.
+//
+// This may be replaced with something auto-generated from metadata (e.g., pubspec.yaml) in the
+// future. If not, the values below would default to using the project name when this becomes a
+// 'flutter create' template.
+
+// The bundle name shown to users. Keep the executable name ASCII for stability.
+PRODUCT_NAME = 乃师
+EXECUTABLE_NAME = langwise
+
+// The application's bundle identifier
+PRODUCT_BUNDLE_IDENTIFIER = com.timelywise.langwise
+
+// The copyright displayed in application information
+PRODUCT_COPYRIGHT = Copyright © 2024 com.timelywise. All rights reserved.
