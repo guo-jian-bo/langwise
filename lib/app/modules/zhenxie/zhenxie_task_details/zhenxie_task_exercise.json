@@ -1,0 +1,149 @@
+{
+  "code": 200,
+  "data": {
+    "unitId": 14193,
+    "compositionId": 8,
+    "lessonId": 53662,
+    "list": [
+      {
+        "context": {
+          "courseId": 11797,
+          "levelId": 142198,
+          "moduleId": 33023,
+          "unitId": 14193,
+          "lessonId": 53662
+        },
+        "exercise": {
+          "uid": 1091516,
+          "type": "CONTEXT_CHOICE",
+          "purpose": "LEARN",
+          "contentList": [
+            {
+              "uid": 8,
+              "type": "EN_COMPOSITION",
+              "semanticId": null
+            }
+          ],
+          "stems": [
+            {
+              "text": "My community is big. There are a gym and a library in my community. {{1}}\nWe can play sports in the gym. {{2}} We can read books in the library. {{3}}"
+            }
+          ],
+          "questions": [
+            {
+              "question": "这句话在文中起什么作用？",
+              "options": [
+                {
+                  "text": "说明在图书馆里可以做什么",
+                  "isAnswer": false
+                },
+                {
+                  "text": "总结全文，说出自己的感受",
+                  "isAnswer": false
+                },
+                {
+                  "text": "点出社区里有哪些场所",
+                  "isAnswer": true
+                }
+              ],
+              "position": 1,
+              "explanation": [
+                {
+                  "text": "The sentence before only says the community is big. This sentence uses \"There are a gym and a library\" to tell us what places are in the community, and it brings out the two places for later. Saying what we can do in the library comes later, and the text does not end with a summary of feelings.",
+                  "lang": "en"
+                },
+                {
+                  "text": "上一句只说社区很大，这一句用 There are a gym and a library 告诉我们社区里有什么，把后面要说的两个场所先点出来。说图书馆里能做什么是下一段的事，全文最后也没有总结感受。",
+                  "lang": "zh"
+                }
+              ]
+            },
+            {
+              "question": "这一段主要在做什么？",
+              "options": [
+                {
+                  "text": "点出社区很大，引出要介绍的地方",
+                  "isAnswer": false
+                },
+                {
+                  "text": "总结全文，说出自己喜欢社区",
+                  "isAnswer": false
+                },
+                {
+                  "text": "分别说明两个场所里可以做什么",
+                  "isAnswer": true
+                }
+              ],
+              "position": 3,
+              "explanation": [
+                {
+                  "text": "Paragraph 1 names the gym and the library in the community. This paragraph goes on with two sentences using \"We can ... in the ...\" to say we can play sports in the gym and read books in the library. Saying the community is big is s1, and there is no summary or personal feeling sentence in the text.",
+                  "lang": "en"
+                },
+                {
+                  "text": "第一段点出社区里有健身房和图书馆，这一段接着用两句 We can ... in the ... 分别说健身房里能运动、图书馆里能看书，把两个场所的用处补上。点出社区很大是 s1 的事，全文没有总结和表态的句子。",
+                  "lang": "zh"
+                }
+              ]
+            },
+            {
+              "question": "这句话在第二段里起什么作用？",
+              "options": [
+                {
+                  "text": "补充说明第二个场所里可以做什么",
+                  "isAnswer": false
+                },
+                {
+                  "text": "点出社区里有哪些场所",
+                  "isAnswer": false
+                },
+                {
+                  "text": "开始说明第一个场所里可以做什么",
+                  "isAnswer": true
+                }
+              ],
+              "position": 2,
+              "explanation": [
+                {
+                  "text": "Paragraph 2 is about what people can do in the places. This sentence uses \"We can play sports in the gym\" to talk about the gym first, with the pattern \"We can ... in the ...\". Naming the places was done in s2 in the paragraph before, and the library comes in the next sentence, s4.",
+                  "lang": "en"
+                },
+                {
+                  "text": "第二段要写场所的用处。这一句用 We can play sports in the gym 先说健身房，句式是 We can ... in the ...；点出有哪些场所是上一段 s2 的事，说图书馆是下一句 s4 的事。",
+                  "lang": "zh"
+                }
+              ]
+            }
+          ],
+          "config": {
+            "uid": 2273,
+            "stemDisplay": "TEXT",
+            "optionDisplay": "TEXT",
+            "preTeaching": null,
+            "stemAudio": true,
+            "optionAudio": false,
+            "questionAudio": false,
+            "inputMode": null,
+            "autoAlign": null,
+            "highlight": null,
+            "followSentence": true,
+            "breakdownLevel": null,
+            "optionCount": null,
+            "errorCount": null
+          },
+          "estimatedTime": 45,
+          "status": "LEARNED",
+          "correct": true,
+          "duration": 14,
+          "result": "excellent",
+          "access": "NORMAL"
+        },
+        "title": "篇章蓝图·局部",
+        "description": "听读范文，判断标记处的句子或段落起什么作用（起承转合）。",
+        "inputMode": "CHOICE",
+        "inputModeLabel": "选择",
+        "order": 300
+      }
+    ]
+  }
+}

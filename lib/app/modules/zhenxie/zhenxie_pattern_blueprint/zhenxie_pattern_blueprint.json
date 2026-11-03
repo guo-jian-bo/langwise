@@ -1,0 +1,1549 @@
+{
+  "nid": "identify_entity_as_np",
+  "familyNid": "identity_and_state",
+  "family": {
+    "nid": "identity_and_state",
+    "name": [
+      {
+        "lang": "zh",
+        "text": "说清是谁、怎样、指什么"
+      },
+      {
+        "lang": "en",
+        "text": "Saying Who or What It Is, and What It Means"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "这一组句型帮助学习者先交代人物、事物或概念是什么，再补充它现在怎么样、来自哪里，或某个词具体指什么。"
+      },
+      {
+        "lang": "en",
+        "text": "This group helps learners say who or what a person, thing, or idea is, then add its state, background, or meaning more clearly."
+      }
+    ]
+  },
+  "difficulty": {
+    "max": 1,
+    "min": 0
+  },
+  "order": 559000,
+  "blueprintScope": "clause",
+  "patternTier": "core",
+  "analysisEligible": true,
+  "template": "{subject} {be_marking} {identity_np} {context_phrase} {time_expression} {relative_clause}.",
+  "controlledGrammarSlots": [
+    {
+      "slotKey": "copula_be",
+      "rendersAs": "be_marking",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "'m",
+        "'s",
+        "'re",
+        "was",
+        "were"
+      ],
+      "activationFeatureNids": [
+        "affirmative"
+      ]
+    },
+    {
+      "slotKey": "copula_be_negative",
+      "rendersAs": "be_marking",
+      "options": [
+        "am not",
+        "is not",
+        "are not",
+        "isn't",
+        "aren't",
+        "'m not",
+        "'s not",
+        "'re not",
+        "was not",
+        "were not",
+        "wasn't",
+        "weren't"
+      ],
+      "activationFeatureNids": [
+        "negative"
+      ]
+    }
+  ],
+  "controlledGrammarSlotList": [
+    {
+      "slotKey": "copula_be",
+      "rendersAs": "be_marking",
+      "slot": {
+        "nid": "copula_be",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "是"
+          },
+          {
+            "lang": "en",
+            "text": "be (linking)"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "把主语和身份、状态连起来，说明「是什么 / 怎么样」。am / is / was / will be / going to be 合在这一格，因为合起来才是「是」的完整时体，整块记，不要拆成 will 和 be。例如 He is my brother. / It will be sunny tomorrow."
+          },
+          {
+            "lang": "en",
+            "text": "Links the subject to an identity or state. am / is / was / will be / going to be sit in one hole because together they are the linking verb’s full tense-aspect — remember the chunk, don’t split will from be. Example: He is my brother. / It will be sunny tomorrow."
+          }
+        ],
+        "categoryNid": "grammar_auxiliary",
+        "color": "rgba(245,158,11,1)",
+        "categoryName": [
+          {
+            "lang": "zh",
+            "text": "助动语法形式"
+          },
+          {
+            "lang": "en",
+            "text": "Auxiliary Grammar Form"
+          }
+        ],
+        "categoryDescription": [
+          {
+            "lang": "zh",
+            "text": "用于控制 be、do、have、存在式或附加问句中的助动形式。"
+          },
+          {
+            "lang": "en",
+            "text": "Controls auxiliary forms for be, do, have, existential frames, or tag questions."
+          }
+        ]
+      },
+      "options": [
+        "am",
+        "is",
+        "are",
+        "'m",
+        "'s",
+        "'re",
+        "was",
+        "were"
+      ],
+      "activationFeatureNids": [
+        "affirmative"
+      ],
+      "activationFeatures": [
+        {
+          "nid": "affirmative",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "肯定形式"
+            },
+            {
+              "lang": "en",
+              "text": "Affirmative"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "表示肯定、确认或直接陈述某事成立。"
+            },
+            {
+              "lang": "en",
+              "text": "Marks a positive statement, confirmation, or direct assertion that something holds true."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slotKey": "copula_be_negative",
+      "rendersAs": "be_marking",
+      "slot": {
+        "nid": "copula_be_negative",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "不是"
+          },
+          {
+            "lang": "en",
+            "text": "isn't"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "说明「不是什么 / 不怎么样」。isn't / wasn't / won't be / not going to be 合在这一格，因为合起来才是否定「是」的完整时体，整块记。例如 This is not my pen. / This won't be easy."
+          },
+          {
+            "lang": "en",
+            "text": "Says it is not that identity or state. isn't / wasn't / won't be / not going to be sit in one hole because together they are the linking verb’s full tense-aspect — remember the chunk. Example: This is not my pen. / This won't be easy."
+          }
+        ],
+        "categoryNid": "negative_auxiliary",
+        "color": "rgba(245,158,11,1)",
+        "categoryName": [
+          {
+            "lang": "zh",
+            "text": "显式否定语法形式"
+          },
+          {
+            "lang": "en",
+            "text": "Explicit Negative Grammar Form"
+          }
+        ],
+        "categoryDescription": [
+          {
+            "lang": "zh",
+            "text": "用于直接承载否定完整式、缩写与允许的否定 clitic。"
+          },
+          {
+            "lang": "en",
+            "text": "Directly carries full negative forms, contractions, and allowed negative clitics."
+          }
+        ]
+      },
+      "options": [
+        "am not",
+        "is not",
+        "are not",
+        "isn't",
+        "aren't",
+        "'m not",
+        "'s not",
+        "'re not",
+        "was not",
+        "were not",
+        "wasn't",
+        "weren't"
+      ],
+      "activationFeatureNids": [
+        "negative"
+      ],
+      "activationFeatures": [
+        {
+          "nid": "negative",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "否定形式"
+            },
+            {
+              "lang": "en",
+              "text": "Negative"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "表示否定、不存在、不发生或不允许，常见于 not、never、no 等结构。"
+            },
+            {
+              "lang": "en",
+              "text": "Marks negation, absence, non-occurrence, or prohibition, often signaled by not, never, or no."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "openSlots": [
+    {
+      "slotKey": "subject",
+      "required": true,
+      "grammarControlling": true,
+      "growthPriority": null,
+      "dependsOn": []
+    },
+    {
+      "slotKey": "identity_np",
+      "required": true,
+      "grammarControlling": true,
+      "growthPriority": null,
+      "dependsOn": []
+    },
+    {
+      "slotKey": "context_phrase",
+      "required": false,
+      "grammarControlling": true,
+      "growthPriority": null,
+      "dependsOn": []
+    },
+    {
+      "slotKey": "time_expression",
+      "required": false,
+      "grammarControlling": true,
+      "growthPriority": 40,
+      "dependsOn": []
+    },
+    {
+      "slotKey": "relative_clause",
+      "required": false,
+      "grammarControlling": false,
+      "growthPriority": 80,
+      "dependsOn": [
+        "identity_np"
+      ]
+    }
+  ],
+  "openSlotList": [
+    {
+      "slotKey": "subject",
+      "slot": {
+        "nid": "subject",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "主语"
+          },
+          {
+            "lang": "en",
+            "text": "Subject"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "表示整句话在说谁或什么，是那个被介绍、被描述、被判断、或去做事情的主体。"
+          },
+          {
+            "lang": "en",
+            "text": "Shows who or what the sentence is about: the person, thing, or place being introduced, described, judged, or said to do something."
+          }
+        ],
+        "categoryNid": "subject_entity",
+        "color": "rgba(14,165,233,1)",
+        "categoryName": [
+          {
+            "lang": "zh",
+            "text": "主语实体槽位"
+          },
+          {
+            "lang": "en",
+            "text": "Subject Entity Slot"
+          }
+        ],
+        "categoryDescription": [
+          {
+            "lang": "zh",
+            "text": "用于填入执行者、承受者或句子讨论对象等主语成分。"
+          },
+          {
+            "lang": "en",
+            "text": "Used for the sentence subject, such as the doer, the affected entity, or the main topic under discussion."
+          }
+        ]
+      },
+      "required": true,
+      "grammarControlling": true,
+      "dependsOn": []
+    },
+    {
+      "slotKey": "identity_np",
+      "slot": {
+        "nid": "identity_np",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "身份或类别名词短语"
+          },
+          {
+            "lang": "en",
+            "text": "Identity or Category Noun Phrase"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "表示“是什么、属于哪一类、叫什么”的名词性内容。"
+          },
+          {
+            "lang": "en",
+            "text": "Shows the noun phrase that says what something is, what kind it is, or what it is called."
+          }
+        ],
+        "categoryNid": "noun_phrase",
+        "color": "rgba(6,182,212,1)",
+        "categoryName": [
+          {
+            "lang": "zh",
+            "text": "名词短语槽位"
+          },
+          {
+            "lang": "en",
+            "text": "Noun Phrase Slot"
+          }
+        ],
+        "categoryDescription": [
+          {
+            "lang": "zh",
+            "text": "用于填入完整名词短语，而不只是单个名词。"
+          },
+          {
+            "lang": "en",
+            "text": "Used for a full noun phrase rather than only a single noun."
+          }
+        ]
+      },
+      "required": true,
+      "grammarControlling": true,
+      "dependsOn": []
+    },
+    {
+      "slotKey": "context_phrase",
+      "slot": {
+        "nid": "context_phrase",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "背景短语"
+          },
+          {
+            "lang": "en",
+            "text": "Context Phrase"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "表示动作或状态发生时的背景补充：常见为介词短语（地点、搭配、场景），也可为缩略的 V-ing 情状状语（如 entering Atlantic Daylight Time / walking home），不单独升成从句。"
+          },
+          {
+            "lang": "en",
+            "text": "Background adjunct for an action or state: often a PP (place, company, setting), and also a reduced V-ing circumstance adjunct (e.g. entering Atlantic Daylight Time / walking home), kept inside the clause rather than promoted."
+          }
+        ],
+        "categoryNid": "lexical_chunk",
+        "color": "rgba(59,130,246,1)",
+        "categoryName": [
+          {
+            "lang": "zh",
+            "text": "词块槽位"
+          },
+          {
+            "lang": "en",
+            "text": "Lexical Chunk Slot"
+          }
+        ],
+        "categoryDescription": [
+          {
+            "lang": "zh",
+            "text": "用于填入应整体保留的固定表达或高频搭配。"
+          },
+          {
+            "lang": "en",
+            "text": "Used for fixed expressions or high-frequency chunks that should be treated as whole units."
+          }
+        ]
+      },
+      "required": false,
+      "grammarControlling": true,
+      "dependsOn": []
+    },
+    {
+      "slotKey": "time_expression",
+      "slot": {
+        "nid": "time_expression",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "时间表达"
+          },
+          {
+            "lang": "en",
+            "text": "Time Expression"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "表示什么时候、持续多久、多久一次，或者先后顺序。"
+          },
+          {
+            "lang": "en",
+            "text": "Shows when something happens, how long it lasts, how often it happens, or where it falls in a sequence."
+          }
+        ],
+        "categoryNid": "time_expression",
+        "color": "rgba(0,188,125,1)",
+        "categoryName": [
+          {
+            "lang": "zh",
+            "text": "时间槽位"
+          },
+          {
+            "lang": "en",
+            "text": "Time Expression Slot"
+          }
+        ],
+        "categoryDescription": [
+          {
+            "lang": "zh",
+            "text": "用于填入表示时间点、时间段、频率或顺序的信息。"
+          },
+          {
+            "lang": "en",
+            "text": "Used for information expressing time point, duration, frequency, or sequence."
+          }
+        ]
+      },
+      "required": false,
+      "grammarControlling": true,
+      "growthPriority": 40,
+      "dependsOn": []
+    },
+    {
+      "slotKey": "relative_clause",
+      "slot": {
+        "nid": "relative_clause",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "关系从句内容"
+          },
+          {
+            "lang": "en",
+            "text": "Relative Clause Content"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "表示跟在 who、that、which、where 后面，用来继续说明前面名词的那句话。"
+          },
+          {
+            "lang": "en",
+            "text": "Shows the clause that comes after who, that, which, or where to give more information about the noun before it."
+          }
+        ],
+        "categoryNid": "clause_content",
+        "color": "rgba(99,102,241,1)",
+        "categoryName": [
+          {
+            "lang": "zh",
+            "text": "从句内容槽位"
+          },
+          {
+            "lang": "en",
+            "text": "Clause Content Slot"
+          }
+        ],
+        "categoryDescription": [
+          {
+            "lang": "zh",
+            "text": "用于填入完整从句，如原因从句、条件从句、宾语从句等。"
+          },
+          {
+            "lang": "en",
+            "text": "Used for a full clause such as a reason clause, condition clause, or content clause."
+          }
+        ]
+      },
+      "required": false,
+      "grammarControlling": false,
+      "growthPriority": 80,
+      "dependsOn": [
+        "identity_np"
+      ]
+    }
+  ],
+  "basicTypeNid": "simple",
+  "basicType": {
+    "nid": "simple",
+    "name": [
+      {
+        "lang": "zh",
+        "text": "简单句"
+      },
+      {
+        "lang": "en",
+        "text": "Simple Sentence"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "只包含一个独立分句的基础句型，是低阶教学和句型骨架训练的核心类型。"
+      },
+      {
+        "lang": "en",
+        "text": "A sentence with only one independent clause, forming the core type for foundational teaching and sentence skeleton practice."
+      }
+    ]
+  },
+  "functionalTypeNid": "declarative",
+  "functionalType": {
+    "nid": "declarative",
+    "name": [
+      {
+        "lang": "zh",
+        "text": "陈述句"
+      },
+      {
+        "lang": "en",
+        "text": "Declarative"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "用于陈述事实、观点、状态或信息，是写作与说明中最基础、最常见的句子功能类型。"
+      },
+      {
+        "lang": "en",
+        "text": "Used to state facts, ideas, states, or information; the most common functional sentence type in writing and explanation."
+      }
+    ]
+  },
+  "clauseProfileNid": "single_clause",
+  "clauseProfile": {
+    "nid": "single_clause",
+    "name": [
+      {
+        "lang": "zh",
+        "text": "单子句"
+      },
+      {
+        "lang": "en",
+        "text": "Single Clause"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "整个句型只包含一个核心子句，没有并列或从属扩展，是最基础的句型骨架。"
+      },
+      {
+        "lang": "en",
+        "text": "The pattern contains only one core clause with no coordination or subordination, forming the most basic sentence skeleton."
+      }
+    ]
+  },
+  "grammarFeatureNids": [
+    "indicative_mood",
+    "active_voice"
+  ],
+  "grammarFeatures": [
+    {
+      "nid": "indicative_mood",
+      "name": [
+        {
+          "lang": "zh",
+          "text": "陈述语气"
+        },
+        {
+          "lang": "en",
+          "text": "Indicative Mood"
+        }
+      ],
+      "description": [
+        {
+          "lang": "zh",
+          "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+        },
+        {
+          "lang": "en",
+          "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+        }
+      ]
+    },
+    {
+      "nid": "active_voice",
+      "name": [
+        {
+          "lang": "zh",
+          "text": "主动语态"
+        },
+        {
+          "lang": "en",
+          "text": "Active Voice"
+        }
+      ],
+      "description": [
+        {
+          "lang": "zh",
+          "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+        },
+        {
+          "lang": "en",
+          "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+        }
+      ]
+    }
+  ],
+  "specialFeatureNids": [],
+  "specialFeatures": [],
+  "communicativeFunctionNids": [
+    "identify"
+  ],
+  "communicativeFunctions": [
+    {
+      "nid": "identify",
+      "name": [
+        {
+          "lang": "zh",
+          "text": "身份指认"
+        },
+        {
+          "lang": "en",
+          "text": "Identify"
+        }
+      ],
+      "description": [
+        {
+          "lang": "zh",
+          "text": "用于指出某人或某物是什么、是谁，常见于启蒙和基础描述写作。"
+        },
+        {
+          "lang": "en",
+          "text": "Used to state what or who someone or something is, common in beginner description and introduction."
+        }
+      ]
+    }
+  ],
+  "discourseRoleNids": [
+    "standalone_sentence",
+    "supporting_detail",
+    "dialogue_response"
+  ],
+  "discourseRoles": [
+    {
+      "nid": "standalone_sentence",
+      "name": [
+        {
+          "lang": "zh",
+          "text": "独立句"
+        },
+        {
+          "lang": "en",
+          "text": "Standalone Sentence"
+        }
+      ],
+      "description": [
+        {
+          "lang": "zh",
+          "text": "单独即可完成表达，不依赖上下文中的其他句子承担结构角色。"
+        },
+        {
+          "lang": "en",
+          "text": "Completes its communicative work on its own without depending on surrounding sentences for a structural role."
+        }
+      ]
+    },
+    {
+      "nid": "supporting_detail",
+      "name": [
+        {
+          "lang": "zh",
+          "text": "支持细节句"
+        },
+        {
+          "lang": "en",
+          "text": "Supporting Detail"
+        }
+      ],
+      "description": [
+        {
+          "lang": "zh",
+          "text": "用于补充事实、细节、特征或说明，支撑主题句。"
+        },
+        {
+          "lang": "en",
+          "text": "Adds facts, details, features, or explanation to support the topic sentence."
+        }
+      ]
+    },
+    {
+      "nid": "dialogue_response",
+      "name": [
+        {
+          "lang": "zh",
+          "text": "对话回应句"
+        },
+        {
+          "lang": "en",
+          "text": "Dialogue Response"
+        }
+      ],
+      "description": [
+        {
+          "lang": "zh",
+          "text": "用于对前一句做出回答、接受、拒绝或反馈。"
+        },
+        {
+          "lang": "en",
+          "text": "Responds to the previous turn by answering, accepting, rejecting, or giving feedback."
+        }
+      ]
+    }
+  ],
+  "teachingRealizations": [
+    "He is my brother.",
+    "I'm a student.",
+    "She's my sister.",
+    "They are my friends at school.",
+    "He was my brother at school this year.",
+    "My name is Tom.",
+    "He is not my brother."
+  ],
+  "system": true,
+  "enabled": true,
+  "primarySvocaCodeNid": "svc_noun",
+  "primarySvoca": {
+    "nid": "svc_noun",
+    "name": [
+      {
+        "lang": "zh",
+        "text": "SVC 名词补语结构"
+      },
+      {
+        "lang": "en",
+        "text": "SVC Noun Pattern"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "表示系动词后接名词性补语，常用于身份、类别和定义表达。"
+      },
+      {
+        "lang": "en",
+        "text": "An SVC skeleton with a noun complement, often used for identity, category, and definition."
+      }
+    ]
+  },
+  "allowedSvocaCodeNids": [
+    "svc_noun",
+    "svc"
+  ],
+  "allowedSvocas": [
+    {
+      "nid": "svc_noun",
+      "name": [
+        {
+          "lang": "zh",
+          "text": "SVC 名词补语结构"
+        },
+        {
+          "lang": "en",
+          "text": "SVC Noun Pattern"
+        }
+      ],
+      "description": [
+        {
+          "lang": "zh",
+          "text": "表示系动词后接名词性补语，常用于身份、类别和定义表达。"
+        },
+        {
+          "lang": "en",
+          "text": "An SVC skeleton with a noun complement, often used for identity, category, and definition."
+        }
+      ]
+    },
+    {
+      "nid": "svc",
+      "name": [
+        {
+          "lang": "zh",
+          "text": "SVC 主谓补结构"
+        },
+        {
+          "lang": "en",
+          "text": "SVC Pattern"
+        }
+      ],
+      "description": [
+        {
+          "lang": "zh",
+          "text": "表示主语通过系动词连接到补语，用于说明身份、性质、状态或结果。"
+        },
+        {
+          "lang": "en",
+          "text": "A subject-verb-complement skeleton in which a linking verb connects the subject to its complement."
+        }
+      ]
+    }
+  ],
+  "name": [
+    {
+      "lang": "zh",
+      "text": "说明是谁 / 是什么"
+    },
+    {
+      "lang": "en",
+      "text": "Say who or what it is"
+    }
+  ],
+  "description": [
+    {
+      "lang": "zh",
+      "text": "用来给人或事物下身份：它是谁、是什么角色或什么东西。"
+    },
+    {
+      "lang": "en",
+      "text": "Identifies someone or something — who they are or what it is."
+    }
+  ],
+  "tenseScope": "neutral",
+  "predicateRealizationProfile": {
+    "kind": "copular_be",
+    "predicateSlotKey": null,
+    "operatorSlotKeys": [
+      "copula_be",
+      "copula_be_negative"
+    ]
+  },
+  "predicateRealizationProfileInfo": {
+    "kind": "copular_be",
+    "predicateSlotKey": null,
+    "predicateSlot": null,
+    "operatorSlotKeys": [
+      "copula_be",
+      "copula_be_negative"
+    ],
+    "operatorSlots": [
+      {
+        "nid": "copula_be",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "是"
+          },
+          {
+            "lang": "en",
+            "text": "be (linking)"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "把主语和身份、状态连起来，说明「是什么 / 怎么样」。am / is / was / will be / going to be 合在这一格，因为合起来才是「是」的完整时体，整块记，不要拆成 will 和 be。例如 He is my brother. / It will be sunny tomorrow."
+          },
+          {
+            "lang": "en",
+            "text": "Links the subject to an identity or state. am / is / was / will be / going to be sit in one hole because together they are the linking verb’s full tense-aspect — remember the chunk, don’t split will from be. Example: He is my brother. / It will be sunny tomorrow."
+          }
+        ],
+        "categoryNid": "grammar_auxiliary",
+        "color": "rgba(245,158,11,1)",
+        "categoryName": [
+          {
+            "lang": "zh",
+            "text": "助动语法形式"
+          },
+          {
+            "lang": "en",
+            "text": "Auxiliary Grammar Form"
+          }
+        ],
+        "categoryDescription": [
+          {
+            "lang": "zh",
+            "text": "用于控制 be、do、have、存在式或附加问句中的助动形式。"
+          },
+          {
+            "lang": "en",
+            "text": "Controls auxiliary forms for be, do, have, existential frames, or tag questions."
+          }
+        ]
+      },
+      {
+        "nid": "copula_be_negative",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "不是"
+          },
+          {
+            "lang": "en",
+            "text": "isn't"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "说明「不是什么 / 不怎么样」。isn't / wasn't / won't be / not going to be 合在这一格，因为合起来才是否定「是」的完整时体，整块记。例如 This is not my pen. / This won't be easy."
+          },
+          {
+            "lang": "en",
+            "text": "Says it is not that identity or state. isn't / wasn't / won't be / not going to be sit in one hole because together they are the linking verb’s full tense-aspect — remember the chunk. Example: This is not my pen. / This won't be easy."
+          }
+        ],
+        "categoryNid": "negative_auxiliary",
+        "color": "rgba(245,158,11,1)",
+        "categoryName": [
+          {
+            "lang": "zh",
+            "text": "显式否定语法形式"
+          },
+          {
+            "lang": "en",
+            "text": "Explicit Negative Grammar Form"
+          }
+        ],
+        "categoryDescription": [
+          {
+            "lang": "zh",
+            "text": "用于直接承载否定完整式、缩写与允许的否定 clitic。"
+          },
+          {
+            "lang": "en",
+            "text": "Directly carries full negative forms, contractions, and allowed negative clitics."
+          }
+        ]
+      }
+    ]
+  },
+  "sentenceRealizationSet": [
+    {
+      "uid": 9332,
+      "assetType": "pattern",
+      "assetNid": "identify_entity_as_np",
+      "order": 1000,
+      "members": [
+        {
+          "sentenceId": 568227,
+          "role": "exemplar",
+          "valueNid": null,
+          "addedSlotKeys": [],
+          "foci": null,
+          "order": 0
+        },
+        {
+          "sentenceId": 568226,
+          "role": "exemplar",
+          "valueNid": null,
+          "addedSlotKeys": [],
+          "foci": null,
+          "order": 1
+        }
+      ],
+      "memberList": [
+        {
+          "sentenceId": 568227,
+          "content": "One times one is one.",
+          "definition": "一乘以一等于一。",
+          "patternNid": "identify_entity_as_np",
+          "patternTemplate": "{subject} {be_marking} {identity_np} {context_phrase} {time_expression} {relative_clause}.",
+          "patternName": [
+            {
+              "lang": "zh",
+              "text": "说明是谁 / 是什么"
+            },
+            {
+              "lang": "en",
+              "text": "Say who or what it is"
+            }
+          ],
+          "patternDescription": [
+            {
+              "lang": "zh",
+              "text": "用来给人或事物下身份：它是谁、是什么角色或什么东西。"
+            },
+            {
+              "lang": "en",
+              "text": "Identifies someone or something — who they are or what it is."
+            }
+          ],
+          "blueprintScope": "clause",
+          "blueprintScopeName": [
+            {
+              "lang": "en",
+              "text": "Clause Scope"
+            },
+            {
+              "lang": "zh",
+              "text": "子句内组合"
+            }
+          ],
+          "segmentList": [
+            {
+              "slotKey": "subject",
+              "slot": {
+                "nid": "subject",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "主语"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Subject"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "en",
+                    "text": "The subject slot is filled by the noun phrase 'One times one'."
+                  },
+                  {
+                    "lang": "zh",
+                    "text": "主语槽位由名词短语 'One times one' 填充。"
+                  }
+                ],
+                "categoryNid": "subject_entity",
+                "color": "rgba(14,165,233,1)",
+                "categoryName": [
+                  {
+                    "lang": "zh",
+                    "text": "主语实体槽位"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Subject Entity Slot"
+                  }
+                ],
+                "categoryDescription": [
+                  {
+                    "lang": "zh",
+                    "text": "用于填入执行者、承受者或句子讨论对象等主语成分。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Used for the sentence subject, such as the doer, the affected entity, or the main topic under discussion."
+                  }
+                ]
+              },
+              "required": true,
+              "grammarControlling": true,
+              "dependsOn": [],
+              "key": "248081",
+              "text": "One times one",
+              "renderSlotKey": "subject",
+              "sourceSlotKey": "subject",
+              "slotUid": 248081,
+              "semanticIds": [],
+              "literal": false,
+              "segmentState": "normal",
+              "hasChildStruct": false
+            },
+            {
+              "slotKey": "copula_be",
+              "slot": {
+                "nid": "copula_be",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "是"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "be (linking)"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "en",
+                    "text": "The copula slot is filled by the verb 'is'."
+                  },
+                  {
+                    "lang": "zh",
+                    "text": "系动词槽位由动词 'is' 填充。"
+                  }
+                ],
+                "categoryNid": "grammar_auxiliary",
+                "color": "rgba(245,158,11,1)",
+                "categoryName": [
+                  {
+                    "lang": "zh",
+                    "text": "助动语法形式"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Auxiliary Grammar Form"
+                  }
+                ],
+                "categoryDescription": [
+                  {
+                    "lang": "zh",
+                    "text": "用于控制 be、do、have、存在式或附加问句中的助动形式。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Controls auxiliary forms for be, do, have, existential frames, or tag questions."
+                  }
+                ]
+              },
+              "grammarControlling": true,
+              "key": "248082",
+              "text": "is",
+              "grammarValue": "is",
+              "renderSlotKey": "be_marking",
+              "sourceSlotKey": "copula_be",
+              "slotUid": 248082,
+              "semanticIds": [
+                734314
+              ],
+              "literal": false,
+              "segmentState": "normal",
+              "hasChildStruct": false
+            },
+            {
+              "slotKey": "identity_np",
+              "slot": {
+                "nid": "identity_np",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "身份或类别名词短语"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Identity or Category Noun Phrase"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "en",
+                    "text": "The identity noun phrase slot is filled by 'one'."
+                  },
+                  {
+                    "lang": "zh",
+                    "text": "身份名词短语槽位由 'one' 填充。"
+                  }
+                ],
+                "categoryNid": "noun_phrase",
+                "color": "rgba(6,182,212,1)",
+                "categoryName": [
+                  {
+                    "lang": "zh",
+                    "text": "名词短语槽位"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Noun Phrase Slot"
+                  }
+                ],
+                "categoryDescription": [
+                  {
+                    "lang": "zh",
+                    "text": "用于填入完整名词短语，而不只是单个名词。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Used for a full noun phrase rather than only a single noun."
+                  }
+                ]
+              },
+              "required": true,
+              "grammarControlling": true,
+              "dependsOn": [],
+              "key": "248083",
+              "text": "one",
+              "renderSlotKey": "identity_np",
+              "sourceSlotKey": "identity_np",
+              "slotUid": 248083,
+              "semanticIds": [
+                703658
+              ],
+              "literal": false,
+              "segmentState": "normal",
+              "hasChildStruct": false
+            },
+            {
+              "slotKey": "__literal__",
+              "slot": {
+                "nid": "__literal__",
+                "name": [
+                  {
+                    "lang": "en",
+                    "text": "literal"
+                  },
+                  {
+                    "lang": "zh",
+                    "text": "固定"
+                  }
+                ],
+                "color": "rgba(148,163,184,1)"
+              },
+              "key": "lit-11",
+              "text": ".",
+              "renderSlotKey": "__literal__",
+              "sourceSlotKey": "__literal__",
+              "literal": true,
+              "segmentState": "normal",
+              "hasChildStruct": false
+            }
+          ],
+          "access": "NORMAL"
+        },
+        {
+          "sentenceId": 568226,
+          "content": "Two times two is four.",
+          "definition": "二乘以二等于四。",
+          "patternNid": "identify_entity_as_np",
+          "patternTemplate": "{subject} {be_marking} {identity_np} {context_phrase} {time_expression} {relative_clause}.",
+          "patternName": [
+            {
+              "lang": "zh",
+              "text": "说明是谁 / 是什么"
+            },
+            {
+              "lang": "en",
+              "text": "Say who or what it is"
+            }
+          ],
+          "patternDescription": [
+            {
+              "lang": "zh",
+              "text": "用来给人或事物下身份：它是谁、是什么角色或什么东西。"
+            },
+            {
+              "lang": "en",
+              "text": "Identifies someone or something — who they are or what it is."
+            }
+          ],
+          "blueprintScope": "clause",
+          "blueprintScopeName": [
+            {
+              "lang": "en",
+              "text": "Clause Scope"
+            },
+            {
+              "lang": "zh",
+              "text": "子句内组合"
+            }
+          ],
+          "segmentList": [
+            {
+              "slotKey": "subject",
+              "slot": {
+                "nid": "subject",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "主语"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Subject"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "en",
+                    "text": "The subject slot is filled by the noun phrase 'Two times two'."
+                  },
+                  {
+                    "lang": "zh",
+                    "text": "主语槽位由名词短语 'Two times two' 填充。"
+                  }
+                ],
+                "categoryNid": "subject_entity",
+                "color": "rgba(14,165,233,1)",
+                "categoryName": [
+                  {
+                    "lang": "zh",
+                    "text": "主语实体槽位"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Subject Entity Slot"
+                  }
+                ],
+                "categoryDescription": [
+                  {
+                    "lang": "zh",
+                    "text": "用于填入执行者、承受者或句子讨论对象等主语成分。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Used for the sentence subject, such as the doer, the affected entity, or the main topic under discussion."
+                  }
+                ]
+              },
+              "required": true,
+              "grammarControlling": true,
+              "dependsOn": [],
+              "key": "242017",
+              "text": "Two times two",
+              "renderSlotKey": "subject",
+              "sourceSlotKey": "subject",
+              "slotUid": 242017,
+              "semanticIds": [],
+              "literal": false,
+              "segmentState": "normal",
+              "hasChildStruct": false
+            },
+            {
+              "slotKey": "copula_be",
+              "slot": {
+                "nid": "copula_be",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "是"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "be (linking)"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "en",
+                    "text": "The copula slot is filled by the verb 'is'."
+                  },
+                  {
+                    "lang": "zh",
+                    "text": "系动词槽位由动词 'is' 填充。"
+                  }
+                ],
+                "categoryNid": "grammar_auxiliary",
+                "color": "rgba(245,158,11,1)",
+                "categoryName": [
+                  {
+                    "lang": "zh",
+                    "text": "助动语法形式"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Auxiliary Grammar Form"
+                  }
+                ],
+                "categoryDescription": [
+                  {
+                    "lang": "zh",
+                    "text": "用于控制 be、do、have、存在式或附加问句中的助动形式。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Controls auxiliary forms for be, do, have, existential frames, or tag questions."
+                  }
+                ]
+              },
+              "grammarControlling": true,
+              "key": "242018",
+              "text": "is",
+              "grammarValue": "is",
+              "renderSlotKey": "be_marking",
+              "sourceSlotKey": "copula_be",
+              "slotUid": 242018,
+              "semanticIds": [
+                734314
+              ],
+              "literal": false,
+              "segmentState": "normal",
+              "hasChildStruct": false
+            },
+            {
+              "slotKey": "identity_np",
+              "slot": {
+                "nid": "identity_np",
+                "name": [
+                  {
+                    "lang": "zh",
+                    "text": "身份或类别名词短语"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Identity or Category Noun Phrase"
+                  }
+                ],
+                "description": [
+                  {
+                    "lang": "en",
+                    "text": "The identity slot is filled by the noun/number 'four'."
+                  },
+                  {
+                    "lang": "zh",
+                    "text": "身份/数值槽位由名词/数字 'four' 填充。"
+                  }
+                ],
+                "categoryNid": "noun_phrase",
+                "color": "rgba(6,182,212,1)",
+                "categoryName": [
+                  {
+                    "lang": "zh",
+                    "text": "名词短语槽位"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Noun Phrase Slot"
+                  }
+                ],
+                "categoryDescription": [
+                  {
+                    "lang": "zh",
+                    "text": "用于填入完整名词短语，而不只是单个名词。"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "Used for a full noun phrase rather than only a single noun."
+                  }
+                ]
+              },
+              "required": true,
+              "grammarControlling": true,
+              "dependsOn": [],
+              "key": "242019",
+              "text": "four",
+              "renderSlotKey": "identity_np",
+              "sourceSlotKey": "identity_np",
+              "slotUid": 242019,
+              "semanticIds": [
+                688352
+              ],
+              "literal": false,
+              "segmentState": "normal",
+              "hasChildStruct": false
+            },
+            {
+              "slotKey": "__literal__",
+              "slot": {
+                "nid": "__literal__",
+                "name": [
+                  {
+                    "lang": "en",
+                    "text": "literal"
+                  },
+                  {
+                    "lang": "zh",
+                    "text": "固定"
+                  }
+                ],
+                "color": "rgba(148,163,184,1)"
+              },
+              "key": "lit-11",
+              "text": ".",
+              "renderSlotKey": "__literal__",
+              "sourceSlotKey": "__literal__",
+              "literal": true,
+              "segmentState": "normal",
+              "hasChildStruct": false
+            }
+          ],
+          "access": "NORMAL"
+        }
+      ],
+      "access": "INTERNAL",
+      "created": "2026-09-01T10:38:10.819+00:00",
+      "updated": "2026-09-01T10:38:10.819+00:00"
+    }
+  ],
+  "sentenceRealizationList": [
+    {
+      "sentenceId": 568226,
+      "content": "Two times two is four.",
+      "definition": "二乘以二等于四。",
+      "access": "NORMAL",
+      "order": 1
+    },
+    {
+      "sentenceId": 568227,
+      "content": "One times one is one.",
+      "definition": "一乘以一等于一。",
+      "access": "NORMAL",
+      "order": 0
+    }
+  ],
+  "supportsPyramid": true,
+  "created": "2026-09-18T14:19:19.885+00:00",
+  "updated": "2026-09-18T14:19:19.885+00:00"
+}

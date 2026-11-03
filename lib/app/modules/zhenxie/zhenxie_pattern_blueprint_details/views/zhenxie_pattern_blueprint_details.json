@@ -1,0 +1,1018 @@
+{
+    "code": 200,
+    "data": {
+        "nid": "state_entity_seem_adj",
+        "name": [
+            {
+                "lang": "zh",
+                "text": "说明看起来/显得处于某种状态"
+            },
+            {
+                "lang": "en",
+                "text": "Seeming or Appearing to Be in a State"
+            }
+        ],
+        "description": [
+            {
+                "lang": "zh",
+                "text": "seem/appear（及屈折）+ 形容词补语；外观判断壳，不按动词拆。"
+            },
+            {
+                "lang": "en",
+                "text": "Used for seem/appear (+ agreeing forms) + adjective complement; one appearance-judgment shell."
+            }
+        ],
+        "familyNid": "identity_and_state",
+        "family": {
+            "nid": "identity_and_state",
+            "name": [
+                {
+                    "lang": "zh",
+                    "text": "说清是谁、怎样、指什么"
+                },
+                {
+                    "lang": "en",
+                    "text": "Saying Who or What It Is, and What It Means"
+                }
+            ],
+            "description": [
+                {
+                    "lang": "zh",
+                    "text": "这一组句型帮助学习者先交代人物、事物或概念是什么，再补充它现在怎么样、来自哪里，或某个词具体指什么。"
+                },
+                {
+                    "lang": "en",
+                    "text": "This group helps learners say who or what a person, thing, or idea is, then add its state, background, or meaning more clearly."
+                }
+            ]
+        },
+        "difficulty": {
+            "max": 3,
+            "min": 2
+        },
+        "order": 268000.0,
+        "blueprintScope": "clause",
+        "patternTier": "core",
+        "analysisEligible": true,
+        "template": "{fronted_context} {subject} {mid_adverb} {seem_adj_verb_marking} {property} {context_phrase}.",
+        "editSlots": [
+            {
+                "positionKey": "pattern",
+                "patternNid": "state_entity_seem_adj",
+                "template": "{fronted_context} {subject} {mid_adverb} {seem_adj_verb_marking} {property} {context_phrase}.",
+                "optionSlots": [
+                    {
+                        "slotKey": "fronted_context",
+                        "role": "optional_open",
+                        "required": false,
+                        "selected": false,
+                        "selectable": false,
+                        "dialSelectable": false,
+                        "growthSelectable": false,
+                        "unused": true,
+                        "dependsOn": ["", ""]
+                    },
+                    {
+                        "slotKey": "subject",
+                        "role": "required_open",
+                        "required": true,
+                        "selected": true,
+                        "selectable": false,
+                        "growthSelectable": false,
+                        "unused": false,
+                        "dependsOn": []
+                    },
+                    {
+                        "slotKey": "mid_adverb",
+                        "role": "optional_open",
+                        "required": false,
+                        "selected": false,
+                        "selectable": false,
+                        "growthSelectable": true,
+                        "growthOrder": 1,
+                        "unused": false,
+                        "dependsOn": []
+                    },
+                    {
+                        "slotKey": "seem_adj_verb_marking",
+                        "role": "controlled",
+                        "required": true,
+                        "selected": true,
+                        "selectable": false,
+                        "growthSelectable": false,
+                        "unused": false,
+                        "dependsOn": []
+                    },
+                    {
+                        "slotKey": "property",
+                        "role": "required_open",
+                        "required": true,
+                        "selected": true,
+                        "selectable": false,
+                        "growthSelectable": false,
+                        "unused": false,
+                        "dependsOn": []
+                    },
+                    {
+                        "slotKey": "context_phrase",
+                        "role": "optional_open",
+                        "required": false,
+                        "selected": false,
+                        "selectable": false,
+                        "dialSelectable": false,
+                        "growthSelectable": false,
+                        "unused": true,
+                        "dependsOn": []
+                    }
+                ]
+            }
+        ],
+        "optionSlots": null,
+        "controlledGrammarSlots": [
+            {
+                "slotKey": "seem_adj_verb",
+                "rendersAs": "seem_adj_verb_marking",
+                "options": [
+                    "seem",
+                    "seems",
+                    "appear",
+                    "appears",
+                    "seemed",
+                    "appeared"
+                ],
+                "activationFeatureNids": [
+                    "affirmative"
+                ]
+            },
+            {
+                "slotKey": "seem_adj_verb_negative",
+                "rendersAs": "seem_adj_verb_marking",
+                "options": [
+                    "do not seem",
+                    "does not seem",
+                    "don't seem",
+                    "doesn't seem",
+                    "did not seem",
+                    "didn't seem",
+                    "do not appear",
+                    "does not appear",
+                    "don't appear",
+                    "doesn't appear",
+                    "did not appear",
+                    "didn't appear"
+                ],
+                "activationFeatureNids": [
+                    "negative"
+                ]
+            }
+        ],
+        "controlledGrammarSlotList": [
+            {
+                "slotKey": "seem_adj_verb",
+                "rendersAs": "seem_adj_verb_marking",
+                "slot": {
+                    "nid": "seem_adj_verb",
+                    "name": [
+                        {
+                            "lang": "zh",
+                            "text": "似乎是"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "seem / appear"
+                        }
+                    ],
+                    "description": [
+                        {
+                            "lang": "zh",
+                            "text": "表示似乎是某种样子：seem / appear，以及过去式。常见写法如 appear、appeared、appears、seem、seemed、seems。例如 The plan seems workable."
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Says someone seems or appears a certain way, including past forms. Common writings include appear, appeared, appears, seem, seemed, seems. Example: The plan seems workable."
+                        }
+                    ],
+                    "categoryNid": "controlled_verb",
+                    "color": "rgba(245,158,11,1)",
+                    "categoryName": [
+                        {
+                            "lang": "zh",
+                            "text": "受控动词形式"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Controlled Verb Form"
+                        }
+                    ],
+                    "categoryDescription": [
+                        {
+                            "lang": "zh",
+                            "text": "用于从有限候选中选择句型要求的实义动词或系动词形式。"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Selects a lexical or linking verb form from the finite choices allowed by a pattern."
+                        }
+                    ]
+                },
+                "options": [
+                    "seem",
+                    "seems",
+                    "appear",
+                    "appears",
+                    "seemed",
+                    "appeared"
+                ],
+                "activationFeatureNids": [
+                    "affirmative"
+                ],
+                "activationFeatures": [
+                    {
+                        "nid": "affirmative",
+                        "name": [
+                            {
+                                "lang": "zh",
+                                "text": "肯定形式"
+                            },
+                            {
+                                "lang": "en",
+                                "text": "Affirmative"
+                            }
+                        ],
+                        "description": [
+                            {
+                                "lang": "zh",
+                                "text": "表示肯定、确认或直接陈述某事成立。"
+                            },
+                            {
+                                "lang": "en",
+                                "text": "Marks a positive statement, confirmation, or direct assertion that something holds true."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "slotKey": "seem_adj_verb_negative",
+                "rendersAs": "seem_adj_verb_marking",
+                "slot": {
+                    "nid": "seem_adj_verb_negative",
+                    "name": [
+                        {
+                            "lang": "zh",
+                            "text": "似乎不是"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "doesn't seem"
+                        }
+                    ],
+                    "description": [
+                        {
+                            "lang": "zh",
+                            "text": "表示似乎并不是那样。常见写法如 do not appear、do not seem、does not appear、does not seem、doesn't appear、doesn't seem、don't appear、don't seem 等。例如 The plan does not seem workable."
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Says someone does not seem or appear that way. Common writings include do not appear, do not seem, does not appear, does not seem, doesn't appear, doesn't seem, don't appear, don't seem, and other matching forms. Example: The plan does not seem workable."
+                        }
+                    ],
+                    "categoryNid": "controlled_verb",
+                    "color": "rgba(245,158,11,1)",
+                    "categoryName": [
+                        {
+                            "lang": "zh",
+                            "text": "受控动词形式"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Controlled Verb Form"
+                        }
+                    ],
+                    "categoryDescription": [
+                        {
+                            "lang": "zh",
+                            "text": "用于从有限候选中选择句型要求的实义动词或系动词形式。"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Selects a lexical or linking verb form from the finite choices allowed by a pattern."
+                        }
+                    ]
+                },
+                "options": [
+                    "do not seem",
+                    "does not seem",
+                    "don't seem",
+                    "doesn't seem",
+                    "did not seem",
+                    "didn't seem",
+                    "do not appear",
+                    "does not appear",
+                    "don't appear",
+                    "doesn't appear",
+                    "did not appear",
+                    "didn't appear"
+                ],
+                "activationFeatureNids": [
+                    "negative"
+                ],
+                "activationFeatures": [
+                    {
+                        "nid": "negative",
+                        "name": [
+                            {
+                                "lang": "zh",
+                                "text": "否定形式"
+                            },
+                            {
+                                "lang": "en",
+                                "text": "Negative"
+                            }
+                        ],
+                        "description": [
+                            {
+                                "lang": "zh",
+                                "text": "表示否定、不存在、不发生或不允许，常见于 not、never、no 等结构。"
+                            },
+                            {
+                                "lang": "en",
+                                "text": "Marks negation, absence, non-occurrence, or prohibition, often signaled by not, never, or no."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "openSlots": [
+            {
+                "slotKey": "fronted_context",
+                "required": false,
+                "grammarControlling": true,
+                "growthPriority": null,
+                "dependsOn": []
+            },
+            {
+                "slotKey": "subject",
+                "required": true,
+                "grammarControlling": true,
+                "growthPriority": null,
+                "dependsOn": []
+            },
+            {
+                "slotKey": "mid_adverb",
+                "required": false,
+                "grammarControlling": true,
+                "growthPriority": 21,
+                "dependsOn": []
+            },
+            {
+                "slotKey": "property",
+                "required": true,
+                "grammarControlling": true,
+                "growthPriority": null,
+                "dependsOn": []
+            },
+            {
+                "slotKey": "context_phrase",
+                "required": false,
+                "grammarControlling": true,
+                "growthPriority": null,
+                "dependsOn": []
+            }
+        ],
+        "openSlotList": [
+            {
+                "slotKey": "fronted_context",
+                "slot": {
+                    "nid": "fronted_context",
+                    "name": [
+                        {
+                            "lang": "zh",
+                            "text": "句首背景短语"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Fronted Context Phrase"
+                        }
+                    ],
+                    "description": [
+                        {
+                            "lang": "zh",
+                            "text": "出现在主语前的背景 PP/As 短语，如 During WWII、At the wine tasting、Unlike in England。"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Fronted PP/As-phrase before the subject, e.g. During WWII, At the wine tasting."
+                        }
+                    ],
+                    "categoryNid": "prepositional_phrase",
+                    "color": "rgba(20,184,166,1)",
+                    "categoryName": [
+                        {
+                            "lang": "zh",
+                            "text": "介词短语槽位"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Prepositional Phrase Slot"
+                        }
+                    ],
+                    "categoryDescription": [
+                        {
+                            "lang": "zh",
+                            "text": "用于填入 in the park、on the table 等完整介词短语。"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Used for full prepositional phrases such as in the park or on the table."
+                        }
+                    ]
+                },
+                "required": false,
+                "grammarControlling": true,
+                "dependsOn": []
+            },
+            {
+                "slotKey": "subject",
+                "slot": {
+                    "nid": "subject",
+                    "name": [
+                        {
+                            "lang": "zh",
+                            "text": "主语"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Subject"
+                        }
+                    ],
+                    "description": [
+                        {
+                            "lang": "zh",
+                            "text": "表示整句话在说谁或什么，是那个被介绍、被描述、被判断、或去做事情的主体。"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Shows who or what the sentence is about: the person, thing, or place being introduced, described, judged, or said to do something."
+                        }
+                    ],
+                    "categoryNid": "subject_entity",
+                    "color": "rgba(14,165,233,1)",
+                    "categoryName": [
+                        {
+                            "lang": "zh",
+                            "text": "主语实体槽位"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Subject Entity Slot"
+                        }
+                    ],
+                    "categoryDescription": [
+                        {
+                            "lang": "zh",
+                            "text": "用于填入执行者、承受者或句子讨论对象等主语成分。"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Used for the sentence subject, such as the doer, the affected entity, or the main topic under discussion."
+                        }
+                    ]
+                },
+                "required": true,
+                "grammarControlling": true,
+                "dependsOn": []
+            },
+            {
+                "slotKey": "mid_adverb",
+                "slot": {
+                    "nid": "mid_adverb",
+                    "name": [
+                        {
+                            "lang": "zh",
+                            "text": "中位副词"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Mid Adverb"
+                        }
+                    ],
+                    "description": [
+                        {
+                            "lang": "zh",
+                            "text": "位于助动词与实义动词之间的副词，如 never、already、just、ever。"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "An adverb between auxiliary and lexical verb, e.g. never, already, just, ever."
+                        }
+                    ],
+                    "categoryNid": "lexical_chunk",
+                    "color": "rgba(59,130,246,1)",
+                    "categoryName": [
+                        {
+                            "lang": "zh",
+                            "text": "词块槽位"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Lexical Chunk Slot"
+                        }
+                    ],
+                    "categoryDescription": [
+                        {
+                            "lang": "zh",
+                            "text": "用于填入应整体保留的固定表达或高频搭配。"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Used for fixed expressions or high-frequency chunks that should be treated as whole units."
+                        }
+                    ]
+                },
+                "required": false,
+                "grammarControlling": true,
+                "growthPriority": 21,
+                "dependsOn": []
+            },
+            {
+                "slotKey": "property",
+                "slot": {
+                    "nid": "property",
+                    "name": [
+                        {
+                            "lang": "zh",
+                            "text": "性质"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Property"
+                        }
+                    ],
+                    "description": [
+                        {
+                            "lang": "zh",
+                            "text": "表示人或事物具有什么样的性质、状态、特点或感受。"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Shows a quality, state, evaluation, or feeling. It is used to describe a state, quality, or feeling."
+                        }
+                    ],
+                    "categoryNid": "adjective_property",
+                    "color": "rgba(236,72,153,1)",
+                    "categoryName": [
+                        {
+                            "lang": "zh",
+                            "text": "性质形容词槽位"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Adjective Property Slot"
+                        }
+                    ],
+                    "categoryDescription": [
+                        {
+                            "lang": "zh",
+                            "text": "用于填入颜色、大小、感觉、评价等性质词。"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Used for property words such as color, size, feeling, or evaluative adjectives."
+                        }
+                    ]
+                },
+                "required": true,
+                "grammarControlling": true,
+                "dependsOn": []
+            },
+            {
+                "slotKey": "context_phrase",
+                "slot": {
+                    "nid": "context_phrase",
+                    "name": [
+                        {
+                            "lang": "zh",
+                            "text": "背景短语"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Context Phrase"
+                        }
+                    ],
+                    "description": [
+                        {
+                            "lang": "zh",
+                            "text": "表示动作或状态发生时的背景补充：常见为介词短语（地点、搭配、场景），也可为缩略的 V-ing 情状状语（如 entering Atlantic Daylight Time / walking home），不单独升成从句。"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Background adjunct for an action or state: often a PP (place, company, setting), and also a reduced V-ing circumstance adjunct (e.g. entering Atlantic Daylight Time / walking home), kept inside the clause rather than promoted."
+                        }
+                    ],
+                    "categoryNid": "lexical_chunk",
+                    "color": "rgba(59,130,246,1)",
+                    "categoryName": [
+                        {
+                            "lang": "zh",
+                            "text": "词块槽位"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Lexical Chunk Slot"
+                        }
+                    ],
+                    "categoryDescription": [
+                        {
+                            "lang": "zh",
+                            "text": "用于填入应整体保留的固定表达或高频搭配。"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Used for fixed expressions or high-frequency chunks that should be treated as whole units."
+                        }
+                    ]
+                },
+                "required": false,
+                "grammarControlling": true,
+                "dependsOn": []
+            }
+        ],
+        "basicTypeNid": "simple",
+        "basicType": {
+            "nid": "simple",
+            "name": [
+                {
+                    "lang": "zh",
+                    "text": "简单句"
+                },
+                {
+                    "lang": "en",
+                    "text": "Simple Sentence"
+                }
+            ],
+            "description": [
+                {
+                    "lang": "zh",
+                    "text": "只包含一个独立分句的基础句型，是低阶教学和句型骨架训练的核心类型。"
+                },
+                {
+                    "lang": "en",
+                    "text": "A sentence with only one independent clause, forming the core type for foundational teaching and sentence skeleton practice."
+                }
+            ]
+        },
+        "functionalTypeNid": "declarative",
+        "functionalType": {
+            "nid": "declarative",
+            "name": [
+                {
+                    "lang": "zh",
+                    "text": "陈述句"
+                },
+                {
+                    "lang": "en",
+                    "text": "Declarative"
+                }
+            ],
+            "description": [
+                {
+                    "lang": "zh",
+                    "text": "用于陈述事实、观点、状态或信息，是写作与说明中最基础、最常见的句子功能类型。"
+                },
+                {
+                    "lang": "en",
+                    "text": "Used to state facts, ideas, states, or information; the most common functional sentence type in writing and explanation."
+                }
+            ]
+        },
+        "clauseProfileNid": "single_clause",
+        "clauseProfile": {
+            "nid": "single_clause",
+            "name": [
+                {
+                    "lang": "zh",
+                    "text": "单子句"
+                },
+                {
+                    "lang": "en",
+                    "text": "Single Clause"
+                }
+            ],
+            "description": [
+                {
+                    "lang": "zh",
+                    "text": "整个句型只包含一个核心子句，没有并列或从属扩展，是最基础的句型骨架。"
+                },
+                {
+                    "lang": "en",
+                    "text": "The pattern contains only one core clause with no coordination or subordination, forming the most basic sentence skeleton."
+                }
+            ]
+        },
+        "grammarFeatureNids": [
+            "indicative_mood",
+            "active_voice"
+        ],
+        "grammarFeatures": [
+            {
+                "nid": "indicative_mood",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "陈述语气"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Indicative Mood"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+                    }
+                ]
+            },
+            {
+                "nid": "active_voice",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "主动语态"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Active Voice"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+                    }
+                ]
+            }
+        ],
+        "specialFeatureNids": [],
+        "specialFeatures": [],
+        "communicativeFunctionNids": [
+            "describe",
+            "give_information"
+        ],
+        "communicativeFunctions": [
+            {
+                "nid": "describe",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "描述"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Describe"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "用于描写状态、动作、特征、位置、数量等，是最广泛的写作功能之一。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Used to describe states, actions, features, locations, and quantities; one of the broadest functions in writing."
+                    }
+                ]
+            },
+            {
+                "nid": "give_information",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "提供信息"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Give Information"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "用于回答问题、说明事实、补充细节或给出明确内容。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Used to answer questions, state facts, add detail, or provide explicit content."
+                    }
+                ]
+            }
+        ],
+        "discourseRoleNids": [
+            "standalone_sentence",
+            "supporting_detail"
+        ],
+        "discourseRoles": [
+            {
+                "nid": "standalone_sentence",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "独立句"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Standalone Sentence"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "单独即可完成表达，不依赖上下文中的其他句子承担结构角色。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Completes its communicative work on its own without depending on surrounding sentences for a structural role."
+                    }
+                ]
+            },
+            {
+                "nid": "supporting_detail",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "支持细节句"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Supporting Detail"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "用于补充事实、细节、特征或说明，支撑主题句。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Adds facts, details, features, or explanation to support the topic sentence."
+                    }
+                ]
+            }
+        ],
+        "teachingRealizations": [
+            "The plan seems workable.",
+            "At first, the idea seemed strange.",
+            "The plan does not seem workable."
+        ],
+        "system": true,
+        "enabled": true,
+        "primarySvocaCodeNid": "svc_adj",
+        "primarySvoca": {
+            "nid": "svc_adj",
+            "name": [
+                {
+                    "lang": "zh",
+                    "text": "SVC 形容词补语结构"
+                },
+                {
+                    "lang": "en",
+                    "text": "SVC Adjective Pattern"
+                }
+            ],
+            "description": [
+                {
+                    "lang": "zh",
+                    "text": "表示系动词后接形容词补语，常用于描述状态、性质、比较或评价。"
+                },
+                {
+                    "lang": "en",
+                    "text": "An SVC skeleton with an adjective complement, often used for states, qualities, comparison, or evaluation."
+                }
+            ]
+        },
+        "allowedSvocaCodeNids": [
+            "svc_adj",
+            "svc"
+        ],
+        "allowedSvocas": [
+            {
+                "nid": "svc_adj",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "SVC 形容词补语结构"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "SVC Adjective Pattern"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "表示系动词后接形容词补语，常用于描述状态、性质、比较或评价。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "An SVC skeleton with an adjective complement, often used for states, qualities, comparison, or evaluation."
+                    }
+                ]
+            },
+            {
+                "nid": "svc",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "SVC 主谓补结构"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "SVC Pattern"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "表示主语通过系动词连接到补语，用于说明身份、性质、状态或结果。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "A subject-verb-complement skeleton in which a linking verb connects the subject to its complement."
+                    }
+                ]
+            }
+        ],
+        "tenseScope": "neutral",
+        "predicateRealizationProfile": {
+            "kind": "lexical_finite",
+            "predicateSlotKey": "mid_adverb",
+            "operatorSlotKeys": []
+        },
+        "predicateRealizationProfileInfo": {
+            "kind": "lexical_finite",
+            "predicateSlotKey": "mid_adverb",
+            "predicateSlot": {
+                "nid": "mid_adverb",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "中位副词"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Mid Adverb"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "位于助动词与实义动词之间的副词，如 never、already、just、ever。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "An adverb between auxiliary and lexical verb, e.g. never, already, just, ever."
+                    }
+                ],
+                "categoryNid": "lexical_chunk",
+                "color": "rgba(59,130,246,1)",
+                "categoryName": [
+                    {
+                        "lang": "zh",
+                        "text": "词块槽位"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Lexical Chunk Slot"
+                    }
+                ],
+                "categoryDescription": [
+                    {
+                        "lang": "zh",
+                        "text": "用于填入应整体保留的固定表达或高频搭配。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Used for fixed expressions or high-frequency chunks that should be treated as whole units."
+                    }
+                ]
+            },
+            "operatorSlotKeys": [],
+            "operatorSlots": []
+        },
+        "sentenceRealizationSet": null,
+        "sentenceRealizationList": null,
+        "supportsPyramid": true,
+        "created": "2026-09-18T16:29:04.155+00:00",
+        "updated": "2026-09-18T16:29:04.155+00:00"
+    }
+}

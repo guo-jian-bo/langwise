@@ -1,0 +1,204 @@
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:langwise/app/routes/routes.dart';
+import 'package:langwise/common/widgets/widgets.dart';
+import 'package:langwise/theme/theme.dart';
+import 'package:ui_essentials/ui_essentials.dart';
+
+import '../../../../../common/entities/entities.dart';
+import '../../../../../common/values/values.dart';
+import '../../../../../common/widgets/zhenxie_widgets/set_expansion_buttons_widget.dart';
+import '../../../../../utils/utils.dart';
+import '../../../elements/utils/elements_page_utils.dart';
+import '../../../management/common/commons.dart';
+import '../bindings/course_unit_grammar_details_binding.dart';
+import '../controllers/course_unit_grammar_details_controller.dart';
+
+class CourseUnitGrammarDetailsView extends GetView<CourseUnitGrammarDetailsController> {
+  final String tagText;
+  const CourseUnitGrammarDetailsView({super.key, required this.tagText});
+
+  @override
+  String? get tag => tagText;
+
+  static Future<T?> to<T>({dynamic arguments, required String tag}) async {
+    return await Get.to<T>(
+      CourseUnitGrammarDetailsView(tagText: tag),
+      binding: CourseUnitGrammarDetailsBinding(tagText: tag),
+      routeName: Routes.COURSE_UNIT_GRAMMAR_DETAILS,
+      arguments: arguments,
+      preventDuplicates: false,
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return ManageScaffold(
+      onRefresh: () {
+        controller.refreshList();
+      },
+      body: SizedBox(
+        width: double.infinity,
+        child: Column(
+          children: [
+            BreadcrumbWidget(isCompatibleManage: controller.isManagement),
+            SizedBox(height: 10.wMin),
+            _buildTitleWidget(),
+            SizedBox(height: 10.wMin),
+            Expanded(child: _buildListWidget()),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildTitleWidget(){
+    return Container(
+      width: double.infinity,
+      padding: EdgeInsets.symmetric(horizontal: 90.wMin),
+      child: Obx((){
+        final data = controller.targetDetail.value;
+        final title = LearningLangUtils.getLocalLang(data.title);
+        final description = LearningLangUtils.getLocalLang(data.description);
+        return Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              title?.text??'',
+              style: TextStyle(
+                fontSize: 28.wMin,
+                fontWeight: FontWeight.w600,
+                color: AppTheme.cZhenxieFontPrimary.color,
+                fontFamily: AppFontValue.sourceHanSerifCN,
+              ),
+            ),
+            SizedBox(height: 8.wMin),
+            Text(
+              description?.text??'',
+              style: TextStyle(
+                fontSize: 18.wMin,
+                fontWeight: FontWeight.w400,
+                color: AppTheme.cZhenxieFontSecondary.color,
+                fontFamily: AppFontValue.sourceHanSerifCN,
+              ),
+            ),
+          ],
+        );
+      }),
+    );
+  }
+
+  Widget _buildListWidget() {
+    return Obx(() {
+      if (controller.dataList.isEmpty) {
+        return _buildUnListWidget();
+      }
+
+      return SentenceGrammarGroupListWidget(
+        isManagement: controller.isManagement,
+        // isToDetail: false,
+        isToDetailBindRealizationSetId: true,
+        unitId: controller.unitId,
+        list: controller.dataList,
+      );
+    });
+  }
+
+  /// 未归组例句列表
+  Widget _buildUnListWidget(){
+    return Obx(() {
+      if (controller.unGroupedSentenceList.isEmpty && !controller.isLoading.value) {
+        return NotDataWidget(message: "这个语法点还没有签发组。");
+      }
+
+      List<PatternBlueprintSentenceBriefEntity> contents = [];
+      for (var element in controller.unGroupedSentenceList.toList()) {
+        if(element.contents == null) continue;
+        for(var item in element.contents!){
+          if(item == null) continue;
+          contents.add(item);
+        }
+      }
+
+      return ListView.separated(
+        itemCount: contents.length,
+        padding: EdgeInsets.only(bottom: 220.wMin, left: 90.wMin, right: 90.wMin, top: 16.wMin),
+        separatorBuilder: (context, index) => SizedBox(height: 16.wMin),
+        itemBuilder: (context, index) {
+          return _buildUnItemWidget(contents[index]);
+        },
+      );
+    });
+  }
+
+  Widget _buildUnItemWidget(PatternBlueprintSentenceBriefEntity item){
+    return TapScaleWidget(
+      onTap: () {
+        ElementsPageUtils.jumpElementsPage(
+          contentId: item.actualSentenceId, 
+          contentType: item.actualContentType, 
+          semanticId: null, 
+          content: item.actualContent??'',
+          styleId: null, 
+          dialect: null,
+          isManagement: controller.isManagement,
+        );
+      },
+      sclae: 1,
+      borderRadius: 16.wMin,
+      backColor: AppTheme.cZhenxieFontPrimary.color.withValues(alpha: 0.06),
+      child: Container(
+        padding: EdgeInsets.all(16.wMin),
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(16.wMin),
+          color: AppTheme.cZhenxieBackgroundPrimary.color,
+          border: Border.all(
+            color: AppTheme.cZhenxieBorderPrimary.color,
+            width: 1.wMin,
+          ),
+        ),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              children: [
+                Expanded(
+                  child: Text(
+                    item.actualContent??'',
+                    style: TextStyle(
+                      fontSize: 28.wMin,
+                      fontWeight: FontWeight.w600,
+                      color: AppTheme.cZhenxieFontPrimary.color,
+                      fontFamily: AppFontValue.robotoMono,
+                    ),
+                  ),
+                ),
+                SizedBox(width: 8.wMin),
+                SetExpansionButtonsWidget(
+                  isManagement: controller.isManagement,
+                  contentId: item.actualSentenceId,
+                  contentType: item.actualContentType,
+                  content: item.actualContent,
+                  isNormal: item.isNormal,
+                ),
+      
+              ],
+            ),
+            SizedBox(height: 8.wMin),
+            Text(
+              item.actualDefinition??'',
+              style: TextStyle(
+                fontSize: 24.wMin,
+                fontWeight: FontWeight.w400,
+                color: AppTheme.cZhenxieFontSecondary.color,
+                fontFamily: AppFontValue.sourceHanSerifCN,
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+
+}

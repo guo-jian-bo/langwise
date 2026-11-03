@@ -1,0 +1,1062 @@
+{
+  "code": 200,
+  "data": {
+    "uid": 91028,
+    "name": [
+      {
+        "lang": "zh",
+        "text": "小狐狸没有跑走"
+      },
+      {
+        "lang": "en",
+        "text": "The fox did not run away"
+      }
+    ],
+    "paragraphBlueprintNid": "recount_full",
+    "blueprint": {
+      "nid": "recount_full",
+      "name": [
+        {
+          "lang": "zh",
+          "text": "把经过写完整"
+        },
+        {
+          "lang": "en",
+          "text": "Tell the Whole Event"
+        }
+      ],
+      "description": [
+        {
+          "lang": "zh",
+          "text": "先交代时间和地点，再按顺序写经过，有变化也可以写出来，最后写结果或感受。"
+        },
+        {
+          "lang": "en",
+          "text": "Set the time and place, tell what happened in order, add a change if there is one, and end with the result or how you felt."
+        }
+      ],
+      "paragraphTypeNid": "recount",
+      "difficulty": {
+        "max": 4,
+        "min": 2
+      },
+      "order": 2,
+      "minSentenceCount": 4,
+      "maxSentenceCount": 7,
+      "slots": [
+        {
+          "order": 1,
+          "beatNid": "opening",
+          "required": true,
+          "repeatMin": 1,
+          "repeatMax": 1,
+          "allowedDiscourseRoleNids": [
+            "scene_setting"
+          ],
+          "allowedFamilyNids": [
+            "location_and_time",
+            "action_and_experience"
+          ],
+          "allowedPairTypeNidToNext": "sequence_pair",
+          "jobName": [
+            {
+              "lang": "zh",
+              "text": "交代时间地点"
+            },
+            {
+              "lang": "en",
+              "text": "Set time and place"
+            }
+          ],
+          "jobDescription": [
+            {
+              "lang": "zh",
+              "text": "先交代那一次是在什么时候、什么地方，必要时点出有谁。让读者知道你要讲的是已经发生过的一件事。"
+            },
+            {
+              "lang": "en",
+              "text": "First say when and where that time was, and who was there if it matters. A reader should know you are telling something that already happened."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "beatNid": "develop",
+          "required": true,
+          "repeatMin": 2,
+          "repeatMax": 4,
+          "allowedDiscourseRoleNids": [
+            "supporting_detail",
+            "process_step"
+          ],
+          "allowedFamilyNids": [
+            "action_and_experience",
+            "location_and_time"
+          ],
+          "allowedPairTypeNidToNext": "sequence_pair",
+          "jobName": [
+            {
+              "lang": "zh",
+              "text": "按顺序写经过"
+            },
+            {
+              "lang": "en",
+              "text": "Tell it in order"
+            }
+          ],
+          "jobDescription": [
+            {
+              "lang": "zh",
+              "text": "按发生的顺序把经过写下去：先怎样、后来怎样。一件事接一件事，不要跳到说明做法或发表观点。"
+            },
+            {
+              "lang": "en",
+              "text": "Tell what happened in order: first this, then that. Stay with the events; do not switch into how-to steps or an opinion."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "beatNid": "turn",
+          "required": false,
+          "repeatMin": 0,
+          "repeatMax": 1,
+          "allowedDiscourseRoleNids": [
+            "contrast_sentence",
+            "result_sentence"
+          ],
+          "allowedFamilyNids": [
+            "action_and_experience",
+            "reason_and_result"
+          ],
+          "allowedPairTypeNidToNext": "sequence_pair",
+          "jobName": [
+            {
+              "lang": "zh",
+              "text": "写意外转折"
+            },
+            {
+              "lang": "en",
+              "text": "Write the turn"
+            }
+          ],
+          "jobDescription": [
+            {
+              "lang": "zh",
+              "text": "如果有变化、意外或转折，就写在这里：事情跟预想不一样的那一下。没有的话这一拍可以空着。"
+            },
+            {
+              "lang": "en",
+              "text": "If something changed or went unexpected, write that shift here. If nothing turned, this beat may stay empty."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "beatNid": "close",
+          "required": true,
+          "repeatMin": 1,
+          "repeatMax": 1,
+          "allowedDiscourseRoleNids": [
+            "result_sentence",
+            "concluding_sentence",
+            "opinion_statement"
+          ],
+          "allowedFamilyNids": [
+            "action_and_experience",
+            "reason_and_result",
+            "comparison_and_evaluation"
+          ],
+          "allowedPairTypeNidToNext": null,
+          "jobName": [
+            {
+              "lang": "zh",
+              "text": "写结果感受"
+            },
+            {
+              "lang": "en",
+              "text": "End with the result"
+            }
+          ],
+          "jobDescription": [
+            {
+              "lang": "zh",
+              "text": "写这件事的结果，或你当时的感受。收在「那一次」上，不要改口去讲以后常常怎么做。"
+            },
+            {
+              "lang": "en",
+              "text": "End with the result or how you felt that time. Stay with that one occasion; do not switch into how it is usually done."
+            }
+          ]
+        }
+      ],
+      "slotList": [
+        {
+          "order": 1,
+          "beatNid": "opening",
+          "required": true,
+          "repeatMin": 1,
+          "repeatMax": 1,
+          "allowedDiscourseRoleNids": [
+            "scene_setting"
+          ],
+          "allowedFamilyNids": [
+            "location_and_time",
+            "action_and_experience"
+          ],
+          "allowedPairTypeNidToNext": "sequence_pair",
+          "jobName": [
+            {
+              "lang": "zh",
+              "text": "交代时间地点"
+            },
+            {
+              "lang": "en",
+              "text": "Set time and place"
+            }
+          ],
+          "jobDescription": [
+            {
+              "lang": "zh",
+              "text": "先交代那一次是在什么时候、什么地方，必要时点出有谁。让读者知道你要讲的是已经发生过的一件事。"
+            },
+            {
+              "lang": "en",
+              "text": "First say when and where that time was, and who was there if it matters. A reader should know you are telling something that already happened."
+            }
+          ],
+          "allowedDiscourseRoles": [
+            {
+              "nid": "scene_setting",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "场景铺垫句"
+                },
+                {
+                  "lang": "en",
+                  "text": "Scene-Setting Sentence"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "用于交代时间、背景、环境或正在发生的情景，为后续内容铺垫语境。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to establish time, background, environment, or an ongoing scene that frames what follows."
+                }
+              ]
+            }
+          ],
+          "allowedFamilies": [
+            {
+              "nid": "location_and_time",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "说明在哪、何时、按什么顺序"
+                },
+                {
+                  "lang": "en",
+                  "text": "Saying Where, When, and In What Order"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "这一组句型帮助学习者把事情放到清楚的地点和时间里，再带着读者按顺序看完整个过程。"
+                },
+                {
+                  "lang": "en",
+                  "text": "This group helps learners place events in clear time and place, then guide the reader through the steps in the right order."
+                }
+              ]
+            },
+            {
+              "nid": "action_and_experience",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "讲动作、经历和变化"
+                },
+                {
+                  "lang": "en",
+                  "text": "Talking About Actions, Experience, and Change"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "这一组句型帮助学习者讲清楚眼前正在发生什么、平时通常怎么做、过去经历过什么，以及这些经历和现在有什么联系。"
+                },
+                {
+                  "lang": "en",
+                  "text": "This group helps learners talk about what is happening now, what people usually do, what happened before, and how past experience still connects to the present."
+                }
+              ]
+            }
+          ],
+          "allowedPairTypeToNext": {
+            "nid": "sequence_pair",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "顺序表达配对"
+              },
+              {
+                "lang": "en",
+                "text": "Sequence-Expression Pair"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "用于连线匹配表达同一前后顺序关系的不同句型结构。"
+              },
+              {
+                "lang": "en",
+                "text": "Matches different sentence structures that express the same step or temporal sequence."
+              }
+            ]
+          }
+        },
+        {
+          "order": 2,
+          "beatNid": "develop",
+          "required": true,
+          "repeatMin": 2,
+          "repeatMax": 4,
+          "allowedDiscourseRoleNids": [
+            "supporting_detail",
+            "process_step"
+          ],
+          "allowedFamilyNids": [
+            "action_and_experience",
+            "location_and_time"
+          ],
+          "allowedPairTypeNidToNext": "sequence_pair",
+          "jobName": [
+            {
+              "lang": "zh",
+              "text": "按顺序写经过"
+            },
+            {
+              "lang": "en",
+              "text": "Tell it in order"
+            }
+          ],
+          "jobDescription": [
+            {
+              "lang": "zh",
+              "text": "按发生的顺序把经过写下去：先怎样、后来怎样。一件事接一件事，不要跳到说明做法或发表观点。"
+            },
+            {
+              "lang": "en",
+              "text": "Tell what happened in order: first this, then that. Stay with the events; do not switch into how-to steps or an opinion."
+            }
+          ],
+          "allowedDiscourseRoles": [
+            {
+              "nid": "supporting_detail",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "支持细节句"
+                },
+                {
+                  "lang": "en",
+                  "text": "Supporting Detail"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "用于补充事实、细节、特征或说明，支撑主题句。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Adds facts, details, features, or explanation to support the topic sentence."
+                }
+              ]
+            },
+            {
+              "nid": "process_step",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "步骤句"
+                },
+                {
+                  "lang": "en",
+                  "text": "Process Step"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "用于流程性段落中推进步骤顺序，说明 first、then、next、finally 等阶段。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Advances the order of steps in a process paragraph, marking stages such as first, then, next, and finally."
+                }
+              ]
+            }
+          ],
+          "allowedFamilies": [
+            {
+              "nid": "action_and_experience",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "讲动作、经历和变化"
+                },
+                {
+                  "lang": "en",
+                  "text": "Talking About Actions, Experience, and Change"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "这一组句型帮助学习者讲清楚眼前正在发生什么、平时通常怎么做、过去经历过什么，以及这些经历和现在有什么联系。"
+                },
+                {
+                  "lang": "en",
+                  "text": "This group helps learners talk about what is happening now, what people usually do, what happened before, and how past experience still connects to the present."
+                }
+              ]
+            },
+            {
+              "nid": "location_and_time",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "说明在哪、何时、按什么顺序"
+                },
+                {
+                  "lang": "en",
+                  "text": "Saying Where, When, and In What Order"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "这一组句型帮助学习者把事情放到清楚的地点和时间里，再带着读者按顺序看完整个过程。"
+                },
+                {
+                  "lang": "en",
+                  "text": "This group helps learners place events in clear time and place, then guide the reader through the steps in the right order."
+                }
+              ]
+            }
+          ],
+          "allowedPairTypeToNext": {
+            "nid": "sequence_pair",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "顺序表达配对"
+              },
+              {
+                "lang": "en",
+                "text": "Sequence-Expression Pair"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "用于连线匹配表达同一前后顺序关系的不同句型结构。"
+              },
+              {
+                "lang": "en",
+                "text": "Matches different sentence structures that express the same step or temporal sequence."
+              }
+            ]
+          }
+        },
+        {
+          "order": 3,
+          "beatNid": "turn",
+          "required": false,
+          "repeatMin": 0,
+          "repeatMax": 1,
+          "allowedDiscourseRoleNids": [
+            "contrast_sentence",
+            "result_sentence"
+          ],
+          "allowedFamilyNids": [
+            "action_and_experience",
+            "reason_and_result"
+          ],
+          "allowedPairTypeNidToNext": "sequence_pair",
+          "jobName": [
+            {
+              "lang": "zh",
+              "text": "写意外转折"
+            },
+            {
+              "lang": "en",
+              "text": "Write the turn"
+            }
+          ],
+          "jobDescription": [
+            {
+              "lang": "zh",
+              "text": "如果有变化、意外或转折，就写在这里：事情跟预想不一样的那一下。没有的话这一拍可以空着。"
+            },
+            {
+              "lang": "en",
+              "text": "If something changed or went unexpected, write that shift here. If nothing turned, this beat may stay empty."
+            }
+          ],
+          "allowedDiscourseRoles": [
+            {
+              "nid": "contrast_sentence",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "对比句"
+                },
+                {
+                  "lang": "en",
+                  "text": "Contrast Sentence"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "用于呈现差异、对照、转折或相反情况。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to present difference, contrast, opposition, or opposing situations."
+                }
+              ]
+            },
+            {
+              "nid": "result_sentence",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "结果句"
+                },
+                {
+                  "lang": "en",
+                  "text": "Result Sentence"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "在逻辑链中承担结果、影响或后果说明的角色。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Carries the role of stating result, effect, or consequence in a logical chain."
+                }
+              ]
+            }
+          ],
+          "allowedFamilies": [
+            {
+              "nid": "action_and_experience",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "讲动作、经历和变化"
+                },
+                {
+                  "lang": "en",
+                  "text": "Talking About Actions, Experience, and Change"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "这一组句型帮助学习者讲清楚眼前正在发生什么、平时通常怎么做、过去经历过什么，以及这些经历和现在有什么联系。"
+                },
+                {
+                  "lang": "en",
+                  "text": "This group helps learners talk about what is happening now, what people usually do, what happened before, and how past experience still connects to the present."
+                }
+              ]
+            },
+            {
+              "nid": "reason_and_result",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "讲清原因、结果和目的"
+                },
+                {
+                  "lang": "en",
+                  "text": "Explaining Why It Happens and What It Leads To"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "这一组句型帮助学习者讲清楚事情为什么会这样、接下来会带来什么结果、这样做是为了什么，以及过程本身怎样展开。"
+                },
+                {
+                  "lang": "en",
+                  "text": "This group helps learners explain why something happens, what it leads to, what it is meant to achieve, and how a process is carried out."
+                }
+              ]
+            }
+          ],
+          "allowedPairTypeToNext": {
+            "nid": "sequence_pair",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "顺序表达配对"
+              },
+              {
+                "lang": "en",
+                "text": "Sequence-Expression Pair"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "用于连线匹配表达同一前后顺序关系的不同句型结构。"
+              },
+              {
+                "lang": "en",
+                "text": "Matches different sentence structures that express the same step or temporal sequence."
+              }
+            ]
+          }
+        },
+        {
+          "order": 4,
+          "beatNid": "close",
+          "required": true,
+          "repeatMin": 1,
+          "repeatMax": 1,
+          "allowedDiscourseRoleNids": [
+            "result_sentence",
+            "concluding_sentence",
+            "opinion_statement"
+          ],
+          "allowedFamilyNids": [
+            "action_and_experience",
+            "reason_and_result",
+            "comparison_and_evaluation"
+          ],
+          "allowedPairTypeNidToNext": null,
+          "jobName": [
+            {
+              "lang": "zh",
+              "text": "写结果感受"
+            },
+            {
+              "lang": "en",
+              "text": "End with the result"
+            }
+          ],
+          "jobDescription": [
+            {
+              "lang": "zh",
+              "text": "写这件事的结果，或你当时的感受。收在「那一次」上，不要改口去讲以后常常怎么做。"
+            },
+            {
+              "lang": "en",
+              "text": "End with the result or how you felt that time. Stay with that one occasion; do not switch into how it is usually done."
+            }
+          ],
+          "allowedDiscourseRoles": [
+            {
+              "nid": "result_sentence",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "结果句"
+                },
+                {
+                  "lang": "en",
+                  "text": "Result Sentence"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "在逻辑链中承担结果、影响或后果说明的角色。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Carries the role of stating result, effect, or consequence in a logical chain."
+                }
+              ]
+            },
+            {
+              "nid": "concluding_sentence",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "总结句"
+                },
+                {
+                  "lang": "en",
+                  "text": "Concluding Sentence"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "用于收束段落、重申重点或给出最后落点。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Closes a paragraph by reinforcing the main point or giving a final takeaway."
+                }
+              ]
+            },
+            {
+              "nid": "opinion_statement",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "观点句"
+                },
+                {
+                  "lang": "en",
+                  "text": "Opinion Statement"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "明确提出立场、判断或个人看法，常作为议论文段落开头。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Clearly states a stance, judgment, or personal view, often opening an opinion paragraph."
+                }
+              ]
+            }
+          ],
+          "allowedFamilies": [
+            {
+              "nid": "action_and_experience",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "讲动作、经历和变化"
+                },
+                {
+                  "lang": "en",
+                  "text": "Talking About Actions, Experience, and Change"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "这一组句型帮助学习者讲清楚眼前正在发生什么、平时通常怎么做、过去经历过什么，以及这些经历和现在有什么联系。"
+                },
+                {
+                  "lang": "en",
+                  "text": "This group helps learners talk about what is happening now, what people usually do, what happened before, and how past experience still connects to the present."
+                }
+              ]
+            },
+            {
+              "nid": "reason_and_result",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "讲清原因、结果和目的"
+                },
+                {
+                  "lang": "en",
+                  "text": "Explaining Why It Happens and What It Leads To"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "这一组句型帮助学习者讲清楚事情为什么会这样、接下来会带来什么结果、这样做是为了什么，以及过程本身怎样展开。"
+                },
+                {
+                  "lang": "en",
+                  "text": "This group helps learners explain why something happens, what it leads to, what it is meant to achieve, and how a process is carried out."
+                }
+              ]
+            },
+            {
+              "nid": "comparison_and_evaluation",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "比较选择并说出看法"
+                },
+                {
+                  "lang": "en",
+                  "text": "Comparing Options and Saying What Stands Out"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "这一组句型帮助学习者比较不同人和事、说出自己更偏向哪一个，并让读者看懂差别到底在哪里。"
+                },
+                {
+                  "lang": "en",
+                  "text": "This group helps learners compare people or things, show preferences, and make it clear what is better, different, or more suitable."
+                }
+              ]
+            }
+          ],
+          "allowedPairTypeToNext": null
+        }
+      ],
+      "system": true,
+      "enabled": true,
+      "created": "2026-09-08T03:26:52.423+00:00",
+      "updated": "2026-09-08T03:26:52.423+00:00"
+    },
+    "paragraphTypeNid": "recount",
+    "paragraphType": {
+      "nid": "recount",
+      "order": 3,
+      "localTask": [
+        {
+          "lang": "zh",
+          "text": "把一件发生过的事按顺序说完"
+        },
+        {
+          "lang": "en",
+          "text": "Tell what happened, in order"
+        }
+      ],
+      "name": [
+        {
+          "lang": "zh",
+          "text": "经过"
+        },
+        {
+          "lang": "en",
+          "text": "What Happened"
+        }
+      ],
+      "description": [
+        {
+          "lang": "zh",
+          "text": "写下那一次发生了什么：先交代时间和地点，再按顺序写经过，最后写结果或感受。"
+        },
+        {
+          "lang": "en",
+          "text": "Tell what happened that time: set the time and place, then write the events in order, and end with the result or how you felt."
+        }
+      ],
+      "difficulty": {
+        "max": 4,
+        "min": 0
+      }
+    },
+    "topicNid": "fox_story",
+    "content": "The little fox did not run away. It stood still on the wet stones and listened to the river. For a long time it only watched the dark trees and the moving grass. Night came down, but the fox did not leave.",
+    "difficulty": {
+      "max": 4,
+      "min": 3
+    },
+    "tier": -1,
+    "beatSpanList": [
+      {
+        "order": 1,
+        "beatNid": "opening",
+        "required": true,
+        "repeatMin": 1,
+        "repeatMax": 1,
+        "allowedDiscourseRoleNids": [
+          "scene_setting"
+        ],
+        "allowedFamilyNids": [
+          "location_and_time",
+          "action_and_experience"
+        ],
+        "allowedPairTypeNidToNext": "sequence_pair",
+        "jobName": [
+          {
+            "lang": "zh",
+            "text": "交代时间地点"
+          },
+          {
+            "lang": "en",
+            "text": "Set time and place"
+          }
+        ],
+        "jobDescription": [
+          {
+            "lang": "zh",
+            "text": "先交代那一次是在什么时候、什么地方，必要时点出有谁。让读者知道你要讲的是已经发生过的一件事。"
+          },
+          {
+            "lang": "en",
+            "text": "First say when and where that time was, and who was there if it matters. A reader should know you are telling something that already happened."
+          }
+        ],
+        "start": 0,
+        "end": 32
+      },
+      {
+        "order": 2,
+        "beatNid": "develop",
+        "required": true,
+        "repeatMin": 2,
+        "repeatMax": 4,
+        "allowedDiscourseRoleNids": [
+          "supporting_detail",
+          "process_step"
+        ],
+        "allowedFamilyNids": [
+          "action_and_experience",
+          "location_and_time"
+        ],
+        "allowedPairTypeNidToNext": "sequence_pair",
+        "jobName": [
+          {
+            "lang": "zh",
+            "text": "按顺序写经过"
+          },
+          {
+            "lang": "en",
+            "text": "Tell it in order"
+          }
+        ],
+        "jobDescription": [
+          {
+            "lang": "zh",
+            "text": "按发生的顺序把经过写下去：先怎样、后来怎样。一件事接一件事，不要跳到说明做法或发表观点。"
+          },
+          {
+            "lang": "en",
+            "text": "Tell what happened in order: first this, then that. Stay with the events; do not switch into how-to steps or an opinion."
+          }
+        ],
+        "start": 33,
+        "end": 92
+      },
+      {
+        "order": 2,
+        "beatNid": "develop",
+        "required": true,
+        "repeatMin": 2,
+        "repeatMax": 4,
+        "allowedDiscourseRoleNids": [
+          "supporting_detail",
+          "process_step"
+        ],
+        "allowedFamilyNids": [
+          "action_and_experience",
+          "location_and_time"
+        ],
+        "allowedPairTypeNidToNext": "sequence_pair",
+        "jobName": [
+          {
+            "lang": "zh",
+            "text": "按顺序写经过"
+          },
+          {
+            "lang": "en",
+            "text": "Tell it in order"
+          }
+        ],
+        "jobDescription": [
+          {
+            "lang": "zh",
+            "text": "按发生的顺序把经过写下去：先怎样、后来怎样。一件事接一件事，不要跳到说明做法或发表观点。"
+          },
+          {
+            "lang": "en",
+            "text": "Tell what happened in order: first this, then that. Stay with the events; do not switch into how-to steps or an opinion."
+          }
+        ],
+        "start": 93,
+        "end": 161
+      },
+      {
+        "order": 4,
+        "beatNid": "close",
+        "required": true,
+        "repeatMin": 1,
+        "repeatMax": 1,
+        "allowedDiscourseRoleNids": [
+          "result_sentence",
+          "concluding_sentence",
+          "opinion_statement"
+        ],
+        "allowedFamilyNids": [
+          "action_and_experience",
+          "reason_and_result",
+          "comparison_and_evaluation"
+        ],
+        "allowedPairTypeNidToNext": null,
+        "jobName": [
+          {
+            "lang": "zh",
+            "text": "写结果感受"
+          },
+          {
+            "lang": "en",
+            "text": "End with the result"
+          }
+        ],
+        "jobDescription": [
+          {
+            "lang": "zh",
+            "text": "写这件事的结果，或你当时的感受。收在「那一次」上，不要改口去讲以后常常怎么做。"
+          },
+          {
+            "lang": "en",
+            "text": "End with the result or how you felt that time. Stay with that one occasion; do not switch into how it is usually done."
+          }
+        ],
+        "start": 162,
+        "end": 205
+      }
+    ],
+    "anchors": [
+      {
+        "contentType": "EN_PHRASE",
+        "uid": 9102101,
+        "semanticId": 810101,
+        "ranges": [
+          {
+            "start": 23,
+            "end": 31,
+            "text": "run away"
+          }
+        ],
+        "foci": []
+      }
+    ],
+    "usedInCompositions": [
+      {
+        "uid": 90014,
+        "title": [
+          {
+            "lang": "zh",
+            "text": "河边的小狐狸"
+          },
+          {
+            "lang": "en",
+            "text": "The Little Fox by the River"
+          }
+        ],
+        "compositionBlueprintNid": "story_b2",
+        "compositionFamilyNid": "story_continuation"
+      }
+    ],
+    "access": "INTERNAL",
+    "in_course": false,
+    "in_course_cnt": 0,
+    "source": "demo_instance",
+    "created": null,
+    "updated": null
+  }
+}
