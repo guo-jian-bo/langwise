@@ -1,0 +1,1578 @@
+{
+  "nid": "description",
+  "order": 1,
+  "localTask": [
+    {
+      "lang": "zh",
+      "text": "把一个对象说完整"
+    },
+    {
+      "lang": "en",
+      "text": "Describe one object fully"
+    }
+  ],
+  "name": [
+    {
+      "lang": "zh",
+      "text": "描述"
+    },
+    {
+      "lang": "en",
+      "text": "Description"
+    }
+  ],
+  "description": [
+    {
+      "lang": "zh",
+      "text": "先说出要写的是谁或什么，再把它的样子和特点写清楚，最后可以补一句感受。"
+    },
+    {
+      "lang": "en",
+      "text": "First name who or what you are writing about, then add how it looks or what it is like, and you may end with a feeling."
+    }
+  ],
+  "difficulty": {
+    "max": 3,
+    "min": 0
+  },
+  "blueprints": [
+    {
+      "nid": "description_micro",
+      "name": [
+        {
+          "lang": "zh",
+          "text": "短描述"
+        },
+        {
+          "lang": "en",
+          "text": "A Short Description"
+        }
+      ],
+      "description": [
+        {
+          "lang": "zh",
+          "text": "先说出这是什么，再补一两句它什么样。"
+        },
+        {
+          "lang": "en",
+          "text": "First say what it is, then add one or two details about it."
+        }
+      ],
+      "paragraphTypeNid": "description",
+      "difficulty": {
+        "max": 1,
+        "min": 0
+      },
+      "order": 1,
+      "minSentenceCount": 2,
+      "maxSentenceCount": 4,
+      "slots": [
+        {
+          "order": 1,
+          "beatNid": "opening",
+          "required": true,
+          "repeatMin": 1,
+          "repeatMax": 1,
+          "allowedDiscourseRoleNids": [
+            "standalone_sentence",
+            "scene_setting"
+          ],
+          "allowedFamilyNids": [
+            "identity_and_state",
+            "existence_and_quantity"
+          ],
+          "allowedPairTypeNidToNext": "support_upgrade",
+          "jobName": [
+            {
+              "lang": "zh",
+              "text": "点出对象"
+            },
+            {
+              "lang": "en",
+              "text": "Name the object"
+            }
+          ],
+          "jobDescription": [
+            {
+              "lang": "zh",
+              "text": "先把要写的对象点出来：这是谁、是什么，或你眼前看到的是哪一件。读完这一句，别人就知道这段在写什么。"
+            },
+            {
+              "lang": "en",
+              "text": "First name what you are writing about: who it is, what it is, or what you see in front of you. After this sentence, a reader should know what this paragraph is about."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "beatNid": "develop",
+          "required": true,
+          "repeatMin": 1,
+          "repeatMax": 2,
+          "allowedDiscourseRoleNids": [
+            "supporting_detail"
+          ],
+          "allowedFamilyNids": [
+            "identity_and_state",
+            "existence_and_quantity",
+            "location_and_time",
+            "action_and_experience"
+          ],
+          "allowedPairTypeNidToNext": "support_upgrade",
+          "jobName": [
+            {
+              "lang": "zh",
+              "text": "写样子特点"
+            },
+            {
+              "lang": "en",
+              "text": "Add how it looks"
+            }
+          ],
+          "jobDescription": [
+            {
+              "lang": "zh",
+              "text": "接着写它的样子、特点或常在做什么。用看得见、听得到的细节把这个对象立住，不要另起一个话题。"
+            },
+            {
+              "lang": "en",
+              "text": "Then write how it looks, what it is like, or what it often does. Use details you can see or hear, and stay with this one thing."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "beatNid": "turn",
+          "required": false,
+          "repeatMin": 0,
+          "repeatMax": 0,
+          "allowedDiscourseRoleNids": [],
+          "allowedFamilyNids": [],
+          "allowedPairTypeNidToNext": null,
+          "jobName": [
+            {
+              "lang": "zh",
+              "text": "举个例子"
+            },
+            {
+              "lang": "en",
+              "text": "Give an example"
+            }
+          ],
+          "jobDescription": [
+            {
+              "lang": "zh",
+              "text": "如果还要再写，就补一个具体的例子或一个特别的地方，让前面那些特点落到一件真事上。"
+            },
+            {
+              "lang": "en",
+              "text": "If you write more, add a concrete example or one special detail so the earlier points land on something real."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "beatNid": "close",
+          "required": false,
+          "repeatMin": 0,
+          "repeatMax": 1,
+          "allowedDiscourseRoleNids": [
+            "concluding_sentence",
+            "opinion_statement"
+          ],
+          "allowedFamilyNids": [
+            "plan_and_intention",
+            "comparison_and_evaluation"
+          ],
+          "allowedPairTypeNidToNext": null,
+          "jobName": [
+            {
+              "lang": "zh",
+              "text": "收一句感受"
+            },
+            {
+              "lang": "en",
+              "text": "End with a feeling"
+            }
+          ],
+          "jobDescription": [
+            {
+              "lang": "zh",
+              "text": "可以收一句你的感受、喜好，或它为什么值得一写。不写也可以，别在这里突然换成别的东西。"
+            },
+            {
+              "lang": "en",
+              "text": "You may end with a feeling, a preference, or why it is worth writing about. You can skip this beat, but do not switch to something else."
+            }
+          ]
+        }
+      ],
+      "slotList": [
+        {
+          "order": 1,
+          "beatNid": "opening",
+          "required": true,
+          "repeatMin": 1,
+          "repeatMax": 1,
+          "allowedDiscourseRoleNids": [
+            "standalone_sentence",
+            "scene_setting"
+          ],
+          "allowedFamilyNids": [
+            "identity_and_state",
+            "existence_and_quantity"
+          ],
+          "allowedPairTypeNidToNext": "support_upgrade",
+          "jobName": [
+            {
+              "lang": "zh",
+              "text": "点出对象"
+            },
+            {
+              "lang": "en",
+              "text": "Name the object"
+            }
+          ],
+          "jobDescription": [
+            {
+              "lang": "zh",
+              "text": "先把要写的对象点出来：这是谁、是什么，或你眼前看到的是哪一件。读完这一句，别人就知道这段在写什么。"
+            },
+            {
+              "lang": "en",
+              "text": "First name what you are writing about: who it is, what it is, or what you see in front of you. After this sentence, a reader should know what this paragraph is about."
+            }
+          ],
+          "allowedDiscourseRoles": [
+            {
+              "nid": "standalone_sentence",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "独立句"
+                },
+                {
+                  "lang": "en",
+                  "text": "Standalone Sentence"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "单独即可完成表达，不依赖上下文中的其他句子承担结构角色。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Completes its communicative work on its own without depending on surrounding sentences for a structural role."
+                }
+              ]
+            },
+            {
+              "nid": "scene_setting",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "场景铺垫句"
+                },
+                {
+                  "lang": "en",
+                  "text": "Scene-Setting Sentence"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "用于交代时间、背景、环境或正在发生的情景，为后续内容铺垫语境。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to establish time, background, environment, or an ongoing scene that frames what follows."
+                }
+              ]
+            }
+          ],
+          "allowedFamilies": [
+            {
+              "nid": "identity_and_state",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "说清是谁、怎样、指什么"
+                },
+                {
+                  "lang": "en",
+                  "text": "Saying Who or What It Is, and What It Means"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "这一组句型帮助学习者先交代人物、事物或概念是什么，再补充它现在怎么样、来自哪里，或某个词具体指什么。"
+                },
+                {
+                  "lang": "en",
+                  "text": "This group helps learners say who or what a person, thing, or idea is, then add its state, background, or meaning more clearly."
+                }
+              ]
+            },
+            {
+              "nid": "existence_and_quantity",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "说明有没有、多少、归谁"
+                },
+                {
+                  "lang": "en",
+                  "text": "Saying What There Is, How Much, and Who Has It"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "这一组句型帮助学习者说明某样东西有没有、数量是多少、价格多少，以及它在谁那里。"
+                },
+                {
+                  "lang": "en",
+                  "text": "This group helps learners say whether something is there, how much there is, what it costs, and who has it."
+                }
+              ]
+            }
+          ],
+          "allowedPairTypeToNext": {
+            "nid": "support_upgrade",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "支撑升级"
+              },
+              {
+                "lang": "en",
+                "text": "Support Upgrade"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "用于把基础表达升级为带理由、证据或支撑信息的表达。"
+              },
+              {
+                "lang": "en",
+                "text": "Upgrades a basic expression into one with reasons, evidence, or other support."
+              }
+            ]
+          }
+        },
+        {
+          "order": 2,
+          "beatNid": "develop",
+          "required": true,
+          "repeatMin": 1,
+          "repeatMax": 2,
+          "allowedDiscourseRoleNids": [
+            "supporting_detail"
+          ],
+          "allowedFamilyNids": [
+            "identity_and_state",
+            "existence_and_quantity",
+            "location_and_time",
+            "action_and_experience"
+          ],
+          "allowedPairTypeNidToNext": "support_upgrade",
+          "jobName": [
+            {
+              "lang": "zh",
+              "text": "写样子特点"
+            },
+            {
+              "lang": "en",
+              "text": "Add how it looks"
+            }
+          ],
+          "jobDescription": [
+            {
+              "lang": "zh",
+              "text": "接着写它的样子、特点或常在做什么。用看得见、听得到的细节把这个对象立住，不要另起一个话题。"
+            },
+            {
+              "lang": "en",
+              "text": "Then write how it looks, what it is like, or what it often does. Use details you can see or hear, and stay with this one thing."
+            }
+          ],
+          "allowedDiscourseRoles": [
+            {
+              "nid": "supporting_detail",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "支持细节句"
+                },
+                {
+                  "lang": "en",
+                  "text": "Supporting Detail"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "用于补充事实、细节、特征或说明，支撑主题句。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Adds facts, details, features, or explanation to support the topic sentence."
+                }
+              ]
+            }
+          ],
+          "allowedFamilies": [
+            {
+              "nid": "identity_and_state",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "说清是谁、怎样、指什么"
+                },
+                {
+                  "lang": "en",
+                  "text": "Saying Who or What It Is, and What It Means"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "这一组句型帮助学习者先交代人物、事物或概念是什么，再补充它现在怎么样、来自哪里，或某个词具体指什么。"
+                },
+                {
+                  "lang": "en",
+                  "text": "This group helps learners say who or what a person, thing, or idea is, then add its state, background, or meaning more clearly."
+                }
+              ]
+            },
+            {
+              "nid": "existence_and_quantity",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "说明有没有、多少、归谁"
+                },
+                {
+                  "lang": "en",
+                  "text": "Saying What There Is, How Much, and Who Has It"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "这一组句型帮助学习者说明某样东西有没有、数量是多少、价格多少，以及它在谁那里。"
+                },
+                {
+                  "lang": "en",
+                  "text": "This group helps learners say whether something is there, how much there is, what it costs, and who has it."
+                }
+              ]
+            },
+            {
+              "nid": "location_and_time",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "说明在哪、何时、按什么顺序"
+                },
+                {
+                  "lang": "en",
+                  "text": "Saying Where, When, and In What Order"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "这一组句型帮助学习者把事情放到清楚的地点和时间里，再带着读者按顺序看完整个过程。"
+                },
+                {
+                  "lang": "en",
+                  "text": "This group helps learners place events in clear time and place, then guide the reader through the steps in the right order."
+                }
+              ]
+            },
+            {
+              "nid": "action_and_experience",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "讲动作、经历和变化"
+                },
+                {
+                  "lang": "en",
+                  "text": "Talking About Actions, Experience, and Change"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "这一组句型帮助学习者讲清楚眼前正在发生什么、平时通常怎么做、过去经历过什么，以及这些经历和现在有什么联系。"
+                },
+                {
+                  "lang": "en",
+                  "text": "This group helps learners talk about what is happening now, what people usually do, what happened before, and how past experience still connects to the present."
+                }
+              ]
+            }
+          ],
+          "allowedPairTypeToNext": {
+            "nid": "support_upgrade",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "支撑升级"
+              },
+              {
+                "lang": "en",
+                "text": "Support Upgrade"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "用于把基础表达升级为带理由、证据或支撑信息的表达。"
+              },
+              {
+                "lang": "en",
+                "text": "Upgrades a basic expression into one with reasons, evidence, or other support."
+              }
+            ]
+          }
+        },
+        {
+          "order": 3,
+          "beatNid": "turn",
+          "required": false,
+          "repeatMin": 0,
+          "repeatMax": 0,
+          "allowedDiscourseRoleNids": [],
+          "allowedFamilyNids": [],
+          "allowedPairTypeNidToNext": null,
+          "jobName": [
+            {
+              "lang": "zh",
+              "text": "举个例子"
+            },
+            {
+              "lang": "en",
+              "text": "Give an example"
+            }
+          ],
+          "jobDescription": [
+            {
+              "lang": "zh",
+              "text": "如果还要再写，就补一个具体的例子或一个特别的地方，让前面那些特点落到一件真事上。"
+            },
+            {
+              "lang": "en",
+              "text": "If you write more, add a concrete example or one special detail so the earlier points land on something real."
+            }
+          ],
+          "allowedDiscourseRoles": [],
+          "allowedFamilies": [],
+          "allowedPairTypeToNext": null
+        },
+        {
+          "order": 4,
+          "beatNid": "close",
+          "required": false,
+          "repeatMin": 0,
+          "repeatMax": 1,
+          "allowedDiscourseRoleNids": [
+            "concluding_sentence",
+            "opinion_statement"
+          ],
+          "allowedFamilyNids": [
+            "plan_and_intention",
+            "comparison_and_evaluation"
+          ],
+          "allowedPairTypeNidToNext": null,
+          "jobName": [
+            {
+              "lang": "zh",
+              "text": "收一句感受"
+            },
+            {
+              "lang": "en",
+              "text": "End with a feeling"
+            }
+          ],
+          "jobDescription": [
+            {
+              "lang": "zh",
+              "text": "可以收一句你的感受、喜好，或它为什么值得一写。不写也可以，别在这里突然换成别的东西。"
+            },
+            {
+              "lang": "en",
+              "text": "You may end with a feeling, a preference, or why it is worth writing about. You can skip this beat, but do not switch to something else."
+            }
+          ],
+          "allowedDiscourseRoles": [
+            {
+              "nid": "concluding_sentence",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "总结句"
+                },
+                {
+                  "lang": "en",
+                  "text": "Concluding Sentence"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "用于收束段落、重申重点或给出最后落点。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Closes a paragraph by reinforcing the main point or giving a final takeaway."
+                }
+              ]
+            },
+            {
+              "nid": "opinion_statement",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "观点句"
+                },
+                {
+                  "lang": "en",
+                  "text": "Opinion Statement"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "明确提出立场、判断或个人看法，常作为议论文段落开头。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Clearly states a stance, judgment, or personal view, often opening an opinion paragraph."
+                }
+              ]
+            }
+          ],
+          "allowedFamilies": [
+            {
+              "nid": "plan_and_intention",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "说能力、打算和想法"
+                },
+                {
+                  "lang": "en",
+                  "text": "Talking About Ability, Plans, and Intentions"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "这一组句型帮助学习者表达自己能不能做、接下来打算做什么、心里想做什么，或眼下需要做什么。"
+                },
+                {
+                  "lang": "en",
+                  "text": "This group helps learners say what someone can do, plans to do, wants to do, or needs to do."
+                }
+              ]
+            },
+            {
+              "nid": "comparison_and_evaluation",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "比较选择并说出看法"
+                },
+                {
+                  "lang": "en",
+                  "text": "Comparing Options and Saying What Stands Out"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "这一组句型帮助学习者比较不同人和事、说出自己更偏向哪一个，并让读者看懂差别到底在哪里。"
+                },
+                {
+                  "lang": "en",
+                  "text": "This group helps learners compare people or things, show preferences, and make it clear what is better, different, or more suitable."
+                }
+              ]
+            }
+          ],
+          "allowedPairTypeToNext": null
+        }
+      ],
+      "system": true,
+      "enabled": true,
+      "created": "2026-09-08T03:26:52.422+00:00",
+      "updated": "2026-09-08T03:26:52.422+00:00"
+    },
+    {
+      "nid": "description_full",
+      "name": [
+        {
+          "lang": "zh",
+          "text": "把对象写完整"
+        },
+        {
+          "lang": "en",
+          "text": "A Full Description"
+        }
+      ],
+      "description": [
+        {
+          "lang": "zh",
+          "text": "先点出要写的对象，再把样子和特点写充分，也可以举个例子，最后可以收一句感受。"
+        },
+        {
+          "lang": "en",
+          "text": "Name what you are writing about, add enough details, and you may give an example or end with a feeling."
+        }
+      ],
+      "paragraphTypeNid": "description",
+      "difficulty": {
+        "max": 3,
+        "min": 2
+      },
+      "order": 2,
+      "minSentenceCount": 3,
+      "maxSentenceCount": 6,
+      "slots": [
+        {
+          "order": 1,
+          "beatNid": "opening",
+          "required": true,
+          "repeatMin": 1,
+          "repeatMax": 1,
+          "allowedDiscourseRoleNids": [
+            "standalone_sentence",
+            "scene_setting"
+          ],
+          "allowedFamilyNids": [
+            "identity_and_state",
+            "existence_and_quantity"
+          ],
+          "allowedPairTypeNidToNext": "support_upgrade",
+          "jobName": [
+            {
+              "lang": "zh",
+              "text": "点出对象"
+            },
+            {
+              "lang": "en",
+              "text": "Name the object"
+            }
+          ],
+          "jobDescription": [
+            {
+              "lang": "zh",
+              "text": "先把要写的对象点出来：这是谁、是什么，或你眼前看到的是哪一件。读完这一句，别人就知道这段在写什么。"
+            },
+            {
+              "lang": "en",
+              "text": "First name what you are writing about: who it is, what it is, or what you see in front of you. After this sentence, a reader should know what this paragraph is about."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "beatNid": "develop",
+          "required": true,
+          "repeatMin": 1,
+          "repeatMax": 3,
+          "allowedDiscourseRoleNids": [
+            "supporting_detail",
+            "explanation_sentence"
+          ],
+          "allowedFamilyNids": [
+            "identity_and_state",
+            "existence_and_quantity",
+            "location_and_time",
+            "action_and_experience",
+            "comparison_and_evaluation"
+          ],
+          "allowedPairTypeNidToNext": "example_support_pair",
+          "jobName": [
+            {
+              "lang": "zh",
+              "text": "写样子特点"
+            },
+            {
+              "lang": "en",
+              "text": "Add how it looks"
+            }
+          ],
+          "jobDescription": [
+            {
+              "lang": "zh",
+              "text": "接着写它的样子、特点或常在做什么。用看得见、听得到的细节把这个对象立住，不要另起一个话题。"
+            },
+            {
+              "lang": "en",
+              "text": "Then write how it looks, what it is like, or what it often does. Use details you can see or hear, and stay with this one thing."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "beatNid": "turn",
+          "required": false,
+          "repeatMin": 0,
+          "repeatMax": 1,
+          "allowedDiscourseRoleNids": [
+            "example_sentence"
+          ],
+          "allowedFamilyNids": [
+            "opinion_and_support",
+            "action_and_experience"
+          ],
+          "allowedPairTypeNidToNext": "support_upgrade",
+          "jobName": [
+            {
+              "lang": "zh",
+              "text": "举个例子"
+            },
+            {
+              "lang": "en",
+              "text": "Give an example"
+            }
+          ],
+          "jobDescription": [
+            {
+              "lang": "zh",
+              "text": "如果还要再写，就补一个具体的例子或一个特别的地方，让前面那些特点落到一件真事上。"
+            },
+            {
+              "lang": "en",
+              "text": "If you write more, add a concrete example or one special detail so the earlier points land on something real."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "beatNid": "close",
+          "required": false,
+          "repeatMin": 0,
+          "repeatMax": 1,
+          "allowedDiscourseRoleNids": [
+            "concluding_sentence",
+            "opinion_statement"
+          ],
+          "allowedFamilyNids": [
+            "plan_and_intention",
+            "comparison_and_evaluation",
+            "summary_and_closure"
+          ],
+          "allowedPairTypeNidToNext": null,
+          "jobName": [
+            {
+              "lang": "zh",
+              "text": "收一句感受"
+            },
+            {
+              "lang": "en",
+              "text": "End with a feeling"
+            }
+          ],
+          "jobDescription": [
+            {
+              "lang": "zh",
+              "text": "可以收一句你的感受、喜好，或它为什么值得一写。不写也可以，别在这里突然换成别的东西。"
+            },
+            {
+              "lang": "en",
+              "text": "You may end with a feeling, a preference, or why it is worth writing about. You can skip this beat, but do not switch to something else."
+            }
+          ]
+        }
+      ],
+      "slotList": [
+        {
+          "order": 1,
+          "beatNid": "opening",
+          "required": true,
+          "repeatMin": 1,
+          "repeatMax": 1,
+          "allowedDiscourseRoleNids": [
+            "standalone_sentence",
+            "scene_setting"
+          ],
+          "allowedFamilyNids": [
+            "identity_and_state",
+            "existence_and_quantity"
+          ],
+          "allowedPairTypeNidToNext": "support_upgrade",
+          "jobName": [
+            {
+              "lang": "zh",
+              "text": "点出对象"
+            },
+            {
+              "lang": "en",
+              "text": "Name the object"
+            }
+          ],
+          "jobDescription": [
+            {
+              "lang": "zh",
+              "text": "先把要写的对象点出来：这是谁、是什么，或你眼前看到的是哪一件。读完这一句，别人就知道这段在写什么。"
+            },
+            {
+              "lang": "en",
+              "text": "First name what you are writing about: who it is, what it is, or what you see in front of you. After this sentence, a reader should know what this paragraph is about."
+            }
+          ],
+          "allowedDiscourseRoles": [
+            {
+              "nid": "standalone_sentence",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "独立句"
+                },
+                {
+                  "lang": "en",
+                  "text": "Standalone Sentence"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "单独即可完成表达，不依赖上下文中的其他句子承担结构角色。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Completes its communicative work on its own without depending on surrounding sentences for a structural role."
+                }
+              ]
+            },
+            {
+              "nid": "scene_setting",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "场景铺垫句"
+                },
+                {
+                  "lang": "en",
+                  "text": "Scene-Setting Sentence"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "用于交代时间、背景、环境或正在发生的情景，为后续内容铺垫语境。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to establish time, background, environment, or an ongoing scene that frames what follows."
+                }
+              ]
+            }
+          ],
+          "allowedFamilies": [
+            {
+              "nid": "identity_and_state",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "说清是谁、怎样、指什么"
+                },
+                {
+                  "lang": "en",
+                  "text": "Saying Who or What It Is, and What It Means"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "这一组句型帮助学习者先交代人物、事物或概念是什么，再补充它现在怎么样、来自哪里，或某个词具体指什么。"
+                },
+                {
+                  "lang": "en",
+                  "text": "This group helps learners say who or what a person, thing, or idea is, then add its state, background, or meaning more clearly."
+                }
+              ]
+            },
+            {
+              "nid": "existence_and_quantity",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "说明有没有、多少、归谁"
+                },
+                {
+                  "lang": "en",
+                  "text": "Saying What There Is, How Much, and Who Has It"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "这一组句型帮助学习者说明某样东西有没有、数量是多少、价格多少，以及它在谁那里。"
+                },
+                {
+                  "lang": "en",
+                  "text": "This group helps learners say whether something is there, how much there is, what it costs, and who has it."
+                }
+              ]
+            }
+          ],
+          "allowedPairTypeToNext": {
+            "nid": "support_upgrade",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "支撑升级"
+              },
+              {
+                "lang": "en",
+                "text": "Support Upgrade"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "用于把基础表达升级为带理由、证据或支撑信息的表达。"
+              },
+              {
+                "lang": "en",
+                "text": "Upgrades a basic expression into one with reasons, evidence, or other support."
+              }
+            ]
+          }
+        },
+        {
+          "order": 2,
+          "beatNid": "develop",
+          "required": true,
+          "repeatMin": 1,
+          "repeatMax": 3,
+          "allowedDiscourseRoleNids": [
+            "supporting_detail",
+            "explanation_sentence"
+          ],
+          "allowedFamilyNids": [
+            "identity_and_state",
+            "existence_and_quantity",
+            "location_and_time",
+            "action_and_experience",
+            "comparison_and_evaluation"
+          ],
+          "allowedPairTypeNidToNext": "example_support_pair",
+          "jobName": [
+            {
+              "lang": "zh",
+              "text": "写样子特点"
+            },
+            {
+              "lang": "en",
+              "text": "Add how it looks"
+            }
+          ],
+          "jobDescription": [
+            {
+              "lang": "zh",
+              "text": "接着写它的样子、特点或常在做什么。用看得见、听得到的细节把这个对象立住，不要另起一个话题。"
+            },
+            {
+              "lang": "en",
+              "text": "Then write how it looks, what it is like, or what it often does. Use details you can see or hear, and stay with this one thing."
+            }
+          ],
+          "allowedDiscourseRoles": [
+            {
+              "nid": "supporting_detail",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "支持细节句"
+                },
+                {
+                  "lang": "en",
+                  "text": "Supporting Detail"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "用于补充事实、细节、特征或说明，支撑主题句。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Adds facts, details, features, or explanation to support the topic sentence."
+                }
+              ]
+            },
+            {
+              "nid": "explanation_sentence",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "解释句"
+                },
+                {
+                  "lang": "en",
+                  "text": "Explanation Sentence"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "用于进一步说明前面的现象、条件、做法或判断，让读者更清楚地理解其中的原因、规律或运作方式。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to further explain a preceding situation, condition, action, or judgment so the reader can better understand its reason, pattern, or workings."
+                }
+              ]
+            }
+          ],
+          "allowedFamilies": [
+            {
+              "nid": "identity_and_state",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "说清是谁、怎样、指什么"
+                },
+                {
+                  "lang": "en",
+                  "text": "Saying Who or What It Is, and What It Means"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "这一组句型帮助学习者先交代人物、事物或概念是什么，再补充它现在怎么样、来自哪里，或某个词具体指什么。"
+                },
+                {
+                  "lang": "en",
+                  "text": "This group helps learners say who or what a person, thing, or idea is, then add its state, background, or meaning more clearly."
+                }
+              ]
+            },
+            {
+              "nid": "existence_and_quantity",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "说明有没有、多少、归谁"
+                },
+                {
+                  "lang": "en",
+                  "text": "Saying What There Is, How Much, and Who Has It"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "这一组句型帮助学习者说明某样东西有没有、数量是多少、价格多少，以及它在谁那里。"
+                },
+                {
+                  "lang": "en",
+                  "text": "This group helps learners say whether something is there, how much there is, what it costs, and who has it."
+                }
+              ]
+            },
+            {
+              "nid": "location_and_time",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "说明在哪、何时、按什么顺序"
+                },
+                {
+                  "lang": "en",
+                  "text": "Saying Where, When, and In What Order"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "这一组句型帮助学习者把事情放到清楚的地点和时间里，再带着读者按顺序看完整个过程。"
+                },
+                {
+                  "lang": "en",
+                  "text": "This group helps learners place events in clear time and place, then guide the reader through the steps in the right order."
+                }
+              ]
+            },
+            {
+              "nid": "action_and_experience",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "讲动作、经历和变化"
+                },
+                {
+                  "lang": "en",
+                  "text": "Talking About Actions, Experience, and Change"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "这一组句型帮助学习者讲清楚眼前正在发生什么、平时通常怎么做、过去经历过什么，以及这些经历和现在有什么联系。"
+                },
+                {
+                  "lang": "en",
+                  "text": "This group helps learners talk about what is happening now, what people usually do, what happened before, and how past experience still connects to the present."
+                }
+              ]
+            },
+            {
+              "nid": "comparison_and_evaluation",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "比较选择并说出看法"
+                },
+                {
+                  "lang": "en",
+                  "text": "Comparing Options and Saying What Stands Out"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "这一组句型帮助学习者比较不同人和事、说出自己更偏向哪一个，并让读者看懂差别到底在哪里。"
+                },
+                {
+                  "lang": "en",
+                  "text": "This group helps learners compare people or things, show preferences, and make it clear what is better, different, or more suitable."
+                }
+              ]
+            }
+          ],
+          "allowedPairTypeToNext": {
+            "nid": "example_support_pair",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "举例支撑配对"
+              },
+              {
+                "lang": "en",
+                "text": "Example Support Pair"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "用于把观点、信息或解释与其对应的例子连接起来。"
+              },
+              {
+                "lang": "en",
+                "text": "Links an opinion, piece of information, or explanation with its supporting example."
+              }
+            ]
+          }
+        },
+        {
+          "order": 3,
+          "beatNid": "turn",
+          "required": false,
+          "repeatMin": 0,
+          "repeatMax": 1,
+          "allowedDiscourseRoleNids": [
+            "example_sentence"
+          ],
+          "allowedFamilyNids": [
+            "opinion_and_support",
+            "action_and_experience"
+          ],
+          "allowedPairTypeNidToNext": "support_upgrade",
+          "jobName": [
+            {
+              "lang": "zh",
+              "text": "举个例子"
+            },
+            {
+              "lang": "en",
+              "text": "Give an example"
+            }
+          ],
+          "jobDescription": [
+            {
+              "lang": "zh",
+              "text": "如果还要再写，就补一个具体的例子或一个特别的地方，让前面那些特点落到一件真事上。"
+            },
+            {
+              "lang": "en",
+              "text": "If you write more, add a concrete example or one special detail so the earlier points land on something real."
+            }
+          ],
+          "allowedDiscourseRoles": [
+            {
+              "nid": "example_sentence",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "举例句"
+                },
+                {
+                  "lang": "en",
+                  "text": "Example Sentence"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "用于通过具体例子强化前面的信息、解释或观点。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Uses a concrete example to strengthen the preceding information, explanation, or opinion."
+                }
+              ]
+            }
+          ],
+          "allowedFamilies": [
+            {
+              "nid": "opinion_and_support",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "提出观点并拿出依据"
+                },
+                {
+                  "lang": "en",
+                  "text": "Stating a View and Supporting It"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "这一组句型帮助学习者先把立场说出来，再用例子、经历、数据或别人的信息把这句话撑住。"
+                },
+                {
+                  "lang": "en",
+                  "text": "This group helps learners put forward a view and then support it with examples, personal experience, data, or outside information."
+                }
+              ]
+            },
+            {
+              "nid": "action_and_experience",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "讲动作、经历和变化"
+                },
+                {
+                  "lang": "en",
+                  "text": "Talking About Actions, Experience, and Change"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "这一组句型帮助学习者讲清楚眼前正在发生什么、平时通常怎么做、过去经历过什么，以及这些经历和现在有什么联系。"
+                },
+                {
+                  "lang": "en",
+                  "text": "This group helps learners talk about what is happening now, what people usually do, what happened before, and how past experience still connects to the present."
+                }
+              ]
+            }
+          ],
+          "allowedPairTypeToNext": {
+            "nid": "support_upgrade",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "支撑升级"
+              },
+              {
+                "lang": "en",
+                "text": "Support Upgrade"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "用于把基础表达升级为带理由、证据或支撑信息的表达。"
+              },
+              {
+                "lang": "en",
+                "text": "Upgrades a basic expression into one with reasons, evidence, or other support."
+              }
+            ]
+          }
+        },
+        {
+          "order": 4,
+          "beatNid": "close",
+          "required": false,
+          "repeatMin": 0,
+          "repeatMax": 1,
+          "allowedDiscourseRoleNids": [
+            "concluding_sentence",
+            "opinion_statement"
+          ],
+          "allowedFamilyNids": [
+            "plan_and_intention",
+            "comparison_and_evaluation",
+            "summary_and_closure"
+          ],
+          "allowedPairTypeNidToNext": null,
+          "jobName": [
+            {
+              "lang": "zh",
+              "text": "收一句感受"
+            },
+            {
+              "lang": "en",
+              "text": "End with a feeling"
+            }
+          ],
+          "jobDescription": [
+            {
+              "lang": "zh",
+              "text": "可以收一句你的感受、喜好，或它为什么值得一写。不写也可以，别在这里突然换成别的东西。"
+            },
+            {
+              "lang": "en",
+              "text": "You may end with a feeling, a preference, or why it is worth writing about. You can skip this beat, but do not switch to something else."
+            }
+          ],
+          "allowedDiscourseRoles": [
+            {
+              "nid": "concluding_sentence",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "总结句"
+                },
+                {
+                  "lang": "en",
+                  "text": "Concluding Sentence"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "用于收束段落、重申重点或给出最后落点。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Closes a paragraph by reinforcing the main point or giving a final takeaway."
+                }
+              ]
+            },
+            {
+              "nid": "opinion_statement",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "观点句"
+                },
+                {
+                  "lang": "en",
+                  "text": "Opinion Statement"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "明确提出立场、判断或个人看法，常作为议论文段落开头。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Clearly states a stance, judgment, or personal view, often opening an opinion paragraph."
+                }
+              ]
+            }
+          ],
+          "allowedFamilies": [
+            {
+              "nid": "plan_and_intention",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "说能力、打算和想法"
+                },
+                {
+                  "lang": "en",
+                  "text": "Talking About Ability, Plans, and Intentions"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "这一组句型帮助学习者表达自己能不能做、接下来打算做什么、心里想做什么，或眼下需要做什么。"
+                },
+                {
+                  "lang": "en",
+                  "text": "This group helps learners say what someone can do, plans to do, wants to do, or needs to do."
+                }
+              ]
+            },
+            {
+              "nid": "comparison_and_evaluation",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "比较选择并说出看法"
+                },
+                {
+                  "lang": "en",
+                  "text": "Comparing Options and Saying What Stands Out"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "这一组句型帮助学习者比较不同人和事、说出自己更偏向哪一个，并让读者看懂差别到底在哪里。"
+                },
+                {
+                  "lang": "en",
+                  "text": "This group helps learners compare people or things, show preferences, and make it clear what is better, different, or more suitable."
+                }
+              ]
+            },
+            {
+              "nid": "summary_and_closure",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "把观点收住，把结尾讲清"
+                },
+                {
+                  "lang": "en",
+                  "text": "Wrapping Up a Point Clearly"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "这一组句型帮助学习者看过不同说法之后，把该让的一步让出来，再把真正想留下的重点稳稳收在结尾。"
+                },
+                {
+                  "lang": "en",
+                  "text": "This group helps learners weigh different sides, make room for a concession, and finish with a clear takeaway."
+                }
+              ]
+            }
+          ],
+          "allowedPairTypeToNext": null
+        }
+      ],
+      "system": true,
+      "enabled": true,
+      "created": "2026-09-08T03:26:52.423+00:00",
+      "updated": "2026-09-08T03:26:52.423+00:00"
+    }
+  ],
+  "system": true,
+  "enabled": true,
+  "created": "2026-09-08T03:26:51.948+00:00",
+  "updated": "2026-09-08T03:26:51.948+00:00"
+}

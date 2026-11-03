@@ -1,0 +1,1219 @@
+[
+ {
+  "nid": "xiaoshengchu",
+  "kind": "milestone",
+  "overview": "小升初书面表达以说明文和记叙文为主，兼有邮件、书信、通知、演讲稿等应用文；任务多为根据提示词、思维导图或图片写5句以上、40—60词的短文，要点2—6个。语言难度为A1，核心时态为一般现在时、一般过去时和一般将来时，强调要点齐全、语句通顺、书写规范。上海、北京、广东等地题型多样，但都围绕自我介绍、变化对比、计划经历和人物介绍展开。",
+  "levelAdvice": "L4—L6阶段应把一般现在时、一般过去时和一般将来时作为三条主线，每节课聚焦一种时态写5句小短文。先训练“要点—句子”对应能力，再训练连接词和格式规范，最后过渡到40—60词的完整篇章。课堂以仿写和看图写话为主，写后必查要点、时态、大小写和标点。",
+  "writingCourseLevels": "L4–L6（A1）",
+  "goals": [
+   {
+    "nid": "xiaoshengchu_g1",
+    "goal": "介绍人与事物",
+    "why": "这是小升初最高频的时态目标，用于自我介绍、介绍学校、动物、人物和日常习惯。真题中大量任务要求用一般现在时描述基本信息与特征。",
+    "genres": [
+     "说明文",
+     "自我介绍",
+     "人物介绍"
+    ],
+    "teachingHint": "教学生用“主语+be/动词原形/三单”写基本信息句，按姓名、年龄、爱好、日常活动分句展开。",
+    "taskUids": [
+     119,
+     6,
+     121,
+     52
+    ],
+    "stageNids": [
+     "intro_a1_exam"
+    ]
+   },
+   {
+    "nid": "xiaoshengchu_g2",
+    "goal": "叙述经历",
+    "why": "记叙类任务几乎都要求用一般过去时叙述周末、假期、旅行或一天的活动，是小学高段最核心的叙事时态。",
+    "genres": [
+     "记叙文",
+     "日记",
+     "图画作文"
+    ],
+    "teachingHint": "教学生按时间顺序用“First/Then/After that/Finally”连接过去式动词句，写清时间、地点、人物、活动和感受。",
+    "taskUids": [
+     70,
+     53,
+     22,
+     54,
+     61
+    ],
+    "stageNids": [
+     "intro_a1_exam",
+     "picture_opening_a1_exam_a1"
+    ]
+   },
+   {
+    "nid": "xiaoshengchu_g3",
+    "goal": "表达计划与打算",
+    "why": "暑假计划、旅行计划、未来畅想类任务反复出现，要求学生用will/be going to描述将要发生的事。",
+    "genres": [
+     "说明文",
+     "计划类短文",
+     "旅行计划"
+    ],
+    "teachingHint": "教学生用“I will / I'm going to + 动词原形”写计划句，按where/when/how/who/what五要素组织段落。",
+    "taskUids": [
+     38,
+     45,
+     51,
+     82,
+     49
+    ],
+    "stageNids": [
+     "intro_a1_exam"
+    ]
+   },
+   {
+    "nid": "xiaoshengchu_g4",
+    "goal": "用对比结构描述变化",
+    "why": "“My changes”“Changes in me”等题目高频出现，要求学生用过去与现在对比描述外貌、性格、能力、爱好的变化。",
+    "genres": [
+     "说明文",
+     "记叙文",
+     "图表作文"
+    ],
+    "teachingHint": "教学生用“Before, I was... Now, I am...”“I used to... but now I...”等对比句式，按外貌、性格、能力、爱好分点写。",
+    "taskUids": [
+     115,
+     56,
+     101,
+     95,
+     105
+    ],
+    "stageNids": [
+     "picture_opening_a1_exam_a1",
+     "intro_a1_exam"
+    ]
+   },
+   {
+    "nid": "xiaoshengchu_g5",
+    "goal": "按要点完整覆盖信息",
+    "why": "几乎所有真题都要求覆盖2—6个提示要点，要点齐全是评分关键，学生常因漏点失分。",
+    "genres": [
+     "说明文",
+     "应用文",
+     "记叙文"
+    ],
+    "teachingHint": "教学生先圈出提示要点，再为每个要点写1—2句，用“要点—句子”对照表自查是否漏点。",
+    "taskUids": [
+     129,
+     68,
+     98,
+     73,
+     48
+    ],
+    "stageNids": [
+     "email_mini_a1_exam",
+     "letter_a1_exam",
+     "intro_a1_exam"
+    ]
+   },
+   {
+    "nid": "xiaoshengchu_g6",
+    "goal": "提出建议与呼吁",
+    "why": "环保、安全、保护动物等主题任务要求提出建议或发出呼吁，需要祈使句、情态动词和建议句型。",
+    "genres": [
+     "通知",
+     "演讲稿",
+     "倡议书",
+     "邮件"
+    ],
+    "teachingHint": "教学生用“We should/shouldn't...”“Let's...”“It's important to...”写建议句，结尾用呼吁句收束。",
+    "taskUids": [
+     36,
+     46,
+     14,
+     15,
+     32
+    ],
+    "stageNids": [
+     "notice_a1_exam",
+     "email_mini_a1_exam"
+    ]
+   },
+   {
+    "nid": "xiaoshengchu_g7",
+    "goal": "按应用文格式组织篇章",
+    "why": "邮件、书信、通知、演讲稿、日记等应用文有固定格式和语气要求，是高频考查点。",
+    "genres": [
+     "邮件",
+     "书信",
+     "通知",
+     "演讲稿",
+     "日记"
+    ],
+    "teachingHint": "教学生套用“称呼—开头—正文—结尾—落款”框架，并区分邮件、通知、演讲稿的语气差异。",
+    "taskUids": [
+     68,
+     98,
+     36,
+     55,
+     100
+    ],
+    "stageNids": [
+     "email_mini_a1_exam",
+     "letter_a1_exam",
+     "notice_a1_exam",
+     "diary_a1_exam"
+    ]
+   },
+   {
+    "nid": "xiaoshengchu_g8",
+    "goal": "保持语句连贯",
+    "why": "评分标准反复强调“意思连贯、条理清晰”，学生需要会用时间顺序和逻辑连接词组织句子。",
+    "genres": [
+     "记叙文",
+     "说明文",
+     "日记"
+    ],
+    "teachingHint": "教学生用“First/Then/Next/Finally”表时间，用“because/so/but”表逻辑，写完后检查句间衔接。",
+    "taskUids": [
+     22,
+     96,
+     131,
+     63,
+     74
+    ],
+    "stageNids": [
+     "picture_opening_a1_exam_a1",
+     "intro_a1_exam",
+     "diary_a1_exam"
+    ]
+   },
+   {
+    "nid": "xiaoshengchu_g9",
+    "goal": "仿照范例进行仿写",
+    "why": "多道真题要求仿照例子或划线句写话，考查学生迁移句式结构的能力。",
+    "genres": [
+     "仿写",
+     "说明文",
+     "记叙文"
+    ],
+    "teachingHint": "教学生先分析范例的句型骨架，再替换关键词汇，保持句式一致、时态一致。",
+    "taskUids": [
+     70,
+     103,
+     40,
+     108,
+     41
+    ],
+    "stageNids": [
+     "intro_a1_exam",
+     "picture_opening_a1_exam_a1"
+    ]
+   },
+   {
+    "nid": "xiaoshengchu_g10",
+    "goal": "规范书写与标点大小写",
+    "why": "多道真题明确要求书写规范、首字母大写、标点正确，是基础但易失分的目标。",
+    "genres": [
+     "说明文",
+     "记叙文",
+     "应用文"
+    ],
+    "teachingHint": "教学生写完后逐句检查句首大写、句末标点和专有名词大写，用“抄写—断句—加标点”三步练习。",
+    "taskUids": [
+     130,
+     47,
+     136,
+     30,
+     86
+    ],
+    "stageNids": [
+     "intro_a1_exam",
+     "picture_opening_a1_exam_a1"
+    ]
+   }
+  ],
+  "topicClusters": [
+   {
+    "name": "自我与他人介绍",
+    "taskUids": [
+     119,
+     43,
+     33,
+     121,
+     77,
+     66,
+     122,
+     1
+    ]
+   },
+   {
+    "name": "成长变化对比",
+    "taskUids": [
+     115,
+     56,
+     101,
+     95,
+     105,
+     12,
+     21,
+     17
+    ]
+   },
+   {
+    "name": "计划与旅行安排",
+    "taskUids": [
+     38,
+     45,
+     51,
+     82,
+     49,
+     28,
+     78,
+     30
+    ]
+   },
+   {
+    "name": "经历与活动叙述",
+    "taskUids": [
+     70,
+     53,
+     22,
+     54,
+     61,
+     74,
+     100,
+     79
+    ]
+   },
+   {
+    "name": "人物介绍与榜样",
+    "taskUids": [
+     42,
+     103,
+     3,
+     7,
+     9,
+     93,
+     59,
+     125
+    ]
+   },
+   {
+    "name": "动物与自然保护",
+    "taskUids": [
+     2,
+     6,
+     113,
+     15,
+     46
+    ]
+   },
+   {
+    "name": "环保与健康生活",
+    "taskUids": [
+     14,
+     26,
+     84,
+     111,
+     20
+    ]
+   },
+   {
+    "name": "学校生活与校园",
+    "taskUids": [
+     119,
+     62,
+     120,
+     109,
+     52,
+     4
+    ]
+   }
+  ],
+  "taskCount": 137,
+  "taskCoverage": {
+   "course": 3,
+   "examTask": 121,
+   "none": 13
+  },
+  "ladder": [],
+  "headlines": {},
+  "stageGaps": [],
+  "newTaskCount": 0,
+  "taskCounts": {},
+  "generatedAt": "2026-09-17T10:10:35+00:00",
+  "sourceDigest": "617a672efa26",
+  "extra": {}
+ },
+ {
+  "nid": "zhongkao",
+  "kind": "milestone",
+  "overview": "本考段书面表达以应用文（邮件、书信、留言、演讲稿）为主，兼有记叙文、说明文、议论文和图表作文；任务多为2–4个要点，常以提示词、思维导图或表格限定内容，词数要求60–100词。语言难度为A2，重在用一般现在时、一般过去时和一般将来时完成要点覆盖与连贯表达。地区差异明显：北京、上海偏重应用文与图表，江苏、山东、浙江偏重议论与说明，广东、重庆常结合图画或数据。",
+  "levelAdvice": "L7–L9阶段应把“要点全覆盖+时态准确+段落连贯”作为训练主线，先做提纲和句型替换，再成段成篇。每节课围绕一个交际功能（建议、邀请、叙述、议论）配2–3个真题变式，控制60–100词，重点纠一般过去时与一般现在时的混用。对图表和演讲稿等新题型，提供固定句式和分段模板，降低认知负担。",
+  "writingCourseLevels": "L7–L9（A2）",
+  "goals": [
+   {
+    "nid": "zhongkao_g1",
+    "goal": "按邮件/书信格式得体地表达与回应",
+    "why": "邮件与书信是出现频率最高的体裁，考查称呼、落款、语气和逐点回应能力。",
+    "genres": [
+     "邮件",
+     "书信"
+    ],
+    "teachingHint": "教固定框架：称呼—开头目的句—分点正文—期待/感谢—落款，并练3–5个礼貌句式。",
+    "taskUids": [
+     209,
+     159,
+     155,
+     233
+    ],
+    "stageNids": [
+     "email_a2_exam",
+     "letter_a2_exam"
+    ]
+   },
+   {
+    "nid": "zhongkao_g2",
+    "goal": "提出具体可行的建议并说明理由",
+    "why": "大量任务要求提建议并给理由，是应用文和议论文的核心交际功能。",
+    "genres": [
+     "邮件",
+     "留言",
+     "议论文"
+    ],
+    "teachingHint": "集中练 should/why not/you'd better 等句型，配 because/so 理由句，做“建议+理由”两栏替换练习。",
+    "taskUids": [
+     215,
+     181,
+     188,
+     140
+    ],
+    "stageNids": [
+     "message_a2_exam",
+     "opinion_a2_exam",
+     "letter_a2_exam"
+    ]
+   },
+   {
+    "nid": "zhongkao_g3",
+    "goal": "按时间顺序叙述经历",
+    "why": "记叙文和演讲稿常要求讲述亲身经历，过去时与时间顺序是得分关键。",
+    "genres": [
+     "记叙文",
+     "演讲稿",
+     "留言"
+    ],
+    "teachingHint": "用时间线图梳理 first/then/after that/finally，先写5个过去时动词句再扩成段。",
+    "taskUids": [
+     216,
+     172,
+     238,
+     177
+    ],
+    "stageNids": [
+     "opinion_a2_exam",
+     "story_a2_exam"
+    ]
+   },
+   {
+    "nid": "zhongkao_g4",
+    "goal": "描述计划、安排与打算",
+    "why": "邀请信、计划类任务和展望类作文都要求表达未来安排。",
+    "genres": [
+     "邮件",
+     "说明文",
+     "应用文-其他"
+    ],
+    "teachingHint": "练 will/be going to 与时间状语搭配，用“时间+地点+活动+目的”四格表组织段落。",
+    "taskUids": [
+     235,
+     160,
+     213,
+     148
+    ],
+    "stageNids": [
+     "email_a2_exam",
+     "intro_a2_exam",
+     "explain_a2_exam"
+    ]
+   },
+   {
+    "nid": "zhongkao_g5",
+    "goal": "用数据与比例描述图表并作简要评析",
+    "why": "饼图、柱状图、表格类任务要求转述数据并表达发现，是高频新题型。",
+    "genres": [
+     "图表作文",
+     "议论文",
+     "演讲稿"
+    ],
+    "teachingHint": "教 the largest/smallest part, about X%, compared with 等句式，先列数据句再写评析句。",
+    "taskUids": [
+     187,
+     151,
+     150,
+     169
+    ],
+    "stageNids": [
+     "message_a2_exam",
+     "opinion_a2_exam",
+     "speech_a2_exam"
+    ]
+   },
+   {
+    "nid": "zhongkao_g6",
+    "goal": "用观点加理由展开议论",
+    "why": "议论文和征文要求表明立场并用理由支撑，考查逻辑组织能力。",
+    "genres": [
+     "议论文",
+     "应用文-其他"
+    ],
+    "teachingHint": "用“观点句—理由1—理由2—总结/号召”四段模板，配 because/besides/in short 连接词。",
+    "taskUids": [
+     214,
+     156,
+     174,
+     208
+    ],
+    "stageNids": [
+     "opinion_a2_exam"
+    ]
+   },
+   {
+    "nid": "zhongkao_g7",
+    "goal": "用演讲稿语体面向听众表达并发出号召",
+    "why": "演讲稿在多地反复出现，要求称呼、互动、号召等特定语体特征。",
+    "genres": [
+     "演讲稿"
+    ],
+    "teachingHint": "固定开头 Good morning, everyone! 与结尾 Let's... 号召句，中间按“理由—经历—影响”分段。",
+    "taskUids": [
+     147,
+     139,
+     146,
+     202
+    ],
+    "stageNids": [
+     "speech_a2_exam"
+    ]
+   },
+   {
+    "nid": "zhongkao_g8",
+    "goal": "介绍人物、地点或事物",
+    "why": "介绍类任务要求准确使用形容词和一般现在时描述特征。",
+    "genres": [
+     "邮件",
+     "演讲稿",
+     "说明文"
+    ],
+    "teachingHint": "建形容词库（kind/creative/green等），练“主系表+细节”句，按外观—特点—用途分层写。",
+    "taskUids": [
+     153,
+     200,
+     243,
+     199
+    ],
+    "stageNids": [
+     "email_a2_exam",
+     "speech_a2_exam",
+     "intro_a2_exam"
+    ]
+   },
+   {
+    "nid": "zhongkao_g9",
+    "goal": "按要点顺序组织段落并保持连贯",
+    "why": "几乎所有任务都要求覆盖2–4个要点且行文连贯，是基础得分能力。",
+    "genres": [
+     "邮件",
+     "记叙文",
+     "演讲稿"
+    ],
+    "teachingHint": "用要点清单先列提纲，每点写一句主题句，再用 first/second/finally 串成段。",
+    "taskUids": [
+     141,
+     144,
+     145,
+     179
+    ],
+    "stageNids": [
+     "letter_a2_exam",
+     "picture_a2_exam",
+     "opinion_a2_exam",
+     "speech_a2_exam"
+    ]
+   },
+   {
+    "nid": "zhongkao_g10",
+    "goal": "在叙事基础上表达感受与感悟",
+    "why": "多数记叙和演讲任务要求由经历升华出感受或启示，体现思维深度。",
+    "genres": [
+     "记叙文",
+     "演讲稿"
+    ],
+    "teachingHint": "教 I felt.../I learned that.../It made me realize... 结尾句，先写事实句再补感受句。",
+    "taskUids": [
+     206,
+     173,
+     143,
+     158
+    ],
+    "stageNids": [
+     "picture_a2_exam",
+     "speech_a2_exam",
+     "opinion_a2_exam"
+    ]
+   },
+   {
+    "nid": "zhongkao_g11",
+    "goal": "介绍概念或流程",
+    "why": "说明文和介绍类任务要求解释概念、步骤或做法，考查清晰表达。",
+    "genres": [
+     "说明文",
+     "应用文-其他"
+    ],
+    "teachingHint": "用“定义—原因—做法”三段式，练 first/next/then 步骤句和 It means... 定义句。",
+    "taskUids": [
+     182,
+     198,
+     164,
+     197
+    ],
+    "stageNids": [
+     "opinion_a2_exam",
+     "speech_a2_exam",
+     "intro_a2_exam"
+    ]
+   }
+  ],
+  "topicClusters": [
+   {
+    "name": "校园活动与社团",
+    "taskUids": [
+     183,
+     155,
+     236,
+     144,
+     218
+    ]
+   },
+   {
+    "name": "人际交往与情感",
+    "taskUids": [
+     159,
+     216,
+     203,
+     245,
+     221
+    ]
+   },
+   {
+    "name": "传统文化与节日",
+    "taskUids": [
+     141,
+     199,
+     197,
+     225,
+     148
+    ]
+   },
+   {
+    "name": "健康生活与运动",
+    "taskUids": [
+     152,
+     229,
+     180,
+     178,
+     189
+    ]
+   },
+   {
+    "name": "环保与公益",
+    "taskUids": [
+     182,
+     166,
+     145,
+     149,
+     154
+    ]
+   },
+   {
+    "name": "自我成长与反思",
+    "taskUids": [
+     147,
+     174,
+     238,
+     143,
+     158
+    ]
+   },
+   {
+    "name": "图表数据与调查",
+    "taskUids": [
+     187,
+     151,
+     150,
+     181,
+     169
+    ]
+   },
+   {
+    "name": "未来规划与梦想",
+    "taskUids": [
+     160,
+     213,
+     148,
+     190
+    ]
+   }
+  ],
+  "taskCount": 109,
+  "taskCoverage": {
+   "course": 10,
+   "examTask": 97,
+   "none": 2
+  },
+  "ladder": [],
+  "headlines": {},
+  "stageGaps": [],
+  "newTaskCount": 0,
+  "taskCounts": {},
+  "generatedAt": "2026-09-17T10:10:35+00:00",
+  "sourceDigest": "88f1875cd7cc",
+  "extra": {}
+ },
+ {
+  "nid": "gaokao",
+  "kind": "milestone",
+  "overview": "本考段书面表达以应用文（邮件、书信、投稿）和读后续写为主，任务类型包括建议、邀请、申请、分享经历、观点阐述和故事续写。要点数量通常为2–3个，语言难度在B1左右，要求词数80–150。地区差异明显：上海卷偏重议论文与说明文，北京卷以建议类邮件为主，新高考全国卷则应用文与读后续写并重。",
+  "levelAdvice": "在L10–L12阶段，应重点训练应用文的结构化写作和读后续写的情节衔接。建议每节课聚焦一个功能（如建议、邀请、叙述），通过范文分析、句型操练和限时写作逐步提升。同时，加强时态一致性、逻辑连接词和情感描写的专项练习，帮助学生达到B1水平的要求。",
+  "writingCourseLevels": "L10–L12（B1）",
+  "goals": [
+   {
+    "nid": "gaokao_g1",
+    "goal": "提出建议并说明理由",
+    "why": "建议类邮件是高频任务，北京卷连续多年考查，全国卷也多次出现。学生需掌握suggest/recommend/why not等句式，并用因果连接词支撑理由。",
+    "genres": [
+     "邮件",
+     "书信"
+    ],
+    "teachingHint": "教学生用“I suggest that... because...”和“It would be a good idea to... since...”等句型，并练习用because、so、therefore等连接词组织理由段。",
+    "taskUids": [
+     258,
+     259,
+     269,
+     267
+    ],
+    "stageNids": [
+     "email_b1_exam"
+    ]
+   },
+   {
+    "nid": "gaokao_g2",
+    "goal": "得体撰写邀请函并交代细节",
+    "why": "邀请类邮件要求语气礼貌、结构完整，需涵盖活动介绍、时间地点等细节。全国卷和北京卷均有考查。",
+    "genres": [
+     "邮件",
+     "书信"
+    ],
+    "teachingHint": "教学生使用“I am writing to invite you to...”“Would you like to...?”等邀请句式，并按“自我介绍—活动介绍—时间地点—期待回复”四段式组织。",
+    "taskUids": [
+     275,
+     276
+    ],
+    "stageNids": [
+     "email_b1_exam"
+    ]
+   },
+   {
+    "nid": "gaokao_g3",
+    "goal": "叙述个人经历并表达感受",
+    "why": "分享经历类任务要求按时间顺序叙述事件并表达感想，是应用文和读后续写的基础能力。全国卷和北京卷多次考查。",
+    "genres": [
+     "邮件",
+     "记叙文"
+    ],
+    "teachingHint": "教学生用“Last week, I...”“After that, I...”等时间状语串联事件，并在结尾用“I felt... because...”表达感受。",
+    "taskUids": [
+     262,
+     248,
+     265
+    ],
+    "stageNids": [
+     "email_b1_exam",
+     "opinion_b1_exam"
+    ]
+   },
+   {
+    "nid": "gaokao_g4",
+    "goal": "阐述观点并支撑理由",
+    "why": "议论文和观点阐述类任务要求清晰表达立场并用理由支撑，上海卷和全国卷均有考查。",
+    "genres": [
+     "议论文",
+     "说明文"
+    ],
+    "teachingHint": "教学生用“I think... because...”“First,... Second,...”等结构组织观点和理由，并练习用具体事例支撑论点。",
+    "taskUids": [
+     254,
+     277,
+     250
+    ],
+    "stageNids": [
+     "opinion_b1_exam",
+     "suggestion_b1_exam"
+    ]
+   },
+   {
+    "nid": "gaokao_g5",
+    "goal": "介绍物品或人物并说明意义",
+    "why": "介绍类任务要求刻画物品特征或人物事迹，并阐述其意义或启示。上海卷和全国卷均有考查。",
+    "genres": [
+     "说明文",
+     "应用文-其他"
+    ],
+    "teachingHint": "教学生用“It is...”“It has...”等句型描述特征，并用“It means...”“It reminds me of...”等表达阐述意义。",
+    "taskUids": [
+     264,
+     270
+    ],
+    "stageNids": [
+     "intro_a2_exam_b1",
+     "opinion_b1_exam"
+    ]
+   },
+   {
+    "nid": "gaokao_g6",
+    "goal": "用图表数据描述现象并评论建议",
+    "why": "图表作文要求准确转述数据、对比分析并提出建议，是应用文中的特殊类型。全国乙卷有考查。",
+    "genres": [
+     "图表作文"
+    ],
+    "teachingHint": "教学生用“The chart shows that...”“...account for...%”等句型描述数据，并用“In my opinion...”“I suggest...”进行评论和建议。",
+    "taskUids": [
+     273
+    ],
+    "stageNids": [
+     "chart_b1_exam"
+    ]
+   },
+   {
+    "nid": "gaokao_g7",
+    "goal": "续写故事并保持情节连贯",
+    "why": "读后续写要求承接原文情节、保持时态人称一致，并合理推进故事发展。新高考全国卷和全国卷均重点考查。",
+    "genres": [
+     "读后续写"
+    ],
+    "teachingHint": "教学生分析原文时态和人称，用“After that...”“Suddenly...”等衔接词推进情节，并确保两段续写与段首句自然衔接。",
+    "taskUids": [
+     251,
+     268,
+     279,
+     272
+    ],
+    "stageNids": [
+     "story_long_b1_exam"
+    ]
+   },
+   {
+    "nid": "gaokao_g8",
+    "goal": "用心理与动作描写刻画人物情感变化",
+    "why": "读后续写要求通过细节描写体现人物情感转变，使故事生动感人。多套全国卷均有考查。",
+    "genres": [
+     "读后续写"
+    ],
+    "teachingHint": "教学生用“He felt...”“She thought to herself...”等心理描写和“He ran...”“She smiled...”等动作描写，展现人物情感变化。",
+    "taskUids": [
+     280,
+     274,
+     249
+    ],
+    "stageNids": [
+     "story_long_b1_exam"
+    ]
+   },
+   {
+    "nid": "gaokao_g9",
+    "goal": "撰写申请信并表达期望",
+    "why": "申请信要求格式规范、语域得体，并清晰表达申请意愿和期望。上海卷有考查。",
+    "genres": [
+     "书信"
+    ],
+    "teachingHint": "教学生用“I am writing to apply for...”“I hope that...”等句式，并按“申请意图—选择理由—期望收获”三段式组织。",
+    "taskUids": [
+     253
+    ],
+    "stageNids": [
+     "letter_b1_exam"
+    ]
+   },
+   {
+    "nid": "gaokao_g10",
+    "goal": "介绍文化概念并举例",
+    "why": "文化介绍类任务要求解释概念并举实例，促进跨文化交流。天津卷有考查。",
+    "genres": [
+     "邮件"
+    ],
+    "teachingHint": "教学生用“It means...”“For example...”等句型解释文化概念并举例，并注意保持友好鼓励的语气。",
+    "taskUids": [
+     266
+    ],
+    "stageNids": [
+     "email_b1_exam"
+    ]
+   },
+   {
+    "nid": "gaokao_g11",
+    "goal": "用演讲稿语体组织开场、主体与结尾",
+    "why": "演讲稿要求有开场白、主体内容和结束语，语体正式且富有感染力。全国甲卷和天津卷有考查。",
+    "genres": [
+     "演讲稿"
+    ],
+    "teachingHint": "教学生用“Good morning, everyone.”开场，用“First... Second... Finally...”组织主体，用“Thank you.”结尾。",
+    "taskUids": [
+     260,
+     271
+    ],
+    "stageNids": [
+     "speech_b1_exam"
+    ]
+   },
+   {
+    "nid": "gaokao_g12",
+    "goal": "用对比结构描述发展变化",
+    "why": "发展变化类任务要求对比过去与现在，体现进步与成就。全国甲卷有考查。",
+    "genres": [
+     "演讲稿"
+    ],
+    "teachingHint": "教学生用“In the past... but now...”“Compared with...”“has greatly improved”等对比结构描述变化。",
+    "taskUids": [
+     260
+    ],
+    "stageNids": [
+     "speech_b1_exam"
+    ]
+   }
+  ],
+  "topicClusters": [
+   {
+    "name": "校园生活与学习",
+    "taskUids": [
+     253,
+     261,
+     248,
+     255,
+     262,
+     267,
+     276,
+     252,
+     257,
+     271,
+     246
+    ]
+   },
+   {
+    "name": "文化交流与传播",
+    "taskUids": [
+     266,
+     270,
+     263,
+     260
+    ]
+   },
+   {
+    "name": "社会议题与观点",
+    "taskUids": [
+     254,
+     277,
+     250,
+     278,
+     273
+    ]
+   },
+   {
+    "name": "个人成长与经历",
+    "taskUids": [
+     265,
+     264,
+     256
+    ]
+   },
+   {
+    "name": "故事续写",
+    "taskUids": [
+     251,
+     268,
+     279,
+     272,
+     280,
+     274,
+     249
+    ]
+   }
+  ],
+  "taskCount": 34,
+  "taskCoverage": {
+   "course": 4,
+   "examTask": 30,
+   "none": 0
+  },
+  "ladder": [],
+  "headlines": {},
+  "stageGaps": [],
+  "newTaskCount": 0,
+  "taskCounts": {},
+  "generatedAt": "2026-09-17T10:10:35+00:00",
+  "sourceDigest": "dfd69caab7f1",
+  "extra": {}
+ },
+ {
+  "nid": "overall",
+  "kind": "overall",
+  "overview": "",
+  "levelAdvice": "",
+  "writingCourseLevels": "",
+  "goals": [],
+  "topicClusters": [],
+  "taskCount": 0,
+  "taskCoverage": {
+   "course": 17,
+   "examTask": 248,
+   "none": 15
+  },
+  "ladder": [
+   {
+    "gaokaoGoalNid": "gaokao_g7",
+    "zhongkaoGoalNids": [
+     "zhongkao_g3",
+     "zhongkao_g9"
+    ],
+    "xiaoshengchuGoalNids": [
+     "xiaoshengchu_g2",
+     "xiaoshengchu_g8"
+    ],
+    "note": "从过去时叙事和连接词连贯，到中考时间顺序叙事与要点组织，再到高考读后续写情节连贯。",
+    "order": 1
+   },
+   {
+    "gaokaoGoalNid": "gaokao_g1",
+    "zhongkaoGoalNids": [
+     "zhongkao_g2"
+    ],
+    "xiaoshengchuGoalNids": [
+     "xiaoshengchu_g6"
+    ],
+    "note": "从简单建议呼吁句式，到具体建议加理由，再到高考建议类邮件的完整论证。",
+    "order": 2
+   },
+   {
+    "gaokaoGoalNid": "gaokao_g4",
+    "zhongkaoGoalNids": [
+     "zhongkao_g6"
+    ],
+    "xiaoshengchuGoalNids": [],
+    "note": "从小学观点句仿写，到中考观点加理由的议论结构，再到高考议论文的立场与支撑。",
+    "order": 3
+   },
+   {
+    "gaokaoGoalNid": "gaokao_g8",
+    "zhongkaoGoalNids": [
+     "zhongkao_g10"
+    ],
+    "xiaoshengchuGoalNids": [],
+    "note": "从小学简单感受表达，到中考叙事中表达感悟，再到高考心理动作描写刻画情感变化。",
+    "order": 4
+   },
+   {
+    "gaokaoGoalNid": "gaokao_g5",
+    "zhongkaoGoalNids": [
+     "zhongkao_g8",
+     "zhongkao_g11"
+    ],
+    "xiaoshengchuGoalNids": [
+     "xiaoshengchu_g1"
+    ],
+    "note": "从一般现在时介绍人与物，到中考描述性介绍与说明流程，再到高考介绍物品人物并阐述意义。",
+    "order": 5
+   },
+   {
+    "gaokaoGoalNid": "gaokao_g3",
+    "zhongkaoGoalNids": [
+     "zhongkao_g3",
+     "zhongkao_g10"
+    ],
+    "xiaoshengchuGoalNids": [
+     "xiaoshengchu_g2"
+    ],
+    "note": "从过去时叙述经历，到中考按时间顺序叙事并表达感受，再到高考经历分享与情感升华。",
+    "order": 6
+   },
+   {
+    "gaokaoGoalNid": "gaokao_g2",
+    "zhongkaoGoalNids": [
+     "zhongkao_g1",
+     "zhongkao_g4"
+    ],
+    "xiaoshengchuGoalNids": [
+     "xiaoshengchu_g7",
+     "xiaoshengchu_g3"
+    ],
+    "note": "从应用文格式和将来时计划，到中考邮件邀请与安排，再到高考邀请函的礼貌细节。",
+    "order": 7
+   },
+   {
+    "gaokaoGoalNid": "gaokao_g10",
+    "zhongkaoGoalNids": [
+     "zhongkao_g11"
+    ],
+    "xiaoshengchuGoalNids": [
+     "xiaoshengchu_g1"
+    ],
+    "note": "从一般现在时介绍事物，到中考说明性语言介绍概念，再到高考文化概念介绍与举例。",
+    "order": 8
+   },
+   {
+    "gaokaoGoalNid": "gaokao_g11",
+    "zhongkaoGoalNids": [
+     "zhongkao_g7"
+    ],
+    "xiaoshengchuGoalNids": [
+     "xiaoshengchu_g7"
+    ],
+    "note": "从演讲稿格式与呼吁，到中考演讲稿语体与号召，再到高考演讲稿开场主体结尾组织。",
+    "order": 9
+   },
+   {
+    "gaokaoGoalNid": "gaokao_g6",
+    "zhongkaoGoalNids": [
+     "zhongkao_g5"
+    ],
+    "xiaoshengchuGoalNids": [
+     "xiaoshengchu_g4"
+    ],
+    "note": "从对比结构描述变化，到中考图表数据描述与评析，再到高考图表现象评论与建议。",
+    "order": 10
+   },
+   {
+    "gaokaoGoalNid": "gaokao_g9",
+    "zhongkaoGoalNids": [
+     "zhongkao_g1"
+    ],
+    "xiaoshengchuGoalNids": [
+     "xiaoshengchu_g7"
+    ],
+    "note": "从应用文格式规范，到中考邮件书信得体表达，再到高考申请信格式与期望表达。",
+    "order": 11
+   },
+   {
+    "gaokaoGoalNid": "gaokao_g12",
+    "zhongkaoGoalNids": [
+     "zhongkao_g5"
+    ],
+    "xiaoshengchuGoalNids": [
+     "xiaoshengchu_g4"
+    ],
+    "note": "从对比结构描述变化，到中考图表数据对比评析，再到高考演讲稿中对比发展变化。",
+    "order": 12
+   }
+  ],
+  "headlines": {
+   "xiaoshengchu": "小升初为高考铺时态、要点、格式与连贯基础",
+   "zhongkao": "中考为高考铺语体、结构、议论与图表能力",
+   "gaokao": "高考综合运用语篇、思辨与跨文化交际能力"
+  },
+  "stageGaps": [
+   {
+    "milestone": "xiaoshengchu",
+    "familyNid": "explanation_process_report",
+    "genre": "说明文",
+    "taskCount": 4,
+    "taskUids": [
+     51,
+     102,
+     111,
+     25
+    ],
+    "suggestedStageNid": null
+   },
+   {
+    "milestone": "xiaoshengchu",
+    "familyNid": "chart_description",
+    "genre": "图表作文",
+    "taskCount": 3,
+    "taskUids": [
+     37,
+     123,
+     28
+    ],
+    "suggestedStageNid": null
+   },
+   {
+    "milestone": "xiaoshengchu",
+    "familyNid": "opinion_suggestion",
+    "genre": "其他",
+    "taskCount": 2,
+    "taskUids": [
+     129,
+     5
+    ],
+    "suggestedStageNid": null
+   },
+   {
+    "milestone": "zhongkao",
+    "familyNid": "chart_description",
+    "genre": "图表作文",
+    "taskCount": 2,
+    "taskUids": [
+     187,
+     234
+    ],
+    "suggestedStageNid": null
+   },
+   {
+    "milestone": "xiaoshengchu",
+    "familyNid": "chart_description",
+    "genre": "记叙文",
+    "taskCount": 1,
+    "taskUids": [
+     70
+    ],
+    "suggestedStageNid": null
+   },
+   {
+    "milestone": "xiaoshengchu",
+    "familyNid": "chart_description",
+    "genre": "说明文",
+    "taskCount": 1,
+    "taskUids": [
+     17
+    ],
+    "suggestedStageNid": null
+   },
+   {
+    "milestone": "xiaoshengchu",
+    "familyNid": "opinion_suggestion",
+    "genre": "应用文-其他",
+    "taskCount": 1,
+    "taskUids": [
+     32
+    ],
+    "suggestedStageNid": null
+   },
+   {
+    "milestone": "xiaoshengchu",
+    "familyNid": "opinion_suggestion",
+    "genre": "记叙文",
+    "taskCount": 1,
+    "taskUids": [
+     13
+    ],
+    "suggestedStageNid": null
+   }
+  ],
+  "newTaskCount": 121,
+  "taskCounts": {
+   "xiaoshengchu": 137,
+   "zhongkao": 109,
+   "gaokao": 34
+  },
+  "generatedAt": "2026-09-17T10:10:35+00:00",
+  "sourceDigest": "d13de1b3478d",
+  "extra": {}
+ }
+]

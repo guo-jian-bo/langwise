@@ -1,0 +1,1163 @@
+[
+ {
+  "nid": "beijing",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "北京"
+   },
+   {
+    "lang": "en",
+    "text": "Beijing"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "北京（省级）：2025 高考报名约 7.89 万人；高考卷别 自主命题卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Beijing (province-level). Gaokao 2025 examinees ≈ 7.890k; paper: 自主命题卷."
+   }
+  ],
+  "level": "province",
+  "parentNid": null,
+  "tier": "core4",
+  "aliases": [
+   "北京市",
+   "京"
+  ],
+  "gaokaoExaminees2025": 7.89,
+  "examineesSource": "2025 年各省教育考试院 / 教育部公开报道（报名人数，万人；括注为统考口径）",
+  "examineesNote": "",
+  "gaokaoPaper": "自主命题卷",
+  "sortWeight": 1
+ },
+ {
+  "nid": "shanghai",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "上海"
+   },
+   {
+    "lang": "en",
+    "text": "Shanghai"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "上海（省级）：2025 高考报名约 6.3 万人；高考卷别 自主命题卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Shanghai (province-level). Gaokao 2025 examinees ≈ 6.30k; paper: 自主命题卷."
+   }
+  ],
+  "level": "province",
+  "parentNid": null,
+  "tier": "core4",
+  "aliases": [
+   "上海市",
+   "沪"
+  ],
+  "gaokaoExaminees2025": 6.3,
+  "examineesSource": "2025 年各省教育考试院 / 教育部公开报道（报名人数，万人；括注为统考口径）",
+  "examineesNote": "",
+  "gaokaoPaper": "自主命题卷",
+  "sortWeight": 2
+ },
+ {
+  "nid": "guangzhou",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "广州"
+   },
+   {
+    "lang": "en",
+    "text": "Guangzhou"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "广州（市级，属广东）：小升初 / 中考自主命题；高考随广东用新高考全国I卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Guangzhou (city, Guangdong). Own papers for primary-to-junior and Zhongkao; Gaokao follows Guangdong."
+   }
+  ],
+  "level": "city",
+  "parentNid": "guangdong",
+  "tier": "core4",
+  "aliases": [
+   "广州市",
+   "穗"
+  ],
+  "gaokaoExaminees2025": null,
+  "examineesSource": "",
+  "examineesNote": "",
+  "gaokaoPaper": null,
+  "sortWeight": 3
+ },
+ {
+  "nid": "shenzhen",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "深圳"
+   },
+   {
+    "lang": "en",
+    "text": "Shenzhen"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "深圳（市级，属广东）：小升初 / 中考自主命题；高考随广东用新高考全国I卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Shenzhen (city, Guangdong). Own papers for primary-to-junior and Zhongkao; Gaokao follows Guangdong."
+   }
+  ],
+  "level": "city",
+  "parentNid": "guangdong",
+  "tier": "core4",
+  "aliases": [
+   "深圳市",
+   "深"
+  ],
+  "gaokaoExaminees2025": null,
+  "examineesSource": "",
+  "examineesNote": "",
+  "gaokaoPaper": null,
+  "sortWeight": 4
+ },
+ {
+  "nid": "jiangsu",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "江苏"
+   },
+   {
+    "lang": "en",
+    "text": "Jiangsu"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "江苏（省级）：2025 高考报名约 51.2 万人；高考卷别 新高考全国I卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Jiangsu (province-level). Gaokao 2025 examinees ≈ 51.20k; paper: 新高考全国I卷."
+   }
+  ],
+  "level": "province",
+  "parentNid": null,
+  "tier": "major4",
+  "aliases": [
+   "江苏省",
+   "苏"
+  ],
+  "gaokaoExaminees2025": 51.2,
+  "examineesSource": "2025 年各省教育考试院 / 教育部公开报道（报名人数，万人；括注为统考口径）",
+  "examineesNote": "",
+  "gaokaoPaper": "新高考全国I卷",
+  "sortWeight": 5
+ },
+ {
+  "nid": "zhejiang",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "浙江"
+   },
+   {
+    "lang": "en",
+    "text": "Zhejiang"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "浙江（省级）：2025 高考报名约 40.2 万人；高考卷别 新高考全国I卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Zhejiang (province-level). Gaokao 2025 examinees ≈ 40.20k; paper: 新高考全国I卷."
+   }
+  ],
+  "level": "province",
+  "parentNid": null,
+  "tier": "major4",
+  "aliases": [
+   "浙江省",
+   "浙"
+  ],
+  "gaokaoExaminees2025": 40.2,
+  "examineesSource": "2025 年各省教育考试院 / 教育部公开报道（报名人数，万人；括注为统考口径）",
+  "examineesNote": "",
+  "gaokaoPaper": "新高考全国I卷",
+  "sortWeight": 6
+ },
+ {
+  "nid": "shandong",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "山东"
+   },
+   {
+    "lang": "en",
+    "text": "Shandong"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "山东（省级）：2025 高考报名约 101.0 万人，夏季高考 74，统考 69.2；高考卷别 新高考全国I卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Shandong (province-level). Gaokao 2025 examinees ≈ 101.00k; paper: 新高考全国I卷."
+   }
+  ],
+  "level": "province",
+  "parentNid": null,
+  "tier": "major4",
+  "aliases": [
+   "山东省",
+   "鲁"
+  ],
+  "gaokaoExaminees2025": 101.0,
+  "examineesSource": "2025 年各省教育考试院 / 教育部公开报道（报名人数，万人；括注为统考口径）",
+  "examineesNote": "夏季高考 74，统考 69.2",
+  "gaokaoPaper": "新高考全国I卷",
+  "sortWeight": 7
+ },
+ {
+  "nid": "henan",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "河南"
+   },
+   {
+    "lang": "en",
+    "text": "Henan"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "河南（省级）：2025 高考报名约 103.3 万人，2024 为 136；高考卷别 新高考全国I卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Henan (province-level). Gaokao 2025 examinees ≈ 103.30k; paper: 新高考全国I卷."
+   }
+  ],
+  "level": "province",
+  "parentNid": null,
+  "tier": "major4",
+  "aliases": [
+   "河南省",
+   "豫"
+  ],
+  "gaokaoExaminees2025": 103.3,
+  "examineesSource": "2025 年各省教育考试院 / 教育部公开报道（报名人数，万人；括注为统考口径）",
+  "examineesNote": "2024 为 136",
+  "gaokaoPaper": "新高考全国I卷",
+  "sortWeight": 8
+ },
+ {
+  "nid": "sichuan",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "四川"
+   },
+   {
+    "lang": "en",
+    "text": "Sichuan"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "四川（省级）：2025 高考报名约 83.52 万人，统考 57.17；高考卷别 新高考全国Ⅱ卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Sichuan (province-level). Gaokao 2025 examinees ≈ 83.520k; paper: 新高考全国Ⅱ卷."
+   }
+  ],
+  "level": "province",
+  "parentNid": null,
+  "tier": "other",
+  "aliases": [
+   "四川省",
+   "川",
+   "蜀"
+  ],
+  "gaokaoExaminees2025": 83.52,
+  "examineesSource": "2025 年各省教育考试院 / 教育部公开报道（报名人数，万人；括注为统考口径）",
+  "examineesNote": "统考 57.17",
+  "gaokaoPaper": "新高考全国Ⅱ卷",
+  "sortWeight": 9
+ },
+ {
+  "nid": "guangdong",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "广东"
+   },
+   {
+    "lang": "en",
+    "text": "Guangdong"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "广东（省级）：2025 高考报名约 78.4 万人，夏季高考；高考卷别 新高考全国I卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Guangdong (province-level). Gaokao 2025 examinees ≈ 78.40k; paper: 新高考全国I卷."
+   }
+  ],
+  "level": "province",
+  "parentNid": null,
+  "tier": "other",
+  "aliases": [
+   "广东省",
+   "粤"
+  ],
+  "gaokaoExaminees2025": 78.4,
+  "examineesSource": "2025 年各省教育考试院 / 教育部公开报道（报名人数，万人；括注为统考口径）",
+  "examineesNote": "夏季高考",
+  "gaokaoPaper": "新高考全国I卷",
+  "sortWeight": 10
+ },
+ {
+  "nid": "hunan",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "湖南"
+   },
+   {
+    "lang": "en",
+    "text": "Hunan"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "湖南（省级）：2025 高考报名约 73.2 万人，统考 49.9；高考卷别 新高考全国I卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Hunan (province-level). Gaokao 2025 examinees ≈ 73.20k; paper: 新高考全国I卷."
+   }
+  ],
+  "level": "province",
+  "parentNid": null,
+  "tier": "other",
+  "aliases": [
+   "湖南省",
+   "湘"
+  ],
+  "gaokaoExaminees2025": 73.2,
+  "examineesSource": "2025 年各省教育考试院 / 教育部公开报道（报名人数，万人；括注为统考口径）",
+  "examineesNote": "统考 49.9",
+  "gaokaoPaper": "新高考全国I卷",
+  "sortWeight": 11
+ },
+ {
+  "nid": "anhui",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "安徽"
+   },
+   {
+    "lang": "en",
+    "text": "Anhui"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "安徽（省级）：2025 高考报名约 67.5 万人，统考 47.1；高考卷别 新高考全国I卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Anhui (province-level). Gaokao 2025 examinees ≈ 67.50k; paper: 新高考全国I卷."
+   }
+  ],
+  "level": "province",
+  "parentNid": null,
+  "tier": "other",
+  "aliases": [
+   "安徽省",
+   "皖"
+  ],
+  "gaokaoExaminees2025": 67.5,
+  "examineesSource": "2025 年各省教育考试院 / 教育部公开报道（报名人数，万人；括注为统考口径）",
+  "examineesNote": "统考 47.1",
+  "gaokaoPaper": "新高考全国I卷",
+  "sortWeight": 12
+ },
+ {
+  "nid": "hebei",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "河北"
+   },
+   {
+    "lang": "en",
+    "text": "Hebei"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "河北（省级）：2025 高考报名约 64.0 万人，统考口径；高考卷别 新高考全国I卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Hebei (province-level). Gaokao 2025 examinees ≈ 64.00k; paper: 新高考全国I卷."
+   }
+  ],
+  "level": "province",
+  "parentNid": null,
+  "tier": "other",
+  "aliases": [
+   "河北省",
+   "冀"
+  ],
+  "gaokaoExaminees2025": 64.0,
+  "examineesSource": "2025 年各省教育考试院 / 教育部公开报道（报名人数，万人；括注为统考口径）",
+  "examineesNote": "统考口径",
+  "gaokaoPaper": "新高考全国I卷",
+  "sortWeight": 13
+ },
+ {
+  "nid": "jiangxi",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "江西"
+   },
+   {
+    "lang": "en",
+    "text": "Jiangxi"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "江西（省级）：2025 高考报名约 64.63 万人，统考 56.71；高考卷别 新高考全国I卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Jiangxi (province-level). Gaokao 2025 examinees ≈ 64.630k; paper: 新高考全国I卷."
+   }
+  ],
+  "level": "province",
+  "parentNid": null,
+  "tier": "other",
+  "aliases": [
+   "江西省",
+   "赣"
+  ],
+  "gaokaoExaminees2025": 64.63,
+  "examineesSource": "2025 年各省教育考试院 / 教育部公开报道（报名人数，万人；括注为统考口径）",
+  "examineesNote": "统考 56.71",
+  "gaokaoPaper": "新高考全国I卷",
+  "sortWeight": 14
+ },
+ {
+  "nid": "hubei",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "湖北"
+   },
+   {
+    "lang": "en",
+    "text": "Hubei"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "湖北（省级）：2025 高考报名约 52.85 万人；高考卷别 新高考全国I卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Hubei (province-level). Gaokao 2025 examinees ≈ 52.850k; paper: 新高考全国I卷."
+   }
+  ],
+  "level": "province",
+  "parentNid": null,
+  "tier": "other",
+  "aliases": [
+   "湖北省",
+   "鄂"
+  ],
+  "gaokaoExaminees2025": 52.85,
+  "examineesSource": "2025 年各省教育考试院 / 教育部公开报道（报名人数，万人；括注为统考口径）",
+  "examineesNote": "",
+  "gaokaoPaper": "新高考全国I卷",
+  "sortWeight": 15
+ },
+ {
+  "nid": "guizhou",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "贵州"
+   },
+   {
+    "lang": "en",
+    "text": "Guizhou"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "贵州（省级）：2025 高考报名约 43.4 万人，统考 29.7；高考卷别 新高考全国Ⅱ卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Guizhou (province-level). Gaokao 2025 examinees ≈ 43.40k; paper: 新高考全国Ⅱ卷."
+   }
+  ],
+  "level": "province",
+  "parentNid": null,
+  "tier": "other",
+  "aliases": [
+   "贵州省",
+   "黔",
+   "贵"
+  ],
+  "gaokaoExaminees2025": 43.4,
+  "examineesSource": "2025 年各省教育考试院 / 教育部公开报道（报名人数，万人；括注为统考口径）",
+  "examineesNote": "统考 29.7",
+  "gaokaoPaper": "新高考全国Ⅱ卷",
+  "sortWeight": 16
+ },
+ {
+  "nid": "guangxi",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "广西"
+   },
+   {
+    "lang": "en",
+    "text": "Guangxi"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "广西（省级）：2025 高考报名约 38.7 万人；高考卷别 新高考全国Ⅱ卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Guangxi (province-level). Gaokao 2025 examinees ≈ 38.70k; paper: 新高考全国Ⅱ卷."
+   }
+  ],
+  "level": "province",
+  "parentNid": null,
+  "tier": "other",
+  "aliases": [
+   "广西壮族自治区",
+   "桂"
+  ],
+  "gaokaoExaminees2025": 38.7,
+  "examineesSource": "2025 年各省教育考试院 / 教育部公开报道（报名人数，万人；括注为统考口径）",
+  "examineesNote": "",
+  "gaokaoPaper": "新高考全国Ⅱ卷",
+  "sortWeight": 17
+ },
+ {
+  "nid": "yunnan",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "云南"
+   },
+   {
+    "lang": "en",
+    "text": "Yunnan"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "云南（省级）：2025 高考报名约 38.24 万人；高考卷别 新高考全国Ⅱ卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Yunnan (province-level). Gaokao 2025 examinees ≈ 38.240k; paper: 新高考全国Ⅱ卷."
+   }
+  ],
+  "level": "province",
+  "parentNid": null,
+  "tier": "other",
+  "aliases": [
+   "云南省",
+   "云",
+   "滇"
+  ],
+  "gaokaoExaminees2025": 38.24,
+  "examineesSource": "2025 年各省教育考试院 / 教育部公开报道（报名人数，万人；括注为统考口径）",
+  "examineesNote": "",
+  "gaokaoPaper": "新高考全国Ⅱ卷",
+  "sortWeight": 18
+ },
+ {
+  "nid": "chongqing",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "重庆"
+   },
+   {
+    "lang": "en",
+    "text": "Chongqing"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "重庆（省级）：2025 高考报名约 37.2 万人，统考 21.6；高考卷别 新高考全国Ⅱ卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Chongqing (province-level). Gaokao 2025 examinees ≈ 37.20k; paper: 新高考全国Ⅱ卷."
+   }
+  ],
+  "level": "province",
+  "parentNid": null,
+  "tier": "other",
+  "aliases": [
+   "重庆市",
+   "渝"
+  ],
+  "gaokaoExaminees2025": 37.2,
+  "examineesSource": "2025 年各省教育考试院 / 教育部公开报道（报名人数，万人；括注为统考口径）",
+  "examineesNote": "统考 21.6",
+  "gaokaoPaper": "新高考全国Ⅱ卷",
+  "sortWeight": 19
+ },
+ {
+  "nid": "shanxi",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "山西"
+   },
+   {
+    "lang": "en",
+    "text": "Shanxi"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "山西（省级）：2025 高考报名约 29.15 万人，统考口径；高考卷别 新高考全国Ⅱ卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Shanxi (province-level). Gaokao 2025 examinees ≈ 29.150k; paper: 新高考全国Ⅱ卷."
+   }
+  ],
+  "level": "province",
+  "parentNid": null,
+  "tier": "other",
+  "aliases": [
+   "山西省",
+   "晋"
+  ],
+  "gaokaoExaminees2025": 29.15,
+  "examineesSource": "2025 年各省教育考试院 / 教育部公开报道（报名人数，万人；括注为统考口径）",
+  "examineesNote": "统考口径",
+  "gaokaoPaper": "新高考全国Ⅱ卷",
+  "sortWeight": 20
+ },
+ {
+  "nid": "shaanxi",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "陕西"
+   },
+   {
+    "lang": "en",
+    "text": "Shaanxi"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "陕西（省级）：2025 高考报名约 28.15 万人，统考口径；高考卷别 新高考全国Ⅱ卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Shaanxi (province-level). Gaokao 2025 examinees ≈ 28.150k; paper: 新高考全国Ⅱ卷."
+   }
+  ],
+  "level": "province",
+  "parentNid": null,
+  "tier": "other",
+  "aliases": [
+   "陕西省",
+   "陕",
+   "秦"
+  ],
+  "gaokaoExaminees2025": 28.15,
+  "examineesSource": "2025 年各省教育考试院 / 教育部公开报道（报名人数，万人；括注为统考口径）",
+  "examineesNote": "统考口径",
+  "gaokaoPaper": "新高考全国Ⅱ卷",
+  "sortWeight": 21
+ },
+ {
+  "nid": "fujian",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "福建"
+   },
+   {
+    "lang": "en",
+    "text": "Fujian"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "福建（省级）：2025 高考报名约 25.88 万人；高考卷别 新高考全国I卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Fujian (province-level). Gaokao 2025 examinees ≈ 25.880k; paper: 新高考全国I卷."
+   }
+  ],
+  "level": "province",
+  "parentNid": null,
+  "tier": "other",
+  "aliases": [
+   "福建省",
+   "闽"
+  ],
+  "gaokaoExaminees2025": 25.88,
+  "examineesSource": "2025 年各省教育考试院 / 教育部公开报道（报名人数，万人；括注为统考口径）",
+  "examineesNote": "",
+  "gaokaoPaper": "新高考全国I卷",
+  "sortWeight": 22
+ },
+ {
+  "nid": "gansu",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "甘肃"
+   },
+   {
+    "lang": "en",
+    "text": "Gansu"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "甘肃（省级）：2025 高考报名约 23.24 万人；高考卷别 新高考全国Ⅱ卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Gansu (province-level). Gaokao 2025 examinees ≈ 23.240k; paper: 新高考全国Ⅱ卷."
+   }
+  ],
+  "level": "province",
+  "parentNid": null,
+  "tier": "other",
+  "aliases": [
+   "甘肃省",
+   "甘",
+   "陇"
+  ],
+  "gaokaoExaminees2025": 23.24,
+  "examineesSource": "2025 年各省教育考试院 / 教育部公开报道（报名人数，万人；括注为统考口径）",
+  "examineesNote": "",
+  "gaokaoPaper": "新高考全国Ⅱ卷",
+  "sortWeight": 23
+ },
+ {
+  "nid": "xinjiang",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "新疆"
+   },
+   {
+    "lang": "en",
+    "text": "Xinjiang"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "新疆（省级）：2025 高考报名约 23.26 万人；高考卷别 新高考全国Ⅱ卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Xinjiang (province-level). Gaokao 2025 examinees ≈ 23.260k; paper: 新高考全国Ⅱ卷."
+   }
+  ],
+  "level": "province",
+  "parentNid": null,
+  "tier": "other",
+  "aliases": [
+   "新疆维吾尔自治区",
+   "新"
+  ],
+  "gaokaoExaminees2025": 23.26,
+  "examineesSource": "2025 年各省教育考试院 / 教育部公开报道（报名人数，万人；括注为统考口径）",
+  "examineesNote": "",
+  "gaokaoPaper": "新高考全国Ⅱ卷",
+  "sortWeight": 24
+ },
+ {
+  "nid": "neimenggu",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "内蒙古"
+   },
+   {
+    "lang": "en",
+    "text": "Inner Mongolia"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "内蒙古（省级）：2025 高考报名约 20.9 万人，报名 20.9，统考 15.7；高考卷别 新高考全国Ⅱ卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Inner Mongolia (province-level). Gaokao 2025 examinees ≈ 20.90k; paper: 新高考全国Ⅱ卷."
+   }
+  ],
+  "level": "province",
+  "parentNid": null,
+  "tier": "other",
+  "aliases": [
+   "内蒙古自治区",
+   "内蒙",
+   "蒙"
+  ],
+  "gaokaoExaminees2025": 20.9,
+  "examineesSource": "2025 年各省教育考试院 / 教育部公开报道（报名人数，万人；括注为统考口径）",
+  "examineesNote": "报名 20.9，统考 15.7",
+  "gaokaoPaper": "新高考全国Ⅱ卷",
+  "sortWeight": 25
+ },
+ {
+  "nid": "liaoning",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "辽宁"
+   },
+   {
+    "lang": "en",
+    "text": "Liaoning"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "辽宁（省级）：2025 高考报名约 20.5 万人；高考卷别 新高考全国Ⅱ卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Liaoning (province-level). Gaokao 2025 examinees ≈ 20.50k; paper: 新高考全国Ⅱ卷."
+   }
+  ],
+  "level": "province",
+  "parentNid": null,
+  "tier": "other",
+  "aliases": [
+   "辽宁省",
+   "辽"
+  ],
+  "gaokaoExaminees2025": 20.5,
+  "examineesSource": "2025 年各省教育考试院 / 教育部公开报道（报名人数，万人；括注为统考口径）",
+  "examineesNote": "",
+  "gaokaoPaper": "新高考全国Ⅱ卷",
+  "sortWeight": 26
+ },
+ {
+  "nid": "heilongjiang",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "黑龙江"
+   },
+   {
+    "lang": "en",
+    "text": "Heilongjiang"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "黑龙江（省级）：2025 高考报名约 18.4 万人；高考卷别 新高考全国Ⅱ卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Heilongjiang (province-level). Gaokao 2025 examinees ≈ 18.40k; paper: 新高考全国Ⅱ卷."
+   }
+  ],
+  "level": "province",
+  "parentNid": null,
+  "tier": "other",
+  "aliases": [
+   "黑龙江省",
+   "黑"
+  ],
+  "gaokaoExaminees2025": 18.4,
+  "examineesSource": "2025 年各省教育考试院 / 教育部公开报道（报名人数，万人；括注为统考口径）",
+  "examineesNote": "",
+  "gaokaoPaper": "新高考全国Ⅱ卷",
+  "sortWeight": 27
+ },
+ {
+  "nid": "jilin",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "吉林"
+   },
+   {
+    "lang": "en",
+    "text": "Jilin"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "吉林（省级）：2025 高考报名约 12.36 万人；高考卷别 新高考全国Ⅱ卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Jilin (province-level). Gaokao 2025 examinees ≈ 12.360k; paper: 新高考全国Ⅱ卷."
+   }
+  ],
+  "level": "province",
+  "parentNid": null,
+  "tier": "other",
+  "aliases": [
+   "吉林省",
+   "吉"
+  ],
+  "gaokaoExaminees2025": 12.36,
+  "examineesSource": "2025 年各省教育考试院 / 教育部公开报道（报名人数，万人；括注为统考口径）",
+  "examineesNote": "",
+  "gaokaoPaper": "新高考全国Ⅱ卷",
+  "sortWeight": 28
+ },
+ {
+  "nid": "tianjin",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "天津"
+   },
+   {
+    "lang": "en",
+    "text": "Tianjin"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "天津（省级）：2025 高考报名约 7.4 万人；高考卷别 自主命题卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Tianjin (province-level). Gaokao 2025 examinees ≈ 7.40k; paper: 自主命题卷."
+   }
+  ],
+  "level": "province",
+  "parentNid": null,
+  "tier": "other",
+  "aliases": [
+   "天津市",
+   "津"
+  ],
+  "gaokaoExaminees2025": 7.4,
+  "examineesSource": "2025 年各省教育考试院 / 教育部公开报道（报名人数，万人；括注为统考口径）",
+  "examineesNote": "",
+  "gaokaoPaper": "自主命题卷",
+  "sortWeight": 29
+ },
+ {
+  "nid": "hainan",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "海南"
+   },
+   {
+    "lang": "en",
+    "text": "Hainan"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "海南（省级）：2025 高考报名约 7.51 万人；高考卷别 新高考全国Ⅱ卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Hainan (province-level). Gaokao 2025 examinees ≈ 7.510k; paper: 新高考全国Ⅱ卷."
+   }
+  ],
+  "level": "province",
+  "parentNid": null,
+  "tier": "other",
+  "aliases": [
+   "海南省",
+   "琼"
+  ],
+  "gaokaoExaminees2025": 7.51,
+  "examineesSource": "2025 年各省教育考试院 / 教育部公开报道（报名人数，万人；括注为统考口径）",
+  "examineesNote": "",
+  "gaokaoPaper": "新高考全国Ⅱ卷",
+  "sortWeight": 30
+ },
+ {
+  "nid": "ningxia",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "宁夏"
+   },
+   {
+    "lang": "en",
+    "text": "Ningxia"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "宁夏（省级）：2025 高考报名约 6.7 万人，统考 2.28；高考卷别 新高考全国Ⅱ卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Ningxia (province-level). Gaokao 2025 examinees ≈ 6.70k; paper: 新高考全国Ⅱ卷."
+   }
+  ],
+  "level": "province",
+  "parentNid": null,
+  "tier": "other",
+  "aliases": [
+   "宁夏回族自治区",
+   "宁"
+  ],
+  "gaokaoExaminees2025": 6.7,
+  "examineesSource": "2025 年各省教育考试院 / 教育部公开报道（报名人数，万人；括注为统考口径）",
+  "examineesNote": "统考 2.28",
+  "gaokaoPaper": "新高考全国Ⅱ卷",
+  "sortWeight": 31
+ },
+ {
+  "nid": "qinghai",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "青海"
+   },
+   {
+    "lang": "en",
+    "text": "Qinghai"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "青海（省级）：2025 高考报名约 5.99 万人，含单考单招；统考 4.77；高考卷别 新高考全国Ⅱ卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Qinghai (province-level). Gaokao 2025 examinees ≈ 5.990k; paper: 新高考全国Ⅱ卷."
+   }
+  ],
+  "level": "province",
+  "parentNid": null,
+  "tier": "other",
+  "aliases": [
+   "青海省",
+   "青"
+  ],
+  "gaokaoExaminees2025": 5.99,
+  "examineesSource": "2025 年各省教育考试院 / 教育部公开报道（报名人数，万人；括注为统考口径）",
+  "examineesNote": "含单考单招；统考 4.77",
+  "gaokaoPaper": "新高考全国Ⅱ卷",
+  "sortWeight": 32
+ },
+ {
+  "nid": "xizang",
+  "name": [
+   {
+    "lang": "zh",
+    "text": "西藏"
+   },
+   {
+    "lang": "en",
+    "text": "Tibet"
+   }
+  ],
+  "description": [
+   {
+    "lang": "zh",
+    "text": "西藏（省级）：2025 高考报名约 3.6 万人；高考卷别 新高考全国Ⅱ卷。"
+   },
+   {
+    "lang": "en",
+    "text": "Tibet (province-level). Gaokao 2025 examinees ≈ 3.60k; paper: 新高考全国Ⅱ卷."
+   }
+  ],
+  "level": "province",
+  "parentNid": null,
+  "tier": "other",
+  "aliases": [
+   "西藏自治区",
+   "藏"
+  ],
+  "gaokaoExaminees2025": 3.6,
+  "examineesSource": "2025 年各省教育考试院 / 教育部公开报道（报名人数，万人；括注为统考口径）",
+  "examineesNote": "",
+  "gaokaoPaper": "新高考全国Ⅱ卷",
+  "sortWeight": 33
+ }
+]

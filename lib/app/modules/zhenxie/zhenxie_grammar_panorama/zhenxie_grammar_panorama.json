@@ -1,0 +1,1981 @@
+{
+  "nid": "statement_polarity_mode_grid",
+  "gridKind": "polarity_question_mode",
+  "difficulty": {
+    "max": 2,
+    "min": 0
+  },
+  "order": 40,
+  "name": [
+    {
+      "lang": "zh",
+      "text": "同一句话换成肯定、否定和不同问法"
+    },
+    {
+      "lang": "en",
+      "text": "One Idea Across Polarity and Question Types"
+    }
+  ],
+  "description": [
+    {
+      "lang": "zh",
+      "text": "同一个意思，对照肯定与否定，以及陈述、一般疑问和特殊疑问。"
+    },
+    {
+      "lang": "en",
+      "text": "Same idea across affirmative and negative, and across statement, yes-no, and wh-questions."
+    }
+  ],
+  "system": true,
+  "enabled": true,
+  "axes": [
+    {
+      "axisKey": "polarity",
+      "dimensionNid": "polarity",
+      "dimension": {
+        "nid": "polarity",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "肯定和否定怎样对照"
+          },
+          {
+            "lang": "en",
+            "text": "Affirmative vs Negative Contrast"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "用于比较同一个意思说成肯定或否定时的差异。"
+          },
+          {
+            "lang": "en",
+            "text": "Used to compare how the same idea changes between affirmative and negative forms."
+          }
+        ]
+      },
+      "values": [
+        "affirmative",
+        "negative"
+      ],
+      "valuesLabels": [
+        {
+          "nid": "affirmative",
+          "name": [
+            {
+              "lang": "en",
+              "text": "Affirmative"
+            },
+            {
+              "lang": "zh",
+              "text": "肯定"
+            }
+          ]
+        },
+        {
+          "nid": "negative",
+          "name": [
+            {
+              "lang": "en",
+              "text": "Negative"
+            },
+            {
+              "lang": "zh",
+              "text": "否定"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "axisKey": "mode",
+      "dimensionNid": "question_mode",
+      "dimension": {
+        "nid": "question_mode",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "同一意思怎样陈述或发问"
+          },
+          {
+            "lang": "en",
+            "text": "Statement vs Question Forms for One Idea"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "用于比较同一个意思说成一般陈述、一般疑问或特殊疑问时的差异。"
+          },
+          {
+            "lang": "en",
+            "text": "Used to compare how the same idea changes across declarative, yes-no, and wh-question forms."
+          }
+        ]
+      },
+      "values": [
+        "declarative",
+        "yes_no_question",
+        "wh_question"
+      ],
+      "valuesLabels": [
+        {
+          "nid": "declarative",
+          "name": [
+            {
+              "lang": "en",
+              "text": "Declarative"
+            },
+            {
+              "lang": "zh",
+              "text": "陈述"
+            }
+          ]
+        },
+        {
+          "nid": "yes_no_question",
+          "name": [
+            {
+              "lang": "en",
+              "text": "Yes No Question"
+            },
+            {
+              "lang": "zh",
+              "text": "一般疑问"
+            }
+          ]
+        },
+        {
+          "nid": "wh_question",
+          "name": [
+            {
+              "lang": "en",
+              "text": "Wh Question"
+            },
+            {
+              "lang": "zh",
+              "text": "特殊疑问"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cellCount": 6,
+  "cells": [
+    {
+      "rowValue": "affirmative",
+      "colValue": "declarative",
+      "key": "affirmative|declarative",
+      "label": [
+        {
+          "lang": "en",
+          "text": "Affirmative · Declarative"
+        },
+        {
+          "lang": "zh",
+          "text": "肯定·陈述"
+        }
+      ],
+      "axisValues": {
+        "polarity": "affirmative",
+        "mode": "declarative"
+      }
+    },
+    {
+      "rowValue": "affirmative",
+      "colValue": "yes_no_question",
+      "key": "affirmative|yes_no_question",
+      "label": [
+        {
+          "lang": "en",
+          "text": "Affirmative · Yes No Question"
+        },
+        {
+          "lang": "zh",
+          "text": "肯定·一般疑问"
+        }
+      ],
+      "axisValues": {
+        "polarity": "affirmative",
+        "mode": "yes_no_question"
+      }
+    },
+    {
+      "rowValue": "affirmative",
+      "colValue": "wh_question",
+      "key": "affirmative|wh_question",
+      "label": [
+        {
+          "lang": "en",
+          "text": "Affirmative · Wh Question"
+        },
+        {
+          "lang": "zh",
+          "text": "肯定·特殊疑问"
+        }
+      ],
+      "axisValues": {
+        "polarity": "affirmative",
+        "mode": "wh_question"
+      }
+    },
+    {
+      "rowValue": "negative",
+      "colValue": "declarative",
+      "key": "negative|declarative",
+      "label": [
+        {
+          "lang": "en",
+          "text": "Negative · Declarative"
+        },
+        {
+          "lang": "zh",
+          "text": "否定·陈述"
+        }
+      ],
+      "axisValues": {
+        "polarity": "negative",
+        "mode": "declarative"
+      }
+    },
+    {
+      "rowValue": "negative",
+      "colValue": "yes_no_question",
+      "key": "negative|yes_no_question",
+      "label": [
+        {
+          "lang": "en",
+          "text": "Negative · Yes No Question"
+        },
+        {
+          "lang": "zh",
+          "text": "否定·一般疑问"
+        }
+      ],
+      "axisValues": {
+        "polarity": "negative",
+        "mode": "yes_no_question"
+      }
+    },
+    {
+      "rowValue": "negative",
+      "colValue": "wh_question",
+      "key": "negative|wh_question",
+      "label": [
+        {
+          "lang": "en",
+          "text": "Negative · Wh Question"
+        },
+        {
+          "lang": "zh",
+          "text": "否定·特殊疑问"
+        }
+      ],
+      "axisValues": {
+        "polarity": "negative",
+        "mode": "wh_question"
+      }
+    }
+  ],
+  "contrastFoci": [
+    {
+      "focusKey": "polarity_marking",
+      "bindings": [
+        {
+          "axisValues": {
+            "mode": "declarative",
+            "polarity": "affirmative"
+          },
+          "patternSlotKeys": [],
+          "patternSlots": []
+        },
+        {
+          "axisValues": {
+            "mode": "declarative",
+            "polarity": "negative"
+          },
+          "patternSlotKeys": [
+            "finite_operator_negative"
+          ],
+          "patternSlots": [
+            {
+              "nid": "finite_operator_negative",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "否定操作词"
+                },
+                {
+                  "lang": "en",
+                  "text": "negative operator"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "谓语前的否定操作。don't / didn't / won't / can't / mustn't 等都走这一格，合起来才是否定谓语的完整操作（后面跟原形）。例如 We do not need two liters of water today."
+                },
+                {
+                  "lang": "en",
+                  "text": "Negative operator before the verb. don't / didn't / won't / can't / mustn't and related forms sit in one hole because together they are the predicate’s full negative operator. Example: We do not need two liters of water today."
+                }
+              ],
+              "categoryNid": "negative_auxiliary",
+              "color": "rgba(245,158,11,1)",
+              "categoryName": [
+                {
+                  "lang": "zh",
+                  "text": "显式否定语法形式"
+                },
+                {
+                  "lang": "en",
+                  "text": "Explicit Negative Grammar Form"
+                }
+              ],
+              "categoryDescription": [
+                {
+                  "lang": "zh",
+                  "text": "用于直接承载否定完整式、缩写与允许的否定 clitic。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Directly carries full negative forms, contractions, and allowed negative clitics."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "axisValues": {
+            "mode": "yes_no_question",
+            "polarity": "affirmative"
+          },
+          "patternSlotKeys": [
+            "aux_do"
+          ],
+          "patternSlots": [
+            {
+              "nid": "aux_do",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "do（助动词）"
+                },
+                {
+                  "lang": "en",
+                  "text": "do (helping)"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "构成疑问、否定，或给一般动词提供时态。可以是 do / does / did。常见写法如 do、does、did。例如 Which one do you want?"
+                },
+                {
+                  "lang": "en",
+                  "text": "Builds questions, negatives, or tense support: do / does / did. Common writings include do, does, did. Example: Which one do you want?"
+                }
+              ],
+              "categoryNid": "grammar_auxiliary",
+              "color": "rgba(245,158,11,1)",
+              "categoryName": [
+                {
+                  "lang": "zh",
+                  "text": "助动语法形式"
+                },
+                {
+                  "lang": "en",
+                  "text": "Auxiliary Grammar Form"
+                }
+              ],
+              "categoryDescription": [
+                {
+                  "lang": "zh",
+                  "text": "用于控制 be、do、have、存在式或附加问句中的助动形式。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Controls auxiliary forms for be, do, have, existential frames, or tag questions."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "axisValues": {
+            "mode": "yes_no_question",
+            "polarity": "negative"
+          },
+          "patternSlotKeys": [
+            "polarity_particle_negative"
+          ],
+          "patternSlots": [
+            {
+              "nid": "polarity_particle_negative",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "not"
+                },
+                {
+                  "lang": "en",
+                  "text": "not"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "疑问句里的否定词 not。常见写法如 not。例如 Do they not play basketball in winter?"
+                },
+                {
+                  "lang": "en",
+                  "text": "The word not in a negative question. Common writings include not. Example: Do they not play basketball in winter?"
+                }
+              ],
+              "categoryNid": "negative_auxiliary",
+              "color": "rgba(245,158,11,1)",
+              "categoryName": [
+                {
+                  "lang": "zh",
+                  "text": "显式否定语法形式"
+                },
+                {
+                  "lang": "en",
+                  "text": "Explicit Negative Grammar Form"
+                }
+              ],
+              "categoryDescription": [
+                {
+                  "lang": "zh",
+                  "text": "用于直接承载否定完整式、缩写与允许的否定 clitic。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Directly carries full negative forms, contractions, and allowed negative clitics."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "axisValues": {
+            "mode": "wh_question",
+            "polarity": "affirmative"
+          },
+          "patternSlotKeys": [
+            "aux_do"
+          ],
+          "patternSlots": [
+            {
+              "nid": "aux_do",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "do（助动词）"
+                },
+                {
+                  "lang": "en",
+                  "text": "do (helping)"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "构成疑问、否定，或给一般动词提供时态。可以是 do / does / did。常见写法如 do、does、did。例如 Which one do you want?"
+                },
+                {
+                  "lang": "en",
+                  "text": "Builds questions, negatives, or tense support: do / does / did. Common writings include do, does, did. Example: Which one do you want?"
+                }
+              ],
+              "categoryNid": "grammar_auxiliary",
+              "color": "rgba(245,158,11,1)",
+              "categoryName": [
+                {
+                  "lang": "zh",
+                  "text": "助动语法形式"
+                },
+                {
+                  "lang": "en",
+                  "text": "Auxiliary Grammar Form"
+                }
+              ],
+              "categoryDescription": [
+                {
+                  "lang": "zh",
+                  "text": "用于控制 be、do、have、存在式或附加问句中的助动形式。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Controls auxiliary forms for be, do, have, existential frames, or tag questions."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "axisValues": {
+            "mode": "wh_question",
+            "polarity": "negative"
+          },
+          "patternSlotKeys": [
+            "polarity_particle_negative"
+          ],
+          "patternSlots": [
+            {
+              "nid": "polarity_particle_negative",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "not"
+                },
+                {
+                  "lang": "en",
+                  "text": "not"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "疑问句里的否定词 not。常见写法如 not。例如 Do they not play basketball in winter?"
+                },
+                {
+                  "lang": "en",
+                  "text": "The word not in a negative question. Common writings include not. Example: Do they not play basketball in winter?"
+                }
+              ],
+              "categoryNid": "negative_auxiliary",
+              "color": "rgba(245,158,11,1)",
+              "categoryName": [
+                {
+                  "lang": "zh",
+                  "text": "显式否定语法形式"
+                },
+                {
+                  "lang": "en",
+                  "text": "Explicit Negative Grammar Form"
+                }
+              ],
+              "categoryDescription": [
+                {
+                  "lang": "zh",
+                  "text": "用于直接承载否定完整式、缩写与允许的否定 clitic。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Directly carries full negative forms, contractions, and allowed negative clitics."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sentenceEligibility": {
+    "suggestedPatternNids": [
+      "entity_pred",
+      "ask_do_yes_no",
+      "ask_why_do_subject_pred"
+    ],
+    "suggestedPatterns": [
+      {
+        "nid": "entity_pred",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "说明做什么"
+          },
+          {
+            "lang": "en",
+            "text": "Say what someone does"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "用来讲一般会做、习惯做或将要做的动作，不强调“正在进行中”。"
+          },
+          {
+            "lang": "en",
+            "text": "For habitual, general, or future actions — not the sense of “in progress right now”."
+          }
+        ],
+        "template": "{actor} {finite_operator_marking} {action_predicate} {object} {place_phrase} {context_phrase} {time_expression} {manner_expression} {reason_expression} {purpose_expression} {relative_clause}."
+      },
+      {
+        "nid": "ask_do_yes_no",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "用 do/does/did 确认平时会不会做某事"
+          },
+          {
+            "lang": "en",
+            "text": "Asking Yes/No with Do / Does / Did"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "确认平时会不会做某事。"
+          },
+          {
+            "lang": "en",
+            "text": "Used to ask about whether someone usually does something."
+          }
+        ],
+        "template": "{aux_do} {question_subject} {frequency_adv} {polarity_particle_marking} {base_verb} {question_complement}?"
+      },
+      {
+        "nid": "ask_why_do_subject_pred",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "询问为什么做某事"
+          },
+          {
+            "lang": "en",
+            "text": "Asking Why Someone Does Something"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "用来询问为什么做某事。常见于提问场景。"
+          },
+          {
+            "lang": "en",
+            "text": "Used to Asking Why Someone Does Something."
+          }
+        ],
+        "template": "Why {aux_do} {question_subject} {polarity_particle_marking} {base_predicate} {question_complement}?"
+      }
+    ]
+  },
+  "teachingEntryAxisValues": {
+    "mode": "declarative",
+    "polarity": "affirmative"
+  },
+  "minimalSubGrids": [
+    {
+      "nid": "statement_vs_question",
+      "axisSubsets": {
+        "mode": [
+          "declarative",
+          "yes_no_question"
+        ],
+        "polarity": [
+          "affirmative"
+        ]
+      },
+      "cellCount": 2
+    }
+  ],
+  "realizationSets": [
+    {
+      "uid": 10532,
+      "contentType": "EN_SENTENCE_REALIZATION_SET",
+      "assetType": "grid",
+      "assetNid": "statement_polarity_mode_grid",
+      "isSet": true,
+      "asset": {
+        "nid": "statement_polarity_mode_grid",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "同一句话换成肯定、否定和不同问法"
+          },
+          {
+            "lang": "en",
+            "text": "One Idea Across Polarity and Question Types"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "同一个意思，对照肯定与否定，以及陈述、一般疑问和特殊疑问。"
+          },
+          {
+            "lang": "en",
+            "text": "Same idea across affirmative and negative, and across statement, yes-no, and wh-questions."
+          }
+        ]
+      },
+      "order": 0,
+      "topicNid": null,
+      "difficulty": null,
+      "tier": 2,
+      "access": "INTERNAL",
+      "baseSlotKeys": [],
+      "dialSlotKeys": [],
+      "growthSlotKeys": [],
+      "members": [
+        {
+          "sentenceId": 580177,
+          "sentence": {
+            "sentenceId": 580177,
+            "semanticId": 1201289,
+            "contentType": "EN_SENTENCE",
+            "content": "They need the report.",
+            "definition": "他们需要那份报告。",
+            "patternNid": "intention_entity_want_np",
+            "patternTemplate": "{wanter} {want_verb_marking} {desired_entity} {context_phrase} {place_phrase} {time_expression} {relative_clause}.",
+            "patternName": [
+              {
+                "lang": "zh",
+                "text": "说明想要什么"
+              },
+              {
+                "lang": "en",
+                "text": "Saying What Someone Wants"
+              }
+            ],
+            "patternDescription": [
+              {
+                "lang": "zh",
+                "text": "用来说明想要什么。整体框架较固定，关键位置按句型填写即可。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to Saying What Someone Wants."
+              }
+            ],
+            "access": "NORMAL"
+          },
+          "role": "member",
+          "valueNid": "affirmative|declarative",
+          "cell": {
+            "rowValue": "affirmative",
+            "colValue": "declarative",
+            "key": "affirmative|declarative",
+            "label": [
+              {
+                "lang": "en",
+                "text": "Affirmative · Declarative"
+              },
+              {
+                "lang": "zh",
+                "text": "肯定·陈述"
+              }
+            ],
+            "axisValues": {
+              "polarity": "affirmative",
+              "mode": "declarative"
+            }
+          },
+          "pair": null,
+          "toPattern": null,
+          "addedSlotKeys": [],
+          "foci": [
+            {
+              "focusKey": "polarity_marking",
+              "ranges": []
+            }
+          ],
+          "order": 0
+        },
+        {
+          "sentenceId": 580174,
+          "sentence": {
+            "sentenceId": 580174,
+            "semanticId": 1201286,
+            "contentType": "EN_SENTENCE",
+            "content": "Do they need the report?",
+            "definition": "他们需要那份报告吗？",
+            "patternNid": "ask_need_yes_no",
+            "patternTemplate": "{aux_do} {wanter} need {needed_content} {context_phrase} {time_expression}?",
+            "patternName": [
+              {
+                "lang": "zh",
+                "text": "确认需不需要某物"
+              },
+              {
+                "lang": "en",
+                "text": "Asking Whether Someone Needs Something"
+              }
+            ],
+            "patternDescription": [
+              {
+                "lang": "zh",
+                "text": "用来确认需不需要某物。常见于提问场景。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to Asking Whether Someone Needs Something."
+              }
+            ],
+            "access": "NORMAL"
+          },
+          "role": "member",
+          "valueNid": "affirmative|yes_no_question",
+          "cell": {
+            "rowValue": "affirmative",
+            "colValue": "yes_no_question",
+            "key": "affirmative|yes_no_question",
+            "label": [
+              {
+                "lang": "en",
+                "text": "Affirmative · Yes No Question"
+              },
+              {
+                "lang": "zh",
+                "text": "肯定·一般疑问"
+              }
+            ],
+            "axisValues": {
+              "polarity": "affirmative",
+              "mode": "yes_no_question"
+            }
+          },
+          "pair": null,
+          "toPattern": null,
+          "addedSlotKeys": [],
+          "foci": [
+            {
+              "focusKey": "polarity_marking",
+              "ranges": [
+                {
+                  "start": 0,
+                  "end": 2,
+                  "text": "Do",
+                  "key": null
+                }
+              ]
+            }
+          ],
+          "order": 0
+        },
+        {
+          "sentenceId": 580176,
+          "sentence": {
+            "sentenceId": 580176,
+            "semanticId": 1201288,
+            "contentType": "EN_SENTENCE",
+            "content": "Why do they need the report?",
+            "definition": "他们为什么需要那份报告？",
+            "patternNid": "ask_why_do_subject_pred",
+            "patternTemplate": "Why {aux_do} {question_subject} {polarity_particle_marking} {base_predicate} {question_complement}?",
+            "patternName": [
+              {
+                "lang": "zh",
+                "text": "询问为什么做某事"
+              },
+              {
+                "lang": "en",
+                "text": "Asking Why Someone Does Something"
+              }
+            ],
+            "patternDescription": [
+              {
+                "lang": "zh",
+                "text": "用来询问为什么做某事。常见于提问场景。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to Asking Why Someone Does Something."
+              }
+            ],
+            "access": "NORMAL"
+          },
+          "role": "member",
+          "valueNid": "affirmative|wh_question",
+          "cell": {
+            "rowValue": "affirmative",
+            "colValue": "wh_question",
+            "key": "affirmative|wh_question",
+            "label": [
+              {
+                "lang": "en",
+                "text": "Affirmative · Wh Question"
+              },
+              {
+                "lang": "zh",
+                "text": "肯定·特殊疑问"
+              }
+            ],
+            "axisValues": {
+              "polarity": "affirmative",
+              "mode": "wh_question"
+            }
+          },
+          "pair": null,
+          "toPattern": null,
+          "addedSlotKeys": [],
+          "foci": [
+            {
+              "focusKey": "polarity_marking",
+              "ranges": [
+                {
+                  "start": 4,
+                  "end": 6,
+                  "text": "do",
+                  "key": null
+                }
+              ]
+            }
+          ],
+          "order": 0
+        },
+        {
+          "sentenceId": 580175,
+          "sentence": {
+            "sentenceId": 580175,
+            "semanticId": 1201287,
+            "contentType": "EN_SENTENCE",
+            "content": "They don't need the report.",
+            "definition": "他们不需要那份报告。",
+            "patternNid": "intention_entity_want_np",
+            "patternTemplate": "{wanter} {want_verb_marking} {desired_entity} {context_phrase} {place_phrase} {time_expression} {relative_clause}.",
+            "patternName": [
+              {
+                "lang": "zh",
+                "text": "说明想要什么"
+              },
+              {
+                "lang": "en",
+                "text": "Saying What Someone Wants"
+              }
+            ],
+            "patternDescription": [
+              {
+                "lang": "zh",
+                "text": "用来说明想要什么。整体框架较固定，关键位置按句型填写即可。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to Saying What Someone Wants."
+              }
+            ],
+            "access": "NORMAL"
+          },
+          "role": "member",
+          "valueNid": "negative|declarative",
+          "cell": {
+            "rowValue": "negative",
+            "colValue": "declarative",
+            "key": "negative|declarative",
+            "label": [
+              {
+                "lang": "en",
+                "text": "Negative · Declarative"
+              },
+              {
+                "lang": "zh",
+                "text": "否定·陈述"
+              }
+            ],
+            "axisValues": {
+              "polarity": "negative",
+              "mode": "declarative"
+            }
+          },
+          "pair": null,
+          "toPattern": null,
+          "addedSlotKeys": [],
+          "foci": [
+            {
+              "focusKey": "polarity_marking",
+              "ranges": [
+                {
+                  "start": 5,
+                  "end": 10,
+                  "text": "don't",
+                  "key": null
+                }
+              ]
+            }
+          ],
+          "order": 0
+        },
+        {
+          "sentenceId": 580173,
+          "sentence": {
+            "sentenceId": 580173,
+            "semanticId": 1201285,
+            "contentType": "EN_SENTENCE",
+            "content": "Don't they need the report?",
+            "definition": "他们不需要那份报告吗？",
+            "patternNid": "ask_dont_yes_no",
+            "patternTemplate": "{aux_do_negative} {question_subject} {base_verb} {question_complement}?",
+            "patternName": [
+              {
+                "lang": "zh",
+                "text": "用 don't/doesn't 确认平时是不是不做某事"
+              },
+              {
+                "lang": "en",
+                "text": "Asking a Negative Yes-No Question with Don't / Doesn't"
+              }
+            ],
+            "patternDescription": [
+              {
+                "lang": "zh",
+                "text": "用 don't / doesn't 倒装确认某人平时是不是不做某事。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to ask a negative yes-no question with contracted don't or doesn't before the subject."
+              }
+            ],
+            "access": "NORMAL"
+          },
+          "role": "member",
+          "valueNid": "negative|yes_no_question",
+          "cell": {
+            "rowValue": "negative",
+            "colValue": "yes_no_question",
+            "key": "negative|yes_no_question",
+            "label": [
+              {
+                "lang": "en",
+                "text": "Negative · Yes No Question"
+              },
+              {
+                "lang": "zh",
+                "text": "否定·一般疑问"
+              }
+            ],
+            "axisValues": {
+              "polarity": "negative",
+              "mode": "yes_no_question"
+            }
+          },
+          "pair": null,
+          "toPattern": null,
+          "addedSlotKeys": [],
+          "foci": [
+            {
+              "focusKey": "polarity_marking",
+              "ranges": [
+                {
+                  "start": 0,
+                  "end": 5,
+                  "text": "Don't",
+                  "key": null
+                }
+              ]
+            }
+          ],
+          "order": 0
+        },
+        {
+          "sentenceId": 580172,
+          "sentence": {
+            "sentenceId": 580172,
+            "semanticId": 1201284,
+            "contentType": "EN_SENTENCE",
+            "content": "Why don't they need the report?",
+            "definition": "他们为什么不需要那份报告？",
+            "patternNid": "ask_why_dont_subject_pred",
+            "patternTemplate": "Why {aux_do_negative} {question_subject} {base_predicate} {question_complement}?",
+            "patternName": [
+              {
+                "lang": "zh",
+                "text": "用缩写询问为什么不做某事"
+              },
+              {
+                "lang": "en",
+                "text": "Asking Why Someone Does Not Act with a Contraction"
+              }
+            ],
+            "patternDescription": [
+              {
+                "lang": "zh",
+                "text": "用 don't / doesn't 倒装询问某人为什么不做某事。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to ask why someone does not do something with contracted don't or doesn't before the subject."
+              }
+            ],
+            "access": "NORMAL"
+          },
+          "role": "member",
+          "valueNid": "negative|wh_question",
+          "cell": {
+            "rowValue": "negative",
+            "colValue": "wh_question",
+            "key": "negative|wh_question",
+            "label": [
+              {
+                "lang": "en",
+                "text": "Negative · Wh Question"
+              },
+              {
+                "lang": "zh",
+                "text": "否定·特殊疑问"
+              }
+            ],
+            "axisValues": {
+              "polarity": "negative",
+              "mode": "wh_question"
+            }
+          },
+          "pair": null,
+          "toPattern": null,
+          "addedSlotKeys": [],
+          "foci": [
+            {
+              "focusKey": "polarity_marking",
+              "ranges": [
+                {
+                  "start": 4,
+                  "end": 9,
+                  "text": "don't",
+                  "key": null
+                }
+              ]
+            }
+          ],
+          "order": 0
+        }
+      ],
+      "memberList": [
+        {
+          "sentenceId": 580177,
+          "valueNid": "affirmative|declarative",
+          "cell": {
+            "rowValue": "affirmative",
+            "colValue": "declarative",
+            "key": "affirmative|declarative",
+            "label": [
+              {
+                "lang": "en",
+                "text": "Affirmative · Declarative"
+              },
+              {
+                "lang": "zh",
+                "text": "肯定·陈述"
+              }
+            ],
+            "axisValues": {
+              "polarity": "affirmative",
+              "mode": "declarative"
+            }
+          },
+          "role": "member",
+          "order": 0,
+          "sentence": {
+            "sentenceId": 580177,
+            "semanticId": 1201289,
+            "contentType": "EN_SENTENCE",
+            "content": "They need the report.",
+            "definition": "他们需要那份报告。",
+            "patternNid": "intention_entity_want_np",
+            "patternTemplate": "{wanter} {want_verb_marking} {desired_entity} {context_phrase} {place_phrase} {time_expression} {relative_clause}.",
+            "patternName": [
+              {
+                "lang": "zh",
+                "text": "说明想要什么"
+              },
+              {
+                "lang": "en",
+                "text": "Saying What Someone Wants"
+              }
+            ],
+            "patternDescription": [
+              {
+                "lang": "zh",
+                "text": "用来说明想要什么。整体框架较固定，关键位置按句型填写即可。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to Saying What Someone Wants."
+              }
+            ],
+            "access": "NORMAL"
+          },
+          "foci": [
+            {
+              "focusKey": "polarity_marking",
+              "ranges": []
+            }
+          ]
+        },
+        {
+          "sentenceId": 580174,
+          "valueNid": "affirmative|yes_no_question",
+          "cell": {
+            "rowValue": "affirmative",
+            "colValue": "yes_no_question",
+            "key": "affirmative|yes_no_question",
+            "label": [
+              {
+                "lang": "en",
+                "text": "Affirmative · Yes No Question"
+              },
+              {
+                "lang": "zh",
+                "text": "肯定·一般疑问"
+              }
+            ],
+            "axisValues": {
+              "polarity": "affirmative",
+              "mode": "yes_no_question"
+            }
+          },
+          "role": "member",
+          "order": 0,
+          "sentence": {
+            "sentenceId": 580174,
+            "semanticId": 1201286,
+            "contentType": "EN_SENTENCE",
+            "content": "Do they need the report?",
+            "definition": "他们需要那份报告吗？",
+            "patternNid": "ask_need_yes_no",
+            "patternTemplate": "{aux_do} {wanter} need {needed_content} {context_phrase} {time_expression}?",
+            "patternName": [
+              {
+                "lang": "zh",
+                "text": "确认需不需要某物"
+              },
+              {
+                "lang": "en",
+                "text": "Asking Whether Someone Needs Something"
+              }
+            ],
+            "patternDescription": [
+              {
+                "lang": "zh",
+                "text": "用来确认需不需要某物。常见于提问场景。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to Asking Whether Someone Needs Something."
+              }
+            ],
+            "access": "NORMAL"
+          },
+          "foci": [
+            {
+              "focusKey": "polarity_marking",
+              "ranges": [
+                {
+                  "start": 0,
+                  "end": 2,
+                  "text": "Do",
+                  "key": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentenceId": 580176,
+          "valueNid": "affirmative|wh_question",
+          "cell": {
+            "rowValue": "affirmative",
+            "colValue": "wh_question",
+            "key": "affirmative|wh_question",
+            "label": [
+              {
+                "lang": "en",
+                "text": "Affirmative · Wh Question"
+              },
+              {
+                "lang": "zh",
+                "text": "肯定·特殊疑问"
+              }
+            ],
+            "axisValues": {
+              "polarity": "affirmative",
+              "mode": "wh_question"
+            }
+          },
+          "role": "member",
+          "order": 0,
+          "sentence": {
+            "sentenceId": 580176,
+            "semanticId": 1201288,
+            "contentType": "EN_SENTENCE",
+            "content": "Why do they need the report?",
+            "definition": "他们为什么需要那份报告？",
+            "patternNid": "ask_why_do_subject_pred",
+            "patternTemplate": "Why {aux_do} {question_subject} {polarity_particle_marking} {base_predicate} {question_complement}?",
+            "patternName": [
+              {
+                "lang": "zh",
+                "text": "询问为什么做某事"
+              },
+              {
+                "lang": "en",
+                "text": "Asking Why Someone Does Something"
+              }
+            ],
+            "patternDescription": [
+              {
+                "lang": "zh",
+                "text": "用来询问为什么做某事。常见于提问场景。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to Asking Why Someone Does Something."
+              }
+            ],
+            "access": "NORMAL"
+          },
+          "foci": [
+            {
+              "focusKey": "polarity_marking",
+              "ranges": [
+                {
+                  "start": 4,
+                  "end": 6,
+                  "text": "do",
+                  "key": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentenceId": 580175,
+          "valueNid": "negative|declarative",
+          "cell": {
+            "rowValue": "negative",
+            "colValue": "declarative",
+            "key": "negative|declarative",
+            "label": [
+              {
+                "lang": "en",
+                "text": "Negative · Declarative"
+              },
+              {
+                "lang": "zh",
+                "text": "否定·陈述"
+              }
+            ],
+            "axisValues": {
+              "polarity": "negative",
+              "mode": "declarative"
+            }
+          },
+          "role": "member",
+          "order": 0,
+          "sentence": {
+            "sentenceId": 580175,
+            "semanticId": 1201287,
+            "contentType": "EN_SENTENCE",
+            "content": "They don't need the report.",
+            "definition": "他们不需要那份报告。",
+            "patternNid": "intention_entity_want_np",
+            "patternTemplate": "{wanter} {want_verb_marking} {desired_entity} {context_phrase} {place_phrase} {time_expression} {relative_clause}.",
+            "patternName": [
+              {
+                "lang": "zh",
+                "text": "说明想要什么"
+              },
+              {
+                "lang": "en",
+                "text": "Saying What Someone Wants"
+              }
+            ],
+            "patternDescription": [
+              {
+                "lang": "zh",
+                "text": "用来说明想要什么。整体框架较固定，关键位置按句型填写即可。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to Saying What Someone Wants."
+              }
+            ],
+            "access": "NORMAL"
+          },
+          "foci": [
+            {
+              "focusKey": "polarity_marking",
+              "ranges": [
+                {
+                  "start": 5,
+                  "end": 10,
+                  "text": "don't",
+                  "key": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentenceId": 580173,
+          "valueNid": "negative|yes_no_question",
+          "cell": {
+            "rowValue": "negative",
+            "colValue": "yes_no_question",
+            "key": "negative|yes_no_question",
+            "label": [
+              {
+                "lang": "en",
+                "text": "Negative · Yes No Question"
+              },
+              {
+                "lang": "zh",
+                "text": "否定·一般疑问"
+              }
+            ],
+            "axisValues": {
+              "polarity": "negative",
+              "mode": "yes_no_question"
+            }
+          },
+          "role": "member",
+          "order": 0,
+          "sentence": {
+            "sentenceId": 580173,
+            "semanticId": 1201285,
+            "contentType": "EN_SENTENCE",
+            "content": "Don't they need the report?",
+            "definition": "他们不需要那份报告吗？",
+            "patternNid": "ask_dont_yes_no",
+            "patternTemplate": "{aux_do_negative} {question_subject} {base_verb} {question_complement}?",
+            "patternName": [
+              {
+                "lang": "zh",
+                "text": "用 don't/doesn't 确认平时是不是不做某事"
+              },
+              {
+                "lang": "en",
+                "text": "Asking a Negative Yes-No Question with Don't / Doesn't"
+              }
+            ],
+            "patternDescription": [
+              {
+                "lang": "zh",
+                "text": "用 don't / doesn't 倒装确认某人平时是不是不做某事。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to ask a negative yes-no question with contracted don't or doesn't before the subject."
+              }
+            ],
+            "access": "NORMAL"
+          },
+          "foci": [
+            {
+              "focusKey": "polarity_marking",
+              "ranges": [
+                {
+                  "start": 0,
+                  "end": 5,
+                  "text": "Don't",
+                  "key": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentenceId": 580172,
+          "valueNid": "negative|wh_question",
+          "cell": {
+            "rowValue": "negative",
+            "colValue": "wh_question",
+            "key": "negative|wh_question",
+            "label": [
+              {
+                "lang": "en",
+                "text": "Negative · Wh Question"
+              },
+              {
+                "lang": "zh",
+                "text": "否定·特殊疑问"
+              }
+            ],
+            "axisValues": {
+              "polarity": "negative",
+              "mode": "wh_question"
+            }
+          },
+          "role": "member",
+          "order": 0,
+          "sentence": {
+            "sentenceId": 580172,
+            "semanticId": 1201284,
+            "contentType": "EN_SENTENCE",
+            "content": "Why don't they need the report?",
+            "definition": "他们为什么不需要那份报告？",
+            "patternNid": "ask_why_dont_subject_pred",
+            "patternTemplate": "Why {aux_do_negative} {question_subject} {base_predicate} {question_complement}?",
+            "patternName": [
+              {
+                "lang": "zh",
+                "text": "用缩写询问为什么不做某事"
+              },
+              {
+                "lang": "en",
+                "text": "Asking Why Someone Does Not Act with a Contraction"
+              }
+            ],
+            "patternDescription": [
+              {
+                "lang": "zh",
+                "text": "用 don't / doesn't 倒装询问某人为什么不做某事。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to ask why someone does not do something with contracted don't or doesn't before the subject."
+              }
+            ],
+            "access": "NORMAL"
+          },
+          "foci": [
+            {
+              "focusKey": "polarity_marking",
+              "ranges": [
+                {
+                  "start": 4,
+                  "end": 9,
+                  "text": "don't",
+                  "key": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contents": [
+        {
+          "sentenceId": 580177,
+          "valueNid": "affirmative|declarative",
+          "cell": {
+            "rowValue": "affirmative",
+            "colValue": "declarative",
+            "key": "affirmative|declarative",
+            "label": [
+              {
+                "lang": "en",
+                "text": "Affirmative · Declarative"
+              },
+              {
+                "lang": "zh",
+                "text": "肯定·陈述"
+              }
+            ],
+            "axisValues": {
+              "polarity": "affirmative",
+              "mode": "declarative"
+            }
+          },
+          "role": "member",
+          "order": 0,
+          "sentence": {
+            "sentenceId": 580177,
+            "semanticId": 1201289,
+            "contentType": "EN_SENTENCE",
+            "content": "They need the report.",
+            "definition": "他们需要那份报告。",
+            "patternNid": "intention_entity_want_np",
+            "patternTemplate": "{wanter} {want_verb_marking} {desired_entity} {context_phrase} {place_phrase} {time_expression} {relative_clause}.",
+            "patternName": [
+              {
+                "lang": "zh",
+                "text": "说明想要什么"
+              },
+              {
+                "lang": "en",
+                "text": "Saying What Someone Wants"
+              }
+            ],
+            "patternDescription": [
+              {
+                "lang": "zh",
+                "text": "用来说明想要什么。整体框架较固定，关键位置按句型填写即可。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to Saying What Someone Wants."
+              }
+            ],
+            "access": "NORMAL"
+          },
+          "foci": [
+            {
+              "focusKey": "polarity_marking",
+              "ranges": []
+            }
+          ]
+        },
+        {
+          "sentenceId": 580174,
+          "valueNid": "affirmative|yes_no_question",
+          "cell": {
+            "rowValue": "affirmative",
+            "colValue": "yes_no_question",
+            "key": "affirmative|yes_no_question",
+            "label": [
+              {
+                "lang": "en",
+                "text": "Affirmative · Yes No Question"
+              },
+              {
+                "lang": "zh",
+                "text": "肯定·一般疑问"
+              }
+            ],
+            "axisValues": {
+              "polarity": "affirmative",
+              "mode": "yes_no_question"
+            }
+          },
+          "role": "member",
+          "order": 0,
+          "sentence": {
+            "sentenceId": 580174,
+            "semanticId": 1201286,
+            "contentType": "EN_SENTENCE",
+            "content": "Do they need the report?",
+            "definition": "他们需要那份报告吗？",
+            "patternNid": "ask_need_yes_no",
+            "patternTemplate": "{aux_do} {wanter} need {needed_content} {context_phrase} {time_expression}?",
+            "patternName": [
+              {
+                "lang": "zh",
+                "text": "确认需不需要某物"
+              },
+              {
+                "lang": "en",
+                "text": "Asking Whether Someone Needs Something"
+              }
+            ],
+            "patternDescription": [
+              {
+                "lang": "zh",
+                "text": "用来确认需不需要某物。常见于提问场景。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to Asking Whether Someone Needs Something."
+              }
+            ],
+            "access": "NORMAL"
+          },
+          "foci": [
+            {
+              "focusKey": "polarity_marking",
+              "ranges": [
+                {
+                  "start": 0,
+                  "end": 2,
+                  "text": "Do",
+                  "key": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentenceId": 580176,
+          "valueNid": "affirmative|wh_question",
+          "cell": {
+            "rowValue": "affirmative",
+            "colValue": "wh_question",
+            "key": "affirmative|wh_question",
+            "label": [
+              {
+                "lang": "en",
+                "text": "Affirmative · Wh Question"
+              },
+              {
+                "lang": "zh",
+                "text": "肯定·特殊疑问"
+              }
+            ],
+            "axisValues": {
+              "polarity": "affirmative",
+              "mode": "wh_question"
+            }
+          },
+          "role": "member",
+          "order": 0,
+          "sentence": {
+            "sentenceId": 580176,
+            "semanticId": 1201288,
+            "contentType": "EN_SENTENCE",
+            "content": "Why do they need the report?",
+            "definition": "他们为什么需要那份报告？",
+            "patternNid": "ask_why_do_subject_pred",
+            "patternTemplate": "Why {aux_do} {question_subject} {polarity_particle_marking} {base_predicate} {question_complement}?",
+            "patternName": [
+              {
+                "lang": "zh",
+                "text": "询问为什么做某事"
+              },
+              {
+                "lang": "en",
+                "text": "Asking Why Someone Does Something"
+              }
+            ],
+            "patternDescription": [
+              {
+                "lang": "zh",
+                "text": "用来询问为什么做某事。常见于提问场景。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to Asking Why Someone Does Something."
+              }
+            ],
+            "access": "NORMAL"
+          },
+          "foci": [
+            {
+              "focusKey": "polarity_marking",
+              "ranges": [
+                {
+                  "start": 4,
+                  "end": 6,
+                  "text": "do",
+                  "key": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentenceId": 580175,
+          "valueNid": "negative|declarative",
+          "cell": {
+            "rowValue": "negative",
+            "colValue": "declarative",
+            "key": "negative|declarative",
+            "label": [
+              {
+                "lang": "en",
+                "text": "Negative · Declarative"
+              },
+              {
+                "lang": "zh",
+                "text": "否定·陈述"
+              }
+            ],
+            "axisValues": {
+              "polarity": "negative",
+              "mode": "declarative"
+            }
+          },
+          "role": "member",
+          "order": 0,
+          "sentence": {
+            "sentenceId": 580175,
+            "semanticId": 1201287,
+            "contentType": "EN_SENTENCE",
+            "content": "They don't need the report.",
+            "definition": "他们不需要那份报告。",
+            "patternNid": "intention_entity_want_np",
+            "patternTemplate": "{wanter} {want_verb_marking} {desired_entity} {context_phrase} {place_phrase} {time_expression} {relative_clause}.",
+            "patternName": [
+              {
+                "lang": "zh",
+                "text": "说明想要什么"
+              },
+              {
+                "lang": "en",
+                "text": "Saying What Someone Wants"
+              }
+            ],
+            "patternDescription": [
+              {
+                "lang": "zh",
+                "text": "用来说明想要什么。整体框架较固定，关键位置按句型填写即可。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to Saying What Someone Wants."
+              }
+            ],
+            "access": "NORMAL"
+          },
+          "foci": [
+            {
+              "focusKey": "polarity_marking",
+              "ranges": [
+                {
+                  "start": 5,
+                  "end": 10,
+                  "text": "don't",
+                  "key": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentenceId": 580173,
+          "valueNid": "negative|yes_no_question",
+          "cell": {
+            "rowValue": "negative",
+            "colValue": "yes_no_question",
+            "key": "negative|yes_no_question",
+            "label": [
+              {
+                "lang": "en",
+                "text": "Negative · Yes No Question"
+              },
+              {
+                "lang": "zh",
+                "text": "否定·一般疑问"
+              }
+            ],
+            "axisValues": {
+              "polarity": "negative",
+              "mode": "yes_no_question"
+            }
+          },
+          "role": "member",
+          "order": 0,
+          "sentence": {
+            "sentenceId": 580173,
+            "semanticId": 1201285,
+            "contentType": "EN_SENTENCE",
+            "content": "Don't they need the report?",
+            "definition": "他们不需要那份报告吗？",
+            "patternNid": "ask_dont_yes_no",
+            "patternTemplate": "{aux_do_negative} {question_subject} {base_verb} {question_complement}?",
+            "patternName": [
+              {
+                "lang": "zh",
+                "text": "用 don't/doesn't 确认平时是不是不做某事"
+              },
+              {
+                "lang": "en",
+                "text": "Asking a Negative Yes-No Question with Don't / Doesn't"
+              }
+            ],
+            "patternDescription": [
+              {
+                "lang": "zh",
+                "text": "用 don't / doesn't 倒装确认某人平时是不是不做某事。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to ask a negative yes-no question with contracted don't or doesn't before the subject."
+              }
+            ],
+            "access": "NORMAL"
+          },
+          "foci": [
+            {
+              "focusKey": "polarity_marking",
+              "ranges": [
+                {
+                  "start": 0,
+                  "end": 5,
+                  "text": "Don't",
+                  "key": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentenceId": 580172,
+          "valueNid": "negative|wh_question",
+          "cell": {
+            "rowValue": "negative",
+            "colValue": "wh_question",
+            "key": "negative|wh_question",
+            "label": [
+              {
+                "lang": "en",
+                "text": "Negative · Wh Question"
+              },
+              {
+                "lang": "zh",
+                "text": "否定·特殊疑问"
+              }
+            ],
+            "axisValues": {
+              "polarity": "negative",
+              "mode": "wh_question"
+            }
+          },
+          "role": "member",
+          "order": 0,
+          "sentence": {
+            "sentenceId": 580172,
+            "semanticId": 1201284,
+            "contentType": "EN_SENTENCE",
+            "content": "Why don't they need the report?",
+            "definition": "他们为什么不需要那份报告？",
+            "patternNid": "ask_why_dont_subject_pred",
+            "patternTemplate": "Why {aux_do_negative} {question_subject} {base_predicate} {question_complement}?",
+            "patternName": [
+              {
+                "lang": "zh",
+                "text": "用缩写询问为什么不做某事"
+              },
+              {
+                "lang": "en",
+                "text": "Asking Why Someone Does Not Act with a Contraction"
+              }
+            ],
+            "patternDescription": [
+              {
+                "lang": "zh",
+                "text": "用 don't / doesn't 倒装询问某人为什么不做某事。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to ask why someone does not do something with contracted don't or doesn't before the subject."
+              }
+            ],
+            "access": "NORMAL"
+          },
+          "foci": [
+            {
+              "focusKey": "polarity_marking",
+              "ranges": [
+                {
+                  "start": 4,
+                  "end": 9,
+                  "text": "don't",
+                  "key": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "paradigm": null,
+      "pair": null,
+      "fork": null,
+      "grid": {
+        "nid": "statement_polarity_mode_grid",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "同一句话换成肯定、否定和不同问法"
+          },
+          {
+            "lang": "en",
+            "text": "One Idea Across Polarity and Question Types"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "同一个意思，对照肯定与否定，以及陈述、一般疑问和特殊疑问。"
+          },
+          {
+            "lang": "en",
+            "text": "Same idea across affirmative and negative, and across statement, yes-no, and wh-questions."
+          }
+        ]
+      },
+      "cellCount": 6,
+      "filledCellCount": 6,
+      "missingCellKeys": [],
+      "bindingList": null,
+      "realization": null,
+      "realizationSet": null,
+      "created": "2026-09-03T10:24:47.700+00:00",
+      "updated": "2026-09-03T13:12:48.096+00:00"
+    }
+  ],
+  "minimalSubGridCount": 1,
+  "created": "2026-10-18T12:43:16.326+00:00",
+  "updated": "2026-10-18T12:43:16.326+00:00"
+}

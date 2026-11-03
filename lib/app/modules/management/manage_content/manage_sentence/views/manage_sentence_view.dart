@@ -1,0 +1,649 @@
+
+import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+import 'package:get/get.dart';
+import 'package:ui_essentials/ui_essentials.dart';
+
+import '../../../../../../common/entities/entities.dart';
+import '../../../../../../common/enum/enum.dart';
+import '../../../../../../common/widgets/widgets.dart';
+import '../../../../../../theme/theme.dart';
+import '../../../../../routes/routes.dart';
+import '../../../common/commons.dart';
+import '../../../common/knowledge_video_tool_buttons_widget.dart';
+import '../../../controllers/manage_setting_controller.dart';
+import '../../../models/models.dart';
+import '../../../utils/utils.dart';
+import '../bindings/manage_sentence_binding.dart';
+import '../controllers/manage_sentence_controller.dart';
+
+class ManageSentenceView extends GetView<ManageSentenceController> {
+  final String tagText;
+  const ManageSentenceView({super.key, required this.tagText});
+
+  @override
+  String? get tag => tagText;
+
+  static Future<T?> to<T>({dynamic arguments}) async {
+    final tag = '${Routes.MANAGE_SENTENCE}_${DateTime.now().millisecondsSinceEpoch}';
+    return await Get.to<T>(
+      ManageSentenceView(tagText: tag),
+      binding: ManageSentenceBinding(tag: tag),
+      routeName: Routes.MANAGE_SENTENCE,
+      arguments: arguments,
+      preventDuplicates: false,
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return ManageScaffold(
+      onRefresh: () => controller.getKnowledgeList(),
+      body: Stack(
+        children: [
+          Column(
+            children: [
+              _buildHeardWidget(context),
+              Expanded(child: _buildListWidget(context)),
+            ],
+          ),
+          Positioned(
+            right: 10.wMin,
+            bottom: 200.wMin,
+            child: ManageListToolButtonWidget(
+              onSubmit: controller.getKnowledgeList,
+            ),
+          ),
+        ],
+      ),
+      floatingActionButton: _buildFilterWidget(context),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
+    );
+  }
+
+  /// 筛选的按钮
+  Widget _buildFilterWidget(BuildContext context){
+    return Obx((){
+      return FilterStripWidget(
+        sorts: {...controller.filterSorts},
+        conditions: {...controller.filterConditions},
+        searchs: controller.filterSearchs,
+        onSorts: (sorts) {
+          controller.filterSorts.value = sorts;
+          controller.pagerController.jumpToPage(1);
+        },
+        onConditions: (conditions) {
+          controller.filterConditions.value = conditions;
+          controller.pagerController.jumpToPage(1);
+        },
+        onReset: (sorts, conditions) {
+          controller.filterSorts.value = sorts;
+          controller.filterConditions.value = conditions;
+          controller.pagerController.jumpToPage(1);
+        },
+        onSearch: () {
+          controller.pagerController.jumpToPage(1);
+        },
+      );
+    });
+  }
+
+  Widget _buildHeardWidget(BuildContext context){
+    return Container(
+      padding: EdgeInsets.symmetric(horizontal: 24.wMin),
+      decoration: BoxDecoration(
+        border: Border(
+          bottom: BorderSide(
+            color: AppTheme.cBorderPrimary.color,
+            width: 1.wMin,
+          ),
+        ),
+      ),
+      child: Row(
+        children: [
+      
+          ManageAuthBoxWidget(
+            authCodes: const [ManageAuthCode.enWordMatchDetail],
+            child: ButtonWidget(
+              text: "创建句子",
+              padding: EdgeInsets.symmetric(horizontal: 8.wMin, vertical: 6.wMin),
+              borderRadius: 6.wMin,
+              color: Colors.transparent,
+              fontColor: AppTheme.cTextSecondary.color,
+              tapColor: AppTheme.cTextSecondary.color.withValues(alpha: 0.1),
+              sclae: 1.05,
+              fontSize: 18.wMin,
+              leftIcon: Container(
+                margin: EdgeInsets.only(right: 4.wMin),
+                child: SvgPicture.asset(
+                  "assets/svg/public/icon_add.svg",
+                  width: 24.wMin,
+                  height: 24.wMin,
+                  colorFilter: ColorFilter.mode(AppTheme.cTextQuaternary.color, BlendMode.srcIn),
+                ),
+              ),
+              onTap: (){
+                controller.showCreateSentence(context);
+              },
+            ),
+          ),
+
+          SizedBox(width: 16.wMin),
+
+          ManageAuthBoxWidget(
+            authCodes: const [ManageAuthCode.enContentKnowledgeCreateHistory],
+            child: ButtonWidget(
+              text: "添加记录",
+              padding: EdgeInsets.symmetric(horizontal: 8.wMin, vertical: 6.wMin),
+              borderRadius: 6.wMin,
+              color: Colors.transparent,
+              fontColor: AppTheme.cTextSecondary.color,
+              tapColor: AppTheme.cTextSecondary.color.withValues(alpha: 0.1),
+              sclae: 1.05,
+              fontSize: 18.wMin,
+              onTap: (){
+                controller.jumpToCreateHistory(context);
+              },
+            ),
+          ),
+
+          const Spacer(),
+
+          Obx((){
+            return PagerWidget(
+              dataCount: controller.totalCount.value,
+              controller: controller.pagerController,
+              visiblePageCount: 3,
+              activeColor: AppTheme.cTextPrimary.color,
+              onPage: (page, pageSize) {
+                controller.pagerCallback(page, pageSize);
+              },
+            );
+          }),
+      
+        ],
+      ),
+    );
+  }
+
+
+  /// 列表
+  Widget _buildListWidget(BuildContext context){
+    return Obx((){
+      return ListView.separated(
+        padding: EdgeInsets.only(
+          top: 24.wMin,
+          left: 140.wMin,
+          right: 140.wMin,
+          bottom: MediaQuery.of(context).viewInsets.bottom + 120.wMin,
+        ),
+        itemCount: controller.knowledgeList.length,
+        separatorBuilder: (context, index) {
+          return SizedBox(height: 16.wMin);
+        },
+        itemBuilder: (context, index) {
+          return _buildCardWidget(context, controller.knowledgeList[index]);
+        },
+      );
+    });
+  }
+
+  Widget _buildCardWidget(BuildContext context, ManageExpandModel<EnKnowledgeEntity> data){
+    return Container(
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(12.wMin),
+        color: AppTheme.cSurfaceSecondary.color,
+        border: Border.all(
+          color: AppTheme.cBorderPrimary.color,
+          width: 1.wMin,
+        ),
+      ),
+      child: Column(
+        children: [
+          Container(
+            padding: EdgeInsets.all(12.wMin),
+            child: IntrinsicHeight(
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  _buildCardImageWidget(context, data),
+                  SizedBox(width: 8.wMin),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        _buildSemanticTagWidget(context, data),
+                        SizedBox(height: 4.wMin),
+
+                        Row(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Expanded(child: _buildCardContentWidget(context, data)),
+                            SizedBox(width: 16.wMin),
+                            ManageEnKnowledgeAudioListWidget(
+                              audioList: data.data.audioList,
+                              contentType: data.data.contentType,
+                              contentId: data.data.uid,
+                              onRefreshServiceData: controller.getKnowledgeList,
+                              isShowUploadBtn: true,
+                            ),
+                          ],
+                        ),
+
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+          _buildCardButtonsWidget(context, data),
+        ],
+      ),
+    );
+  }
+
+
+  Widget _buildCardImageWidget(BuildContext context, ManageExpandModel<EnKnowledgeEntity> data){
+    final ManageSettingController settingController = Get.find<ManageSettingController>();
+    
+    return Obx((){
+      String? imageUrl = data.data.relationImage?.imageUrl;
+      if(settingController.defaultResources.value == ResourceTypeEnum.video){
+        imageUrl = data.data.relationVideo?.firstImageUrl;
+      }
+
+      return SizedBox(
+        width: 204.wMin,
+        height: 204.wMin,
+        child: TapScaleWidget(
+          onTap: () {
+
+            if(settingController.defaultResources.value == ResourceTypeEnum.video){
+              ShowBigResourceDialog.showVideo(
+                context: context, 
+                relationVideo: data.data.relationVideo,
+              );
+            }else{
+              if(imageUrl == null) return;
+              ShowBigResourceDialog.showImage(
+                context: context, 
+                imageUrls: [imageUrl],
+              );
+            }
+
+          },
+          sclae: 1,
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(8.wMin),
+            child: AspectRatio(
+              aspectRatio: 1,
+              child: Stack(
+                alignment: Alignment.center,
+                children: [
+                  CachedImageWidget(
+                    imageUrl ?? "",
+                    errorWidget: buildEmptyWidget(),
+                    placeholder: buildLoadingWidget(),
+                    fadeInDuration: Duration.zero,
+                  ),
+
+                  Visibility(
+                    visible: settingController.defaultResources.value == ResourceTypeEnum.video && imageUrl != null,
+                    child: IgnorePointer(
+                      ignoring: true,
+                      child: Container(
+                        width: 70.wMin,
+                        height: 70.wMin,
+                        alignment: Alignment.center,
+                        decoration: const BoxDecoration(
+                          color: Colors.black38,
+                          shape: BoxShape.circle,
+                        ),
+                        child: Stack(
+                          alignment: Alignment.center,
+                          children: [
+                            Positioned.fill(
+                              child: Icon(
+                                Icons.play_arrow_rounded,
+                                color: Colors.white,
+                                size: 32.wMin,
+                              ),
+                            ),
+                            Positioned(
+                              bottom: 2.wMin,
+                              child: Text(
+                                "${data.data.relationVideo?.duration??0}s",
+                                style: TextStyle(
+                                  fontSize: 14.wMin,
+                                  fontWeight: FontWeight.w400,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+
+                  
+
+                  Positioned(
+                    right: 4.wMin,
+                    top: 4.wMin,
+                    child: KnowledgeVideoToolVuttonsWidget(
+                      uid: data.data.uid,
+                      type: data.data.contentType,
+                      semanticId: data.data.semantics?.first?.uid,
+                      relationImage: data.data.relationImage,
+                      relationVideo: data.data.relationVideo,
+                      onRefresh: () {
+                        controller.getKnowledgeList();
+                      },
+                    ),
+                  ),
+
+                  Positioned(
+                    left: 4.wMin,
+                    bottom: 4.wMin,
+                    child: Visibility(
+                      visible: settingController.defaultResources.value == ResourceTypeEnum.video && imageUrl != null,
+                      child: ManageAssStatusWidget(
+                        assState: data.data.relationVideo?.assState,
+                        assTranslateState: data.data.relationVideo?.assTranslateState,
+                        videoId: data.data.relationVideo?.videoId,
+                        assId: data.data.relationVideo?.assId,
+                        onRefresh: () {
+                          controller.getKnowledgeList();
+                        },
+                      ),
+                    ),
+                  ),
+                      
+                ],
+              ),
+            ),
+          ),
+        ),
+      );
+    });
+  }
+
+    /// 语义标签部分
+  Widget _buildSemanticTagWidget(BuildContext context, ManageExpandModel<EnKnowledgeEntity> data){
+    return Row(
+      spacing: 6.wMin,
+      children: [
+        Visibility(
+          visible: data.data.minDifficulty != null && data.data.maxDifficulty != null ,
+          child: Row(
+            mainAxisSize: MainAxisSize.min,
+            spacing: 4.wMin,
+            children: [
+              StatusTagDifficultyWidget(
+                difficulty: data.data.minDifficulty,
+                language: controller.languageCode,
+              ),
+              Text(
+                "-",
+                style: TextStyle(
+                  fontSize: 18.wMin,
+                  fontWeight: FontWeight.w600,
+                  color: AppTheme.cTextQuaternary.color,
+                ),
+              ),
+              StatusTagDifficultyWidget(
+                difficulty: data.data.maxDifficulty,
+                language: controller.languageCode,
+              ),
+            ],
+          ),
+        ),
+
+        ManageTagFS14Widget(
+          tag: "uid: ${data.data.uid??''}",
+          fontColor: AppTheme.cTextPrimary.color,
+        ),
+        ManageTagFS14Widget(
+          tag: "sid: ${data.data.semanticIds?.join(',')??''}",
+          fontColor: AppTheme.cTextPrimary.color,
+        ),
+        ManageTagFS14Widget(
+          tag: "课程: ${data.data.inCourseCnt??0}",
+          fontColor: AppTheme.cTextPrimary.color,
+        ),
+        const Spacer(),
+
+        ManageAuthBoxWidget(
+          authCodes: const [ManageAuthCode.enSentenceEdit, ManageAuthCode.enSentenceDelete],
+          isAny: true,
+          child: Container(
+            decoration: BoxDecoration(
+              color: AppTheme.cSurfaceTertiary.color,
+              borderRadius: BorderRadius.circular(6.wMin),
+            ),
+            child: Row(
+              children: [
+                ManageAuthBoxWidget(
+                  authCodes: const [ManageAuthCode.enSentenceEdit],
+                  child: ListingAndDelistingWidget(
+                    value: data.data.isNormal,
+                    onChange: (){
+                      controller.onListingAndDelisting(context, data);
+                    },
+                  ),
+                ),
+                
+                ManageAuthBoxWidget(
+                  authCodes: const [ManageAuthCode.enSentenceEdit],
+                  margin: EdgeInsets.only(left: 8.wMin),
+                  child: TapScaleWidget(
+                    onTap: () {
+                      controller.editKnowledge(context, data);
+                    },
+                    sclae: 1.1,
+                    borderRadius: 8.wMin,
+                    backColor: AppTheme.cSurfaceTertiary.color,
+                    child: Container(
+                      width: 50.wMin,
+                      height: 40.wMin,
+                      alignment: Alignment.center,
+                      child: SvgPicture.asset(
+                        "assets/svg/manage/icon_edit.svg",
+                        width: 24.wMin,
+                        colorFilter: ColorFilter.mode(
+                          AppTheme.cTextTertiary.color,
+                          BlendMode.srcIn,
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+            
+                ManageAuthBoxWidget(
+                  authCodes: const [ManageAuthCode.enSentenceDelete],
+                  margin: EdgeInsets.only(left: 8.wMin),
+                  child: TapScaleWidget(
+                    onTap: () {
+                      controller.deleteKnowledge(context, data);
+                    },
+                    sclae: 1.1,
+                    borderRadius: 8.wMin,
+                    backColor: AppTheme.cSurfaceTertiary.color,
+                    child: Container(
+                      width: 50.wMin,
+                      height: 40.wMin,
+                      alignment: Alignment.center,
+                      child: SvgPicture.asset(
+                        "assets/svg/public/icon_delete.svg",
+                        width: 24.wMin,
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
+
+      ],
+    );
+  }
+
+  /// 内容
+  Widget _buildCardContentWidget(BuildContext context, ManageExpandModel<EnKnowledgeEntity> data){
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+
+        SelectableText(
+          data.data.content??"",
+          style: TextStyle(
+            fontSize: 24.wMin,
+            fontWeight: FontWeight.w600,
+            color: AppTheme.cTextPrimary.color,
+          ),
+        ),
+
+        SizedBox(height: 6.wMin),
+
+        SelectableText(
+          data.data.definition??"",
+          style: TextStyle(
+            fontSize: 16.wMin,
+            fontWeight: FontWeight.w400,
+            color: AppTheme.cTextSecondary.color,
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildCardButtonsWidget(BuildContext context, ManageExpandModel<EnKnowledgeEntity> data){
+
+    int knowledgeCnt = 0;
+    data.data.contentKnowledgeStatistics?.contentKnowledge?.forEach((element) {
+      knowledgeCnt += element?.total??0;
+    });
+
+    bool inCourse = data.data.inCourse == true;
+
+    final ManageSettingController settingController = Get.find<ManageSettingController>();
+
+    return Container(
+      padding: EdgeInsets.all(12.wMin),
+      decoration: BoxDecoration(
+        color: AppTheme.cSurfacePrimary.color,
+        borderRadius: BorderRadius.vertical(bottom: Radius.circular(12.wMin)),
+        border: Border(top: BorderSide(width: 1.wMin, color: AppTheme.cBorderPrimary.color)),
+      ),
+      child: Obx((){
+        return Row(
+          children: [
+
+            Visibility(
+              visible: settingController.defaultResources.value == ResourceTypeEnum.image,
+              child: ManageAuthBoxWidget(
+                authCodes: const [ManageAuthCode.enContentSemanticList, ManageAuthCode.adminContentReviewKnowledgeImages],
+                child: _buildActionItemWidget(
+                  text: "图片",
+                  onTap: () {
+                    controller.onSemanticImage(data.data);
+                  },
+                ),
+              ),
+            ),
+
+            Visibility(
+              visible: settingController.defaultResources.value == ResourceTypeEnum.video,
+              child: ManageAuthBoxWidget(
+                authCodes: const [ManageAuthCode.enContentSemanticList, ManageAuthCode.videoReviewKnowledgeVideos],
+                child: _buildActionItemWidget(
+                  text: "视频",
+                  onTap: () {
+                    controller.onSemanticVideo(data.data);
+                  },
+                ),
+              ),
+            ),
+
+            ManageAuthBoxWidget(
+              authCodes: const [
+                ManageAuthCode.enContentSemanticList, 
+                ManageAuthCode.exerciseTypeList,
+                ManageAuthCode.exercisePage,
+              ],
+              margin: EdgeInsets.only(left: 12.wMin),
+              child: _buildActionItemWidget(
+                text: "题目",
+                onTap: () {
+                  controller.onSemanticExercises(data.data);
+                },
+              ),
+            ),
+            
+            const Spacer(),
+            ManageAuthBoxWidget(
+              authCodes: const [ManageAuthCode.enContentKnowledgeList],
+              child: _buildActionItemWidget(
+                text: "核心知识点($knowledgeCnt)",
+                onTap: () {
+                  controller.onKnowledgeCore(context, data);
+                },
+                bgColor: knowledgeCnt > 0 ? AppTheme.cFeedbackSuccessBackground.color : null,
+                fontColor: knowledgeCnt > 0 ? AppTheme.cFeedbackSuccessText.color : null,
+              ),
+            ),
+            ManageAuthBoxWidget(
+              authCodes: const [ManageAuthCode.unitKnowledgeCourseInfos],
+              margin: EdgeInsets.only(left: 12.wMin),
+              child: _buildActionItemWidget(
+                text: "引用(${data.data.inCourseCnt??'0'})",
+                onTap: () {
+                  controller.onSemanticQuote(data.data);
+                },
+                bgColor: inCourse ? AppTheme.cFeedbackSuccessBackground.color : null,
+                fontColor: inCourse ? AppTheme.cFeedbackSuccessText.color : null,
+              ),
+            ),
+
+          ],
+        );
+      }),
+    );
+  }
+
+  Widget _buildActionItemWidget({
+    required String text,
+    void Function()? onTap,
+    Color? bgColor,
+    Color? fontColor,
+  }){
+    return SizedBox(
+      width: 150.wMin,
+      child: TapScaleWidget(
+        onTap: onTap,
+        sclae: 1.03,
+        child: Container(
+          height: 40.wMin,
+          alignment: Alignment.center,
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(8.wMin),
+            color: bgColor??AppTheme.cSurfaceSecondary.color,
+          ),
+          child: Text(
+            text,
+            style: TextStyle(
+              fontSize: 18.wMin,
+              color: fontColor??AppTheme.cTextSecondary.color,
+              fontWeight: FontWeight.w400,
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+  
+}
