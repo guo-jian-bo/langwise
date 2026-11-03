@@ -1,0 +1,132 @@
+PODS:
+  - a_bridge (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_inappwebview_ios (0.0.1):
+    - Flutter
+    - flutter_inappwebview_ios/Core (= 0.0.1)
+    - OrderedSet (~> 6.0.3)
+  - flutter_inappwebview_ios/Core (0.0.1):
+    - Flutter
+    - OrderedSet (~> 6.0.3)
+  - fluwx (0.0.1):
+    - Flutter
+    - fluwx/pay (= 0.0.1)
+  - fluwx/pay (0.0.1):
+    - Flutter
+    - WechatOpenSDK-XCFramework (~> 2.0.5)
+  - JCore (5.4.0)
+  - JPush (6.1.0):
+    - JCore (> 5.1.1)
+  - jpush_flutter (0.0.2):
+    - Flutter
+    - JCore (>= 5.2.0)
+    - JPush (= 6.1.0)
+  - login_module (0.0.1):
+    - Flutter
+  - media_kit_libs_ios_video (1.0.4):
+    - Flutter
+  - media_kit_video (0.0.1):
+    - Flutter
+  - OrderedSet (6.0.3)
+  - switch_keyboard_plugin (0.0.1):
+    - Flutter
+  - tobias (0.0.1):
+    - Flutter
+    - tobias/normal (= 0.0.1)
+  - tobias/normal (0.0.1):
+    - Flutter
+  - UMAPM (2.0.7):
+    - UMCommon
+  - UMCommon (7.5.11):
+    - UMDevice
+  - UMDevice (3.6.0)
+  - umeng_apm_sdk (0.0.1):
+    - Flutter
+    - UMAPM
+  - umeng_common_sdk (0.0.1):
+    - Flutter
+    - UMCommon
+    - UMDevice
+  - WechatOpenSDK-XCFramework (2.0.5)
+  - wise_camera (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - a_bridge (from `.symlinks/plugins/a_bridge/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_inappwebview_ios (from `.symlinks/plugins/flutter_inappwebview_ios/ios`)
+  - fluwx (from `.symlinks/plugins/fluwx/ios`)
+  - jpush_flutter (from `.symlinks/plugins/jpush_flutter/ios`)
+  - login_module (from `.symlinks/plugins/login_module/ios`)
+  - media_kit_libs_ios_video (from `.symlinks/plugins/media_kit_libs_ios_video/ios`)
+  - media_kit_video (from `.symlinks/plugins/media_kit_video/ios`)
+  - switch_keyboard_plugin (from `.symlinks/plugins/switch_keyboard_plugin/ios`)
+  - tobias (from `.symlinks/plugins/tobias/ios`)
+  - umeng_apm_sdk (from `.symlinks/plugins/umeng_apm_sdk/ios`)
+  - umeng_common_sdk (from `.symlinks/plugins/umeng_common_sdk/ios`)
+  - wise_camera (from `.symlinks/plugins/wise_camera/ios`)
+
+SPEC REPOS:
+  trunk:
+    - JCore
+    - JPush
+    - OrderedSet
+    - UMAPM
+    - UMCommon
+    - UMDevice
+    - WechatOpenSDK-XCFramework
+
+EXTERNAL SOURCES:
+  a_bridge:
+    :path: ".symlinks/plugins/a_bridge/ios"
+  Flutter:
+    :path: Flutter
+  flutter_inappwebview_ios:
+    :path: ".symlinks/plugins/flutter_inappwebview_ios/ios"
+  fluwx:
+    :path: ".symlinks/plugins/fluwx/ios"
+  jpush_flutter:
+    :path: ".symlinks/plugins/jpush_flutter/ios"
+  login_module:
+    :path: ".symlinks/plugins/login_module/ios"
+  media_kit_libs_ios_video:
+    :path: ".symlinks/plugins/media_kit_libs_ios_video/ios"
+  media_kit_video:
+    :path: ".symlinks/plugins/media_kit_video/ios"
+  switch_keyboard_plugin:
+    :path: ".symlinks/plugins/switch_keyboard_plugin/ios"
+  tobias:
+    :path: ".symlinks/plugins/tobias/ios"
+  umeng_apm_sdk:
+    :path: ".symlinks/plugins/umeng_apm_sdk/ios"
+  umeng_common_sdk:
+    :path: ".symlinks/plugins/umeng_common_sdk/ios"
+  wise_camera:
+    :path: ".symlinks/plugins/wise_camera/ios"
+
+SPEC CHECKSUMS:
+  a_bridge: 79432387ca0e24a1a53dd9244d34183722c37355
+  Flutter: 71a624a5bc0c04062bf19101d501e466baf2fb47
+  flutter_inappwebview_ios: 6f63631e2c62a7c350263b13fa5427aedefe81d4
+  fluwx: 95a2274c23418c1098940bd00dcfe7c975bb0550
+  JCore: 97f24c92979f9923ef5cfdbd626a29e9504215dd
+  JPush: 891c497687be788b094bde368d51289355ee1112
+  jpush_flutter: c3e7970ebb1c18395714358f7c76064891ca6744
+  login_module: 7afda8087c3f50fbff228ad5a6af1798bdd67eef
+  media_kit_libs_ios_video: a5fe24bc7875ccd6378a0978c13185e1344651c1
+  media_kit_video: 5da63f157170e5bf303bf85453b7ef6971218a2e
+  OrderedSet: e539b66b644ff081c73a262d24ad552a69be3a94
+  switch_keyboard_plugin: 29ba38352c48f4cd5c2ec36c68a0640edcef1186
+  tobias: 444de28ea3441b5bdbe2f85321544dd62c0dabe4
+  UMAPM: ba9fbebe8dd2048b251c332ab0afc86e1ba5ea63
+  UMCommon: d652b3b372a801b36db203f5b546ab3e15676898
+  UMDevice: 20b7b3c37a36b2c5c7ca8b5a54386ff9ed2b3b19
+  umeng_apm_sdk: f726cb78a2bd2afa0e17ec6b65fe3c9b96921f1d
+  umeng_common_sdk: a8abd7f86dfd013dbbeeae587ee143760c6582f2
+  WechatOpenSDK-XCFramework: b072030c9eeee91dfff1856a7846f70f7b9a88ed
+  wise_camera: f862f0193b4fb782b8422096799c7616874817e3
+
+PODFILE CHECKSUM: 03afc1720b5a02c9d25cb2444e490f96fe92be93
+
+COCOAPODS: 1.16.2

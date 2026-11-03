@@ -1,0 +1,3098 @@
+{
+  "nid": "active_passive_voice_grid",
+  "gridKind": "voice_time",
+  "difficulty": {
+    "max": 4,
+    "min": 2
+  },
+  "order": 10,
+  "name": [
+    {
+      "lang": "zh",
+      "text": "同一件事换成主动和被动"
+    },
+    {
+      "lang": "en",
+      "text": "One Event in Active and Passive Voice"
+    }
+  ],
+  "description": [
+    {
+      "lang": "zh",
+      "text": "同一件事，对照主动与被动，并看看现在、过去、将来怎么说。"
+    },
+    {
+      "lang": "en",
+      "text": "Same event in active and passive, across present, past, and future."
+    }
+  ],
+  "system": true,
+  "enabled": true,
+  "axes": [
+    {
+      "axisKey": "voice",
+      "dimensionNid": "voice",
+      "dimension": {
+        "nid": "voice",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "主动和被动怎样对照"
+          },
+          {
+            "lang": "en",
+            "text": "Active vs Passive Voice"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "用于比较同一件事写成主动还是被动时，句子焦点怎样变化。"
+          },
+          {
+            "lang": "en",
+            "text": "Used to compare how the focus shifts when the same event is expressed in active or passive voice."
+          }
+        ]
+      },
+      "values": [
+        "active",
+        "passive"
+      ],
+      "valuesLabels": [
+        {
+          "nid": "active",
+          "name": [
+            {
+              "lang": "en",
+              "text": "Active"
+            },
+            {
+              "lang": "zh",
+              "text": "主动"
+            }
+          ]
+        },
+        {
+          "nid": "passive",
+          "name": [
+            {
+              "lang": "en",
+              "text": "Passive"
+            },
+            {
+              "lang": "zh",
+              "text": "被动"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "axisKey": "time",
+      "dimensionNid": "time_viewpoint",
+      "dimension": {
+        "nid": "time_viewpoint",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "过去 / 现在 / 将来视角"
+          },
+          {
+            "lang": "en",
+            "text": "Past / Present / Future Viewpoint"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "语法宫格用的粗时间视角轴（past / present / future）。细时体与 will/going to 不进本维；时体对照走 grid，不建时体 paradigm。"
+          },
+          {
+            "lang": "en",
+            "text": "Coarse time viewpoint axis for grammar grids (past / present / future). Fine tense forms and will/going-to live elsewhere; tense-aspect contrast uses grids, not paradigms."
+          }
+        ]
+      },
+      "values": [
+        "past",
+        "present",
+        "future"
+      ],
+      "valuesLabels": [
+        {
+          "nid": "past",
+          "name": [
+            {
+              "lang": "en",
+              "text": "Past"
+            },
+            {
+              "lang": "zh",
+              "text": "过去"
+            }
+          ]
+        },
+        {
+          "nid": "present",
+          "name": [
+            {
+              "lang": "en",
+              "text": "Present"
+            },
+            {
+              "lang": "zh",
+              "text": "现在"
+            }
+          ]
+        },
+        {
+          "nid": "future",
+          "name": [
+            {
+              "lang": "en",
+              "text": "Future"
+            },
+            {
+              "lang": "zh",
+              "text": "将来"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cellCount": 6,
+  "cells": [
+    {
+      "rowValue": "active",
+      "colValue": "past",
+      "key": "active|past",
+      "label": [
+        {
+          "lang": "en",
+          "text": "Active · Past"
+        },
+        {
+          "lang": "zh",
+          "text": "主动·过去"
+        }
+      ],
+      "axisValues": {
+        "voice": "active",
+        "time": "past"
+      }
+    },
+    {
+      "rowValue": "active",
+      "colValue": "present",
+      "key": "active|present",
+      "label": [
+        {
+          "lang": "en",
+          "text": "Active · Present"
+        },
+        {
+          "lang": "zh",
+          "text": "主动·现在"
+        }
+      ],
+      "axisValues": {
+        "voice": "active",
+        "time": "present"
+      }
+    },
+    {
+      "rowValue": "active",
+      "colValue": "future",
+      "key": "active|future",
+      "label": [
+        {
+          "lang": "en",
+          "text": "Active · Future"
+        },
+        {
+          "lang": "zh",
+          "text": "主动·将来"
+        }
+      ],
+      "axisValues": {
+        "voice": "active",
+        "time": "future"
+      }
+    },
+    {
+      "rowValue": "passive",
+      "colValue": "past",
+      "key": "passive|past",
+      "label": [
+        {
+          "lang": "en",
+          "text": "Passive · Past"
+        },
+        {
+          "lang": "zh",
+          "text": "被动·过去"
+        }
+      ],
+      "axisValues": {
+        "voice": "passive",
+        "time": "past"
+      }
+    },
+    {
+      "rowValue": "passive",
+      "colValue": "present",
+      "key": "passive|present",
+      "label": [
+        {
+          "lang": "en",
+          "text": "Passive · Present"
+        },
+        {
+          "lang": "zh",
+          "text": "被动·现在"
+        }
+      ],
+      "axisValues": {
+        "voice": "passive",
+        "time": "present"
+      }
+    },
+    {
+      "rowValue": "passive",
+      "colValue": "future",
+      "key": "passive|future",
+      "label": [
+        {
+          "lang": "en",
+          "text": "Passive · Future"
+        },
+        {
+          "lang": "zh",
+          "text": "被动·将来"
+        }
+      ],
+      "axisValues": {
+        "voice": "passive",
+        "time": "future"
+      }
+    }
+  ],
+  "contrastFoci": [
+    {
+      "focusKey": "voice_marking",
+      "bindings": [
+        {
+          "axisValues": {
+            "voice": "active",
+            "time": "present"
+          },
+          "patternSlotKeys": [
+            "action_predicate"
+          ],
+          "patternSlots": [
+            {
+              "nid": "action_predicate",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "动作本身"
+                },
+                {
+                  "lang": "en",
+                  "text": "Action Itself"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "表示句子里真正发生的那个动作本身。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Shows the action itself: the central action happening in the sentence."
+                }
+              ],
+              "categoryNid": "verb_predicate",
+              "color": "rgba(244,63,94,1)",
+              "categoryName": [
+                {
+                  "lang": "zh",
+                  "text": "谓语槽位"
+                },
+                {
+                  "lang": "en",
+                  "text": "Predicate Slot"
+                }
+              ],
+              "categoryDescription": [
+                {
+                  "lang": "zh",
+                  "text": "用于填入核心动作、状态或系表结构中的谓语部分。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used for the core predicate, including actions, states, or linking-verb structures."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "axisValues": {
+            "voice": "active",
+            "time": "past"
+          },
+          "patternSlotKeys": [
+            "action_predicate"
+          ],
+          "patternSlots": [
+            {
+              "nid": "action_predicate",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "动作本身"
+                },
+                {
+                  "lang": "en",
+                  "text": "Action Itself"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "表示句子里真正发生的那个动作本身。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Shows the action itself: the central action happening in the sentence."
+                }
+              ],
+              "categoryNid": "verb_predicate",
+              "color": "rgba(244,63,94,1)",
+              "categoryName": [
+                {
+                  "lang": "zh",
+                  "text": "谓语槽位"
+                },
+                {
+                  "lang": "en",
+                  "text": "Predicate Slot"
+                }
+              ],
+              "categoryDescription": [
+                {
+                  "lang": "zh",
+                  "text": "用于填入核心动作、状态或系表结构中的谓语部分。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used for the core predicate, including actions, states, or linking-verb structures."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "axisValues": {
+            "voice": "active",
+            "time": "future"
+          },
+          "patternSlotKeys": [
+            "finite_operator",
+            "action_predicate"
+          ],
+          "patternSlots": [
+            {
+              "nid": "finite_operator",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "会 / 能 / 要"
+                },
+                {
+                  "lang": "en",
+                  "text": "will / can / must"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "放在动词前，表达将来、能力、可能或必要。常见有 will / would / can / could / may / might / must / should，以及缩写。常见写法如 can、could、may、might、must、should、would、'd 等。例如 We will need two liters of water tomorrow."
+                },
+                {
+                  "lang": "en",
+                  "text": "Comes before the verb for future, ability, possibility, or necessity: will, can, must, should, and related forms. Common writings include can, could, may, might, must, should, would, 'd, and other matching forms. Example: We will need two liters of water tomorrow."
+                }
+              ],
+              "categoryNid": "grammar_modal",
+              "color": "rgba(245,158,11,1)",
+              "categoryName": [
+                {
+                  "lang": "zh",
+                  "text": "情态语法形式"
+                },
+                {
+                  "lang": "en",
+                  "text": "Modal Grammar Form"
+                }
+              ],
+              "categoryDescription": [
+                {
+                  "lang": "zh",
+                  "text": "用于控制 can、will、must、should 等情态形式。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Controls modal forms such as can, will, must, or should."
+                }
+              ]
+            },
+            {
+              "nid": "action_predicate",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "动作本身"
+                },
+                {
+                  "lang": "en",
+                  "text": "Action Itself"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "表示句子里真正发生的那个动作本身。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Shows the action itself: the central action happening in the sentence."
+                }
+              ],
+              "categoryNid": "verb_predicate",
+              "color": "rgba(244,63,94,1)",
+              "categoryName": [
+                {
+                  "lang": "zh",
+                  "text": "谓语槽位"
+                },
+                {
+                  "lang": "en",
+                  "text": "Predicate Slot"
+                }
+              ],
+              "categoryDescription": [
+                {
+                  "lang": "zh",
+                  "text": "用于填入核心动作、状态或系表结构中的谓语部分。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used for the core predicate, including actions, states, or linking-verb structures."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "axisValues": {
+            "voice": "passive",
+            "time": "present"
+          },
+          "patternSlotKeys": [
+            "passive_be",
+            "past_participle_predicate"
+          ],
+          "patternSlots": [
+            {
+              "nid": "passive_be",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "被（be）"
+                },
+                {
+                  "lang": "en",
+                  "text": "be (passive)"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "构成被动。is / was / will be / is being 合在这一格，因为合起来才是被动谓语的完整时体，整块记，不要拆成 will 和 be、或 is 和 being。例如 The meeting is held every Monday. / The door will be opened tomorrow."
+                },
+                {
+                  "lang": "en",
+                  "text": "Passive be. is / was / will be / is being sit in one hole because together they are the passive predicate’s full tense-aspect — remember the chunk, don’t split will from be or is from being. Example: The meeting is held every Monday. / The door will be opened tomorrow."
+                }
+              ],
+              "categoryNid": "grammar_auxiliary",
+              "color": "rgba(245,158,11,1)",
+              "categoryName": [
+                {
+                  "lang": "zh",
+                  "text": "助动语法形式"
+                },
+                {
+                  "lang": "en",
+                  "text": "Auxiliary Grammar Form"
+                }
+              ],
+              "categoryDescription": [
+                {
+                  "lang": "zh",
+                  "text": "用于控制 be、do、have、存在式或附加问句中的助动形式。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Controls auxiliary forms for be, do, have, existential frames, or tag questions."
+                }
+              ]
+            },
+            {
+              "nid": "past_participle_predicate",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "过去分词动作"
+                },
+                {
+                  "lang": "en",
+                  "text": "Past-Participle Action"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "表示被动句里“被怎样处理、被怎样完成”的过去分词动作。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Shows the past-participle action in passive sentences: what was done to the subject."
+                }
+              ],
+              "categoryNid": "verb_predicate",
+              "color": "rgba(244,63,94,1)",
+              "categoryName": [
+                {
+                  "lang": "zh",
+                  "text": "谓语槽位"
+                },
+                {
+                  "lang": "en",
+                  "text": "Predicate Slot"
+                }
+              ],
+              "categoryDescription": [
+                {
+                  "lang": "zh",
+                  "text": "用于填入核心动作、状态或系表结构中的谓语部分。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used for the core predicate, including actions, states, or linking-verb structures."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "axisValues": {
+            "voice": "passive",
+            "time": "past"
+          },
+          "patternSlotKeys": [
+            "passive_be",
+            "past_participle_predicate"
+          ],
+          "patternSlots": [
+            {
+              "nid": "passive_be",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "被（be）"
+                },
+                {
+                  "lang": "en",
+                  "text": "be (passive)"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "构成被动。is / was / will be / is being 合在这一格，因为合起来才是被动谓语的完整时体，整块记，不要拆成 will 和 be、或 is 和 being。例如 The meeting is held every Monday. / The door will be opened tomorrow."
+                },
+                {
+                  "lang": "en",
+                  "text": "Passive be. is / was / will be / is being sit in one hole because together they are the passive predicate’s full tense-aspect — remember the chunk, don’t split will from be or is from being. Example: The meeting is held every Monday. / The door will be opened tomorrow."
+                }
+              ],
+              "categoryNid": "grammar_auxiliary",
+              "color": "rgba(245,158,11,1)",
+              "categoryName": [
+                {
+                  "lang": "zh",
+                  "text": "助动语法形式"
+                },
+                {
+                  "lang": "en",
+                  "text": "Auxiliary Grammar Form"
+                }
+              ],
+              "categoryDescription": [
+                {
+                  "lang": "zh",
+                  "text": "用于控制 be、do、have、存在式或附加问句中的助动形式。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Controls auxiliary forms for be, do, have, existential frames, or tag questions."
+                }
+              ]
+            },
+            {
+              "nid": "past_participle_predicate",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "过去分词动作"
+                },
+                {
+                  "lang": "en",
+                  "text": "Past-Participle Action"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "表示被动句里“被怎样处理、被怎样完成”的过去分词动作。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Shows the past-participle action in passive sentences: what was done to the subject."
+                }
+              ],
+              "categoryNid": "verb_predicate",
+              "color": "rgba(244,63,94,1)",
+              "categoryName": [
+                {
+                  "lang": "zh",
+                  "text": "谓语槽位"
+                },
+                {
+                  "lang": "en",
+                  "text": "Predicate Slot"
+                }
+              ],
+              "categoryDescription": [
+                {
+                  "lang": "zh",
+                  "text": "用于填入核心动作、状态或系表结构中的谓语部分。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used for the core predicate, including actions, states, or linking-verb structures."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "axisValues": {
+            "voice": "passive",
+            "time": "future"
+          },
+          "patternSlotKeys": [
+            "passive_be",
+            "past_participle_predicate"
+          ],
+          "patternSlots": [
+            {
+              "nid": "passive_be",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "被（be）"
+                },
+                {
+                  "lang": "en",
+                  "text": "be (passive)"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "构成被动。is / was / will be / is being 合在这一格，因为合起来才是被动谓语的完整时体，整块记，不要拆成 will 和 be、或 is 和 being。例如 The meeting is held every Monday. / The door will be opened tomorrow."
+                },
+                {
+                  "lang": "en",
+                  "text": "Passive be. is / was / will be / is being sit in one hole because together they are the passive predicate’s full tense-aspect — remember the chunk, don’t split will from be or is from being. Example: The meeting is held every Monday. / The door will be opened tomorrow."
+                }
+              ],
+              "categoryNid": "grammar_auxiliary",
+              "color": "rgba(245,158,11,1)",
+              "categoryName": [
+                {
+                  "lang": "zh",
+                  "text": "助动语法形式"
+                },
+                {
+                  "lang": "en",
+                  "text": "Auxiliary Grammar Form"
+                }
+              ],
+              "categoryDescription": [
+                {
+                  "lang": "zh",
+                  "text": "用于控制 be、do、have、存在式或附加问句中的助动形式。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Controls auxiliary forms for be, do, have, existential frames, or tag questions."
+                }
+              ]
+            },
+            {
+              "nid": "past_participle_predicate",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "过去分词动作"
+                },
+                {
+                  "lang": "en",
+                  "text": "Past-Participle Action"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "表示被动句里“被怎样处理、被怎样完成”的过去分词动作。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Shows the past-participle action in passive sentences: what was done to the subject."
+                }
+              ],
+              "categoryNid": "verb_predicate",
+              "color": "rgba(244,63,94,1)",
+              "categoryName": [
+                {
+                  "lang": "zh",
+                  "text": "谓语槽位"
+                },
+                {
+                  "lang": "en",
+                  "text": "Predicate Slot"
+                }
+              ],
+              "categoryDescription": [
+                {
+                  "lang": "zh",
+                  "text": "用于填入核心动作、状态或系表结构中的谓语部分。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used for the core predicate, including actions, states, or linking-verb structures."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sentenceEligibility": {
+    "suggestedPatternNids": [
+      "entity_pred",
+      "ongoing_entity_be_doing",
+      "passive_process_subj_be_past_participle"
+    ],
+    "suggestedPatterns": [
+      {
+        "nid": "entity_pred",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "说明做什么"
+          },
+          {
+            "lang": "en",
+            "text": "Say what someone does"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "用来讲一般会做、习惯做或将要做的动作，不强调“正在进行中”。"
+          },
+          {
+            "lang": "en",
+            "text": "For habitual, general, or future actions — not the sense of “in progress right now”."
+          }
+        ],
+        "template": "{actor} {finite_operator_marking} {action_predicate} {object} {place_phrase} {context_phrase} {time_expression} {manner_expression} {reason_expression} {purpose_expression} {relative_clause}."
+      },
+      {
+        "nid": "ongoing_entity_be_doing",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "说明正在做什么"
+          },
+          {
+            "lang": "en",
+            "text": "Say what is happening now"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "强调动作正在进行，像镜头对准此刻发生的事；和“一般做什么”不同。"
+          },
+          {
+            "lang": "en",
+            "text": "Emphasizes an action in progress, unlike a general “what someone does”."
+          }
+        ],
+        "template": "{actor} {be_marking} {ongoing_predicate} {object} {place_phrase} {time_expression} {purpose_expression} {context_phrase} {relative_clause}."
+      },
+      {
+        "nid": "passive_process_subj_be_past_participle",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "说明某物是怎样被处理或发明的"
+          },
+          {
+            "lang": "en",
+            "text": "Saying How Something Is Done or Invented"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "说明某物怎样被处理、完成或发明，可以补上送到哪里、在何处、何时，以及 to do 的目的。"
+          },
+          {
+            "lang": "en",
+            "text": "Say how something is done or invented. You can add where it is sent, where and when it happens, and a to-infinitive purpose."
+          }
+        ],
+        "template": "{passive_subject} {passive_be_marking} {past_participle_predicate} {destination} {agent_phrase} {place_phrase} {time_expression} {purpose_expression}."
+      }
+    ]
+  },
+  "teachingEntryAxisValues": {
+    "voice": "active",
+    "time": "present"
+  },
+  "minimalSubGrids": [
+    {
+      "nid": "active_vs_passive_present",
+      "axisSubsets": {
+        "voice": [
+          "active",
+          "passive"
+        ],
+        "time": [
+          "present"
+        ]
+      },
+      "cellCount": 2
+    }
+  ],
+  "sentenceRealizationSets": [
+    {
+      "uid": 10530,
+      "assetType": "grid",
+      "assetNid": "active_passive_voice_grid",
+      "grid": {
+        "nid": "active_passive_voice_grid",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "同一件事换成主动和被动"
+          },
+          {
+            "lang": "en",
+            "text": "One Event in Active and Passive Voice"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "同一件事，对照主动与被动，并看看现在、过去、将来怎么说。"
+          },
+          {
+            "lang": "en",
+            "text": "Same event in active and passive, across present, past, and future."
+          }
+        ]
+      },
+      "order": 0,
+      "tier": 2,
+      "difficulty": null,
+      "members": [
+        {
+          "sentenceId": 580180,
+          "role": "member",
+          "valueNid": "active|past",
+          "addedSlotKeys": [],
+          "foci": [
+            {
+              "focusKey": "voice_marking",
+              "ranges": [
+                {
+                  "start": 5,
+                  "end": 12,
+                  "text": "painted",
+                  "key": null
+                }
+              ]
+            }
+          ],
+          "order": 0
+        },
+        {
+          "sentenceId": 580182,
+          "role": "member",
+          "valueNid": "active|present",
+          "addedSlotKeys": [],
+          "foci": [
+            {
+              "focusKey": "voice_marking",
+              "ranges": [
+                {
+                  "start": 5,
+                  "end": 10,
+                  "text": "paint",
+                  "key": null
+                }
+              ]
+            }
+          ],
+          "order": 0
+        },
+        {
+          "sentenceId": 580181,
+          "role": "member",
+          "valueNid": "active|future",
+          "addedSlotKeys": [],
+          "foci": [
+            {
+              "focusKey": "voice_marking",
+              "ranges": [
+                {
+                  "start": 10,
+                  "end": 15,
+                  "text": "paint",
+                  "key": null
+                }
+              ]
+            }
+          ],
+          "order": 0
+        },
+        {
+          "sentenceId": 580183,
+          "role": "member",
+          "valueNid": "passive|past",
+          "addedSlotKeys": [],
+          "foci": [
+            {
+              "focusKey": "voice_marking",
+              "ranges": [
+                {
+                  "start": 10,
+                  "end": 21,
+                  "text": "was painted",
+                  "key": null
+                }
+              ]
+            }
+          ],
+          "order": 0
+        },
+        {
+          "sentenceId": 580179,
+          "role": "member",
+          "valueNid": "passive|present",
+          "addedSlotKeys": [],
+          "foci": [
+            {
+              "focusKey": "voice_marking",
+              "ranges": [
+                {
+                  "start": 10,
+                  "end": 20,
+                  "text": "is painted",
+                  "key": null
+                }
+              ]
+            }
+          ],
+          "order": 0
+        },
+        {
+          "sentenceId": 580178,
+          "role": "member",
+          "valueNid": "passive|future",
+          "addedSlotKeys": [],
+          "foci": [
+            {
+              "focusKey": "voice_marking",
+              "ranges": [
+                {
+                  "start": 15,
+                  "end": 25,
+                  "text": "be painted",
+                  "key": null
+                }
+              ]
+            }
+          ],
+          "order": 0
+        }
+      ],
+      "memberList": [
+        {
+          "sentenceId": 580180,
+          "valueNid": "active|past",
+          "cell": {
+            "rowValue": "active",
+            "colValue": "past",
+            "key": "active|past",
+            "label": [
+              {
+                "lang": "en",
+                "text": "Active · Past"
+              },
+              {
+                "lang": "zh",
+                "text": "主动·过去"
+              }
+            ],
+            "axisValues": {
+              "voice": "active",
+              "time": "past"
+            }
+          },
+          "role": "member",
+          "order": 0,
+          "sentence": {
+            "sentenceId": 580180,
+            "content": "They painted the fence.",
+            "definition": "他们粉刷了那面栅栏。",
+            "patternNid": "entity_pred",
+            "patternTemplate": "{actor} {finite_operator_marking} {action_predicate} {object} {place_phrase} {context_phrase} {time_expression} {manner_expression} {reason_expression} {purpose_expression} {relative_clause}.",
+            "patternName": [
+              {
+                "lang": "zh",
+                "text": "说明做什么"
+              },
+              {
+                "lang": "en",
+                "text": "Say what someone does"
+              }
+            ],
+            "patternDescription": [
+              {
+                "lang": "zh",
+                "text": "用来讲一般会做、习惯做或将要做的动作，不强调“正在进行中”。"
+              },
+              {
+                "lang": "en",
+                "text": "For habitual, general, or future actions — not the sense of “in progress right now”."
+              }
+            ],
+            "blueprintScope": "clause",
+            "blueprintScopeName": [
+              {
+                "lang": "en",
+                "text": "Clause Scope"
+              },
+              {
+                "lang": "zh",
+                "text": "子句内组合"
+              }
+            ],
+            "segmentList": [
+              {
+                "slotKey": "actor",
+                "slot": {
+                  "nid": "actor",
+                  "name": [
+                    {
+                      "lang": "zh",
+                      "text": "动作发出者"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Actor"
+                    }
+                  ],
+                  "description": [
+                    {
+                      "lang": "en",
+                      "text": "'They' fills the doer position, identifying who performed the action."
+                    },
+                    {
+                      "lang": "zh",
+                      "text": "'They' 填入动作执行者位置，说明谁执行了动作。"
+                    }
+                  ],
+                  "categoryNid": "subject_entity",
+                  "color": "rgba(14,165,233,1)",
+                  "categoryName": [
+                    {
+                      "lang": "zh",
+                      "text": "主语实体槽位"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Subject Entity Slot"
+                    }
+                  ],
+                  "categoryDescription": [
+                    {
+                      "lang": "zh",
+                      "text": "用于填入执行者、承受者或句子讨论对象等主语成分。"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Used for the sentence subject, such as the doer, the affected entity, or the main topic under discussion."
+                    }
+                  ]
+                },
+                "required": true,
+                "grammarControlling": true,
+                "dependsOn": [],
+                "key": "331099",
+                "text": "They",
+                "renderSlotKey": "actor",
+                "sourceSlotKey": "actor",
+                "slotUid": 331099,
+                "semanticIds": [
+                  721343
+                ],
+                "literal": false,
+                "segmentState": "normal",
+                "hasChildStruct": false
+              },
+              {
+                "slotKey": "finite_operator",
+                "slot": {
+                  "nid": "finite_operator",
+                  "name": [
+                    {
+                      "lang": "zh",
+                      "text": "会 / 能 / 要"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "will / can / must"
+                    }
+                  ],
+                  "description": [
+                    {
+                      "lang": "en",
+                      "text": "The empty slot shows that 'painted' stands alone as the finite verb without an added operator."
+                    },
+                    {
+                      "lang": "zh",
+                      "text": "空位说明 'painted' 单独作为限定动词，没有额外算子。"
+                    }
+                  ],
+                  "categoryNid": "grammar_modal",
+                  "color": "rgba(245,158,11,1)",
+                  "categoryName": [
+                    {
+                      "lang": "zh",
+                      "text": "情态语法形式"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Modal Grammar Form"
+                    }
+                  ],
+                  "categoryDescription": [
+                    {
+                      "lang": "zh",
+                      "text": "用于控制 can、will、must、should 等情态形式。"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Controls modal forms such as can, will, must, or should."
+                    }
+                  ]
+                },
+                "grammarControlling": true,
+                "key": "331102",
+                "text": "",
+                "renderSlotKey": "finite_operator_marking",
+                "sourceSlotKey": "finite_operator",
+                "slotUid": 331102,
+                "semanticIds": [],
+                "literal": false,
+                "segmentState": "empty_controlled",
+                "hasChildStruct": false
+              },
+              {
+                "slotKey": "action_predicate",
+                "slot": {
+                  "nid": "action_predicate",
+                  "name": [
+                    {
+                      "lang": "zh",
+                      "text": "动作本身"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Action Itself"
+                    }
+                  ],
+                  "description": [
+                    {
+                      "lang": "en",
+                      "text": "'painted' fills the main action position, naming the action performed."
+                    },
+                    {
+                      "lang": "zh",
+                      "text": "'painted' 填入主要动作位置，说明执行的动作。"
+                    }
+                  ],
+                  "categoryNid": "verb_predicate",
+                  "color": "rgba(244,63,94,1)",
+                  "categoryName": [
+                    {
+                      "lang": "zh",
+                      "text": "谓语槽位"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Predicate Slot"
+                    }
+                  ],
+                  "categoryDescription": [
+                    {
+                      "lang": "zh",
+                      "text": "用于填入核心动作、状态或系表结构中的谓语部分。"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Used for the core predicate, including actions, states, or linking-verb structures."
+                    }
+                  ]
+                },
+                "required": true,
+                "grammarControlling": true,
+                "dependsOn": [],
+                "key": "331100",
+                "text": "painted",
+                "renderSlotKey": "action_predicate",
+                "sourceSlotKey": "action_predicate",
+                "slotUid": 331100,
+                "semanticIds": [
+                  704250
+                ],
+                "literal": false,
+                "segmentState": "normal",
+                "hasChildStruct": false
+              },
+              {
+                "slotKey": "object",
+                "slot": {
+                  "nid": "object",
+                  "name": [
+                    {
+                      "lang": "zh",
+                      "text": "宾语对象"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Object"
+                    }
+                  ],
+                  "description": [
+                    {
+                      "lang": "en",
+                      "text": "'the fence' fills the affected-thing position, naming what was painted."
+                    },
+                    {
+                      "lang": "zh",
+                      "text": "'the fence' 填入受影响对象位置，说明被粉刷的对象。"
+                    }
+                  ],
+                  "categoryNid": "object_entity",
+                  "color": "rgba(139,92,246,1)",
+                  "categoryName": [
+                    {
+                      "lang": "zh",
+                      "text": "宾语实体槽位"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Object Entity Slot"
+                    }
+                  ],
+                  "categoryDescription": [
+                    {
+                      "lang": "zh",
+                      "text": "用于填入动作影响的对象、接受者或结果对象。"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Used for the object affected by the action, the receiver, or the result entity."
+                    }
+                  ]
+                },
+                "required": false,
+                "grammarControlling": true,
+                "growthPriority": 10,
+                "dependsOn": [],
+                "key": "331101",
+                "text": "the fence",
+                "renderSlotKey": "object",
+                "sourceSlotKey": "object",
+                "slotUid": 331101,
+                "semanticIds": [],
+                "literal": false,
+                "segmentState": "normal",
+                "hasChildStruct": false
+              },
+              {
+                "slotKey": "__literal__",
+                "slot": {
+                  "nid": "__literal__",
+                  "name": [
+                    {
+                      "lang": "en",
+                      "text": "literal"
+                    },
+                    {
+                      "lang": "zh",
+                      "text": "固定"
+                    }
+                  ],
+                  "color": "rgba(148,163,184,1)"
+                },
+                "key": "lit-21",
+                "text": ".",
+                "renderSlotKey": "__literal__",
+                "sourceSlotKey": "__literal__",
+                "literal": true,
+                "segmentState": "normal",
+                "hasChildStruct": false
+              }
+            ],
+            "access": "NORMAL"
+          },
+          "foci": [
+            {
+              "focusKey": "voice_marking",
+              "ranges": [
+                {
+                  "start": 5,
+                  "end": 12,
+                  "text": "painted",
+                  "key": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentenceId": 580182,
+          "valueNid": "active|present",
+          "cell": {
+            "rowValue": "active",
+            "colValue": "present",
+            "key": "active|present",
+            "label": [
+              {
+                "lang": "en",
+                "text": "Active · Present"
+              },
+              {
+                "lang": "zh",
+                "text": "主动·现在"
+              }
+            ],
+            "axisValues": {
+              "voice": "active",
+              "time": "present"
+            }
+          },
+          "role": "member",
+          "order": 0,
+          "sentence": {
+            "sentenceId": 580182,
+            "content": "They paint the fence.",
+            "definition": "他们粉刷那面栅栏。",
+            "patternNid": "entity_pred",
+            "patternTemplate": "{actor} {finite_operator_marking} {action_predicate} {object} {place_phrase} {context_phrase} {time_expression} {manner_expression} {reason_expression} {purpose_expression} {relative_clause}.",
+            "patternName": [
+              {
+                "lang": "zh",
+                "text": "说明做什么"
+              },
+              {
+                "lang": "en",
+                "text": "Say what someone does"
+              }
+            ],
+            "patternDescription": [
+              {
+                "lang": "zh",
+                "text": "用来讲一般会做、习惯做或将要做的动作，不强调“正在进行中”。"
+              },
+              {
+                "lang": "en",
+                "text": "For habitual, general, or future actions — not the sense of “in progress right now”."
+              }
+            ],
+            "blueprintScope": "clause",
+            "blueprintScopeName": [
+              {
+                "lang": "en",
+                "text": "Clause Scope"
+              },
+              {
+                "lang": "zh",
+                "text": "子句内组合"
+              }
+            ],
+            "segmentList": [
+              {
+                "slotKey": "actor",
+                "slot": {
+                  "nid": "actor",
+                  "name": [
+                    {
+                      "lang": "zh",
+                      "text": "动作发出者"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Actor"
+                    }
+                  ],
+                  "description": [
+                    {
+                      "lang": "en",
+                      "text": "'They' fills the actor position by naming who performs the action."
+                    },
+                    {
+                      "lang": "zh",
+                      "text": "'They' 填入动作执行者位置，说明谁执行动作。"
+                    }
+                  ],
+                  "categoryNid": "subject_entity",
+                  "color": "rgba(14,165,233,1)",
+                  "categoryName": [
+                    {
+                      "lang": "zh",
+                      "text": "主语实体槽位"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Subject Entity Slot"
+                    }
+                  ],
+                  "categoryDescription": [
+                    {
+                      "lang": "zh",
+                      "text": "用于填入执行者、承受者或句子讨论对象等主语成分。"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Used for the sentence subject, such as the doer, the affected entity, or the main topic under discussion."
+                    }
+                  ]
+                },
+                "required": true,
+                "grammarControlling": true,
+                "dependsOn": [],
+                "key": "331063",
+                "text": "They",
+                "renderSlotKey": "actor",
+                "sourceSlotKey": "actor",
+                "slotUid": 331063,
+                "semanticIds": [
+                  721343
+                ],
+                "literal": false,
+                "segmentState": "normal",
+                "hasChildStruct": false
+              },
+              {
+                "slotKey": "finite_operator",
+                "slot": {
+                  "nid": "finite_operator",
+                  "name": [
+                    {
+                      "lang": "zh",
+                      "text": "会 / 能 / 要"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "will / can / must"
+                    }
+                  ],
+                  "description": [
+                    {
+                      "lang": "en",
+                      "text": "No separate finite operator appears in the text; the finite verb 'paint' carries the predicate without an auxiliary."
+                    },
+                    {
+                      "lang": "zh",
+                      "text": "文本中没有单独的限定算子；限定动词 'paint' 本身承担谓语，没有助动词。"
+                    }
+                  ],
+                  "categoryNid": "grammar_modal",
+                  "color": "rgba(245,158,11,1)",
+                  "categoryName": [
+                    {
+                      "lang": "zh",
+                      "text": "情态语法形式"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Modal Grammar Form"
+                    }
+                  ],
+                  "categoryDescription": [
+                    {
+                      "lang": "zh",
+                      "text": "用于控制 can、will、must、should 等情态形式。"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Controls modal forms such as can, will, must, or should."
+                    }
+                  ]
+                },
+                "grammarControlling": true,
+                "key": "331066",
+                "text": "",
+                "renderSlotKey": "finite_operator_marking",
+                "sourceSlotKey": "finite_operator",
+                "slotUid": 331066,
+                "semanticIds": [],
+                "literal": false,
+                "segmentState": "empty_controlled",
+                "hasChildStruct": false
+              },
+              {
+                "slotKey": "action_predicate",
+                "slot": {
+                  "nid": "action_predicate",
+                  "name": [
+                    {
+                      "lang": "zh",
+                      "text": "动作本身"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Action Itself"
+                    }
+                  ],
+                  "description": [
+                    {
+                      "lang": "en",
+                      "text": "'paint' fills the action predicate position as the main verb of the clause."
+                    },
+                    {
+                      "lang": "zh",
+                      "text": "'paint' 填入动作谓语位置，作为分句的主要动词。"
+                    }
+                  ],
+                  "categoryNid": "verb_predicate",
+                  "color": "rgba(244,63,94,1)",
+                  "categoryName": [
+                    {
+                      "lang": "zh",
+                      "text": "谓语槽位"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Predicate Slot"
+                    }
+                  ],
+                  "categoryDescription": [
+                    {
+                      "lang": "zh",
+                      "text": "用于填入核心动作、状态或系表结构中的谓语部分。"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Used for the core predicate, including actions, states, or linking-verb structures."
+                    }
+                  ]
+                },
+                "required": true,
+                "grammarControlling": true,
+                "dependsOn": [],
+                "key": "331064",
+                "text": "paint",
+                "renderSlotKey": "action_predicate",
+                "sourceSlotKey": "action_predicate",
+                "slotUid": 331064,
+                "semanticIds": [
+                  704250
+                ],
+                "literal": false,
+                "segmentState": "normal",
+                "hasChildStruct": false
+              },
+              {
+                "slotKey": "object",
+                "slot": {
+                  "nid": "object",
+                  "name": [
+                    {
+                      "lang": "zh",
+                      "text": "宾语对象"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Object"
+                    }
+                  ],
+                  "description": [
+                    {
+                      "lang": "en",
+                      "text": "'the fence' fills the object position as the thing affected by the action."
+                    },
+                    {
+                      "lang": "zh",
+                      "text": "'the fence' 填入宾语位置，表示受动作影响的事物。"
+                    }
+                  ],
+                  "categoryNid": "object_entity",
+                  "color": "rgba(139,92,246,1)",
+                  "categoryName": [
+                    {
+                      "lang": "zh",
+                      "text": "宾语实体槽位"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Object Entity Slot"
+                    }
+                  ],
+                  "categoryDescription": [
+                    {
+                      "lang": "zh",
+                      "text": "用于填入动作影响的对象、接受者或结果对象。"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Used for the object affected by the action, the receiver, or the result entity."
+                    }
+                  ]
+                },
+                "required": false,
+                "grammarControlling": true,
+                "growthPriority": 10,
+                "dependsOn": [],
+                "key": "331065",
+                "text": "the fence",
+                "renderSlotKey": "object",
+                "sourceSlotKey": "object",
+                "slotUid": 331065,
+                "semanticIds": [],
+                "literal": false,
+                "segmentState": "normal",
+                "hasChildStruct": false
+              },
+              {
+                "slotKey": "__literal__",
+                "slot": {
+                  "nid": "__literal__",
+                  "name": [
+                    {
+                      "lang": "en",
+                      "text": "literal"
+                    },
+                    {
+                      "lang": "zh",
+                      "text": "固定"
+                    }
+                  ],
+                  "color": "rgba(148,163,184,1)"
+                },
+                "key": "lit-21",
+                "text": ".",
+                "renderSlotKey": "__literal__",
+                "sourceSlotKey": "__literal__",
+                "literal": true,
+                "segmentState": "normal",
+                "hasChildStruct": false
+              }
+            ],
+            "access": "NORMAL"
+          },
+          "foci": [
+            {
+              "focusKey": "voice_marking",
+              "ranges": [
+                {
+                  "start": 5,
+                  "end": 10,
+                  "text": "paint",
+                  "key": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentenceId": 580181,
+          "valueNid": "active|future",
+          "cell": {
+            "rowValue": "active",
+            "colValue": "future",
+            "key": "active|future",
+            "label": [
+              {
+                "lang": "en",
+                "text": "Active · Future"
+              },
+              {
+                "lang": "zh",
+                "text": "主动·将来"
+              }
+            ],
+            "axisValues": {
+              "voice": "active",
+              "time": "future"
+            }
+          },
+          "role": "member",
+          "order": 0,
+          "sentence": {
+            "sentenceId": 580181,
+            "content": "They will paint the fence tomorrow.",
+            "definition": "他们明天将粉刷那面栅栏。",
+            "patternNid": "entity_will_pred",
+            "patternTemplate": "{planner} {modal_will_marking} {future_predicate} {future_object} {context_phrase} {future_time}.",
+            "patternName": [
+              {
+                "lang": "zh",
+                "text": "说明将来会做什么（will）"
+              },
+              {
+                "lang": "en",
+                "text": "Saying What Someone Will Do"
+              }
+            ],
+            "patternDescription": [
+              {
+                "lang": "zh",
+                "text": "专用 will 陈述壳；与 be going to 对照，不靠 entity_pred+feature 冒充。"
+              },
+              {
+                "lang": "en",
+                "text": "Dedicated will statement shell; contrast with be going to."
+              }
+            ],
+            "blueprintScope": "clause",
+            "blueprintScopeName": [
+              {
+                "lang": "en",
+                "text": "Clause Scope"
+              },
+              {
+                "lang": "zh",
+                "text": "子句内组合"
+              }
+            ],
+            "segmentList": [
+              {
+                "slotKey": "planner",
+                "slot": {
+                  "nid": "planner",
+                  "name": [
+                    {
+                      "lang": "zh",
+                      "text": "计划者"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Planner"
+                    }
+                  ],
+                  "description": [
+                    {
+                      "lang": "en",
+                      "text": "The text 'They' fills the subject position in this future pattern, naming the entity that will act."
+                    },
+                    {
+                      "lang": "zh",
+                      "text": "文本 'They' 填入该将来句型的主语位置，表示将要执行动作的主体。"
+                    }
+                  ],
+                  "categoryNid": "subject_entity",
+                  "color": "rgba(14,165,233,1)",
+                  "categoryName": [
+                    {
+                      "lang": "zh",
+                      "text": "主语实体槽位"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Subject Entity Slot"
+                    }
+                  ],
+                  "categoryDescription": [
+                    {
+                      "lang": "zh",
+                      "text": "用于填入执行者、承受者或句子讨论对象等主语成分。"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Used for the sentence subject, such as the doer, the affected entity, or the main topic under discussion."
+                    }
+                  ]
+                },
+                "required": true,
+                "grammarControlling": true,
+                "dependsOn": [],
+                "key": "331067",
+                "text": "They",
+                "renderSlotKey": "planner",
+                "sourceSlotKey": "planner",
+                "slotUid": 331067,
+                "semanticIds": [
+                  721343
+                ],
+                "literal": false,
+                "segmentState": "normal",
+                "hasChildStruct": false
+              },
+              {
+                "slotKey": "modal_will",
+                "slot": {
+                  "nid": "modal_will",
+                  "name": [
+                    {
+                      "lang": "zh",
+                      "text": "将要"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "will"
+                    }
+                  ],
+                  "description": [
+                    {
+                      "lang": "en",
+                      "text": "The text 'will' fills the fixed future-marker position in this pattern."
+                    },
+                    {
+                      "lang": "zh",
+                      "text": "文本 'will' 填入该句型中固定的将来标记位置。"
+                    }
+                  ],
+                  "categoryNid": "grammar_modal",
+                  "color": "rgba(245,158,11,1)",
+                  "categoryName": [
+                    {
+                      "lang": "zh",
+                      "text": "情态语法形式"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Modal Grammar Form"
+                    }
+                  ],
+                  "categoryDescription": [
+                    {
+                      "lang": "zh",
+                      "text": "用于控制 can、will、must、should 等情态形式。"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Controls modal forms such as can, will, must, or should."
+                    }
+                  ]
+                },
+                "grammarControlling": true,
+                "key": "331071",
+                "text": "will",
+                "grammarValue": "will",
+                "renderSlotKey": "modal_will_marking",
+                "sourceSlotKey": "modal_will",
+                "slotUid": 331071,
+                "semanticIds": [
+                  724856
+                ],
+                "literal": false,
+                "segmentState": "normal",
+                "hasChildStruct": false
+              },
+              {
+                "slotKey": "future_predicate",
+                "slot": {
+                  "nid": "future_predicate",
+                  "name": [
+                    {
+                      "lang": "zh",
+                      "text": "将来动作"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Future Action"
+                    }
+                  ],
+                  "description": [
+                    {
+                      "lang": "en",
+                      "text": "The text 'paint' fills the action position after 'will', naming the future action."
+                    },
+                    {
+                      "lang": "zh",
+                      "text": "文本 'paint' 填入 'will' 后的动作位置，表示将来要发生的动作。"
+                    }
+                  ],
+                  "categoryNid": "verb_predicate",
+                  "color": "rgba(244,63,94,1)",
+                  "categoryName": [
+                    {
+                      "lang": "zh",
+                      "text": "谓语槽位"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Predicate Slot"
+                    }
+                  ],
+                  "categoryDescription": [
+                    {
+                      "lang": "zh",
+                      "text": "用于填入核心动作、状态或系表结构中的谓语部分。"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Used for the core predicate, including actions, states, or linking-verb structures."
+                    }
+                  ]
+                },
+                "required": true,
+                "grammarControlling": true,
+                "dependsOn": [],
+                "key": "331068",
+                "text": "paint",
+                "renderSlotKey": "future_predicate",
+                "sourceSlotKey": "future_predicate",
+                "slotUid": 331068,
+                "semanticIds": [
+                  704250
+                ],
+                "literal": false,
+                "segmentState": "normal",
+                "hasChildStruct": false
+              },
+              {
+                "slotKey": "future_object",
+                "slot": {
+                  "nid": "future_object",
+                  "name": [
+                    {
+                      "lang": "zh",
+                      "text": "将来对象"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Future Object"
+                    }
+                  ],
+                  "description": [
+                    {
+                      "lang": "en",
+                      "text": "The text 'the fence' fills the object position, naming what will be painted."
+                    },
+                    {
+                      "lang": "zh",
+                      "text": "文本 'the fence' 填入宾语位置，表示将被粉刷的对象。"
+                    }
+                  ],
+                  "categoryNid": "object_entity",
+                  "color": "rgba(139,92,246,1)",
+                  "categoryName": [
+                    {
+                      "lang": "zh",
+                      "text": "宾语实体槽位"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Object Entity Slot"
+                    }
+                  ],
+                  "categoryDescription": [
+                    {
+                      "lang": "zh",
+                      "text": "用于填入动作影响的对象、接受者或结果对象。"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Used for the object affected by the action, the receiver, or the result entity."
+                    }
+                  ]
+                },
+                "required": false,
+                "grammarControlling": true,
+                "growthPriority": 10,
+                "dependsOn": [],
+                "key": "331069",
+                "text": "the fence",
+                "renderSlotKey": "future_object",
+                "sourceSlotKey": "future_object",
+                "slotUid": 331069,
+                "semanticIds": [],
+                "literal": false,
+                "segmentState": "normal",
+                "hasChildStruct": false
+              },
+              {
+                "slotKey": "future_time",
+                "slot": {
+                  "nid": "future_time",
+                  "name": [
+                    {
+                      "lang": "zh",
+                      "text": "将来时间"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Future Time"
+                    }
+                  ],
+                  "description": [
+                    {
+                      "lang": "en",
+                      "text": "The text 'tomorrow' fills the time position, telling when the action will take place."
+                    },
+                    {
+                      "lang": "zh",
+                      "text": "文本 'tomorrow' 填入时间位置，说明动作发生的时间。"
+                    }
+                  ],
+                  "categoryNid": "time_expression",
+                  "color": "rgba(0,188,125,1)",
+                  "categoryName": [
+                    {
+                      "lang": "zh",
+                      "text": "时间槽位"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Time Expression Slot"
+                    }
+                  ],
+                  "categoryDescription": [
+                    {
+                      "lang": "zh",
+                      "text": "用于填入表示时间点、时间段、频率或顺序的信息。"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Used for information expressing time point, duration, frequency, or sequence."
+                    }
+                  ]
+                },
+                "required": false,
+                "grammarControlling": true,
+                "growthPriority": 40,
+                "dependsOn": [],
+                "key": "331070",
+                "text": "tomorrow",
+                "renderSlotKey": "future_time",
+                "sourceSlotKey": "future_time",
+                "slotUid": 331070,
+                "semanticIds": [
+                  719188
+                ],
+                "literal": false,
+                "segmentState": "normal",
+                "hasChildStruct": false
+              },
+              {
+                "slotKey": "__literal__",
+                "slot": {
+                  "nid": "__literal__",
+                  "name": [
+                    {
+                      "lang": "en",
+                      "text": "literal"
+                    },
+                    {
+                      "lang": "zh",
+                      "text": "固定"
+                    }
+                  ],
+                  "color": "rgba(148,163,184,1)"
+                },
+                "key": "lit-11",
+                "text": ".",
+                "renderSlotKey": "__literal__",
+                "sourceSlotKey": "__literal__",
+                "literal": true,
+                "segmentState": "normal",
+                "hasChildStruct": false
+              }
+            ],
+            "access": "NORMAL"
+          },
+          "foci": [
+            {
+              "focusKey": "voice_marking",
+              "ranges": [
+                {
+                  "start": 10,
+                  "end": 15,
+                  "text": "paint",
+                  "key": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentenceId": 580183,
+          "valueNid": "passive|past",
+          "cell": {
+            "rowValue": "passive",
+            "colValue": "past",
+            "key": "passive|past",
+            "label": [
+              {
+                "lang": "en",
+                "text": "Passive · Past"
+              },
+              {
+                "lang": "zh",
+                "text": "被动·过去"
+              }
+            ],
+            "axisValues": {
+              "voice": "passive",
+              "time": "past"
+            }
+          },
+          "role": "member",
+          "order": 0,
+          "sentence": {
+            "sentenceId": 580183,
+            "content": "The fence was painted.",
+            "definition": "那面栅栏被粉刷了。",
+            "patternNid": "passive_process_subj_be_past_participle",
+            "patternTemplate": "{passive_subject} {passive_be_marking} {past_participle_predicate} {destination} {agent_phrase} {place_phrase} {time_expression} {purpose_expression}.",
+            "patternName": [
+              {
+                "lang": "zh",
+                "text": "说明某物是怎样被处理或发明的"
+              },
+              {
+                "lang": "en",
+                "text": "Saying How Something Is Done or Invented"
+              }
+            ],
+            "patternDescription": [
+              {
+                "lang": "zh",
+                "text": "说明某物怎样被处理、完成或发明，可以补上送到哪里、在何处、何时，以及 to do 的目的。"
+              },
+              {
+                "lang": "en",
+                "text": "Say how something is done or invented. You can add where it is sent, where and when it happens, and a to-infinitive purpose."
+              }
+            ],
+            "blueprintScope": "clause",
+            "blueprintScopeName": [
+              {
+                "lang": "en",
+                "text": "Clause Scope"
+              },
+              {
+                "lang": "zh",
+                "text": "子句内组合"
+              }
+            ],
+            "segmentList": [
+              {
+                "slotKey": "passive_subject",
+                "slot": {
+                  "nid": "passive_subject",
+                  "name": [
+                    {
+                      "lang": "zh",
+                      "text": "被动主语"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Passive Subject"
+                    }
+                  ],
+                  "description": [
+                    {
+                      "lang": "en",
+                      "text": "'The fence' fills the passive subject slot, the noun phrase that receives the action."
+                    },
+                    {
+                      "lang": "zh",
+                      "text": "「The fence」填入被动主语位，是接受动作的名词短语。"
+                    }
+                  ],
+                  "categoryNid": "subject_entity",
+                  "color": "rgba(14,165,233,1)",
+                  "categoryName": [
+                    {
+                      "lang": "zh",
+                      "text": "主语实体槽位"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Subject Entity Slot"
+                    }
+                  ],
+                  "categoryDescription": [
+                    {
+                      "lang": "zh",
+                      "text": "用于填入执行者、承受者或句子讨论对象等主语成分。"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Used for the sentence subject, such as the doer, the affected entity, or the main topic under discussion."
+                    }
+                  ]
+                },
+                "required": true,
+                "grammarControlling": true,
+                "dependsOn": [],
+                "key": "331072",
+                "text": "The fence",
+                "renderSlotKey": "passive_subject",
+                "sourceSlotKey": "passive_subject",
+                "slotUid": 331072,
+                "semanticIds": [],
+                "literal": false,
+                "segmentState": "normal",
+                "hasChildStruct": false
+              },
+              {
+                "slotKey": "passive_be",
+                "slot": {
+                  "nid": "passive_be",
+                  "name": [
+                    {
+                      "lang": "zh",
+                      "text": "被（be）"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "be (passive)"
+                    }
+                  ],
+                  "description": [
+                    {
+                      "lang": "en",
+                      "text": "'was' fills the be slot, providing the past tense and passive auxiliary."
+                    },
+                    {
+                      "lang": "zh",
+                      "text": "「was」填入 be 位，提供过去时态和被动助动词。"
+                    }
+                  ],
+                  "categoryNid": "grammar_auxiliary",
+                  "color": "rgba(245,158,11,1)",
+                  "categoryName": [
+                    {
+                      "lang": "zh",
+                      "text": "助动语法形式"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Auxiliary Grammar Form"
+                    }
+                  ],
+                  "categoryDescription": [
+                    {
+                      "lang": "zh",
+                      "text": "用于控制 be、do、have、存在式或附加问句中的助动形式。"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Controls auxiliary forms for be, do, have, existential frames, or tag questions."
+                    }
+                  ]
+                },
+                "grammarControlling": true,
+                "key": "331073",
+                "text": "was",
+                "grammarValue": "was",
+                "renderSlotKey": "passive_be_marking",
+                "sourceSlotKey": "passive_be",
+                "slotUid": 331073,
+                "semanticIds": [
+                  734314
+                ],
+                "literal": false,
+                "segmentState": "normal",
+                "hasChildStruct": false
+              },
+              {
+                "slotKey": "past_participle_predicate",
+                "slot": {
+                  "nid": "past_participle_predicate",
+                  "name": [
+                    {
+                      "lang": "zh",
+                      "text": "过去分词动作"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Past-Participle Action"
+                    }
+                  ],
+                  "description": [
+                    {
+                      "lang": "en",
+                      "text": "'painted' fills the past participle slot, naming the action received by the subject."
+                    },
+                    {
+                      "lang": "zh",
+                      "text": "「painted」填入过去分词位，表示主语所接受的动作。"
+                    }
+                  ],
+                  "categoryNid": "verb_predicate",
+                  "color": "rgba(244,63,94,1)",
+                  "categoryName": [
+                    {
+                      "lang": "zh",
+                      "text": "谓语槽位"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Predicate Slot"
+                    }
+                  ],
+                  "categoryDescription": [
+                    {
+                      "lang": "zh",
+                      "text": "用于填入核心动作、状态或系表结构中的谓语部分。"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Used for the core predicate, including actions, states, or linking-verb structures."
+                    }
+                  ]
+                },
+                "required": true,
+                "grammarControlling": true,
+                "dependsOn": [],
+                "key": "331074",
+                "text": "painted",
+                "renderSlotKey": "past_participle_predicate",
+                "sourceSlotKey": "past_participle_predicate",
+                "slotUid": 331074,
+                "semanticIds": [
+                  704250
+                ],
+                "literal": false,
+                "segmentState": "normal",
+                "hasChildStruct": false
+              },
+              {
+                "slotKey": "__literal__",
+                "slot": {
+                  "nid": "__literal__",
+                  "name": [
+                    {
+                      "lang": "en",
+                      "text": "literal"
+                    },
+                    {
+                      "lang": "zh",
+                      "text": "固定"
+                    }
+                  ],
+                  "color": "rgba(148,163,184,1)"
+                },
+                "key": "lit-15",
+                "text": ".",
+                "renderSlotKey": "__literal__",
+                "sourceSlotKey": "__literal__",
+                "literal": true,
+                "segmentState": "normal",
+                "hasChildStruct": false
+              }
+            ],
+            "access": "NORMAL"
+          },
+          "foci": [
+            {
+              "focusKey": "voice_marking",
+              "ranges": [
+                {
+                  "start": 10,
+                  "end": 21,
+                  "text": "was painted",
+                  "key": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentenceId": 580179,
+          "valueNid": "passive|present",
+          "cell": {
+            "rowValue": "passive",
+            "colValue": "present",
+            "key": "passive|present",
+            "label": [
+              {
+                "lang": "en",
+                "text": "Passive · Present"
+              },
+              {
+                "lang": "zh",
+                "text": "被动·现在"
+              }
+            ],
+            "axisValues": {
+              "voice": "passive",
+              "time": "present"
+            }
+          },
+          "role": "member",
+          "order": 0,
+          "sentence": {
+            "sentenceId": 580179,
+            "content": "The fence is painted.",
+            "definition": "那面栅栏被粉刷。",
+            "patternNid": "passive_process_subj_be_past_participle",
+            "patternTemplate": "{passive_subject} {passive_be_marking} {past_participle_predicate} {destination} {agent_phrase} {place_phrase} {time_expression} {purpose_expression}.",
+            "patternName": [
+              {
+                "lang": "zh",
+                "text": "说明某物是怎样被处理或发明的"
+              },
+              {
+                "lang": "en",
+                "text": "Saying How Something Is Done or Invented"
+              }
+            ],
+            "patternDescription": [
+              {
+                "lang": "zh",
+                "text": "说明某物怎样被处理、完成或发明，可以补上送到哪里、在何处、何时，以及 to do 的目的。"
+              },
+              {
+                "lang": "en",
+                "text": "Say how something is done or invented. You can add where it is sent, where and when it happens, and a to-infinitive purpose."
+              }
+            ],
+            "blueprintScope": "clause",
+            "blueprintScopeName": [
+              {
+                "lang": "en",
+                "text": "Clause Scope"
+              },
+              {
+                "lang": "zh",
+                "text": "子句内组合"
+              }
+            ],
+            "segmentList": [
+              {
+                "slotKey": "passive_subject",
+                "slot": {
+                  "nid": "passive_subject",
+                  "name": [
+                    {
+                      "lang": "zh",
+                      "text": "被动主语"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Passive Subject"
+                    }
+                  ],
+                  "description": [
+                    {
+                      "lang": "en",
+                      "text": "'The fence' fills the passive subject position, naming the receiver of the painting action."
+                    },
+                    {
+                      "lang": "zh",
+                      "text": "「The fence」填入被动主语位置，指出涂漆动作的接受者。"
+                    }
+                  ],
+                  "categoryNid": "subject_entity",
+                  "color": "rgba(14,165,233,1)",
+                  "categoryName": [
+                    {
+                      "lang": "zh",
+                      "text": "主语实体槽位"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Subject Entity Slot"
+                    }
+                  ],
+                  "categoryDescription": [
+                    {
+                      "lang": "zh",
+                      "text": "用于填入执行者、承受者或句子讨论对象等主语成分。"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Used for the sentence subject, such as the doer, the affected entity, or the main topic under discussion."
+                    }
+                  ]
+                },
+                "required": true,
+                "grammarControlling": true,
+                "dependsOn": [],
+                "key": "331088",
+                "text": "The fence",
+                "renderSlotKey": "passive_subject",
+                "sourceSlotKey": "passive_subject",
+                "slotUid": 331088,
+                "semanticIds": [],
+                "literal": false,
+                "segmentState": "normal",
+                "hasChildStruct": false
+              },
+              {
+                "slotKey": "passive_be",
+                "slot": {
+                  "nid": "passive_be",
+                  "name": [
+                    {
+                      "lang": "zh",
+                      "text": "被（be）"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "be (passive)"
+                    }
+                  ],
+                  "description": [
+                    {
+                      "lang": "en",
+                      "text": "'is' fills the be slot, marking present tense and helping form the passive predicate."
+                    },
+                    {
+                      "lang": "zh",
+                      "text": "「is」填入 be 位置，标记现在时并帮助构成被动谓语。"
+                    }
+                  ],
+                  "categoryNid": "grammar_auxiliary",
+                  "color": "rgba(245,158,11,1)",
+                  "categoryName": [
+                    {
+                      "lang": "zh",
+                      "text": "助动语法形式"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Auxiliary Grammar Form"
+                    }
+                  ],
+                  "categoryDescription": [
+                    {
+                      "lang": "zh",
+                      "text": "用于控制 be、do、have、存在式或附加问句中的助动形式。"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Controls auxiliary forms for be, do, have, existential frames, or tag questions."
+                    }
+                  ]
+                },
+                "grammarControlling": true,
+                "key": "331089",
+                "text": "is",
+                "grammarValue": "is",
+                "renderSlotKey": "passive_be_marking",
+                "sourceSlotKey": "passive_be",
+                "slotUid": 331089,
+                "semanticIds": [
+                  734314
+                ],
+                "literal": false,
+                "segmentState": "normal",
+                "hasChildStruct": false
+              },
+              {
+                "slotKey": "past_participle_predicate",
+                "slot": {
+                  "nid": "past_participle_predicate",
+                  "name": [
+                    {
+                      "lang": "zh",
+                      "text": "过去分词动作"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Past-Participle Action"
+                    }
+                  ],
+                  "description": [
+                    {
+                      "lang": "en",
+                      "text": "'painted' fills the past participle slot, expressing the action that the subject has received."
+                    },
+                    {
+                      "lang": "zh",
+                      "text": "「painted」填入过去分词位置，表示主语所接受的动作。"
+                    }
+                  ],
+                  "categoryNid": "verb_predicate",
+                  "color": "rgba(244,63,94,1)",
+                  "categoryName": [
+                    {
+                      "lang": "zh",
+                      "text": "谓语槽位"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Predicate Slot"
+                    }
+                  ],
+                  "categoryDescription": [
+                    {
+                      "lang": "zh",
+                      "text": "用于填入核心动作、状态或系表结构中的谓语部分。"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Used for the core predicate, including actions, states, or linking-verb structures."
+                    }
+                  ]
+                },
+                "required": true,
+                "grammarControlling": true,
+                "dependsOn": [],
+                "key": "331090",
+                "text": "painted",
+                "renderSlotKey": "past_participle_predicate",
+                "sourceSlotKey": "past_participle_predicate",
+                "slotUid": 331090,
+                "semanticIds": [
+                  704250
+                ],
+                "literal": false,
+                "segmentState": "normal",
+                "hasChildStruct": false
+              },
+              {
+                "slotKey": "__literal__",
+                "slot": {
+                  "nid": "__literal__",
+                  "name": [
+                    {
+                      "lang": "en",
+                      "text": "literal"
+                    },
+                    {
+                      "lang": "zh",
+                      "text": "固定"
+                    }
+                  ],
+                  "color": "rgba(148,163,184,1)"
+                },
+                "key": "lit-15",
+                "text": ".",
+                "renderSlotKey": "__literal__",
+                "sourceSlotKey": "__literal__",
+                "literal": true,
+                "segmentState": "normal",
+                "hasChildStruct": false
+              }
+            ],
+            "access": "NORMAL"
+          },
+          "foci": [
+            {
+              "focusKey": "voice_marking",
+              "ranges": [
+                {
+                  "start": 10,
+                  "end": 20,
+                  "text": "is painted",
+                  "key": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentenceId": 580178,
+          "valueNid": "passive|future",
+          "cell": {
+            "rowValue": "passive",
+            "colValue": "future",
+            "key": "passive|future",
+            "label": [
+              {
+                "lang": "en",
+                "text": "Passive · Future"
+              },
+              {
+                "lang": "zh",
+                "text": "被动·将来"
+              }
+            ],
+            "axisValues": {
+              "voice": "passive",
+              "time": "future"
+            }
+          },
+          "role": "member",
+          "order": 0,
+          "sentence": {
+            "sentenceId": 580178,
+            "content": "The fence will be painted tomorrow.",
+            "definition": "那面栅栏明天将被粉刷。",
+            "patternNid": "passive_process_subj_be_past_participle",
+            "patternTemplate": "{passive_subject} {passive_be_marking} {past_participle_predicate} {destination} {agent_phrase} {place_phrase} {time_expression} {purpose_expression}.",
+            "patternName": [
+              {
+                "lang": "zh",
+                "text": "说明某物是怎样被处理或发明的"
+              },
+              {
+                "lang": "en",
+                "text": "Saying How Something Is Done or Invented"
+              }
+            ],
+            "patternDescription": [
+              {
+                "lang": "zh",
+                "text": "说明某物怎样被处理、完成或发明，可以补上送到哪里、在何处、何时，以及 to do 的目的。"
+              },
+              {
+                "lang": "en",
+                "text": "Say how something is done or invented. You can add where it is sent, where and when it happens, and a to-infinitive purpose."
+              }
+            ],
+            "blueprintScope": "clause",
+            "blueprintScopeName": [
+              {
+                "lang": "en",
+                "text": "Clause Scope"
+              },
+              {
+                "lang": "zh",
+                "text": "子句内组合"
+              }
+            ],
+            "segmentList": [
+              {
+                "slotKey": "passive_subject",
+                "slot": {
+                  "nid": "passive_subject",
+                  "name": [
+                    {
+                      "lang": "zh",
+                      "text": "被动主语"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Passive Subject"
+                    }
+                  ],
+                  "description": [
+                    {
+                      "lang": "en",
+                      "text": "'The fence' fills the passive subject slot, naming the receiver of the painting."
+                    },
+                    {
+                      "lang": "zh",
+                      "text": "「The fence」填入被动主语位，指出粉刷的接受者。"
+                    }
+                  ],
+                  "categoryNid": "subject_entity",
+                  "color": "rgba(14,165,233,1)",
+                  "categoryName": [
+                    {
+                      "lang": "zh",
+                      "text": "主语实体槽位"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Subject Entity Slot"
+                    }
+                  ],
+                  "categoryDescription": [
+                    {
+                      "lang": "zh",
+                      "text": "用于填入执行者、承受者或句子讨论对象等主语成分。"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Used for the sentence subject, such as the doer, the affected entity, or the main topic under discussion."
+                    }
+                  ]
+                },
+                "required": true,
+                "grammarControlling": true,
+                "dependsOn": [],
+                "key": "331084",
+                "text": "The fence",
+                "renderSlotKey": "passive_subject",
+                "sourceSlotKey": "passive_subject",
+                "slotUid": 331084,
+                "semanticIds": [],
+                "literal": false,
+                "segmentState": "normal",
+                "hasChildStruct": false
+              },
+              {
+                "slotKey": "passive_be",
+                "slot": {
+                  "nid": "passive_be",
+                  "name": [
+                    {
+                      "lang": "zh",
+                      "text": "被（be）"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "be (passive)"
+                    }
+                  ],
+                  "description": [
+                    {
+                      "lang": "en",
+                      "text": "'will be' fills the passive be slot, carrying future time before the past participle."
+                    },
+                    {
+                      "lang": "zh",
+                      "text": "「will be」填入被动 be 位，在分词前承载将来时间。"
+                    }
+                  ],
+                  "categoryNid": "grammar_auxiliary",
+                  "color": "rgba(245,158,11,1)",
+                  "categoryName": [
+                    {
+                      "lang": "zh",
+                      "text": "助动语法形式"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Auxiliary Grammar Form"
+                    }
+                  ],
+                  "categoryDescription": [
+                    {
+                      "lang": "zh",
+                      "text": "用于控制 be、do、have、存在式或附加问句中的助动形式。"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Controls auxiliary forms for be, do, have, existential frames, or tag questions."
+                    }
+                  ]
+                },
+                "grammarControlling": true,
+                "key": "331085",
+                "text": "will be",
+                "grammarValue": "will be",
+                "renderSlotKey": "passive_be_marking",
+                "sourceSlotKey": "passive_be",
+                "slotUid": 331085,
+                "semanticIds": [],
+                "literal": false,
+                "segmentState": "normal",
+                "hasChildStruct": false
+              },
+              {
+                "slotKey": "past_participle_predicate",
+                "slot": {
+                  "nid": "past_participle_predicate",
+                  "name": [
+                    {
+                      "lang": "zh",
+                      "text": "过去分词动作"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Past-Participle Action"
+                    }
+                  ],
+                  "description": [
+                    {
+                      "lang": "en",
+                      "text": "'painted' fills the past participle slot, naming the action that happens to the fence."
+                    },
+                    {
+                      "lang": "zh",
+                      "text": "「painted」填入过去分词位，说明发生在围栏上的动作。"
+                    }
+                  ],
+                  "categoryNid": "verb_predicate",
+                  "color": "rgba(244,63,94,1)",
+                  "categoryName": [
+                    {
+                      "lang": "zh",
+                      "text": "谓语槽位"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Predicate Slot"
+                    }
+                  ],
+                  "categoryDescription": [
+                    {
+                      "lang": "zh",
+                      "text": "用于填入核心动作、状态或系表结构中的谓语部分。"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Used for the core predicate, including actions, states, or linking-verb structures."
+                    }
+                  ]
+                },
+                "required": true,
+                "grammarControlling": true,
+                "dependsOn": [],
+                "key": "331086",
+                "text": "painted",
+                "renderSlotKey": "past_participle_predicate",
+                "sourceSlotKey": "past_participle_predicate",
+                "slotUid": 331086,
+                "semanticIds": [
+                  704250
+                ],
+                "literal": false,
+                "segmentState": "normal",
+                "hasChildStruct": false
+              },
+              {
+                "slotKey": "time_expression",
+                "slot": {
+                  "nid": "time_expression",
+                  "name": [
+                    {
+                      "lang": "zh",
+                      "text": "时间表达"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Time Expression"
+                    }
+                  ],
+                  "description": [
+                    {
+                      "lang": "en",
+                      "text": "'tomorrow' fills the time expression slot, specifying when the passive action will occur."
+                    },
+                    {
+                      "lang": "zh",
+                      "text": "「tomorrow」填入时间表达位，说明被动动作发生的时间。"
+                    }
+                  ],
+                  "categoryNid": "time_expression",
+                  "color": "rgba(0,188,125,1)",
+                  "categoryName": [
+                    {
+                      "lang": "zh",
+                      "text": "时间槽位"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Time Expression Slot"
+                    }
+                  ],
+                  "categoryDescription": [
+                    {
+                      "lang": "zh",
+                      "text": "用于填入表示时间点、时间段、频率或顺序的信息。"
+                    },
+                    {
+                      "lang": "en",
+                      "text": "Used for information expressing time point, duration, frequency, or sequence."
+                    }
+                  ]
+                },
+                "required": false,
+                "grammarControlling": true,
+                "growthPriority": 40,
+                "dependsOn": [],
+                "key": "331087",
+                "text": "tomorrow",
+                "renderSlotKey": "time_expression",
+                "sourceSlotKey": "time_expression",
+                "slotUid": 331087,
+                "semanticIds": [
+                  719188
+                ],
+                "literal": false,
+                "segmentState": "normal",
+                "hasChildStruct": false
+              },
+              {
+                "slotKey": "__literal__",
+                "slot": {
+                  "nid": "__literal__",
+                  "name": [
+                    {
+                      "lang": "en",
+                      "text": "literal"
+                    },
+                    {
+                      "lang": "zh",
+                      "text": "固定"
+                    }
+                  ],
+                  "color": "rgba(148,163,184,1)"
+                },
+                "key": "lit-15",
+                "text": ".",
+                "renderSlotKey": "__literal__",
+                "sourceSlotKey": "__literal__",
+                "literal": true,
+                "segmentState": "normal",
+                "hasChildStruct": false
+              }
+            ],
+            "access": "NORMAL"
+          },
+          "foci": [
+            {
+              "focusKey": "voice_marking",
+              "ranges": [
+                {
+                  "start": 15,
+                  "end": 25,
+                  "text": "be painted",
+                  "key": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "cellCount": 6,
+      "filledCellCount": 6,
+      "missingCellKeys": [],
+      "access": "INTERNAL",
+      "created": "2026-09-03T10:22:24.806+00:00",
+      "updated": "2026-09-03T13:12:40.990+00:00"
+    }
+  ],
+  "minimalSubGridCount": 1,
+  "created": "2026-09-18T14:19:20.997+00:00",
+  "updated": "2026-09-18T14:19:20.997+00:00"
+}

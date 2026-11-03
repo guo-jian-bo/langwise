@@ -1,0 +1,542 @@
+[
+  {
+    "uid": 6439983,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "form_note_a1"
+      }
+    ],
+    "imageId": 11042260,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6439991,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "form_label_a1"
+      }
+    ],
+    "imageId": 11042272,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6440001,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "form_blank_a1"
+      }
+    ],
+    "imageId": 11042287,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6439978,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "picture_opening_a1"
+      }
+    ],
+    "imageId": 11042255,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6439989,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "picture_a1"
+      }
+    ],
+    "imageId": 11042270,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6439997,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "picture_a2"
+      }
+    ],
+    "imageId": 11042279,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6440003,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "picture_b1"
+      }
+    ],
+    "imageId": 11042293,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6439982,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "intro_a1"
+      }
+    ],
+    "imageId": 11042259,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6439996,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "intro_a2"
+      }
+    ],
+    "imageId": 11042277,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6439980,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "email_mini_a1"
+      }
+    ],
+    "imageId": 11042256,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6439992,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "email_a2"
+      }
+    ],
+    "imageId": 11042274,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6439998,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "email_b1"
+      }
+    ],
+    "imageId": 11042284,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6440008,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "letter_a2"
+      }
+    ],
+    "imageId": 11042298,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6440014,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "message_a1"
+      }
+    ],
+    "imageId": 11042304,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6439981,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "diary_a1"
+      }
+    ],
+    "imageId": 11042258,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6439990,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "diary_a2"
+      }
+    ],
+    "imageId": 11042273,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6440000,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "diary_b1"
+      }
+    ],
+    "imageId": 11042285,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6439985,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "explain_a2"
+      }
+    ],
+    "imageId": 11042262,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6439993,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "explain_b1"
+      }
+    ],
+    "imageId": 11042275,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6440004,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "report_b1"
+      }
+    ],
+    "imageId": 11042294,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6439984,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "notice_a2"
+      }
+    ],
+    "imageId": 11042261,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6439995,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "notice_b1"
+      }
+    ],
+    "imageId": 11042278,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6440002,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "speech_b1"
+      }
+    ],
+    "imageId": 11042288,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6439988,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "opinion_a2"
+      }
+    ],
+    "imageId": 11042269,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6439994,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "opinion_b1"
+      }
+    ],
+    "imageId": 11042276,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6440007,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "suggestion_b1"
+      }
+    ],
+    "imageId": 11042296,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6440005,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "story_long_b1"
+      }
+    ],
+    "imageId": 11042295,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6439986,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "story_a2"
+      }
+    ],
+    "imageId": 11042268,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6439999,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "story_b1"
+      }
+    ],
+    "imageId": 11042286,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6440011,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "summary_b1"
+      }
+    ],
+    "imageId": 11042301,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6440009,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "news_report_b1"
+      }
+    ],
+    "imageId": 11042299,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6440012,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "letter_b1"
+      }
+    ],
+    "imageId": 11042302,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6439979,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "chart_b1"
+      }
+    ],
+    "imageId": 11042257,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6439987,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "chart_b2"
+      }
+    ],
+    "imageId": 11042267,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6440006,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "argue_b2"
+      }
+    ],
+    "imageId": 11042297,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6440010,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "discuss_b2"
+      }
+    ],
+    "imageId": 11042300,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6440015,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "pros_cons_b2"
+      }
+    ],
+    "imageId": 11042305,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6440019,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "problem_solution_b2"
+      }
+    ],
+    "imageId": 11042308,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6440022,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "two_part_b2"
+      }
+    ],
+    "imageId": 11042316,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6440016,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "letter_a1"
+      }
+    ],
+    "imageId": 11042306,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6440021,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "message_a2"
+      }
+    ],
+    "imageId": 11042311,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6440013,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "notice_a1"
+      }
+    ],
+    "imageId": 11042303,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6440017,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "speech_a2"
+      }
+    ],
+    "imageId": 11042307,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6440018,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "news_report_a2"
+      }
+    ],
+    "imageId": 11042309,
+    "styleId": 9,
+    "access": "NORMAL"
+  },
+  {
+    "uid": 6440020,
+    "contentList": [
+      {
+        "type": "EN_COMPOSITION_BLUEPRINT",
+        "nid": "proposal_b1"
+      }
+    ],
+    "imageId": 11042310,
+    "styleId": 9,
+    "access": "NORMAL"
+  }
+]

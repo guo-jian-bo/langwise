@@ -1,0 +1,280 @@
+{
+    "nid": "look_forward_to_not_for",
+    "name": [
+        {
+            "lang": "zh",
+            "text": "look forward to，不是 for"
+        },
+        {
+            "lang": "en",
+            "text": "Look Forward To, Not For"
+        }
+    ],
+    "description": [
+        {
+            "lang": "zh",
+            "text": "表示期待，后面要接 to。写成 look forward for 是常见错写。"
+        },
+        {
+            "lang": "en",
+            "text": "Use look forward to for expecting something. Look forward for is a common slip."
+        }
+    ],
+    "order": 70000,
+    "difficulty": {
+        "max": 3,
+        "min": 2
+    },
+    "pairTypeNid": "directed_correction",
+    "pairTypeNameZh": "常见错写和正确说法",
+    "contrastKindNid": "governed_function_word",
+    "contrastKindNameZh": "支配虚词",
+    "relationDirection": "有向",
+    "pairCount": 1,
+    "hasRealization": true,
+    "slots": [
+        {
+            "key": "pair:to",
+            "eyebrow": "正式",
+            "filled": true,
+            "members": [
+                {
+                    "key": "member:107006:to:null",
+                    "surface": "look forward to",
+                    "draft": false,
+                    "missFrom": false,
+                    "teaching": true,
+                    "phraseId": 107006,
+                    "semanticIds": [
+                        760729
+                    ],
+                    "semanticBrief": "期待；盼望",
+                    "mixLabel": "全固定"
+                }
+            ]
+        },
+        {
+            "key": "pair:from",
+            "eyebrow": "错式",
+            "filled": true,
+            "members": [
+                {
+                    "key": "member:null:from:null",
+                    "surface": "look forward for",
+                    "draft": false,
+                    "missFrom": true,
+                    "teaching": true,
+                    "semanticIds": []
+                }
+            ]
+        }
+    ]
+}
+
+
+{
+    "nid": "look_forward_to_not_for",
+    "name": [
+        {
+            "lang": "zh",
+            "text": "look forward to，不是 for"
+        },
+        {
+            "lang": "en",
+            "text": "Look Forward To, Not For"
+        }
+    ],
+    "description": [
+        {
+            "lang": "zh",
+            "text": "表示期待，后面要接 to。写成 look forward for 是常见错写。"
+        },
+        {
+            "lang": "en",
+            "text": "Use look forward to for expecting something. Look forward for is a common slip."
+        }
+    ],
+    "order": 70000,
+    "difficulty": {
+        "max": 3,
+        "min": 2
+    },
+    "pairTypeNid": "directed_correction",
+    "pairTypeNameZh": "常见错写和正确说法",
+    "contrastKindNid": "governed_function_word",
+    "contrastKindNameZh": "支配虚词",
+    "relationDirection": "有向",
+    
+    "teachingExampleFrom": "look forward for",
+    "teachingExampleTo": "look forward to",
+    "pool": {
+        "issuedCount": 2,
+        "slots": [
+            {
+                "key": "pair:to",
+                "eyebrow": "正式",
+                "filled": true,
+                "members": [
+                    {
+                        "key": "member:107006:to:null",
+                        "surface": "look forward to",
+                        "draft": false,
+                        "missFrom": false,
+                        "teaching": true,
+                        "phraseId": 107006,
+                        "semanticIds": [
+                            760729
+                        ],
+                        "semanticBrief": "期待；盼望",
+                        "mixLabel": "全固定",
+                        "contentCard": {
+                            "contentType": "EN_PHRASE",
+                            "contentTypeTitle": "Phrase",
+                            "contentId": 107006,
+                            "semanticId": 760729,
+                            "content": "look forward to",
+                            "definition": "怀着高兴的心情等待未来某事",
+                            "gloss": [
+                                {
+                                    "lang": "zh",
+                                    "text": "期待；盼望"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "to think about a future event with pleasure"
+                                }
+                            ],
+                            "tags": [
+                                {
+                                    "gloss": [
+                                        {
+                                            "lang": "en",
+                                            "text": "example"
+                                        },
+                                        {
+                                            "lang": "zh",
+                                            "text": "教例"
+                                        }
+                                    ],
+                                    "style": null
+                                },
+                                {
+                                    "gloss": [
+                                        {
+                                            "lang": "en",
+                                            "text": "v."
+                                        },
+                                        {
+                                            "lang": "zh",
+                                            "text": "动词"
+                                        }
+                                    ],
+                                    "style": null
+                                },
+                                {
+                                    "gloss": [
+                                        {
+                                            "lang": "en",
+                                            "text": "fully fixed"
+                                        },
+                                        {
+                                            "lang": "zh",
+                                            "text": "全固定"
+                                        }
+                                    ],
+                                    "style": null
+                                }
+                            ],
+                            "pronunciations": [
+                                {
+                                    "audioId": 1044,
+                                    "assId": 13657,
+                                    "audioUrl": "https://track.timelywise.cn/knowledge/speech/032D3DAFE8F314BA460837CD7595B8B7.mp3?auth_key=1788419773-ug00be6p5zc4-0-b4251499b96790fff9dce084925e3996",
+                                    "duration": 1.34,
+                                    "audioAss": "Dialogue: 0,0:00:00.21,0:00:01.23,Default,,0,0,0,,{\\k23}look {\\k41}forward {\\k38}to",
+                                    "translateAss": [],
+                                    "national": "US",
+                                    "nationalTitle": "美音",
+                                    "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                    "isExercise": true
+                                },
+                                {
+                                    "audioId": 1046,
+                                    "assId": 13659,
+                                    "audioUrl": "https://track.timelywise.cn/knowledge/speech/18C8F883D31E2F771BB044FFC6838AB6.mp3?auth_key=1788419773-v2vynw4xjczt-0-f2bc48de305d095a9fd58fccb123b040",
+                                    "duration": 1.78,
+                                    "audioAss": "Dialogue: 0,0:00:00.11,0:00:01.00,Default,,0,0,0,,{\\k22}look {\\k34}forward {\\k33}to",
+                                    "translateAss": [],
+                                    "national": "UK",
+                                    "nationalTitle": "英音",
+                                    "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                    "isExercise": true
+                                }
+                            ],
+                            "difficulty": {
+                                "max": 3,
+                                "min": 3
+                            },
+                            "imageId": 5982001,
+                            "imageUrl": "https://img.timelywise.cn/knowledge/semantic/D6AA311DA220F86FD863C093B1A3E559.webp?auth_key=1788419773-je6d6t5xruzt-0-b22cf04aa1f2bd2561d3656f9253380a",
+                            "imageKey": "knowledge/semantic/D6AA311DA220F86FD863C093B1A3E559.webp",
+                            "imageMd5": "D6AA311DA220F86FD863C093B1A3E559",
+                            "audioUrl": "https://track.timelywise.cn/knowledge/speech/032D3DAFE8F314BA460837CD7595B8B7.mp3?auth_key=1788419773-ug00be6p5zc4-0-b4251499b96790fff9dce084925e3996",
+                            "pos": "v.",
+                            "posTitle": "动词",
+                            "in_course_cnt": 21,
+                            "access": "NORMAL",
+                            "rights": "NORMAL"
+                        }
+                    }
+                ]
+            },
+            {
+                "key": "pair:from",
+                "eyebrow": "错式",
+                "filled": true,
+                "members": [
+                    {
+                        "key": "member:null:from:null",
+                        "surface": "look forward for",
+                        "draft": false,
+                        "missFrom": true,
+                        "teaching": true,
+                        "semanticIds": [],
+                        "contentCard": {
+                            "content": "look forward for",
+                            "tags": [
+                                {
+                                    "gloss": [
+                                        {
+                                            "lang": "en",
+                                            "text": "example"
+                                        },
+                                        {
+                                            "lang": "zh",
+                                            "text": "教例"
+                                        }
+                                    ],
+                                    "style": null
+                                },
+                                {
+                                    "gloss": [
+                                        {
+                                            "lang": "en",
+                                            "text": "incorrect"
+                                        },
+                                        {
+                                            "lang": "zh",
+                                            "text": "错式"
+                                        }
+                                    ],
+                                    "style": null
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

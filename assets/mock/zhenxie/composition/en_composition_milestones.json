@@ -1,0 +1,524 @@
+[
+  {
+    "nid": "cefr_pre_a1",
+    "kind": "cefr",
+    "difficulty": 0,
+    "tier": 3,
+    "order": 1,
+    "name": [
+      {
+        "lang": "zh",
+        "text": "Pre-A1"
+      },
+      {
+        "lang": "en",
+        "text": "CEFR Pre-A1"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "启蒙档：能看图写一句、写两三句。三年级前。"
+      },
+      {
+        "lang": "en",
+        "text": "Starter level: write one sentence or a few lines about a picture. Before Grade 3."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "starters",
+    "kind": "cambridge",
+    "difficulty": 0,
+    "tier": 3,
+    "order": 2,
+    "name": [
+      {
+        "lang": "zh",
+        "text": "剑桥 Starters"
+      },
+      {
+        "lang": "en",
+        "text": "Pre A1 Starters"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "剑桥少儿英语一级，Pre-A1。"
+      },
+      {
+        "lang": "en",
+        "text": "Cambridge YLE Pre A1 Starters."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "xiaoshengchu",
+    "kind": "school",
+    "difficulty": 1,
+    "tier": 6,
+    "order": 3,
+    "name": [
+      {
+        "lang": "zh",
+        "text": "小升初"
+      },
+      {
+        "lang": "en",
+        "text": "Primary Leaving"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "小学毕业：能独立写一段五句左右的短文（留言、迷你邮件、日记、介绍）。"
+      },
+      {
+        "lang": "en",
+        "text": "End of primary school: write a short paragraph of about five sentences (message, mini email, diary, introduction) on your own."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "cefr_a1",
+    "kind": "cefr",
+    "difficulty": 1,
+    "tier": 6,
+    "order": 4,
+    "name": [
+      {
+        "lang": "zh",
+        "text": "A1"
+      },
+      {
+        "lang": "en",
+        "text": "CEFR A1"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "小学高段（四–六年级）应掌握的档。"
+      },
+      {
+        "lang": "en",
+        "text": "The level expected by the end of primary school (Grades 4–6)."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "movers",
+    "kind": "cambridge",
+    "difficulty": 1,
+    "tier": 6,
+    "order": 5,
+    "name": [
+      {
+        "lang": "zh",
+        "text": "剑桥 Movers"
+      },
+      {
+        "lang": "en",
+        "text": "A1 Movers"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "剑桥少儿英语二级，A1。"
+      },
+      {
+        "lang": "en",
+        "text": "Cambridge YLE A1 Movers."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "zhongkao",
+    "kind": "school",
+    "difficulty": 2,
+    "tier": 9,
+    "order": 6,
+    "name": [
+      {
+        "lang": "zh",
+        "text": "中考"
+      },
+      {
+        "lang": "en",
+        "text": "Zhongkao"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "初中毕业升学考试：应用文和看图短文，A2 档收束。"
+      },
+      {
+        "lang": "en",
+        "text": "Junior high leaving exam: practical texts and short picture-based writing; closes at A2."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "cefr_a2",
+    "kind": "cefr",
+    "difficulty": 2,
+    "tier": 9,
+    "order": 7,
+    "name": [
+      {
+        "lang": "zh",
+        "text": "A2"
+      },
+      {
+        "lang": "en",
+        "text": "CEFR A2"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "初中（七–九年级）应掌握的档。"
+      },
+      {
+        "lang": "en",
+        "text": "The level expected by the end of junior high (Grades 7–9)."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "ket",
+    "kind": "cambridge",
+    "difficulty": 2,
+    "tier": 9,
+    "order": 8,
+    "name": [
+      {
+        "lang": "zh",
+        "text": "KET"
+      },
+      {
+        "lang": "en",
+        "text": "A2 Key (KET)"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "剑桥 A2 Key。"
+      },
+      {
+        "lang": "en",
+        "text": "Cambridge A2 Key for Schools."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "gaokao",
+    "kind": "school",
+    "difficulty": 3,
+    "tier": 12,
+    "order": 9,
+    "name": [
+      {
+        "lang": "zh",
+        "text": "高考"
+      },
+      {
+        "lang": "en",
+        "text": "Gaokao"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "高中毕业升学考试：应用文 + 读后续写 / 概要；B1 标准带，B2 拔尖。"
+      },
+      {
+        "lang": "en",
+        "text": "Senior high leaving exam: practical writing plus story continuation or summary; B1 standard, B2 for top scores."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "ielts_5_5",
+    "kind": "ielts",
+    "difficulty": 3,
+    "tier": 12,
+    "order": 10,
+    "name": [
+      {
+        "lang": "zh",
+        "text": "雅思 5.5"
+      },
+      {
+        "lang": "en",
+        "text": "IELTS 5.5"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "高三常规带对应的雅思写作分。"
+      },
+      {
+        "lang": "en",
+        "text": "The IELTS writing band matching the standard Grade 12 level."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "cefr_b1",
+    "kind": "cefr",
+    "difficulty": 3,
+    "tier": 12,
+    "order": 11,
+    "name": [
+      {
+        "lang": "zh",
+        "text": "B1"
+      },
+      {
+        "lang": "en",
+        "text": "CEFR B1"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "高中（高一–高三）标准带。"
+      },
+      {
+        "lang": "en",
+        "text": "The standard senior high level (Grades 10–12)."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "pet",
+    "kind": "cambridge",
+    "difficulty": 3,
+    "tier": 12,
+    "order": 12,
+    "name": [
+      {
+        "lang": "zh",
+        "text": "PET"
+      },
+      {
+        "lang": "en",
+        "text": "B1 Preliminary (PET)"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "剑桥 B1 Preliminary。"
+      },
+      {
+        "lang": "en",
+        "text": "Cambridge B1 Preliminary for Schools."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "ielts_6_5",
+    "kind": "ielts",
+    "difficulty": 4,
+    "tier": 15,
+    "order": 13,
+    "name": [
+      {
+        "lang": "zh",
+        "text": "雅思 6.5"
+      },
+      {
+        "lang": "en",
+        "text": "IELTS 6.5"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "雅思写作：Task 1 图表 / 信 + Task 2 五种命题壳全开锁。"
+      },
+      {
+        "lang": "en",
+        "text": "IELTS Writing: Task 1 charts or letters and all five Task 2 essay shells, fully unlocked."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "cefr_b2",
+    "kind": "cefr",
+    "difficulty": 4,
+    "tier": 15,
+    "order": 14,
+    "name": [
+      {
+        "lang": "zh",
+        "text": "B2"
+      },
+      {
+        "lang": "en",
+        "text": "CEFR B2"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "高中拔尖带，对应雅思 6–6.5。"
+      },
+      {
+        "lang": "en",
+        "text": "Top senior-high band, matching IELTS 6–6.5."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "fce",
+    "kind": "cambridge",
+    "difficulty": 4,
+    "tier": 15,
+    "order": 15,
+    "name": [
+      {
+        "lang": "zh",
+        "text": "FCE"
+      },
+      {
+        "lang": "en",
+        "text": "B2 First (FCE)"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "剑桥 B2 First。"
+      },
+      {
+        "lang": "en",
+        "text": "Cambridge B2 First."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "ielts_7_5",
+    "kind": "ielts",
+    "difficulty": 5,
+    "tier": 18,
+    "order": 16,
+    "name": [
+      {
+        "lang": "zh",
+        "text": "雅思 7.5"
+      },
+      {
+        "lang": "en",
+        "text": "IELTS 7.5"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "雅思写作：同一套 Task 1 / Task 2 壳，题和用词按 C1。"
+      },
+      {
+        "lang": "en",
+        "text": "IELTS Writing: the same Task 1 / Task 2 shells, with C1 topics and wording."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "cefr_c1",
+    "kind": "cefr",
+    "difficulty": 5,
+    "tier": 18,
+    "order": 17,
+    "name": [
+      {
+        "lang": "zh",
+        "text": "C1"
+      },
+      {
+        "lang": "en",
+        "text": "CEFR C1"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "能把复杂话题写清楚、写完整，对应雅思 7–8、剑桥 CAE。"
+      },
+      {
+        "lang": "en",
+        "text": "Write clearly on complex topics; matches IELTS 7–8 and Cambridge C1 Advanced."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  },
+  {
+    "nid": "cae",
+    "kind": "cambridge",
+    "difficulty": 5,
+    "tier": 18,
+    "order": 18,
+    "name": [
+      {
+        "lang": "zh",
+        "text": "CAE"
+      },
+      {
+        "lang": "en",
+        "text": "C1 Advanced (CAE)"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "剑桥 C1 Advanced。本期先用已有的议论文、信和报告过关；proposal / review 以后再补。"
+      },
+      {
+        "lang": "en",
+        "text": "Cambridge C1 Advanced. For now: essays, letters, and reports already in the catalog; proposal and review come later."
+      }
+    ],
+    "system": true,
+    "enabled": true
+  }
+]

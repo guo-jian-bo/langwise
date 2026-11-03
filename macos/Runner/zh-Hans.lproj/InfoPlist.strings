@@ -1,0 +1,6 @@
+NSCameraUsageDescription = "用于拍摄照片和扫描";
+NSAppleMusicUsageDescription = "用于播放设备本地存储的音频文件";
+NSMicrophoneUsageDescription = "用于语音输入和音频录制功能";
+NSPhotoLibraryUsageDescription = "用于选择图片进行上传和分享";
+UIUserNotificationUsageDescription = "用于发送学习提醒和其他重要通知";
+NSLocationUsageDescription = "用于统计教材使用的城市";

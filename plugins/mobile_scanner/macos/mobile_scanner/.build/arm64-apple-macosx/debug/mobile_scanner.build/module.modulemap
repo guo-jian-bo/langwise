@@ -1,0 +1,4 @@
+module mobile_scanner {
+    header "/Users/zelou/Desktop/timelywise/langwise/plugins/mobile_scanner/macos/mobile_scanner/.build/arm64-apple-macosx/debug/mobile_scanner.build/mobile_scanner-Swift.h"
+    requires objc
+}

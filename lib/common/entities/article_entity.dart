@@ -1,0 +1,205 @@
+import 'package:langwise/app/modules/management/models/manage_english_content_management_sentence_model.dart';
+
+import 'entities.dart';
+
+/// 单篇甄听文章（前台展示用）
+class ArticleEntity {
+  int contentId;
+  String? contentType;
+  String? group;
+  String? prompt;
+  String? title;
+  String? content;
+  dynamic difficulty;
+  bool? isLaunch;
+  String? sourceUrl;
+  String? sourceContent;
+  bool? isAudioStart;
+  String? audioStatus;
+  String? imageUrl;
+  String? calendarType;
+  String? publishedDate;
+  int? normalExerciseNum;
+  List<ManageEnglishContentManagementSentenceIpaAudioModel>? audioExpressionList;
+  List<EnKnowledgeEntityAudioList?>? audioList;
+  Map<String, dynamic>? contentKnowledgeStatistics;
+  int? wordCount;
+  String? theme;
+  String? genre;
+  String? lyrics;
+  EnKnowledgeEntitySemanticsRelationImage? relationImage;
+  EnKnowledgeEntityRelationVideo? relationVideo;
+
+  ArticleEntity({
+    required int uid,
+    required this.contentId,
+    this.group,
+    this.prompt,
+    this.contentType,
+    this.title,
+    this.content,
+    this.difficulty,
+    this.isLaunch,
+    this.sourceUrl,
+    this.sourceContent,
+    this.isAudioStart,
+    this.audioStatus,
+    this.imageUrl,
+    this.calendarType,
+    this.publishedDate,
+    this.normalExerciseNum,
+    this.audioExpressionList,
+    this.audioList,
+    this.contentKnowledgeStatistics,
+    this.wordCount,
+    this.theme,
+    this.genre,
+    this.lyrics,
+    this.relationImage,
+    this.relationVideo,
+  });
+
+  factory ArticleEntity.fromJson(Map<String, dynamic> json) {
+    final int cid = (json['contentId'] ?? 0) as int;
+
+    List<ManageEnglishContentManagementSentenceIpaAudioModel>? audios;
+    if (json['audioExpressionList'] != null) {
+      final list = json['audioExpressionList'] as List<dynamic>;
+      audios = list.map((e) => ManageEnglishContentManagementSentenceIpaAudioModel.fromJson(e)).toList();
+    }
+
+    List<EnKnowledgeEntityAudioList>? audioList;
+    if (json['audioList'] != null) {
+      final list = json['audioList'] as List<dynamic>;
+      audioList = list.map((e) => EnKnowledgeEntityAudioList.fromJson(e)).toList();
+    }
+
+    return ArticleEntity(
+      uid: cid,
+      contentId: cid,
+      title: json['title'] as String?,
+      group: json['group'] as String?,
+      prompt: json['prompt'] as String?,
+      contentType: json['contentType'] as String?,
+      content: json['content'] as String?,
+      difficulty: json['difficulty'],
+      isLaunch: json['isLaunch'] as bool?,
+      sourceUrl: json['sourceUrl'] as String?,
+      sourceContent: json['sourceContent'] as String?,
+      isAudioStart: json['isAudioStart'] as bool?,
+      audioStatus: json['audioStatus'] as String?,
+      imageUrl: json['imageUrl'] as String?,
+      calendarType: json['calendarType'] as String?,
+      publishedDate: json['publishedDate'] as String?,
+      normalExerciseNum: json['normalExerciseNum']?.toInt(),
+      audioExpressionList: audios,
+      audioList: audioList,
+      contentKnowledgeStatistics: json['contentKnowledgeStatistics'] as Map<String, dynamic>?,
+      wordCount: json['wordCount']?.toInt(),
+      theme: json['theme'] as String?,
+      genre: json['genre'] as String?,
+      lyrics: json['lyrics'] as String?,
+      relationImage: json['relationImage'] != null ? EnKnowledgeEntitySemanticsRelationImage.fromJson(json['relationImage']) : null,
+      relationVideo: json['relationVideo'] != null ? EnKnowledgeEntityRelationVideo.fromJson(json['relationVideo']) : null,
+    );
+  }
+
+  Map<String, dynamic> toJson() {
+    final data = <String, dynamic>{};
+    data['contentId'] = contentId;
+    data['group'] = group;
+    data['prompt'] = prompt;
+    data['contentType'] = contentType;
+    data['title'] = title;
+    data['content'] = content;
+    data['difficulty'] = difficulty;
+    data['isLaunch'] = isLaunch;
+    data['sourceUrl'] = sourceUrl;
+    data['sourceContent'] = sourceContent;
+    data['isAudioStart'] = isAudioStart;
+    data['audioStatus'] = audioStatus;
+    data['imageUrl'] = imageUrl;
+    data['calendarType'] = calendarType;
+    data['publishedDate'] = publishedDate;
+    data['normalExerciseNum'] = normalExerciseNum;
+    if (audioExpressionList != null) {
+      data['audioExpressionList'] = audioExpressionList!.map((e) => e.toJson()).toList();
+    }
+    if (audioList != null) {
+      data['audioList'] = audioList!.map((e) => e?.toJson()).toList();
+    }
+
+    if (contentKnowledgeStatistics != null) {
+      data['contentKnowledgeStatistics'] = contentKnowledgeStatistics;
+    }
+
+    data['theme'] = theme;
+    data['genre'] = genre;
+
+    data['wordCount'] = wordCount;
+    data['lyrics'] = lyrics;
+    if (relationImage != null) {
+      data['relationImage'] = relationImage!.toJson();
+    }
+    if (relationVideo != null) {
+      data['relationVideo'] = relationVideo!.toJson();
+    }
+    return data;
+  }
+}
+
+
+///
+/// Code generated by jsonToDartModel https://ashamp.github.io/jsonToDartModel/
+///
+class ArticleEntityRelationImage {
+/*
+{
+  "uid": 5373522,
+  "type": "EN_REVEAL",
+  "contentId": 1220,
+  "semanticId": 0,
+  "imageKey": "knowledge/semantic/7691DF0F6AFFE6D6BD4B07E541B5EABC.webp",
+  "imageUrl": "https://img.timelywise.cn/knowledge/semantic/7691DF0F6AFFE6D6BD4B07E541B5EABC.webp?auth_key=1772268188-2hpb9mqqq1x9-0-a7412ff036b2717675f404672521a7a0",
+  "locked": null
+} 
+*/
+
+  int? uid;
+  String? type;
+  int? contentId;
+  int? semanticId;
+  String? imageKey;
+  String? imageUrl;
+  bool? locked;
+
+  ArticleEntityRelationImage({
+    this.uid,
+    this.type,
+    this.contentId,
+    this.semanticId,
+    this.imageKey,
+    this.imageUrl,
+    this.locked,
+  });
+  ArticleEntityRelationImage.fromJson(Map<String, dynamic> json) {
+    uid = json['uid']?.toInt();
+    type = json['type']?.toString();
+    contentId = json['contentId']?.toInt();
+    semanticId = json['semanticId']?.toInt();
+    imageKey = json['imageKey']?.toString();
+    imageUrl = json['imageUrl']?.toString();
+    locked = json['locked'];
+  }
+  Map<String, dynamic> toJson() {
+    final data = <String, dynamic>{};
+    data['uid'] = uid;
+    data['type'] = type;
+    data['contentId'] = contentId;
+    data['semanticId'] = semanticId;
+    data['imageKey'] = imageKey;
+    data['imageUrl'] = imageUrl;
+    data['locked'] = locked;
+    return data;
+  }
+}

@@ -1,0 +1,77 @@
+PODS:
+  - a_bridge (0.0.1):
+    - FlutterMacOS
+  - camera_macos (0.0.1):
+    - FlutterMacOS
+  - flutter_inappwebview_macos (0.0.1):
+    - FlutterMacOS
+    - OrderedSet (~> 6.0.3)
+  - FlutterMacOS (1.0.0)
+  - login_module (0.0.1):
+    - FlutterMacOS
+  - media_kit_libs_macos_video (1.0.4):
+    - FlutterMacOS
+  - media_kit_video (0.0.1):
+    - FlutterMacOS
+  - OrderedSet (6.0.3)
+  - permissions_macos_plugin (0.0.1):
+    - FlutterMacOS
+  - switch_keyboard_plugin (0.0.1):
+    - FlutterMacOS
+  - wise_camera (0.0.1):
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - a_bridge (from `Flutter/ephemeral/.symlinks/plugins/a_bridge/macos`)
+  - camera_macos (from `Flutter/ephemeral/.symlinks/plugins/camera_macos/macos`)
+  - flutter_inappwebview_macos (from `Flutter/ephemeral/.symlinks/plugins/flutter_inappwebview_macos/macos`)
+  - FlutterMacOS (from `Flutter/ephemeral`)
+  - login_module (from `Flutter/ephemeral/.symlinks/plugins/login_module/macos`)
+  - media_kit_libs_macos_video (from `Flutter/ephemeral/.symlinks/plugins/media_kit_libs_macos_video/macos`)
+  - media_kit_video (from `Flutter/ephemeral/.symlinks/plugins/media_kit_video/macos`)
+  - permissions_macos_plugin (from `Flutter/ephemeral/.symlinks/plugins/permissions_macos_plugin/macos`)
+  - switch_keyboard_plugin (from `Flutter/ephemeral/.symlinks/plugins/switch_keyboard_plugin/macos`)
+  - wise_camera (from `Flutter/ephemeral/.symlinks/plugins/wise_camera/macos`)
+
+SPEC REPOS:
+  trunk:
+    - OrderedSet
+
+EXTERNAL SOURCES:
+  a_bridge:
+    :path: Flutter/ephemeral/.symlinks/plugins/a_bridge/macos
+  camera_macos:
+    :path: Flutter/ephemeral/.symlinks/plugins/camera_macos/macos
+  flutter_inappwebview_macos:
+    :path: Flutter/ephemeral/.symlinks/plugins/flutter_inappwebview_macos/macos
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+  login_module:
+    :path: Flutter/ephemeral/.symlinks/plugins/login_module/macos
+  media_kit_libs_macos_video:
+    :path: Flutter/ephemeral/.symlinks/plugins/media_kit_libs_macos_video/macos
+  media_kit_video:
+    :path: Flutter/ephemeral/.symlinks/plugins/media_kit_video/macos
+  permissions_macos_plugin:
+    :path: Flutter/ephemeral/.symlinks/plugins/permissions_macos_plugin/macos
+  switch_keyboard_plugin:
+    :path: Flutter/ephemeral/.symlinks/plugins/switch_keyboard_plugin/macos
+  wise_camera:
+    :path: Flutter/ephemeral/.symlinks/plugins/wise_camera/macos
+
+SPEC CHECKSUMS:
+  a_bridge: 313c0071a90ed571e60fb5b9b74478efd8ea5b6d
+  camera_macos: c2603f5eed16f05076cf17e12030d2ce55a77839
+  flutter_inappwebview_macos: bdf207b8f4ebd58e86ae06cd96b147de99a67c9b
+  FlutterMacOS: c232990155153907050900a2e175c7773903ba4e
+  login_module: 836761600919ad63e385bdea809b0521580fd1bd
+  media_kit_libs_macos_video: b3e2bbec2eef97c285f2b1baa7963c67c753fb82
+  media_kit_video: c75b07f14d59706c775778e4dd47dd027de8d1e5
+  OrderedSet: e539b66b644ff081c73a262d24ad552a69be3a94
+  permissions_macos_plugin: 906b7f7769aebe85b137f0b39d638985608c9d44
+  switch_keyboard_plugin: 7d313e8b65df5927f5f5b145750ed61fae463b85
+  wise_camera: 88d917b0b09aef9cfb999692fc1fc8f4d7ba5c23
+
+PODFILE CHECKSUM: 4388695d7115ccadec2ca0a9d5489ef47377c967
+
+COCOAPODS: 1.16.2
