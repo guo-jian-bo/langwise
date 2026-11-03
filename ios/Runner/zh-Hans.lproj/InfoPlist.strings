@@ -1,0 +1,9 @@
+NSCameraUsageDescription = "用于拍摄用户头像、课程封面、教材封面，以及扫描教材ISBN条形码";
+NSAppleMusicUsageDescription = "用于播放设备本地存储的音频文件（如课程资料、教材配套音频）";
+NSMicrophoneUsageDescription = "用于语音评测、口语练习和音频录制";
+NSPhotoLibraryUsageDescription = "用于选择用户头像、课程封面、教材封面图片";
+UIUserNotificationUsageDescription = "用于发送学习提醒和其他重要通知";
+NSLocationWhenInUseUsageDescription = "用于统计教材使用的城市";
+NSLocationAlwaysUsageDescription = "用于统计教材使用的城市";
+NSLocationAlwaysAndWhenInUseUsageDescription = "用于统计教材使用的城市";
+CFBundleDisplayName = "乃师";

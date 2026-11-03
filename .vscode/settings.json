@@ -1,0 +1,17 @@
+{
+    "editor.formatOnSave": false,
+    "[dart]": {
+        "editor.formatOnSave": false,
+        "editor.formatOnType": false,
+        "editor.rulers": [
+            300
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets"
+    },
+    "dart.lineLength": 300,
+    "dart.previewFlutterUiGuides": true,
+    "dart.wrapLineLength": 0
+}
