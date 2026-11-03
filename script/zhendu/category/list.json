@@ -1,0 +1,181 @@
+/*
+GET
+ /languages/script/zhendu/category/list
+
+
+*/
+{
+  "code": 200,
+  "data": {
+    "type": null,
+    "description": "把知识做成更容易看懂、记住、分辨和活用的内容世界。",
+    "items": [
+      {
+        "category": "context",
+        "label": "Scene Replay",
+        "iconUrl": "https://openpic.timelywise.cn/icon/script/category/unit-icon0412.webp",
+        "categoryTitle": "Context",
+        "title": [
+          {
+            "lang": "en",
+            "text": "Context Theater"
+          },
+          {
+            "lang": "zh",
+            "text": "语境剧场"
+          }
+        ],
+        "backgroundImage": "https://openpic.timelywise.cn/icon/script/category/unit-bg0412.webp",
+        "description": [
+          {
+            "lang": "en",
+            "text": "Bring the knowledge points from class back into stories and meet them again in fresh plots."
+          },
+          {
+            "lang": "zh",
+            "text": "把课中学过的知识点，重新带进故事里，在新情节中再遇见一次"
+          }
+        ],
+        "tip": [
+          {
+            "lang": "en",
+            "text": "Restage classroom knowledge and place it back on the story stage."
+          },
+          {
+            "lang": "zh",
+            "text": "把课堂里的知识重新布景，放回故事舞台"
+          }
+        ],
+        "status": 1,
+        "statusTip": null,
+        "scriptCount": "0",
+        "scriptCountTitle": [
+          {
+            "lang": "en",
+            "text": "Scripts"
+          },
+          {
+            "lang": "zh",
+            "text": "部常驻"
+          }
+        ],
+        "jump": null,
+        "rights": {
+          "access": "NORMAL",
+          "rights": "NORMAL"
+        }
+      },
+      {
+        "category": "semantic",
+        "label": "Meaning Prism",
+        "iconUrl": "https://openpic.timelywise.cn/icon/script/category/semantic-icon0412.webp",
+        "categoryTitle": "Semantic",
+        "title": [
+          {
+            "lang": "en",
+            "text": "Semantic Theater"
+          },
+          {
+            "lang": "zh",
+            "text": "语义剧场"
+          }
+        ],
+        "backgroundImage": "https://openpic.timelywise.cn/icon/script/category/semantic-bg0412.webp",
+        "description": [
+          {
+            "lang": "en",
+            "text": "Turn the multiple senses of a word into stories you can truly hear and watch, so polysemy becomes easier to grasp."
+          },
+          {
+            "lang": "zh",
+            "text": "把一个词的多个义项编成真正能听、能看的故事，让多义词不再混淆"
+          }
+        ],
+        "tip": [
+          {
+            "lang": "en",
+            "text": "Let the same word step onto the stage one meaning at a time across different plots."
+          },
+          {
+            "lang": "zh",
+            "text": "让同一个词在不同剧情里依次登台"
+          }
+        ],
+        "status": 1,
+        "statusTip": null,
+        "scriptCount": "0",
+        "scriptCountTitle": [
+          {
+            "lang": "en",
+            "text": "Scripts"
+          },
+          {
+            "lang": "zh",
+            "text": "部常驻"
+          }
+        ],
+        "jump": null,
+        "rights": {
+          "access": "NORMAL",
+          "rights": "NORMAL"
+        }
+      },
+      {
+        "category": "picture_book",
+        "label": "Lantern Story",
+        "iconUrl": "https://openpic.timelywise.cn/icon/script/category/picture-book-icon0412.webp",
+        "categoryTitle": "Picture Book",
+        "title": [
+          {
+            "lang": "en",
+            "text": "Picture Book Theater"
+          },
+          {
+            "lang": "zh",
+            "text": "绘本剧场"
+          }
+        ],
+        "backgroundImage": "https://openpic.timelywise.cn/icon/script/category/picture-book-bg0412.webp",
+        "description": [
+          {
+            "lang": "en",
+            "text": "Transform picture books and graded readers into video content that can speak and perform."
+          },
+          {
+            "lang": "zh",
+            "text": "把绘本和分级读物变成会说话、会表演的视频内容"
+          }
+        ],
+        "tip": [
+          {
+            "lang": "en",
+            "text": "Let pages, dialogue and visuals open the show together."
+          },
+          {
+            "lang": "zh",
+            "text": "让书页、对白和画面一起开场"
+          }
+        ],
+        "status": 1,
+        "statusTip": null,
+        "scriptCount": "0",
+        "scriptCountTitle": [
+          {
+            "lang": "en",
+            "text": "Scripts"
+          },
+          {
+            "lang": "zh",
+            "text": "部常驻"
+          }
+        ],
+        "jump": null,
+        "rights": {
+          "access": "NORMAL",
+          "rights": "NORMAL"
+        }
+      }
+    ],
+    "footer": "STAND BY THE STAGE, LEARN THROUGH SCENES"
+  }
+}

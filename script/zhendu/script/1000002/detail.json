@@ -1,0 +1,248 @@
+/*
+get
+/languages/script/zhendu/script/1000002/detail
+
+body:
+{
+  "collectionId": 1,
+  "difficulty": 0
+}
+
+*/
+{
+  "code": 200,
+  "data": {
+    "uid": 1000002,
+    "scriptType": {
+      "category": "context",
+      "label": "Scene Replay",
+      "iconUrl": "https://openpic.timelywise.cn/icon/script/category/unit-icon0412.webp",
+      "categoryTitle": "Context",
+      "title": [
+        {
+          "lang": "en",
+          "text": "Context Theater"
+        },
+        {
+          "lang": "zh",
+          "text": "语境剧场"
+        }
+      ],
+      "backgroundImage": "https://openpic.timelywise.cn/icon/script/category/unit-bg0412.webp",
+      "description": [
+        {
+          "lang": "en",
+          "text": "Bring the knowledge points from class back into stories and meet them again in fresh plots."
+        },
+        {
+          "lang": "zh",
+          "text": "把课中学过的知识点，重新带进故事里，在新情节中再遇见一次"
+        }
+      ],
+      "tip": [
+        {
+          "lang": "en",
+          "text": "Restage classroom knowledge and place it back on the story stage."
+        },
+        {
+          "lang": "zh",
+          "text": "把课堂里的知识重新布景，放回故事舞台"
+        }
+      ],
+      "status": 1,
+      "statusTip": null,
+      "scriptCount": "0",
+      "scriptCountTitle": [
+        {
+          "lang": "en",
+          "text": "Scripts"
+        },
+        {
+          "lang": "zh",
+          "text": "部常驻"
+        }
+      ],
+      "jump": null,
+      "rights": {
+        "access": "NORMAL",
+        "rights": "NORMAL"
+      }
+    },
+    "title": [
+      {
+        "lang": "en",
+        "text": "The New Boy's Secret Name"
+      },
+      {
+        "lang": "zh",
+        "text": "新男孩的秘密名字"
+      }
+    ],
+    "coverUrl": null,
+    "tags": [
+      {
+        "gloss": [
+          {
+            "lang": "zh",
+            "text": "友谊互助"
+          },
+          {
+            "lang": "en",
+            "text": "Friendship"
+          }
+        ],
+        "style": [
+          {
+            "theme": "LIGHT",
+            "color": "rgba(245, 158, 11, 1)",
+            "fontsize": 16,
+            "italic": false,
+            "weight": 400,
+            "backgroundColor": "rgba(245, 158, 11, 0.20)"
+          },
+          {
+            "theme": "DARK",
+            "color": "rgba(245, 158, 11, 1)",
+            "fontsize": 16,
+            "italic": false,
+            "weight": 400,
+            "backgroundColor": "rgba(245, 158, 11, 0.20)"
+          }
+        ]
+      }
+    ],
+    "sceneCount": 8,
+    "duration": null,
+    "status": 1,
+    "difficulty": {
+      "max": 1,
+      "min": 1
+    },
+    "source": {
+      "type": "CONTEXT",
+      "name": "LangWise官方课程 · Unit 1\t自我介绍",
+      "difficulty": null,
+      "data": {
+        "courseId": 29,
+        "courseName": "LangWise官方课程",
+        "levelId": 74,
+        "levelName": "Level 4",
+        "moduleId": 598,
+        "moduleName": "学校生活",
+        "unitId": 7009,
+        "unitName": "Unit 1\t自我介绍"
+      }
+    },
+    "learnCountMax": 5,
+    "learnCount": 2,
+    "preferredNoticeTitle": "推荐先从看开始",
+    "preferredNotice": "画面和叙事一起把语境真正看见。",
+    "learnItems": [
+      {
+        "iconUrl": null,
+        "iconKey": null,
+        "type": "watch",
+        "title": [
+          {
+            "lang": "en",
+            "text": "WATCH"
+          },
+          {
+            "lang": "zh",
+            "text": "看"
+          }
+        ],
+        "learnTip": "制作中",
+        "description": "画面和叙事一起把语境真正看见。",
+        "index": 1,
+        "jump": null,
+        "status": 2,
+        "statusTip": null
+      },
+      {
+        "iconUrl": null,
+        "iconKey": null,
+        "type": "perform",
+        "title": [
+          {
+            "lang": "en",
+            "text": "PERFORM"
+          },
+          {
+            "lang": "zh",
+            "text": "演"
+          }
+        ],
+        "learnTip": "制作中",
+        "description": "进入表演场，感受角色、动作与表达。",
+        "index": 2,
+        "jump": null,
+        "status": 2,
+        "statusTip": null
+      },
+      {
+        "iconUrl": null,
+        "iconKey": null,
+        "type": "listen",
+        "title": [
+          {
+            "lang": "en",
+            "text": "LISTEN"
+          },
+          {
+            "lang": "zh",
+            "text": "听"
+          }
+        ],
+        "learnTip": null,
+        "description": "让语言以节奏和语感发生。",
+        "index": 3,
+        "jump": null,
+        "status": 1,
+        "statusTip": null
+      },
+      {
+        "iconUrl": null,
+        "iconKey": null,
+        "type": "read",
+        "title": [
+          {
+            "lang": "en",
+            "text": "READ"
+          },
+          {
+            "lang": "zh",
+            "text": "读"
+          }
+        ],
+        "learnTip": null,
+        "description": "在句子里看清结构与意义。",
+        "index": 4,
+        "jump": null,
+        "status": 1,
+        "statusTip": null
+      },
+      {
+        "iconUrl": null,
+        "iconKey": null,
+        "type": "practice",
+        "title": [
+          {
+            "lang": "en",
+            "text": "PRACTICE"
+          },
+          {
+            "lang": "zh",
+            "text": "练"
+          }
+        ],
+        "learnTip": "暂未开放",
+        "description": "把已理解的内容变成迁移、辨别与输出能力。",
+        "index": 5,
+        "jump": null,
+        "status": 3,
+        "statusTip": null
+      }
+    ]
+  }
+}
