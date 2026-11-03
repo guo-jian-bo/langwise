@@ -1,0 +1,6 @@
+NSCameraUsageDescription = "For taking photos and scanning";
+NSAppleMusicUsageDescription = "For playing locally stored audio files";
+NSMicrophoneUsageDescription = "For voice input and audio recording";
+NSPhotoLibraryUsageDescription = "For selecting images to upload and share";
+UIUserNotificationUsageDescription = "For sending study reminders and important notifications";
+NSLocationUsageDescription = "Cities used in statistical textbooks";

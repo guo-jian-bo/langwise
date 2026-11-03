@@ -1,0 +1,3147 @@
+{
+    "phraseId": 134173,
+    "content": "'d better",
+    "pos": "MODAL_VERB",
+    "profileCount": 1,
+    "preview": {
+        "profileUid": 3856,
+        "grammaticalTypeNid": "intransitive_verb_phrase",
+        "grammaticalTypeNameZh": "不及物动词短语",
+        "complementLabel": "谓语槽位",
+        "sentenceSlotCategoryNids": [
+            "verb_predicate"
+        ],
+        "sentenceSlotCategoryNamesZh": [
+            "谓语槽位"
+        ],
+        "descriptionZh": "'had better' 的缩写，作为半情态动词使用，后必须接动词原形（bare infinitive），表达强烈建议或警告，在句中充当谓语。不能单独使用，后面必须跟动词。",
+        "example": "You'd better see a doctor before it gets worse.",
+        "governedSlots": [
+            {
+                "slotKey": "bare_infinitive",
+                "slotKeyNameZh": "",
+                "attachmentSide": "right",
+                "required": true,
+                "requiredLabel": "必填",
+                "slotCategoryNids": [
+                    "verb_predicate"
+                ],
+                "slotCategoryNamesZh": [
+                    "谓语槽位"
+                ],
+                "displayLabel": ""
+            }
+        ],
+        "sentence": {
+            "contentCard": {
+                "contentType": "EN_SENTENCE",
+                "contentTypeTitle": "Sentence",
+                "contentId": 527195,
+                "semanticId": 1144481,
+                "content": "You'd better not tempt fate.",
+                "definition": "你最好不要冒险。",
+                "gloss": [
+                    {
+                        "lang": "en",
+                        "text": "You'd better not tempt fate."
+                    },
+                    {
+                        "lang": "zh",
+                        "text": "你最好不要冒险。"
+                    }
+                ],
+                "pronunciations": [
+                    {
+                        "audioId": 89360,
+                        "assId": 102731,
+                        "audioUrl": "https://track.timelywise.cn/knowledge/speech/631CCB12C1B23B3E6A171ABE3351D6CB.mp3?auth_key=1788438992-05juje9bhdj1-0-c558efb5273ff901ad01a33f9d95c074",
+                        "duration": 1.94,
+                        "audioAss": "Dialogue: 0,0:00:00.20,0:00:01.85,Default,,0,0,0,,{\\k25}You'd {\\k24}better {\\k31}not {\\k35}tempt {\\k50}fate.",
+                        "translateAss": [],
+                        "national": "US",
+                        "nationalTitle": "美音",
+                        "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                        "isExercise": true
+                    },
+                    {
+                        "audioId": 89357,
+                        "assId": 102728,
+                        "audioUrl": "https://track.timelywise.cn/knowledge/speech/73AB5BBC1D789108D9E2C1AA6BCB2896.mp3?auth_key=1788438992-xlssarz1whgk-0-3b41cdee779bc3dc6aee56515f5dbf36",
+                        "duration": 2.3,
+                        "audioAss": "Dialogue: 0,0:00:00.10,0:00:01.50,Default,,0,0,0,,{\\k19}You'd {\\k25}better {\\k23}not {\\k28}tempt {\\k45}fate.",
+                        "translateAss": [],
+                        "national": "UK",
+                        "nationalTitle": "英音",
+                        "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                        "isExercise": true
+                    }
+                ],
+                "difficulty": {
+                    "max": 3,
+                    "min": 3
+                },
+                "imageId": 10174360,
+                "imageUrl": "https://img.timelywise.cn/knowledge/semantic/90C497B78F3269DCFD247791F0B060C8.webp?auth_key=1788438992-wlpplnc56xq2-0-d277dcb861ab7e7407f2f67dae0acf4e",
+                "imageKey": "knowledge/semantic/90C497B78F3269DCFD247791F0B060C8.webp",
+                "imageMd5": "90C497B78F3269DCFD247791F0B060C8",
+                "audioUrl": "https://track.timelywise.cn/knowledge/speech/631CCB12C1B23B3E6A171ABE3351D6CB.mp3?auth_key=1788438992-05juje9bhdj1-0-c558efb5273ff901ad01a33f9d95c074",
+                "in_course_cnt": 0,
+                "access": "NORMAL"
+            },
+            "ranges": [
+                {
+                    "start": 3,
+                    "end": 12,
+                    "text": "'d better",
+                    "key": "head"
+                }
+            ]
+        }
+    }
+}
+
+{
+    "phraseId": 102666,
+    "content": "come over",
+    "pos": "VERB",
+    "currentProfileUid": 12898,
+    "profileTabs": [
+        {
+            "profileUid": 12898,
+            "grammaticalTypeNid": "intransitive_verb_phrase",
+            "grammaticalTypeNameZh": "不及物动词短语",
+            "complementLabel": "谓语槽位",
+            "current": true
+        },
+        {
+            "profileUid": 12899,
+            "grammaticalTypeNid": "intransitive_verb_phrase",
+            "grammaticalTypeNameZh": "不及物动词短语",
+            "complementLabel": "谓语槽位",
+            "current": false
+        },
+        {
+            "profileUid": 12900,
+            "grammaticalTypeNid": "intransitive_verb_phrase",
+            "grammaticalTypeNameZh": "不及物动词短语",
+            "complementLabel": "谓语槽位",
+            "current": false
+        },
+        {
+            "profileUid": 12901,
+            "grammaticalTypeNid": "intransitive_verb_phrase",
+            "grammaticalTypeNameZh": "不及物动词短语",
+            "complementLabel": "谓语槽位",
+            "current": false
+        },
+        {
+            "profileUid": 12902,
+            "grammaticalTypeNid": "inseparable_phrasal_verb",
+            "grammaticalTypeNameZh": "分不开的短语动词",
+            "complementLabel": "谓语槽位",
+            "current": false
+        }
+    ],
+    "profiles": [
+        {
+            "profileUid": 12898,
+            "grammaticalTypeNid": "intransitive_verb_phrase",
+            "grammaticalTypeNameZh": "不及物动词短语",
+            "semanticIds": [
+                758901,
+                758902,
+                1119291
+            ],
+            "sentenceSlotCategoryNids": [
+                "verb_predicate"
+            ],
+            "sentenceSlotCategoryNamesZh": [
+                "谓语槽位"
+            ],
+            "descriptions": [
+                {
+                    "lang": "en",
+                    "text": "Intransitive; used for visiting, travelling over, or approaching. An optional prepositional phrase can indicate purpose (for dinner), origin (from England), or direction (here)."
+                },
+                {
+                    "lang": "zh",
+                    "text": "不及物用法，表示过来拜访、长途而来或走近。右侧可接可选介词短语表示目的、来源或方向。"
+                }
+            ],
+            "example": "Come over for dinner this weekend.",
+            "governedSlots": [
+                {
+                    "slotKey": "direction_or_purpose",
+                    "slotKeyNameZh": null,
+                    "attachmentSide": "right",
+                    "required": false,
+                    "requiredLabel": "可选",
+                    "slotCategoryNids": [
+                        "prepositional_phrase"
+                    ],
+                    "slotCategoryNamesZh": [
+                        "介词短语槽位"
+                    ],
+                    "displayLabel": null
+                }
+            ],
+            "sentences": [
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 518824,
+                        "semanticId": 1136110,
+                        "content": "We have not come over to the local school yet.",
+                        "definition": "我们还没有来过当地学校。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "We have not come over to the local school yet."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "我们还没有来过当地学校。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 73611,
+                                "assId": 86910,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/speech/C5C49ACA292E5398EEA88A006BD46F1D.mp3?auth_key=1788446530-p0kpfpx5xdyf-0-f7d66374629c676052f2507c1c196026",
+                                "duration": 3.1,
+                                "audioAss": "Dialogue: 0,0:00:00.00,0:00:02.98,Default,,0,0,0,,{\\k51}We {\\k28}have {\\k25}not {\\k21}come {\\k25}over {\\k14}to {\\k9}the {\\k43}local {\\k42}school {\\k40}yet.",
+                                "translateAss": [],
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 73602,
+                                "assId": 86901,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/speech/B9F0688C2CD8D5229AD063FCAC575061.mp3?auth_key=1788446530-2zq1gcdmr79j-0-27bd5d6c246ad1d889c4b55290476f08",
+                                "duration": 3.07,
+                                "audioAss": "Dialogue: 0,0:00:00.00,0:00:02.29,Default,,0,0,0,,{\\k27}We {\\k19}have {\\k17}not {\\k18}come {\\k22}over {\\k13}to {\\k8}the {\\k32}local {\\k32}school {\\k41}yet.",
+                                "translateAss": [],
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 2,
+                            "min": 2
+                        },
+                        "imageId": 5411018,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/373E39881DE61D55ADD2E11A8A706A61.webp?auth_key=1788446530-l2y9asgusxg4-0-5b81d6a87dd6cfe4720183872faa5a95",
+                        "imageKey": "knowledge/semantic/373E39881DE61D55ADD2E11A8A706A61.webp",
+                        "imageMd5": "373E39881DE61D55ADD2E11A8A706A61",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/speech/C5C49ACA292E5398EEA88A006BD46F1D.mp3?auth_key=1788446530-p0kpfpx5xdyf-0-f7d66374629c676052f2507c1c196026",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 12,
+                            "end": 21,
+                            "text": "come over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 518824,
+                        "semanticId": 1136110,
+                        "content": "We have not come over to the local school yet.",
+                        "definition": "我们还没有来过当地学校。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "We have not come over to the local school yet."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "我们还没有来过当地学校。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 73611,
+                                "assId": 86910,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/speech/C5C49ACA292E5398EEA88A006BD46F1D.mp3?auth_key=1788446530-p0kpfpx5xdyf-0-f7d66374629c676052f2507c1c196026",
+                                "duration": 3.1,
+                                "audioAss": "Dialogue: 0,0:00:00.00,0:00:02.98,Default,,0,0,0,,{\\k51}We {\\k28}have {\\k25}not {\\k21}come {\\k25}over {\\k14}to {\\k9}the {\\k43}local {\\k42}school {\\k40}yet.",
+                                "translateAss": [],
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 73602,
+                                "assId": 86901,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/speech/B9F0688C2CD8D5229AD063FCAC575061.mp3?auth_key=1788446530-2zq1gcdmr79j-0-27bd5d6c246ad1d889c4b55290476f08",
+                                "duration": 3.07,
+                                "audioAss": "Dialogue: 0,0:00:00.00,0:00:02.29,Default,,0,0,0,,{\\k27}We {\\k19}have {\\k17}not {\\k18}come {\\k22}over {\\k13}to {\\k8}the {\\k32}local {\\k32}school {\\k41}yet.",
+                                "translateAss": [],
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 2,
+                            "min": 2
+                        },
+                        "imageId": 5411018,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/373E39881DE61D55ADD2E11A8A706A61.webp?auth_key=1788446530-l2y9asgusxg4-0-5b81d6a87dd6cfe4720183872faa5a95",
+                        "imageKey": "knowledge/semantic/373E39881DE61D55ADD2E11A8A706A61.webp",
+                        "imageMd5": "373E39881DE61D55ADD2E11A8A706A61",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/speech/C5C49ACA292E5398EEA88A006BD46F1D.mp3?auth_key=1788446530-p0kpfpx5xdyf-0-f7d66374629c676052f2507c1c196026",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 12,
+                            "end": 21,
+                            "text": "come over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 516086,
+                        "semanticId": 1133372,
+                        "content": "Our neighbours are coming over.",
+                        "definition": "我们的邻居们要过来了。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "Our neighbours are coming over."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "我们的邻居们要过来了。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 100716,
+                                "assId": 114118,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/speech/6404F3148726C062374915A1E5CE6370.mp3?auth_key=1788446530-8084sec0m7sj-0-f68fde5d8dbd5134467dacc1ae8af94b",
+                                "duration": 1.9,
+                                "audioAss": "Dialogue: 0,0:00:00.27,0:00:01.78,Default,,0,0,0,,{\\k19}Our {\\k46}neighbours {\\k7}are {\\k35}coming {\\k44}over.",
+                                "translateAss": [],
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 68312,
+                                "assId": 81577,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/speech/281839B808A09BC1015B58A1EB0190D9.mp3?auth_key=1788446530-nxnl0mr2vp3k-0-a36c7a0d6c21065e3f9b009502982f68",
+                                "duration": 2.33,
+                                "audioAss": "Dialogue: 0,0:00:00.11,0:00:01.57,Default,,0,0,0,,{\\k39}neighbours {\\k7}are {\\k38}coming {\\k43}over.",
+                                "translateAss": [],
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 1,
+                            "min": 1
+                        },
+                        "imageId": 10170943,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/2DDAAFF5C1E0D392E7428360E37F0030.webp?auth_key=1788446530-g106trpzgy46-0-0ab44c8bf271b2c93376393f759fd887",
+                        "imageKey": "knowledge/semantic/2DDAAFF5C1E0D392E7428360E37F0030.webp",
+                        "imageMd5": "2DDAAFF5C1E0D392E7428360E37F0030",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/speech/6404F3148726C062374915A1E5CE6370.mp3?auth_key=1788446530-8084sec0m7sj-0-f68fde5d8dbd5134467dacc1ae8af94b",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 19,
+                            "end": 30,
+                            "text": "coming over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 339700,
+                        "semanticId": 951357,
+                        "content": "The neighbors came over for tea and a good crack.",
+                        "definition": "邻居们过来喝茶聊天。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "The neighbors came over for tea and a good crack."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "邻居们过来喝茶聊天。"
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 3,
+                            "min": 3
+                        },
+                        "imageId": 10004470,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/FB6BE44E6B4ABA63403C06486501F8BA.webp?auth_key=1788446530-1rbvrwl9vdbb-0-ca945ef9ab404c5185b49d9294403a78",
+                        "imageKey": "knowledge/semantic/FB6BE44E6B4ABA63403C06486501F8BA.webp",
+                        "imageMd5": "FB6BE44E6B4ABA63403C06486501F8BA",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 14,
+                            "end": 23,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 339700,
+                        "semanticId": 951357,
+                        "content": "The neighbors came over for tea and a good crack.",
+                        "definition": "邻居们过来喝茶聊天。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "The neighbors came over for tea and a good crack."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "邻居们过来喝茶聊天。"
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 3,
+                            "min": 3
+                        },
+                        "imageId": 10004470,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/FB6BE44E6B4ABA63403C06486501F8BA.webp?auth_key=1788446530-1rbvrwl9vdbb-0-ca945ef9ab404c5185b49d9294403a78",
+                        "imageKey": "knowledge/semantic/FB6BE44E6B4ABA63403C06486501F8BA.webp",
+                        "imageMd5": "FB6BE44E6B4ABA63403C06486501F8BA",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 14,
+                            "end": 23,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 305848,
+                        "semanticId": 917411,
+                        "content": "When we went to the concert, our neighbor's daughter came over to babysit our two-year-old.",
+                        "definition": "我们去听音乐会时，邻居的女儿过来照看我们两岁的孩子。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "When we went to the concert, our neighbor's daughter came over to babysit our two-year-old."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "我们去听音乐会时，邻居的女儿过来照看我们两岁的孩子。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 532928,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/557B7FF76BF676D4CA6EB569F2339C17.mp3?auth_key=1788446530-slgul3us0quk-0-615ed66c9de861ce92cd4b58da570efb",
+                                "duration": 4.34,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 532932,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/B5FC0AD5A997CB0979B2561406261AE0.mp3?auth_key=1788446530-hj276b4mrvru-0-3f8750ebfa7137ef930dbe47ce4f123e",
+                                "duration": 4.75,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 2,
+                            "min": 2
+                        },
+                        "imageId": 3375046,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/B481445874CFAF74E66CE6E8F6A2A6FB.webp?auth_key=1788446530-mpyglga610ku-0-182d839ef54a53568d89fd0d77ed0a91",
+                        "imageKey": "knowledge/semantic/B481445874CFAF74E66CE6E8F6A2A6FB.webp",
+                        "imageMd5": "B481445874CFAF74E66CE6E8F6A2A6FB",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/557B7FF76BF676D4CA6EB569F2339C17.mp3?auth_key=1788446530-slgul3us0quk-0-615ed66c9de861ce92cd4b58da570efb",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 53,
+                            "end": 62,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 305848,
+                        "semanticId": 917411,
+                        "content": "When we went to the concert, our neighbor's daughter came over to babysit our two-year-old.",
+                        "definition": "我们去听音乐会时，邻居的女儿过来照看我们两岁的孩子。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "When we went to the concert, our neighbor's daughter came over to babysit our two-year-old."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "我们去听音乐会时，邻居的女儿过来照看我们两岁的孩子。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 532928,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/557B7FF76BF676D4CA6EB569F2339C17.mp3?auth_key=1788446530-slgul3us0quk-0-615ed66c9de861ce92cd4b58da570efb",
+                                "duration": 4.34,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 532932,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/B5FC0AD5A997CB0979B2561406261AE0.mp3?auth_key=1788446530-hj276b4mrvru-0-3f8750ebfa7137ef930dbe47ce4f123e",
+                                "duration": 4.75,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 2,
+                            "min": 2
+                        },
+                        "imageId": 3375046,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/B481445874CFAF74E66CE6E8F6A2A6FB.webp?auth_key=1788446530-mpyglga610ku-0-182d839ef54a53568d89fd0d77ed0a91",
+                        "imageKey": "knowledge/semantic/B481445874CFAF74E66CE6E8F6A2A6FB.webp",
+                        "imageMd5": "B481445874CFAF74E66CE6E8F6A2A6FB",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/557B7FF76BF676D4CA6EB569F2339C17.mp3?auth_key=1788446530-slgul3us0quk-0-615ed66c9de861ce92cd4b58da570efb",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 53,
+                            "end": 62,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 286183,
+                        "semanticId": 897714,
+                        "content": "She has one or two friends coming over tonight.",
+                        "definition": "今晚她有一两个朋友要来。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "She has one or two friends coming over tonight."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "今晚她有一两个朋友要来。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 493183,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/8BBADCFF47EF41863A38148408DB7733.mp3?auth_key=1788446530-qvjy1vz18938-0-bfc9bc7188132d3e57392a5455481d78",
+                                "duration": 2.27,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 493186,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/D0F0ED823DCE818CB5D2136401304DE5.mp3?auth_key=1788446530-khx6twnnzb7d-0-481877cd0d4d9d4d726be49b7c04111a",
+                                "duration": 2.82,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 1,
+                            "min": 1
+                        },
+                        "imageId": 4936799,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/60DEAB0B6249AAC88C68B080FDB58458.webp?auth_key=1788446530-p50kkug7af4z-0-5a1dffefcb1e056bb36dd0158b616aae",
+                        "imageKey": "knowledge/semantic/60DEAB0B6249AAC88C68B080FDB58458.webp",
+                        "imageMd5": "60DEAB0B6249AAC88C68B080FDB58458",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/8BBADCFF47EF41863A38148408DB7733.mp3?auth_key=1788446530-qvjy1vz18938-0-bfc9bc7188132d3e57392a5455481d78",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 27,
+                            "end": 38,
+                            "text": "coming over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 286183,
+                        "semanticId": 897714,
+                        "content": "She has one or two friends coming over tonight.",
+                        "definition": "今晚她有一两个朋友要来。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "She has one or two friends coming over tonight."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "今晚她有一两个朋友要来。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 493183,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/8BBADCFF47EF41863A38148408DB7733.mp3?auth_key=1788446530-qvjy1vz18938-0-bfc9bc7188132d3e57392a5455481d78",
+                                "duration": 2.27,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 493186,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/D0F0ED823DCE818CB5D2136401304DE5.mp3?auth_key=1788446530-khx6twnnzb7d-0-481877cd0d4d9d4d726be49b7c04111a",
+                                "duration": 2.82,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 1,
+                            "min": 1
+                        },
+                        "imageId": 4936799,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/60DEAB0B6249AAC88C68B080FDB58458.webp?auth_key=1788446530-p50kkug7af4z-0-5a1dffefcb1e056bb36dd0158b616aae",
+                        "imageKey": "knowledge/semantic/60DEAB0B6249AAC88C68B080FDB58458.webp",
+                        "imageMd5": "60DEAB0B6249AAC88C68B080FDB58458",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/8BBADCFF47EF41863A38148408DB7733.mp3?auth_key=1788446530-qvjy1vz18938-0-bfc9bc7188132d3e57392a5455481d78",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 27,
+                            "end": 38,
+                            "text": "coming over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 262245,
+                        "semanticId": 873763,
+                        "content": "We're waiting in for an important package - can you call before coming over?",
+                        "definition": "我们在等一个重要包裹——你来之前能先打个电话吗？",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "We're waiting in for an important package - can you call before coming over?"
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "我们在等一个重要包裹——你来之前能先打个电话吗？"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 445130,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/94408CAAE25A163DC8D25C19A80C7F9D.mp3?auth_key=1788446530-ytqxx56q33mp-0-c9b05d8565eb37a0058575ef675a109e",
+                                "duration": 3.89,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 445135,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/8352AB30340F2EC62C3E7FC1192C6C80.mp3?auth_key=1788446530-jznyvvnxalsm-0-9cd733aaebf9f4abe27a30a454e1a2e2",
+                                "duration": 3.71,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 2,
+                            "min": 2
+                        },
+                        "imageId": 4912864,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/89F40575A881205895F47239FAC1AD6F.webp?auth_key=1788446530-gtgkxwv05vps-0-d731ed2e663e56df88f29216d2612d30",
+                        "imageKey": "knowledge/semantic/89F40575A881205895F47239FAC1AD6F.webp",
+                        "imageMd5": "89F40575A881205895F47239FAC1AD6F",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/94408CAAE25A163DC8D25C19A80C7F9D.mp3?auth_key=1788446530-ytqxx56q33mp-0-c9b05d8565eb37a0058575ef675a109e",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 64,
+                            "end": 75,
+                            "text": "coming over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 262245,
+                        "semanticId": 873763,
+                        "content": "We're waiting in for an important package - can you call before coming over?",
+                        "definition": "我们在等一个重要包裹——你来之前能先打个电话吗？",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "We're waiting in for an important package - can you call before coming over?"
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "我们在等一个重要包裹——你来之前能先打个电话吗？"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 445130,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/94408CAAE25A163DC8D25C19A80C7F9D.mp3?auth_key=1788446530-ytqxx56q33mp-0-c9b05d8565eb37a0058575ef675a109e",
+                                "duration": 3.89,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 445135,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/8352AB30340F2EC62C3E7FC1192C6C80.mp3?auth_key=1788446530-jznyvvnxalsm-0-9cd733aaebf9f4abe27a30a454e1a2e2",
+                                "duration": 3.71,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 2,
+                            "min": 2
+                        },
+                        "imageId": 4912864,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/89F40575A881205895F47239FAC1AD6F.webp?auth_key=1788446530-gtgkxwv05vps-0-d731ed2e663e56df88f29216d2612d30",
+                        "imageKey": "knowledge/semantic/89F40575A881205895F47239FAC1AD6F.webp",
+                        "imageMd5": "89F40575A881205895F47239FAC1AD6F",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/94408CAAE25A163DC8D25C19A80C7F9D.mp3?auth_key=1788446530-ytqxx56q33mp-0-c9b05d8565eb37a0058575ef675a109e",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 64,
+                            "end": 75,
+                            "text": "coming over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 258986,
+                        "semanticId": 870497,
+                        "content": "She had finished her homework before her friends came over.",
+                        "definition": "在朋友们来之前，她已经完成了作业。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "She had finished her homework before her friends came over."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "在朋友们来之前，她已经完成了作业。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 438613,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/420B74D34DBD59874A0D261FD6FAA990.mp3?auth_key=1788446530-epqyll7dfx94-0-40fce5aa5133beb4cae6c1dc24139e45",
+                                "duration": 2.77,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 438617,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/469EBBB8603F369A2DD41C10C69EAEF0.mp3?auth_key=1788446530-cpbjnatwz1w2-0-cf02b5b17fbce1081760ecb6cea87ae7",
+                                "duration": 3.06,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 3,
+                            "min": 3
+                        },
+                        "imageId": 4909604,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/B9D93383DFC3FEEFA8397662555F16D9.webp?auth_key=1788446530-q4dwjpxqbetj-0-919eb56166be83ddf27707f95e2fbc03",
+                        "imageKey": "knowledge/semantic/B9D93383DFC3FEEFA8397662555F16D9.webp",
+                        "imageMd5": "B9D93383DFC3FEEFA8397662555F16D9",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/420B74D34DBD59874A0D261FD6FAA990.mp3?auth_key=1788446530-epqyll7dfx94-0-40fce5aa5133beb4cae6c1dc24139e45",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 49,
+                            "end": 58,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 258986,
+                        "semanticId": 870497,
+                        "content": "She had finished her homework before her friends came over.",
+                        "definition": "在朋友们来之前，她已经完成了作业。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "She had finished her homework before her friends came over."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "在朋友们来之前，她已经完成了作业。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 438613,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/420B74D34DBD59874A0D261FD6FAA990.mp3?auth_key=1788446530-epqyll7dfx94-0-40fce5aa5133beb4cae6c1dc24139e45",
+                                "duration": 2.77,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 438617,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/469EBBB8603F369A2DD41C10C69EAEF0.mp3?auth_key=1788446530-cpbjnatwz1w2-0-cf02b5b17fbce1081760ecb6cea87ae7",
+                                "duration": 3.06,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 3,
+                            "min": 3
+                        },
+                        "imageId": 4909604,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/B9D93383DFC3FEEFA8397662555F16D9.webp?auth_key=1788446530-q4dwjpxqbetj-0-919eb56166be83ddf27707f95e2fbc03",
+                        "imageKey": "knowledge/semantic/B9D93383DFC3FEEFA8397662555F16D9.webp",
+                        "imageMd5": "B9D93383DFC3FEEFA8397662555F16D9",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/420B74D34DBD59874A0D261FD6FAA990.mp3?auth_key=1788446530-epqyll7dfx94-0-40fce5aa5133beb4cae6c1dc24139e45",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 49,
+                            "end": 58,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 240087,
+                        "semanticId": 851478,
+                        "content": "The birds come over every winter to escape the cold.",
+                        "definition": "这些鸟每年冬天都会飞来过冬以躲避寒冷。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "The birds come over every winter to escape the cold."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "这些鸟每年冬天都会飞来过冬以躲避寒冷。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 399931,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/07C0A7A7ACC1F26406582F4128F90809.mp3?auth_key=1788446530-9rfrmqxwgz9g-0-4e1498b5b0e199555ae92aee272f2569",
+                                "duration": 2.74,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 399934,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/F027577DCFF23BE4234F6A6F9DDCE7C9.mp3?auth_key=1788446530-rs6w8281w9uy-0-b347cff18e632af8a85c5cae330d184e",
+                                "duration": 2.82,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 2,
+                            "min": 2
+                        },
+                        "imageId": 9907861,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/EAF81013FD3DD14BBE35ACB40FE187E9.webp?auth_key=1788446530-6vh8jerf9qrt-0-78636ea9a542f1fce81a090b861f1db7",
+                        "imageKey": "knowledge/semantic/EAF81013FD3DD14BBE35ACB40FE187E9.webp",
+                        "imageMd5": "EAF81013FD3DD14BBE35ACB40FE187E9",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/07C0A7A7ACC1F26406582F4128F90809.mp3?auth_key=1788446530-9rfrmqxwgz9g-0-4e1498b5b0e199555ae92aee272f2569",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 10,
+                            "end": 19,
+                            "text": "come over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 240087,
+                        "semanticId": 851478,
+                        "content": "The birds come over every winter to escape the cold.",
+                        "definition": "这些鸟每年冬天都会飞来过冬以躲避寒冷。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "The birds come over every winter to escape the cold."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "这些鸟每年冬天都会飞来过冬以躲避寒冷。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 399931,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/07C0A7A7ACC1F26406582F4128F90809.mp3?auth_key=1788446530-9rfrmqxwgz9g-0-4e1498b5b0e199555ae92aee272f2569",
+                                "duration": 2.74,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 399934,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/F027577DCFF23BE4234F6A6F9DDCE7C9.mp3?auth_key=1788446530-rs6w8281w9uy-0-b347cff18e632af8a85c5cae330d184e",
+                                "duration": 2.82,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 2,
+                            "min": 2
+                        },
+                        "imageId": 9907861,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/EAF81013FD3DD14BBE35ACB40FE187E9.webp?auth_key=1788446530-6vh8jerf9qrt-0-78636ea9a542f1fce81a090b861f1db7",
+                        "imageKey": "knowledge/semantic/EAF81013FD3DD14BBE35ACB40FE187E9.webp",
+                        "imageMd5": "EAF81013FD3DD14BBE35ACB40FE187E9",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/07C0A7A7ACC1F26406582F4128F90809.mp3?auth_key=1788446530-9rfrmqxwgz9g-0-4e1498b5b0e199555ae92aee272f2569",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 10,
+                            "end": 19,
+                            "text": "come over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 240083,
+                        "semanticId": 851474,
+                        "content": "Many immigrants came over to America in the early 20th century.",
+                        "definition": "许多移民在20世纪初来到美国。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "Many immigrants came over to America in the early 20th century."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "许多移民在20世纪初来到美国。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 399924,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/E75D3A942F574271ACD49653151D99B1.mp3?auth_key=1788446530-tnxbq7hfagyq-0-8777d3dac527b034d99de119300dad79",
+                                "duration": 3.5,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 399929,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/3F6D75312A1D09760E232AD7FFD84FB2.mp3?auth_key=1788446530-muwwu4n72hgq-0-6cc4ec04d250f4a0c92b72028f9b59cc",
+                                "duration": 3.66,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 3,
+                            "min": 3
+                        },
+                        "imageId": 9907856,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/4A296B1DF46235455277CE889BDFEC40.webp?auth_key=1788446530-ea8ptp1epftb-0-bada8a117f1f5ac3fe3b4a10ad952ab0",
+                        "imageKey": "knowledge/semantic/4A296B1DF46235455277CE889BDFEC40.webp",
+                        "imageMd5": "4A296B1DF46235455277CE889BDFEC40",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/E75D3A942F574271ACD49653151D99B1.mp3?auth_key=1788446530-tnxbq7hfagyq-0-8777d3dac527b034d99de119300dad79",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 16,
+                            "end": 25,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 240083,
+                        "semanticId": 851474,
+                        "content": "Many immigrants came over to America in the early 20th century.",
+                        "definition": "许多移民在20世纪初来到美国。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "Many immigrants came over to America in the early 20th century."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "许多移民在20世纪初来到美国。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 399924,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/E75D3A942F574271ACD49653151D99B1.mp3?auth_key=1788446530-tnxbq7hfagyq-0-8777d3dac527b034d99de119300dad79",
+                                "duration": 3.5,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 399929,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/3F6D75312A1D09760E232AD7FFD84FB2.mp3?auth_key=1788446530-muwwu4n72hgq-0-6cc4ec04d250f4a0c92b72028f9b59cc",
+                                "duration": 3.66,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 3,
+                            "min": 3
+                        },
+                        "imageId": 9907856,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/4A296B1DF46235455277CE889BDFEC40.webp?auth_key=1788446530-ea8ptp1epftb-0-bada8a117f1f5ac3fe3b4a10ad952ab0",
+                        "imageKey": "knowledge/semantic/4A296B1DF46235455277CE889BDFEC40.webp",
+                        "imageMd5": "4A296B1DF46235455277CE889BDFEC40",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/E75D3A942F574271ACD49653151D99B1.mp3?auth_key=1788446530-tnxbq7hfagyq-0-8777d3dac527b034d99de119300dad79",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 16,
+                            "end": 25,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 240074,
+                        "semanticId": 851465,
+                        "content": "They came over from Canada to attend the conference.",
+                        "definition": "他们从加拿大远道而来参加会议。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "They came over from Canada to attend the conference."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "他们从加拿大远道而来参加会议。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 399905,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/5BB3F3D645335E4F3E39E801357A492C.mp3?auth_key=1788446530-lb3lf4r6l0pp-0-cf7720493442e49d1b63d7bd3c0fc486",
+                                "duration": 2.51,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 399910,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/F2A442072B6CE8E1A9B792E258D251E7.mp3?auth_key=1788446530-x837qskhj62w-0-f72f5e1e35386782274d48592fc8977c",
+                                "duration": 2.64,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 3,
+                            "min": 3
+                        },
+                        "imageId": 9907853,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/F39549C05A6A9B4D52C6AD6CB200AF3E.webp?auth_key=1788446530-sqbq3sknh3ul-0-36182c22ee9393e4900881b37359c522",
+                        "imageKey": "knowledge/semantic/F39549C05A6A9B4D52C6AD6CB200AF3E.webp",
+                        "imageMd5": "F39549C05A6A9B4D52C6AD6CB200AF3E",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/5BB3F3D645335E4F3E39E801357A492C.mp3?auth_key=1788446530-lb3lf4r6l0pp-0-cf7720493442e49d1b63d7bd3c0fc486",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 5,
+                            "end": 14,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 240074,
+                        "semanticId": 851465,
+                        "content": "They came over from Canada to attend the conference.",
+                        "definition": "他们从加拿大远道而来参加会议。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "They came over from Canada to attend the conference."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "他们从加拿大远道而来参加会议。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 399905,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/5BB3F3D645335E4F3E39E801357A492C.mp3?auth_key=1788446530-lb3lf4r6l0pp-0-cf7720493442e49d1b63d7bd3c0fc486",
+                                "duration": 2.51,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 399910,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/F2A442072B6CE8E1A9B792E258D251E7.mp3?auth_key=1788446530-x837qskhj62w-0-f72f5e1e35386782274d48592fc8977c",
+                                "duration": 2.64,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 3,
+                            "min": 3
+                        },
+                        "imageId": 9907853,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/F39549C05A6A9B4D52C6AD6CB200AF3E.webp?auth_key=1788446530-sqbq3sknh3ul-0-36182c22ee9393e4900881b37359c522",
+                        "imageKey": "knowledge/semantic/F39549C05A6A9B4D52C6AD6CB200AF3E.webp",
+                        "imageMd5": "F39549C05A6A9B4D52C6AD6CB200AF3E",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/5BB3F3D645335E4F3E39E801357A492C.mp3?auth_key=1788446530-lb3lf4r6l0pp-0-cf7720493442e49d1b63d7bd3c0fc486",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 5,
+                            "end": 14,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 240056,
+                        "semanticId": 851447,
+                        "content": "She often comes over to borrow books from my library.",
+                        "definition": "她经常过来从我的图书馆借书。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "She often comes over to borrow books from my library."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "她经常过来从我的图书馆借书。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 399865,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/582E403E73F1C8FB886CFC55BDB8C148.mp3?auth_key=1788446530-ndgaxzskxwz8-0-95483b7d6019f0e7f2de755956e4113f",
+                                "duration": 2.77,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 399868,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/679B0E08A547B137E510BF7A6286D850.mp3?auth_key=1788446530-bbhnxf5na2sq-0-a999afbabde3517a7ad847710805b21d",
+                                "duration": 2.85,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 2,
+                            "min": 2
+                        },
+                        "imageId": 9907826,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/69E1093A866A38FB62F9B19F32EA6938.webp?auth_key=1788446530-vr9gr4tfjf77-0-3b0b53b23539bb6cb2b700167b143e8b",
+                        "imageKey": "knowledge/semantic/69E1093A866A38FB62F9B19F32EA6938.webp",
+                        "imageMd5": "69E1093A866A38FB62F9B19F32EA6938",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/582E403E73F1C8FB886CFC55BDB8C148.mp3?auth_key=1788446530-ndgaxzskxwz8-0-95483b7d6019f0e7f2de755956e4113f",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 10,
+                            "end": 20,
+                            "text": "comes over",
+                            "key": "head"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "profileUid": 12899,
+            "grammaticalTypeNid": "intransitive_verb_phrase",
+            "grammaticalTypeNameZh": "不及物动词短语",
+            "semanticIds": [
+                758899
+            ],
+            "sentenceSlotCategoryNids": [
+                "verb_predicate"
+            ],
+            "sentenceSlotCategoryNamesZh": [
+                "谓语槽位"
+            ],
+            "descriptions": [
+                {
+                    "lang": "en",
+                    "text": "Intransitive; a feeling or meaning 'comes over' someone. The experiencer (a noun phrase) is optional — 'I hope my meaning comes over' needs no object."
+                },
+                {
+                    "lang": "zh",
+                    "text": "不及物用法，表示突然感受到或被理解。右侧可接可选名词短语表示感受者，也可省略。"
+                }
+            ],
+            "example": "A strange feeling came over me.",
+            "governedSlots": [
+                {
+                    "slotKey": "experiencer",
+                    "slotKeyNameZh": null,
+                    "attachmentSide": "right",
+                    "required": false,
+                    "requiredLabel": "可选",
+                    "slotCategoryNids": [
+                        "noun_phrase"
+                    ],
+                    "slotCategoryNamesZh": [
+                        "名词短语槽位"
+                    ],
+                    "displayLabel": null
+                }
+            ],
+            "sentences": [
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 397596,
+                        "semanticId": 1009464,
+                        "content": "After the long journey, a feeling of listlessness came over the travelers.",
+                        "definition": "长途旅行后，一种倦怠感笼罩了旅行者们。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "After the long journey, a feeling of listlessness came over the travelers."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "长途旅行后，一种倦怠感笼罩了旅行者们。"
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 4,
+                            "min": 4
+                        },
+                        "imageId": 5048366,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/E0B283437B6683A9B9652BE8C2B78267.webp?auth_key=1788446530-041swlhs0hjf-0-41776edaa2b4dca9f6130da3b8b69a65",
+                        "imageKey": "knowledge/semantic/E0B283437B6683A9B9652BE8C2B78267.webp",
+                        "imageMd5": "E0B283437B6683A9B9652BE8C2B78267",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 50,
+                            "end": 59,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 369526,
+                        "semanticId": 981282,
+                        "content": "A hush came over the classroom when the principal walked in.",
+                        "definition": "当校长走进来时，教室里突然安静下来。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "A hush came over the classroom when the principal walked in."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "当校长走进来时，教室里突然安静下来。"
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 2,
+                            "min": 2
+                        },
+                        "imageId": 5020185,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/B003B896522178EFB41A68B48AB67221.webp?auth_key=1788446530-zp887k2lxj6u-0-95a253951c1fbbae41e32abb98c01206",
+                        "imageKey": "knowledge/semantic/B003B896522178EFB41A68B48AB67221.webp",
+                        "imageMd5": "B003B896522178EFB41A68B48AB67221",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 7,
+                            "end": 16,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 303015,
+                        "semanticId": 914565,
+                        "content": "A sudden agitation came over him when he realized he might have left the stove on.",
+                        "definition": "当他意识到可能忘了关炉子时，突然感到一阵焦虑不安。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "A sudden agitation came over him when he realized he might have left the stove on."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "当他意识到可能忘了关炉子时，突然感到一阵焦虑不安。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 527266,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/AAEF00A60D4882F7EE3C3A2B03685D4B.mp3?auth_key=1788446530-94tpe2l9dleq-0-3f09f69e44bb1e9ec224628f5685e475",
+                                "duration": 4.0,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 527270,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/B1F885EEF7917B6CB908A15E2128306A.mp3?auth_key=1788446530-tntyrzk5a5u3-0-eb8326b34bb00bb3d6f8e51e520f0cb8",
+                                "duration": 4.21,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 4,
+                            "min": 4
+                        },
+                        "imageId": 4953593,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/6F3FEF498D746B5C52484F343F4547E2.webp?auth_key=1788446530-207ythj0n74n-0-bba78e76162e2ea60fed8b7a30802ca2",
+                        "imageKey": "knowledge/semantic/6F3FEF498D746B5C52484F343F4547E2.webp",
+                        "imageMd5": "6F3FEF498D746B5C52484F343F4547E2",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/AAEF00A60D4882F7EE3C3A2B03685D4B.mp3?auth_key=1788446530-94tpe2l9dleq-0-3f09f69e44bb1e9ec224628f5685e475",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 19,
+                            "end": 28,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 273485,
+                        "semanticId": 885014,
+                        "content": "A sinking feeling came over him when he heard the news about the company's bankruptcy.",
+                        "definition": "当他听到公司破产的消息时，一种不祥的预感笼罩了他。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "A sinking feeling came over him when he heard the news about the company's bankruptcy."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "当他听到公司破产的消息时，一种不祥的预感笼罩了他。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 467611,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/09D97B925DBFDFF91574D50417A8E6D1.mp3?auth_key=1788446530-lnbyldq7pbsd-0-706b6d323d44a3596a807260bb48a5eb",
+                                "duration": 4.15,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 467616,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/E55327262C4475515C36FEFC20B00485.mp3?auth_key=1788446530-j4bqmcft1h1y-0-bc2f3a114125be08646bc34d73fe750e",
+                                "duration": 4.41,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 4,
+                            "min": 4
+                        },
+                        "imageId": 9941353,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/213C2741CAD04B3E5EF346095301C5DD.webp?auth_key=1788446530-uzndfacx87cs-0-982249f4bd93a56f7e4ca5db40bfaa38",
+                        "imageKey": "knowledge/semantic/213C2741CAD04B3E5EF346095301C5DD.webp",
+                        "imageMd5": "213C2741CAD04B3E5EF346095301C5DD",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/09D97B925DBFDFF91574D50417A8E6D1.mp3?auth_key=1788446530-lnbyldq7pbsd-0-706b6d323d44a3596a807260bb48a5eb",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 18,
+                            "end": 27,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 240146,
+                        "semanticId": 851535,
+                        "content": "The news came over her like a shock.",
+                        "definition": "这个消息对她来说犹如晴天霹雳。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "The news came over her like a shock."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "这个消息对她来说犹如晴天霹雳。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 400044,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/A401213C3C7CE1A18E710BACCD960C44.mp3?auth_key=1788446530-ncs4vtygw2x6-0-082ddc50d6b01b5721f6612166c564f6",
+                                "duration": 1.75,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 400048,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/8A50D063FC3F9C326812656BF3448A5B.mp3?auth_key=1788446530-95a5rej7z30z-0-07117b890c0681b74e4d2fdded6f069f",
+                                "duration": 2.06,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 3,
+                            "min": 3
+                        },
+                        "imageId": 9907916,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/893BDFF47C3C752C89FBCB7FB5F6206E.webp?auth_key=1788446530-zs9n63m5xl58-0-217630a7364f1c3dfe92f4ab9e7cf647",
+                        "imageKey": "knowledge/semantic/893BDFF47C3C752C89FBCB7FB5F6206E.webp",
+                        "imageMd5": "893BDFF47C3C752C89FBCB7FB5F6206E",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/A401213C3C7CE1A18E710BACCD960C44.mp3?auth_key=1788446530-ncs4vtygw2x6-0-082ddc50d6b01b5721f6612166c564f6",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 9,
+                            "end": 18,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 240133,
+                        "semanticId": 851524,
+                        "content": "His enthusiasm came over everyone in the room.",
+                        "definition": "他的热情感染了房间里的每个人。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "His enthusiasm came over everyone in the room."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "他的热情感染了房间里的每个人。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 400023,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/C5573B06BF4E6D25ACC10AE7313EE9C3.mp3?auth_key=1788446530-410zrdyre7hl-0-f95b4ceda7e6930f4328eb1f0c2db666",
+                                "duration": 3.11,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 400029,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/189B70329D080FD60D4C21068EAEA699.mp3?auth_key=1788446530-k6ww07l7rnwf-0-988a96327298af002e8e2456d0ac8fa6",
+                                "duration": 2.69,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 3,
+                            "min": 3
+                        },
+                        "imageId": 9907896,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/D815B0EC77327440B886508E9C256B12.webp?auth_key=1788446530-zzunywn28ham-0-a33d3db65dcbe5d189c4102395ce6c33",
+                        "imageKey": "knowledge/semantic/D815B0EC77327440B886508E9C256B12.webp",
+                        "imageMd5": "D815B0EC77327440B886508E9C256B12",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/C5573B06BF4E6D25ACC10AE7313EE9C3.mp3?auth_key=1788446530-410zrdyre7hl-0-f95b4ceda7e6930f4328eb1f0c2db666",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 15,
+                            "end": 24,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 240125,
+                        "semanticId": 851516,
+                        "content": "The teacher's words came over strongly to the students.",
+                        "definition": "老师的话对学生产生了强烈的影响。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "The teacher's words came over strongly to the students."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "老师的话对学生产生了强烈的影响。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 400008,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/57C839C64A0C472D2EA0F86607E6CC98.mp3?auth_key=1788446530-ckcb4mtkrbb4-0-2fc1fc5c90523d4a7f1c2785db44709c",
+                                "duration": 2.82,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 400011,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/66D9E88C6C2FF597ABFABA057E76E9BC.mp3?auth_key=1788446530-umnhkdu9ew3p-0-c3acb93269118a59046ef6afd470f5d2",
+                                "duration": 2.93,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 3,
+                            "min": 3
+                        },
+                        "imageId": 9907882,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/2EA6A899DD417F621969C4A79F94DCDB.webp?auth_key=1788446530-m43scm35r1kn-0-fa0b5e1d8756b8e534a9128e97b4c762",
+                        "imageKey": "knowledge/semantic/2EA6A899DD417F621969C4A79F94DCDB.webp",
+                        "imageMd5": "2EA6A899DD417F621969C4A79F94DCDB",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/57C839C64A0C472D2EA0F86607E6CC98.mp3?auth_key=1788446530-ckcb4mtkrbb4-0-2fc1fc5c90523d4a7f1c2785db44709c",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 20,
+                            "end": 29,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 240031,
+                        "semanticId": 851422,
+                        "content": "The message came over clearly in the advertisement.",
+                        "definition": "广告中的信息传达得很清楚。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "The message came over clearly in the advertisement."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "广告中的信息传达得很清楚。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 399817,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/A34CCE254B88E787AC2DDF87E6F8631E.mp3?auth_key=1788446530-eyxb0ss4why3-0-291e422f85d0f473dcc9a36b7b0891cb",
+                                "duration": 2.66,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 399822,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/A9BD0F87DA7558F5C3D8F2897C8D6551.mp3?auth_key=1788446530-hg0q39hlrmmu-0-4f75438989f87447f5108262719eac0f",
+                                "duration": 2.56,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 2,
+                            "min": 2
+                        },
+                        "imageId": 9907799,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/3B0E3F83777E4336282A49651285D2FC.webp?auth_key=1788446530-wdxfel6f3xuh-0-b3a38830174364589ca16f7adc6d3205",
+                        "imageKey": "knowledge/semantic/3B0E3F83777E4336282A49651285D2FC.webp",
+                        "imageMd5": "3B0E3F83777E4336282A49651285D2FC",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/A34CCE254B88E787AC2DDF87E6F8631E.mp3?auth_key=1788446530-eyxb0ss4why3-0-291e422f85d0f473dcc9a36b7b0891cb",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 12,
+                            "end": 21,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 240022,
+                        "semanticId": 851413,
+                        "content": "His speech came over as insincere to many in the audience.",
+                        "definition": "他的演讲给许多听众留下了不真诚的印象。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "His speech came over as insincere to many in the audience."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "他的演讲给许多听众留下了不真诚的印象。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 399799,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/5B3F11A058209CBB68FDD1AB107B97AD.mp3?auth_key=1788446530-577wz56zlngs-0-15a628a0c8c48a6c5f10e0e8f88c1d5f",
+                                "duration": 3.34,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 399803,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/9B4FAA64482F1805BD4C45EEB08AF39F.mp3?auth_key=1788446530-8np8haab10rr-0-e73bdfa489d8048a4a5936a0db53b6bf",
+                                "duration": 3.32,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 4,
+                            "min": 4
+                        },
+                        "imageId": 4890641,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/A7BDB5B61CF1F45DFB6FCFF312E61C40.webp?auth_key=1788446530-n0zwnuvq0d6g-0-d00c29c58cb5d6f7c492cbfa395ee99c",
+                        "imageKey": "knowledge/semantic/A7BDB5B61CF1F45DFB6FCFF312E61C40.webp",
+                        "imageMd5": "A7BDB5B61CF1F45DFB6FCFF312E61C40",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/5B3F11A058209CBB68FDD1AB107B97AD.mp3?auth_key=1788446530-577wz56zlngs-0-15a628a0c8c48a6c5f10e0e8f88c1d5f",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 11,
+                            "end": 20,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 240017,
+                        "semanticId": 851408,
+                        "content": "Her confidence came over very well during the interview.",
+                        "definition": "面试中她的自信给人留下了深刻印象。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "Her confidence came over very well during the interview."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "面试中她的自信给人留下了深刻印象。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 399792,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/C903E0B8D850B4BEEDAE303BAD68C506.mp3?auth_key=1788446530-ctgjrqpy02ga-0-c95df8d261824fe12d2c5a9e451d70bb",
+                                "duration": 2.9,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 399794,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/398D8B13A32E7A556655816E3CF36E81.mp3?auth_key=1788446530-t8zka3zq7qq0-0-18fc819db710840bdd946d95440368ae",
+                                "duration": 2.9,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 3,
+                            "min": 3
+                        },
+                        "imageId": 4890633,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/82B0F2DBF722F152991CA4C5C2BEC709.webp?auth_key=1788446530-hrjzdwfuqcjn-0-b897791e90123d550162b57e4c3f77bb",
+                        "imageKey": "knowledge/semantic/82B0F2DBF722F152991CA4C5C2BEC709.webp",
+                        "imageMd5": "82B0F2DBF722F152991CA4C5C2BEC709",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/C903E0B8D850B4BEEDAE303BAD68C506.mp3?auth_key=1788446530-ctgjrqpy02ga-0-c95df8d261824fe12d2c5a9e451d70bb",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 15,
+                            "end": 24,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 240006,
+                        "semanticId": 851397,
+                        "content": "A sense of calm came over the crowd after the announcement.",
+                        "definition": "宣布之后，一种平静的感觉笼罩了人群。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "A sense of calm came over the crowd after the announcement."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "宣布之后，一种平静的感觉笼罩了人群。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 399768,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/E84AE79628E19278DFBF50DAFE1C5D7F.mp3?auth_key=1788446530-pcx3hj6ntl97-0-f2373a974518f0f01bea5be924aa7b9a",
+                                "duration": 2.9,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 399772,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/8463377FF6F95EF1B51937532E92C56A.mp3?auth_key=1788446530-vezzbcxyn42g-0-f54c2566b63abfdea3843dd1997c68b4",
+                                "duration": 3.08,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 3,
+                            "min": 3
+                        },
+                        "imageId": 9907784,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/56ED8F18696EE67BFF48A9433993ABAE.webp?auth_key=1788446530-gd6qt0xz6al9-0-8efa7ba50b5b96c426181adefbc8e373",
+                        "imageKey": "knowledge/semantic/56ED8F18696EE67BFF48A9433993ABAE.webp",
+                        "imageMd5": "56ED8F18696EE67BFF48A9433993ABAE",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/E84AE79628E19278DFBF50DAFE1C5D7F.mp3?auth_key=1788446530-pcx3hj6ntl97-0-f2373a974518f0f01bea5be924aa7b9a",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 16,
+                            "end": 25,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 239997,
+                        "semanticId": 851388,
+                        "content": "It finally came over me what he meant by that remark.",
+                        "definition": "我终于明白了他那句话的意思。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "It finally came over me what he meant by that remark."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "我终于明白了他那句话的意思。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 399751,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/126EE36B96D9FCE0FFDE76689DC386EC.mp3?auth_key=1788446530-eh3lvhsvj9s6-0-66f891555ef91bb20bc0d84384f2b9c9",
+                                "duration": 2.61,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 399755,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/BC4D1060468836F7710633BE2FD9E760.mp3?auth_key=1788446530-nd397bttk5wd-0-f59ffcbf3c1da74687b4d5f12eee58a1",
+                                "duration": 2.85,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 3,
+                            "min": 3
+                        },
+                        "imageId": 4890616,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/517FF68FA3B453A6856734642AF1E9CA.webp?auth_key=1788446530-l0z1sr50tum3-0-f42baba14a3cb2182350a0f04c733630",
+                        "imageKey": "knowledge/semantic/517FF68FA3B453A6856734642AF1E9CA.webp",
+                        "imageMd5": "517FF68FA3B453A6856734642AF1E9CA",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/126EE36B96D9FCE0FFDE76689DC386EC.mp3?auth_key=1788446530-eh3lvhsvj9s6-0-66f891555ef91bb20bc0d84384f2b9c9",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 11,
+                            "end": 20,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 239989,
+                        "semanticId": 851380,
+                        "content": "A wave of sadness came over her when she heard the news.",
+                        "definition": "听到这个消息时，一阵悲伤涌上她的心头。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "A wave of sadness came over her when she heard the news."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "听到这个消息时，一阵悲伤涌上她的心头。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 399733,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/FAB443C4D676CD28B52C34B014D78A39.mp3?auth_key=1788446530-344kzprc6304-0-193d0fa2aa4a086c635cd52650153d99",
+                                "duration": 2.95,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 399738,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/378F2628B17B7596E7852DC596B205DB.mp3?auth_key=1788446530-77uwrwdyqm9q-0-733a5a25b03cd99974cc875f1abc0726",
+                                "duration": 3.19,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 3,
+                            "min": 3
+                        },
+                        "imageId": 4890608,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/BA0525EBF9136723470336C57E722D71.webp?auth_key=1788446530-uplwengcru0g-0-6af858159d6a81e8a222a49cc7314b5b",
+                        "imageKey": "knowledge/semantic/BA0525EBF9136723470336C57E722D71.webp",
+                        "imageMd5": "BA0525EBF9136723470336C57E722D71",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/FAB443C4D676CD28B52C34B014D78A39.mp3?auth_key=1788446530-344kzprc6304-0-193d0fa2aa4a086c635cd52650153d99",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 18,
+                            "end": 27,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "profileUid": 12900,
+            "grammaticalTypeNid": "intransitive_verb_phrase",
+            "grammaticalTypeNameZh": "不及物动词短语",
+            "semanticIds": [
+                758900
+            ],
+            "sentenceSlotCategoryNids": [
+                "verb_predicate"
+            ],
+            "sentenceSlotCategoryNamesZh": [
+                "谓语槽位"
+            ],
+            "descriptions": [
+                {
+                    "lang": "en",
+                    "text": "Intransitive; requires a prepositional phrase (typically 'as + adjective/noun') to state the impression made on the listener."
+                },
+                {
+                    "lang": "zh",
+                    "text": "不及物用法，表示给人留下某种印象。右侧必须接介词短语（通常为 as + 形容词/名词）说明所呈现的形象。"
+                }
+            ],
+            "example": "He came over as very confident and in control.",
+            "governedSlots": [
+                {
+                    "slotKey": "manner_complement",
+                    "slotKeyNameZh": null,
+                    "attachmentSide": "right",
+                    "required": true,
+                    "requiredLabel": "必填",
+                    "slotCategoryNids": [
+                        "prepositional_phrase"
+                    ],
+                    "slotCategoryNamesZh": [
+                        "介词短语槽位"
+                    ],
+                    "displayLabel": null
+                }
+            ],
+            "sentences": [
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 240125,
+                        "semanticId": 851516,
+                        "content": "The teacher's words came over strongly to the students.",
+                        "definition": "老师的话对学生产生了强烈的影响。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "The teacher's words came over strongly to the students."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "老师的话对学生产生了强烈的影响。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 400008,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/57C839C64A0C472D2EA0F86607E6CC98.mp3?auth_key=1788446530-ckcb4mtkrbb4-0-2fc1fc5c90523d4a7f1c2785db44709c",
+                                "duration": 2.82,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 400011,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/66D9E88C6C2FF597ABFABA057E76E9BC.mp3?auth_key=1788446530-umnhkdu9ew3p-0-c3acb93269118a59046ef6afd470f5d2",
+                                "duration": 2.93,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 3,
+                            "min": 3
+                        },
+                        "imageId": 9907882,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/2EA6A899DD417F621969C4A79F94DCDB.webp?auth_key=1788446530-m43scm35r1kn-0-fa0b5e1d8756b8e534a9128e97b4c762",
+                        "imageKey": "knowledge/semantic/2EA6A899DD417F621969C4A79F94DCDB.webp",
+                        "imageMd5": "2EA6A899DD417F621969C4A79F94DCDB",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/57C839C64A0C472D2EA0F86607E6CC98.mp3?auth_key=1788446530-ckcb4mtkrbb4-0-2fc1fc5c90523d4a7f1c2785db44709c",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 20,
+                            "end": 29,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 240031,
+                        "semanticId": 851422,
+                        "content": "The message came over clearly in the advertisement.",
+                        "definition": "广告中的信息传达得很清楚。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "The message came over clearly in the advertisement."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "广告中的信息传达得很清楚。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 399817,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/A34CCE254B88E787AC2DDF87E6F8631E.mp3?auth_key=1788446530-eyxb0ss4why3-0-291e422f85d0f473dcc9a36b7b0891cb",
+                                "duration": 2.66,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 399822,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/A9BD0F87DA7558F5C3D8F2897C8D6551.mp3?auth_key=1788446530-hg0q39hlrmmu-0-4f75438989f87447f5108262719eac0f",
+                                "duration": 2.56,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 2,
+                            "min": 2
+                        },
+                        "imageId": 9907799,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/3B0E3F83777E4336282A49651285D2FC.webp?auth_key=1788446530-wdxfel6f3xuh-0-b3a38830174364589ca16f7adc6d3205",
+                        "imageKey": "knowledge/semantic/3B0E3F83777E4336282A49651285D2FC.webp",
+                        "imageMd5": "3B0E3F83777E4336282A49651285D2FC",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/A34CCE254B88E787AC2DDF87E6F8631E.mp3?auth_key=1788446530-eyxb0ss4why3-0-291e422f85d0f473dcc9a36b7b0891cb",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 12,
+                            "end": 21,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 240022,
+                        "semanticId": 851413,
+                        "content": "His speech came over as insincere to many in the audience.",
+                        "definition": "他的演讲给许多听众留下了不真诚的印象。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "His speech came over as insincere to many in the audience."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "他的演讲给许多听众留下了不真诚的印象。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 399799,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/5B3F11A058209CBB68FDD1AB107B97AD.mp3?auth_key=1788446530-577wz56zlngs-0-15a628a0c8c48a6c5f10e0e8f88c1d5f",
+                                "duration": 3.34,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 399803,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/9B4FAA64482F1805BD4C45EEB08AF39F.mp3?auth_key=1788446530-8np8haab10rr-0-e73bdfa489d8048a4a5936a0db53b6bf",
+                                "duration": 3.32,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 4,
+                            "min": 4
+                        },
+                        "imageId": 4890641,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/A7BDB5B61CF1F45DFB6FCFF312E61C40.webp?auth_key=1788446530-n0zwnuvq0d6g-0-d00c29c58cb5d6f7c492cbfa395ee99c",
+                        "imageKey": "knowledge/semantic/A7BDB5B61CF1F45DFB6FCFF312E61C40.webp",
+                        "imageMd5": "A7BDB5B61CF1F45DFB6FCFF312E61C40",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/5B3F11A058209CBB68FDD1AB107B97AD.mp3?auth_key=1788446530-577wz56zlngs-0-15a628a0c8c48a6c5f10e0e8f88c1d5f",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 11,
+                            "end": 20,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 240017,
+                        "semanticId": 851408,
+                        "content": "Her confidence came over very well during the interview.",
+                        "definition": "面试中她的自信给人留下了深刻印象。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "Her confidence came over very well during the interview."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "面试中她的自信给人留下了深刻印象。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 399792,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/C903E0B8D850B4BEEDAE303BAD68C506.mp3?auth_key=1788446530-ctgjrqpy02ga-0-c95df8d261824fe12d2c5a9e451d70bb",
+                                "duration": 2.9,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 399794,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/398D8B13A32E7A556655816E3CF36E81.mp3?auth_key=1788446530-t8zka3zq7qq0-0-18fc819db710840bdd946d95440368ae",
+                                "duration": 2.9,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 3,
+                            "min": 3
+                        },
+                        "imageId": 4890633,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/82B0F2DBF722F152991CA4C5C2BEC709.webp?auth_key=1788446530-hrjzdwfuqcjn-0-b897791e90123d550162b57e4c3f77bb",
+                        "imageKey": "knowledge/semantic/82B0F2DBF722F152991CA4C5C2BEC709.webp",
+                        "imageMd5": "82B0F2DBF722F152991CA4C5C2BEC709",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/C903E0B8D850B4BEEDAE303BAD68C506.mp3?auth_key=1788446530-ctgjrqpy02ga-0-c95df8d261824fe12d2c5a9e451d70bb",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 15,
+                            "end": 24,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "profileUid": 12901,
+            "grammaticalTypeNid": "intransitive_verb_phrase",
+            "grammaticalTypeNameZh": "不及物动词短语",
+            "semanticIds": [
+                758903
+            ],
+            "sentenceSlotCategoryNids": [
+                "verb_predicate"
+            ],
+            "sentenceSlotCategoryNamesZh": [
+                "谓语槽位"
+            ],
+            "descriptions": [
+                {
+                    "lang": "en",
+                    "text": "Intransitive; requires a prepositional phrase (typically 'to + noun') to indicate the side, position, or viewpoint adopted."
+                },
+                {
+                    "lang": "zh",
+                    "text": "不及物用法，表示转变立场。右侧必须接介词短语（通常为 to + 名词）说明转向哪一方。"
+                }
+            ],
+            "example": "She came over to our way of thinking after the long discussion.",
+            "governedSlots": [
+                {
+                    "slotKey": "target_side",
+                    "slotKeyNameZh": null,
+                    "attachmentSide": "right",
+                    "required": true,
+                    "requiredLabel": "必填",
+                    "slotCategoryNids": [
+                        "prepositional_phrase"
+                    ],
+                    "slotCategoryNamesZh": [
+                        "介词短语槽位"
+                    ],
+                    "displayLabel": null
+                }
+            ],
+            "sentences": [
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 240120,
+                        "semanticId": 851511,
+                        "content": "She was skeptical at first but eventually came over to the idea.",
+                        "definition": "她起初持怀疑态度，但最终接受了这个想法。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "She was skeptical at first but eventually came over to the idea."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "她起初持怀疑态度，但最终接受了这个想法。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 399996,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/EA47E4204226A7DE4772959B9FDA35CC.mp3?auth_key=1788446530-kx6yy2s8y8pe-0-9394c612cb9aa0490576d030580948b1",
+                                "duration": 3.74,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 400000,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/FFE2BECF2C5E99EE559682453CD20DD4.mp3?auth_key=1788446530-8hpggnry000n-0-31ee31a117cd6754db3c4aeb4a4902ff",
+                                "duration": 3.6,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 4,
+                            "min": 4
+                        },
+                        "imageId": 4890740,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/F5B5B172770D2B161C4AEF0FB4DCCAA7.webp?auth_key=1788446530-gjmwqjj72tve-0-b704d8d3b2cbc098649f7de301186e6a",
+                        "imageKey": "knowledge/semantic/F5B5B172770D2B161C4AEF0FB4DCCAA7.webp",
+                        "imageMd5": "F5B5B172770D2B161C4AEF0FB4DCCAA7",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/EA47E4204226A7DE4772959B9FDA35CC.mp3?auth_key=1788446530-kx6yy2s8y8pe-0-9394c612cb9aa0490576d030580948b1",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 42,
+                            "end": 51,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 240110,
+                        "semanticId": 851501,
+                        "content": "Several members of the opposition came over to support the bill.",
+                        "definition": "反对派的几名成员转而支持该法案。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "Several members of the opposition came over to support the bill."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "反对派的几名成员转而支持该法案。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 399976,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/4D5AAF308C46B5058DED9E11D945D032.mp3?auth_key=1788446530-sjtjnfw606th-0-344b75b94ab0de84b28bec72486b4de5",
+                                "duration": 3.08,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 399980,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/49909A6633C1CF0514157307AD4C045B.mp3?auth_key=1788446530-w26qc6m3hnd2-0-e32aea8b3cc935c97fe94ac42cb51442",
+                                "duration": 3.19,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 3,
+                            "min": 3
+                        },
+                        "imageId": 4890729,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/9FAECDE1D89AE039B49ECC4E13063C2F.webp?auth_key=1788446530-a1hdpke37rfl-0-21821f6984c7653a3cb915ae03756aa1",
+                        "imageKey": "knowledge/semantic/9FAECDE1D89AE039B49ECC4E13063C2F.webp",
+                        "imageMd5": "9FAECDE1D89AE039B49ECC4E13063C2F",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/4D5AAF308C46B5058DED9E11D945D032.mp3?auth_key=1788446530-sjtjnfw606th-0-344b75b94ab0de84b28bec72486b4de5",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 34,
+                            "end": 43,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 240100,
+                        "semanticId": 851491,
+                        "content": "After much debate, he came over to our way of thinking.",
+                        "definition": "经过多次辩论，他转而支持我们的想法。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "After much debate, he came over to our way of thinking."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "经过多次辩论，他转而支持我们的想法。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 399957,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/8EAF58EB03988ABCCAC9166B9CF5A330.mp3?auth_key=1788446530-g5y5urb4aqka-0-d3aca696f5759686b5e66c1a21d05413",
+                                "duration": 2.72,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 399962,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/AF95179D259969A925EBDC4BD46E6CB7.mp3?auth_key=1788446530-bnsdyl3g6xu6-0-65680c447189c8b5ae99adfd8228ad38",
+                                "duration": 2.98,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 3,
+                            "min": 3
+                        },
+                        "imageId": 9907865,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/3045C96B3180C23AD9590D7B1AC339C5.webp?auth_key=1788446530-eljgwbu125h4-0-bddaeed6bd9bd21c026501d0ff408922",
+                        "imageKey": "knowledge/semantic/3045C96B3180C23AD9590D7B1AC339C5.webp",
+                        "imageMd5": "3045C96B3180C23AD9590D7B1AC339C5",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/8EAF58EB03988ABCCAC9166B9CF5A330.mp3?auth_key=1788446530-g5y5urb4aqka-0-d3aca696f5759686b5e66c1a21d05413",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 22,
+                            "end": 31,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "profileUid": 12902,
+            "grammaticalTypeNid": "inseparable_phrasal_verb",
+            "grammaticalTypeNameZh": "分不开的短语动词",
+            "semanticIds": [
+                758904
+            ],
+            "sentenceSlotCategoryNids": [
+                "verb_predicate"
+            ],
+            "sentenceSlotCategoryNamesZh": [
+                "谓语槽位"
+            ],
+            "descriptions": [
+                {
+                    "lang": "en",
+                    "text": "Inseparable phrasal verb; the object (the person affected) must follow the whole phrase and cannot be inserted between 'come' and 'over' (*came him over is ungrammatical)."
+                },
+                {
+                    "lang": "zh",
+                    "text": "不可分离短语动词，表示影响某人。宾语（受影响的人）必须放在整个短语之后，不能插入 come 和 over 之间。"
+                }
+            ],
+            "example": "The spell came over him and he could not move.",
+            "governedSlots": [
+                {
+                    "slotKey": "object",
+                    "slotKeyNameZh": "对象",
+                    "attachmentSide": "right",
+                    "required": true,
+                    "requiredLabel": "必填",
+                    "slotCategoryNids": [
+                        "noun_phrase"
+                    ],
+                    "slotCategoryNamesZh": [
+                        "名词短语槽位"
+                    ],
+                    "displayLabel": null
+                }
+            ],
+            "sentences": [
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 397596,
+                        "semanticId": 1009464,
+                        "content": "After the long journey, a feeling of listlessness came over the travelers.",
+                        "definition": "长途旅行后，一种倦怠感笼罩了旅行者们。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "After the long journey, a feeling of listlessness came over the travelers."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "长途旅行后，一种倦怠感笼罩了旅行者们。"
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 4,
+                            "min": 4
+                        },
+                        "imageId": 5048366,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/E0B283437B6683A9B9652BE8C2B78267.webp?auth_key=1788446530-041swlhs0hjf-0-41776edaa2b4dca9f6130da3b8b69a65",
+                        "imageKey": "knowledge/semantic/E0B283437B6683A9B9652BE8C2B78267.webp",
+                        "imageMd5": "E0B283437B6683A9B9652BE8C2B78267",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 50,
+                            "end": 59,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 369526,
+                        "semanticId": 981282,
+                        "content": "A hush came over the classroom when the principal walked in.",
+                        "definition": "当校长走进来时，教室里突然安静下来。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "A hush came over the classroom when the principal walked in."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "当校长走进来时，教室里突然安静下来。"
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 2,
+                            "min": 2
+                        },
+                        "imageId": 5020185,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/B003B896522178EFB41A68B48AB67221.webp?auth_key=1788446530-zp887k2lxj6u-0-95a253951c1fbbae41e32abb98c01206",
+                        "imageKey": "knowledge/semantic/B003B896522178EFB41A68B48AB67221.webp",
+                        "imageMd5": "B003B896522178EFB41A68B48AB67221",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 7,
+                            "end": 16,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 303015,
+                        "semanticId": 914565,
+                        "content": "A sudden agitation came over him when he realized he might have left the stove on.",
+                        "definition": "当他意识到可能忘了关炉子时，突然感到一阵焦虑不安。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "A sudden agitation came over him when he realized he might have left the stove on."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "当他意识到可能忘了关炉子时，突然感到一阵焦虑不安。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 527266,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/AAEF00A60D4882F7EE3C3A2B03685D4B.mp3?auth_key=1788446530-94tpe2l9dleq-0-3f09f69e44bb1e9ec224628f5685e475",
+                                "duration": 4.0,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 527270,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/B1F885EEF7917B6CB908A15E2128306A.mp3?auth_key=1788446530-tntyrzk5a5u3-0-eb8326b34bb00bb3d6f8e51e520f0cb8",
+                                "duration": 4.21,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 4,
+                            "min": 4
+                        },
+                        "imageId": 4953593,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/6F3FEF498D746B5C52484F343F4547E2.webp?auth_key=1788446530-207ythj0n74n-0-bba78e76162e2ea60fed8b7a30802ca2",
+                        "imageKey": "knowledge/semantic/6F3FEF498D746B5C52484F343F4547E2.webp",
+                        "imageMd5": "6F3FEF498D746B5C52484F343F4547E2",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/AAEF00A60D4882F7EE3C3A2B03685D4B.mp3?auth_key=1788446530-94tpe2l9dleq-0-3f09f69e44bb1e9ec224628f5685e475",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 19,
+                            "end": 28,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 273485,
+                        "semanticId": 885014,
+                        "content": "A sinking feeling came over him when he heard the news about the company's bankruptcy.",
+                        "definition": "当他听到公司破产的消息时，一种不祥的预感笼罩了他。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "A sinking feeling came over him when he heard the news about the company's bankruptcy."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "当他听到公司破产的消息时，一种不祥的预感笼罩了他。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 467611,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/09D97B925DBFDFF91574D50417A8E6D1.mp3?auth_key=1788446530-lnbyldq7pbsd-0-706b6d323d44a3596a807260bb48a5eb",
+                                "duration": 4.15,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 467616,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/E55327262C4475515C36FEFC20B00485.mp3?auth_key=1788446530-j4bqmcft1h1y-0-bc2f3a114125be08646bc34d73fe750e",
+                                "duration": 4.41,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 4,
+                            "min": 4
+                        },
+                        "imageId": 9941353,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/213C2741CAD04B3E5EF346095301C5DD.webp?auth_key=1788446530-uzndfacx87cs-0-982249f4bd93a56f7e4ca5db40bfaa38",
+                        "imageKey": "knowledge/semantic/213C2741CAD04B3E5EF346095301C5DD.webp",
+                        "imageMd5": "213C2741CAD04B3E5EF346095301C5DD",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/09D97B925DBFDFF91574D50417A8E6D1.mp3?auth_key=1788446530-lnbyldq7pbsd-0-706b6d323d44a3596a807260bb48a5eb",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 18,
+                            "end": 27,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 240146,
+                        "semanticId": 851535,
+                        "content": "The news came over her like a shock.",
+                        "definition": "这个消息对她来说犹如晴天霹雳。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "The news came over her like a shock."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "这个消息对她来说犹如晴天霹雳。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 400044,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/A401213C3C7CE1A18E710BACCD960C44.mp3?auth_key=1788446530-ncs4vtygw2x6-0-082ddc50d6b01b5721f6612166c564f6",
+                                "duration": 1.75,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 400048,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/8A50D063FC3F9C326812656BF3448A5B.mp3?auth_key=1788446530-95a5rej7z30z-0-07117b890c0681b74e4d2fdded6f069f",
+                                "duration": 2.06,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 3,
+                            "min": 3
+                        },
+                        "imageId": 9907916,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/893BDFF47C3C752C89FBCB7FB5F6206E.webp?auth_key=1788446530-zs9n63m5xl58-0-217630a7364f1c3dfe92f4ab9e7cf647",
+                        "imageKey": "knowledge/semantic/893BDFF47C3C752C89FBCB7FB5F6206E.webp",
+                        "imageMd5": "893BDFF47C3C752C89FBCB7FB5F6206E",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/A401213C3C7CE1A18E710BACCD960C44.mp3?auth_key=1788446530-ncs4vtygw2x6-0-082ddc50d6b01b5721f6612166c564f6",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 9,
+                            "end": 18,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 240133,
+                        "semanticId": 851524,
+                        "content": "His enthusiasm came over everyone in the room.",
+                        "definition": "他的热情感染了房间里的每个人。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "His enthusiasm came over everyone in the room."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "他的热情感染了房间里的每个人。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 400023,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/C5573B06BF4E6D25ACC10AE7313EE9C3.mp3?auth_key=1788446530-410zrdyre7hl-0-f95b4ceda7e6930f4328eb1f0c2db666",
+                                "duration": 3.11,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 400029,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/189B70329D080FD60D4C21068EAEA699.mp3?auth_key=1788446530-k6ww07l7rnwf-0-988a96327298af002e8e2456d0ac8fa6",
+                                "duration": 2.69,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 3,
+                            "min": 3
+                        },
+                        "imageId": 9907896,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/D815B0EC77327440B886508E9C256B12.webp?auth_key=1788446530-zzunywn28ham-0-a33d3db65dcbe5d189c4102395ce6c33",
+                        "imageKey": "knowledge/semantic/D815B0EC77327440B886508E9C256B12.webp",
+                        "imageMd5": "D815B0EC77327440B886508E9C256B12",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/C5573B06BF4E6D25ACC10AE7313EE9C3.mp3?auth_key=1788446530-410zrdyre7hl-0-f95b4ceda7e6930f4328eb1f0c2db666",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 15,
+                            "end": 24,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 240125,
+                        "semanticId": 851516,
+                        "content": "The teacher's words came over strongly to the students.",
+                        "definition": "老师的话对学生产生了强烈的影响。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "The teacher's words came over strongly to the students."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "老师的话对学生产生了强烈的影响。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 400008,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/57C839C64A0C472D2EA0F86607E6CC98.mp3?auth_key=1788446530-ckcb4mtkrbb4-0-2fc1fc5c90523d4a7f1c2785db44709c",
+                                "duration": 2.82,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 400011,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/66D9E88C6C2FF597ABFABA057E76E9BC.mp3?auth_key=1788446530-umnhkdu9ew3p-0-c3acb93269118a59046ef6afd470f5d2",
+                                "duration": 2.93,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 3,
+                            "min": 3
+                        },
+                        "imageId": 9907882,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/2EA6A899DD417F621969C4A79F94DCDB.webp?auth_key=1788446530-m43scm35r1kn-0-fa0b5e1d8756b8e534a9128e97b4c762",
+                        "imageKey": "knowledge/semantic/2EA6A899DD417F621969C4A79F94DCDB.webp",
+                        "imageMd5": "2EA6A899DD417F621969C4A79F94DCDB",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/57C839C64A0C472D2EA0F86607E6CC98.mp3?auth_key=1788446530-ckcb4mtkrbb4-0-2fc1fc5c90523d4a7f1c2785db44709c",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 20,
+                            "end": 29,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 240006,
+                        "semanticId": 851397,
+                        "content": "A sense of calm came over the crowd after the announcement.",
+                        "definition": "宣布之后，一种平静的感觉笼罩了人群。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "A sense of calm came over the crowd after the announcement."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "宣布之后，一种平静的感觉笼罩了人群。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 399768,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/E84AE79628E19278DFBF50DAFE1C5D7F.mp3?auth_key=1788446530-pcx3hj6ntl97-0-f2373a974518f0f01bea5be924aa7b9a",
+                                "duration": 2.9,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 399772,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/8463377FF6F95EF1B51937532E92C56A.mp3?auth_key=1788446530-vezzbcxyn42g-0-f54c2566b63abfdea3843dd1997c68b4",
+                                "duration": 3.08,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 3,
+                            "min": 3
+                        },
+                        "imageId": 9907784,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/56ED8F18696EE67BFF48A9433993ABAE.webp?auth_key=1788446530-gd6qt0xz6al9-0-8efa7ba50b5b96c426181adefbc8e373",
+                        "imageKey": "knowledge/semantic/56ED8F18696EE67BFF48A9433993ABAE.webp",
+                        "imageMd5": "56ED8F18696EE67BFF48A9433993ABAE",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/E84AE79628E19278DFBF50DAFE1C5D7F.mp3?auth_key=1788446530-pcx3hj6ntl97-0-f2373a974518f0f01bea5be924aa7b9a",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 16,
+                            "end": 25,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                },
+                {
+                    "contentCard": {
+                        "contentType": "EN_SENTENCE",
+                        "contentTypeTitle": "Sentence",
+                        "contentId": 239989,
+                        "semanticId": 851380,
+                        "content": "A wave of sadness came over her when she heard the news.",
+                        "definition": "听到这个消息时，一阵悲伤涌上她的心头。",
+                        "gloss": [
+                            {
+                                "lang": "en",
+                                "text": "A wave of sadness came over her when she heard the news."
+                            },
+                            {
+                                "lang": "zh",
+                                "text": "听到这个消息时，一阵悲伤涌上她的心头。"
+                            }
+                        ],
+                        "pronunciations": [
+                            {
+                                "audioId": 399733,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/FAB443C4D676CD28B52C34B014D78A39.mp3?auth_key=1788446530-344kzprc6304-0-193d0fa2aa4a086c635cd52650153d99",
+                                "duration": 2.95,
+                                "national": "US",
+                                "nationalTitle": "美音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                                "isExercise": true
+                            },
+                            {
+                                "audioId": 399738,
+                                "audioUrl": "https://track.timelywise.cn/knowledge/tts/378F2628B17B7596E7852DC596B205DB.mp3?auth_key=1788446530-77uwrwdyqm9q-0-733a5a25b03cd99974cc875f1abc0726",
+                                "duration": 3.19,
+                                "national": "UK",
+                                "nationalTitle": "英音",
+                                "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                                "isExercise": true
+                            }
+                        ],
+                        "difficulty": {
+                            "max": 3,
+                            "min": 3
+                        },
+                        "imageId": 4890608,
+                        "imageUrl": "https://img.timelywise.cn/knowledge/semantic/BA0525EBF9136723470336C57E722D71.webp?auth_key=1788446530-uplwengcru0g-0-6af858159d6a81e8a222a49cc7314b5b",
+                        "imageKey": "knowledge/semantic/BA0525EBF9136723470336C57E722D71.webp",
+                        "imageMd5": "BA0525EBF9136723470336C57E722D71",
+                        "audioUrl": "https://track.timelywise.cn/knowledge/tts/FAB443C4D676CD28B52C34B014D78A39.mp3?auth_key=1788446530-344kzprc6304-0-193d0fa2aa4a086c635cd52650153d99",
+                        "in_course_cnt": 0,
+                        "access": "NORMAL"
+                    },
+                    "ranges": [
+                        {
+                            "start": 18,
+                            "end": 27,
+                            "text": "came over",
+                            "key": "head"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

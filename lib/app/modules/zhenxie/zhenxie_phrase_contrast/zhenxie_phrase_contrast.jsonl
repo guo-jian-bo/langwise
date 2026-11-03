@@ -1,0 +1,527 @@
+{
+    "nid": "greeting_daypart_axis",
+    "name": [
+        {
+            "lang": "zh",
+            "text": "一天里怎么打招呼"
+        },
+        {
+            "lang": "en",
+            "text": "Greetings by Time of Day"
+        }
+    ],
+    "description": [
+        {
+            "lang": "zh",
+            "text": "上午、下午、傍晚用不同问候，good night 不是见面问候。"
+        },
+        {
+            "lang": "en",
+            "text": "Use different greetings by daypart. Good night is not a greeting."
+        }
+    ],
+    "order": 88000,
+    "difficulty": {
+        "max": 1,
+        "min": 0
+    },
+    "dimensionNid": "greeting_daypart",
+    "dimensionNameZh": "问候时段",
+    "dimensionFamilyNid": "discourse_and_pragmatic_function",
+    "dimensionFamilyNameZh": "篇章和语用功能",
+    "filledSlots": 3,
+    "totalSlots": 3,
+    "issuedCount": 3,
+    "hasRealization": true,
+    "slots": [
+        {
+            "key": "paradigm:morning",
+            "eyebrow": "上午",
+            "eyebrowNid": "morning",
+            "eyebrowDescription": "上午见面",
+            "teachingExample": "good morning",
+            "filled": true,
+            "members": [
+                {
+                    "key": "member:105352:member:morning",
+                    "eyebrow": "member",
+                    "eyebrowNid": "morning",
+                    "surface": "good morning",
+                    "draft": false,
+                    "teaching": true,
+                    "phraseId": 105352,
+                    "semanticIds": [
+                        137920
+                    ],
+                    "semanticBrief": "早上好",
+                    "mixLabel": "全固定"
+                }
+            ]
+        },
+        {
+            "key": "paradigm:afternoon",
+            "eyebrow": "下午",
+            "eyebrowNid": "afternoon",
+            "eyebrowDescription": "下午见面",
+            "teachingExample": "good afternoon",
+            "filled": true,
+            "members": [
+                {
+                    "key": "member:105344:member:afternoon",
+                    "eyebrow": "member",
+                    "eyebrowNid": "afternoon",
+                    "surface": "good afternoon",
+                    "draft": false,
+                    "teaching": true,
+                    "phraseId": 105344,
+                    "semanticIds": [
+                        137897
+                    ],
+                    "semanticBrief": "下午好；下午（非正式）",
+                    "mixLabel": "全固定"
+                }
+            ]
+        },
+        {
+            "key": "paradigm:evening",
+            "eyebrow": "傍晚",
+            "eyebrowNid": "evening",
+            "eyebrowDescription": "傍晚见面，不是告别",
+            "teachingExample": "good evening",
+            "filled": true,
+            "members": [
+                {
+                    "key": "member:105346:member:evening",
+                    "eyebrow": "member",
+                    "eyebrowNid": "evening",
+                    "surface": "good evening",
+                    "draft": false,
+                    "teaching": true,
+                    "phraseId": 105346,
+                    "semanticIds": [
+                        137900
+                    ],
+                    "semanticBrief": "晚上好；晚安（道别）",
+                    "mixLabel": "全固定"
+                }
+            ]
+        }
+    ]
+}
+
+
+{
+    "nid": "greeting_daypart_axis",
+    "name": [
+      {
+        "lang": "zh",
+        "text": "一天里怎么打招呼"
+      },
+      {
+        "lang": "en",
+        "text": "Greetings by Time of Day"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "上午、下午、傍晚用不同问候，good night 不是见面问候。"
+      },
+      {
+        "lang": "en",
+        "text": "Use different greetings by daypart. Good night is not a greeting."
+      }
+    ],
+    "order": 88000,
+    "difficulty": {
+      "max": 1,
+      "min": 0
+    },
+    "dimensionNid": "greeting_daypart",
+    "dimensionNameZh": "问候时段",
+    "dimensionFamilyNid": "discourse_and_pragmatic_function",
+    
+    "teachingEntryValueNid": "morning",
+    "recommendedTopicNids": [
+      "daily_activities_and_routines"
+    ],
+    "communicativeFunctionNids": [
+      "greet"
+    ],
+    "pool": {
+      "filledSlots": 3,
+      "totalSlots": 3,
+      "issuedCount": 3,
+      "slots": [
+        {
+          "key": "paradigm:morning",
+          "eyebrow": "上午",
+          "eyebrowNid": "morning",
+          "eyebrowDescription": "上午见面",
+          "teachingExample": "good morning",
+          "filled": true,
+          "members": [
+            {
+              "key": "member:105352:member:morning",
+              "eyebrow": "member",
+              "eyebrowNid": "morning",
+              "surface": "good morning",
+              "draft": false,
+              "teaching": true,
+              "phraseId": 105352,
+              "semanticIds": [
+                137920
+              ],
+              "semanticBrief": "早上好",
+              "mixLabel": "全固定",
+              "contentCard": {
+                "contentType": "EN_PHRASE",
+                "contentTypeTitle": "Phrase",
+                "contentId": 105352,
+                "semanticId": 137920,
+                "content": "good morning",
+                "definition": "清晨时礼貌问候他人的用语",
+                "gloss": [
+                  {
+                    "lang": "zh",
+                    "text": "早上好"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "a polite greeting used in the morning"
+                  }
+                ],
+                "tags": [
+                  {
+                    "gloss": [
+                      {
+                        "lang": "en",
+                        "text": "example"
+                      },
+                      {
+                        "lang": "zh",
+                        "text": "教例"
+                      }
+                    ],
+                    "style": null
+                  },
+                  {
+                    "gloss": [
+                      {
+                        "lang": "en",
+                        "text": "int."
+                      },
+                      {
+                        "lang": "zh",
+                        "text": "感叹词"
+                      }
+                    ],
+                    "style": null
+                  },
+                  {
+                    "gloss": [
+                      {
+                        "lang": "en",
+                        "text": "fully fixed"
+                      },
+                      {
+                        "lang": "zh",
+                        "text": "全固定"
+                      }
+                    ],
+                    "style": null
+                  }
+                ],
+                "pronunciations": [
+                  {
+                    "audioId": 821,
+                    "assId": 13402,
+                    "audioUrl": "https://track.timelywise.cn/knowledge/speech/324F1493E15302F665908D75B2F36E59.mp3?auth_key=1788371763-58azmnk0y8al-0-ca04f6ff08477d6f11fca236cb769405",
+                    "duration": 1.13,
+                    "audioAss": "Dialogue: 0,0:00:00.23,0:00:01.03,Default,,0,0,0,,{\\k23}good {\\k57}morning",
+                    "translateAss": [],
+                    "national": "US",
+                    "nationalTitle": "美音",
+                    "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                    "isExercise": true
+                  },
+                  {
+                    "audioId": 823,
+                    "assId": 53696,
+                    "audioUrl": "https://track.timelywise.cn/knowledge/speech/CC52D7EAF30E0B4AF873350057932B80.mp3?auth_key=1788371763-kq01wj614mu9-0-71e0c76b3bd9560c030801d2f0d4edd1",
+                    "duration": 1.58,
+                    "audioAss": "Dialogue: 0,0:00:00.11,0:00:00.79,Default,,0,0,0,,{\\k15}Good {\\k53}morning.",
+                    "translateAss": [],
+                    "national": "UK",
+                    "nationalTitle": "英音",
+                    "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                    "isExercise": true
+                  }
+                ],
+                "difficulty": {
+                  "max": 1,
+                  "min": 1
+                },
+                "imageId": 5983801,
+                "imageUrl": "https://img.timelywise.cn/knowledge/semantic/FCA74C443BECA7BF90CE354488FBB8D6.webp?auth_key=1788371763-r325s88nkdl8-0-44b755048aaa799115611250d51cd69e",
+                "imageKey": "knowledge/semantic/FCA74C443BECA7BF90CE354488FBB8D6.webp",
+                "imageMd5": "FCA74C443BECA7BF90CE354488FBB8D6",
+                "audioUrl": "https://track.timelywise.cn/knowledge/speech/324F1493E15302F665908D75B2F36E59.mp3?auth_key=1788371763-58azmnk0y8al-0-ca04f6ff08477d6f11fca236cb769405",
+                "pos": "int.",
+                "posTitle": "感叹词",
+                "in_course_cnt": 7,
+                "access": "NORMAL",
+                "rights": "NORMAL"
+              }
+            }
+          ]
+        },
+        {
+          "key": "paradigm:afternoon",
+          "eyebrow": "下午",
+          "eyebrowNid": "afternoon",
+          "eyebrowDescription": "下午见面",
+          "teachingExample": "good afternoon",
+          "filled": true,
+          "members": [
+            {
+              "key": "member:105344:member:afternoon",
+              "eyebrow": "member",
+              "eyebrowNid": "afternoon",
+              "surface": "good afternoon",
+              "draft": false,
+              "teaching": true,
+              "phraseId": 105344,
+              "semanticIds": [
+                137897
+              ],
+              "semanticBrief": "下午好；下午（非正式）",
+              "mixLabel": "全固定",
+              "contentCard": {
+                "contentType": "EN_PHRASE",
+                "contentTypeTitle": "Phrase",
+                "contentId": 105344,
+                "semanticId": 137897,
+                "content": "good afternoon",
+                "definition": "午后时段的礼貌用语",
+                "gloss": [
+                  {
+                    "lang": "zh",
+                    "text": "下午好；下午（非正式）"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "a polite greeting used later in the day"
+                  }
+                ],
+                "tags": [
+                  {
+                    "gloss": [
+                      {
+                        "lang": "en",
+                        "text": "example"
+                      },
+                      {
+                        "lang": "zh",
+                        "text": "教例"
+                      }
+                    ],
+                    "style": null
+                  },
+                  {
+                    "gloss": [
+                      {
+                        "lang": "en",
+                        "text": "int."
+                      },
+                      {
+                        "lang": "zh",
+                        "text": "感叹词"
+                      }
+                    ],
+                    "style": null
+                  },
+                  {
+                    "gloss": [
+                      {
+                        "lang": "en",
+                        "text": "fully fixed"
+                      },
+                      {
+                        "lang": "zh",
+                        "text": "全固定"
+                      }
+                    ],
+                    "style": null
+                  }
+                ],
+                "pronunciations": [
+                  {
+                    "audioId": 819,
+                    "assId": 13400,
+                    "audioUrl": "https://track.timelywise.cn/knowledge/speech/D0B20651CB1AB2C1CA000E06F62E7EF8.mp3?auth_key=1788371763-6l69vsc3g22y-0-49dca02f549f7d890c1cbe7ad5a33f5c",
+                    "duration": 1.44,
+                    "audioAss": "Dialogue: 0,0:00:00.31,0:00:01.34,Default,,0,0,0,,{\\k21}good {\\k82}afternoon",
+                    "translateAss": [],
+                    "national": "US",
+                    "nationalTitle": "美音",
+                    "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                    "isExercise": true
+                  },
+                  {
+                    "audioId": 820,
+                    "assId": 53701,
+                    "audioUrl": "https://track.timelywise.cn/knowledge/speech/BA1EECF27818300340203D966EF9DA89.mp3?auth_key=1788371763-tzle1ajpc2z3-0-c99dbbb1f68a07af12ccdb14a23b07a5",
+                    "duration": 1.82,
+                    "audioAss": "Dialogue: 0,0:00:00.11,0:00:01.02,Default,,0,0,0,,{\\k17}Good {\\k74}afternoon.",
+                    "translateAss": [],
+                    "national": "UK",
+                    "nationalTitle": "英音",
+                    "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                    "isExercise": true
+                  }
+                ],
+                "difficulty": {
+                  "max": 1,
+                  "min": 1
+                },
+                "imageId": 6041924,
+                "imageUrl": "https://img.timelywise.cn/knowledge/semantic/1AFE9E2255BD1DAA0B9505C36E92994A.webp?auth_key=1788371763-algh92kr1taa-0-7364efaf64223e30130be3874bbd573a",
+                "imageKey": "knowledge/semantic/1AFE9E2255BD1DAA0B9505C36E92994A.webp",
+                "imageMd5": "1AFE9E2255BD1DAA0B9505C36E92994A",
+                "audioUrl": "https://track.timelywise.cn/knowledge/speech/D0B20651CB1AB2C1CA000E06F62E7EF8.mp3?auth_key=1788371763-6l69vsc3g22y-0-49dca02f549f7d890c1cbe7ad5a33f5c",
+                "pos": "int.",
+                "posTitle": "感叹词",
+                "in_course_cnt": 2,
+                "access": "NORMAL",
+                "rights": "NORMAL"
+              }
+            }
+          ]
+        },
+        {
+          "key": "paradigm:evening",
+          "eyebrow": "傍晚",
+          "eyebrowNid": "evening",
+          "eyebrowDescription": "傍晚见面，不是告别",
+          "teachingExample": "good evening",
+          "filled": true,
+          "members": [
+            {
+              "key": "member:105346:member:evening",
+              "eyebrow": "member",
+              "eyebrowNid": "evening",
+              "surface": "good evening",
+              "draft": false,
+              "teaching": true,
+              "phraseId": 105346,
+              "semanticIds": [
+                137900
+              ],
+              "semanticBrief": "晚上好；晚安（道别）",
+              "mixLabel": "全固定",
+              "contentCard": {
+                "contentType": "EN_PHRASE",
+                "contentTypeTitle": "Phrase",
+                "contentId": 105346,
+                "semanticId": 137900,
+                "content": "good evening",
+                "definition": "晚间礼貌问候或道别语",
+                "gloss": [
+                  {
+                    "lang": "zh",
+                    "text": "晚上好；晚安（道别）"
+                  },
+                  {
+                    "lang": "en",
+                    "text": "a polite evening greeting or farewell"
+                  }
+                ],
+                "tags": [
+                  {
+                    "gloss": [
+                      {
+                        "lang": "en",
+                        "text": "example"
+                      },
+                      {
+                        "lang": "zh",
+                        "text": "教例"
+                      }
+                    ],
+                    "style": null
+                  },
+                  {
+                    "gloss": [
+                      {
+                        "lang": "en",
+                        "text": "int."
+                      },
+                      {
+                        "lang": "zh",
+                        "text": "感叹词"
+                      }
+                    ],
+                    "style": null
+                  },
+                  {
+                    "gloss": [
+                      {
+                        "lang": "en",
+                        "text": "fully fixed"
+                      },
+                      {
+                        "lang": "zh",
+                        "text": "全固定"
+                      }
+                    ],
+                    "style": null
+                  }
+                ],
+                "pronunciations": [
+                  {
+                    "audioId": 20275,
+                    "assId": 33193,
+                    "audioUrl": "https://track.timelywise.cn/knowledge/speech/DCE7153E21EBCAF9E569C39BA62FA020.mp3?auth_key=1788371763-0nk7eszlg4ze-0-1de9afa24f2f75f31520b355ca356e09",
+                    "duration": 1.18,
+                    "audioAss": "Dialogue: 0,0:00:00.27,0:00:01.08,Default,,0,0,0,,{\\k25}good {\\k56}evening",
+                    "translateAss": [],
+                    "national": "US",
+                    "nationalTitle": "美音",
+                    "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+                    "isExercise": true
+                  },
+                  {
+                    "audioId": 20273,
+                    "assId": 53698,
+                    "audioUrl": "https://track.timelywise.cn/knowledge/speech/CF25C3597D92CEAFE3A907A35C21211F.mp3?auth_key=1788371763-n3j0htr4whhr-0-2391799552a9d571145270f5cd9a9a55",
+                    "duration": 1.58,
+                    "audioAss": "Dialogue: 0,0:00:00.11,0:00:00.80,Default,,0,0,0,,{\\k17}Good {\\k52}evening.",
+                    "translateAss": [],
+                    "national": "UK",
+                    "nationalTitle": "英音",
+                    "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+                    "isExercise": true
+                  }
+                ],
+                "difficulty": {
+                  "max": 1,
+                  "min": 1
+                },
+                "imageId": 4858779,
+                "imageUrl": "https://img.timelywise.cn/knowledge/semantic/475B892E446E7A979CEEFBE29E3F923A.webp?auth_key=1788371763-7syvpe49deh5-0-01bed202d9a47c06adbb725228e899d7",
+                "imageKey": "knowledge/semantic/475B892E446E7A979CEEFBE29E3F923A.webp",
+                "imageMd5": "475B892E446E7A979CEEFBE29E3F923A",
+                "audioUrl": "https://track.timelywise.cn/knowledge/speech/DCE7153E21EBCAF9E569C39BA62FA020.mp3?auth_key=1788371763-0nk7eszlg4ze-0-1de9afa24f2f75f31520b355ca356e09",
+                "pos": "int.",
+                "posTitle": "感叹词",
+                "in_course_cnt": 0,
+                "access": "NORMAL",
+                "rights": "NORMAL"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }

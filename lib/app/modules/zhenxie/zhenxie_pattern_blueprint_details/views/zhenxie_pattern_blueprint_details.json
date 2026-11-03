@@ -1,0 +1,1498 @@
+{
+    "code": 200,
+    "data": {
+        "nid": "state_entity_be_busy_doing",
+        "name": [
+            {
+                "lang": "zh",
+                "text": "说明正忙着做某事（be busy doing）"
+            },
+            {
+                "lang": "en",
+                "text": "Saying Someone Is Busy Doing Something"
+            }
+        ],
+        "description": [
+            {
+                "lang": "zh",
+                "text": "人作主语：be busy + doing。与 be worth doing 不并成对照：主语角色和命题都不同。"
+            },
+            {
+                "lang": "en",
+                "text": "Person as subject: be busy + doing. Do not pair with be worth doing: subject role and proposition differ."
+            }
+        ],
+        "familyNid": "identity_and_state",
+        "family": {
+            "nid": "identity_and_state",
+            "name": [
+                {
+                    "lang": "zh",
+                    "text": "说清是谁、怎样、指什么"
+                },
+                {
+                    "lang": "en",
+                    "text": "Saying Who or What It Is, and What It Means"
+                }
+            ],
+            "description": [
+                {
+                    "lang": "zh",
+                    "text": "这一组句型帮助学习者先交代人物、事物或概念是什么，再补充它现在怎么样、来自哪里，或某个词具体指什么。"
+                },
+                {
+                    "lang": "en",
+                    "text": "This group helps learners say who or what a person, thing, or idea is, then add its state, background, or meaning more clearly."
+                }
+            ]
+        },
+        "difficulty": {
+            "max": 3,
+            "min": 2
+        },
+        "order": 556600.0,
+        "blueprintScope": "clause",
+        "patternTier": "core",
+        "analysisEligible": true,
+        "template": "{subject} {be_marking} busy {gerund_activity} {context_phrase} {time_expression}.",
+        "controlledGrammarSlots": [
+            {
+                "slotKey": "copula_be",
+                "rendersAs": "be_marking",
+                "options": [
+                    "am",
+                    "is",
+                    "are",
+                    "'m",
+                    "'s",
+                    "'re",
+                    "was",
+                    "were"
+                ],
+                "activationFeatureNids": [
+                    "affirmative"
+                ]
+            },
+            {
+                "slotKey": "copula_be_negative",
+                "rendersAs": "be_marking",
+                "options": [
+                    "am not",
+                    "is not",
+                    "are not",
+                    "isn't",
+                    "aren't",
+                    "'m not",
+                    "'s not",
+                    "'re not",
+                    "was not",
+                    "were not",
+                    "wasn't",
+                    "weren't"
+                ],
+                "activationFeatureNids": [
+                    "negative"
+                ]
+            }
+        ],
+        "controlledGrammarSlotList": [
+            {
+                "slotKey": "copula_be",
+                "rendersAs": "be_marking",
+                "slot": {
+                    "nid": "copula_be",
+                    "name": [
+                        {
+                            "lang": "zh",
+                            "text": "是"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "be (linking)"
+                        }
+                    ],
+                    "description": [
+                        {
+                            "lang": "zh",
+                            "text": "把主语和身份、状态连起来，说明「是什么 / 怎么样」。除了 am / is / are / was / were，句型里也可能出现 will be、going to be 和缩写。常见写法如 am、am going to be、are、are going to be、is、is going to be、'm、'm going to be 等。例如 He is my brother."
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Links the subject to an identity or state. Forms include am / is / are / was / were, will be, going to be, and contractions. Common writings include am, am going to be, are, are going to be, is, is going to be, 'm, 'm going to be, and other matching forms. Example: He is my brother."
+                        }
+                    ],
+                    "categoryNid": "grammar_auxiliary",
+                    "color": "rgba(245,158,11,1)"
+                },
+                "options": [
+                    "am",
+                    "is",
+                    "are",
+                    "'m",
+                    "'s",
+                    "'re",
+                    "was",
+                    "were"
+                ],
+                "activationFeatureNids": [
+                    "affirmative"
+                ],
+                "activationFeatures": [
+                    {
+                        "nid": "affirmative",
+                        "name": [
+                            {
+                                "lang": "zh",
+                                "text": "肯定形式"
+                            },
+                            {
+                                "lang": "en",
+                                "text": "Affirmative"
+                            }
+                        ],
+                        "description": [
+                            {
+                                "lang": "zh",
+                                "text": "表示肯定、确认或直接陈述某事成立。"
+                            },
+                            {
+                                "lang": "en",
+                                "text": "Marks a positive statement, confirmation, or direct assertion that something holds true."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "slotKey": "copula_be_negative",
+                "rendersAs": "be_marking",
+                "slot": {
+                    "nid": "copula_be_negative",
+                    "name": [
+                        {
+                            "lang": "zh",
+                            "text": "不是"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "isn't"
+                        }
+                    ],
+                    "description": [
+                        {
+                            "lang": "zh",
+                            "text": "说明「不是什么 / 不怎么样」。覆盖 isn't / aren't / wasn't 以及 won't be、not going to be 等。常见写法如 am not、am not going to be、are not、are not going to be、is not、is not going to be、'm not、'm not going to be 等。例如 This is not my pen."
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Says “is not / was not / will not be” that identity or state, including going-to forms. Common writings include am not, am not going to be, are not, are not going to be, is not, is not going to be, 'm not, 'm not going to be, and other matching forms. Example: This is not my pen."
+                        }
+                    ],
+                    "categoryNid": "negative_auxiliary",
+                    "color": "rgba(245,158,11,1)"
+                },
+                "options": [
+                    "am not",
+                    "is not",
+                    "are not",
+                    "isn't",
+                    "aren't",
+                    "'m not",
+                    "'s not",
+                    "'re not",
+                    "was not",
+                    "were not",
+                    "wasn't",
+                    "weren't"
+                ],
+                "activationFeatureNids": [
+                    "negative"
+                ],
+                "activationFeatures": [
+                    {
+                        "nid": "negative",
+                        "name": [
+                            {
+                                "lang": "zh",
+                                "text": "否定形式"
+                            },
+                            {
+                                "lang": "en",
+                                "text": "Negative"
+                            }
+                        ],
+                        "description": [
+                            {
+                                "lang": "zh",
+                                "text": "表示否定、不存在、不发生或不允许，常见于 not、never、no 等结构。"
+                            },
+                            {
+                                "lang": "en",
+                                "text": "Marks negation, absence, non-occurrence, or prohibition, often signaled by not, never, or no."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "openSlots": [
+            {
+                "slotKey": "subject",
+                "required": true,
+                "grammarControlling": true,
+                "growthPriority": null,
+                "dependsOn": []
+            },
+            {
+                "slotKey": "gerund_activity",
+                "required": true,
+                "grammarControlling": true,
+                "growthPriority": null,
+                "dependsOn": []
+            },
+            {
+                "slotKey": "context_phrase",
+                "required": false,
+                "grammarControlling": true,
+                "growthPriority": null,
+                "dependsOn": []
+            },
+            {
+                "slotKey": "time_expression",
+                "required": false,
+                "grammarControlling": true,
+                "growthPriority": 40,
+                "dependsOn": []
+            }
+        ],
+        "openSlotList": [
+            {
+                "slotKey": "subject",
+                "slot": {
+                    "nid": "subject",
+                    "name": [
+                        {
+                            "lang": "zh",
+                            "text": "主语"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Subject"
+                        }
+                    ],
+                    "description": [
+                        {
+                            "lang": "zh",
+                            "text": "表示整句话在说谁或什么，是那个被介绍、被描述、被判断、或去做事情的主体。"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Shows who or what the sentence is about: the person, thing, or place being introduced, described, judged, or said to do something."
+                        }
+                    ],
+                    "categoryNid": "subject_entity"
+                },
+                "required": true,
+                "grammarControlling": true,
+                "dependsOn": []
+            },
+            {
+                "slotKey": "gerund_activity",
+                "slot": {
+                    "nid": "gerund_activity",
+                    "name": [
+                        {
+                            "lang": "zh",
+                            "text": "动名词活动"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Gerund Activity"
+                        }
+                    ],
+                    "description": [
+                        {
+                            "lang": "zh",
+                            "text": "表示把动作当成一件事来讲的 doing 结构，用于动词后接动名词或固定包装结构。"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Shows an activity expressed as a doing form, used after verbs or in fixed gerund packaging structures."
+                        }
+                    ],
+                    "categoryNid": "gerund_phrase"
+                },
+                "required": true,
+                "grammarControlling": true,
+                "dependsOn": []
+            },
+            {
+                "slotKey": "context_phrase",
+                "slot": {
+                    "nid": "context_phrase",
+                    "name": [
+                        {
+                            "lang": "zh",
+                            "text": "背景短语"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Context Phrase"
+                        }
+                    ],
+                    "description": [
+                        {
+                            "lang": "zh",
+                            "text": "表示动作或状态发生时的背景补充：常见为介词短语（地点、搭配、场景），也可为缩略的 V-ing 情状状语（如 entering Atlantic Daylight Time / walking home），不单独升成从句。"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Background adjunct for an action or state: often a PP (place, company, setting), and also a reduced V-ing circumstance adjunct (e.g. entering Atlantic Daylight Time / walking home), kept inside the clause rather than promoted."
+                        }
+                    ],
+                    "categoryNid": "lexical_chunk"
+                },
+                "required": false,
+                "grammarControlling": true,
+                "dependsOn": []
+            },
+            {
+                "slotKey": "time_expression",
+                "slot": {
+                    "nid": "time_expression",
+                    "name": [
+                        {
+                            "lang": "zh",
+                            "text": "时间表达"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Time Expression"
+                        }
+                    ],
+                    "description": [
+                        {
+                            "lang": "zh",
+                            "text": "表示什么时候、持续多久、多久一次，或者先后顺序。"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Shows when something happens, how long it lasts, how often it happens, or where it falls in a sequence."
+                        }
+                    ],
+                    "categoryNid": "time_expression"
+                },
+                "required": false,
+                "grammarControlling": true,
+                "growthPriority": 40,
+                "dependsOn": []
+            }
+        ],
+        "basicTypeNid": "simple",
+        "basicType": {
+            "nid": "simple",
+            "name": [
+                {
+                    "lang": "zh",
+                    "text": "简单句"
+                },
+                {
+                    "lang": "en",
+                    "text": "Simple Sentence"
+                }
+            ],
+            "description": [
+                {
+                    "lang": "zh",
+                    "text": "只包含一个独立分句的基础句型，是低阶教学和句型骨架训练的核心类型。"
+                },
+                {
+                    "lang": "en",
+                    "text": "A sentence with only one independent clause, forming the core type for foundational teaching and sentence skeleton practice."
+                }
+            ]
+        },
+        "functionalTypeNid": "declarative",
+        "functionalType": {
+            "nid": "declarative",
+            "name": [
+                {
+                    "lang": "zh",
+                    "text": "陈述句"
+                },
+                {
+                    "lang": "en",
+                    "text": "Declarative"
+                }
+            ],
+            "description": [
+                {
+                    "lang": "zh",
+                    "text": "用于陈述事实、观点、状态或信息，是写作与说明中最基础、最常见的句子功能类型。"
+                },
+                {
+                    "lang": "en",
+                    "text": "Used to state facts, ideas, states, or information; the most common functional sentence type in writing and explanation."
+                }
+            ]
+        },
+        "clauseProfileNid": "single_clause",
+        "clauseProfile": {
+            "nid": "single_clause",
+            "name": [
+                {
+                    "lang": "zh",
+                    "text": "单子句"
+                },
+                {
+                    "lang": "en",
+                    "text": "Single Clause"
+                }
+            ],
+            "description": [
+                {
+                    "lang": "zh",
+                    "text": "整个句型只包含一个核心子句，没有并列或从属扩展，是最基础的句型骨架。"
+                },
+                {
+                    "lang": "en",
+                    "text": "The pattern contains only one core clause with no coordination or subordination, forming the most basic sentence skeleton."
+                }
+            ]
+        },
+        "grammarFeatureNids": [
+            "indicative_mood",
+            "active_voice"
+        ],
+        "grammarFeatures": [
+            {
+                "nid": "indicative_mood",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "陈述语气"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Indicative Mood"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+                    }
+                ]
+            },
+            {
+                "nid": "active_voice",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "主动语态"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Active Voice"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+                    }
+                ]
+            }
+        ],
+        "specialFeatureNids": [
+            "gerund"
+        ],
+        "specialFeatures": [
+            {
+                "nid": "gerund",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "动名词结构"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Gerund Structure"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "以 -ing 形式充当名词功能，可作主语、宾语或表语。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Uses the -ing form with noun-like function, often serving as subject, object, or complement."
+                    }
+                ]
+            }
+        ],
+        "communicativeFunctionNids": [
+            "describe",
+            "give_information"
+        ],
+        "communicativeFunctions": [
+            {
+                "nid": "describe",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "描述"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Describe"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "用于描写状态、动作、特征、位置、数量等，是最广泛的写作功能之一。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Used to describe states, actions, features, locations, and quantities; one of the broadest functions in writing."
+                    }
+                ]
+            },
+            {
+                "nid": "give_information",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "提供信息"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Give Information"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "用于回答问题、说明事实、补充细节或给出明确内容。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Used to answer questions, state facts, add detail, or provide explicit content."
+                    }
+                ]
+            }
+        ],
+        "discourseRoleNids": [
+            "supporting_detail",
+            "dialogue_response"
+        ],
+        "discourseRoles": [
+            {
+                "nid": "supporting_detail",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "支持细节句"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Supporting Detail"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "用于补充事实、细节、特征或说明，支撑主题句。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Adds facts, details, features, or explanation to support the topic sentence."
+                    }
+                ]
+            },
+            {
+                "nid": "dialogue_response",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "对话回应句"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Dialogue Response"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "用于对前一句做出回答、接受、拒绝或反馈。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Responds to the previous turn by answering, accepting, rejecting, or giving feedback."
+                    }
+                ]
+            }
+        ],
+        "teachingRealizations": [
+            "She is busy doing homework.",
+            "I am busy preparing dinner.",
+            "He was busy writing a letter.",
+            "He is not busy working."
+        ],
+        "system": true,
+        "enabled": true,
+        "primarySvocaCodeNid": "svc_adj",
+        "primarySvoca": {
+            "nid": "svc_adj",
+            "name": [
+                {
+                    "lang": "zh",
+                    "text": "SVC 形容词补语结构"
+                },
+                {
+                    "lang": "en",
+                    "text": "SVC Adjective Pattern"
+                }
+            ],
+            "description": [
+                {
+                    "lang": "zh",
+                    "text": "表示系动词后接形容词补语，常用于描述状态、性质、比较或评价。"
+                },
+                {
+                    "lang": "en",
+                    "text": "An SVC skeleton with an adjective complement, often used for states, qualities, comparison, or evaluation."
+                }
+            ]
+        },
+        "allowedSvocaCodeNids": [
+            "svc",
+            "svc_adj"
+        ],
+        "allowedSvocas": [
+            {
+                "nid": "svc",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "SVC 主谓补结构"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "SVC Pattern"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "表示主语通过系动词连接到补语，用于说明身份、性质、状态或结果。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "A subject-verb-complement skeleton in which a linking verb connects the subject to its complement."
+                    }
+                ]
+            },
+            {
+                "nid": "svc_adj",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "SVC 形容词补语结构"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "SVC Adjective Pattern"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "表示系动词后接形容词补语，常用于描述状态、性质、比较或评价。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "An SVC skeleton with an adjective complement, often used for states, qualities, comparison, or evaluation."
+                    }
+                ]
+            }
+        ],
+        "tenseScope": "neutral",
+        "predicateRealizationProfile": {
+            "kind": "copular_be",
+            "predicateSlotKey": "gerund_activity",
+            "operatorSlotKeys": [
+                "copula_be",
+                "copula_be_negative"
+            ]
+        },
+        "predicateRealizationProfileInfo": {
+            "kind": "copular_be",
+            "predicateSlotKey": "gerund_activity",
+            "predicateSlot": {
+                "nid": "gerund_activity",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "动名词活动"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Gerund Activity"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "表示把动作当成一件事来讲的 doing 结构，用于动词后接动名词或固定包装结构。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Shows an activity expressed as a doing form, used after verbs or in fixed gerund packaging structures."
+                    }
+                ],
+                "categoryNid": "gerund_phrase"
+            },
+            "operatorSlotKeys": [
+                "copula_be",
+                "copula_be_negative"
+            ],
+            "operatorSlots": [
+                {
+                    "nid": "copula_be",
+                    "name": [
+                        {
+                            "lang": "zh",
+                            "text": "是"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "be (linking)"
+                        }
+                    ],
+                    "description": [
+                        {
+                            "lang": "zh",
+                            "text": "把主语和身份、状态连起来，说明「是什么 / 怎么样」。除了 am / is / are / was / were，句型里也可能出现 will be、going to be 和缩写。常见写法如 am、am going to be、are、are going to be、is、is going to be、'm、'm going to be 等。例如 He is my brother."
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Links the subject to an identity or state. Forms include am / is / are / was / were, will be, going to be, and contractions. Common writings include am, am going to be, are, are going to be, is, is going to be, 'm, 'm going to be, and other matching forms. Example: He is my brother."
+                        }
+                    ],
+                    "categoryNid": "grammar_auxiliary"
+                },
+                {
+                    "nid": "copula_be_negative",
+                    "name": [
+                        {
+                            "lang": "zh",
+                            "text": "不是"
+                        },
+                        {
+                            "lang": "en",
+                            "text": "isn't"
+                        }
+                    ],
+                    "description": [
+                        {
+                            "lang": "zh",
+                            "text": "说明「不是什么 / 不怎么样」。覆盖 isn't / aren't / wasn't 以及 won't be、not going to be 等。常见写法如 am not、am not going to be、are not、are not going to be、is not、is not going to be、'm not、'm not going to be 等。例如 This is not my pen."
+                        },
+                        {
+                            "lang": "en",
+                            "text": "Says “is not / was not / will not be” that identity or state, including going-to forms. Common writings include am not, am not going to be, are not, are not going to be, is not, is not going to be, 'm not, 'm not going to be, and other matching forms. Example: This is not my pen."
+                        }
+                    ],
+                    "categoryNid": "negative_auxiliary"
+                }
+            ]
+        },
+        "sentenceRealizationList": [
+            {
+                "sentenceId": 573896,
+                "content": "They are busy writing the report now.",
+                "definition": "他们现在正忙着写报告。",
+                "patternNid": "state_entity_be_busy_doing",
+                "patternTemplate": "{subject} {be_marking} busy {gerund_activity} {context_phrase} {time_expression}.",
+                "patternName": [
+                    {
+                        "lang": "zh",
+                        "text": "说明正忙着做某事（be busy doing）"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Saying Someone Is Busy Doing Something"
+                    }
+                ],
+                "patternDescription": [
+                    {
+                        "lang": "zh",
+                        "text": "人作主语：be busy + doing。与 be worth doing 不并成对照：主语角色和命题都不同。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Person as subject: be busy + doing. Do not pair with be worth doing: subject role and proposition differ."
+                    }
+                ],
+                "realizationSetId": 416,
+                "slots": [],
+                "blueprintScope": "clause",
+                "blueprintScopeName": [
+                    {
+                        "lang": "en",
+                        "text": "Clause Scope"
+                    },
+                    {
+                        "lang": "zh",
+                        "text": "子句内组合"
+                    }
+                ],
+                "segmentList": [
+                    {
+                        "slotKey": "subject",
+                        "slot": {
+                            "nid": "subject",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "主语"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Subject"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示整句话在说谁或什么，是那个被介绍、被描述、被判断、或去做事情的主体。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows who or what the sentence is about: the person, thing, or place being introduced, described, judged, or said to do something."
+                                }
+                            ],
+                            "categoryNid": "subject_entity"
+                        },
+                        "required": true,
+                        "grammarControlling": true,
+                        "dependsOn": [],
+                        "text": "They",
+                        "renderSlotKey": "subject",
+                        "sourceSlotKey": "subject",
+                        "sourceSlot": {
+                            "nid": "subject",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "主语"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Subject"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示整句话在说谁或什么，是那个被介绍、被描述、被判断、或去做事情的主体。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows who or what the sentence is about: the person, thing, or place being introduced, described, judged, or said to do something."
+                                }
+                            ],
+                            "categoryNid": "subject_entity"
+                        },
+                        "slotUid": 272668,
+                        "semanticIds": [
+                            721343,
+                            721344,
+                            721345
+                        ],
+                        "literal": false,
+                        "hasChildStruct": false
+                    },
+                    {
+                        "slotKey": "copula_be",
+                        "slot": {
+                            "nid": "copula_be",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "是"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "be (linking)"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "把主语和身份、状态连起来，说明「是什么 / 怎么样」。除了 am / is / are / was / were，句型里也可能出现 will be、going to be 和缩写。常见写法如 am、am going to be、are、are going to be、is、is going to be、'm、'm going to be 等。例如 He is my brother."
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Links the subject to an identity or state. Forms include am / is / are / was / were, will be, going to be, and contractions. Common writings include am, am going to be, are, are going to be, is, is going to be, 'm, 'm going to be, and other matching forms. Example: He is my brother."
+                                }
+                            ],
+                            "categoryNid": "grammar_auxiliary",
+                            "color": "rgba(245,158,11,1)"
+                        },
+                        "text": "are",
+                        "renderSlotKey": "be_marking",
+                        "sourceSlotKey": "copula_be",
+                        "sourceSlot": {
+                            "nid": "copula_be",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "是"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "be (linking)"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "把主语和身份、状态连起来，说明「是什么 / 怎么样」。除了 am / is / are / was / were，句型里也可能出现 will be、going to be 和缩写。常见写法如 am、am going to be、are、are going to be、is、is going to be、'm、'm going to be 等。例如 He is my brother."
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Links the subject to an identity or state. Forms include am / is / are / was / were, will be, going to be, and contractions. Common writings include am, am going to be, are, are going to be, is, is going to be, 'm, 'm going to be, and other matching forms. Example: He is my brother."
+                                }
+                            ],
+                            "categoryNid": "grammar_auxiliary",
+                            "color": "rgba(245,158,11,1)"
+                        },
+                        "slotUid": 272669,
+                        "semanticIds": [
+                            1119157
+                        ],
+                        "literal": false,
+                        "hasChildStruct": false
+                    },
+                    {
+                        "slotKey": "__literal__",
+                        "slot": {
+                            "nid": "__literal__",
+                            "name": [
+                                {
+                                    "lang": "en",
+                                    "text": "literal"
+                                },
+                                {
+                                    "lang": "zh",
+                                    "text": "固定"
+                                }
+                            ],
+                            "color": "rgba(172,181,188,1)"
+                        },
+                        "text": "busy",
+                        "renderSlotKey": "__literal__",
+                        "sourceSlotKey": "__literal__",
+                        "literal": true
+                    },
+                    {
+                        "slotKey": "gerund_activity",
+                        "slot": {
+                            "nid": "gerund_activity",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "动名词活动"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Gerund Activity"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示把动作当成一件事来讲的 doing 结构，用于动词后接动名词或固定包装结构。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows an activity expressed as a doing form, used after verbs or in fixed gerund packaging structures."
+                                }
+                            ],
+                            "categoryNid": "gerund_phrase"
+                        },
+                        "required": true,
+                        "grammarControlling": true,
+                        "dependsOn": [],
+                        "text": "writing the report",
+                        "renderSlotKey": "gerund_activity",
+                        "sourceSlotKey": "gerund_activity",
+                        "sourceSlot": {
+                            "nid": "gerund_activity",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "动名词活动"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Gerund Activity"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示把动作当成一件事来讲的 doing 结构，用于动词后接动名词或固定包装结构。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows an activity expressed as a doing form, used after verbs or in fixed gerund packaging structures."
+                                }
+                            ],
+                            "categoryNid": "gerund_phrase"
+                        },
+                        "slotUid": 272670,
+                        "semanticIds": [],
+                        "literal": false,
+                        "hasChildStruct": false
+                    },
+                    {
+                        "slotKey": "time_expression",
+                        "slot": {
+                            "nid": "time_expression",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "时间表达"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Time Expression"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示什么时候、持续多久、多久一次，或者先后顺序。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows when something happens, how long it lasts, how often it happens, or where it falls in a sequence."
+                                }
+                            ],
+                            "categoryNid": "time_expression"
+                        },
+                        "required": false,
+                        "grammarControlling": true,
+                        "growthPriority": 40,
+                        "dependsOn": [],
+                        "text": "now",
+                        "renderSlotKey": "time_expression",
+                        "sourceSlotKey": "time_expression",
+                        "sourceSlot": {
+                            "nid": "time_expression",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "时间表达"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Time Expression"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示什么时候、持续多久、多久一次，或者先后顺序。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows when something happens, how long it lasts, how often it happens, or where it falls in a sequence."
+                                }
+                            ],
+                            "categoryNid": "time_expression"
+                        },
+                        "slotUid": 272671,
+                        "semanticIds": [
+                            705432
+                        ],
+                        "literal": false,
+                        "hasChildStruct": false
+                    },
+                    {
+                        "slotKey": "__literal__",
+                        "slot": {
+                            "nid": "__literal__",
+                            "name": [
+                                {
+                                    "lang": "en",
+                                    "text": "literal"
+                                },
+                                {
+                                    "lang": "zh",
+                                    "text": "固定"
+                                }
+                            ],
+                            "color": "rgba(172,181,188,1)"
+                        },
+                        "text": ".",
+                        "renderSlotKey": "__literal__",
+                        "sourceSlotKey": "__literal__",
+                        "literal": true
+                    }
+                ]
+            },
+            {
+                "sentenceId": 573884,
+                "content": "She is busy writing the report now.",
+                "definition": "她现在正忙着写报告。",
+                "patternNid": "state_entity_be_busy_doing",
+                "patternTemplate": "{subject} {be_marking} busy {gerund_activity} {context_phrase} {time_expression}.",
+                "patternName": [
+                    {
+                        "lang": "zh",
+                        "text": "说明正忙着做某事（be busy doing）"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Saying Someone Is Busy Doing Something"
+                    }
+                ],
+                "patternDescription": [
+                    {
+                        "lang": "zh",
+                        "text": "人作主语：be busy + doing。与 be worth doing 不并成对照：主语角色和命题都不同。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Person as subject: be busy + doing. Do not pair with be worth doing: subject role and proposition differ."
+                    }
+                ],
+                "realizationSetId": 416,
+                "slots": [],
+                "blueprintScope": "clause",
+                "blueprintScopeName": [
+                    {
+                        "lang": "en",
+                        "text": "Clause Scope"
+                    },
+                    {
+                        "lang": "zh",
+                        "text": "子句内组合"
+                    }
+                ],
+                "segmentList": [
+                    {
+                        "slotKey": "subject",
+                        "slot": {
+                            "nid": "subject",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "主语"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Subject"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示整句话在说谁或什么，是那个被介绍、被描述、被判断、或去做事情的主体。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows who or what the sentence is about: the person, thing, or place being introduced, described, judged, or said to do something."
+                                }
+                            ],
+                            "categoryNid": "subject_entity"
+                        },
+                        "required": true,
+                        "grammarControlling": true,
+                        "dependsOn": [],
+                        "text": "She",
+                        "renderSlotKey": "subject",
+                        "sourceSlotKey": "subject",
+                        "sourceSlot": {
+                            "nid": "subject",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "主语"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Subject"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示整句话在说谁或什么，是那个被介绍、被描述、被判断、或去做事情的主体。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows who or what the sentence is about: the person, thing, or place being introduced, described, judged, or said to do something."
+                                }
+                            ],
+                            "categoryNid": "subject_entity"
+                        },
+                        "slotUid": 272621,
+                        "semanticIds": [
+                            714406
+                        ],
+                        "literal": false,
+                        "hasChildStruct": false
+                    },
+                    {
+                        "slotKey": "copula_be",
+                        "slot": {
+                            "nid": "copula_be",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "是"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "be (linking)"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "把主语和身份、状态连起来，说明「是什么 / 怎么样」。除了 am / is / are / was / were，句型里也可能出现 will be、going to be 和缩写。常见写法如 am、am going to be、are、are going to be、is、is going to be、'm、'm going to be 等。例如 He is my brother."
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Links the subject to an identity or state. Forms include am / is / are / was / were, will be, going to be, and contractions. Common writings include am, am going to be, are, are going to be, is, is going to be, 'm, 'm going to be, and other matching forms. Example: He is my brother."
+                                }
+                            ],
+                            "categoryNid": "grammar_auxiliary",
+                            "color": "rgba(245,158,11,1)"
+                        },
+                        "text": "is",
+                        "renderSlotKey": "be_marking",
+                        "sourceSlotKey": "copula_be",
+                        "sourceSlot": {
+                            "nid": "copula_be",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "是"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "be (linking)"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "把主语和身份、状态连起来，说明「是什么 / 怎么样」。除了 am / is / are / was / were，句型里也可能出现 will be、going to be 和缩写。常见写法如 am、am going to be、are、are going to be、is、is going to be、'm、'm going to be 等。例如 He is my brother."
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Links the subject to an identity or state. Forms include am / is / are / was / were, will be, going to be, and contractions. Common writings include am, am going to be, are, are going to be, is, is going to be, 'm, 'm going to be, and other matching forms. Example: He is my brother."
+                                }
+                            ],
+                            "categoryNid": "grammar_auxiliary",
+                            "color": "rgba(245,158,11,1)"
+                        },
+                        "slotUid": 272622,
+                        "semanticIds": [
+                            734314
+                        ],
+                        "literal": false,
+                        "hasChildStruct": false
+                    },
+                    {
+                        "slotKey": "__literal__",
+                        "slot": {
+                            "nid": "__literal__",
+                            "name": [
+                                {
+                                    "lang": "en",
+                                    "text": "literal"
+                                },
+                                {
+                                    "lang": "zh",
+                                    "text": "固定"
+                                }
+                            ],
+                            "color": "rgba(172,181,188,1)"
+                        },
+                        "text": "busy",
+                        "renderSlotKey": "__literal__",
+                        "sourceSlotKey": "__literal__",
+                        "literal": true
+                    },
+                    {
+                        "slotKey": "gerund_activity",
+                        "slot": {
+                            "nid": "gerund_activity",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "动名词活动"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Gerund Activity"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示把动作当成一件事来讲的 doing 结构，用于动词后接动名词或固定包装结构。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows an activity expressed as a doing form, used after verbs or in fixed gerund packaging structures."
+                                }
+                            ],
+                            "categoryNid": "gerund_phrase"
+                        },
+                        "required": true,
+                        "grammarControlling": true,
+                        "dependsOn": [],
+                        "text": "writing the report",
+                        "renderSlotKey": "gerund_activity",
+                        "sourceSlotKey": "gerund_activity",
+                        "sourceSlot": {
+                            "nid": "gerund_activity",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "动名词活动"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Gerund Activity"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示把动作当成一件事来讲的 doing 结构，用于动词后接动名词或固定包装结构。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows an activity expressed as a doing form, used after verbs or in fixed gerund packaging structures."
+                                }
+                            ],
+                            "categoryNid": "gerund_phrase"
+                        },
+                        "slotUid": 272623,
+                        "semanticIds": [],
+                        "literal": false,
+                        "hasChildStruct": false
+                    },
+                    {
+                        "slotKey": "time_expression",
+                        "slot": {
+                            "nid": "time_expression",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "时间表达"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Time Expression"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示什么时候、持续多久、多久一次，或者先后顺序。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows when something happens, how long it lasts, how often it happens, or where it falls in a sequence."
+                                }
+                            ],
+                            "categoryNid": "time_expression"
+                        },
+                        "required": false,
+                        "grammarControlling": true,
+                        "growthPriority": 40,
+                        "dependsOn": [],
+                        "text": "now",
+                        "renderSlotKey": "time_expression",
+                        "sourceSlotKey": "time_expression",
+                        "sourceSlot": {
+                            "nid": "time_expression",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "时间表达"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Time Expression"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示什么时候、持续多久、多久一次，或者先后顺序。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows when something happens, how long it lasts, how often it happens, or where it falls in a sequence."
+                                }
+                            ],
+                            "categoryNid": "time_expression"
+                        },
+                        "slotUid": 272624,
+                        "semanticIds": [
+                            705432
+                        ],
+                        "literal": false,
+                        "hasChildStruct": false
+                    },
+                    {
+                        "slotKey": "__literal__",
+                        "slot": {
+                            "nid": "__literal__",
+                            "name": [
+                                {
+                                    "lang": "en",
+                                    "text": "literal"
+                                },
+                                {
+                                    "lang": "zh",
+                                    "text": "固定"
+                                }
+                            ],
+                            "color": "rgba(172,181,188,1)"
+                        },
+                        "text": ".",
+                        "renderSlotKey": "__literal__",
+                        "sourceSlotKey": "__literal__",
+                        "literal": true
+                    }
+                ]
+            }
+        ],
+        "supportsPyramid": true,
+        "created": "2026-09-02T04:06:04.982+00:00",
+        "updated": "2026-09-02T04:06:04.982+00:00"
+    }
+}

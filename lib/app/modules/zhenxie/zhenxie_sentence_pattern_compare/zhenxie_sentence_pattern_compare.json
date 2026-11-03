@@ -1,0 +1,1584 @@
+{
+  "code": 200,
+  "data": {
+    "nid": "past_continuous_question_mode",
+    "dimensionNid": "question_mode",
+    "dimension": {
+      "nid": "question_mode",
+      "name": [
+        {
+          "lang": "zh",
+          "text": "同一意思怎样陈述或发问"
+        },
+        {
+          "lang": "en",
+          "text": "Statement vs Question Forms for One Idea"
+        }
+      ],
+      "description": [
+        {
+          "lang": "zh",
+          "text": "用于比较同一个意思说成一般陈述、一般疑问或特殊疑问时的差异。"
+        },
+        {
+          "lang": "en",
+          "text": "Used to compare how the same idea changes across declarative, yes-no, and wh-question forms."
+        }
+      ]
+    },
+    "transformationKindNid": "realization",
+    "transformationKind": {
+      "nid": "realization",
+      "name": [
+        {
+          "lang": "zh",
+          "text": "同一条主线可以换哪些说法"
+        },
+        {
+          "lang": "en",
+          "text": "How One Learning Path Changes Form"
+        }
+      ],
+      "description": [
+        {
+          "lang": "zh",
+          "text": "用于说明同一学习主线下，不同实现说法之间怎样切换。"
+        },
+        {
+          "lang": "en",
+          "text": "Used to show how different realizations can appear within the same learning path."
+        }
+      ]
+    },
+    "contrastTypeNid": "alternatives",
+    "contrastType": {
+      "nid": "alternatives",
+      "name": [
+        {
+          "lang": "zh",
+          "text": "换档并列"
+        },
+        {
+          "lang": "en",
+          "text": "Independent alternatives"
+        }
+      ],
+      "description": [
+        {
+          "lang": "zh",
+          "text": "各成员独立画面，只保持画风和主角；不强制同场景，也不做成相反状态。"
+        },
+        {
+          "lang": "en",
+          "text": "Independent pictures per member; keep style and lead character only. Do not force a shared scene or opposite states."
+        }
+      ]
+    },
+    "name": [
+      {
+        "lang": "zh",
+        "text": "过去进行时怎样陈述、确认和追问"
+      },
+      {
+        "lang": "en",
+        "text": "Past Continuous as Statement, Yes-No Question, and What-Question"
+      }
+    ],
+    "description": [
+      {
+        "lang": "zh",
+        "text": "同一段当时正在做的事，对照陈述、是非问和追问；换档并列，各壳独立画面。"
+      },
+      {
+        "lang": "en",
+        "text": "The same past-continuous event as a statement, yes-no question, or wh-question. Independent pictures."
+      }
+    ],
+    "memberSwitchPolicy": {
+      "mode": "replace_pattern",
+      "carry": "mapped_slots_only",
+      "unmappedSourceSlots": "drop",
+      "targetControlledSlots": "from_target_pattern"
+    },
+    "teachingEntry": {
+      "patternNid": "ongoing_entity_be_doing",
+      "grammarFeatureNids": [
+        "affirmative",
+        "indicative_mood",
+        "active_voice"
+      ]
+    },
+    "teachingEntryInfo": {
+      "patternNid": "ongoing_entity_be_doing",
+      "pattern": {
+        "nid": "ongoing_entity_be_doing",
+        "name": [
+          {
+            "lang": "zh",
+            "text": "说明正在做什么"
+          },
+          {
+            "lang": "en",
+            "text": "Say what is happening now"
+          }
+        ],
+        "description": [
+          {
+            "lang": "zh",
+            "text": "强调动作正在进行，像镜头对准此刻发生的事；和“一般做什么”不同。"
+          },
+          {
+            "lang": "en",
+            "text": "Emphasizes an action in progress, unlike a general “what someone does”."
+          }
+        ],
+        "template": "{actor} {be_marking} {ongoing_predicate} {object} {context_phrase} {place_phrase} {time_expression} {relative_clause}."
+      },
+      "grammarFeatureNids": [
+        "affirmative",
+        "indicative_mood",
+        "active_voice"
+      ],
+      "grammarFeatures": [
+        {
+          "nid": "affirmative",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "肯定形式"
+            },
+            {
+              "lang": "en",
+              "text": "Affirmative"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "表示肯定、确认或直接陈述某事成立。"
+            },
+            {
+              "lang": "en",
+              "text": "Marks a positive statement, confirmation, or direct assertion that something holds true."
+            }
+          ]
+        },
+        {
+          "nid": "indicative_mood",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "陈述语气"
+            },
+            {
+              "lang": "en",
+              "text": "Indicative Mood"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+            },
+            {
+              "lang": "en",
+              "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+            }
+          ]
+        },
+        {
+          "nid": "active_voice",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "主动语态"
+            },
+            {
+              "lang": "en",
+              "text": "Active Voice"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+            },
+            {
+              "lang": "en",
+              "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+            }
+          ]
+        }
+      ]
+    },
+    "paradigmSlots": [
+      {
+        "slotKey": "subject",
+        "required": true,
+        "slotRole": "semantic_carry"
+      },
+      {
+        "slotKey": "time",
+        "required": false,
+        "slotRole": "semantic_carry"
+      },
+      {
+        "slotKey": "action",
+        "required": false,
+        "slotRole": "semantic_carry"
+      },
+      {
+        "slotKey": "object",
+        "required": false,
+        "slotRole": "semantic_carry"
+      }
+    ],
+    "members": [
+      {
+        "valueNid": "declarative",
+        "realization": {
+          "patternNid": "ongoing_entity_be_doing",
+          "grammarFeatureNids": [
+            "affirmative",
+            "indicative_mood",
+            "active_voice"
+          ]
+        },
+        "teachingExample": "She was cooking dinner.",
+        "activeParadigmSlotKeys": [
+          "subject",
+          "time",
+          "action",
+          "object"
+        ],
+        "slotMappings": [
+          {
+            "paradigmSlotKey": "subject",
+            "patternSlotKey": "actor"
+          },
+          {
+            "paradigmSlotKey": "time",
+            "patternSlotKey": "time_expression"
+          },
+          {
+            "paradigmSlotKey": "action",
+            "patternSlotKey": "ongoing_predicate"
+          },
+          {
+            "paradigmSlotKey": "object",
+            "patternSlotKey": "object"
+          }
+        ],
+        "controlledSlotKeys": [
+          "copula_be"
+        ],
+        "contrastFocus": {
+          "patternSlotKeys": [
+            "copula_be"
+          ],
+          "templateLiterals": []
+        }
+      },
+      {
+        "valueNid": "yes_no_question",
+        "realization": {
+          "patternNid": "ask_be_subject_doing",
+          "grammarFeatureNids": [
+            "indicative_mood",
+            "active_voice"
+          ]
+        },
+        "teachingExample": "Was she cooking dinner?",
+        "activeParadigmSlotKeys": [
+          "subject",
+          "time",
+          "action",
+          "object"
+        ],
+        "slotMappings": [
+          {
+            "paradigmSlotKey": "subject",
+            "patternSlotKey": "question_subject"
+          },
+          {
+            "paradigmSlotKey": "time",
+            "patternSlotKey": "time_expression"
+          },
+          {
+            "paradigmSlotKey": "action",
+            "patternSlotKey": "ongoing_predicate"
+          },
+          {
+            "paradigmSlotKey": "object",
+            "patternSlotKey": "question_object"
+          }
+        ],
+        "controlledSlotKeys": [
+          "aux_be"
+        ],
+        "contrastFocus": {
+          "patternSlotKeys": [
+            "aux_be"
+          ],
+          "templateLiterals": []
+        }
+      },
+      {
+        "valueNid": "wh_question",
+        "realization": {
+          "patternNid": "ask_what_be_subject_doing",
+          "grammarFeatureNids": [
+            "indicative_mood",
+            "active_voice"
+          ]
+        },
+        "teachingExample": "What was she doing?",
+        "activeParadigmSlotKeys": [
+          "subject",
+          "time"
+        ],
+        "slotMappings": [
+          {
+            "paradigmSlotKey": "subject",
+            "patternSlotKey": "question_subject"
+          },
+          {
+            "paradigmSlotKey": "time",
+            "patternSlotKey": "time_expression"
+          }
+        ],
+        "controlledSlotKeys": [
+          "aux_be"
+        ],
+        "contrastFocus": {
+          "patternSlotKeys": [
+            "aux_be"
+          ],
+          "templateLiterals": [
+            "What",
+            "doing"
+          ]
+        }
+      }
+    ],
+    "memberList": [
+      {
+        "valueNid": "declarative",
+        "valueLabel": {
+          "nid": "declarative",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "陈述句"
+            },
+            {
+              "lang": "en",
+              "text": "Declarative"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "用于陈述事实、观点、状态或信息，是写作与说明中最基础、最常见的句子功能类型。"
+            },
+            {
+              "lang": "en",
+              "text": "Used to state facts, ideas, states, or information; the most common functional sentence type in writing and explanation."
+            }
+          ]
+        },
+        "realization": {
+          "patternNid": "ongoing_entity_be_doing",
+          "grammarFeatureNids": [
+            "affirmative",
+            "indicative_mood",
+            "active_voice"
+          ]
+        },
+        "realizationInfo": {
+          "patternNid": "ongoing_entity_be_doing",
+          "pattern": {
+            "nid": "ongoing_entity_be_doing",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "说明正在做什么"
+              },
+              {
+                "lang": "en",
+                "text": "Say what is happening now"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "强调动作正在进行，像镜头对准此刻发生的事；和“一般做什么”不同。"
+              },
+              {
+                "lang": "en",
+                "text": "Emphasizes an action in progress, unlike a general “what someone does”."
+              }
+            ],
+            "template": "{actor} {be_marking} {ongoing_predicate} {object} {context_phrase} {place_phrase} {time_expression} {relative_clause}."
+          },
+          "grammarFeatureNids": [
+            "affirmative",
+            "indicative_mood",
+            "active_voice"
+          ],
+          "grammarFeatures": [
+            {
+              "nid": "affirmative",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "肯定形式"
+                },
+                {
+                  "lang": "en",
+                  "text": "Affirmative"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "表示肯定、确认或直接陈述某事成立。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Marks a positive statement, confirmation, or direct assertion that something holds true."
+                }
+              ]
+            },
+            {
+              "nid": "indicative_mood",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "陈述语气"
+                },
+                {
+                  "lang": "en",
+                  "text": "Indicative Mood"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+                }
+              ]
+            },
+            {
+              "nid": "active_voice",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "主动语态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Active Voice"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+                },
+                {
+                  "lang": "en",
+                  "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+                }
+              ]
+            }
+          ]
+        },
+        "teachingExample": "She was cooking dinner.",
+        "activeParadigmSlotKeys": [
+          "subject",
+          "time",
+          "action",
+          "object"
+        ],
+        "slotMappings": [
+          {
+            "paradigmSlotKey": "subject",
+            "patternSlotKey": "actor"
+          },
+          {
+            "paradigmSlotKey": "time",
+            "patternSlotKey": "time_expression"
+          },
+          {
+            "paradigmSlotKey": "action",
+            "patternSlotKey": "ongoing_predicate"
+          },
+          {
+            "paradigmSlotKey": "object",
+            "patternSlotKey": "object"
+          }
+        ],
+        "controlledSlotKeys": [
+          "copula_be"
+        ],
+        "contrastFocus": {
+          "patternSlotKeys": [
+            "copula_be"
+          ],
+          "templateLiterals": []
+        }
+      },
+      {
+        "valueNid": "yes_no_question",
+        "valueLabel": {
+          "nid": "yes_no_question",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "一般疑问句"
+            },
+            {
+              "lang": "en",
+              "text": "Yes-No Question"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "用于询问答案是否为“是/否”的问题，常通过助动词、be 动词或情态动词提前形成。"
+            },
+            {
+              "lang": "en",
+              "text": "Used to ask for a yes-or-no answer, usually formed by fronting an auxiliary, a form of be, or a modal verb."
+            }
+          ]
+        },
+        "realization": {
+          "patternNid": "ask_be_subject_doing",
+          "grammarFeatureNids": [
+            "indicative_mood",
+            "active_voice"
+          ]
+        },
+        "realizationInfo": {
+          "patternNid": "ask_be_subject_doing",
+          "pattern": {
+            "nid": "ask_be_subject_doing",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "问正在 / 将要进行的事"
+              },
+              {
+                "lang": "en",
+                "text": "Asking About Ongoing or Planned Progressive Actions"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "进行体一般疑问；现在进行与安排义进行共用蓝图，时间由 time_expression 表达。"
+              },
+              {
+                "lang": "en",
+                "text": "Progressive yes-no questions; present and arrangement readings share one blueprint."
+              }
+            ],
+            "template": "{aux_be} {question_subject} {ongoing_predicate} {question_object} {context_phrase} {time_expression}?"
+          },
+          "grammarFeatureNids": [
+            "indicative_mood",
+            "active_voice"
+          ],
+          "grammarFeatures": [
+            {
+              "nid": "indicative_mood",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "陈述语气"
+                },
+                {
+                  "lang": "en",
+                  "text": "Indicative Mood"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+                }
+              ]
+            },
+            {
+              "nid": "active_voice",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "主动语态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Active Voice"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+                },
+                {
+                  "lang": "en",
+                  "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+                }
+              ]
+            }
+          ]
+        },
+        "teachingExample": "Was she cooking dinner?",
+        "activeParadigmSlotKeys": [
+          "subject",
+          "time",
+          "action",
+          "object"
+        ],
+        "slotMappings": [
+          {
+            "paradigmSlotKey": "subject",
+            "patternSlotKey": "question_subject"
+          },
+          {
+            "paradigmSlotKey": "time",
+            "patternSlotKey": "time_expression"
+          },
+          {
+            "paradigmSlotKey": "action",
+            "patternSlotKey": "ongoing_predicate"
+          },
+          {
+            "paradigmSlotKey": "object",
+            "patternSlotKey": "question_object"
+          }
+        ],
+        "controlledSlotKeys": [
+          "aux_be"
+        ],
+        "contrastFocus": {
+          "patternSlotKeys": [
+            "aux_be"
+          ],
+          "templateLiterals": []
+        }
+      },
+      {
+        "valueNid": "wh_question",
+        "valueLabel": {
+          "nid": "wh_question",
+          "name": [
+            {
+              "lang": "zh",
+              "text": "特殊疑问句"
+            },
+            {
+              "lang": "en",
+              "text": "WH Question"
+            }
+          ],
+          "description": [
+            {
+              "lang": "zh",
+              "text": "用于询问人物、时间、地点、原因、方式等具体信息，通常由 what、who、where、why、how 等引导。"
+            },
+            {
+              "lang": "en",
+              "text": "Used to ask for specific information such as person, time, place, reason, or manner, typically introduced by what, who, where, why, or how."
+            }
+          ]
+        },
+        "realization": {
+          "patternNid": "ask_what_be_subject_doing",
+          "grammarFeatureNids": [
+            "indicative_mood",
+            "active_voice"
+          ]
+        },
+        "realizationInfo": {
+          "patternNid": "ask_what_be_subject_doing",
+          "pattern": {
+            "nid": "ask_what_be_subject_doing",
+            "name": [
+              {
+                "lang": "zh",
+                "text": "用 what 问正在 / 将要做什么"
+              },
+              {
+                "lang": "en",
+                "text": "Asking What Someone Is/Will Be Doing"
+              }
+            ],
+            "description": [
+              {
+                "lang": "zh",
+                "text": "询问现在正在做什么。"
+              },
+              {
+                "lang": "en",
+                "text": "Used to ask about what someone is doing now."
+              }
+            ],
+            "template": "What {aux_be} {question_subject} doing {time_expression}?"
+          },
+          "grammarFeatureNids": [
+            "indicative_mood",
+            "active_voice"
+          ],
+          "grammarFeatures": [
+            {
+              "nid": "indicative_mood",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "陈述语气"
+                },
+                {
+                  "lang": "en",
+                  "text": "Indicative Mood"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+                }
+              ]
+            },
+            {
+              "nid": "active_voice",
+              "name": [
+                {
+                  "lang": "zh",
+                  "text": "主动语态"
+                },
+                {
+                  "lang": "en",
+                  "text": "Active Voice"
+                }
+              ],
+              "description": [
+                {
+                  "lang": "zh",
+                  "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+                },
+                {
+                  "lang": "en",
+                  "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+                }
+              ]
+            }
+          ]
+        },
+        "teachingExample": "What was she doing?",
+        "activeParadigmSlotKeys": [
+          "subject",
+          "time"
+        ],
+        "slotMappings": [
+          {
+            "paradigmSlotKey": "subject",
+            "patternSlotKey": "question_subject"
+          },
+          {
+            "paradigmSlotKey": "time",
+            "patternSlotKey": "time_expression"
+          }
+        ],
+        "controlledSlotKeys": [
+          "aux_be"
+        ],
+        "contrastFocus": {
+          "patternSlotKeys": [
+            "aux_be"
+          ],
+          "templateLiterals": [
+            "What",
+            "doing"
+          ]
+        }
+      }
+    ],
+    "realizationSetList": [
+      {
+        "uid": 3036,
+        "order": 0,
+        "access": "NORMAL",
+        "bindingList": [
+          {
+            "valueNid": "declarative",
+            "sentenceId": 516136,
+            "sentenceStruct": {
+              "sentenceId": 516136,
+              "content": "The cat is sleeping.",
+              "definition": "猫正在睡觉。",
+              "patternNid": "ongoing_entity_be_doing",
+              "patternTemplate": "{actor} {be_marking} {ongoing_predicate} {object} {context_phrase} {place_phrase} {time_expression} {relative_clause}.",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "说明正在做什么"
+                },
+                {
+                  "lang": "en",
+                  "text": "Say what is happening now"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "强调动作正在进行，像镜头对准此刻发生的事；和“一般做什么”不同。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Emphasizes an action in progress, unlike a general “what someone does”."
+                }
+              ],
+              "blueprintScope": "clause",
+              "blueprintScopeName": [
+                {
+                  "lang": "en",
+                  "text": "Clause Scope"
+                },
+                {
+                  "lang": "zh",
+                  "text": "子句内组合"
+                }
+              ],
+              "segmentList": [
+                {
+                  "slotKey": "actor",
+                  "slot": {
+                    "nid": "actor",
+                    "name": [
+                      {
+                        "lang": "zh",
+                        "text": "动作发出者"
+                      },
+                      {
+                        "lang": "en",
+                        "text": "Actor"
+                      }
+                    ],
+                    "description": [
+                      {
+                        "lang": "zh",
+                        "text": "表示真正发出这个动作的人或事物，也就是“是谁在做这件事”。"
+                      },
+                      {
+                        "lang": "en",
+                        "text": "Shows the subject in this meaning."
+                      }
+                    ],
+                    "categoryNid": "subject_entity",
+                    "color": "rgba(14,165,233,1)"
+                  },
+                  "required": true,
+                  "grammarControlling": true,
+                  "dependsOn": [],
+                  "text": "The cat",
+                  "renderSlotKey": "actor",
+                  "sourceSlotKey": "actor",
+                  "sourceSlot": {
+                    "nid": "actor",
+                    "name": [
+                      {
+                        "lang": "zh",
+                        "text": "动作发出者"
+                      },
+                      {
+                        "lang": "en",
+                        "text": "Actor"
+                      }
+                    ],
+                    "description": [
+                      {
+                        "lang": "zh",
+                        "text": "表示真正发出这个动作的人或事物，也就是“是谁在做这件事”。"
+                      },
+                      {
+                        "lang": "en",
+                        "text": "Shows the subject in this meaning."
+                      }
+                    ],
+                    "categoryNid": "subject_entity",
+                    "color": "rgba(14,165,233,1)"
+                  },
+                  "slotUid": 146219,
+                  "semanticIds": [],
+                  "literal": false,
+                  "hasChildStruct": false
+                },
+                {
+                  "slotKey": "copula_be",
+                  "slot": {
+                    "nid": "copula_be",
+                    "name": [
+                      {
+                        "lang": "zh",
+                        "text": "是"
+                      },
+                      {
+                        "lang": "en",
+                        "text": "be (linking)"
+                      }
+                    ],
+                    "description": [
+                      {
+                        "lang": "zh",
+                        "text": "把主语和身份、状态连起来，说明「是什么 / 怎么样」。除了 am / is / are / was / were，句型里也可能出现 will be、going to be 和缩写。常见写法如 am、am going to be、are、are going to be、is、is going to be、'm、'm going to be 等。例如 He is my brother."
+                      },
+                      {
+                        "lang": "en",
+                        "text": "Links the subject to an identity or state. Forms include am / is / are / was / were, will be, going to be, and contractions. Common writings include am, am going to be, are, are going to be, is, is going to be, 'm, 'm going to be, and other matching forms. Example: He is my brother."
+                      }
+                    ],
+                    "categoryNid": "grammar_auxiliary",
+                    "color": "rgba(245,158,11,1)"
+                  },
+                  "text": "is",
+                  "renderSlotKey": "be_marking",
+                  "sourceSlotKey": "copula_be",
+                  "sourceSlot": {
+                    "nid": "copula_be",
+                    "name": [
+                      {
+                        "lang": "zh",
+                        "text": "是"
+                      },
+                      {
+                        "lang": "en",
+                        "text": "be (linking)"
+                      }
+                    ],
+                    "description": [
+                      {
+                        "lang": "zh",
+                        "text": "把主语和身份、状态连起来，说明「是什么 / 怎么样」。除了 am / is / are / was / were，句型里也可能出现 will be、going to be 和缩写。常见写法如 am、am going to be、are、are going to be、is、is going to be、'm、'm going to be 等。例如 He is my brother."
+                      },
+                      {
+                        "lang": "en",
+                        "text": "Links the subject to an identity or state. Forms include am / is / are / was / were, will be, going to be, and contractions. Common writings include am, am going to be, are, are going to be, is, is going to be, 'm, 'm going to be, and other matching forms. Example: He is my brother."
+                      }
+                    ],
+                    "categoryNid": "grammar_auxiliary",
+                    "color": "rgba(245,158,11,1)"
+                  },
+                  "slotUid": 146220,
+                  "semanticIds": [
+                    734314
+                  ],
+                  "literal": false,
+                  "hasChildStruct": false
+                },
+                {
+                  "slotKey": "ongoing_predicate",
+                  "slot": {
+                    "nid": "ongoing_predicate",
+                    "name": [
+                      {
+                        "lang": "zh",
+                        "text": "正在进行的动作"
+                      },
+                      {
+                        "lang": "en",
+                        "text": "Ongoing Action"
+                      }
+                    ],
+                    "description": [
+                      {
+                        "lang": "zh",
+                        "text": "表示整句话里最核心的动作。用来表达正在发生或当前在说的事。"
+                      },
+                      {
+                        "lang": "en",
+                        "text": "Shows the core action of the sentence. It is used in present or ongoing situations."
+                      }
+                    ],
+                    "categoryNid": "verb_predicate",
+                    "color": "rgba(244,63,94,1)"
+                  },
+                  "required": true,
+                  "grammarControlling": true,
+                  "dependsOn": [],
+                  "text": "sleeping",
+                  "renderSlotKey": "ongoing_predicate",
+                  "sourceSlotKey": "ongoing_predicate",
+                  "sourceSlot": {
+                    "nid": "ongoing_predicate",
+                    "name": [
+                      {
+                        "lang": "zh",
+                        "text": "正在进行的动作"
+                      },
+                      {
+                        "lang": "en",
+                        "text": "Ongoing Action"
+                      }
+                    ],
+                    "description": [
+                      {
+                        "lang": "zh",
+                        "text": "表示整句话里最核心的动作。用来表达正在发生或当前在说的事。"
+                      },
+                      {
+                        "lang": "en",
+                        "text": "Shows the core action of the sentence. It is used in present or ongoing situations."
+                      }
+                    ],
+                    "categoryNid": "verb_predicate",
+                    "color": "rgba(244,63,94,1)"
+                  },
+                  "slotUid": 146221,
+                  "semanticIds": [
+                    728747,
+                    728748
+                  ],
+                  "literal": false,
+                  "hasChildStruct": false
+                },
+                {
+                  "slotKey": "__literal__",
+                  "slot": {
+                    "nid": "__literal__",
+                    "name": [
+                      {
+                        "lang": "en",
+                        "text": "literal"
+                      },
+                      {
+                        "lang": "zh",
+                        "text": "固定"
+                      }
+                    ],
+                    "color": "rgba(148,163,184,1)"
+                  },
+                  "text": ".",
+                  "renderSlotKey": "__literal__",
+                  "sourceSlotKey": "__literal__",
+                  "literal": true
+                }
+              ],
+              "access": "NORMAL"
+            }
+          },
+          {
+            "valueNid": "yes_no_question",
+            "sentenceId": 516148,
+            "sentenceStruct": {
+              "sentenceId": 516148,
+              "content": "Is the cat sleeping?",
+              "definition": "猫在睡觉吗？",
+              "patternNid": "ask_be_subject_doing",
+              "patternTemplate": "{aux_be} {question_subject} {ongoing_predicate} {question_object} {context_phrase} {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "问正在 / 将要进行的事"
+                },
+                {
+                  "lang": "en",
+                  "text": "Asking About Ongoing or Planned Progressive Actions"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "进行体一般疑问；现在进行与安排义进行共用蓝图，时间由 time_expression 表达。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Progressive yes-no questions; present and arrangement readings share one blueprint."
+                }
+              ],
+              "blueprintScope": "clause",
+              "blueprintScopeName": [
+                {
+                  "lang": "en",
+                  "text": "Clause Scope"
+                },
+                {
+                  "lang": "zh",
+                  "text": "子句内组合"
+                }
+              ],
+              "segmentList": [
+                {
+                  "slotKey": "aux_be",
+                  "slot": {
+                    "nid": "aux_be",
+                    "name": [
+                      {
+                        "lang": "zh",
+                        "text": "be（进行）"
+                      },
+                      {
+                        "lang": "en",
+                        "text": "be (helping)"
+                      }
+                    ],
+                    "description": [
+                      {
+                        "lang": "zh",
+                        "text": "帮助构成进行时等结构，本身不是主要动作。会随人称和时态写成 am / is / are / was / were，也可缩写。常见写法如 am、are、is、'm、're、's、was、were。例如 Is he your brother?"
+                      },
+                      {
+                        "lang": "en",
+                        "text": "Helps build progressive structures. It is not the main action. Forms include am / is / are / was / were and contractions. Common writings include am, are, is, 'm, 're, 's, was, were. Example: Is he your brother?"
+                      }
+                    ],
+                    "categoryNid": "grammar_auxiliary",
+                    "color": "rgba(245,158,11,1)"
+                  },
+                  "text": "Is",
+                  "renderSlotKey": "aux_be",
+                  "sourceSlotKey": "aux_be",
+                  "sourceSlot": {
+                    "nid": "aux_be",
+                    "name": [
+                      {
+                        "lang": "zh",
+                        "text": "be（进行）"
+                      },
+                      {
+                        "lang": "en",
+                        "text": "be (helping)"
+                      }
+                    ],
+                    "description": [
+                      {
+                        "lang": "zh",
+                        "text": "帮助构成进行时等结构，本身不是主要动作。会随人称和时态写成 am / is / are / was / were，也可缩写。常见写法如 am、are、is、'm、're、's、was、were。例如 Is he your brother?"
+                      },
+                      {
+                        "lang": "en",
+                        "text": "Helps build progressive structures. It is not the main action. Forms include am / is / are / was / were and contractions. Common writings include am, are, is, 'm, 're, 's, was, were. Example: Is he your brother?"
+                      }
+                    ],
+                    "categoryNid": "grammar_auxiliary",
+                    "color": "rgba(245,158,11,1)"
+                  },
+                  "slotUid": 146554,
+                  "semanticIds": [
+                    734314
+                  ],
+                  "literal": false,
+                  "hasChildStruct": false
+                },
+                {
+                  "slotKey": "question_subject",
+                  "slot": {
+                    "nid": "question_subject",
+                    "name": [
+                      {
+                        "lang": "zh",
+                        "text": "问句中的主语"
+                      },
+                      {
+                        "lang": "en",
+                        "text": "Question Subject"
+                      }
+                    ],
+                    "description": [
+                      {
+                        "lang": "zh",
+                        "text": "表示提问时句子里面真正承担动作或状态的那个主语。"
+                      },
+                      {
+                        "lang": "en",
+                        "text": "Shows the real subject inside a question: the person or thing that does the action or has the state."
+                      }
+                    ],
+                    "categoryNid": "subject_entity",
+                    "color": "rgba(14,165,233,1)"
+                  },
+                  "required": true,
+                  "grammarControlling": true,
+                  "dependsOn": [],
+                  "text": "the cat",
+                  "renderSlotKey": "question_subject",
+                  "sourceSlotKey": "question_subject",
+                  "sourceSlot": {
+                    "nid": "question_subject",
+                    "name": [
+                      {
+                        "lang": "zh",
+                        "text": "问句中的主语"
+                      },
+                      {
+                        "lang": "en",
+                        "text": "Question Subject"
+                      }
+                    ],
+                    "description": [
+                      {
+                        "lang": "zh",
+                        "text": "表示提问时句子里面真正承担动作或状态的那个主语。"
+                      },
+                      {
+                        "lang": "en",
+                        "text": "Shows the real subject inside a question: the person or thing that does the action or has the state."
+                      }
+                    ],
+                    "categoryNid": "subject_entity",
+                    "color": "rgba(14,165,233,1)"
+                  },
+                  "slotUid": 146555,
+                  "semanticIds": [],
+                  "literal": false,
+                  "hasChildStruct": false
+                },
+                {
+                  "slotKey": "ongoing_predicate",
+                  "slot": {
+                    "nid": "ongoing_predicate",
+                    "name": [
+                      {
+                        "lang": "zh",
+                        "text": "正在进行的动作"
+                      },
+                      {
+                        "lang": "en",
+                        "text": "Ongoing Action"
+                      }
+                    ],
+                    "description": [
+                      {
+                        "lang": "zh",
+                        "text": "表示整句话里最核心的动作。用来表达正在发生或当前在说的事。"
+                      },
+                      {
+                        "lang": "en",
+                        "text": "Shows the core action of the sentence. It is used in present or ongoing situations."
+                      }
+                    ],
+                    "categoryNid": "verb_predicate",
+                    "color": "rgba(244,63,94,1)"
+                  },
+                  "required": true,
+                  "grammarControlling": true,
+                  "dependsOn": [],
+                  "text": "sleeping",
+                  "renderSlotKey": "ongoing_predicate",
+                  "sourceSlotKey": "ongoing_predicate",
+                  "sourceSlot": {
+                    "nid": "ongoing_predicate",
+                    "name": [
+                      {
+                        "lang": "zh",
+                        "text": "正在进行的动作"
+                      },
+                      {
+                        "lang": "en",
+                        "text": "Ongoing Action"
+                      }
+                    ],
+                    "description": [
+                      {
+                        "lang": "zh",
+                        "text": "表示整句话里最核心的动作。用来表达正在发生或当前在说的事。"
+                      },
+                      {
+                        "lang": "en",
+                        "text": "Shows the core action of the sentence. It is used in present or ongoing situations."
+                      }
+                    ],
+                    "categoryNid": "verb_predicate",
+                    "color": "rgba(244,63,94,1)"
+                  },
+                  "slotUid": 146556,
+                  "semanticIds": [
+                    728747,
+                    728748
+                  ],
+                  "literal": false,
+                  "hasChildStruct": false
+                },
+                {
+                  "slotKey": "__literal__",
+                  "slot": {
+                    "nid": "__literal__",
+                    "name": [
+                      {
+                        "lang": "en",
+                        "text": "literal"
+                      },
+                      {
+                        "lang": "zh",
+                        "text": "固定"
+                      }
+                    ],
+                    "color": "rgba(148,163,184,1)"
+                  },
+                  "text": "?",
+                  "renderSlotKey": "__literal__",
+                  "sourceSlotKey": "__literal__",
+                  "literal": true
+                }
+              ],
+              "access": "NORMAL"
+            }
+          },
+          {
+            "valueNid": "wh_question",
+            "sentenceId": 555742,
+            "sentenceStruct": {
+              "sentenceId": 555742,
+              "content": "What is the cat doing?",
+              "definition": "猫在做什么？",
+              "patternNid": "ask_what_be_subject_doing",
+              "patternTemplate": "What {aux_be} {question_subject} doing {time_expression}?",
+              "patternName": [
+                {
+                  "lang": "zh",
+                  "text": "用 what 问正在 / 将要做什么"
+                },
+                {
+                  "lang": "en",
+                  "text": "Asking What Someone Is/Will Be Doing"
+                }
+              ],
+              "patternDescription": [
+                {
+                  "lang": "zh",
+                  "text": "询问现在正在做什么。"
+                },
+                {
+                  "lang": "en",
+                  "text": "Used to ask about what someone is doing now."
+                }
+              ],
+              "blueprintScope": "clause",
+              "blueprintScopeName": [
+                {
+                  "lang": "en",
+                  "text": "Clause Scope"
+                },
+                {
+                  "lang": "zh",
+                  "text": "子句内组合"
+                }
+              ],
+              "segmentList": [
+                {
+                  "slotKey": "__literal__",
+                  "slot": {
+                    "nid": "__literal__",
+                    "name": [
+                      {
+                        "lang": "en",
+                        "text": "literal"
+                      },
+                      {
+                        "lang": "zh",
+                        "text": "固定"
+                      }
+                    ],
+                    "color": "rgba(148,163,184,1)"
+                  },
+                  "text": "What",
+                  "renderSlotKey": "__literal__",
+                  "sourceSlotKey": "__literal__",
+                  "literal": true
+                },
+                {
+                  "slotKey": "aux_be",
+                  "slot": {
+                    "nid": "aux_be",
+                    "name": [
+                      {
+                        "lang": "zh",
+                        "text": "be（进行）"
+                      },
+                      {
+                        "lang": "en",
+                        "text": "be (helping)"
+                      }
+                    ],
+                    "description": [
+                      {
+                        "lang": "zh",
+                        "text": "帮助构成进行时等结构，本身不是主要动作。会随人称和时态写成 am / is / are / was / were，也可缩写。常见写法如 am、are、is、'm、're、's、was、were。例如 Is he your brother?"
+                      },
+                      {
+                        "lang": "en",
+                        "text": "Helps build progressive structures. It is not the main action. Forms include am / is / are / was / were and contractions. Common writings include am, are, is, 'm, 're, 's, was, were. Example: Is he your brother?"
+                      }
+                    ],
+                    "categoryNid": "grammar_auxiliary",
+                    "color": "rgba(245,158,11,1)"
+                  },
+                  "text": "is",
+                  "renderSlotKey": "aux_be",
+                  "sourceSlotKey": "aux_be",
+                  "sourceSlot": {
+                    "nid": "aux_be",
+                    "name": [
+                      {
+                        "lang": "zh",
+                        "text": "be（进行）"
+                      },
+                      {
+                        "lang": "en",
+                        "text": "be (helping)"
+                      }
+                    ],
+                    "description": [
+                      {
+                        "lang": "zh",
+                        "text": "帮助构成进行时等结构，本身不是主要动作。会随人称和时态写成 am / is / are / was / were，也可缩写。常见写法如 am、are、is、'm、're、's、was、were。例如 Is he your brother?"
+                      },
+                      {
+                        "lang": "en",
+                        "text": "Helps build progressive structures. It is not the main action. Forms include am / is / are / was / were and contractions. Common writings include am, are, is, 'm, 're, 's, was, were. Example: Is he your brother?"
+                      }
+                    ],
+                    "categoryNid": "grammar_auxiliary",
+                    "color": "rgba(245,158,11,1)"
+                  },
+                  "slotUid": 225038,
+                  "semanticIds": [
+                    734314
+                  ],
+                  "literal": false,
+                  "hasChildStruct": false
+                },
+                {
+                  "slotKey": "question_subject",
+                  "slot": {
+                    "nid": "question_subject",
+                    "name": [
+                      {
+                        "lang": "zh",
+                        "text": "问句中的主语"
+                      },
+                      {
+                        "lang": "en",
+                        "text": "Question Subject"
+                      }
+                    ],
+                    "description": [
+                      {
+                        "lang": "zh",
+                        "text": "表示提问时句子里面真正承担动作或状态的那个主语。"
+                      },
+                      {
+                        "lang": "en",
+                        "text": "Shows the real subject inside a question: the person or thing that does the action or has the state."
+                      }
+                    ],
+                    "categoryNid": "subject_entity",
+                    "color": "rgba(14,165,233,1)"
+                  },
+                  "required": true,
+                  "grammarControlling": true,
+                  "dependsOn": [],
+                  "text": "the cat",
+                  "renderSlotKey": "question_subject",
+                  "sourceSlotKey": "question_subject",
+                  "sourceSlot": {
+                    "nid": "question_subject",
+                    "name": [
+                      {
+                        "lang": "zh",
+                        "text": "问句中的主语"
+                      },
+                      {
+                        "lang": "en",
+                        "text": "Question Subject"
+                      }
+                    ],
+                    "description": [
+                      {
+                        "lang": "zh",
+                        "text": "表示提问时句子里面真正承担动作或状态的那个主语。"
+                      },
+                      {
+                        "lang": "en",
+                        "text": "Shows the real subject inside a question: the person or thing that does the action or has the state."
+                      }
+                    ],
+                    "categoryNid": "subject_entity",
+                    "color": "rgba(14,165,233,1)"
+                  },
+                  "slotUid": 225037,
+                  "semanticIds": [],
+                  "literal": false,
+                  "hasChildStruct": false
+                },
+                {
+                  "slotKey": "__literal__",
+                  "slot": {
+                    "nid": "__literal__",
+                    "name": [
+                      {
+                        "lang": "en",
+                        "text": "literal"
+                      },
+                      {
+                        "lang": "zh",
+                        "text": "固定"
+                      }
+                    ],
+                    "color": "rgba(148,163,184,1)"
+                  },
+                  "text": "doing",
+                  "renderSlotKey": "__literal__",
+                  "sourceSlotKey": "__literal__",
+                  "literal": true
+                },
+                {
+                  "slotKey": "__literal__",
+                  "slot": {
+                    "nid": "__literal__",
+                    "name": [
+                      {
+                        "lang": "en",
+                        "text": "literal"
+                      },
+                      {
+                        "lang": "zh",
+                        "text": "固定"
+                      }
+                    ],
+                    "color": "rgba(148,163,184,1)"
+                  },
+                  "text": "?",
+                  "renderSlotKey": "__literal__",
+                  "sourceSlotKey": "__literal__",
+                  "literal": true
+                }
+              ],
+              "access": "NORMAL"
+            }
+          }
+        ]
+      }
+    ],
+    "system": true,
+    "enabled": true,
+    "order": 53000.0,
+    "created": "2026-09-02T04:06:05.753+00:00",
+    "updated": "2026-09-02T04:06:05.753+00:00"
+  }
+}

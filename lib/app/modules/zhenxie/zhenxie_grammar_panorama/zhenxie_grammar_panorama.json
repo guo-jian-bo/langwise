@@ -1,0 +1,447 @@
+{
+    "nid": "state_time_polarity_grid",
+    "gridKind": "time_polarity",
+    "difficulty": {
+        "max": 2,
+        "min": 1
+    },
+    "order": 30.0,
+    "name": [
+        {
+            "lang": "zh",
+            "text": "同一状态放进不同时态与肯否"
+        },
+        {
+            "lang": "en",
+            "text": "One State Across Time and Polarity"
+        }
+    ],
+    "description": [
+        {
+            "lang": "zh",
+            "text": "同一个“谁/什么 + 什么状态”，对照现在与过去、肯定与否定。"
+        },
+        {
+            "lang": "en",
+            "text": "Same subject + state across present/past and affirmative/negative."
+        }
+    ],
+    "system": true,
+    "enabled": true,
+    "axes": [
+        {
+            "axisKey": "time",
+            "dimensionNid": "time_viewpoint",
+            "dimension": {
+                "nid": "time_viewpoint",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "过去 / 现在 / 将来视角"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Past / Present / Future Viewpoint"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "语法宫格用的粗时间视角轴（past / present / future）。细时体与 will/going to 不进本维；时体对照走 grid，不建时体 paradigm。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Coarse time viewpoint axis for grammar grids (past / present / future). Fine tense forms and will/going-to live elsewhere; tense-aspect contrast uses grids, not paradigms."
+                    }
+                ]
+            },
+            "values": [
+                "present",
+                "past"
+            ],
+            "valuesLabels": [
+                {
+                    "nid": "present",
+                    "name": [
+                        {
+                            "lang": "en",
+                            "text": "Present"
+                        },
+                        {
+                            "lang": "zh",
+                            "text": "现在"
+                        }
+                    ]
+                },
+                {
+                    "nid": "past",
+                    "name": [
+                        {
+                            "lang": "en",
+                            "text": "Past"
+                        },
+                        {
+                            "lang": "zh",
+                            "text": "过去"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "axisKey": "polarity",
+            "dimensionNid": "polarity",
+            "dimension": {
+                "nid": "polarity",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "肯定和否定怎样对照"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Affirmative vs Negative Contrast"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "用于比较同一个意思说成肯定或否定时的差异。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Used to compare how the same idea changes between affirmative and negative forms."
+                    }
+                ]
+            },
+            "values": [
+                "affirmative",
+                "negative"
+            ],
+            "valuesLabels": [
+                {
+                    "nid": "affirmative",
+                    "name": [
+                        {
+                            "lang": "en",
+                            "text": "Affirmative"
+                        },
+                        {
+                            "lang": "zh",
+                            "text": "肯定"
+                        }
+                    ]
+                },
+                {
+                    "nid": "negative",
+                    "name": [
+                        {
+                            "lang": "en",
+                            "text": "Negative"
+                        },
+                        {
+                            "lang": "zh",
+                            "text": "否定"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "cellCount": 4,
+    "cells": [
+        {
+            "rowValue": "present",
+            "colValue": "affirmative",
+            "key": "present|affirmative",
+            "label": [
+                {
+                    "lang": "en",
+                    "text": "Present · Affirmative"
+                },
+                {
+                    "lang": "zh",
+                    "text": "现在·肯定"
+                }
+            ],
+            "axisValues": {
+                "time": "present",
+                "polarity": "affirmative"
+            }
+        },
+        {
+            "rowValue": "present",
+            "colValue": "negative",
+            "key": "present|negative",
+            "label": [
+                {
+                    "lang": "en",
+                    "text": "Present · Negative"
+                },
+                {
+                    "lang": "zh",
+                    "text": "现在·否定"
+                }
+            ],
+            "axisValues": {
+                "time": "present",
+                "polarity": "negative"
+            }
+        },
+        {
+            "rowValue": "past",
+            "colValue": "affirmative",
+            "key": "past|affirmative",
+            "label": [
+                {
+                    "lang": "en",
+                    "text": "Past · Affirmative"
+                },
+                {
+                    "lang": "zh",
+                    "text": "过去·肯定"
+                }
+            ],
+            "axisValues": {
+                "time": "past",
+                "polarity": "affirmative"
+            }
+        },
+        {
+            "rowValue": "past",
+            "colValue": "negative",
+            "key": "past|negative",
+            "label": [
+                {
+                    "lang": "en",
+                    "text": "Past · Negative"
+                },
+                {
+                    "lang": "zh",
+                    "text": "过去·否定"
+                }
+            ],
+            "axisValues": {
+                "time": "past",
+                "polarity": "negative"
+            }
+        }
+    ],
+    "contrastFoci": [
+        {
+            "focusKey": "polarity_marking",
+            "bindings": [
+                {
+                    "axisValues": {
+                        "time": "present",
+                        "polarity": "affirmative"
+                    },
+                    "patternSlotKeys": [
+                        "copula_be"
+                    ],
+                    "patternSlots": [
+                        {
+                            "nid": "copula_be",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "be 系动词（肯定）"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "be linking verb (affirmative)"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "把主语和身份、状态、特征连起来，说明“是什么 / 怎么样”。这里用肯定说法。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Links the subject to an identity, state, or quality — what it is or how it is. This side is the affirmative form."
+                                }
+                            ],
+                            "categoryNid": "grammar_auxiliary",
+                            "color": "rgba(245,158,11,1)"
+                        }
+                    ]
+                },
+                {
+                    "axisValues": {
+                        "time": "present",
+                        "polarity": "negative"
+                    },
+                    "patternSlotKeys": [
+                        "copula_be_negative"
+                    ],
+                    "patternSlots": [
+                        {
+                            "nid": "copula_be_negative",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "be 系动词（否定）"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "be linking verb (negative)"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "把主语和身份、状态、特征连起来，说明“是什么 / 怎么样”。这里用否定说法。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Links the subject to an identity, state, or quality — what it is or how it is. This side is the negative form."
+                                }
+                            ],
+                            "categoryNid": "negative_auxiliary",
+                            "color": "rgba(245,158,11,1)"
+                        }
+                    ]
+                },
+                {
+                    "axisValues": {
+                        "time": "past",
+                        "polarity": "affirmative"
+                    },
+                    "patternSlotKeys": [
+                        "copula_be"
+                    ],
+                    "patternSlots": [
+                        {
+                            "nid": "copula_be",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "be 系动词（肯定）"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "be linking verb (affirmative)"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "把主语和身份、状态、特征连起来，说明“是什么 / 怎么样”。这里用肯定说法。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Links the subject to an identity, state, or quality — what it is or how it is. This side is the affirmative form."
+                                }
+                            ],
+                            "categoryNid": "grammar_auxiliary",
+                            "color": "rgba(245,158,11,1)"
+                        }
+                    ]
+                },
+                {
+                    "axisValues": {
+                        "time": "past",
+                        "polarity": "negative"
+                    },
+                    "patternSlotKeys": [
+                        "copula_be_negative"
+                    ],
+                    "patternSlots": [
+                        {
+                            "nid": "copula_be_negative",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "be 系动词（否定）"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "be linking verb (negative)"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "把主语和身份、状态、特征连起来，说明“是什么 / 怎么样”。这里用否定说法。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Links the subject to an identity, state, or quality — what it is or how it is. This side is the negative form."
+                                }
+                            ],
+                            "categoryNid": "negative_auxiliary",
+                            "color": "rgba(245,158,11,1)"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "sentenceEligibility": {
+        "suggestedPatternNids": [
+            "state_entity_be_adj"
+        ],
+        "suggestedPatterns": [
+            {
+                "nid": "state_entity_be_adj",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "说明是什么状态"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Say what state it is in"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "直接描述人或物当前的状态、性质或感觉，如冷、忙、开心。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Describes a current state or quality, such as cold, busy, or happy."
+                    }
+                ],
+                "template": "{fronted_context} {subject} {be_marking} {frequency_adv} {property} {context_phrase}."
+            }
+        ]
+    },
+    "teachingEntryAxisValues": {
+        "time": "present",
+        "polarity": "affirmative"
+    },
+    "minimalSubGrids": [
+        {
+            "nid": "state_time_affirmative",
+            "axisSubsets": {
+                "time": [
+                    "present",
+                    "past"
+                ],
+                "polarity": [
+                    "affirmative"
+                ]
+            },
+            "cellCount": 2
+        },
+        {
+            "nid": "state_present_polarity",
+            "axisSubsets": {
+                "time": [
+                    "present"
+                ],
+                "polarity": [
+                    "affirmative",
+                    "negative"
+                ]
+            },
+            "cellCount": 2
+        }
+    ],
+    "minimalSubGridCount": 2,
+    "created": "2026-08-23T12:32:29.438+00:00",
+    "updated": "2026-08-23T12:32:29.438+00:00"
+}
