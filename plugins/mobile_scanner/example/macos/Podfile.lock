@@ -1,0 +1,28 @@
+PODS:
+  - file_selector_macos (0.0.1):
+    - FlutterMacOS
+  - FlutterMacOS (1.0.0)
+  - mobile_scanner (6.0.2):
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - file_selector_macos (from `Flutter/ephemeral/.symlinks/plugins/file_selector_macos/macos`)
+  - FlutterMacOS (from `Flutter/ephemeral`)
+  - mobile_scanner (from `Flutter/ephemeral/.symlinks/plugins/mobile_scanner/macos`)
+
+EXTERNAL SOURCES:
+  file_selector_macos:
+    :path: Flutter/ephemeral/.symlinks/plugins/file_selector_macos/macos
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+  mobile_scanner:
+    :path: Flutter/ephemeral/.symlinks/plugins/mobile_scanner/macos
+
+SPEC CHECKSUMS:
+  file_selector_macos: cc3858c981fe6889f364731200d6232dac1d812d
+  FlutterMacOS: 8f6f14fa908a6fb3fba0cd85dbd81ec4b251fb24
+  mobile_scanner: 07710d6b9b2c220ae899de2d7ecf5d77ffa56333
+
+PODFILE CHECKSUM: 51a5c1d75a57dd867b52ad46f96673929594fb1d
+
+COCOAPODS: 1.16.2

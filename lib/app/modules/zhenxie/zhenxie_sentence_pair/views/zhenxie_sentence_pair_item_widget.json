@@ -1,0 +1,980 @@
+{
+    "nid": "who_routine_question_to_routine_answer",
+    "order": 157000.0,
+    "pairTypeNid": "qa_pair",
+    "pairType": {
+        "nid": "qa_pair",
+        "name": [
+            {
+                "lang": "zh",
+                "text": "问答配对"
+            },
+            {
+                "lang": "en",
+                "text": "Question-Answer Pair"
+            }
+        ],
+        "description": [
+            {
+                "lang": "zh",
+                "text": "用于把一个问句和最直接的答句结构绑定成教学问答对。"
+            },
+            {
+                "lang": "en",
+                "text": "Links a question pattern with its most direct answer pattern for teaching."
+            }
+        ]
+    },
+    "name": [
+        {
+            "lang": "zh",
+            "text": "询问是谁会这样做"
+        },
+        {
+            "lang": "en",
+            "text": "Asking Who Usually Does It"
+        }
+    ],
+    "description": [
+        {
+            "lang": "zh",
+            "text": "先问平时是谁在某个时间做这件事，再把人物和日常动作一起回答出来。"
+        },
+        {
+            "lang": "en",
+            "text": "A question asks who usually does something at a certain time and the answer gives that routine."
+        }
+    ],
+    "teachingExampleFrom": "Who makes dinner in the evening?",
+    "teachingExampleTo": "My mother makes dinner in the evening.",
+    "practiceMode": "solo",
+    "preferredPractice": "solo",
+    "system": true,
+    "enabled": true,
+    "fromRealization": {
+        "patternNid": "ask_who_routine_time",
+        "pattern": {
+            "nid": "ask_who_routine_time",
+            "name": [
+                {
+                    "lang": "zh",
+                    "text": "询问这个时间谁会做这件事"
+                },
+                {
+                    "lang": "en",
+                    "text": "Asking Who Does Something at This Time"
+                }
+            ],
+            "description": [
+                {
+                    "lang": "zh",
+                    "text": "用来询问这个时间谁会做这件事。主要意义落在实义动词上。常见于提问场景。"
+                },
+                {
+                    "lang": "en",
+                    "text": "Used to Asking Who Does Something at This Time."
+                }
+            ],
+            "template": "Who {habit_predicate} {habit_time} {context_phrase} {place_phrase} {time_expression}?"
+        },
+        "grammarFeatureNids": [
+            "indicative_mood",
+            "active_voice"
+        ],
+        "grammarFeatures": [
+            {
+                "nid": "indicative_mood",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "陈述语气"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Indicative Mood"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+                    }
+                ]
+            },
+            {
+                "nid": "active_voice",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "主动语态"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Active Voice"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+                    }
+                ]
+            }
+        ]
+    },
+    "toRealization": {
+        "patternNid": "entity_pred",
+        "pattern": {
+            "nid": "entity_pred",
+            "name": [
+                {
+                    "lang": "zh",
+                    "text": "说明做什么"
+                },
+                {
+                    "lang": "en",
+                    "text": "Say what someone does"
+                }
+            ],
+            "description": [
+                {
+                    "lang": "zh",
+                    "text": "用来讲一般会做、习惯做或将要做的动作，不强调“正在进行中”。"
+                },
+                {
+                    "lang": "en",
+                    "text": "For habitual, general, or future actions — not the sense of “in progress right now”."
+                }
+            ],
+            "template": "{actor} {finite_operator_marking} {action_predicate} {object} {place_phrase} {context_phrase} {time_expression} {manner_expression} {reason_expression} {purpose_expression} {relative_clause}."
+        },
+        "grammarFeatureNids": [
+            "affirmative",
+            "indicative_mood",
+            "active_voice"
+        ],
+        "grammarFeatures": [
+            {
+                "nid": "affirmative",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "肯定形式"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Affirmative"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "表示肯定、确认或直接陈述某事成立。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Marks a positive statement, confirmation, or direct assertion that something holds true."
+                    }
+                ]
+            },
+            {
+                "nid": "indicative_mood",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "陈述语气"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Indicative Mood"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "用于陈述事实、推断或一般信息，是英语中最常见的语气。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Used to state facts, inferences, or general information; it is the most common mood in English."
+                    }
+                ]
+            },
+            {
+                "nid": "active_voice",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "主动语态"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Active Voice"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "主语执行动作，表达更直接，常用于清楚说明施事者。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "The subject performs the action, giving a direct structure that clearly highlights the doer."
+                    }
+                ]
+            }
+        ]
+    },
+    "interactionModes": [
+        "connect",
+        "sort"
+    ],
+    "relationDirection": "directed",
+    "orderConstraint": "from_before_to",
+    "semanticAnchorMappings": [
+        {
+            "fromPatternSlotKey": "habit_predicate",
+            "fromPatternSlot": {
+                "nid": "habit_predicate",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "习惯动作"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Habit Action"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "表示和“习惯”有关的核心动作。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Shows the core action connected with habit."
+                    }
+                ],
+                "categoryNid": "verb_predicate"
+            },
+            "toPatternSlotKey": "action_predicate",
+            "toPatternSlot": {
+                "nid": "action_predicate",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "动作本身"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Action Itself"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "表示句子里真正发生的那个动作本身。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Shows the action itself: the central action happening in the sentence."
+                    }
+                ],
+                "categoryNid": "verb_predicate"
+            }
+        },
+        {
+            "fromPatternSlotKey": "habit_time",
+            "fromPatternSlot": {
+                "nid": "habit_time",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "习惯时间"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Habit Time"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "表示时间点、时间段、频率或先后顺序。用来说明时间安排、时长或频率。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Shows time points, durations, frequencies, or sequence information. It is used for time, duration, or frequency information."
+                    }
+                ],
+                "categoryNid": "time_expression"
+            },
+            "toPatternSlotKey": "time_expression",
+            "toPatternSlot": {
+                "nid": "time_expression",
+                "name": [
+                    {
+                        "lang": "zh",
+                        "text": "时间表达"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Time Expression"
+                    }
+                ],
+                "description": [
+                    {
+                        "lang": "zh",
+                        "text": "表示什么时候、持续多久、多久一次，或者先后顺序。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Shows when something happens, how long it lasts, how often it happens, or where it falls in a sequence."
+                    }
+                ],
+                "categoryNid": "time_expression"
+            }
+        }
+    ],
+    "realizationSetList": [
+        {
+            "realizationSetId": 3106,
+            "order": 0,
+            "fromSentenceId": 572514,
+            "fromSentenceStruct": {
+                "sentenceId": 572514,
+                "content": "Who cooks dinner in the evening?",
+                "definition": "谁在晚上做晚饭？",
+                "patternNid": "ask_who_routine_time",
+                "patternTemplate": "Who {habit_predicate} {habit_time} {context_phrase} {place_phrase} {time_expression}?",
+                "patternName": [
+                    {
+                        "lang": "zh",
+                        "text": "询问这个时间谁会做这件事"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Asking Who Does Something at This Time"
+                    }
+                ],
+                "patternDescription": [
+                    {
+                        "lang": "zh",
+                        "text": "用来询问这个时间谁会做这件事。主要意义落在实义动词上。常见于提问场景。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Used to Asking Who Does Something at This Time."
+                    }
+                ],
+                "blueprintScope": "clause",
+                "blueprintScopeName": [
+                    {
+                        "lang": "en",
+                        "text": "Clause Scope"
+                    },
+                    {
+                        "lang": "zh",
+                        "text": "子句内组合"
+                    }
+                ],
+                "segmentList": [
+                    {
+                        "slotKey": "__literal__",
+                        "slot": {
+                            "nid": "__literal__",
+                            "name": [
+                                {
+                                    "lang": "en",
+                                    "text": "literal"
+                                },
+                                {
+                                    "lang": "zh",
+                                    "text": "固定"
+                                }
+                            ],
+                            "color": "rgba(172,181,188,1)"
+                        },
+                        "text": "Who",
+                        "renderSlotKey": "__literal__",
+                        "sourceSlotKey": "__literal__",
+                        "literal": true
+                    },
+                    {
+                        "slotKey": "habit_predicate",
+                        "slot": {
+                            "nid": "habit_predicate",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "习惯动作"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Habit Action"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示和“习惯”有关的核心动作。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows the core action connected with habit."
+                                }
+                            ],
+                            "categoryNid": "verb_predicate"
+                        },
+                        "required": true,
+                        "grammarControlling": true,
+                        "dependsOn": [],
+                        "text": "cooks",
+                        "renderSlotKey": "habit_predicate",
+                        "sourceSlotKey": "habit_predicate",
+                        "sourceSlot": {
+                            "nid": "habit_predicate",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "习惯动作"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Habit Action"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示和“习惯”有关的核心动作。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows the core action connected with habit."
+                                }
+                            ],
+                            "categoryNid": "verb_predicate"
+                        },
+                        "slotUid": 261435,
+                        "semanticIds": [
+                            672633
+                        ],
+                        "literal": false,
+                        "hasChildStruct": false
+                    },
+                    {
+                        "slotKey": "__residual__",
+                        "slot": {
+                            "nid": "__residual__",
+                            "name": [
+                                {
+                                    "lang": "en",
+                                    "text": "residual"
+                                },
+                                {
+                                    "lang": "zh",
+                                    "text": "余文"
+                                }
+                            ],
+                            "color": "rgba(172,181,188,1)"
+                        },
+                        "text": "dinner",
+                        "renderSlotKey": "__residual__",
+                        "sourceSlotKey": "__residual__",
+                        "sourceSlot": {
+                            "nid": "__residual__",
+                            "name": [
+                                {
+                                    "lang": "en",
+                                    "text": "residual"
+                                },
+                                {
+                                    "lang": "zh",
+                                    "text": "余文"
+                                }
+                            ],
+                            "color": "rgba(172,181,188,1)"
+                        },
+                        "literal": false,
+                        "hasChildStruct": false
+                    },
+                    {
+                        "slotKey": "habit_time",
+                        "slot": {
+                            "nid": "habit_time",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "习惯时间"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Habit Time"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示时间点、时间段、频率或先后顺序。用来说明时间安排、时长或频率。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows time points, durations, frequencies, or sequence information. It is used for time, duration, or frequency information."
+                                }
+                            ],
+                            "categoryNid": "time_expression"
+                        },
+                        "required": true,
+                        "grammarControlling": true,
+                        "dependsOn": [],
+                        "text": "in the evening",
+                        "renderSlotKey": "habit_time",
+                        "sourceSlotKey": "habit_time",
+                        "sourceSlot": {
+                            "nid": "habit_time",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "习惯时间"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Habit Time"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示时间点、时间段、频率或先后顺序。用来说明时间安排、时长或频率。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows time points, durations, frequencies, or sequence information. It is used for time, duration, or frequency information."
+                                }
+                            ],
+                            "categoryNid": "time_expression"
+                        },
+                        "slotUid": 261436,
+                        "semanticIds": [
+                            734494
+                        ],
+                        "literal": false,
+                        "hasChildStruct": false
+                    },
+                    {
+                        "slotKey": "context_phrase",
+                        "slot": {
+                            "nid": "context_phrase",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "背景短语"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Context Phrase"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示动作或状态发生时的背景补充：常见为介词短语（地点、搭配、场景），也可为缩略的 V-ing 情状状语（如 entering Atlantic Daylight Time / walking home），不单独升成从句。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Background adjunct for an action or state: often a PP (place, company, setting), and also a reduced V-ing circumstance adjunct (e.g. entering Atlantic Daylight Time / walking home), kept inside the clause rather than promoted."
+                                }
+                            ],
+                            "categoryNid": "lexical_chunk"
+                        },
+                        "required": false,
+                        "grammarControlling": true,
+                        "dependsOn": [],
+                        "text": "dinner",
+                        "renderSlotKey": "context_phrase",
+                        "sourceSlotKey": "context_phrase",
+                        "sourceSlot": {
+                            "nid": "context_phrase",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "背景短语"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Context Phrase"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示动作或状态发生时的背景补充：常见为介词短语（地点、搭配、场景），也可为缩略的 V-ing 情状状语（如 entering Atlantic Daylight Time / walking home），不单独升成从句。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Background adjunct for an action or state: often a PP (place, company, setting), and also a reduced V-ing circumstance adjunct (e.g. entering Atlantic Daylight Time / walking home), kept inside the clause rather than promoted."
+                                }
+                            ],
+                            "categoryNid": "lexical_chunk"
+                        },
+                        "slotUid": 261437,
+                        "semanticIds": [
+                            681985,
+                            681986
+                        ],
+                        "literal": false,
+                        "hasChildStruct": false
+                    },
+                    {
+                        "slotKey": "__literal__",
+                        "slot": {
+                            "nid": "__literal__",
+                            "name": [
+                                {
+                                    "lang": "en",
+                                    "text": "literal"
+                                },
+                                {
+                                    "lang": "zh",
+                                    "text": "固定"
+                                }
+                            ],
+                            "color": "rgba(172,181,188,1)"
+                        },
+                        "text": "?",
+                        "renderSlotKey": "__literal__",
+                        "sourceSlotKey": "__literal__",
+                        "literal": true
+                    }
+                ]
+            },
+            "toSentenceId": 572515,
+            "toSentenceStruct": {
+                "sentenceId": 572515,
+                "content": "My mother cooks dinner in the evening.",
+                "definition": "我妈妈在晚上做晚饭。",
+                "patternNid": "entity_pred",
+                "patternTemplate": "{actor} {finite_operator_marking} {action_predicate} {object} {place_phrase} {context_phrase} {time_expression} {manner_expression} {reason_expression} {purpose_expression} {relative_clause}.",
+                "patternName": [
+                    {
+                        "lang": "zh",
+                        "text": "说明做什么"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "Say what someone does"
+                    }
+                ],
+                "patternDescription": [
+                    {
+                        "lang": "zh",
+                        "text": "用来讲一般会做、习惯做或将要做的动作，不强调“正在进行中”。"
+                    },
+                    {
+                        "lang": "en",
+                        "text": "For habitual, general, or future actions — not the sense of “in progress right now”."
+                    }
+                ],
+                "blueprintScope": "clause",
+                "blueprintScopeName": [
+                    {
+                        "lang": "en",
+                        "text": "Clause Scope"
+                    },
+                    {
+                        "lang": "zh",
+                        "text": "子句内组合"
+                    }
+                ],
+                "segmentList": [
+                    {
+                        "slotKey": "actor",
+                        "slot": {
+                            "nid": "actor",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "动作发出者"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Actor"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示真正发出这个动作的人或事物，也就是“是谁在做这件事”。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows the subject in this meaning."
+                                }
+                            ],
+                            "categoryNid": "subject_entity"
+                        },
+                        "required": true,
+                        "grammarControlling": true,
+                        "dependsOn": [],
+                        "text": "My mother",
+                        "renderSlotKey": "actor",
+                        "sourceSlotKey": "actor",
+                        "sourceSlot": {
+                            "nid": "actor",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "动作发出者"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Actor"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示真正发出这个动作的人或事物，也就是“是谁在做这件事”。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows the subject in this meaning."
+                                }
+                            ],
+                            "categoryNid": "subject_entity"
+                        },
+                        "slotUid": 261438,
+                        "semanticIds": [],
+                        "literal": false,
+                        "hasChildStruct": false
+                    },
+                    {
+                        "slotKey": "action_predicate",
+                        "slot": {
+                            "nid": "action_predicate",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "动作本身"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Action Itself"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示句子里真正发生的那个动作本身。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows the action itself: the central action happening in the sentence."
+                                }
+                            ],
+                            "categoryNid": "verb_predicate"
+                        },
+                        "required": true,
+                        "grammarControlling": true,
+                        "dependsOn": [],
+                        "text": "cooks",
+                        "renderSlotKey": "action_predicate",
+                        "sourceSlotKey": "action_predicate",
+                        "sourceSlot": {
+                            "nid": "action_predicate",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "动作本身"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Action Itself"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示句子里真正发生的那个动作本身。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows the action itself: the central action happening in the sentence."
+                                }
+                            ],
+                            "categoryNid": "verb_predicate"
+                        },
+                        "slotUid": 261439,
+                        "semanticIds": [
+                            672633
+                        ],
+                        "literal": false,
+                        "hasChildStruct": false
+                    },
+                    {
+                        "slotKey": "object",
+                        "slot": {
+                            "nid": "object",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "宾语对象"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Object"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示动作直接作用到的对象，比如买什么、吃什么、带什么、看到什么。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows the thing directly affected by the action, such as what is bought, eaten, taken, or seen."
+                                }
+                            ],
+                            "categoryNid": "object_entity"
+                        },
+                        "required": false,
+                        "grammarControlling": true,
+                        "growthPriority": 10,
+                        "dependsOn": [],
+                        "text": "dinner",
+                        "renderSlotKey": "object",
+                        "sourceSlotKey": "object",
+                        "sourceSlot": {
+                            "nid": "object",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "宾语对象"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Object"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示动作直接作用到的对象，比如买什么、吃什么、带什么、看到什么。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows the thing directly affected by the action, such as what is bought, eaten, taken, or seen."
+                                }
+                            ],
+                            "categoryNid": "object_entity"
+                        },
+                        "slotUid": 261440,
+                        "semanticIds": [
+                            681985,
+                            681986
+                        ],
+                        "literal": false,
+                        "hasChildStruct": false
+                    },
+                    {
+                        "slotKey": "time_expression",
+                        "slot": {
+                            "nid": "time_expression",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "时间表达"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Time Expression"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示什么时候、持续多久、多久一次，或者先后顺序。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows when something happens, how long it lasts, how often it happens, or where it falls in a sequence."
+                                }
+                            ],
+                            "categoryNid": "time_expression"
+                        },
+                        "required": false,
+                        "grammarControlling": true,
+                        "growthPriority": 40,
+                        "dependsOn": [],
+                        "text": "in the evening",
+                        "renderSlotKey": "time_expression",
+                        "sourceSlotKey": "time_expression",
+                        "sourceSlot": {
+                            "nid": "time_expression",
+                            "name": [
+                                {
+                                    "lang": "zh",
+                                    "text": "时间表达"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Time Expression"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "lang": "zh",
+                                    "text": "表示什么时候、持续多久、多久一次，或者先后顺序。"
+                                },
+                                {
+                                    "lang": "en",
+                                    "text": "Shows when something happens, how long it lasts, how often it happens, or where it falls in a sequence."
+                                }
+                            ],
+                            "categoryNid": "time_expression"
+                        },
+                        "slotUid": 261442,
+                        "semanticIds": [
+                            734494
+                        ],
+                        "literal": false,
+                        "hasChildStruct": false
+                    },
+                    {
+                        "slotKey": "__literal__",
+                        "slot": {
+                            "nid": "__literal__",
+                            "name": [
+                                {
+                                    "lang": "en",
+                                    "text": "literal"
+                                },
+                                {
+                                    "lang": "zh",
+                                    "text": "固定"
+                                }
+                            ],
+                            "color": "rgba(172,181,188,1)"
+                        },
+                        "text": ".",
+                        "renderSlotKey": "__literal__",
+                        "sourceSlotKey": "__literal__",
+                        "literal": true
+                    }
+                ]
+            }
+        }
+    ],
+    "created": "2026-08-23T12:32:29.464+00:00",
+    "updated": "2026-08-23T12:32:29.464+00:00"
+}
