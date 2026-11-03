@@ -1,0 +1,665 @@
+{
+  "list": [
+    {
+      "contentType": "EN_WORD",
+      "contentTypeTitle": "Word",
+      "contentId": 104432,
+      "semanticIds": [
+        664969,
+        664973
+      ],
+      "content": "ball",
+      "definition": "用于游戏的圆形物体；棒球中投出击球区外的投球；大脚趾或拇指下的部位；男性生殖腺；有舞蹈的正式社交聚会",
+      "gloss": [
+        {
+          "lang": "zh",
+          "text": "球；坏球；拇指球；睾丸；舞会"
+        },
+        {
+          "lang": "en",
+          "text": "a round object for sports; a pitch outside the strike zone; the area under the big toe or thumb; a male reproductive gland; a formal social gathering with dancing"
+        }
+      ],
+      "tags": [
+        {
+          "gloss": [
+            {
+              "lang": "en",
+              "text": "n."
+            },
+            {
+              "lang": "zh",
+              "text": "名词"
+            }
+          ],
+          "style": [
+            {
+              "theme": "DARK",
+              "color": "#FFFFFF",
+              "fontsize": 16,
+              "italic": false,
+              "weight": 400,
+              "backgroundColor": "rgba(59, 130, 246, 0.8)",
+              "borderColor": "#3B82F6"
+            },
+            {
+              "theme": "LIGHT",
+              "color": "#FFFFFF",
+              "fontsize": 16,
+              "italic": false,
+              "weight": 400,
+              "backgroundColor": "rgba(59, 130, 246, 0.8)",
+              "borderColor": "#3B82F6"
+            }
+          ]
+        }
+      ],
+      "pronunciations": [
+        {
+          "audioId": 86028,
+          "accentId": 7,
+          "phonetic": "bɔːl",
+          "audioUrl": "https://track.timelywise.cn/knowledge/speech/68BFDFECD3424DE0000565A7512F9801.mp3?auth_key=1774215799-h08nckxdd9e9-0-445fd7ada0da3a7010adfc35c2093039",
+          "duration": 1.34,
+          "national": "US",
+          "nationalTitle": "美音",
+          "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+          "isExercise": true
+        },
+        {
+          "audioId": 86029,
+          "accentId": 9,
+          "phonetic": "bɔːl",
+          "audioUrl": "https://track.timelywise.cn/knowledge/speech/7F175D8090C967E020A7C68297B5AFA8.mp3?auth_key=1774215799-h5xaykj9frfm-0-86666ba51ddba9bb59d0e0d132c32379",
+          "duration": 1.22,
+          "national": "UK",
+          "nationalTitle": "英音",
+          "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+          "isExercise": true
+        }
+      ],
+      "difficulty": {
+        "max": 6,
+        "min": 1
+      },
+      "imageId": 5976790,
+      "imageUrl": "https://img.timelywise.cn/knowledge/semantic/6805C2B022FD7F02EB4FCB7B69CB4D2B.webp?auth_key=1774215799-gu8f92dmjrxd-0-3ce7924b0d63b3e2cbb992e453021c64",
+      "imageKey": "knowledge/semantic/6805C2B022FD7F02EB4FCB7B69CB4D2B.webp",
+      "video": {
+        "videoId": 1591270,
+        "videoUrl": "https://video.timelywise.cn/video/generated/833E6C4A7513E3C148C57862E966BC77.mp4?auth_key=1774215799-xb6j8t4uwcpx-0-a23066fa6585455f0e031e54b19d48e9",
+        "videoKey": "video/generated/833E6C4A7513E3C148C57862E966BC77.mp4",
+        "duration": 2.92,
+        "startSeconds": 0.0,
+        "endSeconds": 2.92,
+        "md5": "833E6C4A7513E3C148C57862E966BC77",
+        "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/6805C2B022FD7F02EB4FCB7B69CB4D2B.webp?auth_key=1774215799-79208gtvflbh-0-c1a2845a77792f577f423fab9e4ac4c9",
+        "firstFrameKey": "knowledge/semantic/6805C2B022FD7F02EB4FCB7B69CB4D2B.webp",
+        "firstFrameMd5": "6805C2B022FD7F02EB4FCB7B69CB4D2B"
+      },
+      "phonetic": "bɔːl",
+      "audioUrl": "https://track.timelywise.cn/knowledge/speech/68BFDFECD3424DE0000565A7512F9801.mp3?auth_key=1774215799-h08nckxdd9e9-0-445fd7ada0da3a7010adfc35c2093039",
+      "pos": "n.",
+      "posTitle": "名词",
+      "in_course_cnt": 70,
+      "access": "NORMAL",
+      "contentList": [
+        {
+          "contentType": "EN_WORD",
+          "contentTypeTitle": "Word",
+          "contentId": 104432,
+          "semanticId": 664969,
+          "content": "ball",
+          "definition": "用于游戏的圆形物体；棒球中投出击球区外的投球；大脚趾或拇指下的部位；男性生殖腺；有舞蹈的正式社交聚会",
+          "gloss": [
+            {
+              "lang": "zh",
+              "text": "球（体育用品）"
+            },
+            {
+              "lang": "en",
+              "text": "a round object used in sports for throwing or kicking"
+            }
+          ],
+          "tags": [
+            {
+              "gloss": [
+                {
+                  "lang": "en",
+                  "text": "n."
+                },
+                {
+                  "lang": "zh",
+                  "text": "名词"
+                }
+              ],
+              "style": [
+                {
+                  "theme": "DARK",
+                  "color": "#FFFFFF",
+                  "fontsize": 16,
+                  "italic": false,
+                  "weight": 400,
+                  "backgroundColor": "rgba(59, 130, 246, 0.8)",
+                  "borderColor": "#3B82F6"
+                },
+                {
+                  "theme": "LIGHT",
+                  "color": "#FFFFFF",
+                  "fontsize": 16,
+                  "italic": false,
+                  "weight": 400,
+                  "backgroundColor": "rgba(59, 130, 246, 0.8)",
+                  "borderColor": "#3B82F6"
+                }
+              ]
+            }
+          ],
+          "pronunciations": [
+            {
+              "audioId": 86028,
+              "accentId": 7,
+              "phonetic": "bɔːl",
+              "audioUrl": "https://track.timelywise.cn/knowledge/speech/68BFDFECD3424DE0000565A7512F9801.mp3?auth_key=1774215799-0xzws30rwnyg-0-6a47caa23ba56330ce48fe01412cdd94",
+              "duration": 1.34,
+              "national": "US",
+              "nationalTitle": "美音",
+              "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+              "isExercise": true
+            },
+            {
+              "audioId": 86029,
+              "accentId": 9,
+              "phonetic": "bɔːl",
+              "audioUrl": "https://track.timelywise.cn/knowledge/speech/7F175D8090C967E020A7C68297B5AFA8.mp3?auth_key=1774215799-d66t74y1qshk-0-9d22210b2e314ef8666ce913c3b0db02",
+              "duration": 1.22,
+              "national": "UK",
+              "nationalTitle": "英音",
+              "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+              "isExercise": true
+            }
+          ],
+          "difficulty": {
+            "max": 1,
+            "min": 1
+          },
+          "imageId": 5976790,
+          "imageUrl": "https://img.timelywise.cn/knowledge/semantic/6805C2B022FD7F02EB4FCB7B69CB4D2B.webp?auth_key=1774215799-kahq1j3rd88b-0-96b930ab66bb76f19d5b634d183d8a01",
+          "imageKey": "knowledge/semantic/6805C2B022FD7F02EB4FCB7B69CB4D2B.webp",
+          "video": {
+            "videoId": 1591270,
+            "videoUrl": "https://video.timelywise.cn/video/generated/833E6C4A7513E3C148C57862E966BC77.mp4?auth_key=1774215799-n7km66s95b46-0-36606a9826fb37fcc372781efc2ddc78",
+            "videoKey": "video/generated/833E6C4A7513E3C148C57862E966BC77.mp4",
+            "duration": 2.92,
+            "startSeconds": 0.0,
+            "endSeconds": 2.92,
+            "md5": "833E6C4A7513E3C148C57862E966BC77",
+            "firstFrameUrl": "https://img.timelywise.cn/knowledge/semantic/6805C2B022FD7F02EB4FCB7B69CB4D2B.webp?auth_key=1774215799-pe9y7gfdap3q-0-a799bdf19c1ad8ce303a6af34ad6bc82",
+            "firstFrameKey": "knowledge/semantic/6805C2B022FD7F02EB4FCB7B69CB4D2B.webp",
+            "firstFrameMd5": "6805C2B022FD7F02EB4FCB7B69CB4D2B"
+          },
+          "phonetic": "bɔːl",
+          "audioUrl": "https://track.timelywise.cn/knowledge/speech/68BFDFECD3424DE0000565A7512F9801.mp3?auth_key=1774215799-0xzws30rwnyg-0-6a47caa23ba56330ce48fe01412cdd94",
+          "pos": "n.",
+          "posTitle": "名词",
+          "in_course_cnt": 70,
+          "access": "NORMAL",
+          "favorited": true
+        },
+        {
+          "contentType": "EN_WORD",
+          "contentTypeTitle": "Word",
+          "contentId": 104432,
+          "semanticId": 664970,
+          "content": "ball",
+          "definition": "用于游戏的圆形物体；棒球中投出击球区外的投球；大脚趾或拇指下的部位；男性生殖腺；有舞蹈的正式社交聚会",
+          "gloss": [
+            {
+              "lang": "zh",
+              "text": "坏球（棒球）"
+            },
+            {
+              "lang": "en",
+              "text": "a pitch in baseball that misses the strike zone"
+            }
+          ],
+          "tags": [
+            {
+              "gloss": [
+                {
+                  "lang": "en",
+                  "text": "n."
+                },
+                {
+                  "lang": "zh",
+                  "text": "名词"
+                }
+              ],
+              "style": [
+                {
+                  "theme": "DARK",
+                  "color": "#FFFFFF",
+                  "fontsize": 16,
+                  "italic": false,
+                  "weight": 400,
+                  "backgroundColor": "rgba(59, 130, 246, 0.8)",
+                  "borderColor": "#3B82F6"
+                },
+                {
+                  "theme": "LIGHT",
+                  "color": "#FFFFFF",
+                  "fontsize": 16,
+                  "italic": false,
+                  "weight": 400,
+                  "backgroundColor": "rgba(59, 130, 246, 0.8)",
+                  "borderColor": "#3B82F6"
+                }
+              ]
+            }
+          ],
+          "pronunciations": [
+            {
+              "audioId": 86028,
+              "accentId": 7,
+              "phonetic": "bɔːl",
+              "audioUrl": "https://track.timelywise.cn/knowledge/speech/68BFDFECD3424DE0000565A7512F9801.mp3?auth_key=1774215799-0xzws30rwnyg-0-6a47caa23ba56330ce48fe01412cdd94",
+              "duration": 1.34,
+              "national": "US",
+              "nationalTitle": "美音",
+              "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+              "isExercise": true
+            },
+            {
+              "audioId": 86029,
+              "accentId": 9,
+              "phonetic": "bɔːl",
+              "audioUrl": "https://track.timelywise.cn/knowledge/speech/7F175D8090C967E020A7C68297B5AFA8.mp3?auth_key=1774215799-d66t74y1qshk-0-9d22210b2e314ef8666ce913c3b0db02",
+              "duration": 1.22,
+              "national": "UK",
+              "nationalTitle": "英音",
+              "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+              "isExercise": true
+            }
+          ],
+          "difficulty": {
+            "max": null,
+            "min": null
+          },
+          "imageId": 5818601,
+          "imageUrl": "https://img.timelywise.cn/knowledge/semantic/ACCA1AC930AB4852E26ED07932D7DF62.webp?auth_key=1774215799-yjzn2e4qmf64-0-033bda7af08362de621114c52ab979dc",
+          "imageKey": "knowledge/semantic/ACCA1AC930AB4852E26ED07932D7DF62.webp",
+          "phonetic": "bɔːl",
+          "audioUrl": "https://track.timelywise.cn/knowledge/speech/68BFDFECD3424DE0000565A7512F9801.mp3?auth_key=1774215799-0xzws30rwnyg-0-6a47caa23ba56330ce48fe01412cdd94",
+          "pos": "n.",
+          "posTitle": "名词",
+          "in_course_cnt": 70,
+          "access": "NORMAL",
+          "favorited": true
+        },
+        {
+          "contentType": "EN_WORD",
+          "contentTypeTitle": "Word",
+          "contentId": 104432,
+          "semanticId": 664971,
+          "content": "ball",
+          "definition": "用于游戏的圆形物体；棒球中投出击球区外的投球；大脚趾或拇指下的部位；男性生殖腺；有舞蹈的正式社交聚会",
+          "gloss": [
+            {
+              "lang": "zh",
+              "text": "球部（脚/手）；趾球"
+            },
+            {
+              "lang": "en",
+              "text": "the padded area under the big toe or thumb"
+            }
+          ],
+          "tags": [
+            {
+              "gloss": [
+                {
+                  "lang": "en",
+                  "text": "n."
+                },
+                {
+                  "lang": "zh",
+                  "text": "名词"
+                }
+              ],
+              "style": [
+                {
+                  "theme": "DARK",
+                  "color": "#FFFFFF",
+                  "fontsize": 16,
+                  "italic": false,
+                  "weight": 400,
+                  "backgroundColor": "rgba(59, 130, 246, 0.8)",
+                  "borderColor": "#3B82F6"
+                },
+                {
+                  "theme": "LIGHT",
+                  "color": "#FFFFFF",
+                  "fontsize": 16,
+                  "italic": false,
+                  "weight": 400,
+                  "backgroundColor": "rgba(59, 130, 246, 0.8)",
+                  "borderColor": "#3B82F6"
+                }
+              ]
+            }
+          ],
+          "pronunciations": [
+            {
+              "audioId": 86028,
+              "accentId": 7,
+              "phonetic": "bɔːl",
+              "audioUrl": "https://track.timelywise.cn/knowledge/speech/68BFDFECD3424DE0000565A7512F9801.mp3?auth_key=1774215799-0xzws30rwnyg-0-6a47caa23ba56330ce48fe01412cdd94",
+              "duration": 1.34,
+              "national": "US",
+              "nationalTitle": "美音",
+              "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+              "isExercise": true
+            },
+            {
+              "audioId": 86029,
+              "accentId": 9,
+              "phonetic": "bɔːl",
+              "audioUrl": "https://track.timelywise.cn/knowledge/speech/7F175D8090C967E020A7C68297B5AFA8.mp3?auth_key=1774215799-d66t74y1qshk-0-9d22210b2e314ef8666ce913c3b0db02",
+              "duration": 1.22,
+              "national": "UK",
+              "nationalTitle": "英音",
+              "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+              "isExercise": true
+            }
+          ],
+          "difficulty": {
+            "max": 6,
+            "min": 6
+          },
+          "imageId": 5262313,
+          "imageUrl": "https://img.timelywise.cn/knowledge/semantic/A31AC4C64AA0A5F243F0FF128CC7F886.webp?auth_key=1774215799-5tz60rc24k6j-0-5fc49dfeb65a51fd9097e45e24468df8",
+          "imageKey": "knowledge/semantic/A31AC4C64AA0A5F243F0FF128CC7F886.webp",
+          "phonetic": "bɔːl",
+          "audioUrl": "https://track.timelywise.cn/knowledge/speech/68BFDFECD3424DE0000565A7512F9801.mp3?auth_key=1774215799-0xzws30rwnyg-0-6a47caa23ba56330ce48fe01412cdd94",
+          "pos": "n.",
+          "posTitle": "名词",
+          "in_course_cnt": 70,
+          "access": "NORMAL",
+          "favorited": false
+        },
+        {
+          "contentType": "EN_WORD",
+          "contentTypeTitle": "Word",
+          "contentId": 104432,
+          "semanticId": 664973,
+          "content": "ball",
+          "definition": "用于游戏的圆形物体；棒球中投出击球区外的投球；大脚趾或拇指下的部位；男性生殖腺；有舞蹈的正式社交聚会",
+          "gloss": [
+            {
+              "lang": "zh",
+              "text": "舞会；正式舞会"
+            },
+            {
+              "lang": "en",
+              "text": "a formal party with dancing"
+            }
+          ],
+          "tags": [
+            {
+              "gloss": [
+                {
+                  "lang": "en",
+                  "text": "n."
+                },
+                {
+                  "lang": "zh",
+                  "text": "名词"
+                }
+              ],
+              "style": [
+                {
+                  "theme": "DARK",
+                  "color": "#FFFFFF",
+                  "fontsize": 16,
+                  "italic": false,
+                  "weight": 400,
+                  "backgroundColor": "rgba(59, 130, 246, 0.8)",
+                  "borderColor": "#3B82F6"
+                },
+                {
+                  "theme": "LIGHT",
+                  "color": "#FFFFFF",
+                  "fontsize": 16,
+                  "italic": false,
+                  "weight": 400,
+                  "backgroundColor": "rgba(59, 130, 246, 0.8)",
+                  "borderColor": "#3B82F6"
+                }
+              ]
+            }
+          ],
+          "pronunciations": [
+            {
+              "audioId": 86028,
+              "accentId": 7,
+              "phonetic": "bɔːl",
+              "audioUrl": "https://track.timelywise.cn/knowledge/speech/68BFDFECD3424DE0000565A7512F9801.mp3?auth_key=1774215799-0xzws30rwnyg-0-6a47caa23ba56330ce48fe01412cdd94",
+              "duration": 1.34,
+              "national": "US",
+              "nationalTitle": "美音",
+              "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+              "isExercise": true
+            },
+            {
+              "audioId": 86029,
+              "accentId": 9,
+              "phonetic": "bɔːl",
+              "audioUrl": "https://track.timelywise.cn/knowledge/speech/7F175D8090C967E020A7C68297B5AFA8.mp3?auth_key=1774215799-d66t74y1qshk-0-9d22210b2e314ef8666ce913c3b0db02",
+              "duration": 1.22,
+              "national": "UK",
+              "nationalTitle": "英音",
+              "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+              "isExercise": true
+            }
+          ],
+          "difficulty": {
+            "max": null,
+            "min": null
+          },
+          "imageId": 6054343,
+          "imageUrl": "https://img.timelywise.cn/knowledge/semantic/E53191313CB7D0F56A88FFD838D07EC3.webp?auth_key=1774215799-7bzzj1t7kxm3-0-1cacc1bf08d5d87eadf3ae4111a2cf72",
+          "imageKey": "knowledge/semantic/E53191313CB7D0F56A88FFD838D07EC3.webp",
+          "phonetic": "bɔːl",
+          "audioUrl": "https://track.timelywise.cn/knowledge/speech/68BFDFECD3424DE0000565A7512F9801.mp3?auth_key=1774215799-0xzws30rwnyg-0-6a47caa23ba56330ce48fe01412cdd94",
+          "pos": "n.",
+          "posTitle": "名词",
+          "in_course_cnt": 70,
+          "access": "NORMAL",
+          "favorited": false
+        }
+      ]
+    },
+    {
+      "contentType": "EN_WORD",
+      "contentTypeTitle": "Word",
+      "contentId": 104435,
+      "semanticIds": [
+        663763
+      ],
+      "content": "ball",
+      "definition": "将东西做成圆形；发生性行为（俚语）",
+      "gloss": [
+        {
+          "lang": "zh",
+          "text": "使成球形；性交（俚语）"
+        },
+        {
+          "lang": "en",
+          "text": "to shape into a round mass; to engage in sexual intercourse (slang)"
+        }
+      ],
+      "tags": [
+        {
+          "gloss": [
+            {
+              "lang": "en",
+              "text": "v."
+            },
+            {
+              "lang": "zh",
+              "text": "动词"
+            }
+          ],
+          "style": [
+            {
+              "theme": "DARK",
+              "color": "#FFFFFF",
+              "fontsize": 16,
+              "italic": false,
+              "weight": 400,
+              "backgroundColor": "rgba(34, 197, 94, 0.8)",
+              "borderColor": "#22C55E"
+            },
+            {
+              "theme": "LIGHT",
+              "color": "#FFFFFF",
+              "fontsize": 16,
+              "italic": false,
+              "weight": 400,
+              "backgroundColor": "rgba(34, 197, 94, 0.8)",
+              "borderColor": "#22C55E"
+            }
+          ]
+        }
+      ],
+      "pronunciations": [
+        {
+          "audioId": 86028,
+          "accentId": 7,
+          "phonetic": "bɔːl",
+          "audioUrl": "https://track.timelywise.cn/knowledge/speech/68BFDFECD3424DE0000565A7512F9801.mp3?auth_key=1774215799-h08nckxdd9e9-0-445fd7ada0da3a7010adfc35c2093039",
+          "duration": 1.34,
+          "national": "US",
+          "nationalTitle": "美音",
+          "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+          "isExercise": true
+        },
+        {
+          "audioId": 86029,
+          "accentId": 9,
+          "phonetic": "bɔːl",
+          "audioUrl": "https://track.timelywise.cn/knowledge/speech/7F175D8090C967E020A7C68297B5AFA8.mp3?auth_key=1774215799-h5xaykj9frfm-0-86666ba51ddba9bb59d0e0d132c32379",
+          "duration": 1.22,
+          "national": "UK",
+          "nationalTitle": "英音",
+          "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+          "isExercise": true
+        }
+      ],
+      "difficulty": {
+        "max": 3,
+        "min": 1
+      },
+      "imageId": 5785785,
+      "imageUrl": "https://img.timelywise.cn/knowledge/semantic/66CA8D1FA9654F6B07C9B28ECCB6FB75.webp?auth_key=1774215799-ffw9u576x2fq-0-64c4b40f1517a089744d15ea3301b26f",
+      "imageKey": "knowledge/semantic/66CA8D1FA9654F6B07C9B28ECCB6FB75.webp",
+      "phonetic": "bɔːl",
+      "audioUrl": "https://track.timelywise.cn/knowledge/speech/68BFDFECD3424DE0000565A7512F9801.mp3?auth_key=1774215799-h08nckxdd9e9-0-445fd7ada0da3a7010adfc35c2093039",
+      "pos": "v.",
+      "posTitle": "动词",
+      "in_course_cnt": 0,
+      "access": "NORMAL",
+      "contentList": [
+        {
+          "contentType": "EN_WORD",
+          "contentTypeTitle": "Word",
+          "contentId": 104435,
+          "semanticId": 663763,
+          "content": "ball",
+          "definition": "将东西做成圆形；发生性行为（俚语）",
+          "gloss": [
+            {
+              "lang": "zh",
+              "text": "使成球状；滚成球"
+            },
+            {
+              "lang": "en",
+              "text": "to form into a round shape"
+            }
+          ],
+          "tags": [
+            {
+              "gloss": [
+                {
+                  "lang": "en",
+                  "text": "v."
+                },
+                {
+                  "lang": "zh",
+                  "text": "动词"
+                }
+              ],
+              "style": [
+                {
+                  "theme": "DARK",
+                  "color": "#FFFFFF",
+                  "fontsize": 16,
+                  "italic": false,
+                  "weight": 400,
+                  "backgroundColor": "rgba(34, 197, 94, 0.8)",
+                  "borderColor": "#22C55E"
+                },
+                {
+                  "theme": "LIGHT",
+                  "color": "#FFFFFF",
+                  "fontsize": 16,
+                  "italic": false,
+                  "weight": 400,
+                  "backgroundColor": "rgba(34, 197, 94, 0.8)",
+                  "borderColor": "#22C55E"
+                }
+              ]
+            }
+          ],
+          "pronunciations": [
+            {
+              "audioId": 86028,
+              "accentId": 7,
+              "phonetic": "bɔːl",
+              "audioUrl": "https://track.timelywise.cn/knowledge/speech/68BFDFECD3424DE0000565A7512F9801.mp3?auth_key=1774215799-0xzws30rwnyg-0-6a47caa23ba56330ce48fe01412cdd94",
+              "duration": 1.34,
+              "national": "US",
+              "nationalTitle": "美音",
+              "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/us.webp",
+              "isExercise": true
+            },
+            {
+              "audioId": 86029,
+              "accentId": 9,
+              "phonetic": "bɔːl",
+              "audioUrl": "https://track.timelywise.cn/knowledge/speech/7F175D8090C967E020A7C68297B5AFA8.mp3?auth_key=1774215799-d66t74y1qshk-0-9d22210b2e314ef8666ce913c3b0db02",
+              "duration": 1.22,
+              "national": "UK",
+              "nationalTitle": "英音",
+              "nationalIconUrl": "https://openpic.timelywise.cn/icon/style/locale/uk.webp",
+              "isExercise": true
+            }
+          ],
+          "difficulty": {
+            "max": null,
+            "min": null
+          },
+          "imageId": 5785785,
+          "imageUrl": "https://img.timelywise.cn/knowledge/semantic/66CA8D1FA9654F6B07C9B28ECCB6FB75.webp?auth_key=1774215799-d9eyhg5d0uu2-0-cb1e13e63a02656bb2cc82ceb99e3012",
+          "imageKey": "knowledge/semantic/66CA8D1FA9654F6B07C9B28ECCB6FB75.webp",
+          "phonetic": "bɔːl",
+          "audioUrl": "https://track.timelywise.cn/knowledge/speech/68BFDFECD3424DE0000565A7512F9801.mp3?auth_key=1774215799-0xzws30rwnyg-0-6a47caa23ba56330ce48fe01412cdd94",
+          "pos": "v.",
+          "posTitle": "动词",
+          "in_course_cnt": 0,
+          "access": "NORMAL",
+          "favorited": true
+        }
+      ]
+    }
+  ]
+}
